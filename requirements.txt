@@ -1,0 +1,26 @@
+# Model & inference
+torch>=2.2.0
+transformers>=4.40.0
+
+# Dataset loading (VietMed-NER, ViMQ, v.v.)
+datasets>=2.19.0
+
+# Evaluation
+seqeval>=1.2.2
+scikit-learn>=1.4.0
+
+# ICD-10 catalog (Excel) + data handling
+pandas>=2.2.0
+openpyxl>=3.1.0
+
+# Fuzzy matching cho normalization
+rapidfuzz>=3.6.0
+
+# RxNorm/API calls (nếu dùng NLM RxNav REST API)
+requests>=2.31.0
+
+# Tiền xử lý / tokenize tiếng Việt (tuỳ chọn nếu cần tách từ nâng cao)
+underthesea>=6.8.0
+
+# Test framework
+pytest>=8.0.0
