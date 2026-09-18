@@ -54,6 +54,28 @@ VIETMED_TO_TARGET: Dict[str, str] = {
     "UNITCALIBRATOR": "DOSAGE",
 }
 
+# Rule 1: Action/clinical decision terms frequently misclassified as DRUG by model
+# due to VietMed-NER training context (frequently co-occurring next to drug names).
+# Entities matching these terms (case-insensitive, exact match) with label 'DRUG' are discarded.
+DRUG_ACTION_BLACKLIST: Set[str] = {
+    "chỉ định",
+    "can thiệp",
+    "kê đơn",
+    "điều trị",
+}
+
+# Rule 2: Clinical severity / degree adjectives misclassified by model as DOSAGE
+# (from VietMed UNITCALIBRATOR). When immediately following a CONDITION entity
+# (separated by exactly 1 space), these are merged into the preceding CONDITION
+# (e.g., 'sốt cao', 'đau nhẹ', 'viêm nặng').
+CLINICAL_SEVERITY_ADJECTIVES: Set[str] = {
+    "cao",
+    "nhẹ",
+    "nặng",
+    "vừa",
+    "nhẹ nhàng",
+}
+
 # Special tokens that must be eliminated before BIO decoding
 SPECIAL_TOKENS: Set[str] = {
     "<s>",

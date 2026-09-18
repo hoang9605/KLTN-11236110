@@ -1,0 +1,160 @@
+{
+  "description": "Tu dien dong nghia va quy tac anh xa cho ICD-10 tieng Viet. Nguoi dung co the bo sung tiep vao day.",
+  "direct_aliases": {
+    "đau bụng": {
+      "code": "R10",
+      "preferred_name": "Đau bụng và vùng chậu",
+      "note": "Trieu chung dau bung lam sang thuong gap, catalog goc la 'Đau bụng và vùng chậu'"
+    },
+    "đau đầu": {
+      "code": "R51",
+      "preferred_name": "Đau đầu",
+      "note": "Dau dau / nhuc dau"
+    },
+    "nhức đầu": {
+      "code": "R51",
+      "preferred_name": "Đau đầu",
+      "note": "Dong nghia dan gian cua dau dau"
+    },
+    "sốt cao": {
+      "code": "R50",
+      "preferred_name": "Sốt không rõ nguyên nhân khác",
+      "note": "Sot / sot cao lam sang"
+    },
+    "sốt": {
+      "code": "R50",
+      "preferred_name": "Sốt không rõ nguyên nhân khác",
+      "note": "Sot khong ro nguyen nhan"
+    },
+    "cao huyết áp": {
+      "code": "I10",
+      "preferred_name": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+      "note": "Dong nghia pho bien cua tang huyet ap"
+    },
+    "tăng huyết áp": {
+      "code": "I10",
+      "preferred_name": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+      "note": "Thuong dung trong chan doan benh vien"
+    },
+    "tiểu đường": {
+      "code": "E14",
+      "preferred_name": "Bệnh đái tháo đường không xác định",
+      "note": "Dong nghia pho bien cua dai thao duong"
+    },
+    "đái tháo đường": {
+      "code": "E14",
+      "preferred_name": "Bệnh đái tháo đường không xác định",
+      "note": "Ten chuan y khoa"
+    },
+    "viêm phổi": {
+      "code": "J18",
+      "preferred_name": "Viêm phổi, vi sinh vật không xác định",
+      "note": "Viem phoi chung trong lam sang"
+    },
+    "viêm họng": {
+      "code": "J02",
+      "preferred_name": "Viêm họng cấp",
+      "note": "Viem hong cap tinh"
+    },
+    "viêm phế quản": {
+      "code": "J20",
+      "preferred_name": "Viêm phế quản cấp",
+      "note": "Viem phe quan"
+    },
+    "cảm cúm": {
+      "code": "J11",
+      "preferred_name": "Cúm, vi rút không xác định",
+      "note": "Cam cum thong thuong"
+    },
+    "đau bao tử": {
+      "code": "K29",
+      "preferred_name": "Viêm dạ dày và tá tràng",
+      "note": "Cach goi dan gian cua benh da day"
+    },
+    "đau dạ dày": {
+      "code": "K29",
+      "preferred_name": "Viêm dạ dày và tá tràng",
+      "note": "Cach goi lam sang"
+    },
+    "suy tim": {
+      "code": "I50",
+      "preferred_name": "Suy tim",
+      "note": "Suy tim chung"
+    },
+    "đột quỵ": {
+      "code": "I64",
+      "preferred_name": "Đột quỵ, không xác định xuất huyết hay nhồi máu",
+      "note": "Tai bien mach mau nao / dot quy"
+    },
+    "tai biến mạch máu não": {
+      "code": "I64",
+      "preferred_name": "Đột quỵ, không xác định xuất huyết hay nhồi máu",
+      "note": "Dong nghia y khoa cua dot quy"
+    },
+    "ung thư gan": {
+      "code": "C22",
+      "preferred_name": "U ác của gan và đường mật trong gan",
+      "note": "Ung thu gan thuong gap"
+    },
+    "ung thư phổi": {
+      "code": "C34",
+      "preferred_name": "U ác của phế quản và phổi",
+      "note": "Ung thu phoi thuong gap"
+    },
+    "ung thư dạ dày": {
+      "code": "C16",
+      "preferred_name": "U ác của dạ dày",
+      "note": "Ung thu da day"
+    },
+    "ung thư đại tràng": {
+      "code": "C18",
+      "preferred_name": "U ác của đại tràng",
+      "note": "Ung thu dai trang"
+    },
+    "ung thư vú": {
+      "code": "C50",
+      "preferred_name": "U ác của vú",
+      "note": "Ung thu vu"
+    },
+    "ung thư cổ tử cung": {
+      "code": "C53",
+      "preferred_name": "U ác của cổ tử cung",
+      "note": "Ung thu co tu cung"
+    },
+    "ung thư tiền liệt tuyến": {
+      "code": "C61",
+      "preferred_name": "U ác của tuyến tiền liệt",
+      "note": "Ung thu tien liet tuyen"
+    },
+    "ung thư tuyến tiền liệt": {
+      "code": "C61",
+      "preferred_name": "U ác của tuyến tiền liệt",
+      "note": "Ung thu tuyen tien liet"
+    }
+    ,
+    "vàng da": {
+      "code": "R17",
+      "preferred_name": "Vàng da không xác định",
+      "note": "Trieu chung vang da (jaundice) lam sang"
+    }
+
+  },
+  "patterns": [
+    {
+      "pattern": "^(?:ung thư|u ác tính|k)\\s+(?P<organ>.+)$",
+      "target_template": "u ác của {organ}",
+      "fallback_template": "u ác tính của {organ}",
+      "note": "Chuyen cac cum 'ung thu X', 'u ac tinh X', 'K X' ve dang chuan catalog 'U ac cua X'"
+    },
+    {
+      "pattern": "^(?:u lành|u lành tính)\\s+(?P<organ>.+)$",
+      "target_template": "u lành của {organ}",
+      "fallback_template": "u lành tính của {organ}",
+      "note": "Chuyen 'u lanh X' ve 'U lanh cua X'"
+    }
+  ],
+  "custom_user_mappings": {
+    "_comment": "Phan danh rieng cho nguoi dung tu do bo sung cac cap tu khoa -> ma ICD-10 hoac ten chuan sau nay"
+  }
+}
+

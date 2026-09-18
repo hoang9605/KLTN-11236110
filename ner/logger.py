@@ -29,6 +29,9 @@ class NERPipelineLogger:
         "MAP",
         "DOSAGE_RULE",
         "FILTER",
+        "RULE_BLACKLIST",
+        "RULE_MERGE",
+        "NORMALIZE",
     }
 
     def __init__(self, log_path: Optional[Path] = None, enable_console: bool = False):
@@ -89,6 +92,58 @@ class NERPipelineLogger:
             self.logger.error(f"{message}\nException: {exc}\nTraceback:\n{tb}", extra=extra)
         else:
             self.logger.error(message, extra=extra)
+
+    def log_blacklist_dropped(
+        self,
+        entity_label: str,
+        surface_text: str,
+        start_char: int,
+        end_char: int,
+        confidence: float,
+    ) -> None:
+        """Log when an entity is dropped by Rule 1 (DRUG action blacklist)."""
+        self.info(
+            "RULE_BLACKLIST",
+            f"Rule 1 Dropped: [{entity_label}] {surface_text!r} [{start_char}:{end_char}] (conf={confidence:.4f})",
+        )
+
+    def log_severity_merged(
+        self,
+        cond_text: str,
+        cond_start: int,
+        cond_end: int,
+        cond_conf: float,
+        dos_text: str,
+        dos_start: int,
+        dos_end: int,
+        dos_conf: float,
+        merged_text: str,
+        merged_start: int,
+        merged_end: int,
+        merged_conf: float,
+    ) -> None:
+        """Log when Rule 2 merges a clinical severity DOSAGE entity into preceding CONDITION."""
+        self.info(
+            "RULE_MERGE",
+            f"Rule 2 Merged: [CONDITION] {cond_text!r} [{cond_start}:{cond_end}] (conf={cond_conf:.4f}) "
+            f"+ [DOSAGE] {dos_text!r} [{dos_start}:{dos_end}] (conf={dos_conf:.4f}) "
+            f"-> [CONDITION] {merged_text!r} [{merged_start}:{merged_end}] (conf={merged_conf:.4f})",
+        )
+
+    def log_normalized(
+        self,
+        entity_label: str,
+        surface_text: str,
+        ontology: str,
+        code: str,
+        match_method: str,
+    ) -> None:
+        """Log when an entity is successfully normalized into a standard ontology."""
+        self.info(
+            "NORMALIZE",
+            f"Normalized: [{entity_label}] {surface_text!r} -> [{ontology}] code={code!r} (method={match_method})",
+        )
+
 
 
 # Default module-level singleton instance

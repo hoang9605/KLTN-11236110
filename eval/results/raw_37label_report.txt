@@ -1,0 +1,28 @@
+Tier 1 Raw 37-Label Evaluation Report (seqeval span-level)
+Total Sentences: 3497
+Inference Time: 330.79s
+
+                    precision    recall  f1-score   support
+
+               AGE     0.6681    0.7508    0.7070       622
+          DATETIME     0.7703    0.7691    0.7697       667
+       DIAGNOSTICS     0.6647    0.7692    0.7132       299
+     DISEASESYMTOM     0.6322    0.7205    0.6735      1467
+      DRUGCHEMICAL     0.8088    0.9069    0.8551       709
+         FOODDRINK     0.7763    0.8774    0.8237       261
+            GENDER     0.7413    0.8423    0.7886       558
+          LOCATION     0.6861    0.8237    0.7486       329
+MEDDEVICETECHNIQUE     0.2699    0.2346    0.2511       635
+        OCCUPATION     0.9288    0.9239    0.9264       565
+             ORGAN     0.5642    0.7222    0.6335      1260
+      ORGANIZATION     0.6545    0.5902    0.6207        61
+      PERSONALCARE     0.2027    0.7895    0.3226        95
+     PREVENTIVEMED     0.0261    0.5556    0.0499        18
+           SURGERY     0.4272    0.3297    0.3722       276
+    TRANSPORTATION     0.8800    0.8148    0.8462        27
+         TREATMENT     0.5855    0.8707    0.7002       232
+    UNITCALIBRATOR     0.3361    0.6381    0.4403       257
+
+         micro avg     0.5996    0.7269    0.6572      8338
+         macro avg     0.5902    0.7183    0.6246      8338
+      weighted avg     0.6358    0.7269    0.6732      8338

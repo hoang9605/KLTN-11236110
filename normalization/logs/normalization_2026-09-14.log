@@ -1,0 +1,234 @@
+2026-09-14 18:09:04 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=156.44
+2026-09-14 18:09:05 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=4.91
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.02
+2026-09-14 18:09:05 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.61
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:09:05 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:09:27 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=33.27
+2026-09-14 18:09:27 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.39
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.04
+2026-09-14 18:09:27 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.62
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:09:27 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:10:14 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=22.08
+2026-09-14 18:10:14 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.44
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.02
+2026-09-14 18:10:14 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.43
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:10:14 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:11:33 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=42.13
+2026-09-14 18:11:33 [INFO] SUCCESS entity='đau đầu' label=CONDITION ontology=ICD-10 code=R51 standard='Đau đầu' method=exact score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='thương hàn' label=CONDITION ontology=ICD-10 code=A01.0 standard='Thương hàn' method=exact score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='bệnh tả không đặc hiệu' label=CONDITION ontology=ICD-10 code=A00.9 standard='Bệnh tả, không đặc hiệu' method=exact score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='đau bụng' label=CONDITION ontology=ICD-10 code=R10 standard='Đau bụng và vùng chậu' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='nhức đầu' label=CONDITION ontology=ICD-10 code=R51 standard='Đau đầu' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:11:33 [INFO] SUCCESS entity='sốt cao' label=CONDITION ontology=ICD-10 code=R50 standard='Sốt không rõ nguyên nhân khác' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='sốt' label=CONDITION ontology=ICD-10 code=R50 standard='Sốt không rõ nguyên nhân khác' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='cao huyết áp' label=CONDITION ontology=ICD-10 code=I10 standard='Bệnh tăng huyết áp vô căn (nguyên phát)' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='viêm phổi' label=CONDITION ontology=ICD-10 code=J18 standard='Viêm phổi, vi sinh vật không xác định' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='viêm họng' label=CONDITION ontology=ICD-10 code=J02 standard='Viêm họng cấp' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='ung thư gan' label=CONDITION ontology=ICD-10 code=C22 standard='U ác của gan và đường mật trong gan' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='ung thư phổi' label=CONDITION ontology=ICD-10 code=C34 standard='U ác của phế quản và phổi' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='ung thư dạ dày' label=CONDITION ontology=ICD-10 code=C16 standard='U ác của dạ dày' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='đột quỵ' label=CONDITION ontology=ICD-10 code=I64 standard='Đột quỵ, không xác định xuất huyết hay nhồi máu' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:11:33 [INFO] SUCCESS entity='tai biến mạch máu não' label=CONDITION ontology=ICD-10 code=I64 standard='Đột quỵ, không xác định xuất huyết hay nhồi máu' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:11:33 [INFO] SUCCESS entity='Paracetamol' label=DRUG ontology=RxNorm code=161 standard='acetaminophen' method=api score=1.000 elapsed_ms=2.74
+2026-09-14 18:11:33 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.63
+2026-09-14 18:11:35 [INFO] SUCCESS entity='Amoxicillin' label=DRUG ontology=RxNorm code=723 standard='amoxicillin' method=api score=1.000 elapsed_ms=1984.22
+2026-09-14 18:11:35 [INFO] SUCCESS entity='Ibuprofen' label=DRUG ontology=RxNorm code=5640 standard='ibuprofen' method=api score=1.000 elapsed_ms=527.77
+2026-09-14 18:11:36 [INFO] SUCCESS entity='Metformin' label=DRUG ontology=RxNorm code=6809 standard='metformin' method=api score=1.000 elapsed_ms=520.69
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='gan' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='500mg 2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.01
+2026-09-14 18:11:36 [INFO] SUCCESS entity='bệnh lạ không xác định xyz' label=CONDITION ontology=ICD-10 code=A22.9 standard='Bệnh than không xác định' method=fuzzy score=0.884 elapsed_ms=66.47
+2026-09-14 18:11:36 [INFO] UNMATCHED entity='Thuốc gia truyền 123' label=DRUG method=no_match elapsed_ms=258.77
+2026-09-14 18:12:25 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=26.04
+2026-09-14 18:12:25 [INFO] SUCCESS entity='đau đầu' label=CONDITION ontology=ICD-10 code=R51 standard='Đau đầu' method=exact score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='thương hàn' label=CONDITION ontology=ICD-10 code=A01.0 standard='Thương hàn' method=exact score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='bệnh tả không đặc hiệu' label=CONDITION ontology=ICD-10 code=A00.9 standard='Bệnh tả, không đặc hiệu' method=exact score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='đau bụng' label=CONDITION ontology=ICD-10 code=R10 standard='Đau bụng và vùng chậu' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='nhức đầu' label=CONDITION ontology=ICD-10 code=R51 standard='Đau đầu' method=synonym score=1.000 elapsed_ms=0.01
+2026-09-14 18:12:25 [INFO] SUCCESS entity='sốt cao' label=CONDITION ontology=ICD-10 code=R50 standard='Sốt không rõ nguyên nhân khác' method=synonym score=1.000 elapsed_ms=0.01
+2026-09-14 18:12:25 [INFO] SUCCESS entity='sốt' label=CONDITION ontology=ICD-10 code=R50 standard='Sốt không rõ nguyên nhân khác' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='cao huyết áp' label=CONDITION ontology=ICD-10 code=I10 standard='Bệnh tăng huyết áp vô căn (nguyên phát)' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:12:25 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:12:25 [INFO] SUCCESS entity='viêm phổi' label=CONDITION ontology=ICD-10 code=J18 standard='Viêm phổi, vi sinh vật không xác định' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:12:25 [INFO] SUCCESS entity='viêm họng' label=CONDITION ontology=ICD-10 code=J02 standard='Viêm họng cấp' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:12:25 [INFO] SUCCESS entity='ung thư gan' label=CONDITION ontology=ICD-10 code=C22 standard='U ác của gan và đường mật trong gan' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:12:25 [INFO] SUCCESS entity='ung thư phổi' label=CONDITION ontology=ICD-10 code=C34 standard='U ác của phế quản và phổi' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='ung thư dạ dày' label=CONDITION ontology=ICD-10 code=C16 standard='U ác của dạ dày' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='đột quỵ' label=CONDITION ontology=ICD-10 code=I64 standard='Đột quỵ, không xác định xuất huyết hay nhồi máu' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='tai biến mạch máu não' label=CONDITION ontology=ICD-10 code=I64 standard='Đột quỵ, không xác định xuất huyết hay nhồi máu' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:12:25 [INFO] SUCCESS entity='Paracetamol' label=DRUG ontology=RxNorm code=161 standard='acetaminophen' method=api score=1.000 elapsed_ms=2.63
+2026-09-14 18:12:25 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.42
+2026-09-14 18:12:25 [INFO] SUCCESS entity='Amoxicillin' label=DRUG ontology=RxNorm code=723 standard='amoxicillin' method=api score=1.000 elapsed_ms=0.68
+2026-09-14 18:12:25 [INFO] SUCCESS entity='Ibuprofen' label=DRUG ontology=RxNorm code=5640 standard='ibuprofen' method=api score=1.000 elapsed_ms=0.58
+2026-09-14 18:12:25 [INFO] SUCCESS entity='Metformin' label=DRUG ontology=RxNorm code=6809 standard='metformin' method=api score=1.000 elapsed_ms=0.58
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='gan' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='500mg 2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='bệnh lạ không xác định xyz' label=CONDITION method=no_match elapsed_ms=86.56
+2026-09-14 18:12:25 [INFO] UNMATCHED entity='Thuốc gia truyền 123' label=DRUG method=no_match elapsed_ms=0.82
+2026-09-14 18:14:15 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=37.77
+2026-09-14 18:14:15 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.97
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.03
+2026-09-14 18:14:15 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.79
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:14:15 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:14:46 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=62.70
+2026-09-14 18:14:46 [INFO] SUCCESS entity='đau đầu' label=CONDITION ontology=ICD-10 code=R51 standard='Đau đầu' method=exact score=1.000 elapsed_ms=0.03
+2026-09-14 18:14:46 [INFO] SUCCESS entity='thương hàn' label=CONDITION ontology=ICD-10 code=A01.0 standard='Thương hàn' method=exact score=1.000 elapsed_ms=0.02
+2026-09-14 18:14:46 [INFO] SUCCESS entity='bệnh tả không đặc hiệu' label=CONDITION ontology=ICD-10 code=A00.9 standard='Bệnh tả, không đặc hiệu' method=exact score=1.000 elapsed_ms=0.04
+2026-09-14 18:14:46 [INFO] SUCCESS entity='đau bụng' label=CONDITION ontology=ICD-10 code=R10 standard='Đau bụng và vùng chậu' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:14:46 [INFO] SUCCESS entity='nhức đầu' label=CONDITION ontology=ICD-10 code=R51 standard='Đau đầu' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:14:46 [INFO] SUCCESS entity='sốt cao' label=CONDITION ontology=ICD-10 code=R50 standard='Sốt không rõ nguyên nhân khác' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:14:46 [INFO] SUCCESS entity='sốt' label=CONDITION ontology=ICD-10 code=R50 standard='Sốt không rõ nguyên nhân khác' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:14:46 [INFO] SUCCESS entity='cao huyết áp' label=CONDITION ontology=ICD-10 code=I10 standard='Bệnh tăng huyết áp vô căn (nguyên phát)' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:14:46 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:14:46 [INFO] SUCCESS entity='viêm phổi' label=CONDITION ontology=ICD-10 code=J18 standard='Viêm phổi, vi sinh vật không xác định' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:14:46 [INFO] SUCCESS entity='viêm họng' label=CONDITION ontology=ICD-10 code=J02 standard='Viêm họng cấp' method=synonym score=1.000 elapsed_ms=0.05
+2026-09-14 18:14:46 [INFO] SUCCESS entity='ung thư gan' label=CONDITION ontology=ICD-10 code=C22 standard='U ác của gan và đường mật trong gan' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:14:46 [INFO] SUCCESS entity='ung thư phổi' label=CONDITION ontology=ICD-10 code=C34 standard='U ác của phế quản và phổi' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:14:46 [INFO] SUCCESS entity='ung thư dạ dày' label=CONDITION ontology=ICD-10 code=C16 standard='U ác của dạ dày' method=synonym score=1.000 elapsed_ms=0.02
+2026-09-14 18:14:46 [INFO] SUCCESS entity='đột quỵ' label=CONDITION ontology=ICD-10 code=I64 standard='Đột quỵ, không xác định xuất huyết hay nhồi máu' method=synonym score=1.000 elapsed_ms=0.01
+2026-09-14 18:14:46 [INFO] SUCCESS entity='tai biến mạch máu não' label=CONDITION ontology=ICD-10 code=I64 standard='Đột quỵ, không xác định xuất huyết hay nhồi máu' method=synonym score=1.000 elapsed_ms=0.01
+2026-09-14 18:14:46 [INFO] SUCCESS entity='viêm ruột thừa cấp tính' label=CONDITION ontology=ICD-10 code=K35 standard='Viêm ruột thừa cấp' method=fuzzy score=1.000 elapsed_ms=27.67
+2026-09-14 18:14:46 [INFO] SUCCESS entity='Paracetamol' label=DRUG ontology=RxNorm code=161 standard='acetaminophen' method=api score=1.000 elapsed_ms=2.75
+2026-09-14 18:14:46 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.54
+2026-09-14 18:14:46 [INFO] SUCCESS entity='Amoxicillin' label=DRUG ontology=RxNorm code=723 standard='amoxicillin' method=api score=1.000 elapsed_ms=0.62
+2026-09-14 18:14:46 [INFO] SUCCESS entity='Ibuprofen' label=DRUG ontology=RxNorm code=5640 standard='ibuprofen' method=api score=1.000 elapsed_ms=0.63
+2026-09-14 18:14:46 [INFO] SUCCESS entity='Metformin' label=DRUG ontology=RxNorm code=6809 standard='metformin' method=api score=1.000 elapsed_ms=0.89
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='gan' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='500mg 2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='bệnh lạ không xác định xyz' label=CONDITION method=no_match elapsed_ms=75.88
+2026-09-14 18:14:46 [INFO] UNMATCHED entity='Thuốc gia truyền 123' label=DRUG method=no_match elapsed_ms=0.67
+2026-09-14 18:15:50 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=20.37
+2026-09-14 18:15:50 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.10
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.03
+2026-09-14 18:15:50 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.55
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:15:50 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:18:52 [INFO] UNMATCHED entity='vàng da' label=CONDITION method=no_match elapsed_ms=46.11
+2026-09-14 18:18:52 [INFO] UNMATCHED entity='rối loạn thần kinh' label=CONDITION method=no_match elapsed_ms=19.64
+2026-09-14 18:18:52 [INFO] UNMATCHED entity='Viêm' label=CONDITION method=no_match elapsed_ms=0.13
+2026-09-14 18:18:52 [INFO] UNMATCHED entity='não' label=BODY_PART method=not_implemented elapsed_ms=0.01
+2026-09-14 18:20:29 [INFO] UNMATCHED entity='não' label=BODY_PART method=not_implemented elapsed_ms=0.01
+2026-09-14 18:27:50 [INFO] UNMATCHED entity='não' label=BODY_PART method=not_implemented elapsed_ms=0.01
+2026-09-14 18:27:53 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=92.53
+2026-09-14 18:27:53 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=7.98
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.01
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.08
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.01
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:27:53 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.04
+2026-09-14 18:27:53 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.28
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:27:53 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:27:53 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:28:23 [INFO] UNMATCHED entity='não' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=40.16
+2026-09-14 18:28:26 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.66
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.05
+2026-09-14 18:28:26 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.74
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:26 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.01
+2026-09-14 18:28:26 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.03
+2026-09-14 18:28:34 [INFO] UNMATCHED entity='não' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=35.51
+2026-09-14 18:28:35 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.61
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.03
+2026-09-14 18:28:35 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.67
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:28:35 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.04
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='não' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=31.78
+2026-09-14 18:28:54 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.43
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.02
+2026-09-14 18:28:54 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.49
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:28:54 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.12
+2026-09-14 18:29:05 [INFO] UNMATCHED entity='não' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=35.62
+2026-09-14 18:29:08 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=1.58
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='xét nghiệm máu' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='nội soi dạ dày' label=PROCEDURE method=not_implemented elapsed_ms=0.01
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='500mg 2 lần/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] SUCCESS entity='đau lưng' label=CONDITION ontology=ICD-10 code=M54 standard='Đau lưng' method=exact score=1.000 elapsed_ms=0.04
+2026-09-14 18:29:08 [INFO] SUCCESS entity='Aspirin' label=DRUG ontology=RxNorm code=1191 standard='aspirin' method=api score=1.000 elapsed_ms=0.82
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='phổi' label=BODY_PART method=not_implemented elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='chụp X-quang' label=TEST method=not_implemented elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='phẫu thuật' label=PROCEDURE method=not_implemented elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] UNMATCHED entity='2 viên/ngày' label=DOSAGE method=skipped elapsed_ms=0.00
+2026-09-14 18:29:08 [INFO] SUCCESS entity='tiểu đường' label=CONDITION ontology=ICD-10 code=E14 standard='Bệnh đái tháo đường không xác định' method=synonym score=1.000 elapsed_ms=0.07

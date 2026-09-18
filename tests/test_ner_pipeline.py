@@ -25,7 +25,12 @@ os.environ["OMP_NUM_THREADS"] = "1"
 
 import pytest
 
-from ner.config import TARGET_LABELS, VIETMED_TO_TARGET
+from ner.config import (
+    CLINICAL_SEVERITY_ADJECTIVES,
+    DRUG_ACTION_BLACKLIST,
+    TARGET_LABELS,
+    VIETMED_TO_TARGET,
+)
 from ner.dosage_extractor import DosageEntity, DosageExtractor
 from ner.pipeline import MedicalNERPipeline
 from ner.postprocessor import PostProcessor
@@ -253,4 +258,123 @@ def test_long_text_sentence_chunking(pipeline):
     # Check distribution of extracted labels
     labels = {e["label"] for e in res["entities"]}
     assert "CONDITION" in labels or "DRUG" in labels or "PROCEDURE" in labels
+
+
+
+# ==============================================================================
+# Rule 1 & Rule 2 Patch Tests
+# ==============================================================================
+
+def test_rule1_drug_action_blacklist_unit():
+    """Rule 1 (Unit): Verify standalone action terms ('chỉ định', 'can thiệp', etc.) labeled as DRUG are discarded."""
+    post = PostProcessor()
+    entities = [
+        RawEntity(surface_text="chỉ định", label="DRUG", start_char=10, end_char=18, confidence=0.95),
+        RawEntity(surface_text="can thiệp", label="DRUG", start_char=20, end_char=29, confidence=0.92),
+        RawEntity(surface_text="kê đơn", label="DRUG", start_char=30, end_char=36, confidence=0.90),
+        RawEntity(surface_text="điều trị", label="DRUG", start_char=40, end_char=48, confidence=0.91),
+        RawEntity(surface_text="Paracetamol", label="DRUG", start_char=50, end_char=61, confidence=0.99),
+        RawEntity(surface_text="chỉ định", label="PROCEDURE", start_char=70, end_char=78, confidence=0.88),
+    ]
+    filtered = post.filter_drug_blacklist(entities)
+    # The 4 DRUG action entities must be dropped; Paracetamol (DRUG) and chỉ định (PROCEDURE) must remain
+    assert len(filtered) == 2
+    assert filtered[0].surface_text == "Paracetamol"
+    assert filtered[0].label == "DRUG"
+    assert filtered[1].surface_text == "chỉ định"
+    assert filtered[1].label == "PROCEDURE"
+
+
+def test_rule1_drug_action_blacklist_e2e(pipeline):
+    """Rule 1 (E2E): Sentence containing 'chỉ định' / 'can thiệp' -> verify dropped from output."""
+    text = "Bác sĩ chỉ định can thiệp phẫu thuật và kê đơn Paracetamol 500mg cho bệnh nhân."
+    res = pipeline.predict(text)
+    _verify_entity_spans(res)
+
+    extracted_drugs = [e for e in res["entities"] if e["label"] == "DRUG"]
+    drug_texts = [e["surface_text"].strip().lower() for e in extracted_drugs]
+
+    # Verify none of the blacklisted action words are labeled as DRUG
+    for term in DRUG_ACTION_BLACKLIST:
+        assert term not in drug_texts, f"Blacklisted term '{term}' was not filtered from DRUG"
+
+    # Paracetamol must still be extracted as DRUG
+    assert any("paracetamol" in t for t in drug_texts), "Legitimate DRUG 'Paracetamol' was incorrectly dropped"
+
+
+def test_rule2_merge_severity_sot_cao_unit():
+    """Rule 2 (Unit): Merge CONDITION + severity DOSAGE ('sốt' + 'cao' -> 'sốt cao' CONDITION)."""
+    post = PostProcessor()
+    text = "Bệnh nhân sốt cao liên tục."
+    entities = [
+        RawEntity(surface_text="sốt", label="CONDITION", start_char=10, end_char=13, confidence=0.98),
+        RawEntity(surface_text="cao", label="DOSAGE", start_char=14, end_char=17, confidence=0.96),
+    ]
+    merged = post.merge_severity_into_condition(entities, text)
+    assert len(merged) == 1
+    assert merged[0].surface_text == "sốt cao"
+    assert merged[0].label == "CONDITION"
+    assert merged[0].start_char == 10
+    assert merged[0].end_char == 17
+    assert merged[0].confidence == round((0.98 + 0.96) / 2.0, 4)
+
+
+def test_rule2_merge_severity_sot_cao_e2e(pipeline):
+    """Rule 2 (E2E): Sentence 'sốt cao' -> verify 1 single CONDITION 'sốt cao', no leftover DOSAGE."""
+    text = "Bệnh nhân sốt cao, mệt mỏi nhiều."
+    res = pipeline.predict(text)
+    _verify_entity_spans(res)
+
+    # Verify no DOSAGE entity has text "cao"
+    dosage_ents = [e for e in res["entities"] if e["label"] == "DOSAGE"]
+    dosage_texts = [e["surface_text"].strip().lower() for e in dosage_ents]
+    assert "cao" not in dosage_texts
+
+    # Verify 'sốt cao' exists as a single CONDITION
+    condition_ents = [e for e in res["entities"] if e["label"] == "CONDITION"]
+    cond_texts = [e["surface_text"].strip().lower() for e in condition_ents]
+    assert "sốt cao" in cond_texts, f"Expected 'sốt cao' in CONDITIONs, found {cond_texts}"
+
+
+def test_rule2_real_dosage_not_merged_unit():
+    """Rule 2 (Unit): Numeric dosage (e.g. '500mg') following CONDITION must NOT be merged."""
+    post = PostProcessor()
+    text = "Bệnh nhân đau ngực 500mg"
+    entities = [
+        RawEntity(surface_text="đau ngực", label="CONDITION", start_char=10, end_char=18, confidence=0.95),
+        RawEntity(surface_text="500mg", label="DOSAGE", start_char=19, end_char=24, confidence=0.98),
+    ]
+    out = post.merge_severity_into_condition(entities, text)
+    # Must NOT be merged
+    assert len(out) == 2
+    assert out[0].surface_text == "đau ngực"
+    assert out[0].label == "CONDITION"
+    assert out[1].surface_text == "500mg"
+    assert out[1].label == "DOSAGE"
+
+
+def test_rule2_severity_without_condition_not_deleted_unit():
+    """Rule 2 (Unit): Severity adjective ('cao') NOT following CONDITION must be kept as DOSAGE, not deleted."""
+    post = PostProcessor()
+    # Case A: Following a TEST entity (not CONDITION)
+    text_a = "Chỉ số huyết áp cao bất thường."
+    entities_a = [
+        RawEntity(surface_text="huyết áp", label="TEST", start_char=7, end_char=15, confidence=0.95),
+        RawEntity(surface_text="cao", label="DOSAGE", start_char=16, end_char=19, confidence=0.92),
+    ]
+    out_a = post.merge_severity_into_condition(entities_a, text_a)
+    assert len(out_a) == 2
+    assert out_a[0].label == "TEST"
+    assert out_a[1].label == "DOSAGE"
+    assert out_a[1].surface_text == "cao"
+
+    # Case B: Standalone at beginning of sentence
+    text_b = "Cao điểm mùa sốt xuất huyết."
+    entities_b = [
+        RawEntity(surface_text="Cao", label="DOSAGE", start_char=0, end_char=3, confidence=0.85),
+    ]
+    out_b = post.merge_severity_into_condition(entities_b, text_b)
+    assert len(out_b) == 1
+    assert out_b[0].label == "DOSAGE"
+    assert out_b[0].surface_text == "Cao"
 

@@ -41,6 +41,7 @@ logs/*
 *.swp
 *.swo
 *~
+.superpowers/
 
 # Operating System Files
 Thumbs.db
