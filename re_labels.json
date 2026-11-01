@@ -1,0 +1,38 @@
+{
+  "entity_types": [
+    "CONDITION",
+    "DRUG",
+    "BODY_PART",
+    "TEST",
+    "PROCEDURE",
+    "DOSAGE"
+  ],
+  "relations": [
+    {
+      "label": "located_at",
+      "head_type": "CONDITION",
+      "tail_type": "BODY_PART"
+    },
+    {
+      "label": "treated_by",
+      "head_type": "CONDITION",
+      "tail_type": "DRUG"
+    },
+    {
+      "label": "treated_by_procedure",
+      "head_type": "CONDITION",
+      "tail_type": "PROCEDURE"
+    },
+    {
+      "label": "diagnosed_by",
+      "head_type": "CONDITION",
+      "tail_type": "TEST"
+    },
+    {
+      "label": "has_dosage",
+      "head_type": "DRUG",
+      "tail_type": "DOSAGE"
+    }
+  ],
+  "negative_label": "NO_RELATION"
+}

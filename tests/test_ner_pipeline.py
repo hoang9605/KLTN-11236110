@@ -285,6 +285,20 @@ def test_rule1_drug_action_blacklist_unit():
     assert filtered[1].label == "PROCEDURE"
 
 
+def test_rule1b_lab_test_relabel_unit():
+    """Rule 1b (Unit): Lab-test names labeled DRUG are relabeled TEST; real drugs and other labels untouched."""
+    post = PostProcessor()
+    entities = [
+        RawEntity(surface_text="men tim", label="DRUG", start_char=0, end_char=7, confidence=0.90),
+        RawEntity(surface_text="Troponin T", label="DRUG", start_char=10, end_char=20, confidence=0.93),
+        RawEntity(surface_text="Aspirin", label="DRUG", start_char=25, end_char=32, confidence=0.99),
+        RawEntity(surface_text="men tim", label="CONDITION", start_char=40, end_char=47, confidence=0.80),
+    ]
+    out = post.relabel_lab_tests_from_drug(entities)
+    assert [e.label for e in out] == ["TEST", "TEST", "DRUG", "CONDITION"]
+    assert len(out) == 4
+
+
 def test_rule1_drug_action_blacklist_e2e(pipeline):
     """Rule 1 (E2E): Sentence containing 'chỉ định' / 'can thiệp' -> verify dropped from output."""
     text = "Bác sĩ chỉ định can thiệp phẫu thuật và kê đơn Paracetamol 500mg cho bệnh nhân."

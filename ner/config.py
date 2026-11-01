@@ -64,6 +64,24 @@ DRUG_ACTION_BLACKLIST: Set[str] = {
     "điều trị",
 }
 
+# Rule 1b: Laboratory/diagnostic test names the model labels as DRUG (seen in
+# normalization/data/unmatched_drugs.log: "men tim", "Troponin T"). Exact match
+# (case-insensitive) on a DRUG entity relabels it as TEST instead of discarding it.
+LAB_TEST_TERMS: Set[str] = {
+    "men tim",
+    "men gan",
+    "troponin",
+    "troponin t",
+    "troponin i",
+    "hba1c",
+    "crp",
+    "ck-mb",
+    "creatinin",
+    "ure",
+    "công thức máu",
+    "đường huyết",
+}
+
 # Rule 2: Clinical severity / degree adjectives misclassified by model as DOSAGE
 # (from VietMed UNITCALIBRATOR). When immediately following a CONDITION entity
 # (separated by exactly 1 space), these are merged into the preceding CONDITION

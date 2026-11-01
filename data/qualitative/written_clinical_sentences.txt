@@ -1,0 +1,26 @@
+# 24 câu văn phong bệnh án viết, DO SINH VIÊN/AI TỰ SOẠN (không lấy từ bệnh án thật, không chứa thông tin người bệnh).
+# Dùng để thử định tính độ lệch miền lời nói -> văn bản viết. Không dùng làm số liệu định lượng.
+Bệnh nhân nam, vào viện vì đau thượng vị, nội soi dạ dày phát hiện viêm loét hành tá tràng.
+Chẩn đoán: Tăng huyết áp độ 2. Điều trị Amlodipin 5mg x 1 viên/ngày.
+Sốt cao 39 độ, ho khạc đờm, X-quang phổi có hình ảnh viêm phổi thùy dưới phải.
+Đau khớp gối hai bên, siêu âm khớp gối có tràn dịch, chỉ định chọc hút dịch khớp.
+Đái tháo đường type 2, HbA1c 8,5%, dùng Metformin 850mg ngày 2 lần.
+Bệnh nhân khó thở, điện tâm đồ có ST chênh lên, men tim Troponin T tăng.
+Cơn đau quặn thận phải, siêu âm thấy sỏi niệu quản 6mm, điều trị tán sỏi ngoài cơ thể.
+Viêm họng cấp, kê Amoxicillin 500mg 3 lần/ngày trong 7 ngày, Paracetamol 500mg khi sốt.
+Đau đầu kéo dài, chụp CT sọ não không thấy tổn thương.
+Thiếu máu thiếu sắt, xét nghiệm công thức máu Hb 9 g/dL, bổ sung viên sắt 1 viên/ngày.
+Hẹp động mạch vành, đã đặt stent động mạch liên thất trước.
+Viêm ruột thừa cấp, phẫu thuật nội soi cắt ruột thừa.
+Nổi mẩn đỏ vùng cẳng tay sau khi dùng kháng sinh, nghi dị ứng thuốc.
+Gãy kín đầu dưới xương quay trái, bó bột cẳng bàn tay.
+Bệnh nhân đau lưng vùng thắt lưng, MRI cột sống có thoát vị đĩa đệm L4-L5.
+Viêm gan B mạn, định lượng HBV-DNA, điều trị Tenofovir 300mg mỗi ngày.
+Suy tim, phù hai chi dưới, siêu âm tim EF 35%, dùng Furosemid 40mg sáng 1 viên.
+Trào ngược dạ dày thực quản, Omeprazol 20mg uống trước ăn sáng.
+Không sốt, không ho, phổi thông khí đều hai bên.
+Hen phế quản, xịt Salbutamol 2 nhát khi khó thở.
+Đục thủy tinh thể mắt phải, phẫu thuật Phaco đặt thể thủy tinh nhân tạo.
+Rối loạn lipid máu, cholesterol toàn phần 7,2 mmol/L, dùng Atorvastatin 20mg tối 1 viên.
+Viêm da cơ địa vùng khuỷu tay, bôi kem Hydrocortison 1% ngày 2 lần.
+Đột quỵ nhồi máu não, chụp MRI sọ não có ổ nhồi máu bán cầu trái, tiêu sợi huyết bằng Alteplase.

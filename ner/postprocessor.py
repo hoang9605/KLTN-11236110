@@ -3,6 +3,7 @@
 Responsibilities:
   1. Strict filtering against 6 target categories (CONDITION, DRUG, BODY_PART, TEST, PROCEDURE, DOSAGE).
   2. Rule 1: Generic action blacklist filter for DRUG entities ('chỉ định', 'can thiệp', 'kê đơn', 'điều trị').
+  2b. Rule 1b: Lab-test names labeled DRUG ('men tim', 'Troponin T') are relabeled TEST.
   3. Rule 2: Clinical severity adjective merge into immediately preceding CONDITION ('sốt cao' -> CONDITION).
   4. Overlapping span resolution: if two entities overlap in character span,
      the entity with the higher confidence is preserved.
@@ -10,7 +11,7 @@ Responsibilities:
 """
 from typing import Any, Dict, List, Optional
 
-from .config import CLINICAL_SEVERITY_ADJECTIVES, DRUG_ACTION_BLACKLIST, TARGET_LABELS
+from .config import CLINICAL_SEVERITY_ADJECTIVES, DRUG_ACTION_BLACKLIST, LAB_TEST_TERMS, TARGET_LABELS
 from .logger import NERPipelineLogger, get_logger
 from .predictor import RawEntity
 
@@ -70,6 +71,19 @@ class PostProcessor:
                 continue
             kept_entities.append(ent)
         return kept_entities
+
+    def relabel_lab_tests_from_drug(self, entities: List[Any]) -> List[Any]:
+        """Rule 1b: Relabel DRUG entities whose surface text is a known lab/diagnostic test as TEST."""
+        for ent in entities:
+            lbl = self._get_ent_prop(ent, "label", "")
+            surf = (self._get_ent_prop(ent, "surface_text", "") or "").strip().lower()
+            if lbl == "DRUG" and surf in LAB_TEST_TERMS:
+                if isinstance(ent, dict):
+                    ent["label"] = "TEST"
+                else:
+                    ent.label = "TEST"
+                self.logger.info("FILTER", f"Relabeled lab test from DRUG to TEST: {surf!r}")
+        return entities
 
     def merge_severity_into_condition(
         self,
@@ -198,6 +212,9 @@ class PostProcessor:
         entities_after_blacklist = self.filter_drug_blacklist(valid_entities)
         if not entities_after_blacklist:
             return []
+
+        # 2b. Rule 1b: Relabel lab-test names from DRUG to TEST
+        entities_after_blacklist = self.relabel_lab_tests_from_drug(entities_after_blacklist)
 
         # 3. Rule 2: Merge severity adjectives into preceding CONDITION
         entities_after_merge = self.merge_severity_into_condition(entities_after_blacklist, text)
