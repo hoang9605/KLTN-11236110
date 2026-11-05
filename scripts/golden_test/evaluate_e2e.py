@@ -81,6 +81,8 @@ def main():
     ap.add_argument("--gold", nargs="+", default=[str(ROOT / "data/golden_test/v1/gold.jsonl")])
     ap.add_argument("--re-model", default=str(ROOT / "outputs/re_ai_baseline/seed42/model.joblib"))
     ap.add_argument("--out", default=str(ROOT / "data/golden_test/v1/eval"))
+    ap.add_argument("--source-candidates", default=str(ROOT / "data/golden_test/v1/candidates.jsonl"),
+                    help="chấm thêm NER theo nhãn gốc VietMed (trước khi duyệt) trên cùng các đoạn")
     ap.add_argument("--predictions", help="JSONL dự đoán có sẵn (id,text,entities,relations) thay vì chạy NER+RE; vẫn chấm mục 2 nếu có --re-model")
     a = ap.parse_args()
     gold = [r for f in a.gold for r in read_jsonl(f)]
@@ -122,6 +124,14 @@ def main():
             per_label[lab] = {**prf(*t), "support": t[0] + t[2]}
         ner[mode] = {"micro": micro(ner_per, mode), "micro_f1_ci95": bootstrap(ner_per, lambda s, m=mode: micro(s, m)["f1"]),
                      "per_label": per_label}
+
+    # 1b. NER against the untouched VietMed labels of the same passages (convention the model was trained on)
+    ner_source = None
+    if a.source_candidates and Path(a.source_candidates).exists():
+        src = {r["id"]: r for r in read_jsonl(a.source_candidates)}
+        per = [ner_counts(src[g["id"]]["entities"], preds[g["id"]]["entities"]) for g in gold if g["id"] in src]
+        ner_source = {m: {"micro": micro(per, m), "micro_f1_ci95": bootstrap(per, lambda s, m=m: micro(s, m)["f1"])}
+                      for m in ("strict", "relaxed")}
 
     # 2. RE with gold entities
     re_gold = None
@@ -169,7 +179,7 @@ def main():
               "gold_entities": dict(Counter(e["label"] for g in gold for e in g["entities"])),
               "gold_relations": dict(Counter(r["label"] for g in gold for r in g["relations"])),
               "re_model": a.re_model if extractor is not None else None, "predictions_file": a.predictions,
-              "ner": ner, "re_with_gold_entities": re_gold, "re_end_to_end": e2e,
+              "ner": ner, "ner_vs_source_labels": ner_source, "re_with_gold_entities": re_gold, "re_end_to_end": e2e,
               "notes": ["Tập lấy mẫu có chủ đích theo quan hệ; không suy ra phân bố tự nhiên.",
                         "Quan hệ mô hình chưa hỗ trợ (status=unsupported) được tính là không dự đoán (FN nếu gold dương).",
                         "CI95 bootstrap theo đoạn, 1000 lần, seed 13."]}
@@ -178,6 +188,8 @@ def main():
          "| Hạng mục | P | R | F1 | CI95 F1 |", "|---|---:|---:|---:|---|"]
     def line(name, d): return f"| {name} | {d['micro']['precision']:.3f} | {d['micro']['recall']:.3f} | {d['micro']['f1']:.3f} | {d['micro_f1_ci95'][0]:.3f}–{d['micro_f1_ci95'][1]:.3f} |"
     L += [line("NER strict", ner["strict"]), line("NER relaxed", ner["relaxed"])]
+    if ner_source:
+        L += [line("NER strict (nhãn gốc VietMed)", ner_source["strict"]), line("NER relaxed (nhãn gốc VietMed)", ner_source["relaxed"])]
     if re_gold: L.append(line("RE, thực thể gold", re_gold))
     L += [line("RE end-to-end", e2e), "", "## RE end-to-end theo quan hệ", "", "| Quan hệ | TP | FP | FN | F1 |", "|---|---:|---:|---:|---:|"]
     L += [f"| {rel} | {d['tp']} | {d['fp']} | {d['fn']} | {d['f1']:.3f} |" for rel, d in e2e["per_relation"].items()]

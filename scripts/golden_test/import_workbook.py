@@ -138,9 +138,27 @@ def main():
         pend = [{**p, "id": f"N{n}", "label": None} for n, p in enumerate(g["pending_pairs"], 1)]
         r2.append({**{k: v for k, v in g.items() if k != "pending_pairs"}, "prior_relations": g["relations"], "relations": pend})
     write_jsonl(base / f"round2_candidates{tag}.jsonl", r2)
+    # Mức đồng thuận giữa nhãn AI tiền gán và người duyệt (nếu phiếu có cột *_AI)
+    ai_cmp = {"entity": [0, 0], "relation": [0, 0]}
+    for ents in rv["ent"].values():
+        for r in ents.values():
+            if r.get("KET_LUAN_AI") and r.get("KET_LUAN"):
+                ai_cmp["entity"][0] += 1; ai_cmp["entity"][1] += r["KET_LUAN_AI"] != r["KET_LUAN"]
+    for rels in rv["rel"].values():
+        for r in rels.values():
+            if r.get("NHAN_AI") and r.get("NHAN"):
+                ai_cmp["relation"][0] += 1; ai_cmp["relation"][1] += r["NHAN_AI"] != r["NHAN"]
+    ai_prefill = any(n for n, _ in ai_cmp.values())
+    if ai_prefill:
+        for g in gold:
+            g["label_source"] = "ai_prefill_human_reviewed"
+            g["annotators"] = ["claude-ai (tiền gán)"] + g["annotators"]
+        write_jsonl(base / f"gold{tag}.jsonl", gold)
     report = {"workbook": str(a.workbook), "workbook_sha256": sha256(a.workbook), "annotator": a.annotator,
               "candidates": len(cands), "gold": len(gold), "round2": len(round2),
               "incomplete": len(issues), "issues": dict(issues),
+              "ai_prefill_changed_by_reviewer": {k: {"reviewed": n, "changed": c, "changed_pct": round(100 * c / n, 1) if n else None}
+                                                 for k, (n, c) in ai_cmp.items()} if ai_prefill else None,
               "gold_entities": dict(Counter(e["label"] for r in gold for e in r["entities"])),
               "gold_relations": dict(Counter(x["label"] for r in gold for x in r["relations"]))}
     if a.second:
