@@ -1,0 +1,440 @@
+NT-0001	M81,M81.9	loãng xương chưa nói gãy xương
+NT-0002	R52,R52.9	đau chung chung
+NT-0003	NIL	mảnh NER của 'bị tiêu xương'
+NT-0004	Z33	tình trạng có thai
+NT-0005	N92.0,N92	rong kinh = kinh nhiều/kéo dài chu kỳ đều
+NT-0006	I82.9,I82	thuyên tắc huyết khối tĩnh mạch không rõ vị trí
+NT-0007	NIL	từ chung chung
+NT-0008	N92.1,N93.9	rong huyết = ra máu ngoài kỳ kinh
+NT-0009	NIL	từ chung chung
+NT-0010	R58,N93.9	xuất huyết không đặc hiệu
+NT-0011	K58,K58.9	
+NT-0012	M89.5	
+NT-0013	C80,C80.9	u ác không rõ vị trí
+NT-0014	K08.1,K08	
+NT-0015	K52.9,K52,K52.3	
+NT-0016	D25,D25.9	u cơ trơn tử cung (u xơ tử cung)
+NT-0017	H91.9,H91,H90.5	
+NT-0018	R58	
+NT-0019	T14.2,M80	gãy xương không rõ vị trí; ngữ cảnh loãng xương
+NT-0020	H91.9,H91	
+NT-0021	NIL	từ chung chung
+NT-0022	R51	
+NT-0023	L65.9,L65	rụng tóc không sẹo
+NT-0024	NIL	từ chung chung
+NT-0025	NIL	tử vong không phải bệnh
+NT-0026	E14,E14.9,E11	
+NT-0027	H91.3	điếc câm
+NT-0028	NIL	không phải bệnh
+NT-0029	NIL	không phải bệnh
+NT-0030	R50.9,R50	
+NT-0031	K59.0	
+NT-0032	R42	
+NT-0033	B99,A49.9	
+NT-0034	NIL	từ chung chung
+NT-0035	M21.1,M21	chân vòng kiềng
+NT-0036	U07.1,U07.2,B34.2	COVID-19
+NT-0037	NIL	tác nhân, không phải bệnh
+NT-0038	NIL	mảnh NER
+NT-0039	U07.1,U07.2,B34.2	COVID-19
+NT-0040	R45.0,Z73.3	
+NT-0041	R45.8,R45	cảm xúc
+NT-0042	D64.9,D64	
+NT-0043	I64	
+NT-0044	R56.8,R56	
+NT-0045	NIL	sinh lý
+NT-0046	NIL	sinh lý
+NT-0047	R53	
+NT-0048	F43.9,F43,Z73.3	
+NT-0049	NIL	tác nhân
+NT-0050	R45.1,R45	
+NT-0051	NIL	từ chung chung
+NT-0052	U07.1	F0 = ca COVID-19 xác định
+NT-0053	P07.3,P07	trẻ sinh non
+NT-0054	B54	
+NT-0055	B19.9,B19,K75.9	
+NT-0056	H60.9,H60,H66.9	ngữ cảnh viêm tai ngoài
+NT-0057	R52.9,R52	
+NT-0058	E14,E14.9	
+NT-0059	E66.9,E66	
+NT-0060	I74.9,I74,I82.9	ngữ cảnh đột quỵ
+NT-0061	I10	
+NT-0062	T78.4	
+NT-0063	NIL	tác nhân
+NT-0064	T65.9,E87.7	ngộ độc nước
+NT-0065	N93.9,N93	
+NT-0066	NIL	nguyên nhân ngoài
+NT-0067	NIL	tính từ
+NT-0068	B24	
+NT-0069	L64.9,L64,L65.9	
+NT-0070	G47.0,F51.0	
+NT-0071	K05.6,K05	
+NT-0072	E66.9,E66	
+NT-0073	K08.2,M89.5	
+NT-0074	H81.9,H81	mảnh của 'rối loạn tiền đình'
+NT-0075	NIL	tăng cân sinh lý ở trẻ
+NT-0076	D25.9,D25	ngữ cảnh u xơ tử cung
+NT-0077	C53,C53.9	
+NT-0078	NIL	từ chung chung
+NT-0079	M48.5,M80	
+NT-0080	R10,R10.4	
+NT-0081	R14	
+NT-0082	R40.0	
+NT-0083	L67.1,L67	
+NT-0084	NIL	từ chung chung
+NT-0085	NIL	mảnh NER
+NT-0086	NIL	mảnh của 'bị sâu răng'
+NT-0087	J11,J11.1	
+NT-0088	R41.3	
+NT-0089	M87.1,M87,M87.8	hoại tử xương do thuốc
+NT-0090	I10	ngữ cảnh 'huyết áp' = tăng huyết áp
+NT-0091	R95,R95.9	
+NT-0092	R58	
+NT-0093	E78.5	
+NT-0094	R09.2,P28.4	
+NT-0095	R68.1	
+NT-0096	N92.6,N92,N94.9	
+NT-0097	R19.4	
+NT-0098	NIL	sinh lý
+NT-0099	M47,M47.9	
+NT-0100	M17,M17.9	
+NT-0101	R63.0	ngữ cảnh 'giảm thèm ăn'
+NT-0102	A09.9,A09,K59.1	
+NT-0103	F32.9,F32	
+NT-0104	T14.0,S00.0	
+NT-0105	NIL	'phát triển tâm thần vận động'
+NT-0106	NIL	từ chung chung
+NT-0107	C16,C16.9	
+NT-0108	C54.1	
+NT-0109	L30.9,L30,L20.9	ngữ cảnh viêm da dị ứng
+NT-0110	J18,J18.9	
+NT-0111	R52.9,R52	
+NT-0112	M54,M54.9	
+NT-0113	R14	
+NT-0114	NIL	từ chung chung (biến dạng xương do thiếu vitamin D)
+NT-0115	R11	
+NT-0116	E55.0,E55	còi xương tiến triển
+NT-0117	M10,M10.9	
+NT-0118	N94.9,N94	bệnh phụ khoa chung
+NT-0119	T19.2,T19	ngữ cảnh dị vật (đỉa) đường sinh dục
+NT-0120	NIL	mảnh NER
+NT-0121	T14.9,T14	
+NT-0122	NIL	từ chung chung
+NT-0123	NIL	nhắc tới chất cholesterol, không phải bệnh
+NT-0124	T14.9,T14	
+NT-0125	NIL	chủng virus
+NT-0126	E45,R62.8	suy dinh dưỡng còi cọc
+NT-0127	NIL	từ chung chung
+NT-0128	NIL	kết quả xét nghiệm
+NT-0129	L67.8,L67	thân tóc dễ gãy
+NT-0130	NIL	HCG đọc sai thành hcv (xét nghiệm)
+NT-0131	R05	
+NT-0132	L64.9,L64,L65.9	
+NT-0133	M89.5	
+NT-0134	L29.9,L29,L30.9	
+NT-0135	N91.2,N91	
+NT-0136	N92.5,N92.6	chu kỳ kinh ngắn
+NT-0137	A16.9,A16,A19.9	
+NT-0138	G51.0,G51	liệt mặt (liệt Bell)
+NT-0139	N92.6,N92	
+NT-0140	NIL	không phải bệnh
+NT-0141	A03.9,A09.0,A06.0	lỵ không rõ tác nhân
+NT-0142	H54.7,H54	
+NT-0143	K08.1	
+NT-0144	K08.1	
+NT-0145	A49.9,B99	
+NT-0146	D25.2,D25	u cơ trơn dưới thanh mạc tử cung
+NT-0147	R51	
+NT-0148	NIL	hành vi, không phải bệnh
+NT-0149	N85.0,N85.1	tăng sản nội mạc tử cung
+NT-0150	NIL	từ chung chung
+NT-0151	F03	sa sút trí tuệ không biệt định
+NT-0152	B18.1,B16.9,B19.9	viêm gan siêu vi B
+NT-0153	E46	
+NT-0154	I64	ngữ cảnh 'tai biến' = tai biến mạch máu não
+NT-0155	I64	
+NT-0156	I67.9,G45.9	
+NT-0157	M19.9,M19,M15	
+NT-0158	M51.2,M51	
+NT-0159	L81.4,L81	tăng sắc tố da
+NT-0160	NIL	từ chung chung
+NT-0161	R14	
+NT-0162	NIL	từ chung chung
+NT-0163	N83.2,N83	ngữ cảnh u nang buồng trứng
+NT-0164	C50,C50.9	
+NT-0165	B18.1,B16,B16.9	viêm gan B chưa rõ cấp/mạn
+NT-0166	N91.2,N91	
+NT-0167	N94.6	
+NT-0168	M54.3	
+NT-0169	K58,K58.9	đại tràng co thắt = hội chứng ruột kích thích
+NT-0170	N92.0,O72	ngữ cảnh rối loạn kinh nguyệt
+NT-0171	N92.0	
+NT-0172	R23.3	
+NT-0173	B05,B05.9	
+NT-0174	NIL	thuật ngữ dân gian
+NT-0175	NIL	mảnh NER / không rõ nghĩa
+NT-0176	L29.9,L29,R20.8	
+NT-0177	R14	
+NT-0178	R42	
+NT-0179	NIL	sinh lý
+NT-0180	R25.2	
+NT-0181	H92.1	chảy mủ tai
+NT-0182	K00.6	rối loạn mọc răng
+NT-0183	R62.0	chậm phát triển vận động
+NT-0184	F80.9,R62.0	
+NT-0185	R62.0	
+NT-0186	NIL	biểu hiện hành vi
+NT-0187	H91.3,H90.5	
+NT-0188	J11,J11.1	
+NT-0189	N85.0	dày niêm mạc tử cung
+NT-0190	E30.1	
+NT-0191	N96	sảy thai liên tiếp
+NT-0192	T19.2,T19	
+NT-0193	J10,J10.1,J11	
+NT-0194	M47.9,M47	gai cột sống = thoái hóa cột sống
+NT-0195	K90.9	kém hấp thu ở ruột
+NT-0196	T12,S82.9	gãy xương chi dưới
+NT-0197	S72.0	
+NT-0198	T08	
+NT-0199	S62.8,S62	gãy xương cổ tay
+NT-0200	S72.0,S32.4,S72	gãy xương vùng háng
+NT-0201	NIL	từ chung chung
+NT-0202	F41.9,F93.0	ngữ cảnh lo âu chia ly
+NT-0203	G47.0,F51.0	
+NT-0204	NIL	từ chung chung
+NT-0205	K90.9	
+NT-0206	K00.0	
+NT-0207	NIL	từ chung chung
+NT-0208	D28.1,N89.8	u âm đạo chưa rõ tính chất
+NT-0209	N92.0	
+NT-0210	NIL	sinh lý bình thường
+NT-0211	N91.5,N91.4	thiểu kinh / kinh thưa
+NT-0212	G51.0,G51	
+NT-0213	M80,M80.9	loãng xương có gãy xương
+NT-0214	G47.9,G47	
+NT-0215	NIL	lão hóa da, không phải bệnh
+NT-0216	R68.8,R50.9	rét run
+NT-0217	NIL	khái niệm dịch tễ
+NT-0218	NIL	vector
+NT-0219	NIL	mô tả
+NT-0220	G51.0	méo mặt (liệt mặt)
+NT-0221	F91.9,R46.8	
+NT-0222	K08.1	
+NT-0223	NIL	cảm xúc
+NT-0224	NIL	mảnh NER
+NT-0225	NIL	từ chung chung
+NT-0226	T65.9,A05.9	ngữ cảnh nhiễm độc thức ăn
+NT-0227	NIL	chức năng sinh lý
+NT-0228	NIL	biểu hiện hành vi
+NT-0229	I21,I21.9	
+NT-0230	L81.1,L81	nám (chloasma)
+NT-0231	L81.1,L70.9	
+NT-0232	R11	
+NT-0233	N85.8	
+NT-0234	G20	
+NT-0235	NIL	khái niệm dịch tễ
+NT-0236	T30.3,T30	bỏng độ III không rõ vị trí
+NT-0237	N84.1	
+NT-0238	O46.9,O20.9	chảy máu trước sinh
+NT-0239	N92.0	
+NT-0240	T14.9,S36.9	
+NT-0241	K07.3	bất thường vị trí răng
+NT-0242	K02.9,K08.9	
+NT-0243	NIL	từ chung chung
+NT-0244	N97.0,E28.8	
+NT-0245	N92.6,N92	
+NT-0246	E78,E78.5	
+NT-0247	NIL	từ chung chung
+NT-0248	N97.0,E28.8	
+NT-0249	F40.1	
+NT-0250	G98,F48.9	
+NT-0251	H53,H53.9	
+NT-0252	K92.9,K30	
+NT-0253	R95,R95.9	
+NT-0254	B18.2,B17.1,B19.9	viêm gan siêu vi C
+NT-0255	K72,K72.9	
+NT-0256	J96,J96.9	
+NT-0257	N19	
+NT-0258	I50,I50.9	
+NT-0259	NIL	không rõ nghĩa / lỗi phiên âm
+NT-0260	R60.9,R60.0	
+NT-0261	R63.4	
+NT-0262	D84.9	suy giảm miễn dịch không đặc hiệu
+NT-0263	V89.2,T14.9	
+NT-0264	NIL	sinh lý
+NT-0265	L81.0	tăng sắc tố sau viêm
+NT-0266	N18,N18.9	
+NT-0267	R06.8,R06.4	
+NT-0268	NIL	sinh lý
+NT-0269	K63.1	thủng ruột (không do chấn thương)
+NT-0270	R00.0	
+NT-0271	R45.2	
+NT-0272	NIL	sinh lý (tiết sữa bình thường)
+NT-0273	K21,K21.9	
+NT-0274	R20.2,R20.8	
+NT-0275	L67.8	
+NT-0276	I10	
+NT-0277	N85.0	
+NT-0278	I74.9,I99	
+NT-0279	J44,J44.9	
+NT-0280	L98.9	
+NT-0281	NIL	từ chung chung
+NT-0282	T83.3	biến chứng do dụng cụ tránh thai trong tử cung
+NT-0283	Q51.9,Q51	
+NT-0284	N85.2	tử cung phì đại
+NT-0285	NIL	cảm xúc
+NT-0286	L72.9,D21.0	
+NT-0287	N63,D24	khối u vú chưa rõ tính chất
+NT-0288	D25.9,D25	u xơ tử cung to
+NT-0289	C22,C22.9	
+NT-0290	C34,C34.9	
+NT-0291	C57.9	u ác cơ quan sinh dục nữ không xác định
+NT-0292	C57.9,C63.9	
+NT-0293	N72	
+NT-0294	NIL	từ chung chung
+NT-0295	K63.0	áp xe ruột
+NT-0296	K52.9,K52	
+NT-0297	M54.3	đau thần kinh tọa
+NT-0298	K20	
+NT-0299	M19.9,M13.9	
+NT-0300	M13.0	
+NT-0301	N97.0	
+NT-0302	N97.9	
+NT-0303	R58	
+NT-0304	K63.0	
+NT-0305	R52.9,K08.8	
+NT-0306	R52.9	
+NT-0307	R10.4,R10	
+NT-0308	R10.4	
+NT-0309	A09.9,K59.1	
+NT-0310	R53	
+NT-0311	G40,G40.9	
+NT-0312	L02.9	áp xe không rõ vị trí
+NT-0313	NIL	từ chung chung
+NT-0314	1895	
+NT-0315	11253,2418	
+NT-0316	NIL	không phải thuốc
+NT-0317	8727	
+NT-0318	4100,4083	
+NT-0319	NIL	nhóm thuốc
+NT-0320	NIL	nhóm sản phẩm
+NT-0321	NIL	nhóm chất
+NT-0322	NIL	vắc xin chung chung
+NT-0323	2714	
+NT-0324	NIL	nhóm thuốc
+NT-0325	NIL	nhóm sản phẩm
+NT-0326	90176	
+NT-0327	NIL	nhóm chất
+NT-0328	NIL	nhóm thuốc
+NT-0329	NIL	nhóm thuốc
+NT-0330	NIL	dạng dùng
+NT-0331	NIL	vi sinh vật
+NT-0332	NIL	từ chung chung
+NT-0333	NIL	thương hiệu TPCN không có trong RxNorm
+NT-0334	NIL	thủ thuật
+NT-0335	NIL	khẩu hiệu 5K
+NT-0336	NIL	từ chung chung
+NT-0337	9853	
+NT-0338	NIL	ngữ cảnh 'oxy hóa'
+NT-0339	NIL	chất dinh dưỡng đa lượng
+NT-0340	NIL	mỹ phẩm
+NT-0341	NIL	vi sinh vật
+NT-0342	NIL	vắc xin chung chung
+NT-0343	94	
+NT-0344	2697972	Wolfiporia (Poria) cocos
+NT-0345	NIL	từ chung chung
+NT-0346	1307947	Phellodendron amurense
+NT-0347	11416	
+NT-0348	6574	
+NT-0349	8263	
+NT-0350	NIL	chất dinh dưỡng đa lượng
+NT-0351	NIL	dạng dùng
+NT-0352	1151	
+NT-0353	11256	
+NT-0354	NIL	nhóm thuốc
+NT-0355	1307731	Paeonia lactiflora root
+NT-0356	NIL	nhóm chất
+NT-0357	NIL	dịch cơ thể
+NT-0358	NIL	thủ thuật
+NT-0359	NIL	thương hiệu sữa
+NT-0360	NIL	từ chung chung
+NT-0361	NIL	nhóm chất
+NT-0362	2263062,1372633	Atractylodes macrocephala
+NT-0363	1897	ngữ cảnh canxi carbonate
+NT-0364	NIL	thủ thuật
+NT-0365	NIL	từ chung chung
+NT-0366	NIL	nhóm chất
+NT-0367	3706,151675	dydrogesterone (Duphaston)
+NT-0368	NIL	dạng bào chế
+NT-0369	NIL	nhóm chất
+NT-0370	NIL	không phải thuốc
+NT-0371	NIL	không phải thuốc
+NT-0372	6375	
+NT-0373	NIL	dịch cơ thể
+NT-0374	325526,259470	
+NT-0375	486961	
+NT-0376	8263	
+NT-0377	8727	lỗi chính tả
+NT-0378	1311214	
+NT-0379	NIL	mỹ phẩm
+NT-0380	NIL	nhóm sản phẩm
+NT-0381	NIL	nhóm thuốc
+NT-0382	NIL	nhóm thuốc
+NT-0383	NIL	nhóm thuốc
+NT-0384	NIL	nhóm thuốc
+NT-0385	11258	
+NT-0386	NIL	nhóm thuốc
+NT-0387	236797,9525	AHA/BHA
+NT-0388	NIL	nhóm chất
+NT-0389	NIL	vi sinh vật
+NT-0390	1191	
+NT-0391	NIL	mảnh 'nhóm b'
+NT-0392	7891	
+NT-0393	4511	
+NT-0394	1588	
+NT-0395	2375525,2686032	Gleditsia sinensis
+NT-0396	42769,1342493	
+NT-0397	1895	
+NT-0398	NIL	từ chung chung
+NT-0399	NIL	lỗi NER
+NT-0400	NIL	không phải thuốc
+NT-0401	NIL	từ chung chung
+NT-0402	NIL	dịch cơ thể
+NT-0403	NIL	từ chung chung
+NT-0404	NIL	không rõ nghĩa
+NT-0405	NIL	không phải thuốc
+NT-0406	NIL	nhóm chất
+NT-0407	NIL	nhóm chất
+NT-0408	196213,4477	fluoride
+NT-0409	62356,4511	
+NT-0410	4511,62356	lỗi chính tả folic
+NT-0411	114265,46041	
+NT-0412	NIL	dạng bào chế
+NT-0413	1992541	Pancratium maritimum
+NT-0414	4100,4083	
+NT-0415	NIL	mỹ phẩm
+NT-0416	NIL	mỹ phẩm
+NT-0417	NIL	nhóm sản phẩm
+NT-0418	NIL	không phải thuốc
+NT-0419	6211	
+NT-0420	659476	
+NT-0421	NIL	vi sinh vật
+NT-0422	NIL	tên sách
+NT-0423	9863	
+NT-0424	9863	
+NT-0425	161	
+NT-0426	NIL	không phải thuốc
+NT-0427	9641	
+NT-0428	NIL	nhóm sản phẩm
+NT-0429	10324	
+NT-0430	NIL	nhóm thuốc
+NT-0431	NIL	nhóm thuốc
+NT-0432	NIL	nhóm thuốc
+NT-0433	NIL	nhóm thuốc
+NT-0434	NIL	nhóm thuốc
+NT-0435	NIL	dạng dùng
+NT-0436	NIL	không phải thuốc
+NT-0437	NIL	nhóm chất
+NT-0438	NIL	dạng dùng
+NT-0439	NIL	không phải thuốc
+NT-0440	NIL	không phải thuốc

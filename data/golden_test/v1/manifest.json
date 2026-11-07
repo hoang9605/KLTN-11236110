@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "purpose": "end-to-end NER -> RE golden test (candidate, chưa duyệt)",
+  "seed": 20261101,
+  "params": {
+    "out": "C:\\Users\\ASUS\\dev\\Code_Study\\AI-KLTN\\data\\golden_test\\v1",
+    "n": 150,
+    "min_per_relation": 25,
+    "no_pair": 15,
+    "no_entity": 10,
+    "max_pairs": 10,
+    "double": 30,
+    "seed": 20261101,
+    "test_arrow": null,
+    "train_arrow": null
+  },
+  "test_source": {
+    "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-test.arrow",
+    "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+  },
+  "train_source": {
+    "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-train.arrow",
+    "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+  },
+  "audit": {
+    "skip_too_many_pairs": 3,
+    "skip_duplicate_within_test": 1,
+    "eligible_test_rows": 3493
+  },
+  "samples": 150,
+  "selection": {
+    "quota": 91,
+    "random_fill": 34,
+    "no_candidate_pair": 15,
+    "no_target_entity": 10
+  },
+  "passages_with_pair_type": {
+    "has_dosage": 25,
+    "treated_by": 25,
+    "diagnosed_by": 25,
+    "treated_by_procedure": 39,
+    "located_at": 49
+  },
+  "candidate_pairs": {
+    "has_dosage": 45,
+    "treated_by": 42,
+    "diagnosed_by": 45,
+    "treated_by_procedure": 65,
+    "located_at": 111
+  },
+  "entities": {
+    "DRUG": 69,
+    "CONDITION": 164,
+    "DOSAGE": 39,
+    "TEST": 32,
+    "PROCEDURE": 64,
+    "BODY_PART": 85
+  },
+  "quota_shortfall": {},
+  "double_annotation_ids": [
+    "GT-002",
+    "GT-028",
+    "GT-031",
+    "GT-034",
+    "GT-040",
+    "GT-041",
+    "GT-049",
+    "GT-054",
+    "GT-061",
+    "GT-065",
+    "GT-069",
+    "GT-070",
+    "GT-072",
+    "GT-073",
+    "GT-080",
+    "GT-088",
+    "GT-099",
+    "GT-107",
+    "GT-108",
+    "GT-110",
+    "GT-113",
+    "GT-116",
+    "GT-121",
+    "GT-123",
+    "GT-127",
+    "GT-131",
+    "GT-133",
+    "GT-135",
+    "GT-143",
+    "GT-148"
+  ],
+  "notes": [
+    "Đoạn chứa cặp đúng kiểu KHÔNG đồng nghĩa có quan hệ dương; số dương thật chỉ biết sau khi duyệt.",
+    "NER là nhãn gốc VietMed ánh xạ 6 loại, người duyệt có thể sửa; UNITCALIBRATOR rộng hơn định nghĩa DOSAGE.",
+    "Lấy mẫu có chủ đích nên phân bố quan hệ không phản ánh phân bố tự nhiên; báo cáo kèm cách lấy mẫu."
+  ],
+  "candidates_sha256": "a9538922a1b697123eb20b21f3ee7ea86c3b54a8b9a5d1f49d603abda2bdf1ba"
+}

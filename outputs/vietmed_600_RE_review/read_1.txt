@@ -1,0 +1,230 @@
+VM600-001 thì cũng giống như ba má mình đã từng bị béo phì rồi bị bệnh này bệnh kia những người thân quen của mình mình biết bị
+E1=béo phì<CONDITION> E2=bị bệnh<CONDITION>
+VM600-002 gọi là những cái bụi mịn từ ngoài môi trường xâm nhập vào trong da và cho chúng ta sẽ xảy ra những cái phản ứng
+E1=bụi mịn<DRUG> E2=da<BODY_PART>
+VM600-003 tẩy trắng và dưỡng sáng vẫn chưa được phân biệt rõ ràng vào mọi người hay nhầm lẫn hay tưởng là chung với ạ nên là
+
+VM600-004 thể gặp ngay cái thời gian người ta gọi là tiểu phẫu tức là trong những cái ngày đầu tiên của cuộc mổ nếu mà sau đó mà nó
+E1=tiểu phẫu<PROCEDURE> E2=mổ<PROCEDURE>
+VM600-005 nhịp tim nhanh này các cái rối loạn nhịp tim này đấy là những cái dấu hiệu hoặc là đau tức ngực thế còn nếu mà những cái
+E1=nhịp tim nhanh<CONDITION> E2=rối loạn nhịp tim<CONDITION> E3=đau tức ngực<CONDITION>
+VM600-006 ta đã từng gặp trong trong lịch sử vì thế nên là cúm a thì là một bệnh lý và
+E1=cúm a<CONDITION>
+VM600-007 là sau khi mà điều trị ung thư thì rõ ràng được bây giờ chúng ta trở về cuộc
+E1=điều trị<PROCEDURE> E2=ung thư<CONDITION>
+R1:E2>E1:treated_by_procedure
+VM600-008 mảng xơ vữa ở trên các bệnh nhân bị tăng huyết áp ạ và từ đó nó giúp cho máu thông lên não lên tim được tốt hơn và
+E1=mảng xơ vữa<CONDITION> E2=tăng huyết áp<CONDITION> E3=máu<BODY_PART> E4=não<BODY_PART> E5=tim<BODY_PART>
+R1:E1>E3:located_at R2:E1>E4:located_at R3:E1>E5:located_at R4:E2>E3:located_at R5:E2>E4:located_at R6:E2>E5:located_at
+VM600-009 đối với cái bệnh lý của bác thì bác đang phải dùng rất nhiều những các cái thuốc nền các cái thuốc để điều trị các cái
+E1=rất nhiều<DOSAGE> E2=thuốc<DRUG> E3=thuốc<DRUG> E4=điều trị<PROCEDURE>
+R1:E2>E1:has_dosage R2:E3>E1:has_dosage
+VM600-010 ta càng cảm thấy được vai trò vô cùng quan trọng của chuyên khoa tâm lý trong điều trị người bệnh béo phì và tiếp theo
+E1=điều trị<PROCEDURE> E2=béo phì<CONDITION>
+R1:E2>E1:treated_by_procedure
+VM600-011 với cơ chế của cái hình thành cục máu đông ở trong tim giờ đó nên thuốc chống tiểu cầu không phải là cái gì
+E1=cục máu đông<CONDITION> E2=tim<BODY_PART> E3=thuốc chống tiểu cầu<DRUG>
+R1:E1>E2:located_at R2:E1>E3:treated_by
+VM600-012 cân nặng họ không dám nói về cái vẻ đẹp của một cái người nữ hay người nam là như thế nào vì lý do là họ sẽ dễ bị
+
+VM600-013 từ thực vật ví dụ như là các bạn có thể nghe tới như là chiết xuất từ hoa lan được cam thảo này từ bạch quả lá dâu tầm
+E1=chiết xuất<PROCEDURE> E2=hoa lan<DRUG> E3=cam thảo<DRUG> E4=bạch quả<DRUG> E5=lá dâu tầm<DRUG>
+VM600-014 dựng một cái cái cái mục tiêu trị liệu cũng như một chương trình trị liệu dài hơi để giúp
+E1=trị liệu<PROCEDURE> E2=trị liệu<PROCEDURE>
+VM600-015 vận động thì tình trạng béo phì nó tăng lên mà mình béo phì nó tăng lên rồi thì gặp tình trạng kỳ thị nữa hay là gặp
+E1=béo phì<CONDITION> E2=béo phì<CONDITION>
+VM600-016 khi mà chúng ta khỏe mạnh như thế này mà chúng ta gặp một cái vấn đề gì đấy về mặt tinh thần thì chúng ta cũng đã rất là chán ăn rồi và hiện nay thì có một số
+E1=chán ăn<CONDITION>
+VM600-017 theo cái tình trạng bệnh lý của chúng ta ví dụ đái tháo đường hay là rối loạn lipid máu thì chúng ta phải kiêng những cái gì và ăn
+E1=đái tháo đường<CONDITION> E2=rối loạn lipid máu<CONDITION>
+VM600-018 con đường để mà làm giảm sản sinh những cái tín hiệu đến tế bào sắc tố ví dụ như lại những cái hoạt chất thoa có chút
+E1=tế bào sắc tố<BODY_PART> E2=hoạt chất<DRUG>
+VM600-019 ta biết là cái suy giãn tĩnh mạch nó cũng liên quan đến quá trình lão hóa liên quan quá trình thoái hóa các cái mạch
+E1=suy giãn tĩnh mạch<CONDITION> E2=quá trình lão hóa<TEST> E3=thoái hóa<CONDITION> E4=mạch<BODY_PART>
+R1:E1>E2:diagnosed_by R2:E1>E4:located_at R3:E3>E2:diagnosed_by R4:E3>E4:located_at
+VM600-020 vấn đề sức khỏe khó khăn nhất của chúng ta mặc dù dự án đang nghiên cứu một số bộ phận của cơ thể chứa vi khuẩn bao gồm
+E1=nghiên cứu<TEST> E2=cơ thể<BODY_PART> E3=vi khuẩn<CONDITION>
+R1:E3>E1:diagnosed_by R2:E3>E2:located_at
+VM600-021 những người mà có bị béo phì rồi đó thì họ có nhiều
+E1=béo phì<CONDITION>
+VM600-022 nên phổ biến trong nhiều sản phẩm thực phẩm và có thể được tìm thấy trong các cửa hàng tạp hóa thông thường biết cách
+
+VM600-023 quý vị thân mến chúng ta vừa được lắng nghe cuộc trò chuyện với chủ đề dinh
+
+VM600-024 sức đề kháng và kéo dài tuổi thọ đó là mong muốn có rất là nhiều người đặc biệt là đối với những khán giả cao tuổi như
+E1=sức đề kháng<TEST> E2=kéo dài tuổi thọ<DRUG>
+VM600-025 cái căn nguyên cơ chế bệnh sinh của mình đó chính là những cái mảng xơ vữa bác ạ và rất tốt ở trên những người bị rối
+E1=mảng xơ vữa<CONDITION>
+VM600-026 hiểu biết của chúng ta về miễn dịch vấn đề liên quan đến vắcxin và cách chúng hoạt động nguyên tắc cơ bản của việc
+E1=vắcxin<DRUG>
+VM600-027 coi một cái người ung thư trong thành viên trong gia đình là một sự sầu não trong cả một gia đình thì rất khó có thể
+E1=ung thư<CONDITION> E2=não<BODY_PART>
+R1:E1>E2:located_at
+VM600-028 gáy nó mới đau nó chèn lên thần kinh tê liệt tay thế uống thuốc nó đỡ làm nhiều lúc mà rét
+E1=gáy<BODY_PART> E2=đau<CONDITION> E3=thần kinh<BODY_PART> E4=tê liệt tay<CONDITION> E5=uống thuốc<PROCEDURE>
+R1:E2>E1:located_at R2:E2>E3:located_at R3:E2>E5:treated_by_procedure R4:E4>E1:located_at R5:E4>E3:located_at R6:E4>E5:treated_by_procedure
+VM600-029 thì nhiều chi bộ có thể chia sẻ chúng ta trước không ạ cúm a thì nó là một bệnh
+E1=cúm a<CONDITION>
+VM600-030 nó gây ra thiếu máu não nếu nó không lại được ngay đây là tự cơ thể có cái
+E1=thiếu máu não<CONDITION> E2=cơ thể<BODY_PART>
+R1:E1>E2:located_at
+VM600-031 những cái lo lắng từ phía người dân và tự người dân cảm thấy rằng cần phải đi xét nghiệm sarscov2 làm cho cái mật
+E1=xét nghiệm<TEST> E2=sarscov2<CONDITION> E3=mật<BODY_PART>
+R1:E2>E1:diagnosed_by R2:E2>E3:located_at
+VM600-032 nên có thể nói rằng là từ xa xưa đông trùng hạ thảo đó là một thứ mà để đặc hữu cho những cái bậc quyền quý nhưng ngày
+E1=đông trùng hạ thảo<DRUG>
+VM600-033 giờ thì chúng ta sẽ dành ít phút để nghe tâm sự của người trong cuộc như thế nào nhé cũng gần một nửa năm trở lại đây thì
+
+VM600-034 mặn quá hoặc là đắng quá hoặc là cảm thấy chua quá không thể mà ăn được không thể chấp nhận được món ăn đi qua
+
+VM600-035 pháp điều trị thuốc thì phẫu thuật kích thích não sâu nó sẽ giúp cải thiện triệu chứng cho người bệnh khá là tốt mà khi
+E1=điều trị<PROCEDURE> E2=thuốc<DRUG> E3=phẫu thuật kích thích não sâu<PROCEDURE> E4=cải thiện<PROCEDURE> E5=triệu chứng<CONDITION>
+R1:E5>E1:treated_by_procedure R2:E5>E2:treated_by R3:E5>E3:treated_by_procedure R4:E5>E4:treated_by_procedure
+VM600-036 và cái vấn đề cuối cùng là thuốc mà người bệnh người bệnh vẫn nên uống thuốc
+E1=thuốc<DRUG> E2=uống thuốc<PROCEDURE>
+VM600-037 động của máy kích thích não sâu của mình cũng có thể thay đổi một vài thông số liên quan tới hoạt động kích thích não
+E1=máy kích thích não sâu<PROCEDURE> E2=một vài thông số<DOSAGE> E3=não<BODY_PART>
+VM600-038 vẫn theo cái quy trình mà bác chỉ cho em là trước khi nhuộm là vẫn làm nhận gội
+
+VM600-039 dại trong cơ thể mà nó cắn nó cắn
+E1=cơ thể<BODY_PART>
+VM600-040 làm giảm cái nguy cơ các cái mảng xơ vữa động mạch mà cái mảng xơ vữa động mạch của chị nó đang có và từ đó nó giúp cho
+E1=mảng xơ vữa động mạch<CONDITION> E2=mảng xơ vữa động mạch<CONDITION>
+VM600-041 là nó có cái tác dụng là ức chế cái việc hình thành và các cái cục máu đông do đó
+E1=ức chế<DRUG> E2=cục máu đông<CONDITION>
+R1:E2>E1:treated_by
+VM600-042 chống mệt mỏi và thanh trừng gốc tự do và kéo dài tuổi thọ cho
+E1=mệt mỏi<CONDITION> E2=kéo dài tuổi thọ<DRUG>
+R1:E1>E2:treated_by
+VM600-043 ăn uống dinh dưỡng đầy đủ thì tôi nghĩ rằng là cái khả năng lây lan từ những
+E1=lây lan<CONDITION>
+VM600-044 trong chương tiếp theo nhưng bây giờ hãy hiểu rằng tất cả các loại bệnh đều bắt
+
+VM600-045 quá trình viêm và dẫn đến những tình trạng xơ vữa mạch hay là tình trạng là cái thành mạch của chúng ta nó bị xơ
+E1=viêm<CONDITION> E2=tình trạng xơ vữa mạch<CONDITION> E3=mạch<BODY_PART>
+R1:E1>E3:located_at R2:E2>E3:located_at
+VM600-046 thì đương nhiên là cái người lớn tuổi thì có nguy cơ bệnh đều cao và đối với rung nhĩ thì là có rung nhĩ cộng với
+E1=cao<DOSAGE> E2=rung nhĩ<CONDITION> E3=rung nhĩ<CONDITION>
+VM600-047 người ta thích ăn đi thì có khi là nó sẽ ảnh hưởng lại tốt hơn làm cho cái cân nặng nó có thể giảm hơn là thì cái đó là
+
+VM600-048 hỗ trợ trong việc tăng cường sức khỏe của tim mạch và đan sâm nó cũng có cái tác dụng là ức chế làm giảm cái sự hình
+E1=hỗ trợ<PROCEDURE> E2=tim mạch<BODY_PART> E3=đan sâm<DRUG> E4=ức chế<DRUG>
+VM600-049 cái phác đồ một cách điều trị một cách phù hợp tránh cái tình trạng là mình lại tiếp tục loay hoay như thế này và đôi
+E1=phác đồ<PROCEDURE> E2=điều trị<PROCEDURE>
+VM600-050 uống thuốc vào có thể hôm nay nó hấp thu tốt mai nó sẽ tăng lên ngày mai mình ăn uống
+E1=uống thuốc<PROCEDURE> E2=hấp thu<TEST>
+VM600-051 mặt xong làm cho chúng ta cảm thấy nó khô căng là những cái sữa rửa mặt nó thường có chứa những thành phần các chất
+E1=khô căng<CONDITION> E2=sữa rửa mặt<DRUG>
+R1:E1>E2:treated_by
+VM600-052 dùng cảm thấy triệu chứng đau nhức xương khớp giảm nhanh sau từ một đến hai tuần sử dụng tình trạng đau lưng đau vai gáy đau
+E1=triệu chứng<CONDITION> E2=đau nhức<CONDITION> E3=xương khớp<BODY_PART> E4=đau lưng<CONDITION> E5=đau<CONDITION> E6=vai<BODY_PART> E7=gáy<BODY_PART> E8=đau<CONDITION>
+R1:E1>E3:located_at R2:E1>E6:located_at R3:E1>E7:located_at R4:E2>E3:located_at R5:E2>E6:located_at R6:E2>E7:located_at R7:E4>E3:located_at R8:E4>E6:located_at R9:E4>E7:located_at R10:E5>E3:located_at R11:E5>E6:located_at R12:E5>E7:located_at R13:E8>E3:located_at R14:E8>E6:located_at R15:E8>E7:located_at
+VM600-053 có thể không thích thì chúng ta có thể hoặc có thể thay đổi bữa thì chúng ta có thể sử dụng các cái bữa ăn cao năng
+E1=cao<DOSAGE>
+VM600-054 chỉ có còn hỏi gì thêm không à vâng ạ từ đầu chương trình tới giờ thì tôi thấy là rất là nhiều các khán giả đều có chung
+
+VM600-055 càng ngày họ lo lo nhiều thậm chí họ có thể đưa đến cái trầm cảm mà khi họ
+E1=trầm cảm<CONDITION>
+VM600-056 quan trọng đối với sự phát triển của một hệ vi sinh khỏe mạnh cũng như những yếu tố có thể phá hủy nó bạn sẽ sớm bắt đầu
+E1=hệ vi sinh<BODY_PART>
+VM600-057 quá thì khả năng phẫu thuật nó sẽ khó khăn nó có sẽ có nhiều biến chứng cái thứ hai người bệnh parkinson nên là hơn
+E1=phẫu thuật<PROCEDURE> E2=biến chứng<CONDITION> E3=cái thứ hai<DOSAGE> E4=parkinson<CONDITION>
+R1:E2>E1:treated_by_procedure R2:E4>E1:treated_by_procedure
+VM600-058 gánh hết đó là cảm thấy buồn mà tuyệt vọng nữa hàng triệu việt nam đang phải
+
+VM600-059 cho tất cả quý vị khán giả biết thêm về lợi ích mà người bệnh nhận được khi thực hiện giảm cân một cách hiệu quả và an
+
+VM600-060 tùm lum tà la hết cái mà khó điều trị và lúc đó thì có tốt thì với khi mà chúng ta có một cái chế độ ăn
+E1=điều trị<PROCEDURE>
+VM600-061 người bệnh để có cái cái cái cái sự hiểu biết hơn trong các nhận thức thay đổi cho nó tốt hơn để có thể cải thiện chất
+E1=cải thiện<PROCEDURE>
+VM600-062 dụng và nó phối hợp với nhau là mang lại hiệu quả rất là tốt chị nhé thì chị nên
+
+VM600-063 những cái hậu quả những cái di chứng của bệnh lý này bởi vậy bên cạnh cái việc mà
+E1=di chứng<CONDITION>
+VM600-064 với sự căng thẳng qua các tác động của hệ vi khuẩn lên hệ nội tiết hormone hỗ
+E1=căng thẳng<CONDITION> E2=vi khuẩn<CONDITION> E3=nội tiết<BODY_PART> E4=hormone<DRUG>
+R1:E1>E3:located_at R2:E1>E4:treated_by R3:E2>E3:located_at R4:E2>E4:treated_by
+VM600-065 dứt da của mình nó căng da đôi khi một số loại sữa rửa mặt nó khiến cho mình cảm giác là khi mình rửa xong cái da
+E1=da<BODY_PART> E2=da<BODY_PART> E3=sữa rửa mặt<DRUG> E4=da<BODY_PART>
+VM600-066 tế bào và cái tổn thương tế bào ấy thì làm cho tế bào không bình thường tế bào không bình thường đấy thì nó một là nếu
+E1=tế bào<BODY_PART> E2=tổn thương<CONDITION> E3=tế bào<BODY_PART> E4=tế bào<BODY_PART> E5=tế bào<BODY_PART>
+R1:E2>E1:located_at R2:E2>E3:located_at R3:E2>E4:located_at R4:E2>E5:located_at
+VM600-067 nhau và cái lứa tuổi mà trung niên là cái lứa tuổi gặp khá là phổ biến còn
+
+VM600-068 não đột quỵ đó thì nó liên quan đến việc hình thành các cục máu đông và việc cục máu đông đã nó trôi ra là đi
+E1=não<BODY_PART> E2=đột quỵ<CONDITION> E3=cục máu đông<CONDITION> E4=cục máu đông<CONDITION>
+R1:E2>E1:located_at R2:E3>E1:located_at R3:E4>E1:located_at
+VM600-069 alo alo rồi chúng tôi đang lắng nghe đây ạ mời cô trình bày
+
+VM600-070 bệnh nền và hàng tháng phải đến bệnh viện để mà lấy thuốc thì chúng tôi liên tưởng đến chuyện là nhiều bệnh nhân
+E1=bệnh nền<CONDITION> E2=thuốc<DRUG>
+R1:E1>E2:treated_by
+VM600-071 hiệu mà ngày xưa chúng ta vẫn hay phổ biến đấy là gì ạ nâng niu bàn chân việt thì trong trường hợp này của bác bác tìm
+E1=bàn chân<BODY_PART>
+VM600-072 không phải có tác dụng phụ của các các loại thuốc này không phải mỗi cái chống viêm đâu rất nhiều các cái thuốc khác và
+E1=tác dụng phụ<CONDITION> E2=thuốc<DRUG> E3=viêm<CONDITION> E4=rất nhiều<DOSAGE> E5=thuốc<DRUG>
+R1:E1>E2:treated_by R2:E1>E5:treated_by R3:E2>E4:has_dosage R4:E3>E2:treated_by R5:E3>E5:treated_by R6:E5>E4:has_dosage
+VM600-073 trị nó sẽ phải dài hơn và chúng ta sẽ phải tập trung vào cái cái vị trí căn nguyên của của cái bệnh là ở cái vùng
+
+VM600-074 đây là một cái sản phẩm mà cũng đã được thừa kế cái đề tài nghiên cứu cấp nhà
+E1=nghiên cứu<TEST>
+VM600-075 ba nữa rõ ràng là gì ạ mình cần phải điều trị thì nó mới tránh được những cái chuyện mà đột ngột đột xuất hoặc thậm
+E1=điều trị<PROCEDURE>
+VM600-076 lại ảnh hưởng đến nội tạng là bởi vì khi mà chúng ta sử dụng vào trong thì tất cả những cái cơ quan nội tạng của chúng ta
+E1=nội tạng<BODY_PART> E2=nội tạng<BODY_PART>
+VM600-077 mà cũng bị bệnh gì bác ạ dạ vâng ở đây thì vâng ở đây thì có lẽ
+E1=bị bệnh<CONDITION>
+VM600-078 trạng sạm nám tăng sắc tố do đó nên chúng ta phải nhớ là chúng ta luôn phải thoa kem chống nắng đúng cách đúng liều đủ
+E1=sạm nám<CONDITION> E2=tăng sắc tố<CONDITION> E3=kem chống nắng<DRUG>
+R1:E1>E3:treated_by R2:E2>E3:treated_by
+VM600-079 cái ngưỡng mức điều trị như vậy thưa tất cả quý vị và các bạn vừa rồi thì chúng ta đã được lắng nghe bác sĩ chuyên khoa
+E1=cái ngưỡng mức<DOSAGE> E2=điều trị<PROCEDURE>
+VM600-080 chứng ngoài vận động khác cũng như là tuổi của người bệnh đã trở nên lớn hơn và khó khăn hơn và những cái vấn đề đó
+
+VM600-081 nhớ lại thời trung học khi bạn học về hệ tiêu hóa bạn đã được biết nó phân giải
+E1=hệ tiêu hóa<BODY_PART>
+VM600-082 những cái khó khăn mà bác gặp phải thì cũng rất là nhiều người bệnh người ta cũng đang gặp phải tuy nhiên là người ta
+
+VM600-083 hướng đến một cuộc sống mạnh khỏe hơn hạnh phúc và thành công chúng tôi sẽ thực sự rất biết ơn về sự ủng hộ quý báu
+
+VM600-084 điều trị để chiến thắng chính bản thân mình giúp mình hồi phục đó là một điều rất là quan trọng vâng trong các cuộc
+E1=điều trị<PROCEDURE>
+VM600-085 đây cũng giúp cho họ tăng đậm độ năng lượng thì chúng ta có thể ví dụ như là thường ung thư thì phải nấu mềm lỏng này
+E1=ung thư<CONDITION>
+VM600-086 xin điều trị có nghĩa là bị dại mà không
+E1=điều trị<PROCEDURE> E2=bị dại<CONDITION>
+R1:E2>E1:treated_by_procedure
+VM600-087 mà chịu và cách tính dung nạp đối với những các sản phẩm nó cũng khắt khe hơn so với những cái làn da thường em thấy
+E1=tính dung nạp<DOSAGE> E2=làn da<BODY_PART>
+VM600-088 vừa rồi thì sẽ rất là tốt cho bệnh nhân ung thư đấy cũng là một giải pháp mà cũng bớt đi cái cái mà người ung thư đôi
+E1=ung thư<CONDITION> E2=ung thư<CONDITION>
+VM600-089 trở lại cũng như là nó hỗ trợ cho vấn đề đường tiêu hóa của mình vâng
+E1=hỗ trợ<PROCEDURE> E2=đường tiêu hóa<BODY_PART>
+VM600-090 công việc chính của các chuyên gia tâm lý trong việc điều trị người bệnh béo phì
+E1=điều trị<PROCEDURE> E2=béo phì<CONDITION>
+R1:E2>E1:treated_by_procedure
+VM600-091 cố định khớp đặc hiệu với mầm bệnh hoặc tế bào nhiễm bệnh hay đúng hơn là mô
+E1=khớp<BODY_PART> E2=mầm bệnh<CONDITION> E3=tế bào<BODY_PART> E4=mô<BODY_PART>
+R1:E2>E1:located_at R2:E2>E3:located_at R3:E2>E4:located_at
+VM600-092 thì đã có thể là giúp giảm rất là nhiều những cái biến chứng và những cái bệnh lý đi kèm như là có thể giảm được tới
+E1=biến chứng<CONDITION> E2=bệnh lý<CONDITION>
+VM600-093 hoàn toàn ô thế là mình điều trị xong rồi xong rồi cứ ba tháng xét nghiệm một lần hay là sáu tháng xét nghiệm một lần
+E1=điều trị<PROCEDURE> E2=xét nghiệm<TEST> E3=xét nghiệm<TEST>
+VM600-094 kết quả này có thể giúp dự đoán gánh nặng bệnh alzheimer ở cả nước đang phát triển nơi sự đa dạng vi sinh vật đang
+E1=dự đoán<PROCEDURE> E2=alzheimer<CONDITION> E3=vi sinh vật<BODY_PART>
+R1:E2>E1:treated_by_procedure R2:E2>E3:located_at
+VM600-095 ung thư ấy hoàn toàn là do người bệnh ung thư cho nên chúng tôi rất mong là dù
+E1=ung thư<CONDITION> E2=ung thư<CONDITION>
+VM600-096 thức ăn đó thì nó sẽ làm cho dễ bị béo phì nữa đối với lại môi trường xã hội
+E1=béo phì<CONDITION> E2=môi<BODY_PART>
+R1:E1>E2:located_at
+VM600-097 alo vâng chúng tôi đang nghe đây ạ cô chia sẻ đi ạ
+
+VM600-098 thương thận vân vân và vân vân cho nên là lời khuyên thứ hai của chương trình đối với bác là gì nên tìm đến những giải
+
+VM600-099 bác ơi vâng bây giờ thì với cái tình trạng hiện nay của bác này thứ nhất là huyết áp đang tăng cao thì bác nên bác
+E1=thứ nhất<DOSAGE> E2=huyết áp<CONDITION> E3=cao<DOSAGE>
+VM600-100 mất do tổn thương đường tiêu hóa không không thể nào tiêu hóa thu được là do ngay cái chính khối u đó cũng làm tăng quá
+E1=tổn thương<CONDITION> E2=đường tiêu hóa<BODY_PART> E3=khối u<CONDITION>
+R1:E1>E2:located_at R2:E3>E2:located_at

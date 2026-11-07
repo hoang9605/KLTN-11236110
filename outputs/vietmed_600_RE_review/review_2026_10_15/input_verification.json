@@ -1,0 +1,86 @@
+[
+  {
+    "file": "Phieu_kiem_tra_NER_RE_001-100.docx",
+    "sha256": "d062b6e06efba5b808207b58cdf9bb0b1be86705f3e76ca19c858c910988ee7f",
+    "counts": {
+      "entities": 188,
+      "relations": 84
+    },
+    "mismatches": [],
+    "tracked_changes": false,
+    "comments": false,
+    "review_marker": [
+      "Đã duyệt đến: Chưa xác nhận"
+    ]
+  },
+  {
+    "file": "Phieu_kiem_tra_NER_RE_101-200.docx",
+    "sha256": "dbd9730e92c16bfc025a279fcf9673e0776b6c1019e3affe3a71b7c9669c4746",
+    "counts": {
+      "entities": 197,
+      "relations": 87
+    },
+    "mismatches": [],
+    "tracked_changes": false,
+    "comments": false,
+    "review_marker": [
+      "Đã duyệt đến: Chưa xác nhận"
+    ]
+  },
+  {
+    "file": "Phieu_kiem_tra_NER_RE_201-300.docx",
+    "sha256": "280834d652525a7a3d6c785ff06cf735c13d647bb1ba36761f1b6b6fab622422",
+    "counts": {
+      "entities": 189,
+      "relations": 62
+    },
+    "mismatches": [],
+    "tracked_changes": false,
+    "comments": false,
+    "review_marker": [
+      "Đã duyệt đến: Chưa xác nhận"
+    ]
+  },
+  {
+    "file": "Phieu_kiem_tra_NER_RE_301-400.docx",
+    "sha256": "c34a71078cea6e0cff0132d908bcdc366cb29f37d283912216df763b7f42449b",
+    "counts": {
+      "entities": 200,
+      "relations": 75
+    },
+    "mismatches": [],
+    "tracked_changes": false,
+    "comments": false,
+    "review_marker": [
+      "Đã duyệt đến: Chưa xác nhận"
+    ]
+  },
+  {
+    "file": "Phieu_kiem_tra_NER_RE_401-500.docx",
+    "sha256": "2a76996b04c6c26c042af562114a6bb89d533c40543296e80caf6245280983b3",
+    "counts": {
+      "entities": 183,
+      "relations": 48
+    },
+    "mismatches": [],
+    "tracked_changes": false,
+    "comments": false,
+    "review_marker": [
+      "Đã duyệt đến: Chưa xác nhận"
+    ]
+  },
+  {
+    "file": "Phieu_kiem_tra_NER_RE_501-600.docx",
+    "sha256": "dd1e08735533a2c2cf09d3c50dd3d0c381631b08e7960c4abb7e35a976870083",
+    "counts": {
+      "entities": 201,
+      "relations": 67
+    },
+    "mismatches": [],
+    "tracked_changes": false,
+    "comments": false,
+    "review_marker": [
+      "Đã duyệt đến: Chưa xác nhận"
+    ]
+  }
+]

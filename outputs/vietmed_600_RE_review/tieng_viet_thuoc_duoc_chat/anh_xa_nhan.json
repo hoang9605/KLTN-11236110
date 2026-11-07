@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "CONDITION": "Bệnh hoặc triệu chứng",
+    "DRUG": "Thuốc/dược chất",
+    "BODY_PART": "Bộ phận cơ thể",
+    "TEST": "Xét nghiệm hoặc thăm khám",
+    "PROCEDURE": "Thủ thuật hoặc điều trị",
+    "DOSAGE": "Liều lượng"
+  },
+  "relations": {
+    "located_at": "Có vị trí ở",
+    "treated_by": "Được điều trị bằng thuốc",
+    "treated_by_procedure": "Được điều trị bằng phương pháp",
+    "diagnosed_by": "Được chẩn đoán bằng",
+    "has_dosage": "Có liều lượng",
+    "NO_RELATION": "Không có quan hệ thuộc 5 loại",
+    "CHUA_RO": "Chưa rõ — cần xác nhận"
+  }
+}

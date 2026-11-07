@@ -1,0 +1,837 @@
+[
+  {
+    "text": "Bệnh nhân đau ở vùng bụng, được điều trị bằng phẫu thuật.",
+    "entities": [
+      {
+        "surface_text": "đau",
+        "label": "CONDITION",
+        "start_char": 10,
+        "end_char": 13,
+        "confidence": 0.9964,
+        "normalized": null,
+        "id": "E1",
+        "start": 10,
+        "end": 13,
+        "text": "đau"
+      },
+      {
+        "surface_text": "vùng bụng",
+        "label": "BODY_PART",
+        "start_char": 16,
+        "end_char": 25,
+        "confidence": 0.77,
+        "normalized": null,
+        "id": "E2",
+        "start": 16,
+        "end": 25,
+        "text": "vùng bụng"
+      },
+      {
+        "surface_text": "điều trị",
+        "label": "PROCEDURE",
+        "start_char": 32,
+        "end_char": 40,
+        "confidence": 0.9957,
+        "normalized": null,
+        "id": "E3",
+        "start": 32,
+        "end": 40,
+        "text": "điều trị",
+        "re_excluded": "generic_entity"
+      },
+      {
+        "surface_text": "phẫu thuật",
+        "label": "PROCEDURE",
+        "start_char": 46,
+        "end_char": 56,
+        "confidence": 0.9892,
+        "normalized": null,
+        "id": "E4",
+        "start": 46,
+        "end": 56,
+        "text": "phẫu thuật"
+      }
+    ],
+    "relation_candidates": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "located_at",
+        "label": "located_at",
+        "score": 0.5094359789769396,
+        "status": "predicted"
+      },
+      {
+        "head": "E1",
+        "tail": "E4",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.61078281358451,
+        "status": "predicted"
+      }
+    ],
+    "relations": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "located_at",
+        "label": "located_at",
+        "score": 0.5094359789769396,
+        "status": "predicted"
+      },
+      {
+        "head": "E1",
+        "tail": "E4",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.61078281358451,
+        "status": "predicted"
+      }
+    ],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [
+        "E3"
+      ],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Khối u xuất hiện ở phổi, được điều trị bằng phẫu thuật.",
+    "entities": [
+      {
+        "surface_text": "Khối u",
+        "label": "CONDITION",
+        "start_char": 0,
+        "end_char": 6,
+        "confidence": 0.9953,
+        "normalized": null,
+        "id": "E1",
+        "start": 0,
+        "end": 6,
+        "text": "Khối u"
+      },
+      {
+        "surface_text": "phổi",
+        "label": "BODY_PART",
+        "start_char": 19,
+        "end_char": 23,
+        "confidence": 0.9948,
+        "normalized": null,
+        "id": "E2",
+        "start": 19,
+        "end": 23,
+        "text": "phổi"
+      },
+      {
+        "surface_text": "điều trị",
+        "label": "PROCEDURE",
+        "start_char": 30,
+        "end_char": 38,
+        "confidence": 0.9956,
+        "normalized": null,
+        "id": "E3",
+        "start": 30,
+        "end": 38,
+        "text": "điều trị",
+        "re_excluded": "generic_entity"
+      },
+      {
+        "surface_text": "phẫu thuật",
+        "label": "PROCEDURE",
+        "start_char": 44,
+        "end_char": 54,
+        "confidence": 0.9894,
+        "normalized": null,
+        "id": "E4",
+        "start": 44,
+        "end": 54,
+        "text": "phẫu thuật"
+      }
+    ],
+    "relation_candidates": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "located_at",
+        "label": "located_at",
+        "score": 0.5361052203107335,
+        "status": "predicted"
+      },
+      {
+        "head": "E1",
+        "tail": "E4",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.6020669533700446,
+        "status": "predicted"
+      }
+    ],
+    "relations": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "located_at",
+        "label": "located_at",
+        "score": 0.5361052203107335,
+        "status": "predicted"
+      },
+      {
+        "head": "E1",
+        "tail": "E4",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.6020669533700446,
+        "status": "predicted"
+      }
+    ],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [
+        "E3"
+      ],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Người bệnh bị đau ở khớp vai, được điều trị bằng vật lý trị liệu.",
+    "entities": [
+      {
+        "surface_text": "đau",
+        "label": "CONDITION",
+        "start_char": 14,
+        "end_char": 17,
+        "confidence": 0.9971,
+        "normalized": null,
+        "id": "E1",
+        "start": 14,
+        "end": 17,
+        "text": "đau"
+      },
+      {
+        "surface_text": "khớp vai",
+        "label": "BODY_PART",
+        "start_char": 20,
+        "end_char": 28,
+        "confidence": 0.9935,
+        "normalized": null,
+        "id": "E2",
+        "start": 20,
+        "end": 28,
+        "text": "khớp vai"
+      },
+      {
+        "surface_text": "điều trị",
+        "label": "PROCEDURE",
+        "start_char": 35,
+        "end_char": 43,
+        "confidence": 0.9955,
+        "normalized": null,
+        "id": "E3",
+        "start": 35,
+        "end": 43,
+        "text": "điều trị",
+        "re_excluded": "generic_entity"
+      },
+      {
+        "surface_text": "vật lý trị liệu",
+        "label": "PROCEDURE",
+        "start_char": 49,
+        "end_char": 64,
+        "confidence": 0.9943,
+        "normalized": null,
+        "id": "E4",
+        "start": 49,
+        "end": 64,
+        "text": "vật lý trị liệu"
+      }
+    ],
+    "relation_candidates": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "located_at",
+        "label": "located_at",
+        "score": 0.5335131301818611,
+        "status": "predicted"
+      },
+      {
+        "head": "E1",
+        "tail": "E4",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.6214653844456468,
+        "status": "predicted"
+      }
+    ],
+    "relations": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "located_at",
+        "label": "located_at",
+        "score": 0.5335131301818611,
+        "status": "predicted"
+      },
+      {
+        "head": "E1",
+        "tail": "E4",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.6214653844456468,
+        "status": "predicted"
+      }
+    ],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [
+        "E3"
+      ],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Người bệnh parkinson được điều trị bằng phẫu thuật kích thích não sâu.",
+    "entities": [
+      {
+        "surface_text": "parkinson",
+        "label": "CONDITION",
+        "start_char": 11,
+        "end_char": 20,
+        "confidence": 0.9976,
+        "normalized": null,
+        "id": "E1",
+        "start": 11,
+        "end": 20,
+        "text": "parkinson"
+      },
+      {
+        "surface_text": "điều trị",
+        "label": "PROCEDURE",
+        "start_char": 26,
+        "end_char": 34,
+        "confidence": 0.9955,
+        "normalized": null,
+        "id": "E2",
+        "start": 26,
+        "end": 34,
+        "text": "điều trị",
+        "re_excluded": "generic_entity"
+      },
+      {
+        "surface_text": "phẫu thuật kích thích não sâu",
+        "label": "PROCEDURE",
+        "start_char": 40,
+        "end_char": 69,
+        "confidence": 0.9899,
+        "normalized": null,
+        "id": "E3",
+        "start": 40,
+        "end": 69,
+        "text": "phẫu thuật kích thích não sâu"
+      }
+    ],
+    "relation_candidates": [
+      {
+        "head": "E1",
+        "tail": "E3",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.8769231122905096,
+        "status": "predicted"
+      }
+    ],
+    "relations": [
+      {
+        "head": "E1",
+        "tail": "E3",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.8769231122905096,
+        "status": "predicted"
+      }
+    ],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [
+        "E2"
+      ],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Bệnh nhân bị xơ vữa động mạch, được điều trị bằng phẫu thuật bắc cầu.",
+    "entities": [
+      {
+        "surface_text": "xơ vữa động mạch",
+        "label": "CONDITION",
+        "start_char": 13,
+        "end_char": 29,
+        "confidence": 0.9977,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "I70",
+          "label_standard": "Xơ vữa động mạch",
+          "match_method": "exact",
+          "match_score": 1.0
+        },
+        "id": "E1",
+        "start": 13,
+        "end": 29,
+        "text": "xơ vữa động mạch"
+      },
+      {
+        "surface_text": "điều trị",
+        "label": "PROCEDURE",
+        "start_char": 36,
+        "end_char": 44,
+        "confidence": 0.9956,
+        "normalized": null,
+        "id": "E2",
+        "start": 36,
+        "end": 44,
+        "text": "điều trị",
+        "re_excluded": "generic_entity"
+      },
+      {
+        "surface_text": "phẫu thuật",
+        "label": "PROCEDURE",
+        "start_char": 50,
+        "end_char": 60,
+        "confidence": 0.989,
+        "normalized": null,
+        "id": "E3",
+        "start": 50,
+        "end": 60,
+        "text": "phẫu thuật"
+      }
+    ],
+    "relation_candidates": [
+      {
+        "head": "E1",
+        "tail": "E3",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.536422566803023,
+        "status": "predicted"
+      }
+    ],
+    "relations": [
+      {
+        "head": "E1",
+        "tail": "E3",
+        "allowed_relation": "treated_by_procedure",
+        "label": "treated_by_procedure",
+        "score": 0.536422566803023,
+        "status": "predicted"
+      }
+    ],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [
+        "E2"
+      ],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Bệnh nhân tăng huyết áp, kê Aspirin 81mg mỗi ngày.",
+    "entities": [
+      {
+        "surface_text": "tăng huyết áp",
+        "label": "CONDITION",
+        "start_char": 10,
+        "end_char": 23,
+        "confidence": 0.9955,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "I10",
+          "label_standard": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+          "match_method": "synonym",
+          "match_score": 1.0
+        },
+        "id": "E1",
+        "start": 10,
+        "end": 23,
+        "text": "tăng huyết áp"
+      },
+      {
+        "surface_text": "Aspirin",
+        "label": "DRUG",
+        "start_char": 28,
+        "end_char": 35,
+        "confidence": 0.9947,
+        "normalized": {
+          "ontology": "RxNorm",
+          "code": "1191",
+          "label_standard": "aspirin",
+          "match_method": "api",
+          "match_score": 1.0
+        },
+        "id": "E2",
+        "start": 28,
+        "end": 35,
+        "text": "Aspirin"
+      },
+      {
+        "surface_text": "81mg",
+        "label": "DOSAGE",
+        "start_char": 36,
+        "end_char": 40,
+        "confidence": 0.99,
+        "dosage_details": {
+          "value": "81",
+          "unit": "mg",
+          "frequency": null
+        },
+        "value": "81",
+        "unit": "mg",
+        "frequency": null,
+        "normalized": null,
+        "id": "E3",
+        "start": 36,
+        "end": 40,
+        "text": "81mg"
+      }
+    ],
+    "relation_candidates": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "treated_by",
+        "label": null,
+        "score": null,
+        "status": "unsupported"
+      },
+      {
+        "head": "E2",
+        "tail": "E3",
+        "allowed_relation": "has_dosage",
+        "label": null,
+        "score": null,
+        "status": "unsupported"
+      }
+    ],
+    "relations": [],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Bệnh nhân bị đau đầu, uống Paracetamol 500mg 2 viên/ngày.",
+    "entities": [
+      {
+        "surface_text": "đau đầu",
+        "label": "CONDITION",
+        "start_char": 13,
+        "end_char": 20,
+        "confidence": 0.9977,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "R51",
+          "label_standard": "Đau đầu",
+          "match_method": "exact",
+          "match_score": 1.0
+        },
+        "id": "E1",
+        "start": 13,
+        "end": 20,
+        "text": "đau đầu"
+      },
+      {
+        "surface_text": "Paracetamol",
+        "label": "DRUG",
+        "start_char": 27,
+        "end_char": 38,
+        "confidence": 0.9947,
+        "normalized": {
+          "ontology": "RxNorm",
+          "code": "161",
+          "label_standard": "acetaminophen",
+          "match_method": "api",
+          "match_score": 1.0
+        },
+        "id": "E2",
+        "start": 27,
+        "end": 38,
+        "text": "Paracetamol"
+      },
+      {
+        "surface_text": "500mg 2 viên/ngày",
+        "label": "DOSAGE",
+        "start_char": 39,
+        "end_char": 56,
+        "confidence": 0.9927,
+        "dosage_details": {
+          "value": "500",
+          "unit": "mg",
+          "frequency": "2 viên/ngày"
+        },
+        "value": "500",
+        "unit": "mg",
+        "frequency": "2 viên/ngày",
+        "normalized": null,
+        "id": "E3",
+        "start": 39,
+        "end": 56,
+        "text": "500mg 2 viên/ngày"
+      }
+    ],
+    "relation_candidates": [
+      {
+        "head": "E1",
+        "tail": "E2",
+        "allowed_relation": "treated_by",
+        "label": null,
+        "score": null,
+        "status": "unsupported"
+      },
+      {
+        "head": "E2",
+        "tail": "E3",
+        "allowed_relation": "has_dosage",
+        "label": null,
+        "score": null,
+        "status": "unsupported"
+      }
+    ],
+    "relations": [],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Bác bị huyết áp cao và rối loạn mỡ máu.",
+    "entities": [
+      {
+        "surface_text": "huyết áp cao",
+        "label": "CONDITION",
+        "start_char": 7,
+        "end_char": 19,
+        "confidence": 0.9966,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "I10",
+          "label_standard": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+          "match_method": "synonym",
+          "match_score": 1.0
+        },
+        "id": "E1",
+        "start": 7,
+        "end": 19,
+        "text": "huyết áp cao"
+      },
+      {
+        "surface_text": "rối loạn mỡ máu",
+        "label": "CONDITION",
+        "start_char": 23,
+        "end_char": 38,
+        "confidence": 0.9978,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "E78",
+          "label_standard": "Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác",
+          "match_method": "synonym",
+          "match_score": 1.0
+        },
+        "id": "E2",
+        "start": 23,
+        "end": 38,
+        "text": "rối loạn mỡ máu"
+      }
+    ],
+    "relation_candidates": [],
+    "relations": [],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Bệnh nhân bị viêm phổi, sốt cao, ho nhiều.",
+    "entities": [
+      {
+        "surface_text": "viêm phổi",
+        "label": "CONDITION",
+        "start_char": 13,
+        "end_char": 22,
+        "confidence": 0.9971,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "J18",
+          "label_standard": "Viêm phổi, vi sinh vật không xác định",
+          "match_method": "synonym",
+          "match_score": 1.0
+        },
+        "id": "E1",
+        "start": 13,
+        "end": 22,
+        "text": "viêm phổi"
+      },
+      {
+        "surface_text": "sốt cao",
+        "label": "CONDITION",
+        "start_char": 24,
+        "end_char": 31,
+        "confidence": 0.9951,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "R50",
+          "label_standard": "Sốt không rõ nguyên nhân khác",
+          "match_method": "synonym",
+          "match_score": 1.0
+        },
+        "id": "E2",
+        "start": 24,
+        "end": 31,
+        "text": "sốt cao"
+      },
+      {
+        "surface_text": "ho",
+        "label": "CONDITION",
+        "start_char": 33,
+        "end_char": 35,
+        "confidence": 0.9976,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "R05",
+          "label_standard": "Ho",
+          "match_method": "exact",
+          "match_score": 1.0
+        },
+        "id": "E3",
+        "start": 33,
+        "end": 35,
+        "text": "ho"
+      }
+    ],
+    "relation_candidates": [],
+    "relations": [],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  },
+  {
+    "text": "Bệnh nhân bị đái tháo đường, thỉnh thoảng đau đầu và táo bón.",
+    "entities": [
+      {
+        "surface_text": "đái tháo đường",
+        "label": "CONDITION",
+        "start_char": 13,
+        "end_char": 27,
+        "confidence": 0.9978,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "E14",
+          "label_standard": "Bệnh đái tháo đường không xác định",
+          "match_method": "synonym",
+          "match_score": 1.0
+        },
+        "id": "E1",
+        "start": 13,
+        "end": 27,
+        "text": "đái tháo đường"
+      },
+      {
+        "surface_text": "đau đầu",
+        "label": "CONDITION",
+        "start_char": 42,
+        "end_char": 49,
+        "confidence": 0.9978,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "R51",
+          "label_standard": "Đau đầu",
+          "match_method": "exact",
+          "match_score": 1.0
+        },
+        "id": "E2",
+        "start": 42,
+        "end": 49,
+        "text": "đau đầu"
+      },
+      {
+        "surface_text": "táo bón",
+        "label": "CONDITION",
+        "start_char": 53,
+        "end_char": 60,
+        "confidence": 0.9978,
+        "normalized": {
+          "ontology": "ICD-10",
+          "code": "K59.0",
+          "label_standard": "Táo bón",
+          "match_method": "exact",
+          "match_score": 1.0
+        },
+        "id": "E3",
+        "start": 53,
+        "end": 60,
+        "text": "táo bón"
+      }
+    ],
+    "relation_candidates": [],
+    "relations": [],
+    "re_metadata": {
+      "label_source": "human_verified",
+      "generic_entities_skipped": [],
+      "supported_relations": [
+        "diagnosed_by",
+        "located_at",
+        "treated_by_procedure"
+      ],
+      "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+    }
+  }
+]

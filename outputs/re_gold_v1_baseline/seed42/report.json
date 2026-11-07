@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "label_source": "human_verified",
+    "allow_ai_labels": false,
+    "source": "C:\\Users\\ASUS\\dev\\Code_Study\\AI-KLTN\\data\\re_gold_v1\\annotations_gold_v1.jsonl",
+    "source_sha256": "35051c0eb7afc4755374309b6d65542b22b74ed44ef9e4b63413c60c7125249e",
+    "schema_sha256": "3fdeece68dbe3cd647e6087d131a206c2ff2df796f4fe8ec7da22af07edc550c",
+    "seed": 42,
+    "python": "3.12.5",
+    "sklearn": "1.9.1",
+    "model": "character TF-IDF (2,5), balanced LogisticRegression C=1, threshold=0.5",
+    "split_policy": "70/15/15 normalized-text groups; one group per label reserved for train",
+    "supported_relations": [
+      "diagnosed_by",
+      "located_at",
+      "treated_by_procedure"
+    ],
+    "unsupported_relations": [
+      "has_dosage",
+      "treated_by"
+    ],
+    "limitations": [
+      "AI label agreement, not expert gold accuracy",
+      "Review flags retained; definite pairs from flagged samples included",
+      "Unknown/unannotated pairs excluded, never converted to negatives",
+      "Source VietMed train; not an independent NER/end-to-end benchmark",
+      "Text grouping does not establish speaker/conversation independence",
+      "Rare or absent labels cannot be meaningfully evaluated",
+      "Exploratory diagnostics, not a finalized thesis evaluation protocol"
+    ]
+  },
+  "data_audit": {
+    "samples": 600,
+    "included_pairs_with_review_flags": 0,
+    "unknown_pairs_excluded": 24,
+    "included_pairs": 162,
+    "samples_with_included_pairs": 73
+  },
+  "splits": {
+    "train": {
+      "pairs": 124,
+      "text_groups": 51,
+      "labels": {
+        "treated_by_procedure": 3,
+        "NO_RELATION": 104,
+        "located_at": 16,
+        "diagnosed_by": 1
+      },
+      "pairs_with_review_flags": 0
+    },
+    "dev": {
+      "pairs": 21,
+      "text_groups": 11,
+      "labels": {
+        "NO_RELATION": 18,
+        "treated_by_procedure": 1,
+        "located_at": 2
+      },
+      "pairs_with_review_flags": 0
+    },
+    "test": {
+      "pairs": 17,
+      "text_groups": 11,
+      "labels": {
+        "NO_RELATION": 15,
+        "located_at": 2
+      },
+      "pairs_with_review_flags": 0
+    }
+  },
+  "evaluation": {
+    "dev": {
+      "positive_micro": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4
+      },
+      "positive_macro_f1_all_five": 0.13333333333333333,
+      "per_relation": {
+        "located_at": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "has_evaluation_support": true
+        },
+        "treated_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "has_evaluation_support": false
+        },
+        "treated_by_procedure": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 1,
+          "has_evaluation_support": true
+        },
+        "diagnosed_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "has_evaluation_support": false
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "has_evaluation_support": false
+        }
+      },
+      "pairs": 21,
+      "negative_support": 18,
+      "unsupported_predictions": 5
+    },
+    "test": {
+      "positive_micro": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "positive_macro_f1_all_five": 0.1,
+      "per_relation": {
+        "located_at": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "support": 2,
+          "has_evaluation_support": true
+        },
+        "treated_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "has_evaluation_support": false
+        },
+        "treated_by_procedure": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "has_evaluation_support": false
+        },
+        "diagnosed_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "has_evaluation_support": false
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "has_evaluation_support": false
+        }
+      },
+      "pairs": 17,
+      "negative_support": 15,
+      "unsupported_predictions": 1
+    }
+  }
+}

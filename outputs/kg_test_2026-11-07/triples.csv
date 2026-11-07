@@ -1,0 +1,294 @@
+﻿head_key,head_name,relation,tail_key,tail_name,count,documents,sources,mean_score,example
+CONDITION:thuyên tắc huyết khối,thuyên tắc huyết khối,located_at,BODY_PART:tĩnh mạch,tĩnh mạch,9,9,"{""model"": 3, ""rule"": 6}",0.850,vậy việc dự phòng thuyên tắc huyết khối tĩnh mạch là rất cần thiết và quan trọng trong đó người bệnh phẫu thuật tiêu hóa
+ICD-10:M89.5,Tiêu xương,located_at,BODY_PART:xương,xương,8,7,"{""model"": 8}",0.605,bác sĩ tư vấn cũng khá là cụ thể cho một cái trường hợp bị tiêu xương dạng nhẹ thôi thì cái cách giúp xương như thế nào
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:răng,răng,6,4,"{""model"": 6}",0.522,cái răng bên cạnh có những cái chỗ sâu mặc dịch vụ mình đã nhổ răng khôn rồi nhưng mà cái đau có thể là những cái răng bên cạnh có liên quan cho nên là để
+ICD-10:M89.5,Tiêu xương,located_at,BODY_PART:răng,răng,5,4,"{""model"": 5}",0.580,răng ít thôi nhưng lại tiêu xương rất là nhiều và cái giải pháp cho những người mà bị tiêu xương nhiều là như thế nào
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:thần kinh,thần kinh,5,5,"{""model"": 4, ""rule"": 1}",0.616,phối cái cái hàm trên với hàm dưới đó tuy nhiên những biến chứng mà do cái cái nhổ răng mà gây ra đó mà đau thần kinh
+CONDITION:ra máu,ra máu,located_at,BODY_PART:âm đạo,âm đạo,4,4,"{""rule"": 3, ""model"": 1}",0.879,không có kinh hoặc là là ra máu âm đạo kéo dài và một số nguyên nhân thực thể tức là có những bệnh lý thực thực thực
+ICD-10:R58,Chảy máu chưa được phân loại ở nơi khác,located_at,BODY_PART:đại tràng,đại tràng,4,1,"{""model"": 4}",0.522,đại tràng với những hình ảnh như là xuất huyết này chảy máu này hoặc là những cái ổ viêm nhiễm áp xe ở đại tràng tổn
+CONDITION:mất răng,mất răng,located_at,BODY_PART:xương,xương,4,4,"{""model"": 4}",0.604,rất là thường gặp mà làm tiêu cái xương hàm chính là cái mất răng lâu ngày thì chúng ta xương là một cái mô sống cho
+CONDITION:mất,mất,located_at,BODY_PART:răng,răng,4,4,"{""model"": 4}",0.569,cảm ơn câu hỏi của cô thì chúng ta thấy là cái nguyên nhân mà gây tiêu xương lúc nãy đó thì sẽ có cái phần bị mất răng
+CONDITION:rong huyết,rong huyết,located_at,BODY_PART:máu,máu,3,3,"{""model"": 3}",0.537,rong kinh rong huyết kéo dài do không không cầm máu được ngoài ra thì do những
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:xương,xương,3,3,"{""model"": 3}",0.556,khám suốt tiểu đường nó vẫn mệt mỏi vô khám tai biến bộ não vô khám nhưng mà xương thì nó loãng xương rất là nhiều
+CONDITION:hoại tử,hoại tử,located_at,BODY_PART:xương hàm,xương hàm,3,3,"{""model"": 3}",0.594,một vấn đề quang cảm là thuốc có thể gây hoại tử xương hàm đối với
+CONDITION:áp xe,áp xe,located_at,BODY_PART:đại tràng,đại tràng,3,2,"{""model"": 2, ""rule"": 1}",0.699,đại tràng với những hình ảnh như là xuất huyết này chảy máu này hoặc là những cái ổ viêm nhiễm áp xe ở đại tràng tổn
+CONDITION:mọc,mọc,located_at,BODY_PART:răng,răng,3,2,"{""rule"": 1, ""model"": 2}",0.693,trước đây khi thay răng sữa xong thì bé không mọc răng vĩnh cửu khoảng là trên mười
+CONDITION:tiêu,tiêu,located_at,BODY_PART:xương,xương,3,2,"{""model"": 3}",0.660,neo giữ những cái răng thì như vậy khi mà gọi là tiêu xương hàm là tiêu những cái phần xương mà xung quanh cái răng và
+CONDITION:mất răng,mất răng,located_at,BODY_PART:xương hàm,xương hàm,3,3,"{""model"": 3}",0.600,rất là thường gặp mà làm tiêu cái xương hàm chính là cái mất răng lâu ngày thì chúng ta xương là một cái mô sống cho
+CONDITION:mất răng,mất răng,located_at,BODY_PART:răng,răng,3,2,"{""model"": 3}",0.548,mất răng mà mình không có điều trị mình không trồng răng lại thì cái phần xương
+CONDITION:bị tiêu,bị tiêu,located_at,BODY_PART:răng,răng,3,2,"{""model"": 3}",0.539,thì xương sẽ bị tiêu rồi khi mà tiêu mà mình muốn trồng răng lại thì mình phải
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:gáy,gáy,3,2,"{""model"": 3}",0.552,gáy rồi đau nhức cơ thể dễ dàng xuất hiện để có thể lại những dấu hiệu
+CONDITION:dị vật,dị vật,located_at,BODY_PART:đường sinh dục,đường sinh dục,2,2,"{""model"": 2}",0.552,là bị chấn thương hoặc là dị vật đường sinh dục một số em bé một số người mới ở
+CONDITION:rong kinh,rong kinh,located_at,BODY_PART:máu,máu,2,2,"{""model"": 2}",0.543,rong kinh rong huyết kéo dài do không không cầm máu được ngoài ra thì do những
+CONDITION:rong kinh,rong kinh,located_at,BODY_PART:nội mạc,nội mạc,2,1,"{""model"": 2}",0.588,nội mạc mỏng này khi mà bị rong kinh rong huyết thì mình phải có cái thuốc gì uống để cho nó tăng cường cái nội mạc
+CONDITION:rong huyết,rong huyết,located_at,BODY_PART:nội mạc,nội mạc,2,1,"{""model"": 2}",0.584,nội mạc mỏng này khi mà bị rong kinh rong huyết thì mình phải có cái thuốc gì uống để cho nó tăng cường cái nội mạc
+CONDITION:polyp,polyp,located_at,BODY_PART:buồng tử cung,buồng tử cung,2,2,"{""model"": 2}",0.568,polyp buồng tử cung như thế này thì khi siêu âm mà thường á thì mình không có
+CONDITION:ung thư nội mạc,ung thư nội mạc,located_at,BODY_PART:tử,tử,2,2,"{""model"": 1, ""rule"": 1}",0.767,mạc hoặc là ung thư cổ tử cung ung thư nội mạc tử cung
+ICD-10:T14.2,Gãy xương chưa xác định vùng cơ thể,located_at,BODY_PART:xương,xương,2,1,"{""model"": 2}",0.569,xương đốt sống này gãy xương cổ tay nè gãy xương khớp háng nè gãy cổ xương đùi này để nhập viện quá điều trị là một
+ICD-10:T14.2,Gãy xương chưa xác định vùng cơ thể,located_at,BODY_PART:cổ tay,cổ tay,2,1,"{""model"": 2}",0.595,xương đốt sống này gãy xương cổ tay nè gãy xương khớp háng nè gãy cổ xương đùi này để nhập viện quá điều trị là một
+ICD-10:T14.2,Gãy xương chưa xác định vùng cơ thể,located_at,BODY_PART:khớp háng,khớp háng,2,1,"{""model"": 2}",0.556,xương đốt sống này gãy xương cổ tay nè gãy xương khớp háng nè gãy cổ xương đùi này để nhập viện quá điều trị là một
+CONDITION:trắng,trắng,located_at,BODY_PART:da,da,2,1,"{""model"": 2}",0.593,người châu âu là do là cả vùng đó là ánh nắng thì ít mà cái da người da trắng là người ta hấp thụ ánh sáng thận với người
+CONDITION:lười vận động,lười vận động,located_at,BODY_PART:khung xương,khung xương,2,1,"{""model"": 2}",0.519,càng béo phì thì cái gì hấp thu canxi nó giảm và nó lười vận động mà nó lười vận động ở thì cái hệ khung xương nó sẽ
+CONDITION:quấy khóc,quấy khóc,located_at,BODY_PART:xương,xương,2,1,"{""model"": 2}",0.620,ở trong người nó sẽ quấy khóc nó sẽ quấy khóc thì nó sẽ lấy những cái canxi nó nằm ở trong cái xương nó ra để là hoạt
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:xương,xương,2,2,"{""model"": 2}",0.581,xương vừa điều trị bệnh lý của rất bố bạn có nguy cơ là đau như vậy thì
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:vùng,vùng,2,1,"{""model"": 2}",0.592,loãng xương thì đánh dấu hỏi có thể người ta đo loãng xương ở một vị trí ở vùng gót chân hoặc là tay ta sử dụng
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:gót chân,gót chân,2,1,"{""model"": 2}",0.536,loãng xương thì đánh dấu hỏi có thể người ta đo loãng xương ở một vị trí ở vùng gót chân hoặc là tay ta sử dụng
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:tay,tay,2,1,"{""model"": 2}",0.586,loãng xương thì đánh dấu hỏi có thể người ta đo loãng xương ở một vị trí ở vùng gót chân hoặc là tay ta sử dụng
+CONDITION:viêm nhiễm,viêm nhiễm,located_at,BODY_PART:đại tràng,đại tràng,2,1,"{""model"": 2}",0.518,đại tràng với những hình ảnh như là xuất huyết này chảy máu này hoặc là những cái ổ viêm nhiễm áp xe ở đại tràng tổn
+CONDITION:đầy hơi,đầy hơi,located_at,BODY_PART:bụng,bụng,2,1,"{""model"": 2}",0.506,thành bụng của bệnh nhân nó mỏng đấy còn lại sao đầy hơi chướng bụng thì đầy hơi
+CONDITION:chướng bụng,chướng bụng,located_at,BODY_PART:đại tràng,đại tràng,2,1,"{""model"": 2}",0.586,chướng bụng ở đại tràng nó viêm đại tràng thì nó nhẹ hơn nó không dựng rầm
+CONDITION:bệnh lý viêm,bệnh lý viêm,located_at,BODY_PART:đại tràng,đại tràng,2,2,"{""rule"": 2}",1.000,ba cái mục tiêu chính và giúp cho bệnh lý viêm đại tràng khi bị thì nó ổn định và phải nói dùng từ khỏi thì lâu dài nếu
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:miệng,miệng,2,2,"{""model"": 2}",0.517,được gia đình là chăm sóc rất là nhiều về răng miệng có thể là ba mẹ mà bị đau
+CONDITION:tiêu,tiêu,located_at,BODY_PART:răng,răng,2,1,"{""model"": 2}",0.634,neo giữ những cái răng thì như vậy khi mà gọi là tiêu xương hàm là tiêu những cái phần xương mà xung quanh cái răng và
+ICD-10:M89.5,Tiêu xương,treated_by_procedure,PROCEDURE:phục hồi,phục hồi,2,2,"{""model"": 2}",0.509,ngừa tiêu xương mà mà điều trị đó mà phục hồi đó thì đương nhiên mình phải phải ghép xương nó lại phải tái tạo
+ICD-10:M89.5,Tiêu xương,located_at,BODY_PART:hàm dưới,hàm dưới,2,1,"{""model"": 2}",0.613,rồi cấy những cái vị trí mà nó ít bị tiêu xương chẳng hạn như ở hàm dưới đó thì dù tiêu xương đến đâu thì cái phần
+CONDITION:đau buốt,đau buốt,located_at,BODY_PART:răng,răng,2,1,"{""model"": 2}",0.580,nhổ răng xong thì nó bị đau buốt thì thật ra thì cái cái răng nó vẫn có liên
+CONDITION:bị tiêu,bị tiêu,located_at,BODY_PART:xương,xương,2,2,"{""model"": 2}",0.581,thì xương sẽ bị tiêu rồi khi mà tiêu mà mình muốn trồng răng lại thì mình phải
+CONDITION:bị hư tổn,bị hư tổn,located_at,BODY_PART:mái tóc,mái tóc,2,1,"{""model"": 2}",0.533,đó là những cái nhóm nguyên nhân chính và những cái nguyên nhân lớn để mà dẫn đến một mái tóc bị hư tổn để mà mái tóc
+ICD-10:L67.1,Thay đổi màu tóc,located_at,BODY_PART:tóc,tóc,2,1,"{""model"": 2}",0.535,da đầu khỏe được còn đối với cái người mà phải nhuộm tóc bởi vì tóc bạc tóc
+CONDITION:còi xương,còi xương,located_at,BODY_PART:xương,xương,2,2,"{""model"": 2}",0.568,còi xương do thiếu vitamin d gây xương mềm yếu dễ biến dạng khi chịu trọng lực
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:cơ thể,cơ thể,2,2,"{""model"": 2}",0.614,gáy rồi đau nhức cơ thể dễ dàng xuất hiện để có thể lại những dấu hiệu
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:cánh tay,cánh tay,2,1,"{""model"": 2}",0.519,này gây ra một cảm giác đau nhức dùng vai gáy đau cổ thậm chí yếu cả cánh tay không cử động được đây là căn bệnh rất
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:cơ khớp,cơ khớp,2,1,"{""model"": 2}",0.633,mà bà con mình nó có đau nhức triệu chứng đau nhức cơ khớp vai đặc biệt nếu như mình có giới hạn vận động tức là
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:vai,vai,2,1,"{""model"": 2}",0.587,mà bà con mình nó có đau nhức triệu chứng đau nhức cơ khớp vai đặc biệt nếu như mình có giới hạn vận động tức là
+CONDITION:khối,khối,located_at,BODY_PART:tĩnh mạch,tĩnh mạch,2,2,"{""rule"": 2}",1.000,bản thân và rộng hơn là vì sức khỏe cộng đồng thưa quý vị tại việt nam nguyên tắc huyết khối tĩnh mạch là bệnh mạch máu
+ICD-10:C80.9,"U ác, không đặc hiệu",located_at,BODY_PART:đường tiêu hóa,đường tiêu hóa,2,1,"{""model"": 2}",0.596,thư trong đó ung thư liên quan đến đường tiêu hóa là một trong những loại ung thư có nguy cơ hình thành huyết khối cao
+ICD-10:C80.9,"U ác, không đặc hiệu",located_at,BODY_PART:huyết,huyết,2,1,"{""model"": 2}",0.541,thư trong đó ung thư liên quan đến đường tiêu hóa là một trong những loại ung thư có nguy cơ hình thành huyết khối cao
+CONDITION:thuyên tắc huyết,thuyên tắc huyết,treated_by_procedure,PROCEDURE:phẫu thuật,phẫu thuật,2,2,"{""model"": 2}",0.519,thuyên tắc huyết khối tĩnh mạch và xây dựng được một chiến lược dự phòng hiệu quả cho người bệnh phẫu thuật tiêu hóa
+ICD-10:R45.0,Căng thẳng,treated_by_procedure,PROCEDURE:phẫu thuật,phẫu thuật,2,1,"{""model"": 2}",0.666,hoang mang căng thẳng người bệnh không cần nhịn ăn được nạp đường trước phẫu thuật trong phẫu thuật tùy tình trạng
+CONDITION:kinh,kinh,located_at,BODY_PART:nguyệt,nguyệt,1,1,"{""model"": 1}",0.508,hiện kinh nguyệt nó sẽ không vấn đề hoặc là nó không đều mà
+CONDITION:polyp,polyp,located_at,BODY_PART:nội mạc,nội mạc,1,1,"{""model"": 1}",0.572,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:polyp,polyp,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.535,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:polyp,polyp,located_at,BODY_PART:nội,nội,1,1,"{""model"": 1}",0.528,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:tăng sản,tăng sản,located_at,BODY_PART:nội mạc,nội mạc,1,1,"{""model"": 1}",0.501,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:tăng sản,tăng sản,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.502,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:tăng sản,tăng sản,located_at,BODY_PART:nội,nội,1,1,"{""model"": 1}",0.530,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:mạc,mạc,located_at,BODY_PART:nội mạc,nội mạc,1,1,"{""model"": 1}",0.529,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:mạc,mạc,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.533,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+CONDITION:mạc,mạc,located_at,BODY_PART:nội,nội,1,1,"{""model"": 1}",0.542,những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc
+ICD-10:C54.1,U ác của nội mạc tử cung,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.565,tử cung là ung thư nội mạc tử cung nó thể một số những cái trường hợp như
+ICD-10:T14.9,"Tổn thương, chưa xác định",located_at,BODY_PART:đường sinh dục,đường sinh dục,1,1,"{""model"": 1}",0.596,là bị chấn thương hoặc là dị vật đường sinh dục một số em bé một số người mới ở
+ICD-10:C50,U ác của vú,treated_by,RxNorm:10324,tamoxifen,1,1,"{""rule"": 1}",1.000,trị bệnh ung thư vú chẳng hạn bằng tamoxifen này kéo dài thì nó cũng hay gây nên ra máu âm đạo bất thường
+CONDITION:rong kinh,rong kinh,located_at,BODY_PART:nội tiết,nội tiết,1,1,"{""model"": 1}",0.525,là khi điều trị bằng nội tiết để mà điều trị rong kinh rong huyết thì có hai
+CONDITION:rong huyết,rong huyết,located_at,BODY_PART:nội tiết,nội tiết,1,1,"{""model"": 1}",0.527,là khi điều trị bằng nội tiết để mà điều trị rong kinh rong huyết thì có hai
+ICD-10:D48.9,"U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu",located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.515,siêu âm tử cung buồng trứng để mình xem thử là có khối u dây của bộ phận sinh
+CONDITION:mất máu,mất máu,located_at,BODY_PART:máu,máu,1,1,"{""model"": 1}",0.529,vì về cận lâm sàng thì ngoài cái công thức máu để biết được mức độ mất máu của
+ICD-10:C53,U ác của cổ tử cung,located_at,BODY_PART:tử cung,tử cung,1,1,"{""rule"": 1}",1.000,làm như tế bào âm đạo để tầm soát ung thư cổ tử cung này nội soi vùng tử cung cái này thì ít dùng hơn nhưng mà một cái
+ICD-10:D48.9,"U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu",located_at,BODY_PART:cổ tử cung,cổ tử cung,1,1,"{""model"": 1}",0.573,cổ tử cung thì mình phải điều trị kiểu khác hoặc là họ khối u ở âm đạo
+ICD-10:D48.9,"U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu",located_at,BODY_PART:âm đạo,âm đạo,1,1,"{""model"": 1}",0.603,cổ tử cung thì mình phải điều trị kiểu khác hoặc là họ khối u ở âm đạo
+ICD-10:R58,Chảy máu chưa được phân loại ở nơi khác,located_at,BODY_PART:cổ tử cung,cổ tử cung,1,1,"{""model"": 1}",0.504,vì chảy máu từ từ cổ tử cung nhưng mà mình không đặt mọi việc mình không phát
+CONDITION:u,u,located_at,BODY_PART:nội mạc,nội mạc,1,1,"{""model"": 1}",0.527,ạ đây là cái nội mạc tử cung u thì vấn đề là mình điều trị nội tiết mình phải phụ
+CONDITION:u,u,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.508,ạ đây là cái nội mạc tử cung u thì vấn đề là mình điều trị nội tiết mình phải phụ
+CONDITION:u xơ tử cung,u xơ tử cung,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.594,u xơ tử cung tức làm tử cung nó lớn lên thì đây là cái hình hình siêu âm đường bụng
+CONDITION:u xơ tử cung,u xơ tử cung,located_at,BODY_PART:bụng,bụng,1,1,"{""model"": 1}",0.580,u xơ tử cung tức làm tử cung nó lớn lên thì đây là cái hình hình siêu âm đường bụng
+CONDITION:nhân xơ tử cung,nhân xơ tử cung,located_at,BODY_PART:dap,dap,1,1,"{""model"": 1}",0.535,những cái nhân xơ tử cung những trường hợp này có thể là dap bình thường nhưng mà nó phát bệnh nhân xơ như thế này thì
+CONDITION:nhân xơ,nhân xơ,located_at,BODY_PART:thanh mạc,thanh mạc,1,1,"{""model"": 1}",0.648,mạc còn cái này là cũng là nhân xơ dưới thanh mạc nhưng mà nó có cái cuống
+CONDITION:nhân xơ,nhân xơ,located_at,BODY_PART:tử cung,tử cung,1,1,"{""rule"": 1}",1.000,nhân xơ trong tử cung nhân xơ dưới thanh mạc có cuốn và đây là nhân xơ dưới thanh
+CONDITION:khối nhân xơ tử cung,khối nhân xơ tử cung,located_at,BODY_PART:cơ,cơ,1,1,"{""model"": 1}",0.565,cái trắng trắng đây thì đây mình có một cái khối nhân xơ tử cung này là nằm nằm trong cơ tử cung nhưng mà nó
+CONDITION:khối nhân xơ tử cung,khối nhân xơ tử cung,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.586,cái trắng trắng đây thì đây mình có một cái khối nhân xơ tử cung này là nằm nằm trong cơ tử cung nhưng mà nó
+CONDITION:xơ,xơ,located_at,BODY_PART:cơ,cơ,1,1,"{""model"": 1}",0.554,là một cái nhân xơ ở mặt sau trong cơ tử cung thì cái mặt mà nó gần với bàng quang là nó ở phía trước thì
+CONDITION:xơ,xơ,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.571,là một cái nhân xơ ở mặt sau trong cơ tử cung thì cái mặt mà nó gần với bàng quang là nó ở phía trước thì
+CONDITION:xơ,xơ,located_at,BODY_PART:bàng quang,bàng quang,1,1,"{""model"": 1}",0.572,là một cái nhân xơ ở mặt sau trong cơ tử cung thì cái mặt mà nó gần với bàng quang là nó ở phía trước thì
+CONDITION:polyp buồng,polyp buồng,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.557,chắc chắn là đây có phải là một cái polyp buồng tử cung không thì mình sẽ dùng một cái kỹ thuật siêu âm này
+CONDITION:đa đa polyp,đa đa polyp,located_at,BODY_PART:buồng tử cung,buồng tử cung,1,1,"{""model"": 1}",0.566,vậy bạn sẽ chẳng đó là đa đa polyp buồng tử cung ba cái polyp này thì những
+CONDITION:quá sản nội mạc,quá sản nội mạc,located_at,BODY_PART:tử cung,tử cung,1,1,"{""rule"": 1}",1.000,giải phẫu bệnh lý coi thử có bị quá sản nội mạc tử cung hay không hay là coi tuổi thọ có bị bị ung thư nội mạc tử
+ICD-10:R58,Chảy máu chưa được phân loại ở nơi khác,located_at,BODY_PART:ổ bụng,ổ bụng,1,1,"{""rule"": 1}",1.000,thể là bị bị cái biểu hiện ra tại chó bà ra máu chảy máu vào trong trong ổ bụng bệnh nhân sẽ bị choáng do đau đớn mà choáng
+CONDITION:ra,ra,located_at,BODY_PART:mắt,mắt,1,1,"{""model"": 1}",0.512,ra mắt máu thì lúc đó phải mổ mổ cấp cứu để mà may cái lỗ thủng này là nên một
+CONDITION:máu,máu,located_at,BODY_PART:mắt,mắt,1,1,"{""model"": 1}",0.507,ra mắt máu thì lúc đó phải mổ mổ cấp cứu để mà may cái lỗ thủng này là nên một
+CONDITION:có thai,có thai,located_at,BODY_PART:bàng quang,bàng quang,1,1,"{""model"": 1}",0.526,mà họ vẫn bị có thai đây này là bàng quang nha đây đây là trường hợp mà cái vòng nó
+CONDITION:polyp,polyp,located_at,BODY_PART:cổ tử cung,cổ tử cung,1,1,"{""rule"": 1}",1.000,là ung thư cổ tử cung hoặc là những trường hợp viêm cổ tử cung polyp cổ tử cung trường hợp mà ra máu từ âm đạo thì có
+CONDITION:nhân xơ tử cung,nhân xơ tử cung,located_at,BODY_PART:buồng tử cung,buồng tử cung,1,1,"{""model"": 1}",0.507,là đo chỗ nào một số hình ảnh về để nạo buồng tử cung và nhân xơ tử cung
+CONDITION:ra máu,ra máu,located_at,BODY_PART:nhau thai,nhau thai,1,1,"{""rule"": 1}",1.000,kèm theo có thai thì chắc chắn là là bây giờ đang bị ra máu ra máu nhau thai
+ICD-10:S72.0,Gãy cổ xương đùi,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.557,xương đốt sống này gãy xương cổ tay nè gãy xương khớp háng nè gãy cổ xương đùi này để nhập viện quá điều trị là một
+ICD-10:S72.0,Gãy cổ xương đùi,located_at,BODY_PART:cổ tay,cổ tay,1,1,"{""model"": 1}",0.560,xương đốt sống này gãy xương cổ tay nè gãy xương khớp háng nè gãy cổ xương đùi này để nhập viện quá điều trị là một
+ICD-10:S72.0,Gãy cổ xương đùi,located_at,BODY_PART:khớp háng,khớp háng,1,1,"{""model"": 1}",0.520,xương đốt sống này gãy xương cổ tay nè gãy xương khớp háng nè gãy cổ xương đùi này để nhập viện quá điều trị là một
+ICD-10:T14.2,Gãy xương chưa xác định vùng cơ thể,located_at,BODY_PART:chân,chân,1,1,"{""model"": 1}",0.517,chân té gãy xương thì lúc đó vào bệnh viện mới cảm nhận được mới bác sĩ nó các bạn là loãng xương rồi
+ICD-10:M81.9,Loãng xương không đặc hiệu,treated_by_procedure,PROCEDURE:mổ,mổ,1,1,"{""model"": 1}",0.514,mới phát hiện mình nó có thể ba mẹ mình loãng xương và bác sĩ điều trị mổ cho bà xong rồi cho về cũng không có hướng dẫn
+CONDITION:đói,đói,located_at,BODY_PART:chân,chân,1,1,"{""rule"": 1}",1.000,chân bên này đói bụng sự thiếu quan tâm của loãng xương hiện nay và đến khi
+CONDITION:đói,đói,located_at,BODY_PART:bụng,bụng,1,1,"{""rule"": 1}",1.000,chân bên này đói bụng sự thiếu quan tâm của loãng xương hiện nay và đến khi
+ICD-10:R50,Sốt không rõ nguyên nhân khác,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.577,ừ vậy thì có vi chất dinh dưỡng nào quan trọng cho xương tủy xương thì nó loãng thì chúng ta cần là có do nó bị sốt nó
+ICD-10:R50,Sốt không rõ nguyên nhân khác,located_at,BODY_PART:tủy xương,tủy xương,1,1,"{""model"": 1}",0.544,ừ vậy thì có vi chất dinh dưỡng nào quan trọng cho xương tủy xương thì nó loãng thì chúng ta cần là có do nó bị sốt nó
+CONDITION:lão già,lão già,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.599,lỏng nếu như là cái cây nó già nó sẽ mục đi thì nó là giống như cái xương của mình nó lão già đó thì cái dinh dưỡng nó
+CONDITION:rối loạn nội môi,rối loạn nội môi,located_at,BODY_PART:cơ thể,cơ thể,1,1,"{""rule"": 1}",1.000,ở thận và nó giảm hấp canxi ở ruột mà nó gây rối loạn nội môi trong cơ thể và ăn nhiều quá nhiều photpho cũng không
+ICD-10:M81.9,Loãng xương không đặc hiệu,treated_by,DRUG:hoocmon,hoocmon,1,1,"{""rule"": 1}",1.000,ta không nên điều trị hoocmon dùng để cho loãng xương là đang hầu như là ta
+ICD-10:E66.9,"Béo phì, không đặc hiệu",located_at,BODY_PART:khung xương,khung xương,1,1,"{""model"": 1}",0.507,càng béo phì thì cái gì hấp thu canxi nó giảm và nó lười vận động mà nó lười vận động ở thì cái hệ khung xương nó sẽ
+ICD-10:C80.9,"U ác, không đặc hiệu",treated_by_procedure,PROCEDURE:uống thuốc,uống thuốc,1,1,"{""model"": 1}",0.634,rất là nhiều thứ ung thư này ông thư kia như người ta uống thuốc rất là nhiều có một người gần một người hút thuốc lá
+ICD-10:E14,Bệnh đái tháo đường không xác định,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.512,khám suốt tiểu đường nó vẫn mệt mỏi vô khám tai biến bộ não vô khám nhưng mà xương thì nó loãng xương rất là nhiều
+ICD-10:R53,Khó ở và mệt mỏi,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.526,khám suốt tiểu đường nó vẫn mệt mỏi vô khám tai biến bộ não vô khám nhưng mà xương thì nó loãng xương rất là nhiều
+CONDITION:tai biến bộ não,tai biến bộ não,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.516,khám suốt tiểu đường nó vẫn mệt mỏi vô khám tai biến bộ não vô khám nhưng mà xương thì nó loãng xương rất là nhiều
+CONDITION:còi cọc,còi cọc,located_at,BODY_PART:tuyến cận giáp,tuyến cận giáp,1,1,"{""model"": 1}",0.517,bệnh như còi cọc nè bệnh không có thể hấp thu canxi nè bệnh do tuyến cận giáp
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:buồng trứng,buồng trứng,1,1,"{""model"": 1}",0.503,sớm hoặc là mình bị cắt buồng trứng vậy ung thư gì đó còn mà để loãng xương
+ICD-10:K59.0,Táo bón,treated_by,RxNorm:11253,vitamin D,1,1,"{""rule"": 1}",1.000,viện ăn uống không được thì chúng ta nên dùng với vitamin d còn khi đã sử dụng táo bón thì thậm chí mình dùng bất cứ
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:chân,chân,1,1,"{""model"": 1}",0.510,xuống chân thì nó không liên quan gì tới loãng xương thường đó là do thoát vị đĩa đệm thoái hóa cột sống gai gây ra loãng
+ICD-10:M51.2,Thoát vị đĩa đệm đốt sống đặc hiệu khác,located_at,BODY_PART:chân,chân,1,1,"{""model"": 1}",0.530,xuống chân thì nó không liên quan gì tới loãng xương thường đó là do thoát vị đĩa đệm thoái hóa cột sống gai gây ra loãng
+ICD-10:M47,thoái hóa cột sống,located_at,BODY_PART:chân,chân,1,1,"{""model"": 1}",0.535,xuống chân thì nó không liên quan gì tới loãng xương thường đó là do thoát vị đĩa đệm thoái hóa cột sống gai gây ra loãng
+ICD-10:M51.2,Thoát vị đĩa đệm đốt sống đặc hiệu khác,located_at,BODY_PART:thần kinh,thần kinh,1,1,"{""model"": 1}",0.504,trong y học thì phải đó là nó chen rễ thần kinh do thoát vị đĩa đệm hoặc là là là gai cột sống gì đó hoặc là
+ICD-10:M51.2,Thoát vị đĩa đệm đốt sống đặc hiệu khác,located_at,BODY_PART:cột sống,cột sống,1,1,"{""model"": 1}",0.531,trong y học thì phải đó là nó chen rễ thần kinh do thoát vị đĩa đệm hoặc là là là gai cột sống gì đó hoặc là
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:thần kinh,thần kinh,1,1,"{""model"": 1}",0.518,loãng xương gây chèn thần kinh cũng có chứ không phải không có nên là nhưng mà được bước tiên nhất là mình phải ưu tiên
+ICD-10:M81.9,Loãng xương không đặc hiệu,diagnosed_by,TEST:kiểm tra,kiểm tra,1,1,"{""rule"": 1}",1.000,là thứ nhất là để chúng tôi sẽ nói với bạn hiểu nghĩa là kiểm tra sức khỏe để chẩn đoán loãng xương thì kiểm
+RxNorm:1895,calcium,has_dosage,DOSAGE:một ngàn miligam,một ngàn miligam,1,1,"{""rule"": 1}",1.000,mà cầm một viên canxi một ngàn miligam nằm ở trong cái cái lọ như thuốc mà là supplement vô hồn nó
+ICD-10:T88.7,Tác dụng phụ chưa xác định của thuốc hoặc dược phẩm,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.581,hủy xương là biphosphonate này có tác dụng phụ thường gặp nhất
+CONDITION:trào ngược dạ dày,trào ngược dạ dày,located_at,BODY_PART:thực quản,thực quản,1,1,"{""rule"": 1}",1.000,cho chúng ta là gây hội chứng trào ngược dạ dày thực quản gây viêm thực quản
+CONDITION:quang cảm,quang cảm,located_at,BODY_PART:xương hàm,xương hàm,1,1,"{""model"": 1}",0.594,một vấn đề quang cảm là thuốc có thể gây hoại tử xương hàm đối với
+ICD-10:M81.9,Loãng xương không đặc hiệu,located_at,BODY_PART:xương hàm,xương hàm,1,1,"{""model"": 1}",0.586,biphosphonate mà loãng gây hoại tử xương hàm đó đều là những người đó loãng xương bệnh
+CONDITION:đầy hơi,đầy hơi,located_at,BODY_PART:đại,đại,1,1,"{""model"": 1}",0.559,hiệu đầy hơi chướng bụng này cũng có cái đau này cũng có cái rối loạn đại tiện nhưng mà đi sâu vào chi tiết thì khác
+CONDITION:chướng bụng,chướng bụng,located_at,BODY_PART:đại,đại,1,1,"{""model"": 1}",0.542,hiệu đầy hơi chướng bụng này cũng có cái đau này cũng có cái rối loạn đại tiện nhưng mà đi sâu vào chi tiết thì khác
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:đại,đại,1,1,"{""model"": 1}",0.562,hiệu đầy hơi chướng bụng này cũng có cái đau này cũng có cái rối loạn đại tiện nhưng mà đi sâu vào chi tiết thì khác
+CONDITION:tiện,tiện,located_at,BODY_PART:đại,đại,1,1,"{""model"": 1}",0.534,hiệu đầy hơi chướng bụng này cũng có cái đau này cũng có cái rối loạn đại tiện nhưng mà đi sâu vào chi tiết thì khác
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:đại tràng,đại tràng,1,1,"{""rule"": 1}",1.000,thì đau của đại tràng ấy là thường viêm đại tràng thường là đau ở hố chậu trái hoặc hố chậu phải và ở tại chỗ
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:hố chậu trái,hố chậu trái,1,1,"{""rule"": 1}",1.000,thì đau của đại tràng ấy là thường viêm đại tràng thường là đau ở hố chậu trái hoặc hố chậu phải và ở tại chỗ
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:ruột,ruột,1,1,"{""model"": 1}",0.524,lúc người ta còn thấy nổi quận lên và trung tiện đại tiện xong thì nó đỡ đau cho nên người ta còn có hội chứng ruột kích
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:vùng bụng,vùng bụng,1,1,"{""model"": 1}",0.677,như một cái quả trứng ở trong ở vùng bụng khi cái cơn đau dữ dội nên nếu cơ
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:cơ,cơ,1,1,"{""model"": 1}",0.618,như một cái quả trứng ở trong ở vùng bụng khi cái cơn đau dữ dội nên nếu cơ
+CONDITION:chướng bụng,chướng bụng,located_at,BODY_PART:ruột,ruột,1,1,"{""model"": 1}",0.509,rộ như của hội chứng ruột kích thích và khi đầy hơi chướng bụng ruột kích thích trung tiện đại tiện thì xong nó đỡ
+CONDITION:lỵ,lỵ,located_at,BODY_PART:đường tay,đường tay,1,1,"{""model"": 1}",0.553,đường tay rồi mà miệng rồi rau sống ăn thì bị lỵ thì gia đình đều bị hết và có
+CONDITION:viêm sung huyết,viêm sung huyết,located_at,BODY_PART:đại tràng,đại tràng,1,1,"{""model"": 1}",0.588,độc tố cho nên cái viêm sung huyết đại tràng đặc biệt làm sao trước kia là hay bị lỵ amip nó gây tổn thương viêm và
+CONDITION:lỵ,lỵ,located_at,BODY_PART:đại tràng,đại tràng,1,1,"{""model"": 1}",0.555,độc tố cho nên cái viêm sung huyết đại tràng đặc biệt làm sao trước kia là hay bị lỵ amip nó gây tổn thương viêm và
+CONDITION:amip,amip,located_at,BODY_PART:đại tràng,đại tràng,1,1,"{""model"": 1}",0.556,độc tố cho nên cái viêm sung huyết đại tràng đặc biệt làm sao trước kia là hay bị lỵ amip nó gây tổn thương viêm và
+CONDITION:tổn thương viêm,tổn thương viêm,located_at,BODY_PART:đại tràng,đại tràng,1,1,"{""model"": 1}",0.586,độc tố cho nên cái viêm sung huyết đại tràng đặc biệt làm sao trước kia là hay bị lỵ amip nó gây tổn thương viêm và
+ICD-10:K59.0,Táo bón,treated_by,DRUG:tràng,tràng,1,1,"{""rule"": 1}",1.000,đại tràng thường có khi là táo bón thì lại dùng nhuận tràng thì đấy là gọi đối chứng lập phương triệu chứng thôi nhưng
+ICD-10:U07.1,COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính),located_at,BODY_PART:đường tiêu hóa,đường tiêu hóa,1,1,"{""model"": 1}",0.593,chúng ta thấy trong hai năm vừa rồi có cái trường hợp covid thì các bệnh lý về đường tiêu hóa nhất là cái đại tràng
+ICD-10:U07.1,COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính),located_at,BODY_PART:đại tràng,đại tràng,1,1,"{""model"": 1}",0.567,chúng ta thấy trong hai năm vừa rồi có cái trường hợp covid thì các bệnh lý về đường tiêu hóa nhất là cái đại tràng
+CONDITION:hội chứng ruột,hội chứng ruột,located_at,BODY_PART:thần kinh,thần kinh,1,1,"{""rule"": 1}",1.000,là phải điều trị ổn định cái thần kinh của bệnh nhân bị hội chứng ruột kích thích bởi vì làm sao cái trục thần kinh
+ICD-10:R45.0,Căng thẳng,located_at,BODY_PART:thần kinh,thần kinh,1,1,"{""rule"": 1}",1.000,định được thần kinh ruột và đặc biệt làm sao cái thần kinh của chị cũng đỡ căng thẳng hơn qua chi5 cung cấp cho
+DRUG:ngừa thai,ngừa thai,has_dosage,DOSAGE:cao,cao,1,1,"{""rule"": 1}",1.000,ngừa thai cao hay không ạ vì là em nghe nói người ta kêu đặt vòng mà nếu như mà
+DRUG:tránh thai,tránh thai,has_dosage,DOSAGE:một nang,một nang,1,1,"{""rule"": 1}",1.000,thế giới cũng như việt nam thì thường sử dụng các loại que tránh thai một nang nó
+CONDITION:nám da,nám da,located_at,BODY_PART:nội tiết,nội tiết,1,1,"{""model"": 1}",0.516,hưởng của nội tiết ví dụ như là nám da mọc mụn thế còn về chi phí của cái đặt vòng
+CONDITION:viêm nhiễm,viêm nhiễm,located_at,BODY_PART:vùng sinh dục,vùng sinh dục,1,1,"{""rule"": 1}",1.000,thuật thì cũng có thể gây viêm nhiễm tại vùng sinh dục đặc biệt là khi mình thực hiện
+DRUG:tránh thai,tránh thai,has_dosage,DOSAGE:thứ nhất,thứ nhất,1,1,"{""rule"": 1}",1.000,tránh thai thứ nhất là cả hai phương pháp đặt vòng và cấy que
+CONDITION:dị dạng,dị dạng,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.642,tử cung bị dị dạng đặc biệt là những cái khối u xơ to chèn ép lên cái lòng tử
+CONDITION:khối u xơ,khối u xơ,located_at,BODY_PART:tử cung,tử cung,1,1,"{""model"": 1}",0.625,tử cung bị dị dạng đặc biệt là những cái khối u xơ to chèn ép lên cái lòng tử
+CONDITION:ra máu,ra máu,located_at,BODY_PART:động kinh,động kinh,1,1,"{""model"": 1}",0.636,động kinh và những người đang ra máu lấy khi
+CONDITION:kinh,kinh,treated_by_procedure,PROCEDURE:que tránh thai,que tránh thai,1,1,"{""model"": 1}",0.525,như cái que tránh thai thường áp dụng cho những người kinh nguyệt đều
+CONDITION:hành,hành,located_at,BODY_PART:kinh,kinh,1,1,"{""model"": 1}",0.543,lâu rồi ạ và hành kinh ra nhiều như thế cũng sau đặt vòng được bao nhiêu lâu ạ
+CONDITION:có thai,có thai,treated_by,DRUG:tránh thai,tránh thai,1,1,"{""rule"": 1}",1.000,pháp tránh thai bằng cấy que mà có thai chắc chắn bạn phải đi khám
+CONDITION:có thai,có thai,located_at,BODY_PART:nội tiết,nội tiết,1,1,"{""model"": 1}",0.537,lại có thai thì theo như khuyến cáo của tổ chức y tế thế giới cái nội tiết ở
+DRUG:cây tránh thai,cây tránh thai,has_dosage,DOSAGE:một nang,một nang,1,1,"{""rule"": 1}",1.000,hiện tại bây giờ phổ biến nhất là loại cây tránh thai một nang nghĩa là có tác
+ICD-10:R58,Chảy máu chưa được phân loại ở nơi khác,located_at,BODY_PART:máu,máu,1,1,"{""model"": 1}",0.552,cái chảy máu tụ máu và sau đó thì định kỳ bác sĩ sẽ tư vấn cho
+CONDITION:u xơ u nang,u xơ u nang,located_at,BODY_PART:huyết,huyết,1,1,"{""model"": 1}",0.511,huyết này hoặc là bệnh u xơ u nang thì có thể đặt vòng được thế nhưng mà cũng
+DRUG:thai,thai,has_dosage,DOSAGE:từ,từ,1,1,"{""rule"": 1}",1.000,vòng có tác dụng tránh thai từ năm đến mười năm nếu mà bạn để đến mười hai năm thì khuyên
+CONDITION:viêm nhiễm,viêm nhiễm,located_at,BODY_PART:bộ phận sinh dục,bộ phận sinh dục,1,1,"{""model"": 1}",0.519,hoặc là có thể gây viêm nhiễm bộ phận sinh dục do đó thì khuyên bạn nên đến
+CONDITION:u vú,u vú,located_at,BODY_PART:niêm mạc,niêm mạc,1,1,"{""model"": 1}",0.547,liên quan đến dày niêm mạc những trường hợp mà bị u vú này đấy thì nó cũng có tác dụng
+ICD-10:M54,Đau lưng,treated_by_procedure,PROCEDURE:phương pháp đặt vòng,phương pháp đặt vòng,1,1,"{""model"": 1}",0.508,đau bụng đau lưng vì vậy thì không biết là tôi có sử dụng được cái phương pháp đặt vòng hay không
+ICD-10:R52.9,"Đau, không đặc hiệu",treated_by_procedure,PROCEDURE:uống thuốc,uống thuốc,1,1,"{""model"": 1}",0.602,là uống thuốc tránh thai và tôi thường gặp phải vấn đề là khá là bị đau
+CONDITION:mất hết răng,mất hết răng,located_at,BODY_PART:hàm,hàm,1,1,"{""model"": 1}",0.581,hỏi như thế này nhiều người lớn tuổi mất hết răng mang hàm giả tháo lắp và bị tiêu xương nhưng muốn hạn chế cái việc
+CONDITION:giả,giả,located_at,BODY_PART:hàm,hàm,1,1,"{""model"": 1}",0.583,hỏi như thế này nhiều người lớn tuổi mất hết răng mang hàm giả tháo lắp và bị tiêu xương nhưng muốn hạn chế cái việc
+ICD-10:M89.5,Tiêu xương,located_at,BODY_PART:hàm,hàm,1,1,"{""model"": 1}",0.599,hỏi như thế này nhiều người lớn tuổi mất hết răng mang hàm giả tháo lắp và bị tiêu xương nhưng muốn hạn chế cái việc
+CONDITION:thẩm mỹ,thẩm mỹ,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.502,trong các quá trình mà trồng răng thì liệu không có mất thẩm mỹ hay không có nghĩa là trống chỗ răng đó hay là bị
+CONDITION:mỏng,mỏng,located_at,BODY_PART:xương hàm,xương hàm,1,1,"{""model"": 1}",0.548,cái là không mọc lên tôi có chở con đi khám và chụp hình thì bác sĩ cho biết xương hàm mỏng không thể cấy implant
+CONDITION:tiêu,tiêu,located_at,BODY_PART:hàm,hàm,1,1,"{""model"": 1}",0.617,neo giữ những cái răng thì như vậy khi mà gọi là tiêu xương hàm là tiêu những cái phần xương mà xung quanh cái răng và
+CONDITION:mất răng,mất răng,located_at,BODY_PART:mô sống,mô sống,1,1,"{""model"": 1}",0.638,rất là thường gặp mà làm tiêu cái xương hàm chính là cái mất răng lâu ngày thì chúng ta xương là một cái mô sống cho
+CONDITION:mất cái răng,mất cái răng,located_at,BODY_PART:xương hàm,xương hàm,1,1,"{""model"": 1}",0.603,nên là khi mà mất cái răng đi thì trên cái phần xương hàm nó không có cái gì giữ không có gì tác động cái lực lên
+CONDITION:u nang,u nang,located_at,BODY_PART:vùng mặt,vùng mặt,1,1,"{""rule"": 1}",1.000,răng lâu ngày tất nhiên thì còn một số cái nguyên nhân khác chẳng hạn như về bị tai nạn hay bệnh lý và u nang vùng mặt
+ICD-10:M89.5,Tiêu xương,treated_by_procedure,PROCEDURE:phẫu thuật ghép xương,phẫu thuật ghép xương,1,1,"{""model"": 1}",0.545,làm lại nhiều lần thì tất nhiên thì ngày nay thì nếu như mà bị tiêu xương mà mình muốn tránh cái phẫu thuật ghép xương đó
+ICD-10:M89.5,Tiêu xương,located_at,BODY_PART:răng mặt,răng mặt,1,1,"{""model"": 1}",0.546,những cái hiện tượng mà tiêu xương đi kèm thì cái quan trọng nhất là cô phải đến những cái cơ sở về răng mặt vậy khám
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:hàm trên,hàm trên,1,1,"{""model"": 1}",0.539,phối cái cái hàm trên với hàm dưới đó tuy nhiên những biến chứng mà do cái cái nhổ răng mà gây ra đó mà đau thần kinh
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:hàm dưới,hàm dưới,1,1,"{""model"": 1}",0.537,phối cái cái hàm trên với hàm dưới đó tuy nhiên những biến chứng mà do cái cái nhổ răng mà gây ra đó mà đau thần kinh
+CONDITION:tiêu xương hàm,tiêu xương hàm,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.543,răng thật thì khi mà mình bị tiêu xương hàm mà mình đến khi mà muốn làm phục
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:dạ dày,dạ dày,1,1,"{""model"": 1}",0.512,không có được tiêu hóa tốt thì sẽ dẫn đến đau dạ dày rồi cũng như là hấp thu dinh dưỡng nó không tốt thì khi đó nó sẽ
+ICD-10:K02,Sâu răng,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.553,như lúc nhỏ những cái bị sâu răng quá nhiều hay là những cái lý do nào đó mà không nhổ răng rất là sớm thì như vậy
+CONDITION:mất nhiều,mất nhiều,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.516,trường hợp bệnh nhân nam thì mất nhiều răng mà tiêu xương ít hơn mình có thể
+CONDITION:xương,xương,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.500,trường hợp bệnh nhân nam thì mất nhiều răng mà tiêu xương ít hơn mình có thể
+CONDITION:mất,mất,located_at,BODY_PART:hàm,hàm,1,1,"{""model"": 1}",0.510,thêm một điều nữa là cô mang hàm giả thì mang cái hàm tháo lắp mà đè trên cái phần xương mà cái chỗ mất răng á thì
+CONDITION:mất,mất,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.531,thêm một điều nữa là cô mang hàm giả thì mang cái hàm tháo lắp mà đè trên cái phần xương mà cái chỗ mất răng á thì
+ICD-10:M89.5,Tiêu xương,located_at,BODY_PART:nướu,nướu,1,1,"{""model"": 1}",0.571,hành giả mà mang như vậy là cái lực tác động lên cái xương và nướu ở chỗ đó nó làm tiêu xương rất là là nhiều và nhanh
+CONDITION:nha chu,nha chu,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.661,nhân là trên cái răng đó đã bị nha chu từ trước thì trong quá trình mà vẫn còn
+CONDITION:bị tiêu,bị tiêu,located_at,BODY_PART:dưới,dưới,1,1,"{""model"": 1}",0.560,cái răng nó đó nhưng mà xương bên dưới chân răng nó đã bị tiêu nhiều ha thì khi nhổ răng ra thì bản thân là ngay chỗ đó
+CONDITION:bị tiêu,bị tiêu,located_at,BODY_PART:chân răng,chân răng,1,1,"{""model"": 1}",0.553,cái răng nó đó nhưng mà xương bên dưới chân răng nó đã bị tiêu nhiều ha thì khi nhổ răng ra thì bản thân là ngay chỗ đó
+ICD-10:B99,Các bệnh nhiễm trùng khác và không xác định,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.605,nó cũng đã tiêu xương và ngoài ra thì cũng có một cái trường hợp nữa là ví dụ như là cái răng nó bị nhiễm trùng ha bị
+ICD-10:B99,Các bệnh nhiễm trùng khác và không xác định,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.574,nó cũng đã tiêu xương và ngoài ra thì cũng có một cái trường hợp nữa là ví dụ như là cái răng nó bị nhiễm trùng ha bị
+ICD-10:B99,Các bệnh nhiễm trùng khác và không xác định,located_at,BODY_PART:chân răng,chân răng,1,1,"{""model"": 1}",0.529,bị viêm ở vùng quanh chân răng thì khi cái nhiễm trùng cái viêm đó đó thì bản
+ICD-10:M89.5,Tiêu xương,located_at,BODY_PART:cái chân răng,cái chân răng,1,1,"{""model"": 1}",0.564,thân nó cũng gây tiêu xương xung quanh cái cái chân răng thì sau khi nhổ xong thì cái phần đó nó cái phần xương quanh
+CONDITION:mất hết răng,mất hết răng,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.576,ra là khi mà mất hết răng mà còn lại không còn răng nào thì làm thì
+CONDITION:tiêu xương hàm,tiêu xương hàm,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.643,lớn tuổi đều bị tiêu xương hàm làm thế nào để cho mình biết được có bị tiêu xương
+CONDITION:mất xương,mất xương,located_at,BODY_PART:răng,răng,1,1,"{""model"": 1}",0.531,cỡ bao lâu thì mới bị tiêu xương và mất xương cỡ bao mất răng cỡ bao lâu thì mới
+CONDITION:bệnh lý ở,bệnh lý ở,located_at,BODY_PART:mái tóc,mái tóc,1,1,"{""model"": 1}",0.545,bệnh lý ở mái tóc thì khá là ít còn ngày nay khi mà các salon tóc mọc lên ngày càng nhiều và muôn kiểu làm đẹp cho tóc
+CONDITION:gãy tóc,gãy tóc,located_at,BODY_PART:mái tóc,mái tóc,1,1,"{""model"": 1}",0.539,những bệnh lý trên mái tóc xuất hiện nào là gãy tóc rụng tóc thậm chí là hói cả
+ICD-10:L65.9,"Rụng tóc không sẹo, không điển hình",located_at,BODY_PART:mái tóc,mái tóc,1,1,"{""model"": 1}",0.537,những bệnh lý trên mái tóc xuất hiện nào là gãy tóc rụng tóc thậm chí là hói cả
+CONDITION:hói,hói,located_at,BODY_PART:mái tóc,mái tóc,1,1,"{""model"": 1}",0.523,những bệnh lý trên mái tóc xuất hiện nào là gãy tóc rụng tóc thậm chí là hói cả
+CONDITION:bạc,bạc,located_at,BODY_PART:tóc,tóc,1,1,"{""model"": 1}",0.579,do làm đẹp mà vì người ta tóc bạc nên người ta cũng cần phải nhuộm thế thì cái cách nhuộm như thế nào để có thể giữ
+ICD-10:R40.0,Buồn ngủ,located_at,BODY_PART:tóc,tóc,1,1,"{""model"": 1}",0.532,uống vào thì nó có cải thiện tóc là mọc ra nhưng mà chị là có cái hiện tượng là uống thuốc này thì lại bị buồn ngủ như
+ICD-10:R40.0,Buồn ngủ,treated_by_procedure,PROCEDURE:uống thuốc,uống thuốc,1,1,"{""model"": 1}",0.530,uống vào thì nó có cải thiện tóc là mọc ra nhưng mà chị là có cái hiện tượng là uống thuốc này thì lại bị buồn ngủ như
+ICD-10:L65.9,"Rụng tóc không sẹo, không điển hình",located_at,BODY_PART:da đầu,da đầu,1,1,"{""model"": 1}",0.503,cái bệnh lý ở trên trên da đầu nữa nó ảnh hưởng tới cái nang tóc và nó gây lên rụng tóc còn những cái vấn đề mà chúng
+ICD-10:L65.9,"Rụng tóc không sẹo, không điển hình",located_at,BODY_PART:nang tóc,nang tóc,1,1,"{""model"": 1}",0.507,cái bệnh lý ở trên trên da đầu nữa nó ảnh hưởng tới cái nang tóc và nó gây lên rụng tóc còn những cái vấn đề mà chúng
+CONDITION:gãy tóc,gãy tóc,located_at,BODY_PART:tóc,tóc,1,1,"{""model"": 1}",0.534,vòng luẩn quẩn thứ hai nữa là khi chúng ta rụng tóc gãy tóc tóc xơ yếu rồi thì chúng ta đi làm tóc
+CONDITION:xơ yếu,xơ yếu,located_at,BODY_PART:tóc,tóc,1,1,"{""model"": 1}",0.527,vòng luẩn quẩn thứ hai nữa là khi chúng ta rụng tóc gãy tóc tóc xơ yếu rồi thì chúng ta đi làm tóc
+ICD-10:L67.1,Thay đổi màu tóc,located_at,BODY_PART:da đầu,da đầu,1,1,"{""model"": 1}",0.570,da đầu khỏe được còn đối với cái người mà phải nhuộm tóc bởi vì tóc bạc tóc
+CONDITION:trầy xước,trầy xước,located_at,BODY_PART:da đầu,da đầu,1,1,"{""rule"": 1}",1.000,mạnh để trầy xước da đầu trầy xước ở đây tôi muốn nói là trầy xước vi thể mắt thường không thấy được do đó chúng ta
+CONDITION:trầy xước,trầy xước,located_at,BODY_PART:vi thể,vi thể,1,1,"{""rule"": 1}",1.000,mạnh để trầy xước da đầu trầy xước ở đây tôi muốn nói là trầy xước vi thể mắt thường không thấy được do đó chúng ta
+CONDITION:kinh nguyệt,kinh nguyệt,located_at,BODY_PART:hồng cầu,hồng cầu,1,1,"{""model"": 1}",0.548,kinh nguyệt mất rất nhiều là là những cái chất sắt những cái hồng cầu để mà nó chuyên chở oxy đi nuôi nuôi nang tóc nuôi
+CONDITION:kinh nguyệt,kinh nguyệt,located_at,BODY_PART:nang tóc,nang tóc,1,1,"{""model"": 1}",0.567,kinh nguyệt mất rất nhiều là là những cái chất sắt những cái hồng cầu để mà nó chuyên chở oxy đi nuôi nuôi nang tóc nuôi
+CONDITION:mất tóc,mất tóc,located_at,BODY_PART:nội tiết tố,nội tiết tố,1,1,"{""model"": 1}",0.569,thức mà nhìn ở bên trong là người ta cái nội tiết tố nam rất là đầy đủ đó điều đó là bạn cái cái mất tóc cái cái ít tóc đó
+CONDITION:ít tóc,ít tóc,located_at,BODY_PART:nội tiết tố,nội tiết tố,1,1,"{""model"": 1}",0.575,thức mà nhìn ở bên trong là người ta cái nội tiết tố nam rất là đầy đủ đó điều đó là bạn cái cái mất tóc cái cái ít tóc đó
+CONDITION:giật tóc,giật tóc,located_at,BODY_PART:tay,tay,1,1,"{""model"": 1}",0.562,quá mặc dù bị giật tóc nếu tay đau muốn chết nhầm muốn tỏ cho trẻ biết bạn không
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:tay,tay,1,1,"{""model"": 1}",0.567,quá mặc dù bị giật tóc nếu tay đau muốn chết nhầm muốn tỏ cho trẻ biết bạn không
+CONDITION:co giật,co giật,located_at,BODY_PART:tay chân,tay chân,1,1,"{""model"": 1}",0.506,hơn một phút hoặc nếu bạn thấy có biểu hiện co giật tay chân hoặc người kèm
+CONDITION:mù,mù,located_at,BODY_PART:trái tim,trái tim,1,1,"{""model"": 1}",0.505,thần kinh tâm thần hoặc nếu bé bị mù những cuộc chia tay làm đau đớn trái tim
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:trái tim,trái tim,1,1,"{""model"": 1}",0.517,thần kinh tâm thần hoặc nếu bé bị mù những cuộc chia tay làm đau đớn trái tim
+CONDITION:nước,nước,located_at,BODY_PART:mắt,mắt,1,1,"{""rule"": 1}",1.000,bị cố gắng nhiều và sẽ mau chóng nhưng nước mắt mà thôi khi chia tay nhiều lần
+CONDITION:mềm yếu,mềm yếu,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.578,còi xương do thiếu vitamin d gây xương mềm yếu dễ biến dạng khi chịu trọng lực
+CONDITION:dạng,dạng,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.585,còi xương do thiếu vitamin d gây xương mềm yếu dễ biến dạng khi chịu trọng lực
+ICD-10:R53,Khó ở và mệt mỏi,located_at,BODY_PART:núm vú,núm vú,1,1,"{""model"": 1}",0.514,sữa không cần núm vú không cần bồng bế mệt mỏi trên tay đọc sách vừa có thể là
+CONDITION:nhức,nhức,located_at,BODY_PART:đầu vú,đầu vú,1,1,"{""model"": 1}",0.571,bị nhức em cố gắng cho đầu vú tiếp xúc với không khí sau mỗi cử bú không mặc áo ngực và
+CONDITION:nhức,nhức,located_at,BODY_PART:ngực,ngực,1,1,"{""model"": 1}",0.550,bị nhức em cố gắng cho đầu vú tiếp xúc với không khí sau mỗi cử bú không mặc áo ngực và
+ICD-10:B99,Các bệnh nhiễm trùng khác và không xác định,located_at,BODY_PART:núm vú,núm vú,1,1,"{""model"": 1}",0.528,núm vú khô hơn khó chịu hơn nên lưu ý đến tìm tuyến vú một tình trạng nhiễm trùng
+ICD-10:B99,Các bệnh nhiễm trùng khác và không xác định,located_at,BODY_PART:tuyến vú,tuyến vú,1,1,"{""model"": 1}",0.520,núm vú khô hơn khó chịu hơn nên lưu ý đến tìm tuyến vú một tình trạng nhiễm trùng
+ICD-10:R50,Sốt không rõ nguyên nhân khác,located_at,BODY_PART:ngực,ngực,1,1,"{""model"": 1}",0.539,ở ngực đôi khi kèm sốt lạnh run nếu có dấu hiệu này bạn nên đi khám bác sĩ để
+CONDITION:lạnh run,lạnh run,located_at,BODY_PART:ngực,ngực,1,1,"{""model"": 1}",0.523,ở ngực đôi khi kèm sốt lạnh run nếu có dấu hiệu này bạn nên đi khám bác sĩ để
+CONDITION:non,non,treated_by_procedure,PROCEDURE:hồi sức,hồi sức,1,1,"{""model"": 1}",0.560,những trẻ sinh non hoặc cực non cần phải nằm điều trị hồi sức sơ sinh lâu dài một
+CONDITION:non,non,treated_by_procedure,PROCEDURE:sinh,sinh,1,1,"{""model"": 1}",0.503,những trẻ sinh non hoặc cực non cần phải nằm điều trị hồi sức sơ sinh lâu dài một
+ICD-10:C80.9,"U ác, không đặc hiệu",located_at,BODY_PART:ruột,ruột,1,1,"{""rule"": 1}",1.000,vai trò nền móng cho xương vitamin d cần cho thấy có vai trò bảo vệ cơ thể làm giảm nguy cơ ung thư ruột bệnh tim
+ICD-10:I10,Bệnh tăng huyết áp vô căn (nguyên phát),located_at,BODY_PART:tim,tim,1,1,"{""rule"": 1}",1.000,cơ loãng xương gãy xương và tăng nguy cơ bệnh lý của người lớn cao huyết áp tim
+ICD-10:E14,Bệnh đái tháo đường không xác định,located_at,BODY_PART:mạch,mạch,1,1,"{""model"": 1}",0.527,mạch tiểu đường điều này cũng quan trọng cho trẻ khi mẹ thiếu vitamin d sẽ không
+CONDITION:phản ứng phụ,phản ứng phụ,diagnosed_by,TEST:nghiên cứu,nghiên cứu,1,1,"{""rule"": 1}",1.000,không cần phải bổ sung vitamin d thêm cho trẻ nghiên cứu này cũng cho thấy không có phản ứng phụ nào hoặc nguy cơ
+CONDITION:điếc câm,điếc câm,treated_by_procedure,PROCEDURE:chữa trị tật,chữa trị tật,1,1,"{""model"": 1}",0.511,thì thông tin về việc có thần y chữa trị tật điếc câm bằng phương pháp rất đơn giản này xem chương trình thì
+ICD-10:H60,Viêm tai ngoài,treated_by_procedure,PROCEDURE:uống thuốc,uống thuốc,1,1,"{""model"": 1}",0.588,cho biết là bé bị viêm tai ngoài ống uống thuốc thì khoảng là một tuần là hết
+CONDITION:điếc câm,điếc câm,treated_by_procedure,PROCEDURE:phẫu thuật kéo tai điện tử,phẫu thuật kéo tai điện tử,1,1,"{""model"": 1}",0.574,có những cái đối tượng người lớn mà bị điếc câm chưa được can thiệp phẫu thuật kéo tai điện tử để có thể nghe được về
+CONDITION:điếc,điếc,treated_by_procedure,PROCEDURE:cấy ốc tai điện tử,cấy ốc tai điện tử,1,1,"{""model"": 1}",0.603,cái biện pháp để mà điều trị nghe điếc trong đó có bao gồm cấy ốc tai điện tử thì
+CONDITION:viêm tai giữa,viêm tai giữa,treated_by_procedure,PROCEDURE:phẫu thuật,phẫu thuật,1,1,"{""model"": 1}",0.663,viêm tai giữa đã có đã được phẫu thuật nhưng mà hiện tại đã có những từng
+ICD-10:B99,Các bệnh nhiễm trùng khác và không xác định,located_at,BODY_PART:xương chũm,xương chũm,1,1,"{""model"": 1}",0.568,xương chũm thì trong những đợt viêm mà có nhiễm trùng như vậy thì nó sẽ có tiết dịch và đồng thời nó làm hạn chế cái sức
+CONDITION:viêm gan,viêm gan,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.528,để được nội soi chẩn đoán chụp ct kiểm tra nếu mà trường hợp mà viêm gan xương
+CONDITION:chảy mủ,chảy mủ,located_at,BODY_PART:tai,tai,1,1,"{""rule"": 1}",1.000,tái phát gây chảy mủ tai từng đợt như vậy thì cần thiết phải can thiệp phẫu thuật để đảm bảo an toàn là bệnh tích
+CONDITION:chảy mủ,chảy mủ,treated_by_procedure,PROCEDURE:phẫu thuật,phẫu thuật,1,1,"{""model"": 1}",0.512,tái phát gây chảy mủ tai từng đợt như vậy thì cần thiết phải can thiệp phẫu thuật để đảm bảo an toàn là bệnh tích
+ICD-10:R53,Khó ở và mệt mỏi,located_at,BODY_PART:cơ thể,cơ thể,1,1,"{""rule"": 1}",1.000,của những bệnh lý nguy hiểm tuy nhiên đa phần lại là những cái bệnh lý do mệt mỏi cơ thể gây ra do nhiễm virus và cảm
+ICD-10:U07.1,COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính),treated_by,DRUG:thuốc giảm đau,thuốc giảm đau,1,1,"{""model"": 1}",0.553,dạng thuốc gì đặc biệt là đối với những cái vùng mà hiện nay được cho phép f0 điều trị tại nhà thì cái thuốc giảm đau
+ICD-10:H81.9,"Rối loạn chức năng tiền đình, không đặc hiệu",treated_by,DRUG:thuốc giảm đau,thuốc giảm đau,1,1,"{""model"": 1}",0.555,cái thuốc giảm đau thì có nên dùng cho những cái người bị rối loạn tiền đình hay không hay phải uống theo thuốc của
+CONDITION:liệt mặt,liệt mặt,located_at,BODY_PART:dây thần kinh,dây thần kinh,1,1,"{""model"": 1}",0.557,gây liệt mặt thì một trong những nguyên nhân đó là có thể do bị bị đột quỵ cũng có thể là do tổn thương dây thần kinh số bảy mà
+ICD-10:I64,"Đột quỵ, không xác định xuất huyết hay nhồi máu",located_at,BODY_PART:dây thần kinh,dây thần kinh,1,1,"{""model"": 1}",0.573,gây liệt mặt thì một trong những nguyên nhân đó là có thể do bị bị đột quỵ cũng có thể là do tổn thương dây thần kinh số bảy mà
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:cổ,cổ,1,1,"{""rule"": 1}",1.000,này gây ra một cảm giác đau nhức dùng vai gáy đau cổ thậm chí yếu cả cánh tay không cử động được đây là căn bệnh rất
+CONDITION:yếu cả,yếu cả,located_at,BODY_PART:cánh tay,cánh tay,1,1,"{""model"": 1}",0.533,này gây ra một cảm giác đau nhức dùng vai gáy đau cổ thậm chí yếu cả cánh tay không cử động được đây là căn bệnh rất
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:khớp vai,khớp vai,1,1,"{""model"": 1}",0.565,mà khớp vai của mình nó trở nên giới hạn vận động khó vận động và đau nhất khó
+ICD-10:U07.1,COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính),treated_by,DRUG:vắc xin,vắc xin,1,1,"{""rule"": 1}",1.000,được nâng cao hơn về các biện pháp phòng chống covid19 và tình hình tiêm chủng vắc xin cũng đạt tỷ lệ cao thế nhưng
+CONDITION:đau rát,đau rát,located_at,BODY_PART:họng,họng,1,1,"{""rule"": 1}",1.000,như số đau rát họng tìm đến thăm khám và test nhanh phát hiện nhiễm covid19
+ICD-10:U07.1,COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính),diagnosed_by,TEST:test nhanh,test nhanh,1,1,"{""rule"": 1}",1.000,như số đau rát họng tìm đến thăm khám và test nhanh phát hiện nhiễm covid19
+ICD-10:R52.9,"Đau, không đặc hiệu",treated_by,DRUG:thuốc giảm đau,thuốc giảm đau,1,1,"{""rule"": 1}",1.000,sốt đau thì xử lý ra sau có nên dùng thuốc giảm đau hạ sốt từ đầu ngay tại nhà hay không đây là những kiến thức
+CONDITION:cảm sốt,cảm sốt,treated_by,DRUG:thuốc giảm đau hạ sốt,thuốc giảm đau hạ sốt,1,1,"{""model"": 1}",0.574,lý các trường hợp cảm sốt đau đầu thông thường tại nhà bằng những thuốc giảm đau hạ sốt được các bác sĩ chỉ định
+ICD-10:R51,Đau đầu,treated_by,DRUG:thuốc giảm đau hạ sốt,thuốc giảm đau hạ sốt,1,1,"{""model"": 1}",0.587,lý các trường hợp cảm sốt đau đầu thông thường tại nhà bằng những thuốc giảm đau hạ sốt được các bác sĩ chỉ định
+ICD-10:R51,Đau đầu,located_at,BODY_PART:cơ thể,cơ thể,1,1,"{""model"": 1}",0.546,thuốc thông dụng dễ dàng sử dụng khi xử lý cảm sốt đau đầu đau nhức cơ thể để
+ICD-10:C16,U ác của dạ dày,located_at,BODY_PART:dày,dày,1,1,"{""rule"": 1}",1.000,nhiều công trình nghiên cứu và bài báo quốc tế về nội soi cách và tạo hình dạ dày thực quản điều trị ung thư dạ dày ung
+CONDITION:thuyên tắc huyết khối tĩnh mạch,thuyên tắc huyết khối tĩnh mạch,located_at,BODY_PART:huyết,huyết,1,1,"{""rule"": 1}",1.000,bệnh lý thuyên tắc huyết khối tĩnh mạch tại việt nam bệnh huyết khối tĩnh mạch là bệnh mạch máu thường gặp chỉ sau nhồi
+CONDITION:thuyên tắc huyết khối tĩnh mạch,thuyên tắc huyết khối tĩnh mạch,treated_by,DRUG:thuốc tiêm,thuốc tiêm,1,1,"{""rule"": 1}",1.000,nếu và dự phòng thuyên tắc huyết khối tĩnh mạch bằng thuốc tiêm thì tôi có cần lưu ý gì khi tiêm hay không và tôi
+CONDITION:tắc huyết khối,tắc huyết khối,located_at,BODY_PART:tĩnh,tĩnh,1,1,"{""rule"": 1}",1.000,tắc huyết khối tĩnh mạch hay không nhờ bác sĩ tư vấn vâng ạ câu hỏi rất là hay xin mời bác sĩ
+CONDITION:tê,tê,located_at,BODY_PART:óc,óc,1,1,"{""model"": 1}",0.535,nhưng từ khi bị đến giờ đầu óc vẫn bình thường một nửa người bị tê lạnh
+CONDITION:yếu nửa người,yếu nửa người,located_at,BODY_PART:gân,gân,1,1,"{""model"": 1}",0.573,buốt ở gân bọc xương đến giờ một năm rồi nó vẫn vậy vậy thì yếu nửa người thì tôi có bị
+CONDITION:yếu nửa người,yếu nửa người,located_at,BODY_PART:xương,xương,1,1,"{""model"": 1}",0.578,buốt ở gân bọc xương đến giờ một năm rồi nó vẫn vậy vậy thì yếu nửa người thì tôi có bị
+CONDITION:lệch lạc,lệch lạc,treated_by_procedure,PROCEDURE:phẫu thuật tạo hình,phẫu thuật tạo hình,1,1,"{""model"": 1}",0.516,mặt phẫu thuật tạo hình hàm mặt những trường hợp bị lệch lạc xương hàm trầm trọng hay cần phải thay đổi cấu trúc
+CONDITION:lệch lạc,lệch lạc,located_at,BODY_PART:xương hàm,xương hàm,1,1,"{""model"": 1}",0.515,mặt phẫu thuật tạo hình hàm mặt những trường hợp bị lệch lạc xương hàm trầm trọng hay cần phải thay đổi cấu trúc
+ICD-10:C80.9,"U ác, không đặc hiệu",located_at,BODY_PART:tim mạch,tim mạch,1,1,"{""rule"": 1}",1.000,như đái tháo đường ung thư tim mạch đột quỵ hô hấp việc nắm bắt được
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:da,da,1,1,"{""model"": 1}",0.530,cơ hay đỏ da vân vân thì có thể những trường hợp ví dụ như bệnh nhân đau chân
+ICD-10:R52.9,"Đau, không đặc hiệu",located_at,BODY_PART:chân,chân,1,1,"{""rule"": 1}",1.000,cơ hay đỏ da vân vân thì có thể những trường hợp ví dụ như bệnh nhân đau chân
+CONDITION:phỏng,phỏng,treated_by_procedure,PROCEDURE:hồi sức,hồi sức,1,1,"{""rule"": 1}",1.000,là người nhà tôi bị phỏng cấp độ ba điều trị hồi sức tích cực vừa xuất viện về nhà cho tôi hỏi theo thông tin
+CONDITION:thuyên tắc huyết khối,thuyên tắc huyết khối,located_at,BODY_PART:tĩnh,tĩnh,1,1,"{""rule"": 1}",1.000,rất là lắng liệu mẹ tôi có nguy cơ cao thuyên tắc huyết khối tĩnh mạch hay không và tôi cần phải chú ý gì để đề
+ICD-10:T14.9,"Tổn thương, chưa xác định",located_at,BODY_PART:tĩnh mạch,tĩnh mạch,1,1,"{""rule"": 1}",1.000,huyết khối tĩnh mạch tại nhà sau chấn thương tai nạn lao động bằng thuốc tiêm tuy nhiên trên da em gần đây xuất
+ICD-10:T14.9,"Tổn thương, chưa xác định",located_at,BODY_PART:da,da,1,1,"{""model"": 1}",0.554,huyết khối tĩnh mạch tại nhà sau chấn thương tai nạn lao động bằng thuốc tiêm tuy nhiên trên da em gần đây xuất
+CONDITION:tai nạn,tai nạn,treated_by,DRUG:thuốc tiêm,thuốc tiêm,1,1,"{""rule"": 1}",1.000,huyết khối tĩnh mạch tại nhà sau chấn thương tai nạn lao động bằng thuốc tiêm tuy nhiên trên da em gần đây xuất
+CONDITION:tai nạn,tai nạn,located_at,BODY_PART:da,da,1,1,"{""model"": 1}",0.520,huyết khối tĩnh mạch tại nhà sau chấn thương tai nạn lao động bằng thuốc tiêm tuy nhiên trên da em gần đây xuất
+CONDITION:thuyên tắc huyết khối tĩnh,thuyên tắc huyết khối tĩnh,located_at,BODY_PART:mạch,mạch,1,1,"{""model"": 1}",0.519,nào thay thế cho thuốc tiêm thuyên tắc huyết khối tĩnh mạch hay là có biện pháp nào khác để thay thế trên
+ICD-10:R52.9,"Đau, không đặc hiệu",treated_by_procedure,PROCEDURE:phẫu thuật,phẫu thuật,1,1,"{""model"": 1}",0.738,đoạn trước phẫu thuật người bệnh sẽ được bác sĩ giải thích cụ thể về bệnh lý đang mắc phải phương pháp điều trị mức độ đau
+ICD-10:C53,U ác của cổ tử cung,treated_by,RxNorm:4100,estrogens,1,1,"{""rule"": 1}",1.000,lê trần anh minh bắt xe bus hàng ngày đến bệnh viện để tiếp tục điều trị ung thư cổ tử cung sử dụng phương pháp điều trị kết hợp estrogen và nhân sâm
+CONDITION:bỏng rát ngứa,bỏng rát ngứa,located_at,BODY_PART:da,da,1,1,"{""model"": 1}",0.505,bác sĩ đã kê đơn thuốc bao gồm sữa rửa mặt dịu nhẹ để giảm bỏng rát ngứa trên da và kem dưỡng ẩm chứa vitamin c
+ICD-10:U07.1,COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính),treated_by,DRUG:phòng tránh,phòng tránh,1,1,"{""rule"": 1}",1.000,cô chia sẻ thông tin về cách phòng tránh và điều trị các bệnh như covid và trầm cảm
+CONDITION:mắc bệnh lý hô,mắc bệnh lý hô,located_at,BODY_PART:hấp,hấp,1,1,"{""model"": 1}",0.547,đặc biệt là đối với những bệnh nhân mắc bệnh lý hô hấp như covid và sa sút trí tuệ bà khuyên mọi người
+ICD-10:I64,"Đột quỵ, không xác định xuất huyết hay nhồi máu",located_at,BODY_PART:xương khớp,xương khớp,1,1,"{""model"": 1}",0.611,tai biến mạch máu não cô khuyến khích việc sử dụng xe buýt hoặc xe hơi thay vì đi bộ quá nhiều cho những người có vấn đề về xương khớp
+DRUG:kiểm soát,kiểm soát,has_dosage,DOSAGE:lượng đường,lượng đường,1,1,"{""rule"": 1}",1.000,giàu vitamin c và e và kiểm soát lượng đường trong máu để phòng chống đái tháo đường
+CONDITION:rối loạn thần kinh,rối loạn thần kinh,treated_by,DRUG:thuốc chống,thuốc chống,1,1,"{""rule"": 1}",1.000,trong một cơ sở y tế ở hà nội nguyễn thị thanh thảo sau khi trải qua một cuộc sốc điện do rối loạn thần kinh đã được kê đơn thuốc chống trầm cảm và supplement

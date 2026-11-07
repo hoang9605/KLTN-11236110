@@ -113,3 +113,31 @@ def test_ner_adapter_uses_returned_text_and_offsets(tmp_path):
     assert len(output["relation_candidates"]) == 1
     assert output["entities"][0]["id"] == "E1"
     assert model.predict("", []) == []
+
+
+class _StubExtractor:
+    metadata = {}
+    supported_relations = ["treated_by_procedure"]
+
+    def __init__(self):
+        self.seen = None
+
+    def predict(self, text, entities):
+        self.seen = [e["text"] for e in entities]
+        return []
+
+
+def test_pipeline_skips_generic_entities_like_gold_v1():
+    """NER vẫn trả 'điều trị' (PROCEDURE) nhưng gold RE v1 đã xóa thực thể chung: RE không sinh cặp cho nó."""
+    text = "đau được Điều  trị bằng phẫu thuật"
+    ner = {"text": text, "entities": [
+        {"label": "CONDITION", "start_char": 0, "end_char": 3, "surface_text": "đau"},
+        {"label": "PROCEDURE", "start_char": 9, "end_char": 18, "surface_text": "Điều  trị"},
+        {"label": "PROCEDURE", "start_char": 24, "end_char": 34, "surface_text": "phẫu thuật"}]}
+    stub = _StubExtractor()
+    out = MedicalREPipeline(stub).from_ner_result(ner)
+    assert stub.seen == ["đau", "phẫu thuật"]
+    assert len(out["entities"]) == 3 and out["entities"][1]["re_excluded"] == "generic_entity"
+    assert out["re_metadata"]["generic_entities_skipped"] == ["E2"]
+    MedicalREPipeline(stub, skip_generic=False).from_ner_result(ner)
+    assert stub.seen == ["đau", "Điều  trị", "phẫu thuật"]

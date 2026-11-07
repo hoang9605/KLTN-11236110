@@ -1,0 +1,321 @@
+ND-0001	C80,C80.9	u ác không rõ vị trí
+ND-0002	E66.9,E66	
+ND-0003	I10	ngữ cảnh 'huyết áp' = tăng huyết áp
+ND-0004	R52,R52.9	đau chung chung
+ND-0005	NIL	từ chung chung
+ND-0006	G20	
+ND-0007	NIL	tác nhân, không phải bệnh
+ND-0008	NIL	từ chung chung
+ND-0010	I64	
+ND-0011	R45.0,Z73.3	
+ND-0012	NIL	từ chung chung
+ND-0014	F43.9,F43,Z73.3	
+ND-0016	E78.5	
+ND-0017	E14,E14.9,E11	
+ND-0019	E14,E14.9	
+ND-0020	G47.0,F51.0	
+ND-0021	NIL	từ chung chung
+ND-0022	E78,E78.5	
+ND-0023	F32.9,F32	
+ND-0027	R51	
+ND-0029	T78.4	
+ND-0030	I21,I21.9	
+ND-0031	R63.4	
+ND-0033	NIL	tác nhân
+ND-0035	R52.9,R52	
+ND-0037	R42	
+ND-0041	I10	
+ND-0042	NIL	tử vong không phải bệnh
+ND-0043	NIL	nhắc tới chất cholesterol, không phải bệnh
+ND-0045	L65.9,L65	rụng tóc không sẹo
+ND-0046	I50,I50.9	
+ND-0047	D64.9,D64	
+ND-0048	NIL	từ chung chung
+ND-0050	NIL	cảm xúc
+ND-0053	T14.9,T14	
+ND-0056	R41.3	
+ND-0061	NIL	lão hóa da, không phải bệnh
+ND-0063	R53	
+ND-0064	B99,A49.9	
+ND-0065	F03	sa sút trí tuệ không biệt định
+ND-0067	M19.9,M19,M15	
+ND-0068	E66.9,E66	
+ND-0069	K59.0	
+ND-0072	NIL	tính từ
+ND-0073	NIL	từ chung chung
+ND-0075	NIL	mảnh NER
+ND-0076	U07.1,U07.2,B34.2	COVID-19
+ND-0077	J11,J11.1	
+ND-0081	U07.1	F0 = ca COVID-19 xác định
+ND-0082	NIL	từ chung chung
+ND-0083	G47.0,F51.0	
+ND-0084	A16.9,A16,A19.9	
+ND-0087	NIL	không phải bệnh
+ND-0093	I64	ngữ cảnh 'tai biến' = tai biến mạch máu não
+ND-0095	NIL	'phát triển tâm thần vận động'
+ND-0111	R25.2	
+ND-0115	R62.0	
+ND-0118	J11,J11.1	
+ND-0119	NIL	không phải bệnh
+ND-0128	NIL	cảm xúc
+ND-0133	NIL	không phải bệnh
+ND-0135	G98,F48.9	
+ND-0144	R50.9,R50	
+ND-0145	R45.8,R45	cảm xúc
+ND-0149	M47,M47.9	
+ND-0150	M51.2,M51	
+ND-0152	L81.4,L81	tăng sắc tố da
+ND-0154	R00.0	
+ND-0155	A09.9,A09,K59.1	
+ND-0156	H81.9,H81	mảnh của 'rối loạn tiền đình'
+ND-0168	NIL	tăng cân sinh lý ở trẻ
+ND-0172	L98.9	
+ND-0176	C22,C22.9	
+ND-0179	NIL	từ chung chung
+ND-0180	K52.9,K52,K52.3	
+ND-0182	R58	
+ND-0188	M54,M54.9	
+ND-0194	NIL	từ chung chung
+ND-0197	NIL	nhóm chất
+ND-0198	NIL	từ chung chung
+ND-0199	11416	
+ND-0207	NIL	ngữ cảnh 'oxy hóa'
+ND-0209	9641	
+ND-0210	1895	
+ND-0214	NIL	chất dinh dưỡng đa lượng
+ND-0216	NIL	vắc xin chung chung
+ND-0217	NIL	mảnh 'nhóm b'
+ND-0219	NIL	không phải thuốc
+ND-0222	NIL	từ chung chung
+ND-0226	NIL	mỹ phẩm
+ND-0227	NIL	nhóm sản phẩm
+ND-0229	1151	
+ND-0233	NIL	nhóm chất
+ND-0239	NIL	nhóm thuốc
+ND-0243	NIL	nhóm chất
+ND-0244	11258	
+ND-0248	NIL	khẩu hiệu 5K
+ND-0251	236797,9525	AHA/BHA
+ND-0252	1191	
+ND-0253	NIL	từ chung chung
+ND-0254	NIL	nhóm chất
+ND-0265	NIL	từ chung chung
+ND-0277	NIL	mỹ phẩm
+ND-0279	NIL	nhóm thuốc
+ND-0290	9853	
+ND-0307	NIL	nhóm thuốc
+ND-0308	NIL	dạng dùng
+ND-0310	NIL	nhóm thuốc
+ND-0311	NIL	dạng dùng
+ND-0317	NIL	không phải thuốc
+ND-0009	NIL	tác nhân
+ND-0013	NIL	từ chung chung
+ND-0015	I48	
+ND-0018	NIL	từ chung chung
+ND-0024	NIL	từ chung chung
+ND-0025	R06.0	
+ND-0026	T88.7	tác dụng phụ của thuốc không đặc hiệu
+ND-0028	NIL	từ chung chung
+ND-0032	M47.9,M47	ngữ cảnh thoái hóa đốt sống
+ND-0034	I70.9,I70	
+ND-0036	M25.9,M13.9	bệnh xương khớp chung
+ND-0038	L98.9	
+ND-0039	L30.9,L24.9	
+ND-0040	NIL	từ chung chung
+ND-0044	E05.9,E05	
+ND-0049	R20.2	
+ND-0051	M35.9	bệnh mô liên kết hệ thống/tự miễn không đặc hiệu
+ND-0052	NIL	mảnh NER
+ND-0054	J10,J10.1,J11	
+ND-0055	NIL	mảnh NER
+ND-0057	J45.9,J45	
+ND-0058	H53.1,R42	
+ND-0059	D48.9	u chưa rõ tính chất
+ND-0060	NIL	khái niệm dịch tễ
+ND-0062	I70.9,I70	
+ND-0066	J45.9,J45	
+ND-0070	I70.9,I70	
+ND-0071	G30.9,G30	
+ND-0074	R45.3,F32.9	
+ND-0078	I74.9,I82.9	
+ND-0079	L70.9,L70.0	
+ND-0080	NIL	mảnh NER
+ND-0085	F41.9	
+ND-0086	G24.9,R25.8	
+ND-0088	R41.0	
+ND-0089	I70.9,I70	
+ND-0090	NIL	sinh vật
+ND-0091	I49.9	
+ND-0092	M19.9,M15	
+ND-0094	I25.9,I24.9	thiểu năng vành = bệnh tim thiếu máu cục bộ
+ND-0096	I70.9,I70	
+ND-0097	L81.9,L81	
+ND-0098	G30.9,G30	lỗi chính tả alzheimer
+ND-0099	NIL	bình thường
+ND-0100	L73.8	
+ND-0101	NIL	từ chung chung
+ND-0102	NIL	từ chung chung
+ND-0103	A82.9,A82	
+ND-0104	A20.9,A20	
+ND-0105	L98.9	bệnh da chung
+ND-0106	M47.9,M47	
+ND-0107	M13.9	
+ND-0108	I70.9,I70	
+ND-0109	M13.9	
+ND-0110	I70.9	ngữ cảnh 'xơ vữa' mạch máu
+ND-0112	M54.3,G57.0	
+ND-0113	NIL	từ chung chung
+ND-0114	R25.8,G20	chậm vận động (Parkinson)
+ND-0116	NIL	mảnh NER
+ND-0117	J11,J11.1	
+ND-0120	NIL	cụm chỉ nguyên nhân
+ND-0121	A82.9,A82	dại do mèo cắn
+ND-0122	R00.2	hồi hộp đánh trống ngực
+ND-0123	R03.0	tăng huyết áp không chẩn đoán bệnh (áo choàng trắng)
+ND-0124	G56.0	hội chứng ống cổ tay (mảnh)
+ND-0125	NIL	từ chung chung
+ND-0126	G83.9	
+ND-0127	L98.9	
+ND-0129	L70.9,L70.0	
+ND-0130	L81.1	
+ND-0131	R47.1,R47.8	
+ND-0132	NIL	mô tả
+ND-0134	R25.1	
+ND-0136	R27.8,G25.9	
+ND-0137	NIL	từ chung chung
+ND-0138	F43.9,F43	
+ND-0139	U07.1,B34.2	tác nhân COVID-19
+ND-0140	I83.9,I87.2	
+ND-0141	K72.9,K76.9	
+ND-0142	R64	
+ND-0143	L81.4,L81	
+ND-0146	R43.8,R43	
+ND-0147	L85.3	khô da
+ND-0148	I65.2,G45.1	thiểu năng động mạch cảnh
+ND-0151	E14,E14.9	mảnh 'đái tháo đường'
+ND-0153	F48.0	suy nhược thần kinh
+ND-0157	R25.1	
+ND-0158	M25.4	tràn dịch khớp
+ND-0159	R45.8,R45	
+ND-0160	R20.2	
+ND-0161	R20.2	
+ND-0162	NIL	từ chung chung
+ND-0163	F41.9	
+ND-0164	R41.3	
+ND-0165	I70.9,I70	
+ND-0166	I70.9,I70	
+ND-0167	I25.1	bệnh tim xơ vữa
+ND-0169	NIL	mô tả
+ND-0170	F90.0,F90	
+ND-0171	C80.9,C80	
+ND-0173	S06.9,G93.9	
+ND-0174	I95.9,I95.1	
+ND-0175	F84.0	
+ND-0177	L21.9,L21	
+ND-0178	M13.9	
+ND-0181	T14.1	vết thương hở
+ND-0183	I61.9,I61	
+ND-0184	R42	
+ND-0185	I70.9,I70	
+ND-0186	Z73.3	
+ND-0187	R63.0	
+ND-0189	R07.4,R07.3	
+ND-0190	NIL	mô tả hoại tử cơ tim (mảnh)
+ND-0191	R14	
+ND-0192	F29,R44.3	
+ND-0193	NIL	mô tả
+ND-0195	1427139,283554	Cordyceps sinensis
+ND-0196	NIL	không phải thuốc
+ND-0200	NIL	không phải thuốc
+ND-0201	NIL	không phải thuốc
+ND-0202	NIL	không phải thuốc
+ND-0203	NIL	không phải thuốc
+ND-0204	NIL	chất dinh dưỡng
+ND-0205	NIL	nhóm chất
+ND-0206	NIL	không phải thuốc
+ND-0208	NIL	không phải thuốc
+ND-0211	NIL	nhóm thuốc
+ND-0212	NIL	mỹ phẩm
+ND-0213	NIL	không phải thuốc
+ND-0215	NIL	dạng dược liệu
+ND-0218	NIL	nhóm chất
+ND-0220	NIL	không phải thuốc
+ND-0221	NIL	không phải thuốc
+ND-0223	NIL	không rõ nghĩa
+ND-0224	NIL	nhóm chất
+ND-0225	NIL	mỹ phẩm
+ND-0228	NIL	nhóm thuốc
+ND-0230	NIL	nhóm chất
+ND-0231	NIL	không phải thuốc
+ND-0232	NIL	không phải thuốc
+ND-0234	NIL	nhóm chất
+ND-0235	5933	
+ND-0236	NIL	sắc tố nội sinh, không có trong RxNorm
+ND-0237	NIL	nhóm chất
+ND-0238	1427139,283554	mảnh 'Cordyceps sinensis'
+ND-0240	NIL	nhóm thuốc
+ND-0241	578285	
+ND-0242	NIL	mỹ phẩm
+ND-0245	1427139,283554	viên nang đông trùng hạ thảo
+ND-0246	2119694	Codonopsis pilosula
+ND-0247	NIL	không phải thuốc
+ND-0249	194	
+ND-0250	296,1989289	adenosine/cordycepin
+ND-0255	NIL	nhóm chất
+ND-0256	18602	
+ND-0257	NIL	từ chung chung
+ND-0258	236809,259265	
+ND-0259	NIL	chất dinh dưỡng
+ND-0260	NIL	chất dinh dưỡng
+ND-0261	NIL	từ chung chung
+ND-0262	5486	axit clohydric
+ND-0263	1989289	
+ND-0264	NIL	chủng virus
+ND-0266	NIL	mỹ phẩm
+ND-0267	NIL	dịch cơ thể
+ND-0268	NIL	không phải thuốc
+ND-0269	NIL	xét nghiệm
+ND-0270	1376211	Coptis
+ND-0271	1660771	Sophora japonica
+ND-0272	NIL	không phải thuốc
+ND-0273	NIL	thương hiệu TPCN
+ND-0274	NIL	chỉ số xét nghiệm
+ND-0275	253182	
+ND-0276	NIL	mỹ phẩm
+ND-0278	NIL	không phải thuốc
+ND-0280	NIL	không phải thuốc
+ND-0281	NIL	không rõ nghĩa
+ND-0282	NIL	từ chung chung
+ND-0283	NIL	không phải thuốc
+ND-0284	NIL	không phải thuốc
+ND-0285	1310569,1370617	sodium laureth sulfate
+ND-0286	NIL	không phải thuốc
+ND-0287	NIL	độc tố vi khuẩn
+ND-0288	10223	
+ND-0289	2170280	Cordyceps militaris
+ND-0291	NIL	không phải thuốc
+ND-0292	1313180,2287734	Ganoderma lucidum
+ND-0293	NIL	không rõ (nấm)
+ND-0294	NIL	không rõ (nấm)
+ND-0295	1427139,283554	
+ND-0296	7986,7980	
+ND-0297	8016	
+ND-0298	7393	vitamin PP = niacin
+ND-0299	58827,4493	
+ND-0300	9500	rutin
+ND-0301	NIL	nhóm thuốc
+ND-0302	NIL	không phải thuốc
+ND-0303	486941	Panax (sâm Ngọc Linh không có trong RxNorm)
+ND-0304	NIL	không phải thuốc
+ND-0305	NIL	nhóm thuốc
+ND-0306	NIL	nhóm thuốc
+ND-0309	NIL	nhóm thuốc
+ND-0312	NIL	nhóm thuốc
+ND-0313	NIL	không phải thuốc
+ND-0314	NIL	dạng bào chế
+ND-0315	NIL	vắc xin/huyết thanh chung
+ND-0316	1307580	Salvia miltiorrhiza
+ND-0318	82728,36437	
+ND-0319	1307580	
+ND-0320	NIL	không phải thuốc
+ND-0321	NIL	chất dinh dưỡng

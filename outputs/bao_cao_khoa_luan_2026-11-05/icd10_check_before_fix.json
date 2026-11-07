@@ -1,0 +1,316 @@
+{
+ "condition_mentions": 402,
+ "unique": 185,
+ "coded_mentions": 71,
+ "coded_unique": 30,
+ "by_method": {
+  "synonym": 19,
+  "fuzzy": 26,
+  "exact": 26
+ },
+ "wrong_mentions": 13,
+ "doubt_mentions": 2,
+ "wrong_unique": 5,
+ "items": [
+  {
+   "text": "đái tháo đường",
+   "mentions": 8,
+   "code": "E14",
+   "label": "Bệnh đái tháo đường không xác định",
+   "method": "synonym",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "huyết áp cao",
+   "mentions": 8,
+   "code": "Z01.3",
+   "label": "Đo huyết áp",
+   "method": "fuzzy",
+   "score": 0.87,
+   "verdict": "sai",
+   "note": "Z01.3 là 'Đo huyết áp' (thủ thuật khám), đúng ra I10"
+  },
+  {
+   "text": "đau đầu",
+   "mentions": 7,
+   "code": "R51",
+   "label": "Đau đầu",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "đột quỵ",
+   "mentions": 6,
+   "code": "I64",
+   "label": "Đột quỵ, không xác định xuất huyết hay nhồi máu",
+   "method": "synonym",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "xơ vữa động mạch",
+   "mentions": 5,
+   "code": "I70",
+   "label": "Xơ vữa động mạch",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "mảng xơ vữa động mạch",
+   "mentions": 3,
+   "code": "I70",
+   "label": "Xơ vữa động mạch",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "căng thẳng",
+   "mentions": 3,
+   "code": "R45.0",
+   "label": "Căng thẳng",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "nhồi máu cơ tim",
+   "mentions": 3,
+   "code": "I21",
+   "label": "Nhồi máu cơ tim cấp",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "đau lưng",
+   "mentions": 2,
+   "code": "M54",
+   "label": "Đau lưng",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "rối loạn mỡ máu",
+   "mentions": 2,
+   "code": "D55",
+   "label": "Thiếu máu do rối loạn men",
+   "method": "fuzzy",
+   "score": 0.889,
+   "verdict": "sai",
+   "note": "D55 là thiếu máu do rối loạn men, đúng ra nhóm E78"
+  },
+  {
+   "text": "bệnh dại",
+   "mentions": 2,
+   "code": "A82",
+   "label": "Bệnh dại",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "rối loạn vận động",
+   "mentions": 2,
+   "code": "F44.4",
+   "label": "Rối loạn vận động phân ly",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "nghi vấn",
+   "note": "F44.4 là rối loạn vận động phân ly; ngữ cảnh Parkinson thì không phù hợp"
+  },
+  {
+   "text": "tiểu đường",
+   "mentions": 2,
+   "code": "E14",
+   "label": "Bệnh đái tháo đường không xác định",
+   "method": "synonym",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "đau khớp",
+   "mentions": 2,
+   "code": "M25.5",
+   "label": "Đau khớp",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "tăng huyết áp",
+   "mentions": 1,
+   "code": "I10",
+   "label": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+   "method": "synonym",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "chán ăn",
+   "mentions": 1,
+   "code": "R63.0",
+   "label": "Chán ăn",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "cao huyết áp",
+   "mentions": 1,
+   "code": "I10",
+   "label": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+   "method": "synonym",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "viêm loét dạ dày",
+   "mentions": 1,
+   "code": "K25",
+   "label": "Loét dạ dày",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "xơ vữa động mạch chi",
+   "mentions": 1,
+   "code": "I70",
+   "label": "Xơ vữa động mạch",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "huyết áp tăng cao",
+   "mentions": 1,
+   "code": "I10",
+   "label": "Bệnh lý tăng huyết áp",
+   "method": "fuzzy",
+   "score": 0.867,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "đau cột sống thắt lưng",
+   "mentions": 1,
+   "code": "M54.5",
+   "label": "Đau cột sống thắt lưng",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "đa xơ cứng",
+   "mentions": 1,
+   "code": "K74.1",
+   "label": "Gan xơ cứng",
+   "method": "fuzzy",
+   "score": 0.857,
+   "verdict": "sai",
+   "note": "K74.1 là gan xơ cứng, đúng ra G35"
+  },
+  {
+   "text": "tàn nhang",
+   "mentions": 1,
+   "code": "L81.2",
+   "label": "Tàn nhang",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "táo bón",
+   "mentions": 1,
+   "code": "K59.0",
+   "label": "Táo bón",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "viêm loét đại tràng",
+   "mentions": 1,
+   "code": "K51",
+   "label": "Viêm loét đại tràng chảy máu",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "tai biến mạch máu não",
+   "mentions": 1,
+   "code": "I64",
+   "label": "Đột quỵ, không xác định xuất huyết hay nhồi máu",
+   "method": "synonym",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "thoái hóa cột sống",
+   "mentions": 1,
+   "code": "M47",
+   "label": "thoái hóa cột sống",
+   "method": "exact",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  },
+  {
+   "text": "nhồi máu",
+   "mentions": 1,
+   "code": "D73.5",
+   "label": "Nhồi máu lách",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "sai",
+   "note": "D73.5 nhồi máu lách: suy diễn cơ quan không có trong văn bản"
+  },
+  {
+   "text": "đậu mùa bò",
+   "mentions": 1,
+   "code": "B03",
+   "label": "Đậu mùa",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "sai",
+   "note": "B03 là đậu mùa, đậu mùa bò thuộc B08.0"
+  },
+  {
+   "text": "loạn nhịp tim",
+   "mentions": 1,
+   "code": "I49",
+   "label": "Loạn nhịp tim khác",
+   "method": "fuzzy",
+   "score": 1.0,
+   "verdict": "hợp lý",
+   "note": ""
+  }
+ ]
+}

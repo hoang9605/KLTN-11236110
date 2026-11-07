@@ -1,0 +1,6 @@
+{
+  "confirmed_through": "VM600-010",
+  "ready": 8,
+  "pending": 92,
+  "note": "Ready records use original NER and prelabels confirmed unchanged. Edited samples require explicit reconciliation; empty/uncertain labels are not negative examples."
+}

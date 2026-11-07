@@ -1,0 +1,225 @@
+VM600-401 sau mười năm thì triệu chứng các triệu chứng ngoài vận động nó xuất hiện nhiều hơn sa sút trí tuệ rồi táo bón rồi mất ổn định
+E1=triệu chứng<CONDITION> E2=triệu chứng<CONDITION> E3=sa sút trí tuệ<CONDITION> E4=táo bón<CONDITION>
+VM600-402 chắn sẽ dẫn tình trạng cơ thể tình trạng cơ thể chúng ta dẫn đến suy kiệt và chúng ta không còn được cả cái sức đề
+E1=cơ thể<BODY_PART> E2=cơ thể<BODY_PART> E3=suy kiệt<CONDITION>
+R1:E3>E1:located_at R2:E3>E2:located_at
+VM600-403 bị ngã ta phải đỡ ngay giữa ngay để người bệnh không có bị ngã không bị chấn thương rồi nếu mà bệnh nhân đang ăn ăn
+E1=chấn thương<CONDITION>
+VM600-404 được tốt nhất vai trò thứ ba của đối với lại dinh dưỡng đó là dinh dưỡng thậm chí
+
+VM600-405 nào là đông trùng hạ thảo công dụng của nó ra sao đặc biệt là chúng ta có kiến
+E1=đông trùng hạ thảo<DRUG>
+VM600-406 yếu đầu tiên là yếu tay yếu chân yếu thứ hai là giữa các cơ mặt làm cho mặt
+E1=yếu tay<CONDITION> E2=yếu chân<CONDITION> E3=cơ mặt<BODY_PART>
+R1:E1>E3:located_at R2:E2>E3:located_at
+VM600-407 của bác là não thì nó sẽ gây ra rất nhiều triệu chứng khác nhau trong đó có người thì ví dụ như bác là mất ngủ là
+E1=não<BODY_PART> E2=rất nhiều<DOSAGE> E3=triệu chứng<CONDITION> E4=mất ngủ<CONDITION>
+R1:E3>E1:located_at R2:E4>E1:located_at
+VM600-408 đoạn sau sanh thì mái tóc dễ gọi là nó mềm mại và nó yếu ớt thế cho nên là
+E1=mái tóc<BODY_PART> E2=yếu ớt<CONDITION>
+R1:E2>E1:located_at
+VM600-409 tiết được pepsin và tiết không tiết được pepsin của dạ dày chỉ liên quan đến một phần kể
+E1=pepsin<DRUG> E2=pepsin<DRUG> E3=dạ dày<BODY_PART> E4=một phần<DOSAGE>
+R1:E1>E4:has_dosage R2:E2>E4:has_dosage
+VM600-410 biết rằng là những người bệnh kích thích những người bệnh parkinson mà cần phẫu thuốc kích thích não sâu thì chúng
+E1=parkinson<CONDITION> E2=thuốc<DRUG> E3=kích thích não sâu<PROCEDURE>
+R1:E1>E2:treated_by R2:E1>E3:treated_by_procedure
+VM600-411 mình sẽ kiểm tra những các thiết bị bên ngoài đảm bảo có thể thống nhất rồi thì lúc đó là kết thúc phẫu thuật
+E1=kiểm tra<TEST> E2=phẫu thuật<PROCEDURE>
+VM600-412 ngoại khoa thì là cái từ trong chuyên môn nhưng mà để nói cho dễ hiểu đó là mổ thì người ta có chia làm hai cái nhóm
+E1=ngoại khoa<PROCEDURE> E2=mổ<PROCEDURE>
+VM600-413 là một sự tán thành lớn cho quan điểm rằng thực phẩm quan trọng vượt trội hơn hoàn cảnh khác trong cuộc sống mà chúng
+
+VM600-414 viêm loét đại tràng và ung thư chúng ta sẽ khám phá quá trình này chi tiết hơn
+E1=viêm loét<CONDITION> E2=đại tràng<BODY_PART> E3=ung thư<CONDITION> E4=khám<TEST>
+R1:E1>E2:located_at R2:E1>E4:diagnosed_by R3:E3>E2:located_at R4:E3>E4:diagnosed_by
+VM600-415 khô hơn đôi khi là từ một cái làn da là thường mà trở thành một cái làn da nhạy cảm dễ gây kích ứng và dị ứng hơn do đó
+E1=làn da<BODY_PART> E2=làn da nhạy cảm<CONDITION> E3=kích ứng<CONDITION> E4=dị ứng<CONDITION>
+R1:E2>E1:located_at R2:E3>E1:located_at R3:E4>E1:located_at
+VM600-416 cũng xin nhờ bác sĩ có thể cho biết cụ thể hơn về mối quan hệ cũng như là tác
+E1=quan hệ<CONDITION>
+VM600-417 tôi sẽ giúp bạn làm điều đó giải thích khoa học đằng sau lợi khuẩn và cách chọn
+E1=lợi khuẩn<DRUG>
+VM600-418 người dân đã cho chúng tôi nhiều cái thông tin ví dụ như những trường hợp tai nạn bất ngờ những bệnh tật mà phải cấp
+E1=tai nạn<CONDITION>
+VM600-419 huyết áp này những người bị rối loạn mỡ máu này những người các bệnh lý bệnh tim mạch thì nó sẽ có cái tác động lên các
+E1=huyết áp<CONDITION> E2=rối loạn mỡ máu<CONDITION> E3=tim mạch<BODY_PART>
+R1:E1>E3:located_at R2:E2>E3:located_at
+VM600-420 bôi kem dưỡng trước khi đi ngủ nhưng ngủ dậy mặt vẫn còn nhiều dầu xưng cháu vậy
+E1=kem dưỡng<DRUG>
+VM600-421 trị béo phì nó rất là ngoạn mục và sau này nó không chỉ về cải thiện cái hình ảnh mà nó giúp làm cho chúng ta
+E1=béo phì<CONDITION> E2=cải thiện<PROCEDURE>
+R1:E1>E2:treated_by_procedure
+VM600-422 thì không phải là của riêng ai cả đối tượng nào chúng ta cũng rất là dễ gặp phải và chúng tôi cũng để ý là có những
+
+VM600-423 trị chưa hiện nay chưa có cái phương pháp nào điều trị khỏi mà chỉ là điều trị để giúp cho mình đưa cái con số
+E1=điều trị<PROCEDURE> E2=điều trị<PROCEDURE>
+VM600-424 thậm chí gây tử vong bạn có thể không quen được với phía bên kia của câu chuyện rằng mỗi nhịp tim nhịp thở và sợ
+E1=tử vong<CONDITION> E2=nhịp tim<DOSAGE> E3=nhịp thở<DOSAGE>
+VM600-425 khỏi ra tình trạng bệnh và đây của chúng ta là ung thư thì cái tinh thần của người bị bệnh rất kiên cường cái thứ hai đó là chúng ta
+E1=ung thư<CONDITION> E2=bị bệnh<CONDITION> E3=cái thứ hai<DOSAGE>
+VM600-426 nhiều các phương pháp điều trị được được điều trị áp dụng chẩn đoán sớm vân vân thì tuổi thọ của người việt nam của
+E1=điều trị<PROCEDURE> E2=điều trị<PROCEDURE> E3=chẩn đoán<TEST>
+VM600-427 bắt đầu từ ruột điều này xảy ra rất lâu trước khi nền văn minh có bất kỳ bằng chứng hoặc lý thuyết vững vàng nào để
+E1=ruột<BODY_PART>
+VM600-428 với đái tháo đường thì nó có rất rất nhiều các thể lụy những cái biến chứng của nó thế thì khi mà chúng ta bị đái
+E1=đái tháo đường<CONDITION> E2=rất nhiều<DOSAGE> E3=biến chứng<CONDITION>
+VM600-429 thư vẫn ăn bởi vì chúng ta biết rằng không có một cái thực phẩm nào là tốt nhất cả mỗi thực phẩm có một giá trị riêng
+
+VM600-430 cho mình không sử dụng rượu bia cà phê và có hút thuốc lá đặc biệt ở trong cái giai đoạn này thế và như có những cái
+
+VM600-431 xét mới trả lời cho người bệnh một cách cụ thể theo từng trường hợp kính thưa tất cả quý vị bởi vì thời lượng trong
+
+VM600-432 bằng cách nào và cách thứ nhất là chúng ta bình thường trong ở nhà quý vị có thể cho thêm dầu ăn bát cơm không cho dầu
+E1=thứ nhất<DOSAGE>
+VM600-433 mỗi một cái thực phẩm có những cái ưu riêng chỉ có một cái bữa ăn đa dạng mới
+
+VM600-434 sử dụng phương pháp kích thích não sâu thì dĩ nhiên người bệnh cũng không thể nào mà ngưng thuốc hoàn toàn được thì đó
+E1=kích thích não sâu<PROCEDURE> E2=ngưng thuốc<PROCEDURE>
+VM600-435 cái chuyện đó và nếu mà chúng ta sử dụng các biện pháp phòng tránh để nó không bị nghẽn mạch máu não thì ít nhất là nó sẽ
+E1=phòng tránh<DRUG> E2=nghẽn mạch máu<CONDITION> E3=não<BODY_PART>
+R1:E2>E1:treated_by R2:E2>E3:located_at
+VM600-436 vữa xơ động mạch ở vành tất cả những cái đó là chúng ta không được bỏ rất rất
+E1=vữa xơ động mạch<CONDITION>
+VM600-437 lượng đã mất mất do chính cái khối u tạo ra chứ chưa nói đến những cái mất do kém ăn hoặc là do
+E1=khối u<CONDITION> E2=kém ăn<CONDITION>
+VM600-438 lòng một việc mà bạn sẽ không thể quen được dù đã thực hiện bao nhiêu lần tuy
+
+VM600-439 nói là có sự là giảm phí vận chuyển túi sắc tố đi từ bên dưới da lên bề mặt da
+E1=túi sắc tố<BODY_PART> E2=da<BODY_PART> E3=bề mặt da<BODY_PART>
+VM600-440 đề như là tương tác giữa những sản phẩm với nhau hoặc là gây ra các tình trạng
+
+VM600-441 hạ thảo chính là bộ ba là adenosine cordycepin và polysaccharide adenosine nó là
+E1=hạ thảo<DRUG> E2=adenosine cordycepin<DRUG> E3=polysaccharide adenosine<DRUG>
+VM600-442 ta dinh dưỡng một cách hợp lý và trong dinh dưỡng đó người ta chú ý đến các vitamin cần thiết vitamin nhóm b vitamin
+E1=vitamin<DRUG> E2=vitamin<DRUG> E3=b<DRUG> E4=vitamin<DRUG>
+VM600-443 chúng tôi có thể làm cái chụp các mạch máu não trên ct trên mri hoặc là
+E1=chụp các mạch máu não<TEST> E2=ct<TEST> E3=mri<TEST>
+VM600-444 chúng ta phải tuân trị chứ không có được gọi là bỏ trị khi chúng ta phải tuân trị
+E1=tuân trị<PROCEDURE> E2=tuân trị<PROCEDURE>
+VM600-445 rất yêu đời đúng như đức phật gọi là phải luôn luôn hoan hỷ cái đó quan trọng lắm cái thứ hai là vấn đề ăn uống là tùy
+E1=cái thứ hai<DOSAGE>
+VM600-446 găng hay không thì bây giờ người dân khi đến lấy mẫu cũng có thể nói mà cũng có thể hỏi bác sĩ rằng là hoặc là nhân viên
+E1=lấy mẫu<PROCEDURE>
+VM600-447 thế này thứ hai nữa là chị cũng cái dấu hiệu tê bì chân tay này đây nó cũng có
+E1=tê bì<CONDITION> E2=chân tay<BODY_PART>
+R1:E1>E2:located_at
+VM600-448 là dễ gặp ở cái độ tuổi này và cái việc thông thường là gì ạ người ta sẽ được chẩn đoán rất là muộn vì sao có những
+E1=chẩn đoán<TEST>
+VM600-449 nếu nó đã có những cái biểu hiện như vậy một lần hai lần nếu mình không phát hiện ra có nghĩa là những lần tiếp theo nó sẽ
+E1=hai lần<DOSAGE>
+VM600-450 cùng là nói những cái biến chứng của nó kính thưa quý vị tim của chúng ta đó thì được chia làm hai phần chính đó là
+E1=biến chứng<CONDITION> E2=tim<BODY_PART>
+R1:E1>E2:located_at
+VM600-451 ông không thể có được kinh nghiệm làm việc thực tế trong phòng thí nghiệm và phải dành thời gian suy nghĩ và đọc
+
+VM600-452 người ta sẽ kê những cái đơn thuốc mà nó cải thiện cái tình trạng này tôi nói ví dụ như là hiện nay chúng ta hay dùng
+E1=thuốc<DRUG> E2=cải thiện<PROCEDURE>
+VM600-453 công việc có cái gì căng thẳng quá cũng là yếu tố hay là mất ngủ cái mất ngủ ở cái người lớn tuổi cũng thường xảy ra
+E1=căng thẳng<CONDITION> E2=mất ngủ<CONDITION> E3=mất ngủ<CONDITION>
+VM600-454 nữa chúng ta cần phải có cái chế độ điều trị tích cực hơn trong trường hợp này lời khuyên đầu tiên của chúng tôi là gì
+E1=điều trị<PROCEDURE>
+VM600-455 thở đau tức ngực tim đập nhanh là do mảng xơ vữa động mạch gây hẹp tắc lòng
+E1=đau tức ngực<CONDITION> E2=tim đập nhanh<CONDITION> E3=mảng xơ vữa động mạch<CONDITION>
+VM600-456 động trực tiếp ở giai đoạn đó nhưng còn cái nguyên nhân có khi có rất nhiều nguyên nhân dẫn đến rụng tóc mà đôi khi
+E1=rất nhiều<DOSAGE> E2=rụng tóc<CONDITION>
+VM600-457 loại thảo dược có rất nhiều những công dụng tuyệt vời trong việc là chúng ta tăng cường sức đề kháng sức khỏe dùng
+E1=thảo dược<DRUG> E2=rất nhiều<DOSAGE> E3=sức đề kháng<TEST>
+R1:E1>E2:has_dosage
+VM600-458 ta có thể là cải thiện cái vấn đề tăng sắc tố chúng ta có thể can thiệp vào một trong những cái giai đoạn của quá
+E1=cải thiện<PROCEDURE> E2=tăng sắc tố<CONDITION> E3=can thiệp<DRUG>
+R1:E2>E1:treated_by_procedure R2:E2>E3:treated_by
+VM600-459 còn nặng hơn rất là nhiều và bản thân tai biến mạch máu não lần một lần hai nó có thể nhẹ nhưng những lần sau nó sẽ
+E1=tai biến mạch máu não<CONDITION>
+VM600-460 chỉ nói đến chuyện rung nhĩ không thôi nhưng mà nếu mà cả chuyện rung nhĩ đó mà đã có những cái biến chứng ví dụ như nó
+E1=rung nhĩ<CONDITION> E2=rung nhĩ<CONDITION> E3=biến chứng<CONDITION>
+VM600-461 xơ vữa động mạch cũng như là khắc phục được tình trạng ở hệ hô hấp cũng như là hệ tim thì quý vị và các bạn hãy gọi về
+E1=xơ vữa động mạch<CONDITION> E2=tim<BODY_PART>
+R1:E1>E2:located_at
+VM600-462 mạch hay không còn nếu trong giai đoạn cấp này mà có rung nhĩ nữa mà người lớn tuổi nữa thì chắc chắn là chúng ta phải
+E1=mạch<BODY_PART> E2=rung nhĩ<CONDITION>
+R1:E2>E1:located_at
+VM600-463 cái trường hợp là năm năm bảy năm đây là những cái nghiên cứu ở nước ngoài là những cái nước phát triển là người ta cũng nhận thấy rằng là phần lớn là mọi người được
+E1=nghiên cứu<TEST> E2=phần lớn<DOSAGE>
+VM600-464 không có nắm được như thế này là bao nhiêu lâu nay rồi ạ nó có tê bì nhiều ở cái bàn tay không ạ
+E1=tê bì<CONDITION> E2=bàn tay<BODY_PART>
+R1:E1>E2:located_at
+VM600-465 hơn về dinh dưỡng trước trong và sau ung thư để làm sao giúp cho chúng ta những người đã mắc ung thư mà lại được chẩn
+E1=ung thư<CONDITION> E2=ung thư<CONDITION>
+VM600-466 sử dụng mấy nhôm các chất bổ trợ có thể được thiết kế riêng để kích hoạt phản ứng bẩm sinh bằng cách sử dụng các phân
+E1=chất bổ trợ<DRUG> E2=bẩm sinh<CONDITION>
+R1:E2>E1:treated_by
+VM600-467 nhìn đơn giản về những gì đang xảy ra ở đây là cơ thể chúng ta tấn công mầm bệnh đối tượng xâm nhập vết thương vì hệ miễn
+E1=cơ thể<BODY_PART> E2=mầm bệnh<CONDITION> E3=vết thương<CONDITION>
+R1:E2>E1:located_at R2:E3>E1:located_at
+VM600-468 não bộ hơn hết bạn có thể gặt hái được thành quả của chế độ ăn bổ não trong vòng vài tuần
+E1=não bộ<BODY_PART> E2=não<BODY_PART>
+VM600-469 biết là nhất là trong cái buổi những cái cái lúc mà dịch dã như thế này kinh tế chúng ta ai cũng rất hạn hẹp thế thì làm
+
+VM600-470 khác máu lạnh khác thì vẫn có thể khác
+E1=máu<BODY_PART>
+VM600-471 là bác bị đau lưng cũng đã lâu rồi và đau cả hai đầu gối nữa đúng không ạ vâng dạ vâng vậy thì với những cái triệu
+E1=đau lưng<CONDITION> E2=đau<CONDITION> E3=đầu gối<BODY_PART>
+R1:E1>E3:located_at R2:E2>E3:located_at
+VM600-472 phần trăm và khi cái người được tiêm vắcxin đó được miễn nhiễm thì cái người tiêm đó sẽ không có phải nhiễm virus hoặc
+E1=phần trăm<DOSAGE> E2=tiêm<PROCEDURE> E3=vắcxin<DRUG> E4=tiêm<PROCEDURE> E5=virus<CONDITION>
+R1:E3>E1:has_dosage R2:E5>E2:treated_by_procedure R3:E5>E3:treated_by R4:E5>E4:treated_by_procedure
+VM600-473 thu được các quần thể vi khuẩn tương tự như các quần thể vi khuẩn tìm thấy trên bề mặt da chiếm đa số là rất nhiều vi
+E1=vi khuẩn<CONDITION> E2=vi khuẩn<CONDITION> E3=bề mặt da<BODY_PART> E4=chiếm đa số<DOSAGE> E5=rất nhiều<DOSAGE>
+R1:E1>E3:located_at R2:E2>E3:located_at
+VM600-474 tiện rối loạn trí nhớ sa sút gọi là sa sút trí tuệ alzheimer vân vân nó sẽ được
+E1=rối loạn trí nhớ<CONDITION> E2=sa sút trí tuệ<CONDITION> E3=alzheimer<CONDITION>
+VM600-475 chỉ là nghỉ được rõ ràng cái đấy cũng là một cái khó đúng không ạ thế chính vì vậy cho nên trong trường hợp này rõ ràng là cái đai thắt lưng lại là một cái
+E1=thắt lưng<BODY_PART>
+VM600-476 thuật thường là chỉ là liên quan tới vấn đề về phẫu thuật nhưng mà với những cái
+E1=phẫu thuật<PROCEDURE>
+VM600-477 là đơn đơn độc như vậy thì nó sẽ làm cho cái tình trạng mà béo phì đó nó có
+E1=béo phì<CONDITION>
+VM600-478 nhiều trường hợp bị chó tấn công gây
+
+VM600-479 thấy mệt mỏi có lúc họ cảm thấy khó khăn có lúc lúc họ cảm thấy là khó cưỡng nổi các cái cái thức ăn mà nó nó chào
+E1=mệt mỏi<CONDITION>
+VM600-480 tôi mổ rồi mà sao nó có dấu hiệu nó muốn trở nặng hơn vân vân mà chúng ta phải yên tâm rằng là sau ba đến sáu tháng sau khi đã
+E1=mổ<PROCEDURE>
+VM600-481 chúng ta sau sau vụ mất trộm chẳng hạn thì chúng ta đuổi trộm đi hết rồi thì
+
+VM600-482 bệnh thì chính cũng là những cái lúc mà chúng tôi đang vận động kính là những cái những cái lúc mà chúng tôi đang thực
+
+VM600-483 những cái cái biến chứng về các cái mạch máu chi nữa và khi sử dụng đối với sản phẩm này thì chúng ta nên sử dụng để
+E1=biến chứng<CONDITION> E2=mạch máu chi<BODY_PART>
+R1:E1>E2:located_at
+VM600-484 là yếu tay yếu chân méo miệng thăng bằng có thể về mắt nữa thì thế mà có những triệu
+E1=yếu tay<CONDITION> E2=yếu chân<CONDITION> E3=méo miệng<CONDITION> E4=mắt<BODY_PART>
+R1:E1>E4:located_at R2:E2>E4:located_at R3:E3>E4:located_at
+VM600-485 có những người là còn nhịn ăn một để gọi là thanh lọc cơ thể thì thì chúng ta sẽ
+E1=thanh lọc<TEST> E2=cơ thể<BODY_PART>
+VM600-486 sao bởi vì khi mà bác bị huyết áp cao bác bị đái tháo đường mà thậm chí có
+E1=huyết áp<CONDITION> E2=cao<DOSAGE> E3=đái tháo đường<CONDITION>
+VM600-487 lời đây là thế thì làm thế nào để chúng ta biết đâu là vấn đề và cái cách xử lý của chúng ta là như thế nào khi nào thì
+
+VM600-488 phải tập dần để chúng ta thích nghi và để chúng ta có thể chấp nhận được những cái món ăn như trước khi chúng ta bị ung
+E1=thích nghi<TEST>
+VM600-489 nói chung cũng như hoạt động và bảo vệ não bộ nói riêng mặc dù probiotic lợi khuẩn hiện đã trở
+E1=não bộ<BODY_PART> E2=lợi khuẩn<DRUG>
+VM600-490 cực mà thôi thứ nhất là họ sẽ càng thấy là tự ti hơn khi bị kỳ thị là nó
+E1=thứ nhất<DOSAGE> E2=tự ti<CONDITION>
+VM600-491 mà chúng ta bị thay đổi trong cái quá trình trước và trong điều trị ung thư thì bây giờ chúng ta sẽ phục hồi nó lại
+E1=điều trị<PROCEDURE> E2=ung thư<CONDITION> E3=phục hồi<PROCEDURE>
+R1:E2>E1:treated_by_procedure R2:E2>E3:treated_by_procedure
+VM600-492 ta điều chỉnh thuốc cho nó phù hợp và khi có chỉ định thuốc thì phải tuân thủ
+E1=điều chỉnh<DRUG> E2=thuốc<DRUG> E3=chỉ định<DRUG> E4=thuốc<DRUG> E5=tuân thủ<DRUG>
+VM600-493 tân dược mà đang điều trị đây là một cái điều rất là an toàn quý vị và các bạn những ai mà chúng ta đang gặp phải cái
+E1=tân dược<DRUG> E2=điều trị<PROCEDURE>
+VM600-494 tuổi gần lúc gần lớn tuổi như vậy đó thì chúng ta thấy là lúc còn trẻ phải không
+
+VM600-495 chóng mặt luôn và thậm chí đã bị trẻ hóa cho nên rằng là mà hai nữa là đi cùng
+E1=chóng mặt<CONDITION> E2=bị trẻ hóa<CONDITION>
+VM600-496 các bác sĩ phụ trách trên nhiều lĩnh vực sức khỏe khác nhau để cùng giúp cho người dân giải quyết những vấn đề mà
+
+VM600-497 có thể nói là chương trình đã hiểu và rất là thông cảm với những cái tình cảnh
+
+VM600-498 lo lắng khi mà người dân đến lấy mẫu mà không biết là liệu nhân viên y tế có thời gian hay không hoặc là có sát khuẩn
+E1=lấy mẫu<PROCEDURE> E2=sát khuẩn<PROCEDURE>
+VM600-499 của họ nó càng bị bất ổn hơn và nếu ngược lại nếu mà mình được lắng nghe
+
+VM600-500 chung đó là tập thể dục vừa sức và nó chạy đều ra thì nó nó sẽ tốt hơn cho sức khỏe của mình hơn là những cái tập

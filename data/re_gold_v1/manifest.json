@@ -1,0 +1,103 @@
+{
+  "source": "outputs\\vietmed_600_RE_review\\review_2026_10_15\\annotations_reviewed_600.jsonl",
+  "source_sha256": "7a6397c8cfe29f46d1a8e3f7bb1f92f96f63f37684d84c16d7c994102babff22",
+  "decisions": "outputs\\vietmed_600_RE_review\\review_2026_10_15\\de_xuat_sua_RE_2026-11-05.csv",
+  "decisions_sha256": "7e719c15405049cc3a998f82b12ab2ee174d9fccd672ec6d217063ef71b53270",
+  "output_sha256": "35051c0eb7afc4755374309b6d65542b22b74ed44ef9e4b63413c60c7125249e",
+  "reviewer": "CHUA_GHI_TEN",
+  "reviewed_at": "CHUA_GHI_NGAY",
+  "review_mode": "paper; reviewer agreed with all AI labels and all 40 suggestions",
+  "conventions": {
+    "generic_entities": "XÓA thực thể chung chung PROCEDURE/DRUG/TEST (danh sách GENERIC) cùng mọi cặp liên quan",
+    "question": "Câu hỏi được tính như khẳng định (VM600-464 → located_at)",
+    "negation": "Phủ định 'không cải thiện với thuốc' → NO_RELATION",
+    "out_of_scope": "Thực phẩm chức năng/đông y và lỗi phiên âm (376, 586, 375 R3) → XÓA cặp",
+    "generic_condition": "CONDITION chung chung ('bệnh', 'biến chứng'...) chưa được hỏi riêng → giữ nguyên"
+  },
+  "generic_entities": {
+    "PROCEDURE": [
+      "trị liệu",
+      "tập luyện",
+      "điều trị",
+      "điều trị giảm cân"
+    ],
+    "DRUG": [
+      "hoạt chất",
+      "thuốc",
+      "thuốc nền",
+      "tân dược"
+    ],
+    "TEST": [
+      "chuẩn đoán",
+      "chẩn đoán",
+      "khám",
+      "khám bệnh",
+      "khảo sát",
+      "thăm dò",
+      "thăm khám",
+      "tái khám",
+      "đo",
+      "đánh giá"
+    ]
+  },
+  "removed_generic_entities": {
+    "DRUG:hoạt chất": 4,
+    "DRUG:thuốc": 33,
+    "DRUG:thuốc nền": 1,
+    "DRUG:tân dược": 3,
+    "PROCEDURE:trị liệu": 4,
+    "PROCEDURE:tập luyện": 2,
+    "PROCEDURE:điều trị": 46,
+    "PROCEDURE:điều trị giảm cân": 1,
+    "TEST:chuẩn đoán": 1,
+    "TEST:chẩn đoán": 3,
+    "TEST:khám": 3,
+    "TEST:khám bệnh": 1,
+    "TEST:khảo sát": 2,
+    "TEST:thăm dò": 2,
+    "TEST:thăm khám": 2,
+    "TEST:tái khám": 1,
+    "TEST:đo": 1,
+    "TEST:đánh giá": 5
+  },
+  "before": {
+    "relations": {
+      "treated_by_procedure": 19,
+      "NO_RELATION": 137,
+      "located_at": 20,
+      "CHUA_RO": 62,
+      "treated_by": 2
+    },
+    "entities": {
+      "CONDITION": 402,
+      "BODY_PART": 180,
+      "PROCEDURE": 124,
+      "DRUG": 146,
+      "TEST": 40,
+      "DOSAGE": 2
+    }
+  },
+  "after": {
+    "relations": {
+      "NO_RELATION": 137,
+      "located_at": 20,
+      "CHUA_RO": 24,
+      "treated_by_procedure": 4,
+      "diagnosed_by": 1
+    },
+    "entities": {
+      "CONDITION": 402,
+      "BODY_PART": 180,
+      "PROCEDURE": 71,
+      "DRUG": 105,
+      "TEST": 19,
+      "DOSAGE": 2
+    }
+  },
+  "samples_changed": 98,
+  "limitations": [
+    "Source is VietMed-NER train split; not an independent test set for NER",
+    "Single reviewer, no inter-annotator agreement measured",
+    "CHUA_RO pairs remain and are excluded from training/evaluation"
+  ]
+}

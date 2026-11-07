@@ -136,6 +136,27 @@ class TestICD10Normalizer:
         res_nao_entity = normalize_entity({"surface_text": "não", "label": "BODY_PART"})
         assert res_nao_entity is None
 
+    def test_fuzzy_subset_false_matches_rejected(self, shared_icd10_normalizer):
+        """Soát 05/11/2026: token_set_ratio cho 100 khi một tập từ chứa tập kia, gây gán sai mã.
+        Luật mới (từ đầu cụm của ứng viên phải có trong truy vấn; cụm ngắn <= 2 từ không được là
+        tập con thực sự) phải tự chặn các ca này, kể cả khi không có từ đồng nghĩa."""
+        from normalization.icd10 import normalize_vietnamese_text
+        wrong = {"huyết áp cao": "Z01.3", "đa xơ cứng": "K74.1", "rối loạn mỡ máu": "D55",
+                 "nhồi máu": "D73.5", "đậu mùa bò": "B03"}
+        for query in wrong:
+            assert shared_icd10_normalizer._fuzzy_search(normalize_vietnamese_text(query)) is None, query
+        for query, bad in wrong.items():
+            res = shared_icd10_normalizer.normalize(query)
+            assert res is None or res.code != bad, f"{query} still mapped to {bad}"
+        expected = {"huyết áp cao": "I10", "rối loạn mỡ máu": "E78", "đa xơ cứng": "G35", "đậu mùa bò": "B08.0"}
+        for query, code in expected.items():
+            assert shared_icd10_normalizer.normalize(query).code == code
+        # Các ca đúng trước đây vẫn phải giữ
+        # 'mảng xơ vữa động mạch' is now a dictionary alias to the more specific I70.9.
+        keep = {"mảng xơ vữa động mạch": "I70", "nhồi máu cơ tim": "I21", "viêm loét dạ dày": "K25"}
+        for query, code in keep.items():
+            assert shared_icd10_normalizer.normalize(query).code.startswith(code)
+
     def test_fuzzy_matches_boundary(self, shared_icd10_normalizer):
         """Verify rapidfuzz matching behaves correctly at threshold boundaries (~0.85).
         
@@ -456,3 +477,182 @@ class TestDispatcher:
         assert res.ontology == "ICD-10"
         assert res.code == "E14"
 
+
+
+# =====================================================================
+# 4. Top-k candidate retrieval (used by Top-k Accuracy / Recall@k evaluation)
+# =====================================================================
+class TestCandidates:
+    """`candidates()` puts the system decision first, never repeats a code, respects k."""
+
+    def test_icd10_decision_is_rank_one(self, shared_icd10_normalizer):
+        top = shared_icd10_normalizer.normalize("đau bụng")
+        cands = shared_icd10_normalizer.candidates("đau bụng", k=5)
+        assert cands[0].code == top.code == "R10"
+        assert cands[0].match_method != "retrieval"
+        assert len(cands) <= 5
+        assert len({c.code for c in cands}) == len(cands)
+
+    def test_icd10_candidates_when_normalize_abstains(self, shared_icd10_normalizer):
+        # 'rong kinh' has no safe single mapping, but the candidate list still ranks codes.
+        assert shared_icd10_normalizer.normalize("rong kinh") is None
+        cands = shared_icd10_normalizer.candidates("rong kinh", k=10)
+        assert 0 < len(cands) <= 10
+        assert all(c.match_method == "retrieval" for c in cands)
+
+    def test_icd10_empty_input(self, shared_icd10_normalizer):
+        assert shared_icd10_normalizer.candidates("   ", k=5) == []
+        assert shared_icd10_normalizer.candidates("đau bụng", k=0) == []
+
+    def test_rxnorm_candidates_cached_and_deduped(self, tmp_path):
+        session = MagicMock(spec=requests.Session)
+
+        def mock_get(url, params=None, timeout=None):
+            resp = MagicMock()
+            resp.status_code = 200
+            if url.endswith("/approximateTerm.json"):
+                resp.json.return_value = {"approximateGroup": {"candidate": [
+                    {"rxcui": "161", "score": "9.0", "name": "acetaminophen"},
+                    {"rxcui": "161", "score": "9.0", "name": "paracetamol"},
+                    {"rxcui": "1191", "score": "3.0", "name": "aspirin"},
+                ]}}
+            elif url.endswith("/rxcui.json"):
+                resp.json.return_value = {"idGroup": {}}
+            else:
+                resp.json.return_value = {}
+            return resp
+
+        session.get.side_effect = mock_get
+        rx = RxNormNormalizer(db_path=tmp_path / "c.db", unmatched_log_path=tmp_path / "u.log",
+                              session=session)
+        cands = rx.candidates("paracetamol", k=5)
+        assert [c.code for c in cands] == ["161", "1191"]
+        calls = session.get.call_count
+        assert [c.code for c in rx.candidates("paracetamol", k=1)] == ["161"]
+        assert session.get.call_count == calls, "approximateTerm result should come from cache"
+
+
+# =====================================================================
+# 5. Dev-split improvements: Vietnamese drug aliases, prefix strip, guarded approx,
+#    ICD-10 lay-term synonyms and the uncovered-word fuzzy safeguard
+# =====================================================================
+def _rx_session(exact, approx):
+    """Mock RxNav: `exact` maps query -> rxcui for /rxcui.json; `approx` maps query -> [(rxcui, name)]."""
+    session = MagicMock(spec=requests.Session)
+
+    def mock_get(url, params=None, timeout=None):
+        resp = MagicMock()
+        resp.status_code = 200
+        params = params or {}
+        if url.endswith("/rxcui.json"):
+            rxcui = exact.get(params.get("name"))
+            resp.json.return_value = {"idGroup": {"rxnormId": [rxcui]} if rxcui else {}}
+        elif url.endswith("/approximateTerm.json"):
+            resp.json.return_value = {"approximateGroup": {"candidate": [
+                {"rxcui": c, "name": n, "score": "9"} for c, n in approx.get(params.get("term"), [])]}}
+        else:
+            resp.json.return_value = {"propConceptGroup": {"propConcept": [{"propValue": "Name"}]}}
+        return resp
+
+    session.get.side_effect = mock_get
+    return session
+
+
+class TestDrugAliasesAndApprox:
+    def _rx(self, tmp_path, exact=None, approx=None, aliases=None):
+        path = tmp_path / "aliases.json"
+        path.write_text(json.dumps({"aliases": aliases or {"canxi": "calcium", "đông trùng hạ thảo": "Cordyceps sinensis"}},
+                                   ensure_ascii=False), encoding="utf-8")
+        return RxNormNormalizer(db_path=tmp_path / "c.db", unmatched_log_path=tmp_path / "u.log",
+                                aliases_path=path, session=_rx_session(exact or {}, approx or {}))
+
+    def test_vietnamese_alias(self, tmp_path):
+        rx = self._rx(tmp_path, exact={"calcium": "1895"})
+        res = rx.normalize("Canxi")
+        assert res.code == "1895" and res.match_method == "alias"
+
+    def test_prefix_strip_then_alias(self, tmp_path):
+        rx = self._rx(tmp_path, exact={"Cordyceps sinensis": "1427139"})
+        assert rx.normalize("viên nang đông trùng hạ thảo").code == "1427139"
+
+    def test_approx_accepts_typo_only(self, tmp_path):
+        rx = self._rx(tmp_path, approx={"progesteronee": [("8727", "progesterone")],
+                                        "thuốc bổ": [("2690033", "BO-653")]})
+        res = rx.normalize("progesteronee")
+        assert res.code == "8727" and res.match_method == "approx"
+        assert rx.normalize("thuốc bổ") is None, "loose approximate match must be rejected"
+
+
+class TestIcdDevImprovements:
+    def test_lay_term_synonyms(self, shared_icd10_normalizer):
+        assert shared_icd10_normalizer.normalize("rung nhĩ").code == "I48"
+        assert shared_icd10_normalizer.normalize("loãng xương").code == "M81.9"
+
+    def test_uncovered_word_rejected(self, shared_icd10_normalizer):
+        # Candidate 'Rối loạn vận động phân ly' (F44.4) adds 'phân ly', which defines the disease.
+        res = shared_icd10_normalizer.normalize("rối loạn vận động")
+        assert res is None or res.code != "F44.4"
+
+    def test_acuity_qualifier_still_matches(self, shared_icd10_normalizer):
+        assert shared_icd10_normalizer.normalize("nhồi máu cơ tim").code.startswith("I21")
+
+    def test_candidates_use_tfidf_with_aliases(self, shared_icd10_normalizer):
+        cands = shared_icd10_normalizer.candidates("rong kinh", k=10)
+        assert 0 < len(cands) <= 10 and len({c.code for c in cands}) == len(cands)
+
+
+class TestAlwaysAnswerMode:
+    def test_strict_abstains_always_suggests(self, shared_icd10_normalizer):
+        strict = EntityNormalizationPipeline(icd10_normalizer=shared_icd10_normalizer)
+        always = EntityNormalizationPipeline(icd10_normalizer=shared_icd10_normalizer, mode="always")
+        ent = {"surface_text": "rong kinh", "label": "CONDITION"}
+        assert strict.normalize_entity(ent) is None
+        res = always.normalize_entity(ent)
+        assert res is not None and res.match_method == "retrieval"
+
+    def test_always_keeps_confident_decision(self, shared_icd10_normalizer):
+        always = EntityNormalizationPipeline(icd10_normalizer=shared_icd10_normalizer, mode="always")
+        res = always.normalize_entity({"surface_text": "đau bụng", "label": "CONDITION"})
+        assert res.code == "R10" and res.match_method != "retrieval"
+
+    def test_always_does_not_touch_other_labels(self, shared_icd10_normalizer):
+        always = EntityNormalizationPipeline(icd10_normalizer=shared_icd10_normalizer, mode="always")
+        assert always.normalize_entity({"surface_text": "500mg", "label": "DOSAGE"}) is None
+
+    def test_invalid_mode(self):
+        with pytest.raises(ValueError):
+            EntityNormalizationPipeline(mode="sometimes")
+
+
+class TestTopKOutput:
+    def test_entities_carry_ranked_candidates(self, shared_icd10_normalizer):
+        pipe = EntityNormalizationPipeline(icd10_normalizer=shared_icd10_normalizer, top_k=3)
+        out = pipe.normalize_entities([
+            {"surface_text": "đau bụng", "label": "CONDITION"},
+            {"surface_text": "rong kinh", "label": "CONDITION"},
+            {"surface_text": "500mg", "label": "DOSAGE"},
+        ])
+        confident, guess, dosage = out
+        assert confident["normalized"]["code"] == "R10"
+        assert confident["candidates"][0]["code"] == "R10" and confident["candidates"][0]["rank"] == 1
+        assert [c["rank"] for c in confident["candidates"]] == list(range(1, len(confident["candidates"]) + 1))
+        assert len(confident["candidates"]) <= 3
+        # strict mode: no decision, but suggestions are still returned
+        assert guess["normalized"] is None
+        assert guess["candidates"] and all(c["match_method"] == "retrieval" for c in guess["candidates"])
+        assert dosage["normalized"] is None and dosage["candidates"] == []
+
+    def test_decision_matches_single_entity_call(self, shared_icd10_normalizer):
+        pipe = EntityNormalizationPipeline(icd10_normalizer=shared_icd10_normalizer)
+        for text in ("tiểu đường", "rong kinh", "loãng xương"):
+            ent = {"surface_text": text, "label": "CONDITION"}
+            single = pipe.normalize_entity(ent)
+            batch = pipe.normalize_entities([ent])[0]["normalized"]
+            assert (single.to_dict() if single else None) == batch
+
+    def test_top_k_zero_disables_list(self, shared_icd10_normalizer):
+        pipe = EntityNormalizationPipeline(icd10_normalizer=shared_icd10_normalizer, top_k=0)
+        out = pipe.normalize_entities([{"surface_text": "đau bụng", "label": "CONDITION"}])[0]
+        assert out["candidates"] == [] and out["normalized"]["code"] == "R10"
+        with pytest.raises(ValueError):
+            EntityNormalizationPipeline(top_k=-1)

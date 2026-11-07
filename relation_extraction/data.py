@@ -11,6 +11,22 @@ SCHEMA = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
 RELATIONS = {r["label"]: (r["head_type"], r["tail_type"]) for r in SCHEMA["relations"]}
 NEGATIVE = SCHEMA["negative_label"]
 
+# Thực thể chung chung bị loại khỏi gold RE v1 (quy ước người duyệt 05/11/2026).
+# NER vẫn giữ chúng (nhãn nguồn TREATMENT/DIAGNOSTICS...), nhưng RE không sinh cặp cho chúng
+# để đầu vào lúc suy luận khớp với dữ liệu huấn luyện. Nguồn duy nhất cho cả
+# scripts/apply_paper_review.py và MedicalREPipeline.
+GENERIC_ENTITIES = {
+    "PROCEDURE": frozenset({"điều trị", "trị liệu", "điều trị giảm cân", "tập luyện"}),
+    "DRUG": frozenset({"thuốc", "tân dược", "thuốc nền", "hoạt chất"}),
+    "TEST": frozenset({"khám", "đánh giá", "chẩn đoán", "chuẩn đoán", "khảo sát", "thăm khám",
+                       "khám bệnh", "tái khám", "thăm dò", "đo"}),
+}
+
+
+def is_generic(entity):
+    text = unicodedata.normalize("NFC", entity.get("text") or entity.get("surface_text") or "")
+    return " ".join(text.casefold().split()) in GENERIC_ENTITIES.get(entity.get("label"), ())
+
 
 def text_group(text):
     normalized = " ".join(unicodedata.normalize("NFC", text).casefold().split())

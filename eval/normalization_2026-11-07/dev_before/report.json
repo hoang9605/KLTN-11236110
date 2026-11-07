@@ -1,0 +1,317 @@
+{
+  "gold": "data/norm_gold_v1/gold_dev.jsonl",
+  "human_verified": false,
+  "ks": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "results": {
+    "ICD-10": {
+      "code": {
+        "type": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.06802721088435375,
+            "coverage": 0.06802721088435375,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "fuzzy1": {
+            "accuracy": 0.19727891156462585,
+            "coverage": 1.0,
+            "precision_answered": 0.19727891156462585,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.1564625850340136,
+            "coverage": 0.16326530612244897,
+            "precision_answered": 0.9583333333333334,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "top1_acc": 0.24489795918367346,
+          "recall@1": 0.24489795918367346,
+          "top3_acc": 0.3129251700680272,
+          "recall@3": 0.3129251700680272,
+          "top5_acc": 0.3673469387755102,
+          "recall@5": 0.3673469387755102,
+          "top10_acc": 0.4013605442176871,
+          "recall@10": 0.4013605442176871,
+          "mrr@10": 0.29319727891156466
+        },
+        "mention": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.08302583025830258,
+            "coverage": 0.08302583025830258,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "fuzzy1": {
+            "accuracy": 0.1900369003690037,
+            "coverage": 1.0,
+            "precision_answered": 0.1900369003690037,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.2029520295202952,
+            "coverage": 0.2047970479704797,
+            "precision_answered": 0.990990990990991,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "top1_acc": 0.2767527675276753,
+          "recall@1": 0.2767527675276753,
+          "top3_acc": 0.46494464944649444,
+          "recall@3": 0.46494464944649444,
+          "top5_acc": 0.5202952029520295,
+          "recall@5": 0.5202952029520295,
+          "top10_acc": 0.544280442804428,
+          "recall@10": 0.544280442804428,
+          "mrr@10": 0.3845940959409594
+        },
+        "ci95_type": {
+          "system.accuracy": [
+            0.1,
+            0.2152777777777778
+          ],
+          "exact.accuracy": [
+            0.028368794326241134,
+            0.11188811188811189
+          ],
+          "fuzzy1.accuracy": [
+            0.1346153846153846,
+            0.2638888888888889
+          ],
+          "top1_acc": [
+            0.17687074829931973,
+            0.31756756756756754
+          ],
+          "top5_acc": [
+            0.2894736842105263,
+            0.4485294117647059
+          ],
+          "top10_acc": [
+            0.3246753246753247,
+            0.48366013071895425
+          ]
+        }
+      },
+      "category": {
+        "type": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.06802721088435375,
+            "coverage": 0.06802721088435375,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "fuzzy1": {
+            "accuracy": 0.23809523809523808,
+            "coverage": 1.0,
+            "precision_answered": 0.23809523809523808,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.1564625850340136,
+            "coverage": 0.16326530612244897,
+            "precision_answered": 0.9583333333333334,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "top1_acc": 0.2857142857142857,
+          "recall@1": 0.2857142857142857,
+          "top3_acc": 0.3741496598639456,
+          "recall@3": 0.3741496598639456,
+          "top5_acc": 0.41496598639455784,
+          "recall@5": 0.41496598639455784,
+          "top10_acc": 0.4489795918367347,
+          "recall@10": 0.4489795918367347,
+          "mrr@10": 0.3380007558578987
+        },
+        "mention": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.08302583025830258,
+            "coverage": 0.08302583025830258,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "fuzzy1": {
+            "accuracy": 0.23247232472324722,
+            "coverage": 1.0,
+            "precision_answered": 0.23247232472324722,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.2029520295202952,
+            "coverage": 0.2047970479704797,
+            "precision_answered": 0.990990990990991,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "top1_acc": 0.3191881918819188,
+          "recall@1": 0.3191881918819188,
+          "top3_acc": 0.525830258302583,
+          "recall@3": 0.525830258302583,
+          "top5_acc": 0.544280442804428,
+          "recall@5": 0.544280442804428,
+          "top10_acc": 0.5719557195571956,
+          "recall@10": 0.5719557195571956,
+          "mrr@10": 0.4245028700287003
+        },
+        "ci95_type": {
+          "system.accuracy": [
+            0.1,
+            0.2152777777777778
+          ],
+          "exact.accuracy": [
+            0.028368794326241134,
+            0.11188811188811189
+          ],
+          "fuzzy1.accuracy": [
+            0.17142857142857143,
+            0.3076923076923077
+          ],
+          "top1_acc": [
+            0.21379310344827587,
+            0.36363636363636365
+          ],
+          "top5_acc": [
+            0.3356164383561644,
+            0.5
+          ],
+          "top10_acc": [
+            0.3669064748201439,
+            0.5310344827586206
+          ]
+        }
+      }
+    },
+    "RxNorm": {
+      "code": {
+        "type": {
+          "n_linkable": 37,
+          "n_nil": 91,
+          "mentions_linkable": 78,
+          "mentions_nil": 280,
+          "exact": {
+            "accuracy": 0.32432432432432434,
+            "coverage": 0.32432432432432434,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 1.0
+          },
+          "fuzzy1": {
+            "accuracy": 0.43243243243243246,
+            "coverage": 0.9459459459459459,
+            "precision_answered": 0.45714285714285713,
+            "nil_correct_abstention": 0.16483516483516483
+          },
+          "system": {
+            "accuracy": 0.32432432432432434,
+            "coverage": 0.32432432432432434,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 1.0
+          },
+          "top1_acc": 0.4594594594594595,
+          "recall@1": 0.4594594594594595,
+          "top3_acc": 0.5135135135135135,
+          "recall@3": 0.5135135135135135,
+          "top5_acc": 0.5135135135135135,
+          "recall@5": 0.5135135135135135,
+          "top10_acc": 0.5135135135135135,
+          "recall@10": 0.5135135135135135,
+          "mrr@10": 0.48198198198198194
+        },
+        "mention": {
+          "n_linkable": 37,
+          "n_nil": 91,
+          "mentions_linkable": 78,
+          "mentions_nil": 280,
+          "exact": {
+            "accuracy": 0.2564102564102564,
+            "coverage": 0.2564102564102564,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 1.0
+          },
+          "fuzzy1": {
+            "accuracy": 0.2564102564102564,
+            "coverage": 0.9743589743589743,
+            "precision_answered": 0.2631578947368421,
+            "nil_correct_abstention": 0.35714285714285715
+          },
+          "system": {
+            "accuracy": 0.2564102564102564,
+            "coverage": 0.2564102564102564,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 1.0
+          },
+          "top1_acc": 0.32051282051282054,
+          "recall@1": 0.32051282051282054,
+          "top3_acc": 0.358974358974359,
+          "recall@3": 0.358974358974359,
+          "top5_acc": 0.358974358974359,
+          "recall@5": 0.358974358974359,
+          "top10_acc": 0.358974358974359,
+          "recall@10": 0.358974358974359,
+          "mrr@10": 0.3376068376068376
+        },
+        "ci95_type": {
+          "system.accuracy": [
+            0.17777777777777778,
+            0.4857142857142857
+          ],
+          "exact.accuracy": [
+            0.17777777777777778,
+            0.4857142857142857
+          ],
+          "fuzzy1.accuracy": [
+            0.275,
+            0.5945945945945946
+          ],
+          "top1_acc": [
+            0.3,
+            0.6153846153846154
+          ],
+          "top5_acc": [
+            0.35135135135135137,
+            0.6756756756756757
+          ],
+          "top10_acc": [
+            0.35135135135135137,
+            0.6756756756756757
+          ]
+        }
+      }
+    }
+  },
+  "system_wrong_links": [
+    {
+      "ontology": "ICD-10",
+      "form": "chấn động",
+      "freq": 1,
+      "pred": "S06.0",
+      "gold": []
+    },
+    {
+      "ontology": "ICD-10",
+      "form": "rối loạn vận động",
+      "freq": 1,
+      "pred": "F44.4",
+      "gold": [
+        "R27.8",
+        "G25.9"
+      ]
+    }
+  ]
+}

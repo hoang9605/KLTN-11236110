@@ -1,0 +1,695 @@
+{
+  "data": {
+    "v1": {
+      "samples": 600,
+      "included_pairs_with_review_flags": 0,
+      "unknown_pairs_excluded": 24,
+      "included_pairs": 162,
+      "samples_with_included_pairs": 73
+    },
+    "v2": {
+      "samples": 199,
+      "included_pairs_with_review_flags": 0,
+      "unknown_pairs_excluded": 46,
+      "included_pairs": 394,
+      "samples_with_included_pairs": 190
+    },
+    "v1_v2_text_overlap": 0,
+    "train_test_text_overlap": 0,
+    "golden_test": {
+      "skip_entity_not_DUNG": 153,
+      "skip_unlabelled_or_unclear": 34,
+      "pairs": 121
+    },
+    "labels_v1": {
+      "NO_RELATION": 137,
+      "located_at": 20,
+      "treated_by_procedure": 4,
+      "diagnosed_by": 1
+    },
+    "labels_v2": {
+      "NO_RELATION": 355,
+      "diagnosed_by": 5,
+      "treated_by_procedure": 11,
+      "located_at": 14,
+      "treated_by": 9
+    },
+    "labels_golden_test": {
+      "NO_RELATION": 75,
+      "treated_by": 4,
+      "diagnosed_by": 10,
+      "located_at": 20,
+      "has_dosage": 10,
+      "treated_by_procedure": 2
+    }
+  },
+  "cv5": {
+    "rules": {
+      "positive_micro": {
+        "precision": 0.478,
+        "recall": 0.344,
+        "f1": 0.4,
+        "tp": 22,
+        "fp": 24,
+        "fn": 42,
+        "support": 64
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.773,
+          "recall": 0.5,
+          "f1": 0.607,
+          "tp": 17,
+          "fp": 5,
+          "fn": 17,
+          "support": 34
+        },
+        "treated_by": {
+          "precision": 0.333,
+          "recall": 0.222,
+          "f1": 0.267,
+          "tp": 2,
+          "fp": 4,
+          "fn": 7,
+          "support": 9
+        },
+        "treated_by_procedure": {
+          "precision": 0.6,
+          "recall": 0.2,
+          "f1": 0.3,
+          "tp": 3,
+          "fp": 2,
+          "fn": 12,
+          "support": 15
+        },
+        "diagnosed_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 7,
+          "fn": 6,
+          "support": 6
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 6,
+          "fn": 0,
+          "support": 0
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.277,
+        0.508
+      ]
+    },
+    "model_v1": {
+      "positive_micro": {
+        "precision": 0.424,
+        "recall": 0.219,
+        "f1": 0.289,
+        "tp": 14,
+        "fp": 19,
+        "fn": 50,
+        "support": 64
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.36,
+          "recall": 0.265,
+          "f1": 0.305,
+          "tp": 9,
+          "fp": 16,
+          "fn": 25,
+          "support": 34
+        },
+        "treated_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 9,
+          "support": 9
+        },
+        "treated_by_procedure": {
+          "precision": 0.625,
+          "recall": 0.333,
+          "f1": 0.435,
+          "tp": 5,
+          "fp": 3,
+          "fn": 10,
+          "support": 15
+        },
+        "diagnosed_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 6,
+          "support": 6
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 0
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.158,
+        0.408
+      ]
+    },
+    "model_v2": {
+      "positive_micro": {
+        "precision": 0.394,
+        "recall": 0.406,
+        "f1": 0.4,
+        "tp": 26,
+        "fp": 40,
+        "fn": 38,
+        "support": 64
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.311,
+          "recall": 0.412,
+          "f1": 0.354,
+          "tp": 14,
+          "fp": 31,
+          "fn": 20,
+          "support": 34
+        },
+        "treated_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 9,
+          "support": 9
+        },
+        "treated_by_procedure": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6,
+          "tp": 9,
+          "fp": 6,
+          "fn": 6,
+          "support": 15
+        },
+        "diagnosed_by": {
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "tp": 3,
+          "fp": 1,
+          "fn": 3,
+          "support": 6
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "support": 0
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.293,
+        0.513
+      ]
+    },
+    "hybrid": {
+      "positive_micro": {
+        "precision": 0.361,
+        "recall": 0.406,
+        "f1": 0.382,
+        "tp": 26,
+        "fp": 46,
+        "fn": 38,
+        "support": 64
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.311,
+          "recall": 0.412,
+          "f1": 0.354,
+          "tp": 14,
+          "fp": 31,
+          "fn": 20,
+          "support": 34
+        },
+        "treated_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 9,
+          "support": 9
+        },
+        "treated_by_procedure": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6,
+          "tp": 9,
+          "fp": 6,
+          "fn": 6,
+          "support": 15
+        },
+        "diagnosed_by": {
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6,
+          "tp": 3,
+          "fp": 1,
+          "fn": 3,
+          "support": 6
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 6,
+          "fn": 0,
+          "support": 0
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.279,
+        0.492
+      ]
+    },
+    "union": {
+      "positive_micro": {
+        "precision": 0.392,
+        "recall": 0.625,
+        "f1": 0.482,
+        "tp": 40,
+        "fp": 62,
+        "fn": 24,
+        "support": 64
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.407,
+          "recall": 0.706,
+          "f1": 0.516,
+          "tp": 24,
+          "fp": 35,
+          "fn": 10,
+          "support": 34
+        },
+        "treated_by": {
+          "precision": 0.286,
+          "recall": 0.222,
+          "f1": 0.25,
+          "tp": 2,
+          "fp": 5,
+          "fn": 7,
+          "support": 9
+        },
+        "treated_by_procedure": {
+          "precision": 0.579,
+          "recall": 0.733,
+          "f1": 0.647,
+          "tp": 11,
+          "fp": 8,
+          "fn": 4,
+          "support": 15
+        },
+        "diagnosed_by": {
+          "precision": 0.273,
+          "recall": 0.5,
+          "f1": 0.353,
+          "tp": 3,
+          "fp": 8,
+          "fn": 3,
+          "support": 6
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 6,
+          "fn": 0,
+          "support": 0
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.39,
+        0.573
+      ]
+    }
+  },
+  "golden_test": {
+    "rules": {
+      "positive_micro": {
+        "precision": 0.706,
+        "recall": 0.261,
+        "f1": 0.381,
+        "tp": 12,
+        "fp": 5,
+        "fn": 34,
+        "support": 46
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.75,
+          "recall": 0.3,
+          "f1": 0.429,
+          "tp": 6,
+          "fp": 2,
+          "fn": 14,
+          "support": 20
+        },
+        "treated_by": {
+          "precision": 0.4,
+          "recall": 0.5,
+          "f1": 0.444,
+          "tp": 2,
+          "fp": 3,
+          "fn": 2,
+          "support": 4
+        },
+        "treated_by_procedure": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "support": 2
+        },
+        "diagnosed_by": {
+          "precision": 1.0,
+          "recall": 0.3,
+          "f1": 0.462,
+          "tp": 3,
+          "fp": 0,
+          "fn": 7,
+          "support": 10
+        },
+        "has_dosage": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.182,
+          "tp": 1,
+          "fp": 0,
+          "fn": 9,
+          "support": 10
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.203,
+        0.528
+      ]
+    },
+    "model_v1": {
+      "positive_micro": {
+        "precision": 0.36,
+        "recall": 0.196,
+        "f1": 0.254,
+        "tp": 9,
+        "fp": 16,
+        "fn": 37,
+        "support": 46
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.391,
+          "recall": 0.45,
+          "f1": 0.419,
+          "tp": 9,
+          "fp": 14,
+          "fn": 11,
+          "support": 20
+        },
+        "treated_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4,
+          "support": 4
+        },
+        "treated_by_procedure": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 2,
+          "support": 2
+        },
+        "diagnosed_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "support": 10
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "support": 10
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.075,
+        0.405
+      ]
+    },
+    "model_v2": {
+      "positive_micro": {
+        "precision": 0.429,
+        "recall": 0.326,
+        "f1": 0.37,
+        "tp": 15,
+        "fp": 20,
+        "fn": 31,
+        "support": 46
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.419,
+          "recall": 0.65,
+          "f1": 0.51,
+          "tp": 13,
+          "fp": 18,
+          "fn": 7,
+          "support": 20
+        },
+        "treated_by": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "tp": 2,
+          "fp": 0,
+          "fn": 2,
+          "support": 4
+        },
+        "treated_by_procedure": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 2,
+          "support": 2
+        },
+        "diagnosed_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "support": 10
+        },
+        "has_dosage": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "support": 10
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.198,
+        0.5
+      ]
+    },
+    "hybrid": {
+      "positive_micro": {
+        "precision": 0.444,
+        "recall": 0.348,
+        "f1": 0.39,
+        "tp": 16,
+        "fp": 20,
+        "fn": 30,
+        "support": 46
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.419,
+          "recall": 0.65,
+          "f1": 0.51,
+          "tp": 13,
+          "fp": 18,
+          "fn": 7,
+          "support": 20
+        },
+        "treated_by": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "tp": 2,
+          "fp": 0,
+          "fn": 2,
+          "support": 4
+        },
+        "treated_by_procedure": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 2,
+          "support": 2
+        },
+        "diagnosed_by": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 10,
+          "support": 10
+        },
+        "has_dosage": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.182,
+          "tp": 1,
+          "fp": 0,
+          "fn": 9,
+          "support": 10
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.226,
+        0.516
+      ]
+    },
+    "union": {
+      "positive_micro": {
+        "precision": 0.468,
+        "recall": 0.478,
+        "f1": 0.473,
+        "tp": 22,
+        "fp": 25,
+        "fn": 24,
+        "support": 46
+      },
+      "per_relation": {
+        "located_at": {
+          "precision": 0.429,
+          "recall": 0.75,
+          "f1": 0.545,
+          "tp": 15,
+          "fp": 20,
+          "fn": 5,
+          "support": 20
+        },
+        "treated_by": {
+          "precision": 0.5,
+          "recall": 0.75,
+          "f1": 0.6,
+          "tp": 3,
+          "fp": 3,
+          "fn": 1,
+          "support": 4
+        },
+        "treated_by_procedure": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 2,
+          "fn": 2,
+          "support": 2
+        },
+        "diagnosed_by": {
+          "precision": 1.0,
+          "recall": 0.3,
+          "f1": 0.462,
+          "tp": 3,
+          "fp": 0,
+          "fn": 7,
+          "support": 10
+        },
+        "has_dosage": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.182,
+          "tp": 1,
+          "fp": 0,
+          "fn": 9,
+          "support": 10
+        }
+      },
+      "positive_micro_f1_ci95": [
+        0.333,
+        0.576
+      ]
+    }
+  },
+  "selected_by_cv": "union",
+  "final_model": {
+    "label_source": "AI_provisional",
+    "allow_ai_labels": true,
+    "training_data": [
+      "data\\re_gold_v1\\annotations_gold_v1.jsonl",
+      "data\\re_ai_v2\\annotations_ai_v2.jsonl"
+    ],
+    "model": "character TF-IDF (2,5), balanced LogisticRegression C=1, threshold=0.5",
+    "pairs": 556,
+    "labels": {
+      "NO_RELATION": 492,
+      "located_at": 34,
+      "treated_by_procedure": 15,
+      "diagnosed_by": 6,
+      "treated_by": 9
+    },
+    "supported_relations": [
+      "diagnosed_by",
+      "located_at",
+      "treated_by",
+      "treated_by_procedure"
+    ],
+    "note": "v1 paper-reviewed by a human (reviewer name not recorded); v2 AI-labelled, not yet reviewed"
+  }
+}

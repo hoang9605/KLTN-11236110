@@ -1,0 +1,228 @@
+VM600-501 làm giãn các cái mạch máu để tăng cường lưu thông máu đến nuôi dưỡng cơ tim qua
+E1=mạch máu<BODY_PART> E2=tăng cường lưu thông máu<PROCEDURE> E3=nuôi dưỡng<PROCEDURE> E4=cơ<BODY_PART> E5=tim<BODY_PART>
+VM600-502 được cho những cái thiết bị cấy ghép vào cơ thể họ chỉ thanh toán theo cái khung
+E1=cấy ghép<PROCEDURE> E2=cơ thể<BODY_PART>
+VM600-503 chi hoàn toàn có thể xảy ra trên những bệnh nhân bị xơ vữa động mạch vâng rõ ràng là cái bệnh lý về tim mạch về huyết
+E1=những bệnh nhân<DOSAGE> E2=xơ vữa động mạch<CONDITION> E3=tim mạch<BODY_PART> E4=huyết<BODY_PART>
+R1:E2>E3:located_at R2:E2>E4:located_at
+VM600-504 lành mạnh tôi sẽ giải thích mọi yếu tố này đóng vai trò như thế nào đối với sức khỏe của hệ vi sinh vật vì lợi ích của
+E1=hệ<BODY_PART> E2=vi sinh vật<BODY_PART>
+VM600-505 phù hợp nếu mà vì chúng ta chăm sóc nhiều hôm sau nhưng mà đôi khi một số làn da chăm sóc nhiều quá thì thay đổi mụn nữa là thôi nếu
+E1=làn da<BODY_PART> E2=mụn<CONDITION>
+R1:E2>E1:located_at
+VM600-506 biểu hiện của cái thoái hóa cột sống của chúng ta dường như nó không phải là quá không phải ở những giai đoạn rất là sớm
+E1=thoái hóa cột sống<CONDITION>
+VM600-507 các cái bệnh lý như là đau tức ngực này hồi hộp trống ngực này đấy thế và và
+E1=đau tức ngực<CONDITION> E2=hồi hộp trống ngực<CONDITION>
+VM600-508 đông trùng hạ thảo làm chủ dược nhưng mà kết hợp thêm nấm hầu thủ với đẳng sâm việt nam ở đây cũng là phải nói thêm một
+E1=đông trùng hạ thảo<DRUG> E2=nấm hầu thủ<DRUG> E3=đẳng sâm<DRUG>
+VM600-509 tim thì có thể sẽ xảy ra bệnh cạnh thiếu máu cơ tim nhồi máu cơ tim có nghĩa là
+E1=tim<BODY_PART> E2=thiếu máu<CONDITION> E3=cơ<BODY_PART> E4=tim<BODY_PART> E5=nhồi máu cơ tim<CONDITION>
+R1:E2>E1:located_at R2:E2>E3:located_at R3:E2>E4:located_at R4:E5>E1:located_at R5:E5>E3:located_at R6:E5>E4:located_at
+VM600-510 động cảm ơn bác sĩ và thưa tất cả quý vị rõ ràng là chúng ta thấy có rất là nhiều
+
+VM600-511 sử dụng cái axit lactic để chúng ta phải lên chất đoạn mũi má và chúng ta coi đáp
+E1=axit lactic<DRUG> E2=mũi<BODY_PART>
+VM600-512 thì làm sao mục đích thứ nhất là giúp cho người bệnh tăng đề kháng mục đích thứ hai là giúp cho người bệnh làm sao
+E1=thứ nhất<DOSAGE>
+VM600-513 cái béo phì vân vân nhiều nhiều những cái cái cái bệnh có thể đưa đến cái béo
+E1=béo phì<CONDITION>
+VM600-514 thiện những dấu hiệu tê bì kiến bò ở chân tay của bác này thế rồi là những cái dấu hiệu hồi hộp trống ngực của bác
+E1=tê bì kiến bò<CONDITION> E2=chân tay<BODY_PART> E3=hồi hộp trống ngực<CONDITION>
+R1:E1>E2:located_at R2:E3>E2:located_at
+VM600-515 sau đó thì cũng không nhắc bởi vì nó
+
+VM600-516 về các cơ chế này và cách chúng bị ảnh hưởng bởi vi khuẩn đường ruột và sức khỏe đường ruột của bạn trên thực tế hệ
+E1=vi khuẩn<CONDITION> E2=đường ruột<BODY_PART> E3=đường ruột<BODY_PART>
+R1:E1>E2:located_at R2:E1>E3:located_at
+VM600-517 rất nhiều các cái trường hợp mà cái thận của chức năng thận nó bị ảnh hưởng nhiều và nhiều bệnh nhân bị suy thận do
+E1=rất nhiều<DOSAGE> E2=thận<BODY_PART> E3=thận<BODY_PART> E4=suy thận<CONDITION>
+R1:E4>E2:located_at R2:E4>E3:located_at
+VM600-518 nên là cái thời gian đầu thì có thể mình sẽ lựa chọn cái cục pin không sạc sau khi mà mình đặt xong mình
+
+VM600-519 tử protein của vi khuẩn liên quan tới một quá trình thiết yếu và phức tạp một
+E1=protein<DRUG> E2=vi khuẩn<CONDITION>
+R1:E2>E1:treated_by
+VM600-520 biến chứng nguy hiểm thế thì của bác có vấn đề gì huyết áp này đái tháo đường này phải không ạ và cái nữa là liên quan đến
+E1=biến chứng<CONDITION> E2=huyết áp<CONDITION> E3=đái tháo đường<CONDITION>
+VM600-521 dụ như là lở loét miệng thì thực ra mình nói lở loét miệng chỉ do kẽm không thôi thì cũng chỉ là một phần thôi
+E1=miệng<BODY_PART> E2=miệng<BODY_PART> E3=kẽm<DRUG> E4=một phần<DOSAGE>
+R1:E3>E4:has_dosage
+VM600-522 chấm mấy lận cũng như là mấy cái người về mà bác sĩ mà tiểu đường ở đây đó bác sĩ và ta nói
+E1=tiểu đường<CONDITION>
+VM600-523 chủ chốt của cơ thể trong hoạt động cùng với chức năng sinh lý học của bạn đặc biệt là hệ thần kinh xếp cùng nhau các
+E1=cơ thể<BODY_PART> E2=thần kinh<BODY_PART>
+VM600-524 thể khác và nó lại sinh sôi nảy nở và có cái điều kiện tiếp xúc gần với những khi người khác nữa thì virus đó lại là có
+E1=virus<CONDITION>
+VM600-525 là cái tư thế vận động của người ta như thế nào vì sao vì tất cả những cái chuyện này là những cái yếu tố nó có tác
+
+VM600-526 trăm nghìn tỷ sinh vật vô hình này bao phủ bên trong và bên ngoài cơ thể bạn phát triển mạnh trong miệng mũi tai ruột
+E1=trăm nghìn tỷ<DOSAGE> E2=cơ thể<BODY_PART> E3=miệng<BODY_PART> E4=mũi<BODY_PART> E5=tai<BODY_PART> E6=ruột<BODY_PART>
+VM600-527 đời có một ca sinh mổ theo nguyện vọng và được uống sữa công thức hoàn toàn cô bé mắt nhiều bệnh nhiễm trùng khi còn
+E1=một ca<DOSAGE> E2=sinh mổ<PROCEDURE> E3=mắt<BODY_PART> E4=nhiễm trùng<CONDITION>
+R1:E4>E2:treated_by_procedure R2:E4>E3:located_at
+VM600-528 chung nhất về cái vai trò quan trọng của dinh dưỡng đối với người bệnh ung thư được không ạ vâng ạ nếu nói về dinh
+E1=ung thư<CONDITION>
+VM600-529 truyền miệng thì sau đó thì sau một cái thời gian dài họ thử nghiệm mọi thứ
+E1=truyền miệng<PROCEDURE>
+VM600-530 lo âu bồn chồn và có đôi khi ảo giác và có thể có ý định tự tử thì tất
+E1=lo âu<CONDITION> E2=ảo giác<CONDITION> E3=có ý định tự tử<CONDITION>
+VM600-531 hiện tượng sẽ được đề cập khác cuốn sách này sẽ khám phá ảnh hưởng của việc làm việc ca đêm đến hệ miễn dịch của chúng
+E1=khám<TEST> E2=hệ miễn dịch<BODY_PART>
+VM600-532 phẩm mà nó tác động vào cái mảng xơ vữa nên là nó cần phải có thời gian nên là bác nên sử dụng kéo dài từ ba đến sáu tháng
+E1=mảng xơ vữa<CONDITION>
+VM600-533 trong tế bào của chúng ta nó có dna riêng tách biệt với dna trong nhân tế bào trên thực tế ti thể có thể được coi
+E1=tế bào<BODY_PART> E2=dna<BODY_PART> E3=dna<BODY_PART> E4=tế bào<BODY_PART> E5=ti thể<BODY_PART>
+VM600-534 công tác điều trị parkinson cũng như là mức độ hiệu quả của phương pháp này như thế nào chúng ta biết rằng là bệnh parkinson
+E1=điều trị<PROCEDURE> E2=parkinson<CONDITION> E3=mức độ<DOSAGE> E4=parkinson<CONDITION>
+R1:E2>E1:treated_by_procedure R2:E4>E1:treated_by_procedure
+VM600-535 ở người bị nhiễm virus có thể tạo ra một trăm phần tử virus mối điều này có nghĩa là chỉ cần ba bản
+E1=virus<CONDITION> E2=một trăm phần tử<DOSAGE> E3=virus<CONDITION>
+VM600-536 là lú lẫn hay quên sa sút trí tuệ aizheimer parkinson rồi là ta di
+E1=lú lẫn<CONDITION> E2=hay quên<CONDITION> E3=sa sút trí tuệ<CONDITION> E4=aizheimer<CONDITION> E5=parkinson<CONDITION>
+VM600-537 người béo phì mà người ta đã từng trị liệu được mổ rồi nè được điều trị tốt nè được tập luyện tốt giữ được
+E1=béo phì<CONDITION> E2=trị liệu<PROCEDURE> E3=mổ<PROCEDURE> E4=điều trị<PROCEDURE>
+R1:E1>E2:treated_by_procedure R2:E1>E3:treated_by_procedure R3:E1>E4:treated_by_procedure
+VM600-538 đầu tiên chúng tôi khuyên là như vậy và cái thứ hai nữa là có lẽ là bác nên có một cái đai thắt lưng để mình bảo vệ cái
+E1=cái thứ hai<DOSAGE> E2=thắt lưng<BODY_PART>
+VM600-539 bệnh lý các cái biến chứng như là các cái nhồi máu ở cơ tim nhưng thấy nhồi
+E1=biến chứng<CONDITION> E2=máu<BODY_PART> E3=cơ<BODY_PART> E4=tim<BODY_PART>
+R1:E1>E2:located_at R2:E1>E3:located_at R3:E1>E4:located_at
+VM600-540 đến và chúng ta không không nhận biết được cái điều đó cho nên chúng ta chỉ nghĩ là à thôi thì đau khớp chúng ta có
+E1=đau<CONDITION> E2=khớp<BODY_PART>
+R1:E1>E2:located_at
+VM600-541 một số trục trặc về tóc kể cả bạc tóc thế cho nên là những hoạt chất từ thiên nhiên này tỏ ra rất là an toàn và trong
+E1=tóc<BODY_PART> E2=bạc tóc<CONDITION> E3=hoạt chất<DRUG>
+R1:E2>E1:located_at R2:E2>E3:treated_by
+VM600-542 thuốc xong rồi một thời gian thì tôi đi đo tôi đi
+E1=thuốc<DRUG>
+VM600-543 thì cái vấn đề của anh gặp phải nó đang có những cái triệu chứng như thế nào cũng như là nó diễn biến như thế nào trong cái thời gian vừa rồi thì anh có
+E1=triệu chứng<CONDITION>
+VM600-544 đối với sau điều trị ung thư là cần thiết để chúng ta phát hiện sớm những cái dấu hiệu rất có thể chúng ta có ung
+E1=điều trị<PROCEDURE> E2=ung thư<CONDITION>
+R1:E2>E1:treated_by_procedure
+VM600-545 một cái giờ định kỳ cái sau đó dùng là các cái lần tái khám thì bác đưa cho các
+E1=khám<TEST>
+VM600-546 tăng huy động tế bào tăng nhiệt độ cơ thể tăng tiêu hao năng lượng như bên cạnh đó thì cái việc mà bị ung thư thì
+E1=tế bào<BODY_PART> E2=cơ thể<BODY_PART> E3=ung thư<CONDITION>
+R1:E3>E1:located_at R2:E3>E2:located_at
+VM600-547 định cân bằng được cái stress ổn định này rồi thì cái việc mà cái điều trị tích cực đó
+E1=stress<CONDITION> E2=điều trị<PROCEDURE>
+R1:E1>E2:treated_by_procedure
+VM600-548 họ tiếp xúc với bệnh đậu mùa bò một loại nhiễm virus nhẹ mà con người có thể mắc
+E1=đậu mùa<CONDITION> E2=virus<CONDITION>
+VM600-549 tác dụng phụ lên đường tiêu hóa lên các cái hệ nội tạng chính vì vậy cho nên đấy là một trong những cái hướng mà tiếp cận
+E1=tác dụng phụ<CONDITION> E2=đường tiêu hóa<BODY_PART> E3=nội tạng<BODY_PART> E4=một trong những cái hướng<DOSAGE>
+R1:E1>E2:located_at R2:E1>E3:located_at
+VM600-550 đôi khi có một số bạn cũng như biết không chia sẻ là em ngủ dậy là coi như mặt em dùng chảo dầu bóng loáng
+
+VM600-551 chúng ta nó có chính là ba giai đoạn ba giai đoạn chính giai đoạn thứ nhất là giai đoạn mà phát triển hay là giai đoạn
+E1=ba giai đoạn<DOSAGE> E2=ba giai đoạn<DOSAGE> E3=giai đoạn<DOSAGE> E4=thứ nhất<DOSAGE>
+VM600-552 tiềm tàng là bất định nhưng hậu quả khi mọi thứ lạc lối có thể là khủng khiếp nỗ
+
+VM600-553 tính ra năng lượng là chí ít nó cũng phải đạt được khoảng một phẩy hai một đến một phẩy hai kcal trong
+E1=kcal<DOSAGE>
+VM600-554 nói rằng là cái lượng máu để mà nuôi tim nuôi náo nó bị suy giảm nếu như chỉ suy
+E1=máu<BODY_PART> E2=nuôi tim<PROCEDURE>
+VM600-555 như là một số khán giả có nội dung tương tự và câu hỏi gửi về cho chương trình thưa bác sĩ nghe nói phẫu thuật đặt điện
+E1=phẫu thuật<PROCEDURE>
+VM600-556 bào tim trong điều kiện thiếu oxy cho nên có thể nói rằng là với hệ thống tim
+E1=tim<BODY_PART> E2=thiếu oxy<CONDITION> E3=tim<BODY_PART>
+R1:E2>E1:located_at R2:E2>E3:located_at
+VM600-557 người bệnh có đông cứng về dáng đi hoặc là đi dễ té ngã mà những cái triệu chứng này nó không cải thiện với các cái thuốc
+E1=đông cứng về dáng đi<CONDITION> E2=đi dễ té ngã<CONDITION> E3=triệu chứng<CONDITION> E4=cải thiện<PROCEDURE> E5=thuốc<DRUG>
+R1:E1>E4:treated_by_procedure R2:E1>E5:treated_by R3:E2>E4:treated_by_procedure R4:E2>E5:treated_by R5:E3>E4:treated_by_procedure R6:E3>E5:treated_by
+VM600-558 bị tổn thương hơn đường tiêu hóa chúng ta dễ bị tổn thương hơn như vậy đó ở những người lớn tuổi chúng ta rất là
+E1=bị<CONDITION> E2=tổn thương<CONDITION> E3=đường tiêu hóa<BODY_PART> E4=bị<CONDITION> E5=tổn thương<CONDITION>
+R1:E1>E3:located_at R2:E2>E3:located_at R3:E4>E3:located_at R4:E5>E3:located_at
+VM600-559 tim mạch nói chung thì các cái biện pháp và khuyến khích vẫn là nên tập thể dục thì tập thể dục thì một cái nguyên tắc
+E1=tim mạch<BODY_PART>
+VM600-560 mình mong muốn đấy là cái điều quan trọng mà chương trình hôm nay chúng ta muốn nói đến để các quý vị chúng ta có
+
+VM600-561 cái việc chính của mình là mình phải tiêm vắcxin phòng bệnh này bằng cách 5k này và mình tiêm vắcxin chống covid
+E1=tiêm<PROCEDURE> E2=vắcxin<DRUG> E3=5k<DRUG> E4=tiêm<PROCEDURE> E5=vắcxin<DRUG> E6=covid<CONDITION>
+R1:E6>E1:treated_by_procedure R2:E6>E2:treated_by R3:E6>E3:treated_by R4:E6>E4:treated_by_procedure R5:E6>E5:treated_by
+VM600-562 người f1 này với nhau cũng làm sao để giảm các nguy cơ lây chéo bởi vì người
+E1=nguy cơ lây chéo<DRUG>
+VM600-563 vâng những cái quan trọng nhất là chúng ta cần phải nắm vững được những cái nguyên tắc về dinh dưỡng và đồng thời là
+
+VM600-564 ưu tiên đầu tiên đó là chúng ta phải điều trị mụn ẩn rồi tuy nhiên là có một số bạn là bị mụn ẩn nhưng mà có
+E1=điều trị mụn ẩn<PROCEDURE> E2=mụn ẩn<CONDITION>
+R1:E2>E1:treated_by_procedure
+VM600-565 thực vật nó quan trọng không chỉ ở chất đạm mà nó còn quan trọng ở chất béo và nó còn quan trọng là cái
+E1=chất béo<DRUG>
+VM600-566 biết như vậy nhưng mà sau này khi mà y học hiện đại người ta mới phân tích thì người ta thấy rằng là à cái đuôi có tắc
+E1=phân tích<PROCEDURE>
+VM600-567 là nhiều người bị ung thư bị gầy đi hẳn hoi nhưng cứ bảo là chúng ta bỏ đói tế
+E1=ung thư<CONDITION>
+VM600-568 vâng ạ tôi thì thấy thực tế là khi mà chúng ta nhận một cái khẩu phần vào và rất
+
+VM600-569 lại càng cần phải tiêm bác ạ tại vì là khi mà chúng ta không tiêm ấy mà khi mắc bệnh là bệnh sẽ rất rất nặng thế và
+E1=tiêm<PROCEDURE> E2=tiêm<PROCEDURE> E3=mắc bệnh<CONDITION>
+R1:E3>E1:treated_by_procedure R2:E3>E2:treated_by_procedure
+VM600-570 được tự ý bỏ đâu vì là những cái cái thức cái huyết áp này là cái việc điều
+E1=huyết áp<CONDITION>
+VM600-571 màng xơ vữa nên là nó sẽ có tác dụng lâu dài nên các quý vị khi sử dụng để mang lại cho hiệu quả cao nhất thì chúng
+E1=xơ vữa<CONDITION> E2=hiệu quả cao nhất<DOSAGE>
+VM600-572 trong đó thì là có cái chẩn đoán cho chị là kiểu thiếu máu cơ tim vâng đây nó chính là những cái tình trạng là thiếu máu của
+E1=chẩn đoán<TEST> E2=thiếu máu<CONDITION> E3=cơ<BODY_PART> E4=tim<BODY_PART> E5=thiếu máu<CONDITION>
+R1:E2>E1:diagnosed_by R2:E2>E3:located_at R3:E2>E4:located_at R4:E5>E1:diagnosed_by R5:E5>E3:located_at R6:E5>E4:located_at
+VM600-573 nhưng sự thay đổi trong môi trường ruột ví dụ do lạm dụng một số loại kháng sinh có thể thúc đẩy sẽ phát triển quá mức
+E1=ruột<BODY_PART> E2=kháng sinh<DRUG>
+VM600-574 hướng dẫn cái phẫu thuật viên để đưa cái điện cực vào và khi mình đưa xuống
+E1=phẫu thuật<PROCEDURE> E2=điện cực<PROCEDURE>
+VM600-575 thiện triệu chứng run rất là tốt chúng ta biết rằng là run là một trong những cái đặc tính chính của bệnh parkinson
+E1=triệu chứng run<CONDITION> E2=run<CONDITION> E3=parkinson<CONDITION>
+VM600-576 thể nói là những người trung quốc những người ở nhật bản những người hàn quốc từ xa xưa người ta đã sử dụng cái này và
+
+VM600-577 làm thuốc thì cha ông chúng ta là lựa chọn những cái bộ phận mà nó có tác dụng
+E1=thuốc<DRUG>
+VM600-578 chỉ phát hiện sự hiện diện của mầm bệnh mà còn có thể nhận ra loại mầm bệnh hiện diện và chỉ đạo đáp ứng miễn dịch phù
+E1=mầm bệnh<CONDITION> E2=mầm bệnh<CONDITION>
+VM600-579 cái mà chúng ta khám trên lâm sàng thì đôi khi chúng ta chưa đủ để chuẩn đoán một da nhạy cảm chính xác thì chúng ta
+E1=khám<TEST> E2=chuẩn đoán<TEST> E3=da nhạy cảm<CONDITION>
+R1:E3>E1:diagnosed_by R2:E3>E2:diagnosed_by
+VM600-580 trình về sau của người bệnh là những cái thăm khám mà những cái xét nghiệm mà bệnh nhân phải
+E1=thăm khám<PROCEDURE> E2=xét nghiệm<TEST>
+VM600-581 là nguyên phát hay thứ phát bởi vì có một số trường hợp đó là da nhạy cảm nhưng mà bệnh nhân có các bệnh lý da
+E1=da nhạy cảm<CONDITION> E2=bệnh lý da<CONDITION>
+VM600-582 trước đại dịch như thế này thì thực sự rất là nhiều thách thức nhưng thách thức ấy có vượt qua được hay không thì phần
+E1=đại dịch<CONDITION>
+VM600-583 giúp ngăn ngừa các vấn đề trong ghép tạng cũng là kết quả của một đáp ứng miễn dịch không mong muốn trong trường
+E1=ngăn ngừa<DRUG> E2=ghép tạng<PROCEDURE>
+VM600-584 oxy hóa gấp sáu mươi lần trước đây thế thì tuyệt vời và chính quay trở lại câu
+E1=oxy<DRUG>
+VM600-585 đường huyết cũng là thể trở nên rất là khó khăn và hơn so với lại những cái
+E1=huyết<BODY_PART>
+VM600-586 loạn nhịp tim thì khi chúng ta sử dụng kết hợp cùng với viên nang đông trùng hạ thảo thì chúng ta nên uống cách nhau ra
+E1=loạn nhịp tim<CONDITION> E2=viên nang đông trùng hạ thảo<DRUG>
+R1:E1>E2:treated_by
+VM600-587 dần dần để chúng ta có thể tức là bằng lý trí để chúng ta có thể ăn được cả bên
+
+VM600-588 chúng ta đều bị xâm chiếm từng khoảnh khắc bởi các sinh vật có khả năng đe dọa tính mạng nếu không có hệ miễn dịch hoạt
+E1=hệ miễn dịch<BODY_PART>
+VM600-589 chúng ta ngồi nhiều thứ hai nữa là chúng ta phải gần như là khi mà chúng ta làm việc với máy tính hoặc là các cái công
+
+VM600-590 cái thứ hai là cái dinh dưỡng ở sau ung thư nó còn có vai trò vô cùng quan trọng đó
+E1=cái thứ hai<DOSAGE> E2=ung thư<CONDITION>
+VM600-591 trộn không cần phải đun để chúng ta có thể trộn vào để chúng ta ăn thì chúng
+
+VM600-592 tốt cho sức khỏe của chúng ta nữa cho nên là nếu những ai bị huyết áp những ai bị đái tháo đường những ai bị các bệnh
+E1=huyết áp<CONDITION> E2=đái tháo đường<CONDITION>
+VM600-593 có thể đi làm lại được xin mời bác sĩ thường thì giai đoạn hậu phẫu của phẫu
+E1=hậu phẫu<PROCEDURE>
+VM600-594 đối với lại cái cuộc sống họ cũng cảm thấy là họ bị mặc cảm về cái giá trị của chính mình họ cảm thấy là họ sống
+E1=mặc cảm<CONDITION>
+VM600-595 chiều cái vị giác của bản thân cái người bị ung thư đó của của ví dụ như
+E1=ung thư<CONDITION>
+VM600-596 hơn thì đối với những trường hợp này chúng ta phải coi lại coi là chúng ta đã dưỡng ẩm đủ chưa thì đã xin chia sẻ
+
+VM600-597 là chúng tôi hiểu hơn rằng là bác khó nắm chứ không phải là không nắm được đúng không ạ
+
+VM600-598 các chất dinh dưỡng để giúp cho chúng ta bớt đi những cái vấn đề như là về thay
+E1=chất dinh dưỡng<DRUG>
+VM600-599 nó cũng là tâm tư của rất rất nhiều những người có tuổi và những người cao tuổi mà khi chúng ta bị các bệnh lý
+E1=rất nhiều<DOSAGE>
+VM600-600 và từ đó nó cũng phòng ngừa được các cái biến chứng như là các cái nhồi máu cơ tim hay là những cái kiểu những cái nhồi
+E1=phòng ngừa<DRUG> E2=biến chứng<CONDITION> E3=nhồi máu cơ tim<CONDITION>
+R1:E2>E1:treated_by R2:E3>E1:treated_by

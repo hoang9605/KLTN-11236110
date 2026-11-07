@@ -1,0 +1,2007 @@
+{
+ "s600": {
+  "words_mean": 24.1,
+  "words_median": 26.0,
+  "words_max": 40,
+  "words_min": 1,
+  "ent_mean": 1.3,
+  "no_entity": 205,
+  "with_pairs": 83,
+  "pair_type_count": {
+   "located_at": 138,
+   "treated_by": 22,
+   "treated_by_procedure": 21,
+   "diagnosed_by": 5
+  },
+  "ai_flags": {
+   "GENERIC_MENTION": 26,
+   "ONTOLOGY_SCOPE": 55,
+   "GENERIC_INTERVENTION": 58,
+   "UNRESOLVED_RE": 43,
+   "SCOPE_CONFIRMATION": 37,
+   "CONTEXT_OR_TRANSCRIPT": 136,
+   "SYMPTOM_SCOPE": 8,
+   "PHYSIOLOGY_VS_DISEASE": 7,
+   "DOSAGE_CONTEXT": 1
+  }
+ },
+ "positives": [
+  {
+   "id": "VM600-011",
+   "rel": "located_at",
+   "head": "cục máu đông",
+   "tail": "tim",
+   "text": "với cơ chế của cái hình thành cục máu đông ở trong tim giờ đó nên thuốc chống tiểu cầu không phải là cái gì"
+  },
+  {
+   "id": "VM600-019",
+   "rel": "located_at",
+   "head": "thoái hóa",
+   "tail": "mạch",
+   "text": "ta biết là cái suy giãn tĩnh mạch nó cũng liên quan đến quá trình lão hóa liên quan quá trình thoái hóa các cái mạch"
+  },
+  {
+   "id": "VM600-028",
+   "rel": "located_at",
+   "head": "đau",
+   "tail": "gáy",
+   "text": "gáy nó mới đau nó chèn lên thần kinh tê liệt tay thế uống thuốc nó đỡ làm nhiều lúc mà rét"
+  },
+  {
+   "id": "VM600-035",
+   "rel": "treated_by_procedure",
+   "head": "triệu chứng",
+   "tail": "phẫu thuật kích thích não sâu",
+   "text": "pháp điều trị thuốc thì phẫu thuật kích thích não sâu nó sẽ giúp cải thiện triệu chứng cho người bệnh khá là tốt mà khi"
+  },
+  {
+   "id": "VM600-065",
+   "rel": "located_at",
+   "head": "căng",
+   "tail": "da",
+   "text": "dứt da của mình nó căng da đôi khi một số loại sữa rửa mặt nó khiến cho mình cảm giác là khi mình rửa xong cái da"
+  },
+  {
+   "id": "VM600-100",
+   "rel": "located_at",
+   "head": "tổn thương",
+   "tail": "đường tiêu hóa",
+   "text": "mất do tổn thương đường tiêu hóa không không thể nào tiêu hóa thu được là do ngay cái chính khối u đó cũng làm tăng quá"
+  },
+  {
+   "id": "VM600-115",
+   "rel": "treated_by_procedure",
+   "head": "parkinson",
+   "tail": "phẫu thuật",
+   "text": "khi phẫu thuật để có được kết quả như mong đợi ngoài ra thì người bệnh parkinson cần phải chuẩn bị những vấn đề"
+  },
+  {
+   "id": "VM600-157",
+   "rel": "located_at",
+   "head": "tổn thương",
+   "tail": "cơ quan",
+   "text": "nên nó có thể giết cả các cái tế bào lành và chính vì vậy làm cho các chức năng của cơ quan bị tổn thương và đặc"
+  },
+  {
+   "id": "VM600-199",
+   "rel": "located_at",
+   "head": "khô ngứa bong tróc",
+   "tail": "da",
+   "text": "tính điều trị như thế thì đôi khi da chúng ta sẽ trở nên khô ngứa bong tróc và các quá trình khô ngứa bong tróc đó thì"
+  },
+  {
+   "id": "VM600-265",
+   "rel": "located_at",
+   "head": "mất màu trắng",
+   "tail": "da",
+   "text": "da chúng ta là mất màu trắng hoàn toàn luôn ra từ nâu hoặc là màu vàng chuyển sang màu trắng luôn ngoài ra còn có thể"
+  },
+  {
+   "id": "VM600-319",
+   "rel": "located_at",
+   "head": "viêm",
+   "tail": "khớp",
+   "text": "để điều trị cho từng bệnh đặc biệt trong đó thì có một cái cơ chế rất là quan trọng là các cái khớp nó bị viêm thì cần"
+  },
+  {
+   "id": "VM600-377",
+   "rel": "diagnosed_by",
+   "head": "da nhạy cảm",
+   "tail": "nghiệm pháp kích thích",
+   "text": "với lại chẳng nói da nhạy cảm chúng ta sẽ sử dụng một cái gọi là các biện pháp lại nghiệm pháp kích thích và chúng ta"
+  },
+  {
+   "id": "VM600-408",
+   "rel": "located_at",
+   "head": "yếu ớt",
+   "tail": "mái tóc",
+   "text": "đoạn sau sanh thì mái tóc dễ gọi là nó mềm mại và nó yếu ớt thế cho nên là"
+  },
+  {
+   "id": "VM600-410",
+   "rel": "treated_by_procedure",
+   "head": "parkinson",
+   "tail": "kích thích não sâu",
+   "text": "biết rằng là những người bệnh kích thích những người bệnh parkinson mà cần phẫu thuốc kích thích não sâu thì chúng"
+  },
+  {
+   "id": "VM600-420",
+   "rel": "located_at",
+   "head": "nhiều dầu",
+   "tail": "mặt",
+   "text": "bôi kem dưỡng trước khi đi ngủ nhưng ngủ dậy mặt vẫn còn nhiều dầu xưng cháu vậy"
+  },
+  {
+   "id": "VM600-436",
+   "rel": "located_at",
+   "head": "vữa xơ động mạch",
+   "tail": "vành",
+   "text": "vữa xơ động mạch ở vành tất cả những cái đó là chúng ta không được bỏ rất rất"
+  },
+  {
+   "id": "VM600-464",
+   "rel": "located_at",
+   "head": "tê bì",
+   "tail": "bàn tay",
+   "text": "không có nắm được như thế này là bao nhiêu lâu nay rồi ạ nó có tê bì nhiều ở cái bàn tay không ạ"
+  },
+  {
+   "id": "VM600-483",
+   "rel": "located_at",
+   "head": "biến chứng",
+   "tail": "mạch máu chi",
+   "text": "những cái cái biến chứng về các cái mạch máu chi nữa và khi sử dụng đối với sản phẩm này thì chúng ta nên sử dụng để"
+  },
+  {
+   "id": "VM600-514",
+   "rel": "located_at",
+   "head": "tê bì kiến bò",
+   "tail": "chân tay",
+   "text": "thiện những dấu hiệu tê bì kiến bò ở chân tay của bác này thế rồi là những cái dấu hiệu hồi hộp trống ngực của bác"
+  },
+  {
+   "id": "VM600-537",
+   "rel": "treated_by_procedure",
+   "head": "béo phì",
+   "tail": "mổ",
+   "text": "người béo phì mà người ta đã từng trị liệu được mổ rồi nè được điều trị tốt nè được tập luyện tốt giữ được"
+  },
+  {
+   "id": "VM600-539",
+   "rel": "located_at",
+   "head": "nhồi máu",
+   "tail": "cơ tim",
+   "text": "bệnh lý các cái biến chứng như là các cái nhồi máu ở cơ tim nhưng thấy nhồi"
+  },
+  {
+   "id": "VM600-549",
+   "rel": "located_at",
+   "head": "tác dụng phụ",
+   "tail": "đường tiêu hóa",
+   "text": "tác dụng phụ lên đường tiêu hóa lên các cái hệ nội tạng chính vì vậy cho nên đấy là một trong những cái hướng mà tiếp cận"
+  },
+  {
+   "id": "VM600-549",
+   "rel": "located_at",
+   "head": "tác dụng phụ",
+   "tail": "nội tạng",
+   "text": "tác dụng phụ lên đường tiêu hóa lên các cái hệ nội tạng chính vì vậy cho nên đấy là một trong những cái hướng mà tiếp cận"
+  },
+  {
+   "id": "VM600-556",
+   "rel": "located_at",
+   "head": "thiếu oxy",
+   "tail": "tim",
+   "text": "bào tim trong điều kiện thiếu oxy cho nên có thể nói rằng là với hệ thống tim"
+  },
+  {
+   "id": "VM600-558",
+   "rel": "located_at",
+   "head": "tổn thương",
+   "tail": "đường tiêu hóa",
+   "text": "bị tổn thương hơn đường tiêu hóa chúng ta dễ bị tổn thương hơn như vậy đó ở những người lớn tuổi chúng ta rất là"
+  }
+ ],
+ "chua_ro": [
+  {
+   "id": "VM600-011",
+   "rel": "treated_by",
+   "head": "cục máu đông",
+   "tail": "thuốc chống tiểu cầu",
+   "text": "với cơ chế của cái hình thành cục máu đông ở trong tim giờ đó nên thuốc chống tiểu cầu không phải là cái gì"
+  },
+  {
+   "id": "VM600-057",
+   "rel": "treated_by_procedure",
+   "head": "parkinson",
+   "tail": "phẫu thuật",
+   "text": "quá thì khả năng phẫu thuật nó sẽ khó khăn nó có sẽ có nhiều biến chứng cái thứ hai người bệnh parkinson nên là hơn"
+  },
+  {
+   "id": "VM600-066",
+   "rel": "located_at",
+   "head": "tổn thương tế bào",
+   "tail": "tế bào",
+   "text": "tế bào và cái tổn thương tế bào ấy thì làm cho tế bào không bình thường tế bào không bình thường đấy thì nó một là nếu"
+  },
+  {
+   "id": "VM600-066",
+   "rel": "located_at",
+   "head": "tổn thương tế bào",
+   "tail": "tế bào",
+   "text": "tế bào và cái tổn thương tế bào ấy thì làm cho tế bào không bình thường tế bào không bình thường đấy thì nó một là nếu"
+  },
+  {
+   "id": "VM600-066",
+   "rel": "located_at",
+   "head": "tổn thương tế bào",
+   "tail": "tế bào",
+   "text": "tế bào và cái tổn thương tế bào ấy thì làm cho tế bào không bình thường tế bào không bình thường đấy thì nó một là nếu"
+  },
+  {
+   "id": "VM600-068",
+   "rel": "located_at",
+   "head": "đột quỵ",
+   "tail": "não",
+   "text": "não đột quỵ đó thì nó liên quan đến việc hình thành các cục máu đông và việc cục máu đông đã nó trôi ra là đi"
+  },
+  {
+   "id": "VM600-100",
+   "rel": "located_at",
+   "head": "khối u",
+   "tail": "đường tiêu hóa",
+   "text": "mất do tổn thương đường tiêu hóa không không thể nào tiêu hóa thu được là do ngay cái chính khối u đó cũng làm tăng quá"
+  },
+  {
+   "id": "VM600-135",
+   "rel": "located_at",
+   "head": "rối loạn điện học",
+   "tail": "tâm nhĩ",
+   "text": "cũng có một cái điều là cái hình thức về rối loạn điện học đó nó cũng tương đồng với cái hoạt động về cơ học của tâm nhĩ"
+  },
+  {
+   "id": "VM600-169",
+   "rel": "located_at",
+   "head": "rung nhĩ",
+   "tail": "tim",
+   "text": "một tình trạng rung nhĩ thì tim của chúng ta sẽ đập và rất là nhanh có thể"
+  },
+  {
+   "id": "VM600-223",
+   "rel": "diagnosed_by",
+   "head": "viêm",
+   "tail": "chụp vai gáy",
+   "text": "chụp vai gáy ở đâu dây thần viêm đốt vai"
+  },
+  {
+   "id": "VM600-223",
+   "rel": "located_at",
+   "head": "viêm",
+   "tail": "đốt vai",
+   "text": "chụp vai gáy ở đâu dây thần viêm đốt vai"
+  },
+  {
+   "id": "VM600-279",
+   "rel": "diagnosed_by",
+   "head": "rung nhĩ",
+   "tail": "đánh giá nguy cơ",
+   "text": "giá thêm đúng là rung nhĩ đánh giá đến mức độ của nó đánh giá nguy cơ là như thế nào và thậm chí đánh giá các nguyên"
+  },
+  {
+   "id": "VM600-300",
+   "rel": "located_at",
+   "head": "tế bào ung thư",
+   "tail": "cơ thể",
+   "text": "dinh dưỡng trong cơ thể chúng ta nó sản sinh ra các tế bào thì mỗi một cái tế bào ung thư điều rất cần đến năng lượng"
+  },
+  {
+   "id": "VM600-375",
+   "rel": "located_at",
+   "head": "đổ dầu",
+   "tail": "bề mặt da",
+   "text": "tích che phủ lỗ chân lông trên bề mặt da của bạn do đó nên bạn sẽ thấy là da của bạn ngủ dậy rất là nặng mặc đổ dầu nhiều"
+  },
+  {
+   "id": "VM600-415",
+   "rel": "located_at",
+   "head": "khô",
+   "tail": "làn da",
+   "text": "khô hơn đôi khi là từ một cái làn da là thường mà trở thành một cái làn da nhạy cảm dễ gây kích ứng và dị ứng hơn do đó"
+  },
+  {
+   "id": "VM600-415",
+   "rel": "located_at",
+   "head": "làn da nhạy cảm",
+   "tail": "làn da",
+   "text": "khô hơn đôi khi là từ một cái làn da là thường mà trở thành một cái làn da nhạy cảm dễ gây kích ứng và dị ứng hơn do đó"
+  },
+  {
+   "id": "VM600-415",
+   "rel": "located_at",
+   "head": "kích ứng",
+   "tail": "làn da",
+   "text": "khô hơn đôi khi là từ một cái làn da là thường mà trở thành một cái làn da nhạy cảm dễ gây kích ứng và dị ứng hơn do đó"
+  },
+  {
+   "id": "VM600-415",
+   "rel": "located_at",
+   "head": "dị ứng",
+   "tail": "làn da",
+   "text": "khô hơn đôi khi là từ một cái làn da là thường mà trở thành một cái làn da nhạy cảm dễ gây kích ứng và dị ứng hơn do đó"
+  },
+  {
+   "id": "VM600-450",
+   "rel": "located_at",
+   "head": "biến chứng",
+   "tail": "tim",
+   "text": "cùng là nói những cái biến chứng của nó kính thưa quý vị tim của chúng ta đó thì được chia làm hai phần chính đó là"
+  },
+  {
+   "id": "VM600-458",
+   "rel": "treated_by_procedure",
+   "head": "tăng sắc tố",
+   "tail": "can thiệp",
+   "text": "ta có thể là cải thiện cái vấn đề tăng sắc tố chúng ta có thể can thiệp vào một trong những cái giai đoạn của quá"
+  },
+  {
+   "id": "VM600-505",
+   "rel": "located_at",
+   "head": "mụn",
+   "tail": "làn da",
+   "text": "phù hợp nếu mà vì chúng ta chăm sóc nhiều hôm sau nhưng mà đôi khi một số làn da chăm sóc nhiều quá thì thay đổi mụn nữa là thôi nếu"
+  },
+  {
+   "id": "VM600-556",
+   "rel": "located_at",
+   "head": "thiếu oxy",
+   "tail": "tim",
+   "text": "bào tim trong điều kiện thiếu oxy cho nên có thể nói rằng là với hệ thống tim"
+  },
+  {
+   "id": "VM600-558",
+   "rel": "located_at",
+   "head": "tổn thương",
+   "tail": "đường tiêu hóa",
+   "text": "bị tổn thương hơn đường tiêu hóa chúng ta dễ bị tổn thương hơn như vậy đó ở những người lớn tuổi chúng ta rất là"
+  },
+  {
+   "id": "VM600-579",
+   "rel": "diagnosed_by",
+   "head": "da nhạy cảm",
+   "tail": "khám trên lâm sàng",
+   "text": "cái mà chúng ta khám trên lâm sàng thì đôi khi chúng ta chưa đủ để chuẩn đoán một da nhạy cảm chính xác thì chúng ta"
+  }
+ ],
+ "examples": [
+  {
+   "id": "VM600-514",
+   "text": "thiện những dấu hiệu tê bì kiến bò ở chân tay của bác này thế rồi là những cái dấu hiệu hồi hộp trống ngực của bác",
+   "entities": [
+    [
+     "E1",
+     "CONDITION",
+     "tê bì kiến bò",
+     21,
+     34
+    ],
+    [
+     "E2",
+     "BODY_PART",
+     "chân tay",
+     37,
+     45
+    ],
+    [
+     "E3",
+     "CONDITION",
+     "hồi hộp trống ngực",
+     88,
+     106
+    ]
+   ],
+   "relations": [
+    [
+     "R1",
+     "tê bì kiến bò",
+     "chân tay",
+     "located_at"
+    ],
+    [
+     "R2",
+     "hồi hộp trống ngực",
+     "chân tay",
+     "NO_RELATION"
+    ]
+   ],
+   "changes": []
+  },
+  {
+   "id": "VM600-132",
+   "text": "có những cái biến chứng của cái việc sử dụng chống viêm corticoid rồi đó là chảy máu dạ dày đó là viêm loét dạ dày",
+   "entities": [
+    [
+     "E1",
+     "CONDITION",
+     "biến chứng",
+     13,
+     23
+    ],
+    [
+     "E2",
+     "CONDITION",
+     "viêm",
+     51,
+     55
+    ],
+    [
+     "E3",
+     "DRUG",
+     "corticoid",
+     56,
+     65
+    ],
+    [
+     "E4",
+     "CONDITION",
+     "chảy máu dạ dày",
+     76,
+     91
+    ],
+    [
+     "E6",
+     "CONDITION",
+     "viêm loét dạ dày",
+     98,
+     114
+    ]
+   ],
+   "relations": [
+    [
+     "R1",
+     "biến chứng",
+     "corticoid",
+     "NO_RELATION"
+    ],
+    [
+     "R2",
+     "viêm",
+     "corticoid",
+     "NO_RELATION"
+    ],
+    [
+     "R3",
+     "chảy máu dạ dày",
+     "corticoid",
+     "NO_RELATION"
+    ],
+    [
+     "R4",
+     "viêm loét dạ dày",
+     "corticoid",
+     "NO_RELATION"
+    ]
+   ],
+   "changes": [
+    {
+     "op": "relabel",
+     "relation": "R2",
+     "before": "treated_by",
+     "after": "NO_RELATION"
+    }
+   ]
+  },
+  {
+   "id": "VM600-410",
+   "text": "biết rằng là những người bệnh kích thích những người bệnh parkinson mà cần phẫu thuốc kích thích não sâu thì chúng",
+   "entities": [
+    [
+     "E1",
+     "CONDITION",
+     "parkinson",
+     58,
+     67
+    ],
+    [
+     "E3",
+     "PROCEDURE",
+     "kích thích não sâu",
+     86,
+     104
+    ]
+   ],
+   "relations": [
+    [
+     "R1",
+     "parkinson",
+     "kích thích não sâu",
+     "treated_by_procedure"
+    ]
+   ],
+   "changes": []
+  },
+  {
+   "id": "VM600-377",
+   "text": "với lại chẳng nói da nhạy cảm chúng ta sẽ sử dụng một cái gọi là các biện pháp lại nghiệm pháp kích thích và chúng ta",
+   "entities": [
+    [
+     "E1",
+     "CONDITION",
+     "da nhạy cảm",
+     18,
+     29
+    ],
+    [
+     "E2",
+     "TEST",
+     "nghiệm pháp kích thích",
+     83,
+     105
+    ]
+   ],
+   "relations": [
+    [
+     "R1",
+     "da nhạy cảm",
+     "nghiệm pháp kích thích",
+     "diagnosed_by"
+    ]
+   ],
+   "changes": [
+    {
+     "op": "relabel",
+     "relation": "R1",
+     "before": "CHUA_RO",
+     "after": "diagnosed_by"
+    }
+   ]
+  }
+ ],
+ "decisions": [
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-007",
+   "relation_id": "R1",
+   "head": "ung thư",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-010",
+   "relation_id": "R1",
+   "head": "béo phì",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-090",
+   "relation_id": "R1",
+   "head": "béo phì",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-137",
+   "relation_id": "R2",
+   "head": "béo phì",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-174",
+   "relation_id": "R1",
+   "head": "béo phì",
+   "tail": "điều trị giảm cân",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-189",
+   "relation_id": "R1",
+   "head": "bệnh lý",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-286",
+   "relation_id": "R1",
+   "head": "béo phì",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-391",
+   "relation_id": "R1",
+   "head": "béo phì",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-491",
+   "relation_id": "R1",
+   "head": "ung thư",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-534",
+   "relation_id": "R1",
+   "head": "parkinson",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-537",
+   "relation_id": "R1",
+   "head": "béo phì",
+   "tail": "trị liệu",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-537",
+   "relation_id": "R3",
+   "head": "béo phì",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-537",
+   "relation_id": "R4",
+   "head": "béo phì",
+   "tail": "tập luyện",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp; 'tập luyện' không phải thủ thuật y khoa"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-544",
+   "relation_id": "R1",
+   "head": "ung thư",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "1. Tail chung chung",
+   "sample_id": "VM600-564",
+   "relation_id": "R1",
+   "head": "mụn ẩn",
+   "tail": "điều trị",
+   "nhan_hien_tai": "treated_by_procedure",
+   "quyet_dinh_bac_si": "GENERIC_RULE",
+   "ly_do": "Chờ quy ước GENERIC_INTERVENTION: nếu bỏ thực thể chung chung thì XÓA cặp"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-065",
+   "relation_id": "R1",
+   "head": "căng",
+   "tail": "da",
+   "nhan_hien_tai": "NO_RELATION",
+   "quyet_dinh_bac_si": "located_at",
+   "ly_do": "'da của mình nó căng' giống 199 (khô ngứa → da), 420 (nhiều dầu → mặt) đang là dương. Chọn đúng mention 'da' gắn với 'căng'; nếu loại 'căng' khỏi CONDITION thì XÓA"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-070",
+   "relation_id": "R1",
+   "head": "bệnh nền",
+   "tail": "thuốc",
+   "nhan_hien_tai": "treated_by",
+   "quyet_dinh_bac_si": "CHUA_RO",
+   "ly_do": "'đến viện lấy thuốc' chưa nói thuốc trị bệnh nền; bằng chứng yếu hơn 028 R3 và 192 đang là CHUA_RO. Giữ cùng một chuẩn cho cả ba"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-132",
+   "relation_id": "R2",
+   "head": "viêm",
+   "tail": "corticoid",
+   "nhan_hien_tai": "treated_by",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "'viêm' nằm trong 'chống viêm' (công dụng thuốc), không phải bệnh của người bệnh; mẫu 072 R3/R4 cùng dạng đang là NO_RELATION"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-147",
+   "relation_id": "R2",
+   "head": "thiểu năng vành",
+   "tail": "mạch vành",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "'thiểu năng vành' đã chứa vị trí; theo quy tắc cụm CONDITION đầy đủ"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-199",
+   "relation_id": "R4",
+   "head": "khô ngứa bong tróc",
+   "tail": "da",
+   "nhan_hien_tai": "located_at",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Lần nhắc thứ hai 'các quá trình khô ngứa bong tróc đó' được nối sang 'da' qua đồng tham chiếu; trái chính sách không truyền sang lần nhắc khác (558, 564 làm đúng)"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-509",
+   "relation_id": "R1",
+   "head": "thiếu máu cơ tim",
+   "tail": "tim",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Quy tắc giữ nguyên cụm CONDITION: 'thiếu máu cơ tim' đã chứa vị trí; 364 R3 cùng dạng là NO_RELATION"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-509",
+   "relation_id": "R2",
+   "head": "nhồi máu cơ tim",
+   "tail": "tim",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Như trên với 'nhồi máu cơ tim'"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-517",
+   "relation_id": "R1",
+   "head": "suy thận",
+   "tail": "thận",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "'suy thận' đã chứa vị trí; theo quy tắc cụm CONDITION đầy đủ"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-517",
+   "relation_id": "R2",
+   "head": "suy thận",
+   "tail": "thận",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Như trên"
+  },
+  {
+   "nhom": "2. Không nhất quán",
+   "sample_id": "VM600-541",
+   "relation_id": "R1",
+   "head": "bạc tóc",
+   "tail": "tóc",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "'bạc tóc' đã chứa vị trí; theo quy tắc cụm CONDITION đầy đủ"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-028",
+   "relation_id": "R3",
+   "head": "đau",
+   "tail": "thuốc",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "treated_by",
+   "ly_do": "'uống thuốc nó đỡ' nói trực tiếp thuốc làm đỡ đau; phụ thuộc quy ước có giữ DRUG chung chung 'thuốc' hay không"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-078",
+   "relation_id": "R1",
+   "head": "sạm nám",
+   "tail": "kem chống nắng",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Kem chống nắng là phòng ngừa sạm nám, không phải điều trị (chính sách phòng ngừa ≠ điều trị); kem chống nắng có thể ngoài phạm vi DRUG"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-078",
+   "relation_id": "R2",
+   "head": "tăng sắc tố",
+   "tail": "kem chống nắng",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Như trên với 'tăng sắc tố'"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-192",
+   "relation_id": "R1",
+   "head": "huyết áp",
+   "tail": "thuốc",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "treated_by",
+   "ly_do": "'huyết áp của ông ... cho dùng thuốc' (huyết áp = tăng huyết áp theo khẩu ngữ); phụ thuộc quy ước 'thuốc' chung chung"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-341",
+   "relation_id": "R1",
+   "head": "đột quỵ",
+   "tail": "khảo sát",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "diagnosed_by",
+   "ly_do": "'bị đột quỵ thì bác sĩ sẽ phải khảo sát toàn bộ' là thăm dò để đánh giá đột quỵ; phụ thuộc quy ước TEST chung chung"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-377",
+   "relation_id": "R1",
+   "head": "da nhạy cảm",
+   "tail": "nghiệm pháp kích thích",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "diagnosed_by",
+   "ly_do": "'da nhạy cảm chúng ta sẽ sử dụng ... nghiệm pháp kích thích' là cách xác định tình trạng; ứng viên diagnosed_by hiếm hoi"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-572",
+   "relation_id": "R1",
+   "head": "thiếu máu cơ tim",
+   "tail": "chẩn đoán",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "'chẩn đoán cho chị là thiếu máu cơ tim' là kết luận chẩn đoán, không phải xét nghiệm; cân nhắc XÓA thực thể TEST 'chẩn đoán'"
+  },
+  {
+   "nhom": "3. CHUA_RO gỡ được",
+   "sample_id": "VM600-572",
+   "relation_id": "R2",
+   "head": "thiếu máu",
+   "tail": "chẩn đoán",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Như trên"
+  },
+  {
+   "nhom": "4. Cần chốt quy ước",
+   "sample_id": "VM600-375",
+   "relation_id": "R3",
+   "head": "đổ dầu",
+   "tail": "da",
+   "nhan_hien_tai": "located_at",
+   "quyet_dinh_bac_si": "DELETE",
+   "ly_do": "'mặc đổ dầu' là lỗi phiên âm của 'mặt đổ dầu': vị trí đúng là mặt (không có thực thể). Nối với 'da' là suy diễn; 'đổ dầu' có thuộc CONDITION không?"
+  },
+  {
+   "nhom": "4. Cần chốt quy ước",
+   "sample_id": "VM600-376",
+   "relation_id": "R1",
+   "head": "xơ vữa mảng",
+   "tail": "fumarate",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "DELETE",
+   "ly_do": "Câu nghi vấn 'không biết ... có giảm xơ vữa mảng' + sản phẩm đông y: phạm vi DRUG và câu nghi vấn"
+  },
+  {
+   "nhom": "4. Cần chốt quy ước",
+   "sample_id": "VM600-376",
+   "relation_id": "R2",
+   "head": "xơ vữa mảng",
+   "tail": "sản phẩm đông y",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "DELETE",
+   "ly_do": "Như trên"
+  },
+  {
+   "nhom": "4. Cần chốt quy ước",
+   "sample_id": "VM600-464",
+   "relation_id": "R1",
+   "head": "tê bì",
+   "tail": "bàn tay",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "located_at",
+   "ly_do": "Câu hỏi 'có tê bì nhiều ở cái bàn tay không ạ': nếu câu hỏi tính như khẳng định thì located_at, nếu không thì giữ CHUA_RO"
+  },
+  {
+   "nhom": "4. Cần chốt quy ước",
+   "sample_id": "VM600-557",
+   "relation_id": "R1",
+   "head": "đông cứng về dáng đi",
+   "tail": "thuốc",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Phủ định 'không cải thiện với các thuốc': NO_RELATION hay treated_by (đã dùng nhưng không hiệu quả)?"
+  },
+  {
+   "nhom": "4. Cần chốt quy ước",
+   "sample_id": "VM600-557",
+   "relation_id": "R2",
+   "head": "đi dễ té ngã",
+   "tail": "thuốc",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "NO_RELATION",
+   "ly_do": "Như trên"
+  },
+  {
+   "nhom": "4. Cần chốt quy ước",
+   "sample_id": "VM600-586",
+   "relation_id": "R1",
+   "head": "loạn nhịp tim",
+   "tail": "viên nang đông trùng hạ thảo",
+   "nhan_hien_tai": "CHUA_RO",
+   "quyet_dinh_bac_si": "DELETE",
+   "ly_do": "Viên nang đông trùng hạ thảo (thực phẩm chức năng, quảng cáo): có nằm trong phạm vi DRUG không?"
+  }
+ ],
+ "re_preds": [
+  {
+   "split": "dev",
+   "id": "VM600-462",
+   "head": "rung nhĩ",
+   "tail": "mạch",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.41502623349173884,
+   "text": "mạch hay không còn nếu trong giai đoạn cấp này mà có rung nhĩ nữa mà người lớn tuổi nữa thì chắc chắn là chúng ta phải"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-546",
+   "head": "ung thư",
+   "tail": "tế bào",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.38679658581975845,
+   "text": "tăng huy động tế bào tăng nhiệt độ cơ thể tăng tiêu hao năng lượng như bên cạnh đó thì cái việc mà bị ung thư thì"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-546",
+   "head": "ung thư",
+   "tail": "cơ thể",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.42697598074236265,
+   "text": "tăng huy động tế bào tăng nhiệt độ cơ thể tăng tiêu hao năng lượng như bên cạnh đó thì cái việc mà bị ung thư thì"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-206",
+   "head": "rối loạn cảm xúc",
+   "tail": "điện cực",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.36792293053172787,
+   "text": "cái ghi nhận người ta thấy rằng là một cái thời gian sau khi đặt cái điện cực này quá không hiểu tại sao thì bệnh nhân có thể có những cái cái rối loạn cảm xúc"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-271",
+   "head": "lây nhiễm",
+   "tail": "lấy mẫu",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.19093327621541403,
+   "text": "nhưng mà tôi rất là sợ phải đi lấy mẫu vì sợ lây nhiễm lẫn nhau ở tại các khu"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-267",
+   "head": "trầm cảm",
+   "tail": "carbohydrate",
+   "gold": "NO_RELATION",
+   "pred": null,
+   "score": null,
+   "text": "trạng bao gồm cả trầm cảm và lo âu tiểu đường thèm đường và carbohydrate thừa cân"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-267",
+   "head": "lo âu",
+   "tail": "carbohydrate",
+   "gold": "NO_RELATION",
+   "pred": null,
+   "score": null,
+   "text": "trạng bao gồm cả trầm cảm và lo âu tiểu đường thèm đường và carbohydrate thừa cân"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-267",
+   "head": "tiểu đường",
+   "tail": "carbohydrate",
+   "gold": "NO_RELATION",
+   "pred": null,
+   "score": null,
+   "text": "trạng bao gồm cả trầm cảm và lo âu tiểu đường thèm đường và carbohydrate thừa cân"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-267",
+   "head": "thèm đường",
+   "tail": "carbohydrate",
+   "gold": "NO_RELATION",
+   "pred": null,
+   "score": null,
+   "text": "trạng bao gồm cả trầm cảm và lo âu tiểu đường thèm đường và carbohydrate thừa cân"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-267",
+   "head": "thừa cân",
+   "tail": "carbohydrate",
+   "gold": "NO_RELATION",
+   "pred": null,
+   "score": null,
+   "text": "trạng bao gồm cả trầm cảm và lo âu tiểu đường thèm đường và carbohydrate thừa cân"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-527",
+   "head": "nhiễm trùng",
+   "tail": "sinh mổ",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.3503059066196599,
+   "text": "đời có một ca sinh mổ theo nguyện vọng và được uống sữa công thức hoàn toàn cô bé mắt nhiều bệnh nhiễm trùng khi còn"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-197",
+   "head": "parkinson",
+   "tail": "cơ thể",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.39876922217459027,
+   "text": "parkinson hay là bệnh alzheimer bệnh trầm cảm nữa vâng ạ rất là tốt cho cơ thể của chúng ta ngày hôm nay thì những"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-197",
+   "head": "alzheimer",
+   "tail": "cơ thể",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.3956445323090583,
+   "text": "parkinson hay là bệnh alzheimer bệnh trầm cảm nữa vâng ạ rất là tốt cho cơ thể của chúng ta ngày hôm nay thì những"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-197",
+   "head": "trầm cảm",
+   "tail": "cơ thể",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.4052068426009962,
+   "text": "parkinson hay là bệnh alzheimer bệnh trầm cảm nữa vâng ạ rất là tốt cho cơ thể của chúng ta ngày hôm nay thì những"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-035",
+   "head": "triệu chứng",
+   "tail": "phẫu thuật kích thích não sâu",
+   "gold": "treated_by_procedure",
+   "pred": "treated_by_procedure",
+   "score": 0.6895606149138773,
+   "text": "pháp điều trị thuốc thì phẫu thuật kích thích não sâu nó sẽ giúp cải thiện triệu chứng cho người bệnh khá là tốt mà khi"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-011",
+   "head": "cục máu đông",
+   "tail": "tim",
+   "gold": "located_at",
+   "pred": "NO_RELATION",
+   "score": 0.45022440426221694,
+   "text": "với cơ chế của cái hình thành cục máu đông ở trong tim giờ đó nên thuốc chống tiểu cầu không phải là cái gì"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-028",
+   "head": "đau",
+   "tail": "gáy",
+   "gold": "located_at",
+   "pred": "NO_RELATION",
+   "score": 0.44946480349655954,
+   "text": "gáy nó mới đau nó chèn lên thần kinh tê liệt tay thế uống thuốc nó đỡ làm nhiều lúc mà rét"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-028",
+   "head": "đau",
+   "tail": "thần kinh",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.4360105452515867,
+   "text": "gáy nó mới đau nó chèn lên thần kinh tê liệt tay thế uống thuốc nó đỡ làm nhiều lúc mà rét"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-028",
+   "head": "tê liệt tay",
+   "tail": "gáy",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.4825295121675365,
+   "text": "gáy nó mới đau nó chèn lên thần kinh tê liệt tay thế uống thuốc nó đỡ làm nhiều lúc mà rét"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-028",
+   "head": "tê liệt tay",
+   "tail": "thần kinh",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.4667456401070214,
+   "text": "gáy nó mới đau nó chèn lên thần kinh tê liệt tay thế uống thuốc nó đỡ làm nhiều lúc mà rét"
+  },
+  {
+   "split": "dev",
+   "id": "VM600-057",
+   "head": "biến chứng",
+   "tail": "phẫu thuật",
+   "gold": "NO_RELATION",
+   "pred": "treated_by_procedure",
+   "score": 0.5779918549876196,
+   "text": "quá thì khả năng phẫu thuật nó sẽ khó khăn nó có sẽ có nhiều biến chứng cái thứ hai người bệnh parkinson nên là hơn"
+  },
+  {
+   "split": "test",
+   "id": "VM600-030",
+   "head": "thiếu máu não",
+   "tail": "cơ thể",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.42405773263314206,
+   "text": "nó gây ra thiếu máu não nếu nó không lại được ngay đây là tự cơ thể có cái"
+  },
+  {
+   "split": "test",
+   "id": "VM600-464",
+   "head": "tê bì",
+   "tail": "bàn tay",
+   "gold": "located_at",
+   "pred": "NO_RELATION",
+   "score": 0.4592110057500306,
+   "text": "không có nắm được như thế này là bao nhiêu lâu nay rồi ạ nó có tê bì nhiều ở cái bàn tay không ạ"
+  },
+  {
+   "split": "test",
+   "id": "VM600-558",
+   "head": "tổn thương",
+   "tail": "đường tiêu hóa",
+   "gold": "located_at",
+   "pred": "located_at",
+   "score": 0.6647393319343217,
+   "text": "bị tổn thương hơn đường tiêu hóa chúng ta dễ bị tổn thương hơn như vậy đó ở những người lớn tuổi chúng ta rất là"
+  },
+  {
+   "split": "test",
+   "id": "VM600-051",
+   "head": "khô căng",
+   "tail": "sữa rửa mặt",
+   "gold": "NO_RELATION",
+   "pred": null,
+   "score": null,
+   "text": "mặt xong làm cho chúng ta cảm thấy nó khô căng là những cái sữa rửa mặt nó thường có chứa những thành phần các chất"
+  },
+  {
+   "split": "test",
+   "id": "VM600-364",
+   "head": "chức năng gan bị giảm",
+   "tail": "hóa trị",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.318718623444341,
+   "text": "một cái hóa trị hoặc xạ trị thì nó đều liên quan đến khử độc tại gan và khi chức năng gan bị giảm như vậy thì nay lại bị"
+  },
+  {
+   "split": "test",
+   "id": "VM600-364",
+   "head": "chức năng gan bị giảm",
+   "tail": "xạ trị",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.3291955645439532,
+   "text": "một cái hóa trị hoặc xạ trị thì nó đều liên quan đến khử độc tại gan và khi chức năng gan bị giảm như vậy thì nay lại bị"
+  },
+  {
+   "split": "test",
+   "id": "VM600-364",
+   "head": "chức năng gan bị giảm",
+   "tail": "gan",
+   "gold": "NO_RELATION",
+   "pred": "located_at",
+   "score": 0.5334490549983019,
+   "text": "một cái hóa trị hoặc xạ trị thì nó đều liên quan đến khử độc tại gan và khi chức năng gan bị giảm như vậy thì nay lại bị"
+  },
+  {
+   "split": "test",
+   "id": "VM600-242",
+   "head": "dại",
+   "tail": "tiêm",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.3353774185561537,
+   "text": "ngừa dại hay không và nếu được tiêm thì"
+  },
+  {
+   "split": "test",
+   "id": "VM600-311",
+   "head": "viêm",
+   "tail": "hệ miễn dịch",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.3715872875740591,
+   "text": "động sinh lý khác nhau bao gồm vận hành hệ miễn dịch giải độc viêm dẫn truyền"
+  },
+  {
+   "split": "test",
+   "id": "VM600-467",
+   "head": "vết thương",
+   "tail": "cơ thể",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.47145038420094876,
+   "text": "nhìn đơn giản về những gì đang xảy ra ở đây là cơ thể chúng ta tấn công mầm bệnh đối tượng xâm nhập vết thương vì hệ miễn"
+  },
+  {
+   "split": "test",
+   "id": "VM600-300",
+   "head": "tế bào ung thư",
+   "tail": "tế bào",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.49416194344910963,
+   "text": "dinh dưỡng trong cơ thể chúng ta nó sản sinh ra các tế bào thì mỗi một cái tế bào ung thư điều rất cần đến năng lượng"
+  },
+  {
+   "split": "test",
+   "id": "VM600-406",
+   "head": "yếu tay",
+   "tail": "cơ mặt",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.41616384865542244,
+   "text": "yếu đầu tiên là yếu tay yếu chân yếu thứ hai là giữa các cơ mặt làm cho mặt"
+  },
+  {
+   "split": "test",
+   "id": "VM600-406",
+   "head": "yếu tay",
+   "tail": "mặt",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.43047263309936595,
+   "text": "yếu đầu tiên là yếu tay yếu chân yếu thứ hai là giữa các cơ mặt làm cho mặt"
+  },
+  {
+   "split": "test",
+   "id": "VM600-406",
+   "head": "yếu chân",
+   "tail": "cơ mặt",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.40709101118286756,
+   "text": "yếu đầu tiên là yếu tay yếu chân yếu thứ hai là giữa các cơ mặt làm cho mặt"
+  },
+  {
+   "split": "test",
+   "id": "VM600-406",
+   "head": "yếu chân",
+   "tail": "mặt",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.42076266693239667,
+   "text": "yếu đầu tiên là yếu tay yếu chân yếu thứ hai là giữa các cơ mặt làm cho mặt"
+  },
+  {
+   "split": "test",
+   "id": "VM600-091",
+   "head": "nhiễm bệnh",
+   "tail": "tế bào",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.4322774108909745,
+   "text": "cố định khớp đặc hiệu với mầm bệnh hoặc tế bào nhiễm bệnh hay đúng hơn là mô"
+  },
+  {
+   "split": "test",
+   "id": "VM600-091",
+   "head": "nhiễm bệnh",
+   "tail": "mô",
+   "gold": "NO_RELATION",
+   "pred": "NO_RELATION",
+   "score": 0.4635966692168365,
+   "text": "cố định khớp đặc hiệu với mầm bệnh hoặc tế bào nhiễm bệnh hay đúng hơn là mô"
+  }
+ ],
+ "ner_errors_keys": [
+  "index",
+  "error_count",
+  "text",
+  "gold_entities",
+  "predicted_entities",
+  "error_summary"
+ ],
+ "ner_errors": [
+  {
+   "index": 254,
+   "error_count": 10,
+   "text": "do rối loạn chức năng của buồng trứng hoặc là do viêm nội mạc tử cung hoặc quá sản nội mạc tử cung hoặc là polyp buồng",
+   "gold_entities": [
+    {
+     "label": "CONDITION",
+     "start_char": 3,
+     "end_char": 21,
+     "surface_text": "rối loạn chức năng"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 26,
+     "end_char": 37,
+     "surface_text": "buồng trứng"
+    },
+    {
+     "label": "CONDITION",
+     "start_char": 49,
+     "end_char": 53,
+     "surface_text": "viêm"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 54,
+     "end_char": 69,
+     "surface_text": "nội mạc tử cung"
+    },
+    {
+     "label": "CONDITION",
+     "start_char": 75,
+     "end_char": 98,
+     "surface_text": "quá sản nội mạc tử cung"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 107,
+     "end_char": 112,
+     "surface_text": "polyp"
+    }
+   ],
+   "predicted_entities": [
+    {
+     "surface_text": "rối loạn",
+     "label": "CONDITION",
+     "start_char": 3,
+     "end_char": 11,
+     "confidence": 0.9971
+    },
+    {
+     "surface_text": "buồng trứng",
+     "label": "BODY_PART",
+     "start_char": 26,
+     "end_char": 37,
+     "confidence": 0.9966
+    },
+    {
+     "surface_text": "viêm",
+     "label": "CONDITION",
+     "start_char": 49,
+     "end_char": 53,
+     "confidence": 0.9959
+    },
+    {
+     "surface_text": "nội mạc",
+     "label": "BODY_PART",
+     "start_char": 54,
+     "end_char": 61,
+     "confidence": 0.9941
+    },
+    {
+     "surface_text": "tử cung",
+     "label": "BODY_PART",
+     "start_char": 62,
+     "end_char": 69,
+     "confidence": 0.9961
+    },
+    {
+     "surface_text": "nội mạc",
+     "label": "BODY_PART",
+     "start_char": 83,
+     "end_char": 90,
+     "confidence": 0.9956
+    },
+    {
+     "surface_text": "tử cung",
+     "label": "BODY_PART",
+     "start_char": 91,
+     "end_char": 98,
+     "confidence": 0.9963
+    },
+    {
+     "surface_text": "polyp",
+     "label": "CONDITION",
+     "start_char": 107,
+     "end_char": 112,
+     "confidence": 0.9495
+    }
+   ],
+   "error_summary": "Missed 4: [BODY_PART] 'polyp', [CONDITION] 'quá sản nội mạc tử cung', [BODY_PART] 'nội mạc tử cung', [CONDITION] 'rối loạn chức năng'; Spurious 6: [BODY_PART] 'nội mạc', [CONDITION] 'rối loạn', [CONDITION] 'polyp', [BODY_PART] 'nội mạc', [BODY_PART] 'tử cung', [BODY_PART] 'tử cung'"
+  },
+  {
+   "index": 159,
+   "error_count": 9,
+   "text": "ở đây cũng là nhân xơ đấy là nhân xơ trong trong cơ tử cung nhưng mà nó lắng lẫn vào buồng tử cung đây là nhân xơ",
+   "gold_entities": [
+    {
+     "label": "BODY_PART",
+     "start_char": 14,
+     "end_char": 21,
+     "surface_text": "nhân xơ"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 29,
+     "end_char": 36,
+     "surface_text": "nhân xơ"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 49,
+     "end_char": 59,
+     "surface_text": "cơ tử cung"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 85,
+     "end_char": 98,
+     "surface_text": "buồng tử cung"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 106,
+     "end_char": 113,
+     "surface_text": "nhân xơ"
+    }
+   ],
+   "predicted_entities": [
+    {
+     "surface_text": "nhân xơ",
+     "label": "DRUG",
+     "start_char": 14,
+     "end_char": 21,
+     "confidence": 0.9733
+    },
+    {
+     "surface_text": "nhân xơ",
+     "label": "DRUG",
+     "start_char": 29,
+     "end_char": 36,
+     "confidence": 0.9269
+    },
+    {
+     "surface_text": "cơ",
+     "label": "BODY_PART",
+     "start_char": 49,
+     "end_char": 51,
+     "confidence": 0.9961
+    },
+    {
+     "surface_text": "tử cung",
+     "label": "BODY_PART",
+     "start_char": 52,
+     "end_char": 59,
+     "confidence": 0.9931
+    },
+    {
+     "surface_text": "buồng tử cung",
+     "label": "BODY_PART",
+     "start_char": 85,
+     "end_char": 98,
+     "confidence": 0.965
+    },
+    {
+     "surface_text": "nhân xơ",
+     "label": "DRUG",
+     "start_char": 106,
+     "end_char": 113,
+     "confidence": 0.7937
+    }
+   ],
+   "error_summary": "Missed 4: [BODY_PART] 'nhân xơ', [BODY_PART] 'cơ tử cung', [BODY_PART] 'nhân xơ', [BODY_PART] 'nhân xơ'; Spurious 5: [BODY_PART] 'tử cung', [DRUG] 'nhân xơ', [BODY_PART] 'cơ', [DRUG] 'nhân xơ', [DRUG] 'nhân xơ'"
+  },
+  {
+   "index": 172,
+   "error_count": 9,
+   "text": "nhân xơ tử cung ở thành thành sau của tử cung trong cơ tử cung nếu thấy trong cơ tử cung",
+   "gold_entities": [
+    {
+     "label": "BODY_PART",
+     "start_char": 0,
+     "end_char": 7,
+     "surface_text": "nhân xơ"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 8,
+     "end_char": 15,
+     "surface_text": "tử cung"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 38,
+     "end_char": 45,
+     "surface_text": "tử cung"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 52,
+     "end_char": 62,
+     "surface_text": "cơ tử cung"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 78,
+     "end_char": 88,
+     "surface_text": "cơ tử cung"
+    }
+   ],
+   "predicted_entities": [
+    {
+     "surface_text": "nhân xơ tử cung",
+     "label": "CONDITION",
+     "start_char": 0,
+     "end_char": 15,
+     "confidence": 0.9961
+    },
+    {
+     "surface_text": "tử cung",
+     "label": "BODY_PART",
+     "start_char": 38,
+     "end_char": 45,
+     "confidence": 0.9964
+    },
+    {
+     "surface_text": "cơ",
+     "label": "BODY_PART",
+     "start_char": 52,
+     "end_char": 54,
+     "confidence": 0.9953
+    },
+    {
+     "surface_text": "tử cung",
+     "label": "BODY_PART",
+     "start_char": 55,
+     "end_char": 62,
+     "confidence": 0.9867
+    },
+    {
+     "surface_text": "cơ",
+     "label": "BODY_PART",
+     "start_char": 78,
+     "end_char": 80,
+     "confidence": 0.996
+    },
+    {
+     "surface_text": "tử cung",
+     "label": "BODY_PART",
+     "start_char": 81,
+     "end_char": 88,
+     "confidence": 0.9901
+    }
+   ],
+   "error_summary": "Missed 4: [BODY_PART] 'cơ tử cung', [BODY_PART] 'cơ tử cung', [BODY_PART] 'nhân xơ', [BODY_PART] 'tử cung'; Spurious 5: [BODY_PART] 'cơ', [CONDITION] 'nhân xơ tử cung', [BODY_PART] 'tử cung', [BODY_PART] 'cơ', [BODY_PART] 'tử cung'"
+  },
+  {
+   "index": 199,
+   "error_count": 9,
+   "text": "mình sẽ có một cái phương pháp mổ là mổ nội soi mổ nội soi để cắt nhiệt cho polyp này",
+   "gold_entities": [
+    {
+     "label": "PROCEDURE",
+     "start_char": 31,
+     "end_char": 33,
+     "surface_text": "mổ"
+    },
+    {
+     "label": "PROCEDURE",
+     "start_char": 37,
+     "end_char": 47,
+     "surface_text": "mổ nội soi"
+    },
+    {
+     "label": "PROCEDURE",
+     "start_char": 48,
+     "end_char": 58,
+     "surface_text": "mổ nội soi"
+    },
+    {
+     "label": "PROCEDURE",
+     "start_char": 62,
+     "end_char": 71,
+     "surface_text": "cắt nhiệt"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 76,
+     "end_char": 81,
+     "surface_text": "polyp"
+    }
+   ],
+   "predicted_entities": [
+    {
+     "surface_text": "mổ",
+     "label": "PROCEDURE",
+     "start_char": 31,
+     "end_char": 33,
+     "confidence": 0.9822
+    },
+    {
+     "surface_text": "mổ",
+     "label": "PROCEDURE",
+     "start_char": 37,
+     "end_char": 39,
+     "confidence": 0.9878
+    },
+    {
+     "surface_text": "nội soi",
+     "label": "PROCEDURE",
+     "start_char": 40,
+     "end_char": 47,
+     "confidence": 0.9615
+    },
+    {
+     "surface_text": "mổ",
+     "label": "PROCEDURE",
+     "start_char": 48,
+     "end_char": 50,
+     "confidence": 0.9866
+    },
+    {
+     "surface_text": "nội soi",
+     "label": "PROCEDURE",
+     "start_char": 51,
+     "end_char": 58,
+     "confidence": 0.9726
+    },
+    {
+     "surface_text": "polyp",
+     "label": "CONDITION",
+     "start_char": 76,
+     "end_char": 81,
+     "confidence": 0.9755
+    }
+   ],
+   "error_summary": "Missed 4: [PROCEDURE] 'mổ nội soi', [PROCEDURE] 'mổ nội soi', [BODY_PART] 'polyp', [PROCEDURE] 'cắt nhiệt'; Spurious 5: [CONDITION] 'polyp', [PROCEDURE] 'nội soi', [PROCEDURE] 'nội soi', [PROCEDURE] 'mổ', [PROCEDURE] 'mổ'"
+  },
+  {
+   "index": 437,
+   "error_count": 9,
+   "text": "mật độ xương là gì mật độ xương là chất nền để mà chất khoáng là khó là canxi đó thứ hai nữa là các cặp vi mô xương là",
+   "gold_entities": [
+    {
+     "label": "DOSAGE",
+     "start_char": 0,
+     "end_char": 6,
+     "surface_text": "mật độ"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 7,
+     "end_char": 12,
+     "surface_text": "xương"
+    },
+    {
+     "label": "DOSAGE",
+     "start_char": 19,
+     "end_char": 25,
+     "surface_text": "mật độ"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 26,
+     "end_char": 31,
+     "surface_text": "xương"
+    },
+    {
+     "label": "DRUG",
+     "start_char": 35,
+     "end_char": 43,
+     "surface_text": "chất nền"
+    },
+    {
+     "label": "DRUG",
+     "start_char": 50,
+     "end_char": 61,
+     "surface_text": "chất khoáng"
+    },
+    {
+     "label": "DRUG",
+     "start_char": 72,
+     "end_char": 77,
+     "surface_text": "canxi"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 107,
+     "end_char": 109,
+     "surface_text": "mô"
+    },
+    {
+     "label": "BODY_PART",
+     "start_char": 110,
+     "end_char": 115,
+     "surface_text": "xương"
+    }
+   ],
+   "predicted_entities": [
+    {
+     "surface_text": "mật",
+     "label": "BODY_PART",
+     "start_char": 0,
+     "end_char": 3,
+     "confidence": 0.9939
+    },
+    {
+     "surface_text": "xương",
+     "label": "BODY_PART",
+     "start_char": 7,
+     "end_char": 12,
+     "confidence": 0.9686
+    },
+    {
+     "surface_text": "mật",
+     "label": "BODY_PART",
+     "start_char": 19,
+     "end_char": 22,
+     "confidence": 0.9914
+    },
+    {
+     "surface_text": "xương",
+     "label": "BODY_PART",
+     "start_char": 26,
+     "end_char": 31,
+     "confidence": 0.9549
+    },
+    {
+     "surface_text": "chất",
+     "label": "DRUG",
+     "start_char": 35,
+     "end_char": 39,
+     "confidence": 0.5537
+    },
+    {
+     "surface_text": "chất khoáng",
+     "label": "DRUG",
+     "start_char": 50,
+     "end_char": 61,
+     "confidence": 0.992
+    },
+    {
+     "surface_text": "canxi",
+     "label": "DRUG",
+     "start_char": 72,
+     "end_char": 77,
+     "confidence": 0.995
+    },
+    {
+     "surface_text": "vi mô xương",
+     "label": "BODY_PART",
+     "start_char": 104,
+     "end_char": 115,
+     "confidence": 0.8503
+    }
+   ],
+   "error_summary": "Missed 5: [DRUG] 'chất nền', [DOSAGE] 'mật độ', [BODY_PART] 'mô', [BODY_PART] 'xương', [DOSAGE] 'mật độ'; Spurious 4: [BODY_PART] 'mật', [DRUG] 'chất', [BODY_PART] 'vi mô xương', [BODY_PART] 'mật'"
+  },
+  {
+   "index": 832,
+   "error_count": 9,
+   "text": "thương niêm mạc đại tràng còn hội chứng ruột kích thích là gì hội chứng ruột kích thích là cái tình trạng rối loạn",
+   "gold_entities": [
+    {
+     "label": "BODY_PART",
+     "start_char": 7,
+     "end_char": 25,
+     "surface_text": "niêm mạc đại tràng"
+    },
+    {
+     "label": "CONDITION",
+     "start_char": 30,
+     "end_char": 55,
+     "surface_text": "hội chứng ruột kích thích"
+    },
+    {
+     "label": "CONDITION",
+     "start_char": 62,
+     "end_char": 87,
+     "surface_text": "hội chứng ruột kích thích"
+    },
+    {
+     "label": "CONDITION",
+     "start_char": 106,
+     "end_char": 114,
+     "surface_text": "rối loạn"
+    }
+   ],
+   "predicted_entities": [
+    {
+     "surface_text": "niêm mạc",
+     "label": "BODY_PART",
+     "start_char": 7,
+     "end_char": 15,
+     "confidence": 0.996
+    },
+    {
+     "surface_text": "đại tràng",
+     "label": "BODY_PART",
+     "start_char": 16,
+     "end_char": 25,
+     "confidence": 0.9966
+    },
+    {
+     "surface_text": "hội chứng",
+     "label": "CONDITION",
+     "start_char": 30,
+     "end_char": 39,
+     "confidence": 0.9903
+    },
+    {
+     "surface_text": "ruột",
+     "label": "BODY_PART",
+     "start_char": 40,
+     "end_char": 44,
+     "confidence": 0.9694
+    },
+    {
+     "surface_text": "hội chứng",
+     "label": "CONDITION",
+     "start_char": 62,
+     "end_char": 71,
+     "confidence": 0.94
+    },
+    {
+     "surface_text": "ruột",
+     "label": "BODY_PART",
+     "start_char": 72,
+     "end_char": 76,
+     "confidence": 0.9932
+    },
+    {
+     "surface_text": "rối loạn",
+     "label": "CONDITION",
+     "start_char": 106,
+     "end_char": 114,
+     "confidence": 0.9971
+    }
+   ],
+   "error_summary": "Missed 3: [CONDITION] 'hội chứng ruột kích thích', [CONDITION] 'hội chứng ruột kích thích', [BODY_PART] 'niêm mạc đại tràng'; Spurious 6: [CONDITION] 'hội chứng', [BODY_PART] 'đại tràng', [BODY_PART] 'ruột', [BODY_PART] 'ruột', [CONDITION] 'hội chứng', [BODY_PART] 'niêm mạc'"
+  }
+ ],
+ "tests": [
+  "tests/test_end_to_end_pipeline.py::test_pipeline_aliases",
+  "tests/test_end_to_end_pipeline.py::test_e2e_condition_and_drug_normalization",
+  "tests/test_end_to_end_pipeline.py::test_e2e_dosage_normalization_skipped",
+  "tests/test_end_to_end_pipeline.py::test_e2e_stub_labels_normalization",
+  "tests/test_end_to_end_pipeline.py::test_disable_normalization_via_predict_argument",
+  "tests/test_end_to_end_pipeline.py::test_disable_normalization_via_pipeline_init",
+  "tests/test_end_to_end_pipeline.py::test_pipeline_helper_methods",
+  "tests/test_end_to_end_pipeline.py::test_custom_normalizer_injection",
+  "tests/test_end_to_end_pipeline.py::test_empty_and_whitespace_edge_cases",
+  "tests/test_knowledge_graph.py::test_node_key_prefers_code",
+  "tests/test_knowledge_graph.py::test_synonyms_merge_and_edges_aggregate",
+  "tests/test_knowledge_graph.py::test_generic_condition_skipped",
+  "tests/test_knowledge_graph.py::test_stats_and_exports",
+  "tests/test_knowledge_graph.py::test_hybrid_fills_unsupported_with_rules",
+  "tests/test_knowledge_graph.py::test_union_takes_rule_positive_fallback_does_not",
+  "tests/test_knowledge_graph.py::test_invalid_mode",
+  "tests/test_ner_pipeline.py::test_whitespace_normalization",
+  "tests/test_ner_pipeline.py::test_tokenization_punctuation_decoupling",
+  "tests/test_ner_pipeline.py::test_label_mapping_and_filtering",
+  "tests/test_ner_pipeline.py::test_dosage_regex_extraction",
+  "tests/test_ner_pipeline.py::test_overlap_resolution_higher_confidence",
+  "tests/test_ner_pipeline.py::test_empty_string",
+  "tests/test_ner_pipeline.py::test_non_clinical_text",
+  "tests/test_ner_pipeline.py::test_consecutive_entities",
+  "tests/test_ner_pipeline.py::test_punctuated_text",
+  "tests/test_ner_pipeline.py::test_dosage_patterns",
+  "tests/test_ner_pipeline.py::test_long_text_sentence_chunking",
+  "tests/test_ner_pipeline.py::test_rule1_drug_action_blacklist_unit",
+  "tests/test_ner_pipeline.py::test_rule1b_lab_test_relabel_unit",
+  "tests/test_ner_pipeline.py::test_rule1_drug_action_blacklist_e2e",
+  "tests/test_ner_pipeline.py::test_rule2_merge_severity_sot_cao_unit",
+  "tests/test_ner_pipeline.py::test_rule2_merge_severity_sot_cao_e2e",
+  "tests/test_ner_pipeline.py::test_rule2_real_dosage_not_merged_unit",
+  "tests/test_ner_pipeline.py::test_rule2_severity_without_condition_not_deleted_unit",
+  "tests/test_normalization.py::TestICD10Normalizer::test_critical_dau_bung_not_dau_lung",
+  "tests/test_normalization.py::TestICD10Normalizer::test_exact_matches",
+  "tests/test_normalization.py::TestICD10Normalizer::test_synonym_matches",
+  "tests/test_normalization.py::TestICD10Normalizer::test_cancer_pattern_synonyms",
+  "tests/test_normalization.py::TestICD10Normalizer::test_audit_regression_cases",
+  "tests/test_normalization.py::TestICD10Normalizer::test_fuzzy_subset_false_matches_rejected",
+  "tests/test_normalization.py::TestICD10Normalizer::test_fuzzy_matches_boundary",
+  "tests/test_normalization.py::TestICD10Normalizer::test_fuzzy_matches",
+  "tests/test_normalization.py::TestICD10Normalizer::test_strict_unmatched_rejection",
+  "tests/test_normalization.py::TestRxNormNormalizer::test_mocked_common_drugs",
+  "tests/test_normalization.py::TestRxNormNormalizer::test_dosage_stripping_and_pure_drug_names",
+  "tests/test_normalization.py::TestRxNormNormalizer::test_sqlite_caching",
+  "tests/test_normalization.py::TestRxNormNormalizer::test_unmatched_drug_logged",
+  "tests/test_normalization.py::TestRxNormNormalizer::test_live_rxnav_api",
+  "tests/test_normalization.py::TestDispatcher::test_route_condition",
+  "tests/test_normalization.py::TestDispatcher::test_route_drug",
+  "tests/test_normalization.py::TestDispatcher::test_safe_body_part_stub",
+  "tests/test_normalization.py::TestDispatcher::test_safe_test_stub",
+  "tests/test_normalization.py::TestDispatcher::test_safe_procedure_stub",
+  "tests/test_normalization.py::TestDispatcher::test_safe_dosage_skipped",
+  "tests/test_normalization.py::TestDispatcher::test_batch_normalize_entities",
+  "tests/test_normalization.py::TestDispatcher::test_module_normalize_entity_shortcut",
+  "tests/test_normalization.py::TestCandidates::test_icd10_decision_is_rank_one",
+  "tests/test_normalization.py::TestCandidates::test_icd10_candidates_when_normalize_abstains",
+  "tests/test_normalization.py::TestCandidates::test_icd10_empty_input",
+  "tests/test_normalization.py::TestCandidates::test_rxnorm_candidates_cached_and_deduped",
+  "tests/test_normalization.py::TestDrugAliasesAndApprox::test_vietnamese_alias",
+  "tests/test_normalization.py::TestDrugAliasesAndApprox::test_prefix_strip_then_alias",
+  "tests/test_normalization.py::TestDrugAliasesAndApprox::test_approx_accepts_typo_only",
+  "tests/test_normalization.py::TestIcdDevImprovements::test_lay_term_synonyms",
+  "tests/test_normalization.py::TestIcdDevImprovements::test_uncovered_word_rejected",
+  "tests/test_normalization.py::TestIcdDevImprovements::test_acuity_qualifier_still_matches",
+  "tests/test_normalization.py::TestIcdDevImprovements::test_candidates_use_tfidf_with_aliases",
+  "tests/test_normalization.py::TestAlwaysAnswerMode::test_strict_abstains_always_suggests",
+  "tests/test_normalization.py::TestAlwaysAnswerMode::test_always_keeps_confident_decision",
+  "tests/test_normalization.py::TestAlwaysAnswerMode::test_always_does_not_touch_other_labels",
+  "tests/test_normalization.py::TestAlwaysAnswerMode::test_invalid_mode",
+  "tests/test_normalization.py::TestTopKOutput::test_entities_carry_ranked_candidates",
+  "tests/test_normalization.py::TestTopKOutput::test_decision_matches_single_entity_call",
+  "tests/test_normalization.py::TestTopKOutput::test_top_k_zero_disables_list",
+  "tests/test_normalization_eval.py::test_type_level",
+  "tests/test_normalization_eval.py::test_mention_level_weights_by_freq",
+  "tests/test_normalization_eval.py::test_category_level",
+  "tests/test_relation_extraction.py::test_ai_opt_in_unknown_not_negative_and_no_invented_pairs",
+  "tests/test_relation_extraction.py::test_invalid_annotations_fail[offset]",
+  "tests/test_relation_extraction.py::test_invalid_annotations_fail[direction]",
+  "tests/test_relation_extraction.py::test_invalid_annotations_fail[duplicate]",
+  "tests/test_relation_extraction.py::test_invalid_annotations_fail[missing]",
+  "tests/test_relation_extraction.py::test_invalid_annotations_fail[wrong_label]",
+  "tests/test_relation_extraction.py::test_group_split_reproducible_no_duplicate_text_leak",
+  "tests/test_relation_extraction.py::test_markers_direction_and_candidate_schema",
+  "tests/test_relation_extraction.py::test_fit_save_load_and_unsupported",
+  "tests/test_relation_extraction.py::test_positive_metrics_count_negative_false_positives",
+  "tests/test_relation_extraction.py::test_ner_adapter_uses_returned_text_and_offsets",
+  "tests/test_relation_extraction.py::test_pipeline_skips_generic_entities_like_gold_v1"
+ ],
+ "splits": {
+  "split_sizes": {
+   "train": 4616,
+   "validation": 1154,
+   "test": 3497
+  },
+  "mean_words": {
+   "train": 24.104636048526864,
+   "validation": 23.966204506065857,
+   "test": 22.21189591078067
+  }
+ }
+}

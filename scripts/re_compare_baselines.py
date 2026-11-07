@@ -58,7 +58,9 @@ def main():
         p["entities"] = [p["head"] if e["id"] == p["head"]["id"] else p["tail"] if e["id"] == p["tail"]["id"] else e
                          for e in ents[p["sample_id"]]]
     rules = RuleRelationExtractor()
-    report = {"data": a.data, "audit": audit, "label_source": "AI rà soát, chưa bác sĩ xác nhận",
+    human = all(p["human_verified"] and p["training_eligible"] for p in pairs)
+    source_vi = "người duyệt xác nhận" if human else "AI rà soát, chưa bác sĩ xác nhận"
+    report = {"data": a.data, "audit": audit, "label_source": source_vi,
               "pairs": len(pairs), "labels": dict(Counter(p["label"] for p in pairs))}
 
     split = split_pairs(pairs, seed=42)
@@ -88,7 +90,7 @@ def main():
                                  "positive_micro_f1_ci95": bootstrap(rows)} for m, rows in oof.items()}
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
     (out / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    L = ["# So sánh baseline RE (nhãn AI rà soát, 178 cặp)", "",
+    L = [f"# So sánh baseline RE (nhãn {report['label_source']}, {report['pairs']} cặp)", "",
          "| Thiết lập | Phương pháp | P | R | F1 | CI95 F1 |", "|---|---|---:|---:|---:|---|"]
     for name in ("dev", "test"):
         for m in ("rules", "logreg"):
@@ -96,7 +98,7 @@ def main():
             L.append(f"| seed42 {name} ({report['seed42_split'][name]['pairs']} cặp) | {m} | {s['precision']:.3f} | {s['recall']:.3f} | {s['f1']:.3f} | — |")
     for m in ("rules", "logreg"):
         d = report["cv5_grouped"][m]; s = d["positive_micro"]
-        L.append(f"| CV 5-fold theo nhóm (178 cặp) | {m} | {s['precision']:.3f} | {s['recall']:.3f} | {s['f1']:.3f} | {d['positive_micro_f1_ci95'][0]:.3f}–{d['positive_micro_f1_ci95'][1]:.3f} |")
+        L.append(f"| CV 5-fold theo nhóm ({report['pairs']} cặp) | {m} | {s['precision']:.3f} | {s['recall']:.3f} | {s['f1']:.3f} | {d['positive_micro_f1_ci95'][0]:.3f}–{d['positive_micro_f1_ci95'][1]:.3f} |")
     L += ["", "## CV theo quan hệ (F1, support)", "", "| Quan hệ | Luật | LogReg | Support |", "|---|---:|---:|---:|"]
     for rel in RELATIONS:
         r = report["cv5_grouped"]["rules"]["per_relation"][rel]; l = report["cv5_grouped"]["logreg"]["per_relation"][rel]

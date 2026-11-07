@@ -1,0 +1,6 @@
+{
+  "confirmed_through": null,
+  "ready": 0,
+  "pending": 100,
+  "note": "Ready records use original NER and prelabels confirmed unchanged. Edited samples require explicit reconciliation; empty/uncertain labels are not negative examples."
+}

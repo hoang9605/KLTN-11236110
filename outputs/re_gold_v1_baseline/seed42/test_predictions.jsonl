@@ -1,0 +1,17 @@
+{"sample_id": "VM600-030", "head": "E1", "tail": "E2", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.42405773263314206, "status": "predicted"}}
+{"sample_id": "VM600-464", "head": "E1", "tail": "E2", "gold_ai_label": "located_at", "prediction": {"label": "NO_RELATION", "score": 0.4592110057500306, "status": "predicted"}}
+{"sample_id": "VM600-558", "head": "E5", "tail": "E3", "gold_ai_label": "located_at", "prediction": {"label": "located_at", "score": 0.6647393319343217, "status": "predicted"}}
+{"sample_id": "VM600-051", "head": "E1", "tail": "E2", "gold_ai_label": "NO_RELATION", "prediction": {"label": null, "score": null, "status": "unsupported"}}
+{"sample_id": "VM600-364", "head": "E5", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.318718623444341, "status": "predicted"}}
+{"sample_id": "VM600-364", "head": "E5", "tail": "E2", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.3291955645439532, "status": "predicted"}}
+{"sample_id": "VM600-364", "head": "E5", "tail": "E3", "gold_ai_label": "NO_RELATION", "prediction": {"label": "located_at", "score": 0.5334490549983019, "status": "predicted"}}
+{"sample_id": "VM600-242", "head": "E1", "tail": "E2", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.3353774185561537, "status": "predicted"}}
+{"sample_id": "VM600-311", "head": "E2", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.3715872875740591, "status": "predicted"}}
+{"sample_id": "VM600-467", "head": "E3", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.47145038420094876, "status": "predicted"}}
+{"sample_id": "VM600-300", "head": "E3", "tail": "E2", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.49416194344910963, "status": "predicted"}}
+{"sample_id": "VM600-406", "head": "E1", "tail": "E3", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.41616384865542244, "status": "predicted"}}
+{"sample_id": "VM600-406", "head": "E1", "tail": "E4", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.43047263309936595, "status": "predicted"}}
+{"sample_id": "VM600-406", "head": "E2", "tail": "E3", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.40709101118286756, "status": "predicted"}}
+{"sample_id": "VM600-406", "head": "E2", "tail": "E4", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.42076266693239667, "status": "predicted"}}
+{"sample_id": "VM600-091", "head": "E5", "tail": "E3", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.4322774108909745, "status": "predicted"}}
+{"sample_id": "VM600-091", "head": "E5", "tail": "E4", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.4635966692168365, "status": "predicted"}}

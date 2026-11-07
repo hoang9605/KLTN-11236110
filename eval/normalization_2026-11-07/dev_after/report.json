@@ -1,0 +1,369 @@
+{
+  "gold": "data/norm_gold_v1/gold_dev.jsonl",
+  "human_verified": false,
+  "ks": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "results": {
+    "ICD-10": {
+      "code": {
+        "type": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.06802721088435375,
+            "coverage": 0.06802721088435375,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "fuzzy1": {
+            "accuracy": 0.19727891156462585,
+            "coverage": 1.0,
+            "precision_answered": 0.19727891156462585,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.7959183673469388,
+            "coverage": 0.7959183673469388,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "always": {
+            "accuracy": 0.8367346938775511,
+            "coverage": 1.0,
+            "precision_answered": 0.8367346938775511,
+            "nil_correct_abstention": 0.0
+          },
+          "top1_acc": 0.8367346938775511,
+          "recall@1": 0.8367346938775511,
+          "top3_acc": 0.8571428571428571,
+          "recall@3": 0.8571428571428571,
+          "top5_acc": 0.8639455782312925,
+          "recall@5": 0.8639455782312925,
+          "top10_acc": 0.891156462585034,
+          "recall@10": 0.891156462585034,
+          "mrr@10": 0.8525672173631357
+        },
+        "mention": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.08302583025830258,
+            "coverage": 0.08302583025830258,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "fuzzy1": {
+            "accuracy": 0.1900369003690037,
+            "coverage": 1.0,
+            "precision_answered": 0.1900369003690037,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.9169741697416974,
+            "coverage": 0.9169741697416974,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "always": {
+            "accuracy": 0.9298892988929889,
+            "coverage": 1.0,
+            "precision_answered": 0.9298892988929889,
+            "nil_correct_abstention": 0.0
+          },
+          "top1_acc": 0.9298892988929889,
+          "recall@1": 0.9298892988929889,
+          "top3_acc": 0.9354243542435424,
+          "recall@3": 0.9354243542435424,
+          "top5_acc": 0.9446494464944649,
+          "recall@5": 0.9446494464944649,
+          "top10_acc": 0.9520295202952029,
+          "recall@10": 0.9520295202952029,
+          "mrr@10": 0.9360283781409243
+        },
+        "ci95_type": {
+          "system.accuracy": [
+            0.7341772151898734,
+            0.8581081081081081
+          ],
+          "exact.accuracy": [
+            0.028368794326241134,
+            0.11188811188811189
+          ],
+          "fuzzy1.accuracy": [
+            0.1346153846153846,
+            0.2638888888888889
+          ],
+          "always.accuracy": [
+            0.7785234899328859,
+            0.8918918918918919
+          ],
+          "top1_acc": [
+            0.7785234899328859,
+            0.8918918918918919
+          ],
+          "top5_acc": [
+            0.8082191780821918,
+            0.9178082191780822
+          ],
+          "top10_acc": [
+            0.8402777777777778,
+            0.9383561643835616
+          ]
+        }
+      },
+      "category": {
+        "type": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.06802721088435375,
+            "coverage": 0.06802721088435375,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "fuzzy1": {
+            "accuracy": 0.23809523809523808,
+            "coverage": 1.0,
+            "precision_answered": 0.23809523809523808,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.7959183673469388,
+            "coverage": 0.7959183673469388,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9782608695652174
+          },
+          "always": {
+            "accuracy": 0.8639455782312925,
+            "coverage": 1.0,
+            "precision_answered": 0.8639455782312925,
+            "nil_correct_abstention": 0.0
+          },
+          "top1_acc": 0.8639455782312925,
+          "recall@1": 0.8639455782312925,
+          "top3_acc": 0.891156462585034,
+          "recall@3": 0.891156462585034,
+          "top5_acc": 0.9047619047619048,
+          "recall@5": 0.9047619047619048,
+          "top10_acc": 0.9115646258503401,
+          "recall@10": 0.9115646258503401,
+          "mrr@10": 0.8804502753482345
+        },
+        "mention": {
+          "n_linkable": 147,
+          "n_nil": 46,
+          "mentions_linkable": 542,
+          "mentions_nil": 204,
+          "exact": {
+            "accuracy": 0.08302583025830258,
+            "coverage": 0.08302583025830258,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "fuzzy1": {
+            "accuracy": 0.23247232472324722,
+            "coverage": 1.0,
+            "precision_answered": 0.23247232472324722,
+            "nil_correct_abstention": 0.0
+          },
+          "system": {
+            "accuracy": 0.9169741697416974,
+            "coverage": 0.9169741697416974,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9950980392156863
+          },
+          "always": {
+            "accuracy": 0.9372693726937269,
+            "coverage": 1.0,
+            "precision_answered": 0.9372693726937269,
+            "nil_correct_abstention": 0.0
+          },
+          "top1_acc": 0.9372693726937269,
+          "recall@1": 0.9372693726937269,
+          "top3_acc": 0.9446494464944649,
+          "recall@3": 0.9446494464944649,
+          "top5_acc": 0.955719557195572,
+          "recall@5": 0.955719557195572,
+          "top10_acc": 0.9575645756457565,
+          "recall@10": 0.9575645756457565,
+          "mrr@10": 0.9435907573361447
+        },
+        "ci95_type": {
+          "system.accuracy": [
+            0.7341772151898734,
+            0.8581081081081081
+          ],
+          "exact.accuracy": [
+            0.028368794326241134,
+            0.11188811188811189
+          ],
+          "fuzzy1.accuracy": [
+            0.17142857142857143,
+            0.3076923076923077
+          ],
+          "always.accuracy": [
+            0.8068965517241379,
+            0.916083916083916
+          ],
+          "top1_acc": [
+            0.8068965517241379,
+            0.916083916083916
+          ],
+          "top5_acc": [
+            0.8540145985401459,
+            0.950354609929078
+          ],
+          "top10_acc": [
+            0.863013698630137,
+            0.954248366013072
+          ]
+        }
+      }
+    },
+    "RxNorm": {
+      "code": {
+        "type": {
+          "n_linkable": 37,
+          "n_nil": 91,
+          "mentions_linkable": 78,
+          "mentions_nil": 280,
+          "exact": {
+            "accuracy": 0.32432432432432434,
+            "coverage": 0.32432432432432434,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 1.0
+          },
+          "fuzzy1": {
+            "accuracy": 0.43243243243243246,
+            "coverage": 0.9459459459459459,
+            "precision_answered": 0.45714285714285713,
+            "nil_correct_abstention": 0.16483516483516483
+          },
+          "system": {
+            "accuracy": 0.8108108108108109,
+            "coverage": 0.8108108108108109,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.978021978021978
+          },
+          "always": {
+            "accuracy": 0.8918918918918919,
+            "coverage": 1.0,
+            "precision_answered": 0.8918918918918919,
+            "nil_correct_abstention": 0.16483516483516483
+          },
+          "top1_acc": 0.8918918918918919,
+          "recall@1": 0.8918918918918919,
+          "top3_acc": 0.918918918918919,
+          "recall@3": 0.918918918918919,
+          "top5_acc": 0.918918918918919,
+          "recall@5": 0.918918918918919,
+          "top10_acc": 0.918918918918919,
+          "recall@10": 0.918918918918919,
+          "mrr@10": 0.9054054054054054
+        },
+        "mention": {
+          "n_linkable": 37,
+          "n_nil": 91,
+          "mentions_linkable": 78,
+          "mentions_nil": 280,
+          "exact": {
+            "accuracy": 0.2564102564102564,
+            "coverage": 0.2564102564102564,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 1.0
+          },
+          "fuzzy1": {
+            "accuracy": 0.2564102564102564,
+            "coverage": 0.9743589743589743,
+            "precision_answered": 0.2631578947368421,
+            "nil_correct_abstention": 0.35714285714285715
+          },
+          "system": {
+            "accuracy": 0.8974358974358975,
+            "coverage": 0.8974358974358975,
+            "precision_answered": 1.0,
+            "nil_correct_abstention": 0.9821428571428571
+          },
+          "always": {
+            "accuracy": 0.9358974358974359,
+            "coverage": 1.0,
+            "precision_answered": 0.9358974358974359,
+            "nil_correct_abstention": 0.35714285714285715
+          },
+          "top1_acc": 0.9358974358974359,
+          "recall@1": 0.9358974358974359,
+          "top3_acc": 0.9615384615384616,
+          "recall@3": 0.9615384615384616,
+          "top5_acc": 0.9615384615384616,
+          "recall@5": 0.9615384615384616,
+          "top10_acc": 0.9615384615384616,
+          "recall@10": 0.9615384615384616,
+          "mrr@10": 0.9487179487179487
+        },
+        "ci95_type": {
+          "system.accuracy": [
+            0.675,
+            0.9310344827586207
+          ],
+          "exact.accuracy": [
+            0.17777777777777778,
+            0.4857142857142857
+          ],
+          "fuzzy1.accuracy": [
+            0.275,
+            0.5945945945945946
+          ],
+          "always.accuracy": [
+            0.7837837837837838,
+            0.975
+          ],
+          "top1_acc": [
+            0.7837837837837838,
+            0.975
+          ],
+          "top5_acc": [
+            0.8205128205128205,
+            1.0
+          ],
+          "top10_acc": [
+            0.8205128205128205,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "system_wrong_links": [
+    {
+      "ontology": "RxNorm",
+      "form": "protein",
+      "freq": 4,
+      "pred": "8859",
+      "gold": []
+    },
+    {
+      "ontology": "ICD-10",
+      "form": "chấn động",
+      "freq": 1,
+      "pred": "S06.0",
+      "gold": []
+    },
+    {
+      "ontology": "RxNorm",
+      "form": "carbohydrate",
+      "freq": 1,
+      "pred": "2028",
+      "gold": []
+    }
+  ]
+}

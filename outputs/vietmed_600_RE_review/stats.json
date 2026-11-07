@@ -1,0 +1,12 @@
+{
+  "samples": 600,
+  "files": 6,
+  "relations": {
+    "treated_by_procedure": 17,
+    "NO_RELATION": 137,
+    "CHUA_RO": 224,
+    "located_at": 43,
+    "treated_by": 2
+  },
+  "samples_with_pairs": 157
+}

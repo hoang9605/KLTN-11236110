@@ -1,0 +1,40 @@
+{
+  "source": "leduckhai/VietMed-NER",
+  "unit": "unique normalized surface form per label",
+  "splits": {
+    "dev": {
+      "hf_split": "validation",
+      "source": {
+        "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-validation.arrow",
+        "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+      },
+      "CONDITION": {
+        "unique_forms": 193,
+        "mentions": 746
+      },
+      "DRUG": {
+        "unique_forms": 128,
+        "mentions": 358
+      }
+    },
+    "test": {
+      "hf_split": "test",
+      "source": {
+        "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-test.arrow",
+        "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+      },
+      "CONDITION": {
+        "unique_forms": 312,
+        "mentions": 1467
+      },
+      "DRUG": {
+        "unique_forms": 128,
+        "mentions": 727
+      }
+    }
+  },
+  "dev_test_form_overlap": {
+    "CONDITION": 77,
+    "DRUG": 33
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "samples": 600,
+  "mapping": {
+    "DISEASESYMTOM": "CONDITION",
+    "DRUGCHEMICAL": "DRUG",
+    "PREVENTIVEMED": "DRUG",
+    "ORGAN": "BODY_PART",
+    "DIAGNOSTICS": "TEST",
+    "SURGERY": "PROCEDURE",
+    "MEDDEVICETECHNIQUE": "PROCEDURE",
+    "TREATMENT": "PROCEDURE",
+    "UNITCALIBRATOR": "DOSAGE"
+  },
+  "mapping_source": "ner/config.py",
+  "mapping_config_sha256": "52d53a952005f0e22e249fcb3660e49984c546662647e84b9680e714202b2f50",
+  "source_jsonl_sha256": "9f9bcdca22ecd34a018f780f0ecb38afa916791312151a75652b0b0fa329b96b",
+  "output_jsonl_sha256": "8847102662d921e55bc6658fab37740659494eae2cf1e28bcab28730be09b6ed",
+  "outside_label": "O",
+  "non_target_entities": "O",
+  "bio_prefixes_preserved": true,
+  "postprocessing_applied": false,
+  "relation_annotations_added": false,
+  "source_fields": {
+    "labels": "source_labels",
+    "tags": "source_tag_ids"
+  },
+  "target_field": "labels",
+  "token_label_counts": {
+    "B-BODY_PART": 242,
+    "B-CONDITION": 422,
+    "B-DOSAGE": 107,
+    "B-DRUG": 180,
+    "B-PROCEDURE": 166,
+    "B-TEST": 41,
+    "I-BODY_PART": 166,
+    "I-CONDITION": 534,
+    "I-DOSAGE": 126,
+    "I-DRUG": 176,
+    "I-PROCEDURE": 197,
+    "I-TEST": 41,
+    "O": 12075
+  }
+}

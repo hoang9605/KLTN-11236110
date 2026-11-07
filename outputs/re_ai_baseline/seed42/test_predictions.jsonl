@@ -1,0 +1,14 @@
+{"sample_id": "VM600-157", "head": "E3", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.49851405343470534, "status": "predicted"}}
+{"sample_id": "VM600-157", "head": "E3", "tail": "E4", "gold_ai_label": "located_at", "prediction": {"label": "located_at", "score": 0.5018669202452108, "status": "predicted"}}
+{"sample_id": "VM600-467", "head": "E3", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.4922834370390329, "status": "predicted"}}
+{"sample_id": "VM600-147", "head": "E3", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.3711654010734918, "status": "predicted"}}
+{"sample_id": "VM600-319", "head": "E3", "tail": "E2", "gold_ai_label": "located_at", "prediction": {"label": "NO_RELATION", "score": 0.4722351686451472, "status": "predicted"}}
+{"sample_id": "VM600-206", "head": "E2", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "treated_by_procedure", "score": 0.5238532237860292, "status": "predicted"}}
+{"sample_id": "VM600-544", "head": "E2", "tail": "E1", "gold_ai_label": "treated_by_procedure", "prediction": {"label": "treated_by_procedure", "score": 0.6416480787811059, "status": "predicted"}}
+{"sample_id": "VM600-491", "head": "E2", "tail": "E1", "gold_ai_label": "treated_by_procedure", "prediction": {"label": "treated_by_procedure", "score": 0.6869812202649731, "status": "predicted"}}
+{"sample_id": "VM600-030", "head": "E1", "tail": "E2", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.35269768134767554, "status": "predicted"}}
+{"sample_id": "VM600-039", "head": "E2", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.4073707448855367, "status": "predicted"}}
+{"sample_id": "VM600-527", "head": "E4", "tail": "E2", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.4872841888923926, "status": "predicted"}}
+{"sample_id": "VM600-375", "head": "E3", "tail": "E4", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.4031126898085475, "status": "predicted"}}
+{"sample_id": "VM600-375", "head": "E3", "tail": "E2", "gold_ai_label": "located_at", "prediction": {"label": "NO_RELATION", "score": 0.4541052014052441, "status": "predicted"}}
+{"sample_id": "VM600-273", "head": "E3", "tail": "E1", "gold_ai_label": "NO_RELATION", "prediction": {"label": "NO_RELATION", "score": 0.3880113298202241, "status": "predicted"}}

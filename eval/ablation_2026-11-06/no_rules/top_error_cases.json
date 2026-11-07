@@ -1,0 +1,1635 @@
+[
+  {
+    "index": 254,
+    "error_count": 10,
+    "text": "do rối loạn chức năng của buồng trứng hoặc là do viêm nội mạc tử cung hoặc quá sản nội mạc tử cung hoặc là polyp buồng",
+    "gold_entities": [
+      {
+        "label": "CONDITION",
+        "start_char": 3,
+        "end_char": 21,
+        "surface_text": "rối loạn chức năng"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 26,
+        "end_char": 37,
+        "surface_text": "buồng trứng"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 49,
+        "end_char": 53,
+        "surface_text": "viêm"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 54,
+        "end_char": 69,
+        "surface_text": "nội mạc tử cung"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 75,
+        "end_char": 98,
+        "surface_text": "quá sản nội mạc tử cung"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 107,
+        "end_char": 112,
+        "surface_text": "polyp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "rối loạn",
+        "label": "CONDITION",
+        "start_char": 3,
+        "end_char": 11,
+        "confidence": 0.9971
+      },
+      {
+        "surface_text": "buồng trứng",
+        "label": "BODY_PART",
+        "start_char": 26,
+        "end_char": 37,
+        "confidence": 0.9966
+      },
+      {
+        "surface_text": "viêm",
+        "label": "CONDITION",
+        "start_char": 49,
+        "end_char": 53,
+        "confidence": 0.9959
+      },
+      {
+        "surface_text": "nội mạc",
+        "label": "BODY_PART",
+        "start_char": 54,
+        "end_char": 61,
+        "confidence": 0.9941
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 62,
+        "end_char": 69,
+        "confidence": 0.9961
+      },
+      {
+        "surface_text": "nội mạc",
+        "label": "BODY_PART",
+        "start_char": 83,
+        "end_char": 90,
+        "confidence": 0.9956
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 91,
+        "end_char": 98,
+        "confidence": 0.9963
+      },
+      {
+        "surface_text": "polyp",
+        "label": "CONDITION",
+        "start_char": 107,
+        "end_char": 112,
+        "confidence": 0.9495
+      }
+    ],
+    "error_summary": "Missed 4: [CONDITION] 'quá sản nội mạc tử cung', [CONDITION] 'rối loạn chức năng', [BODY_PART] 'polyp', [BODY_PART] 'nội mạc tử cung'; Spurious 6: [BODY_PART] 'tử cung', [CONDITION] 'polyp', [CONDITION] 'rối loạn', [BODY_PART] 'nội mạc', [BODY_PART] 'tử cung', [BODY_PART] 'nội mạc'"
+  },
+  {
+    "index": 159,
+    "error_count": 9,
+    "text": "ở đây cũng là nhân xơ đấy là nhân xơ trong trong cơ tử cung nhưng mà nó lắng lẫn vào buồng tử cung đây là nhân xơ",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 14,
+        "end_char": 21,
+        "surface_text": "nhân xơ"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 29,
+        "end_char": 36,
+        "surface_text": "nhân xơ"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 49,
+        "end_char": 59,
+        "surface_text": "cơ tử cung"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 85,
+        "end_char": 98,
+        "surface_text": "buồng tử cung"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 106,
+        "end_char": 113,
+        "surface_text": "nhân xơ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "nhân xơ",
+        "label": "DRUG",
+        "start_char": 14,
+        "end_char": 21,
+        "confidence": 0.9733
+      },
+      {
+        "surface_text": "nhân xơ",
+        "label": "DRUG",
+        "start_char": 29,
+        "end_char": 36,
+        "confidence": 0.9269
+      },
+      {
+        "surface_text": "cơ",
+        "label": "BODY_PART",
+        "start_char": 49,
+        "end_char": 51,
+        "confidence": 0.9961
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 52,
+        "end_char": 59,
+        "confidence": 0.9931
+      },
+      {
+        "surface_text": "buồng tử cung",
+        "label": "BODY_PART",
+        "start_char": 85,
+        "end_char": 98,
+        "confidence": 0.965
+      },
+      {
+        "surface_text": "nhân xơ",
+        "label": "DRUG",
+        "start_char": 106,
+        "end_char": 113,
+        "confidence": 0.7937
+      }
+    ],
+    "error_summary": "Missed 4: [BODY_PART] 'nhân xơ', [BODY_PART] 'cơ tử cung', [BODY_PART] 'nhân xơ', [BODY_PART] 'nhân xơ'; Spurious 5: [BODY_PART] 'cơ', [BODY_PART] 'tử cung', [DRUG] 'nhân xơ', [DRUG] 'nhân xơ', [DRUG] 'nhân xơ'"
+  },
+  {
+    "index": 172,
+    "error_count": 9,
+    "text": "nhân xơ tử cung ở thành thành sau của tử cung trong cơ tử cung nếu thấy trong cơ tử cung",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 7,
+        "surface_text": "nhân xơ"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 8,
+        "end_char": 15,
+        "surface_text": "tử cung"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 38,
+        "end_char": 45,
+        "surface_text": "tử cung"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 52,
+        "end_char": 62,
+        "surface_text": "cơ tử cung"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 78,
+        "end_char": 88,
+        "surface_text": "cơ tử cung"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "nhân xơ tử cung",
+        "label": "CONDITION",
+        "start_char": 0,
+        "end_char": 15,
+        "confidence": 0.9961
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 38,
+        "end_char": 45,
+        "confidence": 0.9964
+      },
+      {
+        "surface_text": "cơ",
+        "label": "BODY_PART",
+        "start_char": 52,
+        "end_char": 54,
+        "confidence": 0.9953
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 55,
+        "end_char": 62,
+        "confidence": 0.9867
+      },
+      {
+        "surface_text": "cơ",
+        "label": "BODY_PART",
+        "start_char": 78,
+        "end_char": 80,
+        "confidence": 0.996
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 81,
+        "end_char": 88,
+        "confidence": 0.9901
+      }
+    ],
+    "error_summary": "Missed 4: [BODY_PART] 'cơ tử cung', [BODY_PART] 'tử cung', [BODY_PART] 'nhân xơ', [BODY_PART] 'cơ tử cung'; Spurious 5: [BODY_PART] 'cơ', [BODY_PART] 'tử cung', [BODY_PART] 'cơ', [CONDITION] 'nhân xơ tử cung', [BODY_PART] 'tử cung'"
+  },
+  {
+    "index": 199,
+    "error_count": 9,
+    "text": "mình sẽ có một cái phương pháp mổ là mổ nội soi mổ nội soi để cắt nhiệt cho polyp này",
+    "gold_entities": [
+      {
+        "label": "PROCEDURE",
+        "start_char": 31,
+        "end_char": 33,
+        "surface_text": "mổ"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 37,
+        "end_char": 47,
+        "surface_text": "mổ nội soi"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 48,
+        "end_char": 58,
+        "surface_text": "mổ nội soi"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 62,
+        "end_char": 71,
+        "surface_text": "cắt nhiệt"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 76,
+        "end_char": 81,
+        "surface_text": "polyp"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "mổ",
+        "label": "PROCEDURE",
+        "start_char": 31,
+        "end_char": 33,
+        "confidence": 0.9822
+      },
+      {
+        "surface_text": "mổ",
+        "label": "PROCEDURE",
+        "start_char": 37,
+        "end_char": 39,
+        "confidence": 0.9878
+      },
+      {
+        "surface_text": "nội soi",
+        "label": "PROCEDURE",
+        "start_char": 40,
+        "end_char": 47,
+        "confidence": 0.9615
+      },
+      {
+        "surface_text": "mổ",
+        "label": "PROCEDURE",
+        "start_char": 48,
+        "end_char": 50,
+        "confidence": 0.9866
+      },
+      {
+        "surface_text": "nội soi",
+        "label": "PROCEDURE",
+        "start_char": 51,
+        "end_char": 58,
+        "confidence": 0.9726
+      },
+      {
+        "surface_text": "polyp",
+        "label": "CONDITION",
+        "start_char": 76,
+        "end_char": 81,
+        "confidence": 0.9755
+      }
+    ],
+    "error_summary": "Missed 4: [PROCEDURE] 'cắt nhiệt', [PROCEDURE] 'mổ nội soi', [PROCEDURE] 'mổ nội soi', [BODY_PART] 'polyp'; Spurious 5: [PROCEDURE] 'mổ', [PROCEDURE] 'nội soi', [PROCEDURE] 'mổ', [CONDITION] 'polyp', [PROCEDURE] 'nội soi'"
+  },
+  {
+    "index": 437,
+    "error_count": 9,
+    "text": "mật độ xương là gì mật độ xương là chất nền để mà chất khoáng là khó là canxi đó thứ hai nữa là các cặp vi mô xương là",
+    "gold_entities": [
+      {
+        "label": "DOSAGE",
+        "start_char": 0,
+        "end_char": 6,
+        "surface_text": "mật độ"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 7,
+        "end_char": 12,
+        "surface_text": "xương"
+      },
+      {
+        "label": "DOSAGE",
+        "start_char": 19,
+        "end_char": 25,
+        "surface_text": "mật độ"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 26,
+        "end_char": 31,
+        "surface_text": "xương"
+      },
+      {
+        "label": "DRUG",
+        "start_char": 35,
+        "end_char": 43,
+        "surface_text": "chất nền"
+      },
+      {
+        "label": "DRUG",
+        "start_char": 50,
+        "end_char": 61,
+        "surface_text": "chất khoáng"
+      },
+      {
+        "label": "DRUG",
+        "start_char": 72,
+        "end_char": 77,
+        "surface_text": "canxi"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 107,
+        "end_char": 109,
+        "surface_text": "mô"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 110,
+        "end_char": 115,
+        "surface_text": "xương"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "mật",
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 3,
+        "confidence": 0.9939
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 7,
+        "end_char": 12,
+        "confidence": 0.9686
+      },
+      {
+        "surface_text": "mật",
+        "label": "BODY_PART",
+        "start_char": 19,
+        "end_char": 22,
+        "confidence": 0.9914
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 26,
+        "end_char": 31,
+        "confidence": 0.9549
+      },
+      {
+        "surface_text": "chất",
+        "label": "DRUG",
+        "start_char": 35,
+        "end_char": 39,
+        "confidence": 0.5537
+      },
+      {
+        "surface_text": "chất khoáng",
+        "label": "DRUG",
+        "start_char": 50,
+        "end_char": 61,
+        "confidence": 0.992
+      },
+      {
+        "surface_text": "canxi",
+        "label": "DRUG",
+        "start_char": 72,
+        "end_char": 77,
+        "confidence": 0.995
+      },
+      {
+        "surface_text": "vi mô xương",
+        "label": "BODY_PART",
+        "start_char": 104,
+        "end_char": 115,
+        "confidence": 0.8503
+      }
+    ],
+    "error_summary": "Missed 5: [DRUG] 'chất nền', [BODY_PART] 'mô', [DOSAGE] 'mật độ', [BODY_PART] 'xương', [DOSAGE] 'mật độ'; Spurious 4: [BODY_PART] 'vi mô xương', [DRUG] 'chất', [BODY_PART] 'mật', [BODY_PART] 'mật'"
+  },
+  {
+    "index": 832,
+    "error_count": 9,
+    "text": "thương niêm mạc đại tràng còn hội chứng ruột kích thích là gì hội chứng ruột kích thích là cái tình trạng rối loạn",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 7,
+        "end_char": 25,
+        "surface_text": "niêm mạc đại tràng"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 30,
+        "end_char": 55,
+        "surface_text": "hội chứng ruột kích thích"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 62,
+        "end_char": 87,
+        "surface_text": "hội chứng ruột kích thích"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 106,
+        "end_char": 114,
+        "surface_text": "rối loạn"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "niêm mạc",
+        "label": "BODY_PART",
+        "start_char": 7,
+        "end_char": 15,
+        "confidence": 0.996
+      },
+      {
+        "surface_text": "đại tràng",
+        "label": "BODY_PART",
+        "start_char": 16,
+        "end_char": 25,
+        "confidence": 0.9966
+      },
+      {
+        "surface_text": "hội chứng",
+        "label": "CONDITION",
+        "start_char": 30,
+        "end_char": 39,
+        "confidence": 0.9903
+      },
+      {
+        "surface_text": "ruột",
+        "label": "BODY_PART",
+        "start_char": 40,
+        "end_char": 44,
+        "confidence": 0.9694
+      },
+      {
+        "surface_text": "hội chứng",
+        "label": "CONDITION",
+        "start_char": 62,
+        "end_char": 71,
+        "confidence": 0.94
+      },
+      {
+        "surface_text": "ruột",
+        "label": "BODY_PART",
+        "start_char": 72,
+        "end_char": 76,
+        "confidence": 0.9932
+      },
+      {
+        "surface_text": "rối loạn",
+        "label": "CONDITION",
+        "start_char": 106,
+        "end_char": 114,
+        "confidence": 0.9971
+      }
+    ],
+    "error_summary": "Missed 3: [CONDITION] 'hội chứng ruột kích thích', [CONDITION] 'hội chứng ruột kích thích', [BODY_PART] 'niêm mạc đại tràng'; Spurious 6: [CONDITION] 'hội chứng', [BODY_PART] 'ruột', [BODY_PART] 'đại tràng', [BODY_PART] 'niêm mạc', [CONDITION] 'hội chứng', [BODY_PART] 'ruột'"
+  },
+  {
+    "index": 1866,
+    "error_count": 9,
+    "text": "như nãy giờ mình nói mà khi mà mình không trồng implant thì sẽ bị tiêu xương còn mức độ mà tiêu xương như thế nào thì",
+    "gold_entities": [
+      {
+        "label": "PROCEDURE",
+        "start_char": 42,
+        "end_char": 55,
+        "surface_text": "trồng implant"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 63,
+        "end_char": 70,
+        "surface_text": "bị tiêu"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 71,
+        "end_char": 76,
+        "surface_text": "xương"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 91,
+        "end_char": 101,
+        "surface_text": "tiêu xương"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "trồng",
+        "label": "PROCEDURE",
+        "start_char": 42,
+        "end_char": 47,
+        "confidence": 0.8108
+      },
+      {
+        "surface_text": "implant",
+        "label": "PROCEDURE",
+        "start_char": 48,
+        "end_char": 55,
+        "confidence": 0.8758
+      },
+      {
+        "surface_text": "tiêu xương",
+        "label": "CONDITION",
+        "start_char": 66,
+        "end_char": 76,
+        "confidence": 0.9634
+      },
+      {
+        "surface_text": "mức độ",
+        "label": "DOSAGE",
+        "start_char": 81,
+        "end_char": 87,
+        "confidence": 0.9953
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 96,
+        "end_char": 101,
+        "confidence": 0.9752
+      }
+    ],
+    "error_summary": "Missed 4: [CONDITION] 'tiêu xương', [BODY_PART] 'xương', [PROCEDURE] 'trồng implant', [CONDITION] 'bị tiêu'; Spurious 5: [BODY_PART] 'xương', [PROCEDURE] 'trồng', [CONDITION] 'tiêu xương', [PROCEDURE] 'implant', [DOSAGE] 'mức độ'"
+  },
+  {
+    "index": 18,
+    "error_count": 8,
+    "text": "những cái polyp nội mạc tử cung và những cái bệnh lý là tăng sản nội mạc",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 10,
+        "end_char": 31,
+        "surface_text": "polyp nội mạc tử cung"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 56,
+        "end_char": 72,
+        "surface_text": "tăng sản nội mạc"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "polyp",
+        "label": "CONDITION",
+        "start_char": 10,
+        "end_char": 15,
+        "confidence": 0.9938
+      },
+      {
+        "surface_text": "nội mạc",
+        "label": "BODY_PART",
+        "start_char": 16,
+        "end_char": 23,
+        "confidence": 0.9904
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 24,
+        "end_char": 31,
+        "confidence": 0.9955
+      },
+      {
+        "surface_text": "tăng sản",
+        "label": "CONDITION",
+        "start_char": 56,
+        "end_char": 64,
+        "confidence": 0.997
+      },
+      {
+        "surface_text": "nội",
+        "label": "BODY_PART",
+        "start_char": 65,
+        "end_char": 68,
+        "confidence": 0.7983
+      },
+      {
+        "surface_text": "mạc",
+        "label": "CONDITION",
+        "start_char": 69,
+        "end_char": 72,
+        "confidence": 0.8203
+      }
+    ],
+    "error_summary": "Missed 2: [CONDITION] 'tăng sản nội mạc', [BODY_PART] 'polyp nội mạc tử cung'; Spurious 6: [CONDITION] 'polyp', [CONDITION] 'tăng sản', [BODY_PART] 'nội', [BODY_PART] 'tử cung', [BODY_PART] 'nội mạc', [CONDITION] 'mạc'"
+  },
+  {
+    "index": 386,
+    "error_count": 8,
+    "text": "xương đốt sống này gãy xương cổ tay nè gãy xương khớp háng nè gãy cổ xương đùi này để nhập viện quá điều trị là một",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 14,
+        "surface_text": "xương đốt sống"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 19,
+        "end_char": 35,
+        "surface_text": "gãy xương cổ tay"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 39,
+        "end_char": 58,
+        "surface_text": "gãy xương khớp háng"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 62,
+        "end_char": 78,
+        "surface_text": "gãy cổ xương đùi"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 86,
+        "end_char": 95,
+        "surface_text": "nhập viện"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 100,
+        "end_char": 108,
+        "surface_text": "điều trị"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 5,
+        "confidence": 0.9962
+      },
+      {
+        "surface_text": "gãy xương",
+        "label": "CONDITION",
+        "start_char": 19,
+        "end_char": 28,
+        "confidence": 0.9953
+      },
+      {
+        "surface_text": "cổ tay",
+        "label": "BODY_PART",
+        "start_char": 29,
+        "end_char": 35,
+        "confidence": 0.9944
+      },
+      {
+        "surface_text": "gãy xương",
+        "label": "CONDITION",
+        "start_char": 39,
+        "end_char": 48,
+        "confidence": 0.9957
+      },
+      {
+        "surface_text": "khớp háng",
+        "label": "BODY_PART",
+        "start_char": 49,
+        "end_char": 58,
+        "confidence": 0.5402
+      },
+      {
+        "surface_text": "gãy cổ xương đùi",
+        "label": "CONDITION",
+        "start_char": 62,
+        "end_char": 78,
+        "confidence": 0.7647
+      },
+      {
+        "surface_text": "nhập viện",
+        "label": "PROCEDURE",
+        "start_char": 86,
+        "end_char": 95,
+        "confidence": 0.985
+      },
+      {
+        "surface_text": "điều trị",
+        "label": "PROCEDURE",
+        "start_char": 100,
+        "end_char": 108,
+        "confidence": 0.9956
+      }
+    ],
+    "error_summary": "Missed 3: [CONDITION] 'gãy xương cổ tay', [BODY_PART] 'xương đốt sống', [CONDITION] 'gãy xương khớp háng'; Spurious 5: [CONDITION] 'gãy xương', [BODY_PART] 'xương', [CONDITION] 'gãy xương', [BODY_PART] 'khớp háng', [BODY_PART] 'cổ tay'"
+  },
+  {
+    "index": 1612,
+    "error_count": 8,
+    "text": "xương hàm là như là cái xương nền thì trên xương hàm nó sẽ có cái phần xương gọi là xương ổ răng xương ổ răng nó sẽ",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 9,
+        "surface_text": "xương hàm"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 20,
+        "end_char": 29,
+        "surface_text": "cái xương"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 43,
+        "end_char": 52,
+        "surface_text": "xương hàm"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 71,
+        "end_char": 76,
+        "surface_text": "xương"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 84,
+        "end_char": 96,
+        "surface_text": "xương ổ răng"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 97,
+        "end_char": 109,
+        "surface_text": "xương ổ răng"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "xương hàm",
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 9,
+        "confidence": 0.9897
+      },
+      {
+        "surface_text": "xương nền",
+        "label": "BODY_PART",
+        "start_char": 24,
+        "end_char": 33,
+        "confidence": 0.9949
+      },
+      {
+        "surface_text": "xương hàm",
+        "label": "BODY_PART",
+        "start_char": 43,
+        "end_char": 52,
+        "confidence": 0.9923
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 71,
+        "end_char": 76,
+        "confidence": 0.9885
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 84,
+        "end_char": 89,
+        "confidence": 0.9961
+      },
+      {
+        "surface_text": "ổ răng",
+        "label": "BODY_PART",
+        "start_char": 90,
+        "end_char": 96,
+        "confidence": 0.9844
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 97,
+        "end_char": 102,
+        "confidence": 0.9959
+      },
+      {
+        "surface_text": "ổ răng",
+        "label": "BODY_PART",
+        "start_char": 103,
+        "end_char": 109,
+        "confidence": 0.9782
+      }
+    ],
+    "error_summary": "Missed 3: [BODY_PART] 'xương ổ răng', [BODY_PART] 'xương ổ răng', [BODY_PART] 'cái xương'; Spurious 5: [BODY_PART] 'ổ răng', [BODY_PART] 'xương nền', [BODY_PART] 'xương', [BODY_PART] 'ổ răng', [BODY_PART] 'xương'"
+  },
+  {
+    "index": 1616,
+    "error_count": 8,
+    "text": "chúng ta thấy là có phần tiêu cái xương ổ răng tức là những cái bệnh lý mà ảnh hưởng đến cái phần răng phần nha chu làm",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 30,
+        "end_char": 39,
+        "surface_text": "cái xương"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 42,
+        "end_char": 46,
+        "surface_text": "răng"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 98,
+        "end_char": 102,
+        "surface_text": "răng"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 108,
+        "end_char": 115,
+        "surface_text": "nha chu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 34,
+        "end_char": 39,
+        "confidence": 0.9926
+      },
+      {
+        "surface_text": "ổ răng",
+        "label": "BODY_PART",
+        "start_char": 40,
+        "end_char": 46,
+        "confidence": 0.9913
+      },
+      {
+        "surface_text": "bệnh lý",
+        "label": "CONDITION",
+        "start_char": 64,
+        "end_char": 71,
+        "confidence": 0.9972
+      },
+      {
+        "surface_text": "răng",
+        "label": "BODY_PART",
+        "start_char": 98,
+        "end_char": 102,
+        "confidence": 0.9967
+      },
+      {
+        "surface_text": "nha",
+        "label": "BODY_PART",
+        "start_char": 108,
+        "end_char": 111,
+        "confidence": 0.3652
+      },
+      {
+        "surface_text": "chu",
+        "label": "PROCEDURE",
+        "start_char": 112,
+        "end_char": 115,
+        "confidence": 0.4056
+      }
+    ],
+    "error_summary": "Missed 3: [BODY_PART] 'răng', [BODY_PART] 'cái xương', [CONDITION] 'nha chu'; Spurious 5: [CONDITION] 'bệnh lý', [BODY_PART] 'ổ răng', [BODY_PART] 'xương', [BODY_PART] 'nha', [PROCEDURE] 'chu'"
+  },
+  {
+    "index": 1623,
+    "error_count": 8,
+    "text": "tiêu xương hàm thứ nhất là bệnh lý mà nha chu làm tiêu cái xương xung quanh răng mà thứ hai là cái vấn đề là mất",
+    "gold_entities": [
+      {
+        "label": "CONDITION",
+        "start_char": 0,
+        "end_char": 14,
+        "surface_text": "tiêu xương hàm"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 38,
+        "end_char": 45,
+        "surface_text": "nha chu"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 55,
+        "end_char": 64,
+        "surface_text": "cái xương"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 76,
+        "end_char": 80,
+        "surface_text": "răng"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "xương hàm",
+        "label": "BODY_PART",
+        "start_char": 5,
+        "end_char": 14,
+        "confidence": 0.9708
+      },
+      {
+        "surface_text": "thứ nhất",
+        "label": "DOSAGE",
+        "start_char": 15,
+        "end_char": 23,
+        "confidence": 0.9949
+      },
+      {
+        "surface_text": "bệnh lý",
+        "label": "CONDITION",
+        "start_char": 27,
+        "end_char": 34,
+        "confidence": 0.9771
+      },
+      {
+        "surface_text": "nha chu",
+        "label": "PROCEDURE",
+        "start_char": 38,
+        "end_char": 45,
+        "confidence": 0.8813
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 59,
+        "end_char": 64,
+        "confidence": 0.9919
+      },
+      {
+        "surface_text": "răng",
+        "label": "BODY_PART",
+        "start_char": 76,
+        "end_char": 80,
+        "confidence": 0.9963
+      }
+    ],
+    "error_summary": "Missed 3: [BODY_PART] 'cái xương', [CONDITION] 'tiêu xương hàm', [CONDITION] 'nha chu'; Spurious 5: [PROCEDURE] 'nha chu', [BODY_PART] 'xương', [CONDITION] 'bệnh lý', [BODY_PART] 'xương hàm', [DOSAGE] 'thứ nhất'"
+  },
+  {
+    "index": 1629,
+    "error_count": 8,
+    "text": "đơn giản nhất đó là làm những cái răng giả thì cô chú nào mà đeo răng giả lâu ngày đó mình thấy những cái hàm giả nó",
+    "gold_entities": [
+      {
+        "label": "PROCEDURE",
+        "start_char": 34,
+        "end_char": 42,
+        "surface_text": "răng giả"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 61,
+        "end_char": 73,
+        "surface_text": "đeo răng giả"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 106,
+        "end_char": 113,
+        "surface_text": "hàm giả"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "răng giả",
+        "label": "BODY_PART",
+        "start_char": 34,
+        "end_char": 42,
+        "confidence": 0.6577
+      },
+      {
+        "surface_text": "đeo",
+        "label": "PROCEDURE",
+        "start_char": 61,
+        "end_char": 64,
+        "confidence": 0.7011
+      },
+      {
+        "surface_text": "răng",
+        "label": "BODY_PART",
+        "start_char": 65,
+        "end_char": 69,
+        "confidence": 0.9863
+      },
+      {
+        "surface_text": "giả",
+        "label": "PROCEDURE",
+        "start_char": 70,
+        "end_char": 73,
+        "confidence": 0.8978
+      },
+      {
+        "surface_text": "hàm giả",
+        "label": "BODY_PART",
+        "start_char": 106,
+        "end_char": 113,
+        "confidence": 0.8054
+      }
+    ],
+    "error_summary": "Missed 3: [PROCEDURE] 'đeo răng giả', [PROCEDURE] 'răng giả', [PROCEDURE] 'hàm giả'; Spurious 5: [PROCEDURE] 'đeo', [BODY_PART] 'hàm giả', [PROCEDURE] 'giả', [BODY_PART] 'răng', [BODY_PART] 'răng giả'"
+  },
+  {
+    "index": 1746,
+    "error_count": 8,
+    "text": "cái xương lên đủ rồi đó thì cái đó là mới trồng trồng cái răng trên implant trong implant khi mà trồng implant xong thì",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 9,
+        "surface_text": "cái xương"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 48,
+        "end_char": 62,
+        "surface_text": "trồng cái răng"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 68,
+        "end_char": 75,
+        "surface_text": "implant"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 82,
+        "end_char": 89,
+        "surface_text": "implant"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 97,
+        "end_char": 110,
+        "surface_text": "trồng implant"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 4,
+        "end_char": 9,
+        "confidence": 0.9955
+      },
+      {
+        "surface_text": "trồng trồng",
+        "label": "PROCEDURE",
+        "start_char": 42,
+        "end_char": 53,
+        "confidence": 0.4796
+      },
+      {
+        "surface_text": "răng",
+        "label": "PROCEDURE",
+        "start_char": 58,
+        "end_char": 62,
+        "confidence": 0.2925
+      },
+      {
+        "surface_text": "implant",
+        "label": "PROCEDURE",
+        "start_char": 68,
+        "end_char": 75,
+        "confidence": 0.9771
+      },
+      {
+        "surface_text": "implant",
+        "label": "PROCEDURE",
+        "start_char": 82,
+        "end_char": 89,
+        "confidence": 0.9756
+      },
+      {
+        "surface_text": "trồng",
+        "label": "PROCEDURE",
+        "start_char": 97,
+        "end_char": 102,
+        "confidence": 0.8651
+      },
+      {
+        "surface_text": "implant",
+        "label": "PROCEDURE",
+        "start_char": 103,
+        "end_char": 110,
+        "confidence": 0.9691
+      }
+    ],
+    "error_summary": "Missed 3: [PROCEDURE] 'trồng implant', [PROCEDURE] 'trồng cái răng', [BODY_PART] 'cái xương'; Spurious 5: [BODY_PART] 'xương', [PROCEDURE] 'trồng trồng', [PROCEDURE] 'trồng', [PROCEDURE] 'implant', [PROCEDURE] 'răng'"
+  },
+  {
+    "index": 1854,
+    "error_count": 8,
+    "text": "thêm một điều nữa là cô mang hàm giả thì mang cái hàm tháo lắp mà đè trên cái phần xương mà cái chỗ mất răng á thì",
+    "gold_entities": [
+      {
+        "label": "PROCEDURE",
+        "start_char": 29,
+        "end_char": 36,
+        "surface_text": "hàm giả"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 50,
+        "end_char": 62,
+        "surface_text": "hàm tháo lắp"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 83,
+        "end_char": 88,
+        "surface_text": "xương"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 100,
+        "end_char": 108,
+        "surface_text": "mất răng"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "hàm",
+        "label": "BODY_PART",
+        "start_char": 29,
+        "end_char": 32,
+        "confidence": 0.9899
+      },
+      {
+        "surface_text": "giả",
+        "label": "PROCEDURE",
+        "start_char": 33,
+        "end_char": 36,
+        "confidence": 0.4569
+      },
+      {
+        "surface_text": "hàm",
+        "label": "BODY_PART",
+        "start_char": 50,
+        "end_char": 53,
+        "confidence": 0.9954
+      },
+      {
+        "surface_text": "xương",
+        "label": "BODY_PART",
+        "start_char": 83,
+        "end_char": 88,
+        "confidence": 0.9844
+      },
+      {
+        "surface_text": "mất",
+        "label": "CONDITION",
+        "start_char": 100,
+        "end_char": 103,
+        "confidence": 0.735
+      },
+      {
+        "surface_text": "răng",
+        "label": "BODY_PART",
+        "start_char": 104,
+        "end_char": 108,
+        "confidence": 0.9668
+      }
+    ],
+    "error_summary": "Missed 3: [CONDITION] 'mất răng', [PROCEDURE] 'hàm giả', [PROCEDURE] 'hàm tháo lắp'; Spurious 5: [BODY_PART] 'răng', [PROCEDURE] 'giả', [BODY_PART] 'hàm', [BODY_PART] 'hàm', [CONDITION] 'mất'"
+  },
+  {
+    "index": 1929,
+    "error_count": 8,
+    "text": "cỡ bao lâu thì mới bị tiêu xương và mất xương cỡ bao mất răng cỡ bao lâu thì mới",
+    "gold_entities": [
+      {
+        "label": "CONDITION",
+        "start_char": 19,
+        "end_char": 26,
+        "surface_text": "bị tiêu"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 27,
+        "end_char": 32,
+        "surface_text": "xương"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 40,
+        "end_char": 45,
+        "surface_text": "xương"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 53,
+        "end_char": 61,
+        "surface_text": "mất răng"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "tiêu xương",
+        "label": "CONDITION",
+        "start_char": 22,
+        "end_char": 32,
+        "confidence": 0.9973
+      },
+      {
+        "surface_text": "mất xương",
+        "label": "CONDITION",
+        "start_char": 36,
+        "end_char": 45,
+        "confidence": 0.9971
+      },
+      {
+        "surface_text": "mất",
+        "label": "CONDITION",
+        "start_char": 53,
+        "end_char": 56,
+        "confidence": 0.6742
+      },
+      {
+        "surface_text": "răng",
+        "label": "BODY_PART",
+        "start_char": 57,
+        "end_char": 61,
+        "confidence": 0.8994
+      }
+    ],
+    "error_summary": "Missed 4: [BODY_PART] 'xương', [BODY_PART] 'xương', [CONDITION] 'bị tiêu', [CONDITION] 'mất răng'; Spurious 4: [BODY_PART] 'răng', [CONDITION] 'mất', [CONDITION] 'mất xương', [CONDITION] 'tiêu xương'"
+  },
+  {
+    "index": 2994,
+    "error_count": 8,
+    "text": "chỉ có nút ráy tai thôi nhưng mà đến mà mình không khám bằng nội soi hoặc khám bằng những chuyên khoa tai mũi họng thì",
+    "gold_entities": [
+      {
+        "label": "DRUG",
+        "start_char": 11,
+        "end_char": 18,
+        "surface_text": "ráy tai"
+      },
+      {
+        "label": "TEST",
+        "start_char": 51,
+        "end_char": 55,
+        "surface_text": "khám"
+      },
+      {
+        "label": "PROCEDURE",
+        "start_char": 61,
+        "end_char": 68,
+        "surface_text": "nội soi"
+      },
+      {
+        "label": "TEST",
+        "start_char": 74,
+        "end_char": 78,
+        "surface_text": "khám"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 102,
+        "end_char": 105,
+        "surface_text": "tai"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 106,
+        "end_char": 109,
+        "surface_text": "mũi"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 110,
+        "end_char": 114,
+        "surface_text": "họng"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "tai",
+        "label": "BODY_PART",
+        "start_char": 15,
+        "end_char": 18,
+        "confidence": 0.3488
+      },
+      {
+        "surface_text": "khám",
+        "label": "TEST",
+        "start_char": 51,
+        "end_char": 55,
+        "confidence": 0.9928
+      },
+      {
+        "surface_text": "nội",
+        "label": "TEST",
+        "start_char": 61,
+        "end_char": 64,
+        "confidence": 0.6328
+      },
+      {
+        "surface_text": "soi",
+        "label": "PROCEDURE",
+        "start_char": 65,
+        "end_char": 68,
+        "confidence": 0.4761
+      },
+      {
+        "surface_text": "khám",
+        "label": "TEST",
+        "start_char": 74,
+        "end_char": 78,
+        "confidence": 0.9929
+      },
+      {
+        "surface_text": "tai",
+        "label": "BODY_PART",
+        "start_char": 102,
+        "end_char": 105,
+        "confidence": 0.9963
+      },
+      {
+        "surface_text": "mũi họng",
+        "label": "BODY_PART",
+        "start_char": 106,
+        "end_char": 114,
+        "confidence": 0.6764
+      }
+    ],
+    "error_summary": "Missed 4: [DRUG] 'ráy tai', [PROCEDURE] 'nội soi', [BODY_PART] 'họng', [BODY_PART] 'mũi'; Spurious 4: [BODY_PART] 'tai', [TEST] 'nội', [BODY_PART] 'mũi họng', [PROCEDURE] 'soi'"
+  },
+  {
+    "index": 3490,
+    "error_count": 8,
+    "text": "trong một cơ sở y tế ở hà nội nguyễn thị thanh thảo sau khi trải qua một cuộc sốc điện do rối loạn thần kinh đã được kê đơn thuốc chống trầm cảm và supplement",
+    "gold_entities": [
+      {
+        "label": "PROCEDURE",
+        "start_char": 78,
+        "end_char": 86,
+        "surface_text": "sốc điện"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 90,
+        "end_char": 108,
+        "surface_text": "rối loạn thần kinh"
+      },
+      {
+        "label": "DRUG",
+        "start_char": 124,
+        "end_char": 144,
+        "surface_text": "thuốc chống trầm cảm"
+      },
+      {
+        "label": "DRUG",
+        "start_char": 148,
+        "end_char": 158,
+        "surface_text": "supplement"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "sốc",
+        "label": "PROCEDURE",
+        "start_char": 78,
+        "end_char": 81,
+        "confidence": 0.4538
+      },
+      {
+        "surface_text": "điện",
+        "label": "CONDITION",
+        "start_char": 82,
+        "end_char": 86,
+        "confidence": 0.5027
+      },
+      {
+        "surface_text": "rối loạn thần kinh",
+        "label": "CONDITION",
+        "start_char": 90,
+        "end_char": 108,
+        "confidence": 0.9929
+      },
+      {
+        "surface_text": "thuốc chống",
+        "label": "DRUG",
+        "start_char": 124,
+        "end_char": 135,
+        "confidence": 0.9478
+      },
+      {
+        "surface_text": "trầm",
+        "label": "CONDITION",
+        "start_char": 136,
+        "end_char": 140,
+        "confidence": 0.6915
+      },
+      {
+        "surface_text": "cảm",
+        "label": "DRUG",
+        "start_char": 141,
+        "end_char": 144,
+        "confidence": 0.8035
+      }
+    ],
+    "error_summary": "Missed 3: [PROCEDURE] 'sốc điện', [DRUG] 'thuốc chống trầm cảm', [DRUG] 'supplement'; Spurious 5: [CONDITION] 'điện', [DRUG] 'cảm', [DRUG] 'thuốc chống', [PROCEDURE] 'sốc', [CONDITION] 'trầm'"
+  },
+  {
+    "index": 12,
+    "error_count": 7,
+    "text": "không có kinh hoặc là là ra máu âm đạo kéo dài và một số nguyên nhân thực thể tức là có những bệnh lý thực thực thực",
+    "gold_entities": [
+      {
+        "label": "CONDITION",
+        "start_char": 0,
+        "end_char": 13,
+        "surface_text": "không có kinh"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 25,
+        "end_char": 38,
+        "surface_text": "ra máu âm đạo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "không",
+        "label": "CONDITION",
+        "start_char": 0,
+        "end_char": 5,
+        "confidence": 0.7939
+      },
+      {
+        "surface_text": "có kinh",
+        "label": "CONDITION",
+        "start_char": 6,
+        "end_char": 13,
+        "confidence": 0.9892
+      },
+      {
+        "surface_text": "ra máu",
+        "label": "CONDITION",
+        "start_char": 25,
+        "end_char": 31,
+        "confidence": 0.9963
+      },
+      {
+        "surface_text": "âm đạo",
+        "label": "BODY_PART",
+        "start_char": 32,
+        "end_char": 38,
+        "confidence": 0.9943
+      },
+      {
+        "surface_text": "bệnh lý",
+        "label": "CONDITION",
+        "start_char": 94,
+        "end_char": 101,
+        "confidence": 0.9972
+      }
+    ],
+    "error_summary": "Missed 2: [CONDITION] 'ra máu âm đạo', [CONDITION] 'không có kinh'; Spurious 5: [BODY_PART] 'âm đạo', [CONDITION] 'ra máu', [CONDITION] 'bệnh lý', [CONDITION] 'có kinh', [CONDITION] 'không'"
+  },
+  {
+    "index": 164,
+    "error_count": 7,
+    "text": "nhân xơ trong tử cung nhân xơ dưới thanh mạc có cuốn và đây là nhân xơ dưới thanh",
+    "gold_entities": [
+      {
+        "label": "BODY_PART",
+        "start_char": 0,
+        "end_char": 7,
+        "surface_text": "nhân xơ"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 14,
+        "end_char": 21,
+        "surface_text": "tử cung"
+      },
+      {
+        "label": "CONDITION",
+        "start_char": 22,
+        "end_char": 44,
+        "surface_text": "nhân xơ dưới thanh mạc"
+      },
+      {
+        "label": "BODY_PART",
+        "start_char": 63,
+        "end_char": 70,
+        "surface_text": "nhân xơ"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "surface_text": "nhân xơ",
+        "label": "CONDITION",
+        "start_char": 0,
+        "end_char": 7,
+        "confidence": 0.9822
+      },
+      {
+        "surface_text": "tử cung",
+        "label": "BODY_PART",
+        "start_char": 14,
+        "end_char": 21,
+        "confidence": 0.9964
+      },
+      {
+        "surface_text": "nhân xơ",
+        "label": "CONDITION",
+        "start_char": 22,
+        "end_char": 29,
+        "confidence": 0.969
+      },
+      {
+        "surface_text": "thanh mạc",
+        "label": "BODY_PART",
+        "start_char": 35,
+        "end_char": 44,
+        "confidence": 0.9963
+      },
+      {
+        "surface_text": "nhân xơ",
+        "label": "CONDITION",
+        "start_char": 63,
+        "end_char": 70,
+        "confidence": 0.9827
+      }
+    ],
+    "error_summary": "Missed 3: [BODY_PART] 'nhân xơ', [BODY_PART] 'nhân xơ', [CONDITION] 'nhân xơ dưới thanh mạc'; Spurious 4: [CONDITION] 'nhân xơ', [BODY_PART] 'thanh mạc', [CONDITION] 'nhân xơ', [CONDITION] 'nhân xơ'"
+  }
+]

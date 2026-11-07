@@ -24,6 +24,11 @@ PROJECT_ROOT = MODULE_ROOT.parent
 DEFAULT_CATALOG_EXCEL = PROJECT_ROOT / "ICD-10" / "phu-lu-c-1-danh-mu-c-icd-10-thay-the-dmdc-phie-n-ba-n-6.xlsx"
 DEFAULT_CACHE_PATH = MODULE_ROOT / "data" / "icd10_cache.pkl"
 DEFAULT_SYNONYMS_PATH = MODULE_ROOT / "data" / "icd10_synonyms.json"
+# Catalog words that do not change which disease a name denotes (function words, ICD qualifiers).
+FUZZY_FILLER_WORDS = frozenset(
+    "bệnh lý chứng của và do ở các những trong không xác định đặc hiệu khác chưa phân loại nơi"
+    " cấp mạn mãn tính nguyên phát vô căn".split()
+)
 
 
 def normalize_vietnamese_text(text: str) -> str:
@@ -34,6 +39,12 @@ def normalize_vietnamese_text(text: str) -> str:
     text = re.sub(r"[,\.;:\-\(\)\[\]/\"\'\?\!\*]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def _strip_accents(word: str) -> str:
+    """Remove Vietnamese diacritics ('huyết' -> 'huyet') for typo-tolerant word comparison."""
+    decomposed = unicodedata.normalize("NFD", word.replace("đ", "d"))
+    return "".join(ch for ch in decomposed if unicodedata.category(ch) != "Mn")
 
 
 class ICD10Normalizer(BaseNormalizer):
@@ -287,6 +298,55 @@ class ICD10Normalizer(BaseNormalizer):
         # 4. Strict no-guess fallback
         return None
 
+    def _retrieval_index(self):
+        """Lazily built TF-IDF index (character 2-4-grams within words) over catalog names
+        plus synonym-dictionary aliases. Chosen on the dev split over rapidfuzz WRatio,
+        token_set_ratio and word n-grams (retrieval-only Top-10 0.64 vs 0.35 for WRatio)."""
+        if getattr(self, "_tfidf", None) is None:
+            from sklearn.feature_extraction.text import TfidfVectorizer
+
+            texts = list(self.catalog_names)
+            entries = list(self.catalog_entries)
+            for alias, info in self.direct_aliases.items():
+                code = info.get("code")
+                if code in self.code_map:
+                    texts.append(alias)
+                    entries.append(self.code_map[code])
+            vec = TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 4), sublinear_tf=True)
+            self._tfidf = (vec, vec.fit_transform(texts), entries)
+        return self._tfidf
+
+    def candidates(self, surface_text: str, k: int = 10) -> List[NormalizedResult]:
+        """Ranked ICD-10 candidates: the `normalize` decision first (if any), then
+        catalog names ranked by TF-IDF character n-gram cosine similarity, without the
+        precision safeguards. One entry per code."""
+        clean_text = normalize_vietnamese_text(surface_text)
+        if not clean_text or k <= 0:
+            return []
+        out: List[NormalizedResult] = []
+        seen = set()
+        top = self.normalize(surface_text)
+        if top is not None:
+            out.append(top)
+            seen.add(top.code)
+        vec, matrix, entries = self._retrieval_index()
+        scores = (matrix @ vec.transform([clean_text]).T).toarray().ravel()
+        for index in scores.argsort()[::-1][: k * 4]:
+            if len(out) >= k or scores[index] <= 0:
+                break
+            entry = entries[index]
+            if entry["code"] in seen:
+                continue
+            seen.add(entry["code"])
+            out.append(NormalizedResult(
+                ontology="ICD-10",
+                code=entry["code"],
+                label_standard=entry["name"],
+                match_method="retrieval",
+                match_score=float(scores[index]),
+            ))
+        return out[:k]
+
     def _fuzzy_search(self, clean_text: str) -> Optional[Tuple[str, str, float]]:
         """Perform rapidfuzz token_set_ratio matching with safety validations."""
         cutoff = self.fuzz_threshold * 100.0
@@ -318,6 +378,35 @@ class ICD10Normalizer(BaseNormalizer):
         if len(query_tokens) <= 3 and len(cand_tokens) <= 3:
             jaccard = len(query_tokens & cand_tokens) / len(query_tokens | cand_tokens)
             if jaccard < 0.40:
+                return None
+
+        # Safeguard: the candidate's head word must occur in the query. token_set_ratio scores
+        # 100 whenever one token set contains the other, so 'huyết áp cao' matched 'đo huyết áp'
+        # (Z01.3) and 'đa xơ cứng' matched 'gan xơ cứng' (K74.1). Vietnamese disease names
+        # put the head first; leading generic words are skipped. ratio >= 80 tolerates typos.
+        cand_words = best_cand_name.split()
+        while cand_words and cand_words[0] in ("bệnh", "lý", "chứng"):
+            cand_words = cand_words[1:]
+        if cand_words and not any(fuzz.ratio(cand_words[0], q) >= 80 for q in clean_text.split()):
+            return None
+
+        # Safeguard: when one name is a strict token subset of the other and the shorter one
+        # has at most two tokens, the extra tokens decide the disease ('nhồi máu' vs 'nhồi máu
+        # lách' D73.5, 'đậu mùa bò' vs 'đậu mùa' B03). Reject instead of guessing.
+        shorter = min(query_tokens, cand_tokens, key=len)
+        longer = max(query_tokens, cand_tokens, key=len)
+        if shorter < longer and len(shorter) <= 2:
+            return None
+
+        # Safeguard: every content word of the candidate must appear in the query (ratio >= 80
+        # tolerates typos). A differing word is usually what defines the disease: 'rối loạn vận
+        # động' vs 'rối loạn vận động phân ly' (F44.4), 'viêm thần kinh tọa' vs 'viêm thần
+        # kinh thị' (H46). Function words and ICD qualifiers ('không xác định') are ignored;
+        # comparison ignores diacritics so tone typos ('huýet' for 'huyết') still match.
+        query_plain = [_strip_accents(q) for q in query_tokens]
+        for word in cand_tokens - FUZZY_FILLER_WORDS:
+            plain = _strip_accents(word)
+            if not any(fuzz.ratio(plain, q) >= 80 for q in query_plain):
                 return None
 
         # Safeguard: prevent qualifier-only false matches (e.g. 'không xác định', 'không đặc hiệu')

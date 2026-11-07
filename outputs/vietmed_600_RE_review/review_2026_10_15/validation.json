@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "samples": 600,
+  "input_docx_files": 6,
+  "input_texts_and_table_rows_match": true,
+  "original_text_preserved": true,
+  "valid_entity_offsets": true,
+  "valid_BIO": true,
+  "no_overlapping_entities": true,
+  "complete_eligible_candidate_pairs": true,
+  "valid_relation_direction": true,
+  "no_duplicate_relation_pairs": true,
+  "full_condition_span_policy_checks": true,
+  "prevention_not_mislabeled_treatment": true,
+  "duplicate_exact_text_groups": 0,
+  "semantic_accuracy_measured": false,
+  "human_verified_samples": 0,
+  "docx_rendering": "Unavailable: bundled renderer reported LibreOffice soffice.exe not found; no new DOCX released."
+}

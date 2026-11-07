@@ -1,0 +1,128 @@
+{
+  "AGE": {
+    "precision": 0.6680972818311874,
+    "recall": 0.7508038585209004,
+    "f1-score": 0.7070401211203634,
+    "support": 622
+  },
+  "DATETIME": {
+    "precision": 0.7702702702702703,
+    "recall": 0.7691154422788605,
+    "f1-score": 0.7696924231057765,
+    "support": 667
+  },
+  "DIAGNOSTICS": {
+    "precision": 0.6647398843930635,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.7131782945736433,
+    "support": 299
+  },
+  "DISEASESYMTOM": {
+    "precision": 0.632177033492823,
+    "recall": 0.7205180640763463,
+    "f1-score": 0.6734628862695126,
+    "support": 1467
+  },
+  "DRUGCHEMICAL": {
+    "precision": 0.8088050314465409,
+    "recall": 0.9069111424541608,
+    "f1-score": 0.8550531914893618,
+    "support": 709
+  },
+  "FOODDRINK": {
+    "precision": 0.7762711864406779,
+    "recall": 0.8773946360153256,
+    "f1-score": 0.8237410071942446,
+    "support": 261
+  },
+  "GENDER": {
+    "precision": 0.7413249211356467,
+    "recall": 0.8422939068100358,
+    "f1-score": 0.7885906040268456,
+    "support": 558
+  },
+  "LOCATION": {
+    "precision": 0.6860759493670886,
+    "recall": 0.8237082066869301,
+    "f1-score": 0.7486187845303867,
+    "support": 329
+  },
+  "MEDDEVICETECHNIQUE": {
+    "precision": 0.26992753623188404,
+    "recall": 0.2346456692913386,
+    "f1-score": 0.2510530749789385,
+    "support": 635
+  },
+  "OCCUPATION": {
+    "precision": 0.9288256227758007,
+    "recall": 0.9238938053097345,
+    "f1-score": 0.9263531499556343,
+    "support": 565
+  },
+  "ORGAN": {
+    "precision": 0.5641661500309981,
+    "recall": 0.7222222222222222,
+    "f1-score": 0.6334841628959276,
+    "support": 1260
+  },
+  "ORGANIZATION": {
+    "precision": 0.6545454545454545,
+    "recall": 0.5901639344262295,
+    "f1-score": 0.6206896551724138,
+    "support": 61
+  },
+  "PERSONALCARE": {
+    "precision": 0.20270270270270271,
+    "recall": 0.7894736842105263,
+    "f1-score": 0.3225806451612903,
+    "support": 95
+  },
+  "PREVENTIVEMED": {
+    "precision": 0.02610966057441253,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.04987531172069825,
+    "support": 18
+  },
+  "SURGERY": {
+    "precision": 0.4272300469483568,
+    "recall": 0.32971014492753625,
+    "f1-score": 0.37218813905930465,
+    "support": 276
+  },
+  "TRANSPORTATION": {
+    "precision": 0.88,
+    "recall": 0.8148148148148148,
+    "f1-score": 0.8461538461538461,
+    "support": 27
+  },
+  "TREATMENT": {
+    "precision": 0.5855072463768116,
+    "recall": 0.8706896551724138,
+    "f1-score": 0.7001733102253034,
+    "support": 232
+  },
+  "UNITCALIBRATOR": {
+    "precision": 0.3360655737704918,
+    "recall": 0.6381322957198443,
+    "f1-score": 0.44026845637583883,
+    "support": 257
+  },
+  "micro avg": {
+    "precision": 0.599624060150376,
+    "recall": 0.7269129287598944,
+    "f1-score": 0.657161444215548,
+    "support": 8338
+  },
+  "macro avg": {
+    "precision": 0.5901578640185673,
+    "recall": 0.718293211540197,
+    "f1-score": 0.6245665035560738,
+    "support": 8338
+  },
+  "weighted avg": {
+    "precision": 0.6358229065476166,
+    "recall": 0.7269129287598944,
+    "f1-score": 0.6732423798901498,
+    "support": 8338
+  }
+}

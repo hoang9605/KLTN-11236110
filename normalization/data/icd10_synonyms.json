@@ -130,14 +130,727 @@
       "code": "C61",
       "preferred_name": "U ác của tuyến tiền liệt",
       "note": "Ung thu tuyen tien liet"
-    }
-    ,
+    },
     "vàng da": {
       "code": "R17",
       "preferred_name": "Vàng da không xác định",
       "note": "Trieu chung vang da (jaundice) lam sang"
+    },
+    "huyết áp cao": {
+      "code": "I10",
+      "preferred_name": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+      "note": "Khau ngu cua tang huyet ap; truoc day fuzzy gan nham Z01.3 'Do huyet ap' (soat 05/11/2026)"
+    },
+    "huyết áp tăng cao": {
+      "code": "I10",
+      "preferred_name": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+      "note": "Khau ngu cua tang huyet ap"
+    },
+    "rối loạn mỡ máu": {
+      "code": "E78",
+      "preferred_name": "Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác",
+      "note": "Truoc day fuzzy gan nham D55 'Thieu mau do roi loan men' (soat 05/11/2026)"
+    },
+    "mỡ máu cao": {
+      "code": "E78.5",
+      "preferred_name": "Tăng lipid máu, không đặc hiệu",
+      "note": "Khau ngu cua tang lipid mau"
+    },
+    "đa xơ cứng": {
+      "code": "G35",
+      "preferred_name": "Xơ cứng rải rác",
+      "note": "Multiple sclerosis; truoc day fuzzy gan nham K74.1 'Gan xo cung' (soat 05/11/2026)"
+    },
+    "đậu mùa bò": {
+      "code": "B08.0",
+      "preferred_name": "Nhiễm orthopoxvirus khác",
+      "note": "Cowpox thuoc B08.0; truoc day fuzzy gan nham B03 'Dau mua' (soat 05/11/2026)"
+    },
+    "ung thư": {
+      "code": "C80.9",
+      "preferred_name": "U ác, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tế bào ung thư": {
+      "code": "C80.9",
+      "preferred_name": "U ác, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "huyết áp": {
+      "code": "I10",
+      "preferred_name": "Bệnh lý tăng huyết áp",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "béo phì": {
+      "code": "E66.9",
+      "preferred_name": "Béo phì, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "thừa cân": {
+      "code": "E66.9",
+      "preferred_name": "Béo phì, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "rung nhĩ": {
+      "code": "I48",
+      "preferred_name": "Rung nhĩ và cuồng nhĩ",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "parkinson": {
+      "code": "G20",
+      "preferred_name": "Bệnh Parkinson",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "chóng mặt": {
+      "code": "R42",
+      "preferred_name": "Hoa mắt và chóng mặt",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "hoa mắt": {
+      "code": "R42",
+      "preferred_name": "Hoa mắt và chóng mặt",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "xây xẩm": {
+      "code": "R42",
+      "preferred_name": "Hoa mắt và chóng mặt",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "choáng váng": {
+      "code": "R42",
+      "preferred_name": "Hoa mắt và chóng mặt",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "trầm cảm": {
+      "code": "F32.9",
+      "preferred_name": "Giai đoạn trầm cảm không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "mỡ máu": {
+      "code": "E78.5",
+      "preferred_name": "Tăng lipid máu, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "rối loạn lipid máu": {
+      "code": "E78.5",
+      "preferred_name": "Tăng lipid máu, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "stress": {
+      "code": "F43.9",
+      "preferred_name": "Phản ứng với stress trầm trọng, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "covid": {
+      "code": "U07.1",
+      "preferred_name": "COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính)",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "covid19": {
+      "code": "U07.1",
+      "preferred_name": "COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính)",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "sarscov2": {
+      "code": "U07.1",
+      "preferred_name": "COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính)",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "f0": {
+      "code": "U07.1",
+      "preferred_name": "COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính)",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tê bì": {
+      "code": "R20.2",
+      "preferred_name": "Dị cảm da",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tê bì kiến bò": {
+      "code": "R20.2",
+      "preferred_name": "Dị cảm da",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "mất ngủ": {
+      "code": "G47.0",
+      "preferred_name": "Rối loạn vào giấc và duy trì giấc ngủ [mất ngủ]",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "ngủ kém": {
+      "code": "G47.0",
+      "preferred_name": "Rối loạn vào giấc và duy trì giấc ngủ [mất ngủ]",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "mảng xơ vữa": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "xơ vữa": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "xơ vữa động mạch": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "vữa xơ động mạch": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "mảng xơ vữa động mạch": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "xơ vữa mạch": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tình trạng xơ vữa": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tình trạng xơ vữa mạch": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tình trạng xơ vữa động mạch": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh xơ vữa động mạch": {
+      "code": "I70.9",
+      "preferred_name": "Xơ vữa động mạch, toàn thể và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tác dụng phụ": {
+      "code": "T88.7",
+      "preferred_name": "Tác dụng phụ chưa xác định của thuốc hoặc dược phẩm",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "rụng tóc": {
+      "code": "L65.9",
+      "preferred_name": "Rụng tóc không sẹo, không điển hình",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "alzheimer": {
+      "code": "G30.9",
+      "preferred_name": "Bệnh Alzheimer không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "khối u": {
+      "code": "D48.9",
+      "preferred_name": "U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "lo âu": {
+      "code": "F41.9",
+      "preferred_name": "Rối loạn lo âu, không biệt định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tình trạng lo âu": {
+      "code": "F41.9",
+      "preferred_name": "Rối loạn lo âu, không biệt định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "chảy máu": {
+      "code": "R58",
+      "preferred_name": "Chảy máu chưa được phân loại ở nơi khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "xuất huyết": {
+      "code": "R58",
+      "preferred_name": "Chảy máu chưa được phân loại ở nơi khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "đau nhức": {
+      "code": "R52.9",
+      "preferred_name": "Đau, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "thiếu máu": {
+      "code": "D64.9",
+      "preferred_name": "Thiếu máu không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "sụt cân": {
+      "code": "R63.4",
+      "preferred_name": "Giảm cân bất thường",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "thiếu máu não thoáng qua": {
+      "code": "G45.9",
+      "preferred_name": "Cơn thiếu máu não thoáng qua không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "nhiễm trùng": {
+      "code": "B99",
+      "preferred_name": "Các bệnh nhiễm trùng khác và không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tai biến": {
+      "code": "I64",
+      "preferred_name": "Đột quị, không xác định do xuất huyết hay nhồi máu (Tai biến mạch máu não)",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "mệt mỏi": {
+      "code": "R53",
+      "preferred_name": "Khó ở và mệt mỏi",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "đau tức ngực": {
+      "code": "R07.4",
+      "preferred_name": "Đau ngực không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tức ngực": {
+      "code": "R07.4",
+      "preferred_name": "Đau ngực không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "đau ngực": {
+      "code": "R07.4",
+      "preferred_name": "Đau ngực không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "cúm a": {
+      "code": "J10.1",
+      "preferred_name": "Cảm cúm với biểu hiện hô hấp khác, virus cúm được định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "dịch cúm a": {
+      "code": "J10.1",
+      "preferred_name": "Cảm cúm với biểu hiện hô hấp khác, virus cúm được định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "cúm": {
+      "code": "J11.1",
+      "preferred_name": "Cúm với các biểu hiện hô hấp khác, virus không được định danh",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "cúm mùa": {
+      "code": "J11.1",
+      "preferred_name": "Cúm với các biểu hiện hô hấp khác, virus không được định danh",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "thiểu năng vành": {
+      "code": "I25.9",
+      "preferred_name": "Bệnh tim thiếu máu cục bộ mạn, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "cường giáp": {
+      "code": "E05.9",
+      "preferred_name": "Nhiễm độc giáp, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "suy giãn tĩnh mạch": {
+      "code": "I83.9",
+      "preferred_name": "Dãn tĩnh mạch chi dưới không loét không viêm",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "sa sút trí tuệ": {
+      "code": "F03",
+      "preferred_name": "Sa sút trí tuệ không biệt định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "hồi hộp trống ngực": {
+      "code": "R00.2",
+      "preferred_name": "Đánh trống ngực",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "rối loạn nhịp tim": {
+      "code": "I49.9",
+      "preferred_name": "Rối loạn nhịp tim, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "dị ứng": {
+      "code": "T78.4",
+      "preferred_name": "Dị ứng chưa xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "gãy xương": {
+      "code": "T14.2",
+      "preferred_name": "Gãy xương chưa xác định vùng cơ thể",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tăng sắc tố": {
+      "code": "L81.9",
+      "preferred_name": "Bệnh sắc tố không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "buồn nôn": {
+      "code": "R11",
+      "preferred_name": "Buồn nôn và nôn",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bạch hầu": {
+      "code": "A36.9",
+      "preferred_name": "Bệnh bạch hầu, không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh gút": {
+      "code": "M10.9",
+      "preferred_name": "Bệnh Gút không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "mụn": {
+      "code": "L70.9",
+      "preferred_name": "Trứng cá không điển hình",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "lú lẫn": {
+      "code": "R41.0",
+      "preferred_name": "Mất định hướng, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "loãng xương": {
+      "code": "M81.9",
+      "preferred_name": "Loãng xương không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tim đập nhanh": {
+      "code": "R00.0",
+      "preferred_name": "Nhịp nhanh tim, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "nhịp tim nhanh": {
+      "code": "R00.0",
+      "preferred_name": "Nhịp nhanh tim, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "chấn thương": {
+      "code": "T14.9",
+      "preferred_name": "Tổn thương, chưa xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "suy kiệt": {
+      "code": "R64",
+      "preferred_name": "Suy mòn",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "suy mòn": {
+      "code": "R64",
+      "preferred_name": "Suy mòn",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "chuột rút": {
+      "code": "R25.2",
+      "preferred_name": "Chuột rút và co cứng",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "hay quên": {
+      "code": "R41.3",
+      "preferred_name": "Các loại quên khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "nhớ nhớ quên quên": {
+      "code": "R41.3",
+      "preferred_name": "Các loại quên khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "suy giảm trí nhớ": {
+      "code": "R41.3",
+      "preferred_name": "Các loại quên khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "hen": {
+      "code": "J45.9",
+      "preferred_name": "Hen, không phân loại",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "suyễn": {
+      "code": "J45.9",
+      "preferred_name": "Hen, không phân loại",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tiền đình": {
+      "code": "H81.9",
+      "preferred_name": "Rối loạn chức năng tiền đình, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "run": {
+      "code": "R25.1",
+      "preferred_name": "Rung, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "triệu chứng run": {
+      "code": "R25.1",
+      "preferred_name": "Rung, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "suy thận": {
+      "code": "N19",
+      "preferred_name": "Suy thận không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "thoát vị đĩa đệm": {
+      "code": "M51.2",
+      "preferred_name": "Thoát vị đĩa đệm đốt sống đặc hiệu khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh phổi tắc nghẽn": {
+      "code": "J44.9",
+      "preferred_name": "Bệnh phổi tắc nghẽn mãn tính, không phân loại",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh mạch vành": {
+      "code": "I25.1",
+      "preferred_name": "Bệnh tim mạch do xơ vữa động mạch",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tự kỷ": {
+      "code": "F84.0",
+      "preferred_name": "Tính tự kỷ ở trẻ em",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "xơ gan": {
+      "code": "K74.6",
+      "preferred_name": "Xơ gan khác và không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "cảm lạnh": {
+      "code": "J00",
+      "preferred_name": "Viêm mũi họng cấp [cảm thường]",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "suy dinh dưỡng": {
+      "code": "E46",
+      "preferred_name": "Suy dinh dưỡng do thiếu protein năng lượng không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh đa xơ cứng": {
+      "code": "G35",
+      "preferred_name": "Xơ cứng rải rác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tăng động giảm chú ý": {
+      "code": "F90.0",
+      "preferred_name": "Rối loạn của hoạt động và chú ý",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "vẩy nến": {
+      "code": "L40.9",
+      "preferred_name": "Vảy nến, không điển hình",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "viêm da tiết bã": {
+      "code": "L21.9",
+      "preferred_name": "Viêm da dầu không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "viêm da tiết bã nhờn": {
+      "code": "L21.9",
+      "preferred_name": "Viêm da dầu không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "lao": {
+      "code": "A16.9",
+      "preferred_name": "Lao hô hấp không xác định và không đề cập đến việc xác nhận về vi khuẩn học và mô học",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "sốt rét": {
+      "code": "B54",
+      "preferred_name": "Sốt rét không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "hẹp mạch cảnh": {
+      "code": "I65.2",
+      "preferred_name": "Nghẽn tắc và hẹp động mạch cảnh",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "ăn không ngon": {
+      "code": "R63.0",
+      "preferred_name": "Chán ăn",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "viêm đa khớp": {
+      "code": "M13.0",
+      "preferred_name": "Viêm đa khớp không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "viêm xương khớp": {
+      "code": "M19.9",
+      "preferred_name": "Thoái hóa khớp không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "viêm đại tràng": {
+      "code": "K52.9",
+      "preferred_name": "Viêm dạ dày - ruột và đại tràng không nhiễm trùng, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "nhiễm nấm": {
+      "code": "B49",
+      "preferred_name": "Nhiễm nấm không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bạc tóc": {
+      "code": "L67.1",
+      "preferred_name": "Thay đổi màu tóc",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "thay đổi vị giác": {
+      "code": "R43.8",
+      "preferred_name": "Rối loạn không xác định và rối loạn khác về mùi và vị",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "loạn động": {
+      "code": "G24.9",
+      "preferred_name": "Loạn trương lực cơ, không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "nói khó": {
+      "code": "R47.1",
+      "preferred_name": "Rối loạn vận ngôn và mất vận ngôn",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "khó thở": {
+      "code": "R06.0",
+      "preferred_name": "Khó thở",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "viêm khớp": {
+      "code": "M13.9",
+      "preferred_name": "Viêm khớp không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh viêm khớp": {
+      "code": "M13.9",
+      "preferred_name": "Viêm khớp không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "xuất huyết não": {
+      "code": "I61.9",
+      "preferred_name": "Xuất huyết nội sọ, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tụt huyết áp": {
+      "code": "I95.9",
+      "preferred_name": "Hạ huyết áp, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh dại": {
+      "code": "A82.9",
+      "preferred_name": "Bệnh dại, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bị dại": {
+      "code": "A82.9",
+      "preferred_name": "Bệnh dại, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh dịch hạch": {
+      "code": "A20.9",
+      "preferred_name": "Dịch hạch không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "đầy bụng": {
+      "code": "R14",
+      "preferred_name": "Đầy hơi và các tình trạng liên quan",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "sạm da": {
+      "code": "L81.4",
+      "preferred_name": "Bệnh tăng sắc tố do melanin khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "nám": {
+      "code": "L81.1",
+      "preferred_name": "Rám má",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "sạm nám": {
+      "code": "L81.1",
+      "preferred_name": "Rám má",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "bệnh tự miễn": {
+      "code": "M35.9",
+      "preferred_name": "Các tổn thương hệ thống của mô liên kết, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "rối loạn vận động": {
+      "code": "R27.8",
+      "preferred_name": "Thiếu phối hợp không xác định khác",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "kích ứng": {
+      "code": "L30.9",
+      "preferred_name": "Viêm da, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "thoái hóa khớp": {
+      "code": "M19.9",
+      "preferred_name": "Thoái hóa khớp không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "khó ngủ": {
+      "code": "G47.0",
+      "preferred_name": "Rối loạn vào giấc và duy trì giấc ngủ [mất ngủ]",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "aizheimer": {
+      "code": "G30.9",
+      "preferred_name": "Bệnh Alzheimer không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tháo đường": {
+      "code": "E14",
+      "preferred_name": "Các thể loại đái tháo đường không xác định",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "tiêu chảy": {
+      "code": "A09.9",
+      "preferred_name": "Viêm dạ dày - ruột và viêm đại tràng khác không rõ nguyên nhân",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "da mụn": {
+      "code": "L70.9",
+      "preferred_name": "Trứng cá không điển hình",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "đau": {
+      "code": "R52.9",
+      "preferred_name": "Đau, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "liệt": {
+      "code": "G83.9",
+      "preferred_name": "Hội chứng liệt, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "sang chấn": {
+      "code": "F43.9",
+      "preferred_name": "Phản ứng với stress trầm trọng, không đặc hiệu",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "vết cắt": {
+      "code": "T14.1",
+      "preferred_name": "Vết thương hở chưa xác định vùng cơ thể",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "chèn ép thần kinh tọa": {
+      "code": "M54.3",
+      "preferred_name": "Đau dây thần kinh tọa",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "hội chứng áo choàng trắng": {
+      "code": "R03.0",
+      "preferred_name": "Số đo huyết áp tăng, không chẩn đoán tăng huyết áp",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
+    },
+    "chán nản": {
+      "code": "R45.3",
+      "preferred_name": "Vô đạo đức và vô cảm",
+      "note": "Bổ sung 2026-11-07 từ dạng gặp trong train/validation VietMed-NER"
     }
-
   },
   "patterns": [
     {
@@ -157,4 +870,3 @@
     "_comment": "Phan danh rieng cho nguoi dung tu do bo sung cac cap tu khoa -> ma ICD-10 hoac ten chuan sau nay"
   }
 }
-

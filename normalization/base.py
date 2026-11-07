@@ -6,7 +6,7 @@ ontology normalizers in the Vietnamese clinical NLP pipeline.
 
 from abc import ABC, abstractmethod
 from dataclasses import asdict, dataclass
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 
 @dataclass(frozen=True)
@@ -51,3 +51,13 @@ class BaseNormalizer(ABC):
             NormalizedResult if successfully normalized, or None if unmapped.
         """
         raise NotImplementedError
+
+    def candidates(self, surface_text: str, k: int = 10) -> List[NormalizedResult]:
+        """Return up to k ranked candidate concepts, one per code, best first.
+
+        Used for Top-k / Recall@k evaluation. `normalize` stays the system's single
+        decision (it may abstain); candidates never abstain unless nothing is retrievable.
+        The default wraps `normalize`.
+        """
+        res = self.normalize(surface_text)
+        return [res] if res is not None else []

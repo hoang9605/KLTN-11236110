@@ -14,6 +14,8 @@ Mọi micro-F1 kèm khoảng tin cậy 95% (bootstrap theo đoạn).
 # 1. Chọn ứng viên (đọc cache HF đã tải lúc chạy eval; hoặc tải bằng `datasets`)
 .venv\Scripts\python.exe -X utf8 scripts/golden_test/build_candidates.py
 
+# 2a. (Tuỳ chọn) Có nhãn AI tiền gán ai_labels.jsonl -> thêm --ai-labels data/golden_test/v1/ai_labels.jsonl
+#     Phiếu điền sẵn nhãn AI + lý do; import_workbook.py báo tỉ lệ người duyệt sửa nhãn AI.
 # 2. Tạo phiếu Excel: bản đầy đủ cho người duyệt A, 30 đoạn chồng lấp cho người duyệt B
 .venv\Scripts\python.exe -X utf8 scripts/golden_test/make_workbook.py --annotator A
 .venv\Scripts\python.exe -X utf8 scripts/golden_test/make_workbook.py --annotator B --only-double

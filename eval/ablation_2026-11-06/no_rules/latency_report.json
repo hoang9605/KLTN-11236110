@@ -1,0 +1,11 @@
+{
+  "total_samples": 3497,
+  "total_time_seconds": 296.94,
+  "mean_latency_ms": 84.75,
+  "median_latency_ms": 83.13,
+  "p90_latency_ms": 101.25,
+  "p95_latency_ms": 109.29,
+  "p99_latency_ms": 137.45,
+  "min_latency_ms": 41.9,
+  "max_latency_ms": 221.62
+}

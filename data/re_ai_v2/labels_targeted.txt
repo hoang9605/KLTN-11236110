@@ -1,0 +1,27 @@
+001 0 0
+002 1 1 0 # nhức mỏi chân tay; dùng thuốc giảm đau (dù chưa hiệu quả)
+003 0 0
+004 0 1 # đi lại chậm chạp cải thiện với levodopa
+005 ? # kẽm bổ sung (TPCN)
+006 0 0
+007 0 0 0 0
+008 0
+009 ? # đông trùng hạ thảo (đông y)
+010 ? ? # đầu 'bệnh lý' chung chung
+011 0 0 0
+012 1 # corticoid để điều trị bệnh gút
+013 0 0
+014 0 0
+015 0 0 ? # betadine xịt họng khi covid: không rõ
+016 0 0 # biến chứng do levodopa: nguyên nhân
+017 1 ? 1 # người rung nhĩ phải uống thuốc kháng đông; 'kháng đông' bị gán PROCEDURE
+018 0
+019 0 0 ? 0 # kga1 (sản phẩm hỗ trợ)
+020 ? # viên nang đông trùng hạ thảo
+021 0 0 0
+022 0
+023 0 0
+024 0 0 0 0
+025 0 0
+026 0
+027 1 1 # viêm phổi; corticoid hạn chế viêm phổi

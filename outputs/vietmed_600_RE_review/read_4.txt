@@ -1,0 +1,220 @@
+VM600-301 do parkinson đa xơ cứng trầm cảm và sa sút trí tuệ đến các rối loạn tự miễn
+E1=parkinson<CONDITION> E2=đa xơ cứng<CONDITION> E3=trầm cảm<CONDITION> E4=sa sút trí tuệ<CONDITION> E5=rối loạn<CONDITION>
+VM600-302 tưởng sử dụng để có thể là thực hiện sức khỏe cho chúng ta và đây cũng chính là một món quà thật là ý nghĩa dành tặng
+
+VM600-303 bệnh nhân mà đái tháo đường mà không có kèm bệnh lý béo phì và cũng đã có rất là
+E1=đái tháo đường<CONDITION> E2=bệnh lý<CONDITION> E3=béo phì<CONDITION>
+VM600-304 côn trùng cũng đang bị mầm bệnh đe dọa chẳng hạn như vi khuẩn và nấm như nhà
+E1=mầm bệnh<CONDITION> E2=vi khuẩn<CONDITION>
+VM600-305 nào tôi cũng phải vịn lúc nào tôi cũng phải bán bởi vì sao chẳng may mình sẩy chân chẳng may mình có những câu chuyện
+E1=chân<BODY_PART>
+VM600-306 trội của hoạt chất kga1 là được chiết xuất chuẩn hóa từ thảo dược đảm bảo tính an toàn cho người bệnh khi kga1 kết
+E1=hoạt chất<DRUG> E2=kga1<DRUG> E3=chiết xuất<PROCEDURE> E4=thảo dược<DRUG> E5=kga1<DRUG>
+VM600-307 huyết áp là bác vẫn bác trai vẫn thường xuyên duy trì này rồi là các tất cả các cái thuốc điều trị của các bác sĩ là bác
+E1=huyết áp<CONDITION> E2=thuốc<DRUG> E3=điều trị<PROCEDURE>
+R1:E1>E2:treated_by R2:E1>E3:treated_by_procedure
+VM600-308 thâm sau mụn nè hoặc là mụn ẩn mà có kèm theo là nám và tàn nhang thì khi đó chúng ta vẫn có thể sử dụng những cái
+E1=thâm sau<CONDITION> E2=mụn<CONDITION> E3=mụn ẩn<CONDITION> E4=nám<CONDITION> E5=tàn nhang<CONDITION>
+VM600-309 chương trình kích thích não sau thì nó sẽ có những người tham gia ví dụ như là
+E1=não<BODY_PART>
+VM600-310 có hai bộ phận thứ nhất là phần quả thể và phần thứ hai là phần đế thế thì ngày
+E1=hai bộ phận<DOSAGE> E2=thứ nhất<DOSAGE> E3=quả thể<DRUG> E4=phần thứ hai<DOSAGE>
+R1:E3>E1:has_dosage R2:E3>E2:has_dosage R3:E3>E4:has_dosage
+VM600-311 động sinh lý khác nhau bao gồm vận hành hệ miễn dịch giải độc viêm dẫn truyền
+E1=hệ miễn dịch giải độc<BODY_PART> E2=viêm<CONDITION>
+R1:E2>E1:located_at
+VM600-312 thần kinh cao cấp đó là những những cái trách nhiệm về tâm lý những được được
+E1=thần kinh<BODY_PART> E2=cao<DOSAGE>
+VM600-313 cái thành phần mà xưa kia cha ông ta rất hay sử dụng trong những cái bài thuốc để điều trị như các cái chứng bệnh về chính
+E1=thuốc<DRUG> E2=điều trị<PROCEDURE>
+VM600-314 và vậy thì gia đình mà có nuôi chó mèo
+
+VM600-315 tham gia vào khi nói đến sự phát triển của bất kỳ căn bệnh nào cũng như tỷ lệ mắc một số bệnh ở các quốc gia khác nhau
+E1=tỷ lệ<DOSAGE>
+VM600-316 biệt là nội thần kinh nội về bệnh parkinson và rối loạn vận động cũng sẽ hỗ trợ rất nhiều trong khi việc mà làm
+E1=thần kinh<BODY_PART> E2=parkinson<CONDITION> E3=rối loạn vận động<CONDITION> E4=hỗ trợ<PROCEDURE> E5=rất nhiều<DOSAGE>
+R1:E2>E1:located_at R2:E2>E4:treated_by_procedure R3:E3>E1:located_at R4:E3>E4:treated_by_procedure
+VM600-317 phần hóa học cũng như là tác dụng dược lý của các hoạt chất nằm trong quả thể
+E1=hoạt chất<DRUG> E2=quả thể<DRUG>
+VM600-318 là bình thường thế rồi thì chúng ta cũng thấy nó đỡ rồi thì thôi thế là tự nhiên chúng ta bỏ thuốc cái đó cực kỳ nguy
+E1=thuốc<DRUG>
+VM600-319 để điều trị cho từng bệnh đặc biệt trong đó thì có một cái cơ chế rất là quan trọng là các cái khớp nó bị viêm thì cần
+E1=điều trị<PROCEDURE> E2=các cái khớp<BODY_PART> E3=viêm<CONDITION>
+R1:E3>E1:treated_by_procedure R2:E3>E2:located_at
+VM600-320 biệt là bị ảnh hưởng với các loại thuốc thức ăn nó là một cái loại kháng vitamin k bởi
+E1=thuốc<DRUG> E2=vitamin k<DRUG>
+VM600-321 sau mổ tại vì cái chương trình đều chương trình điều chỉnh máy sau mổ
+E1=mổ<PROCEDURE> E2=điều chỉnh<DRUG> E3=mổ<PROCEDURE>
+VM600-322 chăm sóc dành cho người bệnh béo phì với vai trò của người thân trong gia đình là một trong những điều quan trọng và ngày
+E1=béo phì<CONDITION>
+VM600-323 máu trong đó đặc biệt là tĩnh mạch của chúng ta thế thì cái viên nang đông trùng hạ thảo nó cũng có rất hữu ích cho
+E1=máu<BODY_PART> E2=tĩnh mạch<BODY_PART> E3=viên nang đông trùng hạ thảo<DRUG>
+VM600-324 đưa cho những người thực hiện chức năng và chúng ta có thể đi qua cái chốt chặn dễ dàng xin để cảm ơn tiến sĩ bác sĩ
+E1=chốt chặn<DRUG>
+VM600-325 tam đại bộ phẩm đó là cái gì thứ nhất là nó là có nhung hươu cái thứ hai là nhân sâm và thứ ba đông trùng hạ thảo cái thứ
+E1=tam đại bộ phẩm<DRUG> E2=thứ nhất<DOSAGE> E3=nhung hươu<DRUG> E4=cái thứ hai<DOSAGE> E5=nhân sâm<DRUG> E6=đông trùng hạ thảo<DRUG>
+R1:E1>E2:has_dosage R2:E1>E4:has_dosage R3:E3>E2:has_dosage R4:E3>E4:has_dosage R5:E5>E2:has_dosage R6:E5>E4:has_dosage R7:E6>E2:has_dosage R8:E6>E4:has_dosage
+VM600-326 pháp có liên quan đến y học cổ truyền ở trong đó thì có cái viên nang đông trùng hạ thảo hôm nay chương trình giới thiệu
+E1=y học cổ truyền<PROCEDURE> E2=viên nang đông trùng hạ thảo<DRUG>
+VM600-327 với những cái bệnh lý khác thì điều này không chỉ trong thực tế lâm sàng mà trong những cái nghiên cứu họ
+E1=bệnh lý<CONDITION> E2=nghiên cứu<TEST>
+R1:E1>E2:diagnosed_by
+VM600-328 trường sống này mình sẽ nhắm tới mấy cái chuyện môi trường thứ nhất là môi trường tự nhiên và môi trường thứ hai là môi
+E1=môi<BODY_PART> E2=thứ nhất<DOSAGE> E3=môi<BODY_PART> E4=môi<BODY_PART> E5=môi<BODY_PART>
+VM600-329 đau khớp và viêm khớp huyết áp cao xơ vữa động mạch các bệnh nhiễm nấm mạn
+E1=đau<CONDITION> E2=khớp<BODY_PART> E3=viêm khớp<CONDITION> E4=huyết áp<CONDITION> E5=cao<DOSAGE> E6=xơ vữa động mạch<CONDITION> E7=bệnh nhiễm nấm mạn<CONDITION>
+R1:E1>E2:located_at R2:E3>E2:located_at R3:E4>E2:located_at R4:E6>E2:located_at R5:E7>E2:located_at
+VM600-330 các bạn ngày hôm nay của chúng ta đã có thêm được nhiều những cái kiến thức đặc biệt là đối với những người cao tuổi ngày hôm nay những ai mà đang còn đang
+
+VM600-331 bác sĩ kiểm tra ngay huyết áp và cho thuốc bác thuốc uống huyết áp để kiểm soát tốt con số huyết áp bác nhé vì với
+E1=kiểm tra<TEST> E2=huyết áp<CONDITION> E3=cho thuốc<PROCEDURE> E4=thuốc uống<DRUG> E5=huyết áp<CONDITION> E6=kiểm soát<DRUG> E7=huyết áp<CONDITION>
+R1:E2>E1:diagnosed_by R2:E2>E3:treated_by_procedure R3:E2>E4:treated_by R4:E2>E6:treated_by R5:E5>E1:diagnosed_by R6:E5>E3:treated_by_procedure R7:E5>E4:treated_by R8:E5>E6:treated_by R9:E7>E1:diagnosed_by R10:E7>E3:treated_by_procedure R11:E7>E4:treated_by R12:E7>E6:treated_by
+VM600-332 cuộc sống tốt hơn vâng thưa bác sĩ như vậy thì ở từng giai đoạn của mình thì người bệnh sẽ được tiếp nhận điều
+
+VM600-333 huyết thông qua đó là biểu hiện cải thiện các chỉ số hba1c giảm được là từ khoảng là hai mươi phần trăm cái
+E1=huyết<BODY_PART> E2=cải thiện<PROCEDURE> E3=các chỉ số<DOSAGE> E4=hba1c<DOSAGE> E5=hai mươi phần trăm<DOSAGE>
+VM600-334 đó là nó ra được cơ quan kiểm soát thuốc và dược phẩm của hoa kỳ chấp nhận từ năm
+
+VM600-335 vấn giúp em làm cách nào để giúp bố em cải thiện tình trạng này ăn nhiều hơn và lên cân được không ạ
+E1=cải thiện<PROCEDURE>
+VM600-336 thay vì cái việc ngày xưa chúng ta phải đi nhiều chúng ta vận động nhiều chúng ta phải đạp xe đạp hiện nay chúng ta là
+
+VM600-337 hiện nay thì sẽ hỗ trợ cho việc mà khỏi bệnh được nhanh nhất và vấn đề thứ ba đó
+E1=hỗ trợ<PROCEDURE>
+VM600-338 bệnh và rối loạn chức năng đỉnh cuối phần này bạn sẽ có một sự trân trọng mới
+E1=rối loạn chức năng<CONDITION>
+VM600-339 giúp bạn tồn tại ảnh hưởng của mỗi cá nhân đến sức khỏe mạnh của hành tinh chúng ta cũng vậy trên thực tế bạn là
+
+VM600-340 trạng ốm yếu đau khổ cá nhân chất lượng cuộc sống bị tổn hại và tiêu tốn về tài
+E1=đau<CONDITION>
+VM600-341 khi mà bị đột quỵ thì thường các bác sĩ đột quỵ tôi sẽ phải khảo sát toàn bộ để
+E1=đột quỵ<CONDITION> E2=đột quỵ<CONDITION> E3=khảo sát<DRUG>
+R1:E1>E3:treated_by R2:E2>E3:treated_by
+VM600-342 bệnh nó liên quan đến cái vùng cột sống cổ là chính những có những cái trường hợp liên quan đến cái vùng cổ tay và
+E1=cột sống<BODY_PART> E2=vùng<BODY_PART> E3=cổ tay<BODY_PART>
+VM600-343 tăng khoảng hai ký thì như vậy thì như chúng ta biết rằng là khi mà mình chọn lựa thuốc cho những cái bệnh nhân mà đái
+E1=thuốc<DRUG>
+VM600-344 chỉ định của các bác sĩ thì bệnh nhân cũng cần được tiếp tục hỗ trợ chuyên sâu về mặt tâm lý nhằm là giúp cho họ giữ
+E1=chỉ định<DRUG> E2=hỗ trợ chuyên sâu về mặt tâm lý<PROCEDURE>
+VM600-345 động mạch được hay không và giảm nhẹ các triệu chứng như là đau đầu hoa mắt chóng mặt được hay không thưa bác sĩ đây là
+E1=động mạch<BODY_PART> E2=triệu chứng<CONDITION> E3=đau đầu<CONDITION> E4=hoa mắt<CONDITION> E5=chóng mặt<CONDITION>
+R1:E2>E1:located_at R2:E3>E1:located_at R3:E4>E1:located_at R4:E5>E1:located_at
+VM600-346 có thể rất quý ví dụ như là tam đại bộ phẩm có nhân sâm có nhung hươu rồi có
+E1=tam đại bộ phẩm<DRUG> E2=nhân sâm<DRUG> E3=nhung hươu<DRUG>
+VM600-347 thứ ba là lúc nào cũng kêu chán hết trơn sao mà chán quá đi chán quá đi và hổng
+
+VM600-348 gia đình và những người ở trong xã hội càng tốt thì sẽ ở trong cái môi trường đó cái người béo phì nó sẽ được thuận
+E1=môi<BODY_PART> E2=béo phì<CONDITION>
+R1:E2>E1:located_at
+VM600-349 phì chứ không chỉ riêng về cái rối loạn về cái hành vi ăn uống thế thì họ cần
+E1=rối loạn<CONDITION>
+VM600-350 ví dụ như là nếu chúng ta bị chấn thương thì sẽ dễ bị chảy máu chảy máu khó
+E1=chấn thương<CONDITION> E2=chảy máu<CONDITION> E3=chảy máu<CONDITION>
+VM600-351 triển cũng như là chữa lành bệnh chứ còn hiện tại thì các phương pháp điều trị cũng như là phương pháp điều trị phẫu
+E1=chữa lành bệnh<PROCEDURE> E2=điều trị<PROCEDURE> E3=điều trị<PROCEDURE>
+VM600-352 người ta vẫn đang tiến tiếp tục nghiên cứu và rất nhiều các phương pháp nghiên cứu để giúp làm sao có thể ngăn sự tiến
+E1=nghiên cứu<TEST> E2=rất nhiều<DOSAGE> E3=nghiên cứu<TEST>
+VM600-353 các cường độ cho nó phù hợp nhất để điều chỉnh cái gia giảm cả lượng thuốc thì làm cái quá trình rất là dài và có thể
+E1=cường độ<DOSAGE> E2=điều chỉnh<DRUG> E3=thuốc<DRUG>
+R1:E2>E1:has_dosage R2:E3>E1:has_dosage
+VM600-354 dụng của cái sản phẩm đó à nó không chỉ là khó gọi ghẹo gói trong một số bệnh lý
+
+VM600-355 giới ngày nay nhưng đã đến lúc phải đón nhận một khía cạnh khác của câu chuyện vi khuẩn trong cuộc sống của chúng ta
+E1=vi khuẩn<CONDITION>
+VM600-356 nam chưa được phát hiện trên tám mươi phần trăm chưa được điều trị đồng thời tại việt nam có tới ba mươi phần trăm người trưởng
+E1=tám mươi phần trăm<DOSAGE> E2=điều trị<PROCEDURE> E3=ba mươi phần trăm<DOSAGE>
+VM600-357 trị liệu có thể làm gia tăng của nhiệt độ của những thiết bị đó là có thể làm tổn thương mô thì cái này là được xem
+E1=trị liệu<PROCEDURE> E2=tổn thương<CONDITION> E3=mô<BODY_PART>
+R1:E2>E1:treated_by_procedure R2:E2>E3:located_at
+VM600-358 ung thư bằng cách là vắt nước chanh vào một cốc nước ấm xong rồi mình uống lại uống vào lúc đói thì thực sự là khi
+E1=ung thư<CONDITION>
+VM600-359 bên cạnh đó thì có những người họ vẫn nhận thức được béo phì nó là một bệnh lý có những cái tác hại như vậy cần phải
+E1=béo phì<CONDITION> E2=bệnh lý<CONDITION>
+VM600-360 dài đó là những cái chế độ ăn vận động thể lực cũng như là các quá trình thay đổi hành vi thì đã có rất là nhiều
+E1=thay đổi hành vi<CONDITION>
+VM600-361 biết nên tìm hiểu và để chuẩn bị một cái tâm lý thật là tốt và cuối cùng là
+
+VM600-362 các chị em phải lo lắng rồi đó là chưa kể áp lực công việc vân vân các thứ thì
+
+VM600-363 trước để có những cái thăm dò có những cái đánh giá trước sau đó thì khi mà tham khám như vậy các bác sĩ người ta sẽ
+E1=đánh giá<PROCEDURE> E2=khám<TEST>
+VM600-364 một cái hóa trị hoặc xạ trị thì nó đều liên quan đến khử độc tại gan và khi chức năng gan bị giảm như vậy thì nay lại bị
+E1=hóa trị<PROCEDURE> E2=xạ trị<PROCEDURE> E3=gan<BODY_PART> E4=gan<BODY_PART>
+VM600-365 mỡ động vật này những cái đạm thịt đỏ tuy nhiên thì chúng ta vẫn phải tăng cường cung cấp năng lượng này cũng như
+
+VM600-366 xác như vậy thì mình sẽ đặt các điện cực và mình cố định lại thì mình sẽ tiến hành hai bên trên cái thời gian mà bệnh nhân
+E1=điện cực<PROCEDURE>
+VM600-367 hơn về diễn tiến bệnh cũng như là biết được các phương pháp điều trị tư tưởng như thế nào chúng ta sẽ cùng đi vào tìm
+E1=điều trị<PROCEDURE>
+VM600-368 việc mà duy trì cái tình trạng dinh dưỡng của bệnh nhân trong suốt quá cái
+
+VM600-369 điều thứ hai cái điều thứ ba là dù là tân dược hay là các sản phẩm có nguồn
+E1=tân dược<DRUG>
+VM600-370 thiện một cách tương đối rồi tránh tình trạng là nó làm cho nó nặng lên và cái thứ hai nữa là nếu mà chúng ta có thể đi
+E1=cái thứ hai<DOSAGE>
+VM600-371 nhiên từ thực vật người ta liên trích ra và người ta đã chứng minh rằng đó có nhiều cái công dụng trong đó có công
+
+VM600-372 retinoic acid hoặc là chúng ta sử dụng những phương pháp như là tái tạo da bằng hóa chất để mà chúng ta loại bỏ đi
+E1=retinoic acid<DRUG> E2=tái tạo da bằng hóa chất<PROCEDURE> E3=loại bỏ<DRUG>
+VM600-373 bao giờ đối tượng được việc thấu hiểu các mối liên hệ giữa ruột và não giúp
+E1=ruột<BODY_PART> E2=não<BODY_PART>
+VM600-374 công thế này thì thì thì hổng biết làm sao sức khỏe của
+
+VM600-375 tích che phủ lỗ chân lông trên bề mặt da của bạn do đó nên bạn sẽ thấy là da của bạn ngủ dậy rất là nặng mặc đổ dầu nhiều
+E1=bề mặt da<BODY_PART> E2=da<BODY_PART> E3=đổ dầu<CONDITION>
+R1:E3>E1:located_at R2:E3>E2:located_at
+VM600-376 fumarate sản phẩm đông y mà nhiều sản phẩm như vậy thì không biết là nó có thể là giảm cái việc là xơ vữa mảng
+E1=fumarate<DRUG> E2=đông y<PROCEDURE> E3=xơ vữa mảng<CONDITION>
+R1:E3>E1:treated_by R2:E3>E2:treated_by_procedure
+VM600-377 với lại chẳng nói da nhạy cảm chúng ta sẽ sử dụng một cái gọi là các biện pháp lại nghiệm pháp kích thích và chúng ta
+E1=da nhạy cảm<CONDITION> E2=biện pháp lại nghiệm pháp kích thích<PROCEDURE>
+R1:E1>E2:treated_by_procedure
+VM600-378 là có thể bây giờ thì mình cũng chưa biết được nhưng mà có thể là đấy là những cái tác nhân mà có thể làm cho
+
+VM600-379 này trong ngày hôm nay vâng và trong khi mà chờ đợi các khán
+
+VM600-380 nào và tất cả những cái vấn đề khác về cơ xương khớp vân vân như vậy thì đối với một người lớn tuổi mà có bệnh
+E1=cơ xương khớp<BODY_PART> E2=một người<DOSAGE>
+VM600-381 sẽ tùy thuộc vào từng loại từng nhóm người bệnh và tùy thuộc vào nhiều yếu tố khác nhau như vậy chúng ta thấy rằng
+
+VM600-382 thuật kích thích não sâu thì nó sẽ kéo dài trung bình khoảng từ năm cho tới bảy ngày ở trong bệnh viện và sau khi bảy ngày
+E1=kích thích não sâu<PROCEDURE> E2=trung bình<DOSAGE>
+VM600-383 cũng đã đưa ra dựa theo những cái nghiên cứu như vậy và ta thấy rằng là mục tiêu đầu tiên đó là giảm từ năm đến mười phần
+E1=nghiên cứu<TEST> E2=từ năm đến mười phần<DOSAGE>
+VM600-384 viêm tắc chúng ta bị viêm tĩnh mạch đấy là những biến chứng mà những người bị suy giãn tĩnh mạch nhiều khi mà chúng ta
+E1=viêm<CONDITION> E2=viêm<CONDITION> E3=tĩnh mạch<BODY_PART> E4=biến chứng<CONDITION> E5=suy giãn tĩnh mạch<CONDITION>
+R1:E1>E3:located_at R2:E2>E3:located_at R3:E4>E3:located_at R4:E5>E3:located_at
+VM600-385 các thực phẩm mà có chứa vitamin và khoáng chất rồi có thể uống bổ sung thêm
+E1=vitamin<DRUG> E2=khoáng chất<DRUG>
+VM600-386 còn ảnh hưởng rất nhiều thậm chí là đến tâm lý của bệnh nhân và giờ đây thì chúng tôi xin được mời
+E1=rất nhiều<DOSAGE>
+VM600-387 cũng đã cho làm một số các cái thăm dò rồi chụp phim vân vân và sơ bộ thì chúng ta biết rằng là bác đã có cái khảo sát
+E1=chụp phim<TEST> E2=khảo sát<DRUG>
+VM600-388 thời đại chính vì là có rất là nhiều các cái tác dụng phụ như thế này cho nên bản thân các bác sĩ rồi bản thân những cái
+E1=tác dụng phụ<CONDITION>
+VM600-389 dụng các sản phẩm mà có chứa những hoạt chất tẩy rửa bề mặt này lâu dài thì sẽ vô tình làm rửa trôi cả cái lớp
+E1=hoạt chất<DRUG>
+VM600-390 cuộc sống của bệnh nhân tốt hơn và bên cạnh điều trị kích thích não sâu thì chúng ta cũng được biết các điều trị can
+E1=điều trị<PROCEDURE> E2=kích thích não sâu<PROCEDURE> E3=điều trị<PROCEDURE>
+VM600-391 một cái hành trình như vậy thì cái việc điều trị của béo phì ở trong một cái giai đoạn này nó chỉ
+E1=điều trị<PROCEDURE> E2=béo phì<CONDITION>
+R1:E2>E1:treated_by_procedure
+VM600-392 vâng và hiện tại thì thời lượng của chương trình cũng không còn nhiều tuy nhiên còn rất là nhiều khán giả đã gọi điện tới và mong đợi được sự tư vấn của
+
+VM600-393 nhận được phần thưởng từ chương trình mà thôi vâng ạ như là bác sĩ chia sẻ thì rõ ràng là đông trùng hạ thảo thì có cái
+E1=đông trùng hạ thảo<DRUG>
+VM600-394 không được nghỉ ngơi chính vì vậy cho nên là cái lời khuyên của chúng ta trong trường hợp này thì khi mà chúng ta làm
+
+VM600-395 được cái tình trạng của anh hiện tại đúng không ạ chứ ở đây thì chúng tôi cũng chỉ thăm khám qua những cái lời
+E1=thăm khám<PROCEDURE>
+VM600-396 điều trị bằng các loại thuốc ức chế miễn dịch mạnh và thường có những mặt trái đáng kể không ít trong số đó bao gồm
+E1=điều trị<PROCEDURE> E2=thuốc<DRUG> E3=ức chế miễn dịch<DRUG>
+VM600-397 tất cả đấy là những lời có cánh những cái lời mà nó chả có tính khoa học gì cả thế cho nên là điều đầu tiên khuyên bác là
+
+VM600-398 mảng xơ vữa này để giúp cho máu thông lên não lên tim tốt và từ đó cải thiện các triệu chứng như là đau đầu hoa mắt chóng
+E1=mảng xơ vữa<CONDITION> E2=máu<BODY_PART> E3=não<BODY_PART> E4=tim<BODY_PART> E5=cải thiện<PROCEDURE> E6=triệu chứng<CONDITION> E7=đau đầu<CONDITION> E8=hoa mắt<CONDITION>
+R1:E1>E2:located_at R2:E1>E3:located_at R3:E1>E4:located_at R4:E1>E5:treated_by_procedure R5:E6>E2:located_at R6:E6>E3:located_at R7:E6>E4:located_at R8:E6>E5:treated_by_procedure R9:E7>E2:located_at R10:E7>E3:located_at R11:E7>E4:located_at R12:E7>E5:treated_by_procedure R13:E8>E2:located_at R14:E8>E3:located_at R15:E8>E4:located_at R16:E8>E5:treated_by_procedure
+VM600-399 chuột rút đúng không ạ ở đây chuột rút thì chúng ta nhớ rằng là nó cũng có một số các cái nhóm nguyên nhân thông thường chúng ta sẽ nghĩ ngay đến cái câu chuyện
+E1=chuột rút<CONDITION> E2=chuột rút<CONDITION>
+VM600-400 sinh bị rụng tóc hay không cảm ơn em các chị em phụ nữ thân mến
+E1=rụng tóc<CONDITION>

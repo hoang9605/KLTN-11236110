@@ -1,0 +1,144 @@
+{
+  "strict_exact_match": {
+    "BODY_PART": {
+      "precision": 0.5642,
+      "recall": 0.7222,
+      "f1-score": 0.6335,
+      "support": 1260,
+      "tp": 910,
+      "fp": 703,
+      "fn": 350
+    },
+    "CONDITION": {
+      "precision": 0.631,
+      "recall": 0.7192,
+      "f1-score": 0.6722,
+      "support": 1467,
+      "tp": 1055,
+      "fp": 617,
+      "fn": 412
+    },
+    "DOSAGE": {
+      "precision": 0.3333,
+      "recall": 0.6304,
+      "f1-score": 0.4361,
+      "support": 257,
+      "tp": 162,
+      "fp": 324,
+      "fn": 95
+    },
+    "DRUG": {
+      "precision": 0.5732,
+      "recall": 0.8996,
+      "f1-score": 0.7002,
+      "support": 727,
+      "tp": 654,
+      "fp": 487,
+      "fn": 73
+    },
+    "PROCEDURE": {
+      "precision": 0.5237,
+      "recall": 0.4926,
+      "f1-score": 0.5077,
+      "support": 1143,
+      "tp": 563,
+      "fp": 512,
+      "fn": 580
+    },
+    "TEST": {
+      "precision": 0.6647,
+      "recall": 0.7692,
+      "f1-score": 0.7132,
+      "support": 299,
+      "tp": 230,
+      "fp": 116,
+      "fn": 69
+    },
+    "micro avg": {
+      "precision": 0.5643,
+      "recall": 0.6936,
+      "f1-score": 0.6223,
+      "support": 5153
+    },
+    "macro avg": {
+      "precision": 0.5484,
+      "recall": 0.7055,
+      "f1-score": 0.6105,
+      "support": 5153
+    },
+    "weighted avg": {
+      "precision": 0.5698,
+      "recall": 0.6936,
+      "f1-score": 0.6208,
+      "support": 5153
+    }
+  },
+  "relaxed_overlap_match": {
+    "BODY_PART": {
+      "precision": 0.6782,
+      "recall": 0.8683,
+      "f1-score": 0.7616,
+      "support": 1260,
+      "tp": 1094,
+      "fp": 519,
+      "fn": 166
+    },
+    "CONDITION": {
+      "precision": 0.7871,
+      "recall": 0.8971,
+      "f1-score": 0.8385,
+      "support": 1467,
+      "tp": 1316,
+      "fp": 356,
+      "fn": 151
+    },
+    "DOSAGE": {
+      "precision": 0.43,
+      "recall": 0.8132,
+      "f1-score": 0.5626,
+      "support": 257,
+      "tp": 209,
+      "fp": 277,
+      "fn": 48
+    },
+    "DRUG": {
+      "precision": 0.6065,
+      "recall": 0.9519,
+      "f1-score": 0.7409,
+      "support": 727,
+      "tp": 692,
+      "fp": 449,
+      "fn": 35
+    },
+    "PROCEDURE": {
+      "precision": 0.7088,
+      "recall": 0.6667,
+      "f1-score": 0.6871,
+      "support": 1143,
+      "tp": 762,
+      "fp": 313,
+      "fn": 381
+    },
+    "TEST": {
+      "precision": 0.7399,
+      "recall": 0.8562,
+      "f1-score": 0.7938,
+      "support": 299,
+      "tp": 256,
+      "fp": 90,
+      "fn": 43
+    },
+    "micro avg": {
+      "precision": 0.6836,
+      "recall": 0.8401,
+      "f1-score": 0.7538,
+      "support": 5153
+    },
+    "macro avg": {
+      "precision": 0.6584,
+      "recall": 0.8422,
+      "f1-score": 0.7308,
+      "support": 5153
+    }
+  }
+}
