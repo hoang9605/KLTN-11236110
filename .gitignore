@@ -62,3 +62,6 @@ Code/
 setup_git.py
 run_git_operations.py
 
+
+# GPU training environment
+.venv-gpu/

@@ -1,0 +1,18 @@
+﻿id,relation,before,after,reason
+GT-009,R1,diagnosed_by,CHUA_RO,Câu bị cắt; không nói đặt mỏ vịt để chẩn đoán chảy máu
+GT-012,R1,located_at,NO_RELATION,CONDITION đã chứa bộ phận (cụm đầy đủ) → không tạo located_at với lần nhắc bộ phận (“u xơ tử cung” → “tử cung”)
+GT-026,R1,has_dosage,NO_RELATION,"“hai mươi mốt viên” là số viên trong vỉ, không phải liều dùng"
+GT-026,R2,has_dosage,NO_RELATION,"“hai mươi mốt viên” là số viên trong vỉ, không phải liều dùng"
+GT-027,R1,has_dosage,XOA,“thuốc bổ”: thực phẩm chức năng → ngoài phạm vi (xóa cặp); “bảy viên” là thành phần vỉ
+GT-027,R2,CHUA_RO,XOA,“thuốc bổ”: thực phẩm chức năng → ngoài phạm vi (xóa cặp)
+GT-050,R1,NO_RELATION,XOA,“thuốc” là DRUG chung chung (GENERIC_ENTITIES) → xóa cặp
+GT-055,R1,NO_RELATION,XOA,“thuốc” là DRUG chung chung → xóa cặp
+GT-056,R1,NO_RELATION,XOA,“thuốc” là DRUG chung chung → xóa cặp
+GT-057,R1,NO_RELATION,XOA,“thuốc” là DRUG chung chung → xóa cặp
+GT-061,R2,located_at,NO_RELATION,CONDITION đã chứa bộ phận (cụm đầy đủ) → không tạo located_at với lần nhắc bộ phận (“viêm đại tràng” → “đại tràng”)
+GT-065,R4,CHUA_RO,NO_RELATION,Phủ định “không có tổn thương ở niêm mạc của đại tràng” → NO_RELATION
+GT-069,R1,treated_by,XOA,“bạch thược”: đông y → ngoài phạm vi (xóa cặp)
+GT-124,R1,has_dosage,NO_RELATION,"“cao” chỉ mức độ bổ sung, không phải liều"
+GT-133,R1,CHUA_RO,treated_by,Câu hỏi được tính như khẳng định: “có nên dùng thuốc giảm đau hạ sốt” cho sốt
+GT-133,R3,CHUA_RO,treated_by,Câu hỏi được tính như khẳng định: “có nên dùng thuốc giảm đau hạ sốt” cho đau
+GT-137,R3,located_at,NO_RELATION,CONDITION đã chứa bộ phận (cụm đầy đủ) → không tạo located_at với lần nhắc bộ phận (“ung thư dạ dày” → “dạ dày”)

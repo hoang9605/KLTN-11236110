@@ -1,0 +1,451 @@
+{
+ "data": {
+  "train": 4616,
+  "validation": 1154,
+  "test": 3497
+ },
+ "dictionary": {
+  "params": {
+   "min_entity_ratio": 0.2,
+   "entries": 1702
+  },
+  "validation_micro_f1": 0.9114950634696757,
+  "test": {
+   "raw": {
+    "report": {
+     "AGE": {
+      "precision": 0.8505535055350554,
+      "recall": 0.7411575562700965,
+      "f1-score": 0.7920962199312716,
+      "support": 622
+     },
+     "DATETIME": {
+      "precision": 0.9146567717996289,
+      "recall": 0.7391304347826086,
+      "f1-score": 0.8175787728026535,
+      "support": 667
+     },
+     "DIAGNOSTICS": {
+      "precision": 0.7973421926910299,
+      "recall": 0.802675585284281,
+      "f1-score": 0.7999999999999999,
+      "support": 299
+     },
+     "DISEASESYMTOM": {
+      "precision": 0.7210113339145597,
+      "recall": 0.5637355146557601,
+      "f1-score": 0.6327467482785003,
+      "support": 1467
+     },
+     "DRUGCHEMICAL": {
+      "precision": 0.7702265372168284,
+      "recall": 0.6713681241184767,
+      "f1-score": 0.7174076865109269,
+      "support": 709
+     },
+     "FOODDRINK": {
+      "precision": 0.8669354838709677,
+      "recall": 0.8237547892720306,
+      "f1-score": 0.8447937131630647,
+      "support": 261
+     },
+     "GENDER": {
+      "precision": 0.7378640776699029,
+      "recall": 0.8172043010752689,
+      "f1-score": 0.7755102040816327,
+      "support": 558
+     },
+     "LOCATION": {
+      "precision": 0.8451612903225807,
+      "recall": 0.7963525835866262,
+      "f1-score": 0.8200312989045383,
+      "support": 329
+     },
+     "MEDDEVICETECHNIQUE": {
+      "precision": 0.4691358024691358,
+      "recall": 0.11968503937007874,
+      "f1-score": 0.19071518193224593,
+      "support": 635
+     },
+     "OCCUPATION": {
+      "precision": 0.9850467289719627,
+      "recall": 0.9327433628318584,
+      "f1-score": 0.9581818181818182,
+      "support": 565
+     },
+     "ORGAN": {
+      "precision": 0.5331874544128373,
+      "recall": 0.5801587301587302,
+      "f1-score": 0.5556822500950209,
+      "support": 1260
+     },
+     "ORGANIZATION": {
+      "precision": 0.9722222222222222,
+      "recall": 0.5737704918032787,
+      "f1-score": 0.7216494845360824,
+      "support": 61
+     },
+     "PERSONALCARE": {
+      "precision": 0.3106060606060606,
+      "recall": 0.8631578947368421,
+      "f1-score": 0.456824512534819,
+      "support": 95
+     },
+     "PREVENTIVEMED": {
+      "precision": 0.037037037037037035,
+      "recall": 0.5,
+      "f1-score": 0.06896551724137931,
+      "support": 18
+     },
+     "SURGERY": {
+      "precision": 0.7916666666666666,
+      "recall": 0.2753623188405797,
+      "f1-score": 0.40860215053763443,
+      "support": 276
+     },
+     "TRANSPORTATION": {
+      "precision": 0.7272727272727273,
+      "recall": 0.2962962962962963,
+      "f1-score": 0.42105263157894735,
+      "support": 27
+     },
+     "TREATMENT": {
+      "precision": 0.6872964169381107,
+      "recall": 0.9094827586206896,
+      "f1-score": 0.7829313543599258,
+      "support": 232
+     },
+     "UNITCALIBRATOR": {
+      "precision": 0.3864864864864865,
+      "recall": 0.556420233463035,
+      "f1-score": 0.45614035087719296,
+      "support": 257
+     },
+     "micro avg": {
+      "precision": 0.690334283493133,
+      "recall": 0.639002158791077,
+      "f1-score": 0.6636771300448431,
+      "support": 8338
+     },
+     "macro avg": {
+      "precision": 0.6890949331168778,
+      "recall": 0.6423586675092521,
+      "f1-score": 0.6233838830859808,
+      "support": 8338
+     },
+     "weighted avg": {
+      "precision": 0.7208036785924067,
+      "recall": 0.639002158791077,
+      "f1-score": 0.6609995392822471,
+      "support": 8338
+     }
+    },
+    "micro": {
+     "tp": 5328,
+     "fp": 2390,
+     "fn": 3010,
+     "precision": 0.690334283493133,
+     "recall": 0.639002158791077,
+     "f1": 0.6636771300448431
+    },
+    "micro_f1_ci95": [
+     0.653,
+     0.6745
+    ]
+   },
+   "target": {
+    "report": {
+     "BODY_PART": {
+      "precision": 0.5331874544128373,
+      "recall": 0.5801587301587302,
+      "f1-score": 0.5556822500950209,
+      "support": 1260
+     },
+     "CONDITION": {
+      "precision": 0.7210113339145597,
+      "recall": 0.5637355146557601,
+      "f1-score": 0.6327467482785003,
+      "support": 1467
+     },
+     "DOSAGE": {
+      "precision": 0.3864864864864865,
+      "recall": 0.556420233463035,
+      "f1-score": 0.45614035087719296,
+      "support": 257
+     },
+     "DRUG": {
+      "precision": 0.5632984901277585,
+      "recall": 0.6671251719394773,
+      "f1-score": 0.610831234256927,
+      "support": 727
+     },
+     "PROCEDURE": {
+      "precision": 0.6867256637168142,
+      "recall": 0.3394575678040245,
+      "f1-score": 0.4543325526932085,
+      "support": 1143
+     },
+     "TEST": {
+      "precision": 0.7973421926910299,
+      "recall": 0.802675585284281,
+      "f1-score": 0.7999999999999999,
+      "support": 299
+     },
+     "micro avg": {
+      "precision": 0.609750812567714,
+      "recall": 0.5460896565107705,
+      "f1-score": 0.5761670761670762,
+      "support": 5153
+     },
+     "macro avg": {
+      "precision": 0.6146752702249144,
+      "recall": 0.5849288005508847,
+      "f1-score": 0.5849555227001416,
+      "support": 5153
+     },
+     "weighted avg": {
+      "precision": 0.6329744999040712,
+      "recall": 0.5460896565107705,
+      "f1-score": 0.5721334368431686,
+      "support": 5153
+     }
+    },
+    "micro": {
+     "tp": 2814,
+     "fp": 1801,
+     "fn": 2339,
+     "precision": 0.609750812567714,
+     "recall": 0.5460896565107705,
+     "f1": 0.5761670761670762
+    },
+    "micro_f1_ci95": [
+     0.5623,
+     0.5898
+    ]
+   }
+  }
+ },
+ "crf": {
+  "params": {
+   "c1": 0.05,
+   "c2": 0.01,
+   "max_iterations": 200,
+   "features": "syllable, shape, affixes, +-2 window, bigrams"
+  },
+  "validation_micro_f1": 0.8898335104498759,
+  "test": {
+   "raw": {
+    "report": {
+     "AGE": {
+      "precision": 0.7459165154264973,
+      "recall": 0.6607717041800643,
+      "f1-score": 0.7007672634271099,
+      "support": 622
+     },
+     "DATETIME": {
+      "precision": 0.8255395683453237,
+      "recall": 0.6881559220389805,
+      "f1-score": 0.7506132461161079,
+      "support": 667
+     },
+     "DIAGNOSTICS": {
+      "precision": 0.7317880794701986,
+      "recall": 0.7391304347826086,
+      "f1-score": 0.7354409317803661,
+      "support": 299
+     },
+     "DISEASESYMTOM": {
+      "precision": 0.6342062193126022,
+      "recall": 0.5282890252215405,
+      "f1-score": 0.5764224618817404,
+      "support": 1467
+     },
+     "DRUGCHEMICAL": {
+      "precision": 0.780559646539028,
+      "recall": 0.7475317348377997,
+      "f1-score": 0.7636887608069164,
+      "support": 709
+     },
+     "FOODDRINK": {
+      "precision": 0.8060836501901141,
+      "recall": 0.8122605363984674,
+      "f1-score": 0.8091603053435115,
+      "support": 261
+     },
+     "GENDER": {
+      "precision": 0.7504587155963303,
+      "recall": 0.7329749103942652,
+      "f1-score": 0.741613780598368,
+      "support": 558
+     },
+     "LOCATION": {
+      "precision": 0.7875816993464052,
+      "recall": 0.7325227963525835,
+      "f1-score": 0.7590551181102362,
+      "support": 329
+     },
+     "MEDDEVICETECHNIQUE": {
+      "precision": 0.3795180722891566,
+      "recall": 0.09921259842519685,
+      "f1-score": 0.15730337078651685,
+      "support": 635
+     },
+     "OCCUPATION": {
+      "precision": 0.9632352941176471,
+      "recall": 0.9274336283185841,
+      "f1-score": 0.9449954914337241,
+      "support": 565
+     },
+     "ORGAN": {
+      "precision": 0.5601983002832861,
+      "recall": 0.6277777777777778,
+      "f1-score": 0.5920658682634731,
+      "support": 1260
+     },
+     "ORGANIZATION": {
+      "precision": 0.4444444444444444,
+      "recall": 0.26229508196721313,
+      "f1-score": 0.32989690721649484,
+      "support": 61
+     },
+     "PERSONALCARE": {
+      "precision": 0.2880658436213992,
+      "recall": 0.7368421052631579,
+      "f1-score": 0.4142011834319527,
+      "support": 95
+     },
+     "PREVENTIVEMED": {
+      "precision": 0.02766798418972332,
+      "recall": 0.3888888888888889,
+      "f1-score": 0.051660516605166046,
+      "support": 18
+     },
+     "SURGERY": {
+      "precision": 0.7474747474747475,
+      "recall": 0.26811594202898553,
+      "f1-score": 0.3946666666666667,
+      "support": 276
+     },
+     "TRANSPORTATION": {
+      "precision": 0.7,
+      "recall": 0.25925925925925924,
+      "f1-score": 0.37837837837837834,
+      "support": 27
+     },
+     "TREATMENT": {
+      "precision": 0.6925795053003534,
+      "recall": 0.8448275862068966,
+      "f1-score": 0.7611650485436894,
+      "support": 232
+     },
+     "UNITCALIBRATOR": {
+      "precision": 0.38522427440633245,
+      "recall": 0.5680933852140078,
+      "f1-score": 0.45911949685534587,
+      "support": 257
+     },
+     "micro avg": {
+      "precision": 0.6563893489616511,
+      "recall": 0.6178939793715519,
+      "f1-score": 0.6365602026317415,
+      "support": 8338
+     },
+     "macro avg": {
+      "precision": 0.625030142241866,
+      "recall": 0.5902435176420154,
+      "f1-score": 0.573345266458098,
+      "support": 8338
+     },
+     "weighted avg": {
+      "precision": 0.6759878110003625,
+      "recall": 0.6178939793715519,
+      "f1-score": 0.6323080686123346,
+      "support": 8338
+     }
+    },
+    "micro": {
+     "tp": 5152,
+     "fp": 2697,
+     "fn": 3186,
+     "precision": 0.6563893489616511,
+     "recall": 0.6178939793715519,
+     "f1": 0.6365602026317415
+    },
+    "micro_f1_ci95": [
+     0.6257,
+     0.6475
+    ]
+   },
+   "target": {
+    "report": {
+     "BODY_PART": {
+      "precision": 0.5601983002832861,
+      "recall": 0.6277777777777778,
+      "f1-score": 0.5920658682634731,
+      "support": 1260
+     },
+     "CONDITION": {
+      "precision": 0.6342062193126022,
+      "recall": 0.5282890252215405,
+      "f1-score": 0.5764224618817404,
+      "support": 1467
+     },
+     "DOSAGE": {
+      "precision": 0.38522427440633245,
+      "recall": 0.5680933852140078,
+      "f1-score": 0.45911949685534587,
+      "support": 257
+     },
+     "DRUG": {
+      "precision": 0.5783261802575107,
+      "recall": 0.7414030261348006,
+      "f1-score": 0.6497890295358649,
+      "support": 727
+     },
+     "PROCEDURE": {
+      "precision": 0.6313868613138686,
+      "recall": 0.3027121609798775,
+      "f1-score": 0.4092253104671792,
+      "support": 1143
+     },
+     "TEST": {
+      "precision": 0.7317880794701986,
+      "recall": 0.7391304347826086,
+      "f1-score": 0.7354409317803661,
+      "support": 299
+     },
+     "micro avg": {
+      "precision": 0.5876955161626695,
+      "recall": 0.5468659033572676,
+      "f1-score": 0.5665460394049054,
+      "support": 5153
+     },
+     "macro avg": {
+      "precision": 0.5868549858406332,
+      "recall": 0.5845676350184354,
+      "f1-score": 0.5703438497973282,
+      "support": 5153
+     },
+     "weighted avg": {
+      "precision": 0.6008453273629938,
+      "recall": 0.5468659033572676,
+      "f1-score": 0.5568885016928395,
+      "support": 5153
+     }
+    },
+    "micro": {
+     "tp": 2818,
+     "fp": 1977,
+     "fn": 2335,
+     "precision": 0.5876955161626695,
+     "recall": 0.5468659033572676,
+     "f1": 0.5665460394049054
+    },
+    "micro_f1_ci95": [
+     0.5525,
+     0.5805
+    ]
+   }
+  }
+ }
+}

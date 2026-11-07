@@ -84,18 +84,20 @@ def attach_entities(pairs, path):
                          for e in ents[p["sample_id"]]]
 
 
-def golden_pairs():
+def golden_pairs(labels_file="ai_labels.jsonl"):
+    """labels_file: ai_labels.jsonl (original AI pre-labels) or ai_labels_v1_1.jsonl
+    (consistency pass, scripts/golden_test/relabel_consistency.py). "XOA" = removed pair."""
     cands = {json.loads(l)["id"]: json.loads(l) for l in (GT / "candidates.jsonl").read_text(encoding="utf-8").splitlines()}
     out, audit = [], Counter()
-    for line in (GT / "ai_labels.jsonl").read_text(encoding="utf-8").splitlines():
+    for line in (GT / labels_file).read_text(encoding="utf-8").splitlines():
         lab = json.loads(line)
         c = cands[lab["id"]]
         ents = {e["id"]: e for e in c["entities"]}
         ok = {k for k, v in lab["entities"].items() if v["verdict"] == "DUNG"}
         for rel in c["relations"]:
             label = lab["relations"].get(rel["id"], {}).get("label")
-            if label in (None, "CHUA_RO"):
-                audit["skip_unlabelled_or_unclear"] += 1; continue
+            if label in (None, "CHUA_RO", "XOA"):
+                audit["skip_removed" if label == "XOA" else "skip_unlabelled_or_unclear"] += 1; continue
             if not {rel["head"], rel["tail"]} <= ok:
                 audit["skip_entity_not_DUNG"] += 1; continue
             h, t = ents[rel["head"]], ents[rel["tail"]]

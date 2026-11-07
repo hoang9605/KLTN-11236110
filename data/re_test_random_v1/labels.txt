@@ -1,0 +1,200 @@
+001 0
+002 0 # tử cung "bình thường", rối loạn chức năng của (bị cắt)
+003 ? ? 0 0 # "nó có những rối loạn": không rõ chủ ngữ; hormon là nguyên nhân, không phải điều trị
+004 0 # cụm bệnh đã chứa bộ phận
+005 1 # dị vật vào đường sinh dục
+006 0 # không nói chảy máu ở âm đạo
+007 0 0
+008 ? # câu bị cắt
+009 ? # "cholesterol" là lỗi phiên âm (progesterone) -> ngoài phạm vi
+010 0
+011 ? # lỗi phiên âm cholesterol/progesterone
+012 0
+013 ? 0 # "cận lâm sàng" là nhóm xét nghiệm chung chung
+014 0 0 0 # tầm soát, nội soi không phải điều trị; cụm đã chứa tử cung
+015 0 0
+016 0 0
+017 0
+018 1 # chảy máu từ cổ tử cung
+019 ? ? # "cho thuốc"/"uống thuốc" là hành động chung chung như "điều trị"
+020 0 0
+021 0 0 0
+022 0
+023 1 ? 0 # thiếu máu -> truyền máu; "cho thuốc" chung chung
+024 1 0 0 0 1 0 0 0 0 # rối loạn chức năng của buồng trứng; viêm + nội mạc tử cung bị tách span
+025 0 0 0 1 # ra máu từ cổ tử cung
+026 0 1 # ung thư + tử cung bị tách span
+027 1 # rong huyết -> nạo buồng tử cung
+028 ? # "uống thuốc" chung chung
+029 1 # duphaston để ngưng ra máu
+030 1 # estrogen mỗi ngày ba viên
+031 0 0
+032 0 # "sáu mươi sáu milimet" là số đo, không phải liều
+033 0 0
+034 0
+035 0 0 # thai ngoài tử cung
+036 0 0
+037 0
+038 ? # mổ có thể cho gãy xương, không rõ
+039 0 0
+040 0 0
+041 0
+042 ? # "điều trị loãng xương" là thủ thuật chung chung
+043 0 # số viên trong chai
+044 0 # phủ định "không nên điều trị hoocmon"
+045 0
+046 0 0 0 0
+047 0 0 # vitamin d gây táo bón
+048 0
+049 0 0
+050 0
+051 ? ? ? # nhập viện cấp cứu không phải thủ thuật cụ thể
+052 1 # kiểm tra để chẩn đoán loãng xương
+053 0 0 # vị trí đo, không phải vị trí bệnh
+054 0 0 0 0
+055 0 0
+056 ? # câu bị cắt
+057 0 ? # tác dụng phụ; người dùng biphosphonate là người loãng xương (ngầm)
+058 0 0 0 0 0 0 0 1 # "đau dọc theo khung đại tràng"; cụm "ruột kích thích" đã chứa ruột
+059 0 # cụm đã chứa đại tràng
+060 0 0 0 0 0 0 # trung tiện/đại tiện không phải thủ thuật
+061 0
+062 0
+063 0 1 # vi khuẩn ở trong ruột
+064 0
+065 0 1 0 0 0 0 # táo bón -> dùng nhuận tràng
+066 0 0 1 1 # niêm mạc của đại tràng bị tổn thương; "phục hồi" là tác dụng của thuốc, không phải thủ thuật
+067 0 0 0
+068 0 0
+069 ? 0 # 5htp: thực phẩm chức năng -> ngoài phạm vi
+070 ? 0 ? 0 # bạch truật: đông y -> ngoài phạm vi
+071 0 0
+072 0 ? # hoàng bá: đông y
+073 ? 0 ? # "điều trị bệnh lý" chung chung; thảo dược ngoài phạm vi
+074 0 0
+075 0 0 # que tránh thai gây nhiễm trùng (nguyên nhân)
+076 0 0 0 0
+077 0
+078 1 # viêm nhiễm tại vùng sinh dục
+079 0 0
+080 0
+081 0
+082 0
+083 0 0
+084 0 0 1 0 0 0 0 1 # u nang + buồng trứng tách span; ra máu bất thường đường sinh dục
+085 0 # tác dụng phụ
+086 0
+087 0 0
+088 0
+089 0
+090 0 0 # tiêm ngừa là phòng bệnh
+091 0 0 0
+092 0
+093 1 # bị tiêu + xương tách span (cùng quy ước golden test)
+094 1
+095 1 1 # phục hồi xương bị tiêu
+096 1 0 0 1 # mất hết răng mang hàm giả
+097 0 0 0 1
+098 0 0 0
+099 0 0 0 # cụm "tiêu xương hàm" đã chứa xương
+100 0 0 0
+101 0 0 0 # mất răng là nguyên nhân
+102 0 0 1 0 # nha chu làm tiêu cái xương xung quanh răng
+103 0 0
+104 1 1 1 # điều trị phục hồi tiêu xương: ghép xương, tái tạo
+105 1
+106 1
+107 0
+108 1
+109 1 1 0 0 # ít bị tiêu xương ở hàm dưới; không truyền sang lần nhắc sau
+110 0 0 0 1 # biến chứng với răng bên cạnh
+111 0 0
+112 0 0 1 # cái đau có thể là những cái răng bên cạnh
+113 ? 0 # câu bị cắt sau "đã chụp phim"
+114 1 1 # xương bị tiêu, phải chụp phim ct
+115 0 0 0 0 # implant giữ xương không bị tiêu (phòng ngừa, phủ định)
+116 0 0
+117 0 0 # phủ định "không bị tiêu"
+118 0 0 0 0 0 0 0 1 # nhổ răng gây biến chứng (nguyên nhân); đau + thần kinh tách span
+119 0 1
+120 1 0 # mất răng -> trồng implant
+121 0 1
+122 ? 0 # "không điều trị, không trồng răng lại": giả định phủ định
+123 0
+124 1 0
+125 1 0
+126 1 # răng bị nha chu
+127 1 0 0 # viêm ở vùng quanh chân răng; không truyền sang lần nhắc sau
+128 0 1 0
+129 0 1 0 0 # không trồng implant thì bị tiêu xương (phòng ngừa)
+130 1 1 0 # bị tiêu xương, mức độ phải chụp xquang
+131 0 0 1 # ghép xương cho tiêu xương
+132 1
+133 ? # câu bị cắt
+134 0
+135 0 1 0
+136 0
+137 1
+138 0
+139 0 0 0 0 # phủ định "không thể phục hồi"
+140 0
+141 ? # "thuốc uống" chung chung
+142 0 0 0
+143 0 0 0
+144 1 0 0
+145 ? 0 ? 0 # forlic: thực phẩm chức năng
+146 0 0
+147 0
+148 0 0 # vắc xin phòng ngừa
+149 0
+150 0 0 0 0 0 0
+151 0 0
+152 0 # sữa mẹ giảm nguy cơ (phòng ngừa)
+153 0
+154 1 0 0 0 1 1 # ung thư máu; ung thư tế bào lympho (span bộ phận bị tách)
+155 1
+156 0 0
+157 0
+158 0 ? # "tìm tuyến vú" là lỗi phiên âm
+159 0
+160 0 0 0 1 0 # ung thư ruột
+161 0 0
+162 0 0 0 0 # "cao" không phải liều
+163 0 0
+164 ? # "uống thuốc" chung chung
+165 0 # cụm đã chứa tai
+166 0 1 # đau nhức cơ thể
+167 ? ? # cấp cứu không phải thủ thuật cụ thể
+168 1 0 # câu hỏi tính như khẳng định; "tiền đình" là mảnh của "rối loạn tiền đình"
+169 0 0 0 ? 0 0 0 ? 0 0 0 ? # "xương cơ khớp" là tên chuyên khoa
+170 0 0 0 0
+171 0
+172 0 0 1 # đau nhức cơ khớp vai
+173 0 0 1
+174 0
+175 0 # dự phòng
+176 0 0 0
+177 0 0 0
+178 0
+179 0
+180 0 0
+181 0
+182 0 0 # dự phòng bằng thuốc tiêm
+183 1 # bệnh thuyên tắc huyết khối + tĩnh mạch tách span
+184 1
+185 0
+186 0 0
+187 0
+188 0 # tác dụng phụ
+189 0
+190 0
+191 0 0 0
+192 1 1 # kê thuốc chứa vitamin e và gel lotion để giảm đau lưng
+193 ? 1 # "uống thuốc" chung chung; levodopa điều trị parkinson
+194 1 # kiểm tra sức khỏe -> được chẩn đoán ung thư dạ dày
+195 0 0
+196 0
+197 0 0 # phòng chống
+198 0
+199 ? 1 ? # "sốc điện do rối loạn" mơ hồ; supplement là thực phẩm chức năng
+200 ? ? # "chăm sóc da" chung chung

@@ -1,0 +1,30 @@
+{
+ "source": {
+  "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-test.arrow",
+  "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+ },
+ "seed": 20261108,
+ "pool_sentences_with_pairs": 376,
+ "pool_pairs": 807,
+ "chosen_sentences": 200,
+ "chosen_pairs": 432,
+ "pairs_by_type": {
+  "located_at": 260,
+  "treated_by": 43,
+  "treated_by_procedure": 111,
+  "diagnosed_by": 10,
+  "has_dosage": 8
+ },
+ "pool_pairs_by_type": {
+  "located_at": 463,
+  "treated_by": 92,
+  "treated_by_procedure": 209,
+  "diagnosed_by": 19,
+  "has_dosage": 24
+ },
+ "audit": {
+  "no_candidate_pair": 2970,
+  "skip_in_golden_test": 150,
+  "skip_duplicate": 1
+ }
+}

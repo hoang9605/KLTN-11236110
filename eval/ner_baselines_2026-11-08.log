@@ -1,0 +1,20 @@
+train 4616, validation 1154, test 3497 sentences
+dictionary baseline
+  dictionary thr=0.0: val F1 0.7653
+  dictionary thr=0.2: val F1 0.9115
+  dictionary thr=0.3: val F1 0.9053
+  dictionary thr=0.4: val F1 0.8946
+  dictionary thr=0.5: val F1 0.8707
+  dictionary thr=0.6: val F1 0.8443
+CRF baseline
+  crf c1=0.05 c2=0.01: val F1 0.8898 (173s)
+  crf c1=0.05 c2=0.1: val F1 0.8868 (184s)
+  crf c1=0.05 c2=0.3: val F1 0.8778 (310s)
+  crf c1=0.1 c2=0.01: val F1 0.8888 (304s)
+  crf c1=0.1 c2=0.1: val F1 0.8861 (197s)
+  crf c1=0.1 c2=0.3: val F1 0.8756 (159s)
+  crf c1=0.3 c2=0.01: val F1 0.8821 (189s)
+  crf c1=0.3 c2=0.1: val F1 0.8817 (202s)
+  crf c1=0.3 c2=0.3: val F1 0.8741 (172s)
+dictionary: test raw micro-F1 0.6637, target(6) micro-F1 0.5762
+crf: test raw micro-F1 0.6366, target(6) micro-F1 0.5665

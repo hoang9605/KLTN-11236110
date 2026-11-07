@@ -94,6 +94,17 @@ Ví dụ với câu *"Bệnh nhân tăng huyết áp, kê Aspirin 81mg mỗi ng�
 
 Nhãn yếu nhất là DOSAGE (strict F1 0.437) và PROCEDURE (0.508). Kết quả ablation (bỏ luật, bỏ nhận diện liều) nằm ở `eval/ablation_2026-11-06/summary.json`.
 
+**Baseline NER** (`eval/ner_baselines_2026-11-08/`, chỉ phần mô hình, học trên train, chọn trên validation, chấm test một lần):
+
+| Mô hình | Validation F1 | Test F1, 18 loại gốc | Test F1, 6 loại (CI95) |
+|---|---:|---:|---:|
+| Từ điển (cụm đã thấy trong train) | 0.912 | 0.664 | 0.576 (0.56–0.59) |
+| CRF | 0.890 | 0.637 | 0.567 (0.55–0.58) |
+| **ViHealthBERT checkpoint** | 0.880 | 0.657 | **0.621** (0.61–0.63) |
+
+- Trên 6 loại y khoa, ViHealthBERT thắng rõ, nhờ recall cao hơn (0.69 so với 0.55).
+- Mọi mô hình đều tụt khoảng 25 điểm từ validation sang test. Nguyên nhân là split validation rất gần train (7,5% câu có chung cụm 8 từ với train, test chỉ 0,3%), **không phải checkpoint bị rò rỉ**. Hệ quả: validation không dự đoán tốt kết quả trên test, kể cả cho chuẩn hóa.
+
 ### 4.2. Chuẩn hóa — `eval/normalization_2026-11-07/comparison.md`
 
 Hệ thống có **hai chế độ**:
@@ -116,16 +127,37 @@ Hệ thống có **hai chế độ**:
 - Dạng đã gặp trong train/dev đúng **84%**; dạng mới chỉ đúng **7%**.
 - Ở chế độ thận trọng, hệ thống **không gán sai mã nào**: mọi lỗi đều là từ chối.
 
-### 4.3. Relation Extraction — `outputs/re_ai_v2/summary.md`
+### 4.3. Relation Extraction — `outputs/re_benchmark_2026-11-08/summary.md`
 
-| Phương pháp | CV 5-fold F1 (556 cặp) | Golden test P / R / F1 (121 cặp) |
-|---|---:|---|
-| Luật (viết từ hướng dẫn, không học) | 0.400 | 0.706 / 0.261 / 0.381 |
-| Mô hình cũ (chỉ học gold v1) | 0.289 | 0.360 / 0.196 / 0.254 |
-| Mô hình mới (học gold v1 + AI v2) | 0.400 | 0.429 / 0.326 / 0.370 |
-| **Union: mô hình mới + luật** (chọn theo CV) | **0.482** | **0.468 / 0.478 / 0.473** (CI95 0.33–0.58) |
+Mười phương pháp được so trên cùng dữ liệu và cùng fold. Có ba tập đánh giá:
+- **CV**: 556 cặp, 11,5% dương.
+- **Golden test v1.1**: 117 cặp, 33% dương, lấy mẫu theo hạn mức nên bị làm giàu cặp dương.
+- **Test ngẫu nhiên**: 391 cặp, 18% dương, lấy mẫu đều nên đúng phân bố thật.
 
-So với mô hình cũ, F1 trên golden test tăng từ **0.254 lên 0.473**. Quan hệ `has_dosage` vẫn yếu (F1 0.18), vì dữ liệu huấn luyện gần như không có liều thật (xem mục 5).
+| Phương pháp | CV F1 | Golden v1.1 F1 | Ngẫu nhiên F1 (CI95) |
+|---|---:|---:|---:|
+| Luôn NO_RELATION | 0.000 | 0.000 | 0.000 |
+| Đồng xuất hiện (mọi cặp đúng kiểu là dương) | 0.206 | 0.500 | 0.311 |
+| Ghép cặp gần nhất | 0.276 | 0.523 | 0.425 |
+| Luật | 0.400 | 0.456 | 0.598 (0.50–0.70) |
+| Đặc trưng thủ công + LogReg | 0.370 | 0.406 | 0.550 |
+| TF-IDF + SVM | 0.357 | 0.083 | 0.218 |
+| TF-IDF + LogReg (mô hình đang dùng) | 0.400 | 0.378 | 0.321 |
+| **ViHealthBERT + marker** (3 seed) | **0.552** | 0.500 | 0.537 |
+| TF-IDF + LogReg ∪ luật (đang dùng trong KG) | 0.482 | 0.506 | 0.429 |
+| **ViHealthBERT ∪ luật** | 0.551 | **0.553** | **0.616** (0.54–0.69) |
+
+Cách đọc bảng:
+- **ViHealthBERT ∪ luật** đứng đầu hoặc ngang đầu trên cả ba tập, nhưng khoảng tin cậy vẫn chồng lấn với luật.
+- **TF-IDF không ổn định:** trên CV nó ngang luật, nhưng trên dữ liệu tự nhiên thì tụt dưới cả baseline ghép cặp gần nhất. Lý do là n-gram ký tự học thuộc mặt chữ.
+- **Golden test phải đọc cạnh baseline đồng xuất hiện:** chỉ cần đoán mọi cặp là dương đã được 0.50–0.55 trên tập này.
+- **has_dosage và diagnosed_by** gần như chỉ được luật bắt, vì có quá ít mẫu để học.
+- KG và pipeline vẫn đang dùng TF-IDF ∪ luật. Chuyển sang ViHealthBERT ∪ luật là việc tiếp theo.
+
+**Dữ liệu mới cho RE:**
+- `data/re_test_random_v1/`: tập test ngẫu nhiên, 200 câu.
+- `data/golden_test/v1/ai_labels_v1_1.jsonl`: 17 nhãn golden test được sửa cho đúng quy ước, lý do từng nhãn ở `ai_labels_v1_1_changes.csv`. Bản gốc vẫn giữ.
+- `outputs/re_ai_v2/agreement.json`: trên bộ 600 đoạn, nhãn AI khớp người duyệt ở mức kappa 0.93. Đây là cận trên, vì người duyệt nhìn thấy nhãn AI khi duyệt.
 
 ### 4.4. Knowledge Graph — `outputs/kg_test_2026-11-07/stats.md`
 

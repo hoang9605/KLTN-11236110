@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7484.79it/s]
+[transformers] The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12495.94it/s]
+{"base": "demdecuong/vihealthbert-base-syllable", "pooling": "head/tail start markers", "epochs": 10, "lr": 3e-05, "batch": 16, "max_len": 192, "seeds": [42, 43, 44], "seed_aggregation": "mean probability, threshold 0.5", "class_weight": "n_neg/n_pos", "device": "NVIDIA GeForce GTX 1650", "torch": "2.14.0+cu126", "seconds": 1481}

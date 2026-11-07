@@ -1,0 +1,75 @@
+{
+ "versions": {
+  "ai_draft": "outputs\\vietmed_600_RE_review\\annotations_draft.jsonl",
+  "ai_review": "outputs\\vietmed_600_RE_review\\review_2026_10_15\\annotations_reviewed_600.jsonl",
+  "gold_v1": "data\\re_gold_v1\\annotations_gold_v1.jsonl"
+ },
+ "caveat": "Người duyệt gold v1 thấy nhãn AI khi duyệt, nên độ đồng thuận là cận trên so với một người gán độc lập.",
+ "ai_draft_vs_gold_v1": {
+  "ai_pairs": 423,
+  "gold_pairs": 186,
+  "dropped_from_ai": 302,
+  "new_in_gold": 65,
+  "compared": 90,
+  "observed_agreement": 0.9667,
+  "cohen_kappa": 0.9028,
+  "binary": {
+   "tp": 17,
+   "fp": 3,
+   "fn": 0,
+   "tn": 70,
+   "observed_agreement": 0.9667,
+   "cohen_kappa": 0.8981,
+   "ai_positive_precision": 0.85,
+   "ai_positive_recall": 1.0
+  },
+  "label_changes": {
+   "located_at -> NO_RELATION": 2,
+   "treated_by -> NO_RELATION": 1
+  }
+ },
+ "ai_review_vs_gold_v1": {
+  "ai_pairs": 240,
+  "gold_pairs": 186,
+  "dropped_from_ai": 54,
+  "new_in_gold": 0,
+  "compared": 152,
+  "observed_agreement": 0.9803,
+  "cohen_kappa": 0.9266,
+  "binary": {
+   "tp": 22,
+   "fp": 2,
+   "fn": 1,
+   "tn": 127,
+   "observed_agreement": 0.9803,
+   "cohen_kappa": 0.9245,
+   "ai_positive_precision": 0.9167,
+   "ai_positive_recall": 0.9565
+  },
+  "label_changes": {
+   "NO_RELATION -> located_at": 1,
+   "treated_by -> NO_RELATION": 1,
+   "located_at -> NO_RELATION": 1
+  }
+ },
+ "ai_draft_vs_ai_review": {
+  "ai_pairs": 423,
+  "gold_pairs": 240,
+  "dropped_from_ai": 263,
+  "new_in_gold": 80,
+  "compared": 107,
+  "observed_agreement": 1.0,
+  "cohen_kappa": 1.0,
+  "binary": {
+   "tp": 33,
+   "fp": 0,
+   "fn": 0,
+   "tn": 74,
+   "observed_agreement": 1.0,
+   "cohen_kappa": 1.0,
+   "ai_positive_precision": 1.0,
+   "ai_positive_recall": 1.0
+  },
+  "label_changes": {}
+ }
+}
