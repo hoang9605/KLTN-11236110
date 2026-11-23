@@ -88,7 +88,8 @@ def main():
     if args.command == "train":
         train(args)
     else:
-        pipeline = MedicalREPipeline(RelationExtractor.load(args.model))
+        from .bert_model import load_extractor
+        pipeline = MedicalREPipeline(load_extractor(args.model))
         result = (pipeline.from_ner_result(json.loads(Path(args.input).read_text(encoding="utf-8-sig")))
                   if args.input else pipeline.predict(args.text))
         if args.output:

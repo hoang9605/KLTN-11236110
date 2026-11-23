@@ -9,12 +9,17 @@ Entities:
   --entities model (default)  the NER model, i.e. what the deployed system would produce
   --entities gold             VietMed-NER gold spans (isolates RE + normalization quality)
 
-Relations: the learned RE model for the relations it supports, the guideline rules for
-treated_by / has_dosage (unsupported by the model). --rules-only uses rules everywhere.
+Relations: the learned RE model alone (--re-mode fallback: rules only for relations the model does not support;
+the model supports all five, so rules are not used). --re-mode union adds rule positives (lower on test_v2: 0.682 vs 0.693).
+Default model: ViHealthBERT-RE (Model/vihealthbert-re-vietmed-validated), ViHealthBERT with entity markers,
+trained by relation/train.py --save-model on the expert-reviewed seed plus pattern-synthetic data,
+scored in relation/outputs/evaluation_test_v2.json. --re-model Model/vihealthbert-re-v1 gives the
+earlier model, --re-model outputs/re_ai_v2/model.joblib the TF-IDF model. --rules-only uses rules everywhere.
 
 Outputs in --out: results.jsonl, kg.json, triples.csv, nodes.csv, kg.graphml, kg.html, stats.md
 
     .venv\Scripts\python.exe -X utf8 scripts/build_kg.py --split test --out outputs/kg_test_2026-11-07
+    .venv\Scripts\python.exe -X utf8 scripts/build_kg.py --from-results outputs/kg_test_2026-11-07/results.jsonl --rerun-re --out outputs/kg_test_2026-11-08
 """
 import argparse
 import json
@@ -31,7 +36,7 @@ sys.path.insert(0, str(ROOT / "scripts" / "golden_test"))
 from knowledge_graph import HybridRelationExtractor, KnowledgeGraph  # noqa: E402
 from knowledge_graph.visualize import RELATION_VI, write_html  # noqa: E402
 
-DEFAULT_RE_MODEL = ROOT / "outputs/re_ai_v2/model.joblib"  # gold v1 + AI v2; see outputs/re_ai_v2/summary.md
+DEFAULT_RE_MODEL = ROOT / "Model/vihealthbert-re-vietmed-validated"  # ViHealthBERT-RE; relation/outputs/evaluation_test_v2.json
 
 
 def iter_texts(a):
@@ -58,8 +63,11 @@ def make_re(a):
     from relation_extraction.pipeline import MedicalREPipeline
     model = None
     if not a.rules_only:
-        from relation_extraction.model import RelationExtractor
-        model = RelationExtractor.load(a.re_model)
+        from relation_extraction.bert_model import load_extractor
+        try:
+            model = load_extractor(a.re_model)
+        except FileNotFoundError as e:
+            sys.exit(f"{e}\nDùng --re-model outputs/re_ai_v2/model.joblib cho mô hình TF-IDF, hoặc --rules-only.")
     return MedicalREPipeline(HybridRelationExtractor(model, mode=a.re_mode))
 
 
@@ -90,7 +98,9 @@ def stats_md(kg, meta, a):
     src = args_source(a)
     L = ["# Đồ thị tri thức y tế", "",
          f"- Nguồn: {src}; thực thể: **{a.entities}**; quan hệ: "
-         + ("chỉ luật" if a.rules_only else f"mô hình ({', '.join(meta['model_relations'])}) + luật ({', '.join(meta['rule_relations'])})"),
+         + ("chỉ luật" if a.rules_only else
+            f"{'ViHealthBERT' if meta.get('model_name') == 'vihealthbert-entity-marker' else 'mô hình TF-IDF'} "
+            f"({', '.join(meta['model_relations'])}) ∪ luật (mọi quan hệ; riêng {', '.join(meta['rule_relations'])} chỉ do luật)"),
          f"- {s['documents']} câu → **{s['nodes']} nút** ({s['normalized_nodes']} có mã ICD-10/RxNorm), "
          f"**{s['edges']} cạnh** khác nhau ({s['edge_mentions']} lần xuất hiện); {s['isolated_nodes']} nút không có quan hệ.",
          "- Nút được gộp theo mã chuẩn khi chuẩn hóa có quyết định, nếu không theo loại + chữ đã chuẩn hóa.", "",
@@ -109,7 +119,9 @@ def stats_md(kg, meta, a):
     for e in data["edges"][:25]:
         L.append(f"| {names[e['head']]} | {e['relation']} | {names[e['tail']]} | {e['count']} | {', '.join(e['sources'])} |")
     L += ["", "## Hạn chế", "",
-          "- Chất lượng cạnh phụ thuộc RE: bộ trích mô hình + luật (union) có F1 khoảng 0,47–0,48 (CV và golden test, nhãn AI); `has_dosage` chỉ do luật sinh ra (F1 0,18 trên golden test).",
+          ("- Chất lượng cạnh phụ thuộc RE: trên tập kiểm tra test_v2 (311 cặp, người chuyên môn gán) ViHealthBERT đạt micro F1 0,69 (KTC 95% 0,62–0,76) với precision 0,60, còn ViHealthBERT ∪ luật đạt 0,68 với precision 0,57, tức khoảng 4/10 cạnh có thể sai (relation/outputs/evaluation_test_v2_modes.json). `has_dosage` không có trong tập kiểm định nên chưa được đánh giá riêng; nhiều cạnh `has_dosage` nối tới cụm không phải liều (ví dụ 'nồng độ', 'cao')."
+           if meta.get("model_name") == "vihealthbert-entity-marker" else
+           "- Chất lượng cạnh phụ thuộc RE: bộ trích mô hình + luật (union) có F1 khoảng 0,47–0,48 (CV và golden test, nhãn AI); `has_dosage` chỉ do luật sinh ra (F1 0,18 trên golden test)."),
           "- Thực thể chưa chuẩn hóa không gộp được với các cách viết khác (ví dụ 'rong kinh' và 'ra nhiều kinh' là hai nút).",
           "- RE chỉ xét cặp trong cùng một câu; không xử lý đồng tham chiếu."]
     return "\n".join(L) + "\n"
@@ -126,10 +138,12 @@ def main():
     src.add_argument("--texts")
     src.add_argument("--from-results")
     ap.add_argument("--entities", choices=["model", "gold"], default="model")
-    ap.add_argument("--re-model", default=str(DEFAULT_RE_MODEL))
+    ap.add_argument("--re-model", default=str(DEFAULT_RE_MODEL),
+                    help="thư mục mô hình ViHealthBERT (có re_config.json) hoặc file .joblib TF-IDF")
     ap.add_argument("--rules-only", action="store_true")
-    ap.add_argument("--re-mode", choices=["union", "fallback"], default="union",
-                    help="union: dương nếu mô hình hoặc luật nói dương (chọn theo CV); fallback: luật chỉ cho quan hệ mô hình không hỗ trợ")
+    ap.add_argument("--re-mode", choices=["union", "fallback"], default="fallback",
+                    help="fallback (mặc định): luật chỉ cho quan hệ mô hình không hỗ trợ, tức mô hình đứng một mình; "
+                         "union: dương nếu mô hình hoặc luật nói dương (thấp hơn trên test_v2)")
     ap.add_argument("--rerun-re", action="store_true",
                     help="với --from-results: giữ thực thể đã lưu, chạy lại RE (ví dụ sau khi đổi mô hình RE)")
     ap.add_argument("--limit", type=int, help="chỉ xử lý N câu đầu (thử nhanh)")

@@ -1,0 +1,184 @@
+{
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "</s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "3": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64000": {
+      "content": "<mask>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64001": {
+      "content": "[HEAD_CONDITION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64002": {
+      "content": "[HEAD_DRUG]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64003": {
+      "content": "[HEAD_BODY_PART]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64004": {
+      "content": "[HEAD_TEST]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64005": {
+      "content": "[HEAD_PROCEDURE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64006": {
+      "content": "[HEAD_DOSAGE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64007": {
+      "content": "[TAIL_CONDITION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64008": {
+      "content": "[TAIL_DRUG]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64009": {
+      "content": "[TAIL_BODY_PART]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64010": {
+      "content": "[TAIL_TEST]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64011": {
+      "content": "[TAIL_PROCEDURE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64012": {
+      "content": "[TAIL_DOSAGE]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64013": {
+      "content": "[/HEAD]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64014": {
+      "content": "[/TAIL]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "backend": "custom",
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "extra_special_tokens": [
+    "[HEAD_CONDITION]",
+    "[HEAD_DRUG]",
+    "[HEAD_BODY_PART]",
+    "[HEAD_TEST]",
+    "[HEAD_PROCEDURE]",
+    "[HEAD_DOSAGE]",
+    "[TAIL_CONDITION]",
+    "[TAIL_DRUG]",
+    "[TAIL_BODY_PART]",
+    "[TAIL_TEST]",
+    "[TAIL_PROCEDURE]",
+    "[TAIL_DOSAGE]",
+    "[/HEAD]",
+    "[/TAIL]"
+  ],
+  "is_local": false,
+  "local_files_only": false,
+  "mask_token": "<mask>",
+  "model_max_length": 1000000000000000019884624838656,
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "tokenizer_class": "PhobertTokenizer",
+  "unk_token": "<unk>"
+}

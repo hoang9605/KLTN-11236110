@@ -92,8 +92,8 @@ def main():
 
     extractor = None
     if a.re_model and Path(a.re_model).exists():
-        from relation_extraction.model import RelationExtractor
-        extractor = RelationExtractor.load(a.re_model)
+        from relation_extraction.bert_model import load_extractor
+        extractor = load_extractor(a.re_model)
     if a.predictions:
         preds = {r["id"]: r for r in read_jsonl(a.predictions)}
     else:

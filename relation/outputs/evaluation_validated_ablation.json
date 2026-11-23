@@ -1,0 +1,149 @@
+{
+ "note": "so sánh tất cả cấu hình; cấu hình chính thức chọn bằng dev (evaluation.json). test_v2 chỉ để báo cáo.",
+ "results": {
+  "dev": {
+   "x0": {
+    "macro_f1": 0.796,
+    "micro_f1": 0.848,
+    "ci95_micro": [
+     0.747,
+     0.935
+    ],
+    "per_relation_f1": {
+     "located_at": 0.889,
+     "treated_by": 1.0,
+     "treated_by_procedure": 0.5
+    }
+   },
+   "x1": {
+    "macro_f1": 0.826,
+    "micro_f1": 0.857,
+    "ci95_micro": [
+     0.759,
+     0.937
+    ],
+    "per_relation_f1": {
+     "located_at": 0.877,
+     "treated_by": 1.0,
+     "treated_by_procedure": 0.6
+    }
+   },
+   "v1": {
+    "macro_f1": 0.835,
+    "micro_f1": 0.879,
+    "ci95_micro": [
+     0.791,
+     0.947
+    ],
+    "per_relation_f1": {
+     "located_at": 0.904,
+     "treated_by": 1.0,
+     "treated_by_procedure": 0.6
+    }
+   },
+   "vall": {
+    "macro_f1": 0.853,
+    "micro_f1": 0.872,
+    "ci95_micro": [
+     0.78,
+     0.949
+    ],
+    "per_relation_f1": {
+     "located_at": 0.892,
+     "treated_by": 1.0,
+     "treated_by_procedure": 0.667
+    }
+   },
+   "x3": {
+    "macro_f1": 0.777,
+    "micro_f1": 0.841,
+    "ci95_micro": [
+     0.747,
+     0.917
+    ],
+    "per_relation_f1": {
+     "located_at": 0.873,
+     "treated_by": 0.857,
+     "treated_by_procedure": 0.6
+    }
+   }
+  },
+  "test_v2": {
+   "x0": {
+    "macro_f1": 0.682,
+    "micro_f1": 0.729,
+    "ci95_micro": [
+     0.664,
+     0.788
+    ],
+    "per_relation_f1": {
+     "located_at": 0.879,
+     "treated_by": 0.8,
+     "treated_by_procedure": 0.478,
+     "diagnosed_by": 0.667,
+     "has_dosage": 0.588
+    }
+   },
+   "x1": {
+    "macro_f1": 0.634,
+    "micro_f1": 0.702,
+    "ci95_micro": [
+     0.63,
+     0.767
+    ],
+    "per_relation_f1": {
+     "located_at": 0.849,
+     "treated_by": 0.765,
+     "treated_by_procedure": 0.25,
+     "diagnosed_by": 0.737,
+     "has_dosage": 0.571
+    }
+   },
+   "v1": {
+    "macro_f1": 0.649,
+    "micro_f1": 0.71,
+    "ci95_micro": [
+     0.644,
+     0.773
+    ],
+    "per_relation_f1": {
+     "located_at": 0.865,
+     "treated_by": 0.765,
+     "treated_by_procedure": 0.378,
+     "diagnosed_by": 0.667,
+     "has_dosage": 0.571
+    }
+   },
+   "vall": {
+    "macro_f1": 0.632,
+    "micro_f1": 0.693,
+    "ci95_micro": [
+     0.623,
+     0.755
+    ],
+    "per_relation_f1": {
+     "located_at": 0.844,
+     "treated_by": 0.727,
+     "treated_by_procedure": 0.333,
+     "diagnosed_by": 0.7,
+     "has_dosage": 0.556
+    }
+   },
+   "x3": {
+    "macro_f1": 0.656,
+    "micro_f1": 0.709,
+    "ci95_micro": [
+     0.64,
+     0.773
+    ],
+    "per_relation_f1": {
+     "located_at": 0.849,
+     "treated_by": 0.765,
+     "treated_by_procedure": 0.378,
+     "diagnosed_by": 0.7,
+     "has_dosage": 0.588
+    }
+   }
+  }
+ }
+}

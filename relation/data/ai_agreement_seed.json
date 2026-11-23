@@ -1,0 +1,53 @@
+{
+ "sentences": 600,
+ "mentions": 2363,
+ "pairs": 2135,
+ "entity_kappa": 0.916,
+ "entity_agreement": 0.968,
+ "entity_valid_share_passA": 0.737,
+ "pairs_both_valid_in_both_passes": 1313,
+ "pair_kappa": 0.947,
+ "pair_agreement": 0.975,
+ "pair_kappa_by_relation": {
+  "diagnosed_by": {
+   "n": 28,
+   "kappa": 0.909,
+   "pos_A": 20,
+   "pos_B": 21
+  },
+  "located_at": {
+   "n": 1037,
+   "kappa": 0.965,
+   "pos_A": 343,
+   "pos_B": 347
+  },
+  "treated_by": {
+   "n": 153,
+   "kappa": 0.814,
+   "pos_A": 85,
+   "pos_B": 87
+  },
+  "treated_by_procedure": {
+   "n": 95,
+   "kappa": 0.958,
+   "pos_A": 50,
+   "pos_B": 50
+  }
+ },
+ "positives_passA": {
+  "has_dosage": 1,
+  "treated_by": 85,
+  "diagnosed_by": 21,
+  "located_at": 346,
+  "treated_by_procedure": 50
+ },
+ "positives_agreed": {
+  "treated_by": 79,
+  "diagnosed_by": 20,
+  "located_at": 337,
+  "treated_by_procedure": 49
+ },
+ "entity_disagreements": 75,
+ "pair_disagreements": 118,
+ "rare_agreed_positives_for_check": 99
+}

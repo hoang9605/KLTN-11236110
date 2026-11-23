@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trích xuất thông tin y tế tiếng Việt</title>
+<style>
+  :root {
+    --bg: #f5f6f8; --panel: #ffffff; --ink: #1d2433; --muted: #6b7385; --line: #e2e5eb; --accent: #1f5fa8;
+    --c-condition: #d9485f; --c-drug: #2b8a3e; --c-body: #c77c02; --c-test: #6741d9; --c-proc: #1c7ed6; --c-dose: #0b7285;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 "Segoe UI", Roboto, Arial, sans-serif; }
+  header { background: #13294b; color: #fff; padding: 14px 28px; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  header h1 { margin: 0; font-size: 19px; font-weight: 600; }
+  header span { color: #b8c4d9; font-size: 13px; }
+  main { max-width: 1180px; margin: 22px auto; padding: 0 16px; display: grid; grid-template-columns: 360px 1fr; gap: 18px; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; }
+  .panel h2 { margin: 0 0 10px; font-size: 14px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 600; }
+  textarea { width: 100%; min-height: 130px; resize: vertical; border: 1px solid var(--line); border-radius: 6px; padding: 10px; font: inherit; }
+  textarea:focus { outline: 2px solid #c9dbf2; border-color: var(--accent); }
+  .row { display: flex; gap: 8px; align-items: center; margin-top: 10px; flex-wrap: wrap; }
+  button { border: 0; background: var(--accent); color: #fff; padding: 8px 16px; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer; }
+  button.ghost { background: transparent; color: var(--accent); border: 1px solid var(--line); font-weight: 500; }
+  label.opt { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+  .examples { margin-top: 16px; }
+  .examples button { display: block; width: 100%; text-align: left; background: #f3f6fa; color: var(--ink); border: 1px solid var(--line); font-weight: 400; font-size: 13.5px; margin-top: 6px; padding: 7px 10px; }
+  .examples button:hover { border-color: var(--accent); }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 14px; font-size: 12.5px; color: var(--muted); }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+  .status { font-size: 13px; color: var(--muted); margin-top: 10px; min-height: 20px; }
+  .results { display: grid; gap: 18px; }
+  .annot { font-size: 17px; line-height: 2.5; }
+  .ent { border-radius: 4px; padding: 2px 4px; border-bottom: 2px solid; cursor: default; white-space: nowrap; }
+  .ent sub { font-size: 10px; font-weight: 700; margin-left: 4px; letter-spacing: .03em; vertical-align: 1px; }
+  .ent.muted { opacity: .55; border-bottom-style: dashed; }
+  .ent.hl { box-shadow: 0 0 0 2px #ffd43b; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: left; color: var(--muted); font-weight: 600; font-size: 12.5px; border-bottom: 1px solid var(--line); padding: 6px 8px; }
+  td { border-bottom: 1px solid #eef0f4; padding: 7px 8px; vertical-align: top; }
+  tr.ent-row:hover td { background: #f7f9fc; }
+  .tag { display: inline-block; font-size: 11.5px; font-weight: 700; padding: 1px 7px; border-radius: 10px; color: #fff; }
+  .code { font-family: Consolas, monospace; font-weight: 600; }
+  .sub { color: var(--muted); font-size: 12.5px; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 12.5px; }
+  details ol { margin: 6px 0 0; padding-left: 20px; font-size: 12.5px; }
+  .rel { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid #eef0f4; flex-wrap: wrap; }
+  .rel .arrow { color: var(--muted); font-size: 13px; }
+  .rel .name { font-weight: 600; color: #13294b; }
+  .src { margin-left: auto; font-size: 12px; color: var(--muted); }
+  .bar { display: inline-block; width: 56px; height: 6px; background: #e7ebf1; border-radius: 3px; vertical-align: middle; margin-left: 6px; }
+  .bar b { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+  .tabs { display: flex; gap: 4px; margin-bottom: 10px; }
+  .tabs button { background: transparent; color: var(--muted); border: 1px solid transparent; font-weight: 500; padding: 5px 10px; }
+  .tabs button.on { color: var(--ink); border-color: var(--line); background: #f7f9fc; }
+  pre { margin: 0; max-height: 420px; overflow: auto; background: #0f1b2d; color: #d6e2f5; padding: 12px; border-radius: 6px; font-size: 12.5px; }
+  svg text { font: 12.5px "Segoe UI", Arial, sans-serif; }
+  .empty { color: var(--muted); font-size: 14px; }
+  .api { font-size: 12.5px; margin-top: 4px; padding: 5px 8px; border-radius: 5px; background: #f1f3f6; color: var(--muted); }
+  .api.ready { background: #e6f4ea; color: #2b6a3a; }
+  .api.loading { background: #fff4db; color: #8a5a00; }
+  .api.error { background: #fdecee; color: #a3283b; }
+  button:disabled { opacity: .6; cursor: wait; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Hệ thống trích xuất thực thể, quan hệ và chuẩn hóa thông tin y tế</h1>
+  <span>NER ViHealthBERT · Chuẩn hóa ICD-10 / RxNorm · Trích xuất quan hệ ViHealthBERT</span>
+</header>
+<main>
+  <section class="panel">
+    <h2>Văn bản đầu vào</h2>
+    <textarea id="input" placeholder="Nhập một câu tiếng Việt về triệu chứng, bệnh, thuốc..."></textarea>
+    <div class="row">
+      <button id="run">Phân tích</button>
+      <button class="ghost" id="clear">Xóa</button>
+      <label class="opt"><input type="checkbox" id="norm" checked> Chuẩn hóa mã</label>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="api" id="apiState">Đang kiểm tra máy chủ mô hình…</div>
+    <div class="examples"><h2>Câu ví dụ</h2><div id="examples"></div></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="results" id="results">
+    <div class="panel"><h2>Kết quả</h2><p class="empty">Chọn một câu ví dụ hoặc nhập văn bản rồi bấm Phân tích.</p></div>
+  </section>
+</main>
+
+<script>
+const TYPES = {
+  CONDITION: { vi: "Bệnh / triệu chứng", color: "var(--c-condition)", bg: "#fde8eb" },
+  DRUG: { vi: "Thuốc", color: "var(--c-drug)", bg: "#e3f4e6" },
+  BODY_PART: { vi: "Bộ phận cơ thể", color: "var(--c-body)", bg: "#fdf0d9" },
+  TEST: { vi: "Xét nghiệm / chẩn đoán", color: "var(--c-test)", bg: "#ece7fb" },
+  PROCEDURE: { vi: "Thủ thuật / điều trị", color: "var(--c-proc)", bg: "#e2effc" },
+  DOSAGE: { vi: "Liều dùng", color: "var(--c-dose)", bg: "#dff2f4" },
+};
+const RELS = {
+  located_at: "vị trí ở", treated_by: "điều trị bằng thuốc", treated_by_procedure: "điều trị bằng thủ thuật",
+  diagnosed_by: "chẩn đoán bằng", has_dosage: "liều dùng",
+};
+const METHOD = { exact: "khớp chính xác", synonym: "từ đồng nghĩa", fuzzy: "khớp gần đúng", retrieval: "truy hồi", api: "RxNav" };
+let SAMPLES = [];
+let current = null;
+let view = "table";
+
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+
+$("#legend").innerHTML = Object.entries(TYPES).map(([k, t]) => `<span><i style="background:${t.color}"></i>${t.vi}</span>`).join("");
+
+fetch("samples.json").then((r) => r.json()).then((d) => {
+  SAMPLES = d;
+  $("#examples").innerHTML = d.map((s, i) => `<button data-i="${i}">${esc(s.text)}</button>`).join("");
+  $("#examples").querySelectorAll("button").forEach((b) => b.onclick = () => { $("#input").value = SAMPLES[b.dataset.i].text; show(SAMPLES[b.dataset.i], "mẫu đã chạy sẵn"); });
+  $("#input").value = d[0].text; show(d[0], "mẫu đã chạy sẵn");
+});
+
+let api = "offline"; // offline | loading | ready | error
+async function checkHealth() {
+  try {
+    const h = await (await fetch("/api/health")).json();
+    api = h.status;
+    $("#apiState").textContent = { loading: "Mô hình đang được nạp…", ready: `Mô hình sẵn sàng (nạp trong ${h.load_seconds} s)`, error: "Lỗi nạp mô hình: " + h.error }[h.status];
+    $("#apiState").className = "api " + h.status;
+    if (h.status === "loading") setTimeout(checkHealth, 2000);
+  } catch (e) {
+    api = "offline";
+    $("#apiState").textContent = "Không có máy chủ mô hình: chỉ xem được các câu ví dụ đã chạy sẵn.";
+    $("#apiState").className = "api error";
+  }
+}
+checkHealth();
+
+$("#clear").onclick = () => { $("#input").value = ""; $("#input").focus(); };
+$("#input").addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) $("#run").click(); });
+$("#run").onclick = async () => {
+  const text = $("#input").value.trim();
+  if (!text) return;
+  const hit = SAMPLES.find((s) => s.text === text);
+  if (api !== "ready") {
+    if (hit) return show(hit, "mẫu đã chạy sẵn");
+    $("#status").textContent = api === "loading" ? "Mô hình đang được nạp, thử lại sau vài giây." : "Máy chủ mô hình chưa chạy (web/app.py).";
+    return;
+  }
+  $("#run").disabled = true;
+  $("#status").textContent = "Đang phân tích…";
+  try {
+    const r = await fetch("/api/analyze", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text, normalize: $("#norm").checked }) });
+    const body = await r.json();
+    if (!r.ok) throw new Error(typeof body.detail === "string" ? body.detail : `Lỗi ${r.status}: văn bản phải từ 1 đến 2000 ký tự.`);
+    show(body, "mô hình chạy trực tiếp");
+  } catch (e) {
+    $("#status").textContent = e.message;
+  } finally {
+    $("#run").disabled = false;
+  }
+};
+
+function entById(res, id) { return res.entities.find((e) => e.id === id); }
+
+function annotated(res) {
+  const t = res.text; let out = "", pos = 0;
+  [...res.entities].sort((a, b) => a.start - b.start).forEach((e) => {
+    const ty = TYPES[e.label] || { color: "#888", bg: "#eee" };
+    out += esc(t.slice(pos, e.start));
+    out += `<span class="ent${e.re_excluded ? " muted" : ""}" data-id="${e.id}" style="background:${ty.bg};border-color:${ty.color}" title="${esc(ty.vi || e.label)}${e.re_excluded ? " (chung chung, không dùng để nối quan hệ)" : ""}">${esc(t.slice(e.start, e.end))}<sub style="color:${ty.color}">${e.label}</sub></span>`;
+    pos = e.end;
+  });
+  return out + esc(t.slice(pos));
+}
+
+function entRows(res) {
+  return res.entities.map((e) => {
+    const ty = TYPES[e.label] || { color: "#888", vi: e.label };
+    const n = e.normalized;
+    const code = n ? `<span class="code">${esc(n.code)}</span> <span class="sub">${esc(n.ontology)}</span><div>${esc(n.label_standard)}</div><div class="sub">${METHOD[n.match_method] || n.match_method}${n.match_score != null ? ", điểm " + n.match_score.toFixed(2) : ""}</div>`
+      : `<span class="sub">${["CONDITION", "DRUG"].includes(e.label) ? "chưa chắc chắn, không gán mã" : "—"}</span>`;
+    const cands = (e.candidates || []).length ? `<details><summary>${e.candidates.length} mã gợi ý</summary><ol>${e.candidates.map((c) => `<li><span class="code">${esc(c.code)}</span> ${esc(c.label_standard)} <span class="sub">(${(c.match_score ?? 0).toFixed(2)})</span></li>`).join("")}</ol></details>` : "";
+    return `<tr class="ent-row" data-id="${e.id}"><td>${esc(e.text)}${e.re_excluded ? '<div class="sub">thực thể chung chung</div>' : ""}</td>
+      <td><span class="tag" style="background:${ty.color}">${esc(ty.vi)}</span></td>
+      <td>${(e.confidence ?? 0).toFixed(2)}</td><td>${code}${cands}</td></tr>`;
+  }).join("");
+}
+
+function relRows(res) {
+  if (!res.relations.length) return '<p class="empty">Không tìm thấy quan hệ.</p>';
+  return res.relations.map((r) => {
+    const h = entById(res, r.head), t = entById(res, r.tail);
+    const sc = r.score ?? 0;
+    return `<div class="rel"><b>${esc(h.text)}</b><span class="arrow">→</span><span class="name">${RELS[r.label] || r.label}</span><span class="arrow">→</span><b>${esc(t.text)}</b>
+      <span class="src">${r.source === "rule" ? "luật" : "mô hình"} · ${sc.toFixed(2)}<span class="bar"><b style="width:${Math.round(sc * 100)}%"></b></span></span></div>`;
+  }).join("");
+}
+
+function graph(res) {
+  const ents = res.entities.filter((e) => !e.re_excluded);
+  if (!ents.length) return '<p class="empty">Không có thực thể.</p>';
+  const W = 760, H = 300, cx = W / 2, cy = H / 2, R = Math.min(118, 40 + ents.length * 18);
+  const P = {};
+  ents.forEach((e, i) => { const a = -Math.PI / 2 + (2 * Math.PI * i) / ents.length; P[e.id] = [cx + R * 1.9 * Math.cos(a), cy + R * Math.sin(a)]; });
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Đồ thị quan hệ"><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="#8a94a6"/></marker></defs>`;
+  res.relations.forEach((r) => {
+    const a = P[r.head], b = P[r.tail]; if (!a || !b) return;
+    const dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1, k = 54 / L;
+    const x1 = a[0] + dx * k, y1 = a[1] + dy * k, x2 = b[0] - dx * k, y2 = b[1] - dy * k;
+    s += `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#a5aebd" stroke-width="1.6" marker-end="url(#ar)" ${r.source === "rule" ? 'stroke-dasharray="5 4"' : ""}/>`;
+    s += `<text x="${(x1 + x2) / 2}" y="${(y1 + y2) / 2 - 5}" text-anchor="middle" fill="#4a5468" font-size="11.5">${RELS[r.label] || r.label}</text>`;
+  });
+  ents.forEach((e) => {
+    const [x, y] = P[e.id], ty = TYPES[e.label] || { color: "#888", bg: "#eee" };
+    const w = Math.max(70, e.text.length * 7.6 + 20);
+    s += `<rect x="${x - w / 2}" y="${y - 15}" width="${w}" height="30" rx="15" fill="${ty.bg}" stroke="${ty.color}" stroke-width="1.5"/><text x="${x}" y="${y + 4}" text-anchor="middle" fill="#1d2433">${esc(e.text)}</text>`;
+  });
+  return s + `</svg><div class="sub">Nét liền: mô hình ViHealthBERT · nét đứt: luật.</div>`;
+}
+
+function show(res, origin) {
+  current = res;
+  const nRel = res.relations.length, nEnt = res.entities.length;
+  $("#status").textContent = `${nEnt} thực thể, ${nRel} quan hệ${res.elapsed_ms ? ` · ${res.elapsed_ms} ms trên CPU` : ""} · nguồn: ${origin}`;
+  $("#results").innerHTML = `
+    <div class="panel"><h2>Thực thể trong văn bản</h2><div class="annot">${annotated(res)}</div></div>
+    <div class="panel"><div class="tabs"><button data-v="table" class="${view === "table" ? "on" : ""}">Thực thể và mã chuẩn</button><button data-v="graph" class="${view === "graph" ? "on" : ""}">Đồ thị</button><button data-v="json" class="${view === "json" ? "on" : ""}">JSON</button></div>
+      <div id="view"></div></div>
+    <div class="panel"><h2>Quan hệ</h2>${relRows(res)}</div>`;
+  $("#results").querySelectorAll(".tabs button").forEach((b) => b.onclick = () => { view = b.dataset.v; show(current, origin); });
+  $("#view").innerHTML = view === "graph" ? graph(res) : view === "json" ? `<pre>${esc(JSON.stringify(res, null, 1))}</pre>`
+    : `<table><thead><tr><th>Thực thể</th><th>Loại</th><th>Độ tin cậy</th><th>Mã chuẩn hóa</th></tr></thead><tbody>${entRows(res)}</tbody></table>`;
+  document.querySelectorAll(".ent-row").forEach((tr) => {
+    tr.onmouseenter = () => document.querySelector(`.ent[data-id="${tr.dataset.id}"]`)?.classList.add("hl");
+    tr.onmouseleave = () => document.querySelector(`.ent[data-id="${tr.dataset.id}"]`)?.classList.remove("hl");
+  });
+}
+</script>
+</body>
+</html>

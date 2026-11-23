@@ -1,0 +1,312 @@
+{
+ "config": "x1",
+ "ci95_diff_model_minus_rules": [
+  0.057,
+  0.264
+ ],
+ "test_set": "test_v2",
+ "pairs": 311,
+ "positives": 106,
+ "model": {
+  "micro": {
+   "tp": 86,
+   "fp": 53,
+   "fn": 20,
+   "precision": 0.619,
+   "recall": 0.811,
+   "f1": 0.702
+  },
+  "macro_f1": 0.634,
+  "macro_over": [
+   "located_at",
+   "treated_by",
+   "treated_by_procedure",
+   "diagnosed_by",
+   "has_dosage"
+  ],
+  "per_relation": {
+   "located_at": {
+    "tp": 45,
+    "fp": 8,
+    "fn": 8,
+    "precision": 0.849,
+    "recall": 0.849,
+    "f1": 0.849,
+    "pairs": 161,
+    "positives": 53
+   },
+   "treated_by": {
+    "tp": 13,
+    "fp": 7,
+    "fn": 1,
+    "precision": 0.65,
+    "recall": 0.929,
+    "f1": 0.765,
+    "pairs": 32,
+    "positives": 14
+   },
+   "treated_by_procedure": {
+    "tp": 4,
+    "fp": 14,
+    "fn": 10,
+    "precision": 0.222,
+    "recall": 0.286,
+    "f1": 0.25,
+    "pairs": 49,
+    "positives": 14
+   },
+   "diagnosed_by": {
+    "tp": 14,
+    "fp": 9,
+    "fn": 1,
+    "precision": 0.609,
+    "recall": 0.933,
+    "f1": 0.737,
+    "pairs": 35,
+    "positives": 15
+   },
+   "has_dosage": {
+    "tp": 10,
+    "fp": 15,
+    "fn": 0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1": 0.571,
+    "pairs": 34,
+    "positives": 10
+   }
+  },
+  "pairs": 311
+ },
+ "rules": {
+  "micro": {
+   "tp": 45,
+   "fp": 15,
+   "fn": 61,
+   "precision": 0.75,
+   "recall": 0.425,
+   "f1": 0.542
+  },
+  "macro_f1": 0.356,
+  "macro_over": [
+   "located_at",
+   "treated_by",
+   "treated_by_procedure",
+   "diagnosed_by",
+   "has_dosage"
+  ],
+  "per_relation": {
+   "located_at": {
+    "tp": 35,
+    "fp": 10,
+    "fn": 18,
+    "precision": 0.778,
+    "recall": 0.66,
+    "f1": 0.714,
+    "pairs": 161,
+    "positives": 53
+   },
+   "treated_by": {
+    "tp": 6,
+    "fp": 4,
+    "fn": 8,
+    "precision": 0.6,
+    "recall": 0.429,
+    "f1": 0.5,
+    "pairs": 32,
+    "positives": 14
+   },
+   "treated_by_procedure": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 14,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "pairs": 49,
+    "positives": 14
+   },
+   "diagnosed_by": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 13,
+    "precision": 1.0,
+    "recall": 0.133,
+    "f1": 0.235,
+    "pairs": 35,
+    "positives": 15
+   },
+   "has_dosage": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 8,
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1": 0.333,
+    "pairs": 34,
+    "positives": 10
+   }
+  },
+  "pairs": 311
+ },
+ "model+rules": {
+  "micro": {
+   "tp": 87,
+   "fp": 59,
+   "fn": 19,
+   "precision": 0.596,
+   "recall": 0.821,
+   "f1": 0.69
+  },
+  "macro_f1": 0.619,
+  "macro_over": [
+   "located_at",
+   "treated_by",
+   "treated_by_procedure",
+   "diagnosed_by",
+   "has_dosage"
+  ],
+  "per_relation": {
+   "located_at": {
+    "tp": 46,
+    "fp": 11,
+    "fn": 7,
+    "precision": 0.807,
+    "recall": 0.868,
+    "f1": 0.836,
+    "pairs": 161,
+    "positives": 53
+   },
+   "treated_by": {
+    "tp": 13,
+    "fp": 10,
+    "fn": 1,
+    "precision": 0.565,
+    "recall": 0.929,
+    "f1": 0.703,
+    "pairs": 32,
+    "positives": 14
+   },
+   "treated_by_procedure": {
+    "tp": 4,
+    "fp": 14,
+    "fn": 10,
+    "precision": 0.222,
+    "recall": 0.286,
+    "f1": 0.25,
+    "pairs": 49,
+    "positives": 14
+   },
+   "diagnosed_by": {
+    "tp": 14,
+    "fp": 9,
+    "fn": 1,
+    "precision": 0.609,
+    "recall": 0.933,
+    "f1": 0.737,
+    "pairs": 35,
+    "positives": 15
+   },
+   "has_dosage": {
+    "tp": 10,
+    "fp": 15,
+    "fn": 0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1": 0.571,
+    "pairs": 34,
+    "positives": 10
+   }
+  },
+  "pairs": 311
+ },
+ "always_positive": {
+  "micro": {
+   "tp": 106,
+   "fp": 205,
+   "fn": 0,
+   "precision": 0.341,
+   "recall": 1.0,
+   "f1": 0.508
+  },
+  "macro_f1": 0.521,
+  "macro_over": [
+   "located_at",
+   "treated_by",
+   "treated_by_procedure",
+   "diagnosed_by",
+   "has_dosage"
+  ],
+  "per_relation": {
+   "located_at": {
+    "tp": 53,
+    "fp": 108,
+    "fn": 0,
+    "precision": 0.329,
+    "recall": 1.0,
+    "f1": 0.495,
+    "pairs": 161,
+    "positives": 53
+   },
+   "treated_by": {
+    "tp": 14,
+    "fp": 18,
+    "fn": 0,
+    "precision": 0.438,
+    "recall": 1.0,
+    "f1": 0.609,
+    "pairs": 32,
+    "positives": 14
+   },
+   "treated_by_procedure": {
+    "tp": 14,
+    "fp": 35,
+    "fn": 0,
+    "precision": 0.286,
+    "recall": 1.0,
+    "f1": 0.444,
+    "pairs": 49,
+    "positives": 14
+   },
+   "diagnosed_by": {
+    "tp": 15,
+    "fp": 20,
+    "fn": 0,
+    "precision": 0.429,
+    "recall": 1.0,
+    "f1": 0.6,
+    "pairs": 35,
+    "positives": 15
+   },
+   "has_dosage": {
+    "tp": 10,
+    "fp": 24,
+    "fn": 0,
+    "precision": 0.294,
+    "recall": 1.0,
+    "f1": 0.455,
+    "pairs": 34,
+    "positives": 10
+   }
+  },
+  "pairs": 311
+ },
+ "ci95_micro_f1": {
+  "model": [
+   0.63,
+   0.767
+  ],
+  "rules": [
+   0.446,
+   0.634
+  ],
+  "model+rules": [
+   0.618,
+   0.756
+  ],
+  "always_positive": [
+   0.441,
+   0.58
+  ]
+ }
+}

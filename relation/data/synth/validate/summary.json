@@ -1,0 +1,44 @@
+{
+ "sentences": 2874,
+ "verdict": {
+  "VALID": 1337,
+  "INVALID": 1537
+ },
+ "reason": {
+  "implausible_context": 1413,
+  "collocation_not_found": 30,
+  "relation_not_found": 81,
+  "contradicted": 13
+ },
+ "by_method": {
+  "hard_negative": {
+   "INVALID": 756,
+   "VALID": 901
+  },
+  "mention_replacement": {
+   "VALID": 327,
+   "INVALID": 598
+  },
+  "template": {
+   "VALID": 109,
+   "INVALID": 183
+  }
+ },
+ "valid_pairs_by_label": {
+  "diagnosed_by:neg": 261,
+  "diagnosed_by:pos": 91,
+  "has_dosage:neg": 14,
+  "has_dosage:pos": 62,
+  "located_at:neg": 609,
+  "located_at:pos": 255,
+  "treated_by:neg": 232,
+  "treated_by:pos": 56,
+  "treated_by_procedure:neg": 230,
+  "treated_by_procedure:pos": 75
+ },
+ "expert_sheet": {
+  "sample_valid": 267,
+  "sample_wrong": 143,
+  "all_not_found": 111
+ }
+}

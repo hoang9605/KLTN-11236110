@@ -1,0 +1,1748 @@
+{
+ "raw_vietmed_entity_tags": {
+  "DISEASESYMTOM": 5179,
+  "ORGAN": 3712,
+  "DRUGCHEMICAL": 2114,
+  "DATETIME": 1528,
+  "UNITCALIBRATOR": 1299,
+  "OCCUPATION": 1244,
+  "AGE": 1186,
+  "TREATMENT": 1150,
+  "MEDDEVICETECHNIQUE": 1029,
+  "GENDER": 819,
+  "DIAGNOSTICS": 763,
+  "LOCATION": 697,
+  "FOODDRINK": 574,
+  "PERSONALCARE": 567,
+  "SURGERY": 532,
+  "PREVENTIVEMED": 441,
+  "ORGANIZATION": 82,
+  "TRANSPORTATION": 35
+ },
+ "seed_pool": {
+  "sentences": 5770,
+  "sentence_words_median": 26.0,
+  "sentences_with_candidate": 1276,
+  "sentences_with_strong_candidate": 265,
+  "entities": {
+   "CONDITION": 3721,
+   "DRUG": 1828,
+   "DOSAGE": 1042,
+   "PROCEDURE": 1569,
+   "BODY_PART": 2457,
+   "TEST": 464
+  },
+  "generic_entities_removed": {
+   "PROCEDURE": 451,
+   "TEST": 137,
+   "DRUG": 383
+  },
+  "mentions_distinct": {
+   "CONDITION": 452,
+   "DRUG": 303,
+   "DOSAGE": 186,
+   "PROCEDURE": 185,
+   "BODY_PART": 211,
+   "TEST": 60
+  },
+  "mentions_top": {
+   "CONDITION": [
+    [
+     "ung thư",
+     212
+    ],
+    [
+     "huyết áp",
+     160
+    ],
+    [
+     "béo phì",
+     158
+    ],
+    [
+     "triệu chứng",
+     158
+    ],
+    [
+     "biến chứng",
+     100
+    ],
+    [
+     "đột quỵ",
+     99
+    ],
+    [
+     "đau",
+     97
+    ],
+    [
+     "vi khuẩn",
+     91
+    ],
+    [
+     "rung nhĩ",
+     87
+    ],
+    [
+     "parkinson",
+     86
+    ],
+    [
+     "bệnh lý",
+     70
+    ],
+    [
+     "viêm",
+     60
+    ],
+    [
+     "rối loạn",
+     47
+    ],
+    [
+     "mỡ máu",
+     46
+    ],
+    [
+     "trầm cảm",
+     45
+    ],
+    [
+     "đau đầu",
+     44
+    ],
+    [
+     "tổn thương",
+     44
+    ],
+    [
+     "chóng mặt",
+     42
+    ],
+    [
+     "đái tháo đường",
+     40
+    ],
+    [
+     "mầm bệnh",
+     39
+    ],
+    [
+     "căng thẳng",
+     39
+    ],
+    [
+     "stress",
+     38
+    ],
+    [
+     "virus",
+     37
+    ],
+    [
+     "xơ vữa động mạch",
+     35
+    ],
+    [
+     "mất ngủ",
+     30
+    ],
+    [
+     "bệnh lý nền",
+     30
+    ],
+    [
+     "cục máu đông",
+     28
+    ],
+    [
+     "tác dụng phụ",
+     28
+    ],
+    [
+     "hoa mắt",
+     27
+    ],
+    [
+     "tê bì",
+     27
+    ]
+   ],
+   "DRUG": [
+    [
+     "thuốc",
+     325
+    ],
+    [
+     "đông trùng hạ thảo",
+     71
+    ],
+    [
+     "kiểm soát",
+     57
+    ],
+    [
+     "hoạt chất",
+     42
+    ],
+    [
+     "vitamin",
+     38
+    ],
+    [
+     "chỉ định",
+     36
+    ],
+    [
+     "điều chỉnh",
+     34
+    ],
+    [
+     "phòng ngừa",
+     34
+    ],
+    [
+     "thảo dược",
+     32
+    ],
+    [
+     "chất béo",
+     29
+    ],
+    [
+     "kẽm",
+     25
+    ],
+    [
+     "vắcxin",
+     24
+    ],
+    [
+     "dự phòng",
+     24
+    ],
+    [
+     "can thiệp",
+     24
+    ],
+    [
+     "tuân thủ",
+     23
+    ],
+    [
+     "oxy",
+     22
+    ],
+    [
+     "selen",
+     20
+    ],
+    [
+     "ngăn ngừa",
+     20
+    ],
+    [
+     "chất dinh dưỡng",
+     20
+    ],
+    [
+     "tân dược",
+     16
+    ],
+    [
+     "ức chế",
+     15
+    ],
+    [
+     "protein",
+     15
+    ],
+    [
+     "thuốc kháng đông",
+     14
+    ],
+    [
+     "vitamin k",
+     14
+    ],
+    [
+     "immunesoyz",
+     13
+    ],
+    [
+     "đan sâm",
+     13
+    ],
+    [
+     "phòng tránh",
+     13
+    ],
+    [
+     "hoàng liên",
+     12
+    ],
+    [
+     "cách ly",
+     12
+    ],
+    [
+     "sữa rửa mặt",
+     12
+    ]
+   ],
+   "DOSAGE": [
+    [
+     "cao",
+     244
+    ],
+    [
+     "rất nhiều",
+     98
+    ],
+    [
+     "thứ nhất",
+     76
+    ],
+    [
+     "cái thứ hai",
+     51
+    ],
+    [
+     "mức độ",
+     44
+    ],
+    [
+     "tỷ lệ",
+     30
+    ],
+    [
+     "một phần",
+     29
+    ],
+    [
+     "một người",
+     22
+    ],
+    [
+     "phân tử",
+     21
+    ],
+    [
+     "một vài",
+     20
+    ],
+    [
+     "thấp",
+     18
+    ],
+    [
+     "trung bình",
+     16
+    ],
+    [
+     "nhịp tim",
+     15
+    ],
+    [
+     "những bệnh nhân",
+     15
+    ],
+    [
+     "phần trăm",
+     14
+    ],
+    [
+     "ph",
+     12
+    ],
+    [
+     "phần lớn",
+     10
+    ],
+    [
+     "hba1c",
+     10
+    ],
+    [
+     "hiệu quả cao nhất",
+     10
+    ],
+    [
+     "cái tỷ lệ",
+     9
+    ],
+    [
+     "cường độ",
+     9
+    ],
+    [
+     "một trăm phần trăm",
+     9
+    ],
+    [
+     "rất là lớn",
+     7
+    ],
+    [
+     "năm mươi",
+     6
+    ],
+    [
+     "đường huyết",
+     6
+    ],
+    [
+     "ba bước",
+     6
+    ],
+    [
+     "hai lần",
+     5
+    ],
+    [
+     "hiệu quả cao",
+     5
+    ],
+    [
+     "giá thành",
+     5
+    ],
+    [
+     "bốn viên",
+     4
+    ]
+   ],
+   "PROCEDURE": [
+    [
+     "điều trị",
+     432
+    ],
+    [
+     "cải thiện",
+     126
+    ],
+    [
+     "hỗ trợ",
+     110
+    ],
+    [
+     "phẫu thuật",
+     90
+    ],
+    [
+     "đánh giá",
+     57
+    ],
+    [
+     "mổ",
+     41
+    ],
+    [
+     "phẫu thuật kích thích não sâu",
+     39
+    ],
+    [
+     "hóa trị",
+     33
+    ],
+    [
+     "uống thuốc",
+     32
+    ],
+    [
+     "xạ trị",
+     30
+    ],
+    [
+     "thăm khám",
+     30
+    ],
+    [
+     "tiêm",
+     28
+    ],
+    [
+     "phục hồi",
+     24
+    ],
+    [
+     "kích thích não sâu",
+     23
+    ],
+    [
+     "điện cực",
+     22
+    ],
+    [
+     "nuôi dưỡng",
+     20
+    ],
+    [
+     "cấp cứu",
+     20
+    ],
+    [
+     "trị liệu",
+     19
+    ],
+    [
+     "phương pháp trị liệu",
+     13
+    ],
+    [
+     "lấy mẫu",
+     13
+    ],
+    [
+     "sinh mổ",
+     12
+    ],
+    [
+     "chiết xuất",
+     12
+    ],
+    [
+     "kháng đông",
+     11
+    ],
+    [
+     "chế biến",
+     10
+    ],
+    [
+     "ngăn chặn",
+     9
+    ],
+    [
+     "phác đồ",
+     9
+    ],
+    [
+     "chữa lành bệnh",
+     8
+    ],
+    [
+     "điều trị gen",
+     6
+    ],
+    [
+     "hậu phẫu",
+     6
+    ],
+    [
+     "ngưng thuốc",
+     6
+    ]
+   ],
+   "BODY_PART": [
+    [
+     "cơ thể",
+     180
+    ],
+    [
+     "não",
+     166
+    ],
+    [
+     "da",
+     118
+    ],
+    [
+     "tế bào",
+     114
+    ],
+    [
+     "máu",
+     103
+    ],
+    [
+     "tim",
+     96
+    ],
+    [
+     "thần kinh",
+     91
+    ],
+    [
+     "tim mạch",
+     76
+    ],
+    [
+     "mạch",
+     64
+    ],
+    [
+     "hệ miễn dịch",
+     58
+    ],
+    [
+     "cơ",
+     46
+    ],
+    [
+     "mạch máu",
+     43
+    ],
+    [
+     "ruột",
+     43
+    ],
+    [
+     "đường ruột",
+     42
+    ],
+    [
+     "động mạch",
+     40
+    ],
+    [
+     "huyết",
+     38
+    ],
+    [
+     "vi sinh vật",
+     37
+    ],
+    [
+     "tóc",
+     36
+    ],
+    [
+     "hệ vi sinh",
+     36
+    ],
+    [
+     "miệng",
+     35
+    ],
+    [
+     "xương khớp",
+     35
+    ],
+    [
+     "khớp",
+     33
+    ],
+    [
+     "dạ dày",
+     31
+    ],
+    [
+     "chân tay",
+     31
+    ],
+    [
+     "não bộ",
+     26
+    ],
+    [
+     "gen",
+     23
+    ],
+    [
+     "gan",
+     22
+    ],
+    [
+     "làn da",
+     22
+    ],
+    [
+     "thắt lưng",
+     19
+    ],
+    [
+     "môi",
+     18
+    ]
+   ],
+   "TEST": [
+    [
+     "khám",
+     105
+    ],
+    [
+     "nghiên cứu",
+     89
+    ],
+    [
+     "xét nghiệm",
+     37
+    ],
+    [
+     "kiểm tra",
+     31
+    ],
+    [
+     "chẩn đoán",
+     30
+    ],
+    [
+     "chuyển hóa",
+     19
+    ],
+    [
+     "thụ thể",
+     15
+    ],
+    [
+     "sức đề kháng",
+     13
+    ],
+    [
+     "mri",
+     12
+    ],
+    [
+     "quá trình lão hóa",
+     9
+    ],
+    [
+     "tuần hoàn não",
+     7
+    ],
+    [
+     "điều hòa",
+     6
+    ],
+    [
+     "chống lại bệnh tật",
+     5
+    ],
+    [
+     "siêu âm",
+     5
+    ],
+    [
+     "trao đổi chất",
+     5
+    ],
+    [
+     "bài tiết",
+     4
+    ],
+    [
+     "hấp thu",
+     4
+    ],
+    [
+     "khả năng hồi phục",
+     4
+    ],
+    [
+     "ct",
+     4
+    ],
+    [
+     "thẩm thấu",
+     3
+    ],
+    [
+     "thích nghi",
+     3
+    ],
+    [
+     "đánh giá nguy cơ",
+     3
+    ],
+    [
+     "cận lâm sàng",
+     3
+    ],
+    [
+     "sinh nở",
+     3
+    ],
+    [
+     "test",
+     2
+    ],
+    [
+     "sức miễn dịch",
+     2
+    ],
+    [
+     "chích máu",
+     2
+    ],
+    [
+     "siêu âm tim",
+     2
+    ],
+    [
+     "quy trình thay",
+     2
+    ],
+    [
+     "đo điện tim",
+     2
+    ]
+   ]
+  },
+  "relations": {
+   "located_at": {
+    "pairs": 1865,
+    "near": 758,
+    "cue": 343,
+    "rule_positive": 239,
+    "strong": 251,
+    "sentences": 716,
+    "sentences_strong": 219,
+    "gap_median": 6,
+    "gap_le_4_share": 0.41
+   },
+   "treated_by": {
+    "pairs": 567,
+    "near": 195,
+    "cue": 68,
+    "rule_positive": 12,
+    "strong": 12,
+    "sentences": 297,
+    "sentences_strong": 12,
+    "gap_median": 7,
+    "gap_le_4_share": 0.34
+   },
+   "treated_by_procedure": {
+    "pairs": 561,
+    "near": 194,
+    "cue": 58,
+    "rule_positive": 19,
+    "strong": 21,
+    "sentences": 314,
+    "sentences_strong": 21,
+    "gap_median": 7,
+    "gap_le_4_share": 0.35
+   },
+   "diagnosed_by": {
+    "pairs": 133,
+    "near": 45,
+    "cue": 15,
+    "rule_positive": 7,
+    "strong": 7,
+    "sentences": 85,
+    "sentences_strong": 7,
+    "gap_median": 8,
+    "gap_le_4_share": 0.34
+   },
+   "has_dosage": {
+    "pairs": 244,
+    "near": 96,
+    "cue": 0,
+    "rule_positive": 12,
+    "strong": 12,
+    "sentences": 147,
+    "sentences_strong": 12,
+    "gap_median": 7.0,
+    "gap_le_4_share": 0.39
+   }
+  },
+  "strong_examples": {
+   "located_at": [
+    "đau → thắt lưng | mà tại sao không đi đường này tại sao lại đau thắt lưng nhiều như thế đau gối nhiều như thế đúng không ạ đấy là việc",
+    "tê bì → chân tay | là các cái triệu chứng đau đầu chóng mặt là đôi lúc tê bì chân tay hoặc là cái",
+    "bệnh lý thoái hóa → khớp | cái bệnh lý thoái hóa khớp và cái thoái hóa khớp này nó cũng có thể liên quan đến công việc hàng ngày này tư thế vận",
+    "chảy máu → não | lại chảy máu não ạ",
+    "bệnh lý → cột sống | tôi đang nghĩ đến một số các cái nhóm bệnh lý khác mà chúng tôi gọi là những nhóm bệnh lý cột sống huyết thanh âm",
+    "đột quỵ → tim | mà vữa xơ động mạch nó sẽ gây ra tình trạng đột quỵ não đột quỵ tim đột quỵ",
+    "vết thương → miệng | tổn thương và khó liền hơn vết thương thương ở miệng cho nên mình cung cấp đủ nước cho ông cũng rất là rất là quan",
+    "chảy máu → não | hợp mà bị tai nạn thậm chí là nhấc bổng lên và rơi xuống mà lại rách da đầu rồi nhưng mà nó chưa bị chảy máu trong não"
+   ],
+   "treated_by_procedure": [
+    "béo phì → hỗ trợ | trị liệu và hỗ trợ tâm lý trong quá trình điều trị béo phì",
+    "ung thư → lộ trình | người mà quyết định cái thành bại của cái lộ trình điều trị ung thư ấy chiến thắng",
+    "ung thư → hóa trị | thứ tư dẫn đến sụt cân nữa đó là nếu như chúng ta sử dụng hóa trị ở trong cái việc mà điều trị ung thư thì hóa trị và",
+    "ung thư → lộ trình | có thể là tận hưởng được một cách trọn vẹn nhất cái lộ trình điều trị ung thư mà bác sĩ đã chỉ định cho chúng ta để",
+    "biến chứng → kháng đông | trong tâm nhĩ với chúng ta để mà tránh được những biến chứng phiên tắc thì cái cách mà sử dụng kháng đông như thế nào",
+    "ung thư → lộ trình | thể nào chịu đựng được quá trình điều trị tiếp theo để có thể hoàn tất được cái lộ trình trong cái điều trị ung thư",
+    "bệnh xương khớp → hỗ trợ | kín đáp ứng trọn vẹn được mục tiêu hỗ trợ điều trị bệnh xương khớp là giảm đau chống viêm và phục hồi sụn khớp thoái",
+    "bệnh tự miễn → ngăn chặn | rằng trong tương lai gần có thể giúp các bệnh nhân bị bệnh tự miễn bằng các loại thuốc mới giúp ngăn chặn hoạt động của"
+   ],
+   "treated_by": [
+    "tế bào ung thư → kẽm | sẽ bớt sinh ra các tế bào ung thư cho nên là việc mà sử dụng kẽm với lại",
+    "bệnh gút → corticoid | trường hợp đặc biệt cho nên là những cái thuốc corticoid để điều trị cho bệnh gút phải là những cái trường hợp mà các",
+    "huyết áp → thuốc uống | bác sĩ kiểm tra ngay huyết áp và cho thuốc bác thuốc uống huyết áp để kiểm soát tốt con số huyết áp bác nhé vì với",
+    "biến chứng → kiểm soát | biến chứng thế nên mình uống thuốc kiểm soát tốt và kể cả huyết áp bình thường trở về bình thường mình vẫn uống thuốc",
+    "đái tháo đường → đông trùng hạ thảo | những người bị đái tháo đường sử dụng đông trùng hạ thảo với cái gọi là nguyên tố vi lượng là selen thì nó sẽ giảm cái",
+    "bệnh lý → thảo dược | không thì ở việt nam chúng ta có củ địa liền là một trong những cái thảo dược mà để điều trị cho cái bệnh lý xương khớp",
+    "bệnh lý → dự phòng | cũng như là dự phòng và hỗ trợ điều trị những bệnh lý mãn tính nhất là những",
+    "tế bào ung thư → chất dinh dưỡng | hợp này đó chính là tế bào ung thư thì đó sẽ sử dụng các cái chất dinh dưỡng dự trữ"
+   ],
+   "diagnosed_by": [
+    "mầm bệnh → thụ thể | giải quyết trong vòng hai hoặc ba ngày thường là do mầm bệnh được phát hiện về các thụ thể nhận dạng mẫu và các phản",
+    "chậm → quá trình lão hóa | hạ thảo cũng như nấm hầu thủ cũng như đẳng sâm việt nam nó thanh trừ gốc tự do à nó chống quá trình lão hóa nó làm chậm",
+    "vi khuẩn → nghiên cứu | cơ thể cho đến tận não bộ cả nghiên cứu trên người và động vật đều cho thấy vi khuẩn đường ruột xấu hoặc",
+    "mảng xơ vữa → trao đổi chất | nghĩ đến những cái nguy cơ do những cái mảng xơ vữa nó làm cho chúng ta giảm cái cái trao đổi chất giữa máu với cả với",
+    "quan hệ → nghiên cứu | các nghiên cứu mới đầy bất ngờ cho thấy mối quan hệ giữa môi trường sống ngày càng vô trùng và tỷ lệ mắc mới của các",
+    "ung thư → chuyển hóa | ung thư đó đó làm tăng chuyển hóa nó làm thay đổi cái chuyển hóa bình thường của cơ thể của người bệnh nhân lúc bình thường",
+    "tăng cân → nghiên cứu | hai cái nhóm thuốc này thì nó lại có cái tác dụng đó là làm tăng cân như qua các nghiên cứu thì đã ghi nhận rằng là cái điều trị"
+   ],
+   "has_dosage": [
+    "cordycepin → cao | hàm lượng cordycepin cao thì nó mới có là tác dụng tốt cho sức khỏe của chúng ta vậy thì bác sĩ có thể chi biết cho",
+    "glycerin → nồng độ cao | chất dưỡng ẩm cao hơn ví dụ như là có chứa những cái hoạt chất hyaluronic acid hoặc glycerin nồng độ cao",
+    "polysaccharide → cao | polysaccharide cao gấp bảy lần các cái chế phẩm đông trùng hạ thảo thông thường hiện nay do đó mà các tác dụng tăng",
+    "điều chỉnh → cường độ | tắt những cái điểm tiếp xúc của điện cực đó cũng như là điều chỉnh cường độ ở cái mức độ mà mình mong muốn tối ưu để được",
+    "thủy ngân → huyết áp tâm thu | mười milimet thủy ngân huyết áp tâm thu cũng như chỉ số huyết áp tâm trương có thể là giúp cải thiện cái việc kiểm soát đường",
+    "serotonin → phân tử | ra nhiều serotonin phân tử hạnh phúc chính hơn bộ não trong đầu bạn nhiều nhà",
+    "polysaccharide → cao | polysaccharide cao nhất thị trường phương pháp sấy đồng khô thăng hoa giúp cho các",
+    "canxi → cái thứ hai | trạng là thiếu canxi cái thứ hai nó đôi khi là do chế độ ăn của chúng ta nó cũng thiếu thế cả hai những cái vấn đề này thì chúng ta nên đi khám để có một cái"
+   ]
+  }
+ },
+ "test_pool": {
+  "sentences": 3497,
+  "sentence_words_median": 20,
+  "sentences_with_candidate": 488,
+  "sentences_with_strong_candidate": 105,
+  "entities": {
+   "CONDITION": 1467,
+   "BODY_PART": 1260,
+   "DOSAGE": 257,
+   "DRUG": 727,
+   "TEST": 299,
+   "PROCEDURE": 1143
+  },
+  "generic_entities_removed": {
+   "TEST": 140,
+   "DRUG": 104,
+   "PROCEDURE": 165
+  },
+  "mentions_distinct": {
+   "CONDITION": 312,
+   "BODY_PART": 148,
+   "DOSAGE": 103,
+   "DRUG": 128,
+   "TEST": 29,
+   "PROCEDURE": 182
+  },
+  "mentions_top": {
+   "CONDITION": [
+    [
+     "loãng xương",
+     115
+    ],
+    [
+     "đau",
+     70
+    ],
+    [
+     "bị tiêu",
+     43
+    ],
+    [
+     "có thai",
+     39
+    ],
+    [
+     "rong kinh",
+     36
+    ],
+    [
+     "thuyên tắc huyết khối tĩnh mạch",
+     36
+    ],
+    [
+     "triệu chứng",
+     35
+    ],
+    [
+     "rong huyết",
+     34
+    ],
+    [
+     "biến chứng",
+     32
+    ],
+    [
+     "ra máu",
+     32
+    ],
+    [
+     "hội chứng ruột kích thích",
+     27
+    ],
+    [
+     "tiêu xương",
+     26
+    ],
+    [
+     "ung thư",
+     25
+    ],
+    [
+     "viêm đại tràng",
+     21
+    ],
+    [
+     "mất răng",
+     21
+    ],
+    [
+     "u xơ tử cung",
+     19
+    ],
+    [
+     "điếc",
+     18
+    ],
+    [
+     "chảy máu",
+     17
+    ],
+    [
+     "gãy xương",
+     17
+    ],
+    [
+     "khiếm thính",
+     16
+    ],
+    [
+     "viêm",
+     15
+    ],
+    [
+     "đau đầu",
+     15
+    ],
+    [
+     "rụng tóc",
+     14
+    ],
+    [
+     "rối loạn",
+     13
+    ],
+    [
+     "tử vong",
+     13
+    ],
+    [
+     "tiểu đường",
+     12
+    ],
+    [
+     "quan hệ",
+     11
+    ],
+    [
+     "sốt",
+     11
+    ],
+    [
+     "táo bón",
+     11
+    ],
+    [
+     "di truyền",
+     11
+    ]
+   ],
+   "BODY_PART": [
+    [
+     "xương",
+     183
+    ],
+    [
+     "răng",
+     91
+    ],
+    [
+     "tóc",
+     79
+    ],
+    [
+     "tử cung",
+     48
+    ],
+    [
+     "cái xương",
+     44
+    ],
+    [
+     "máu",
+     43
+    ],
+    [
+     "cơ thể",
+     36
+    ],
+    [
+     "ruột",
+     31
+    ],
+    [
+     "huyết",
+     30
+    ],
+    [
+     "tĩnh mạch",
+     27
+    ],
+    [
+     "thần kinh",
+     24
+    ],
+    [
+     "tai",
+     23
+    ],
+    [
+     "buồng tử cung",
+     19
+    ],
+    [
+     "đại tràng",
+     19
+    ],
+    [
+     "mái tóc",
+     19
+    ],
+    [
+     "nhân xơ",
+     17
+    ],
+    [
+     "nội mạc tử cung",
+     16
+    ],
+    [
+     "cổ tử cung",
+     16
+    ],
+    [
+     "miệng",
+     16
+    ],
+    [
+     "thận",
+     15
+    ],
+    [
+     "buồng trứng",
+     14
+    ],
+    [
+     "tim",
+     14
+    ],
+    [
+     "da đầu",
+     14
+    ],
+    [
+     "dạ dày",
+     13
+    ],
+    [
+     "hàm răng",
+     13
+    ],
+    [
+     "mũi",
+     12
+    ],
+    [
+     "khung xương",
+     12
+    ],
+    [
+     "cơ",
+     12
+    ],
+    [
+     "họng",
+     12
+    ],
+    [
+     "xương hàm",
+     11
+    ]
+   ],
+   "DOSAGE": [
+    [
+     "cao",
+     51
+    ],
+    [
+     "tỷ lệ",
+     14
+    ],
+    [
+     "những bệnh nhân",
+     10
+    ],
+    [
+     "thấp",
+     9
+    ],
+    [
+     "vòng luẩn quẩn",
+     6
+    ],
+    [
+     "mật độ",
+     6
+    ],
+    [
+     "hữu hiệu",
+     6
+    ],
+    [
+     "hiệu quả nhất",
+     6
+    ],
+    [
+     "trung bình",
+     5
+    ],
+    [
+     "một viên",
+     5
+    ],
+    [
+     "mười chín tỉnh",
+     5
+    ],
+    [
+     "rất là lớn",
+     5
+    ],
+    [
+     "cái tỷ lệ",
+     5
+    ],
+    [
+     "ít hơn",
+     4
+    ],
+    [
+     "phổ biến nhất",
+     4
+    ],
+    [
+     "hai lần",
+     4
+    ],
+    [
+     "hai mươi mốt viên",
+     3
+    ],
+    [
+     "chín mươi phần trăm",
+     3
+    ],
+    [
+     "bảy mươi phần trăm",
+     3
+    ],
+    [
+     "ba mươi phần trăm",
+     3
+    ],
+    [
+     "hiệu quả tránh thai",
+     3
+    ],
+    [
+     "milimet",
+     2
+    ],
+    [
+     "khoảng mười milimet",
+     2
+    ],
+    [
+     "năm mươi",
+     2
+    ],
+    [
+     "trăm phần trăm",
+     2
+    ],
+    [
+     "mười hai milimet",
+     2
+    ],
+    [
+     "hai tám viên",
+     2
+    ],
+    [
+     "bảy viên",
+     2
+    ],
+    [
+     "một phần trăm",
+     2
+    ],
+    [
+     "một lọ",
+     2
+    ]
+   ],
+   "DRUG": [
+    [
+     "thuốc",
+     99
+    ],
+    [
+     "canxi",
+     91
+    ],
+    [
+     "vitamin d",
+     72
+    ],
+    [
+     "sữa mẹ",
+     56
+    ],
+    [
+     "progesterone",
+     23
+    ],
+    [
+     "estrogen",
+     18
+    ],
+    [
+     "thuốc ngừa thai",
+     16
+    ],
+    [
+     "vitamin",
+     16
+    ],
+    [
+     "thực phẩm chức năng",
+     16
+    ],
+    [
+     "vắcxin",
+     13
+    ],
+    [
+     "thuốc tránh thai",
+     11
+    ],
+    [
+     "collagen",
+     11
+    ],
+    [
+     "thảo dược",
+     11
+    ],
+    [
+     "sắt",
+     9
+    ],
+    [
+     "kháng sinh",
+     8
+    ],
+    [
+     "hormone",
+     8
+    ],
+    [
+     "thuốc giảm đau",
+     8
+    ],
+    [
+     "thuốc uống",
+     7
+    ],
+    [
+     "vi khuẩn có lợi",
+     7
+    ],
+    [
+     "immunegamma",
+     6
+    ],
+    [
+     "tiêm ngừa",
+     6
+    ],
+    [
+     "hóa chất",
+     6
+    ],
+    [
+     "protid",
+     5
+    ],
+    [
+     "vi khuẩn có hại",
+     5
+    ],
+    [
+     "hoạt chất",
+     5
+    ],
+    [
+     "5k",
+     5
+    ],
+    [
+     "vắc xin",
+     5
+    ],
+    [
+     "oxy",
+     5
+    ],
+    [
+     "natri",
+     5
+    ],
+    [
+     "sữa rửa mặt",
+     5
+    ]
+   ],
+   "TEST": [
+    [
+     "khám",
+     114
+    ],
+    [
+     "siêu âm",
+     36
+    ],
+    [
+     "nghiên cứu",
+     28
+    ],
+    [
+     "chẩn đoán",
+     26
+    ],
+    [
+     "xét nghiệm",
+     18
+    ],
+    [
+     "kiểm tra",
+     16
+    ],
+    [
+     "dap",
+     10
+    ],
+    [
+     "ct",
+     6
+    ],
+    [
+     "đặt mỏ vịt",
+     5
+    ],
+    [
+     "chụp phim",
+     5
+    ],
+    [
+     "siêu âm tử cung buồng trứng",
+     4
+    ],
+    [
+     "mri",
+     4
+    ],
+    [
+     "bơm nước vào buồng tử cung",
+     3
+    ],
+    [
+     "test",
+     3
+    ],
+    [
+     "đánh giá nguy cơ",
+     3
+    ],
+    [
+     "sis",
+     2
+    ],
+    [
+     "chụp phim ct",
+     2
+    ],
+    [
+     "xét nghiệm máu",
+     2
+    ],
+    [
+     "x-quang",
+     2
+    ],
+    [
+     "cận lâm sàng",
+     1
+    ],
+    [
+     "siêu âm phụ khoa",
+     1
+    ],
+    [
+     "siêu âm âm đạo",
+     1
+    ],
+    [
+     "sonohysterography",
+     1
+    ],
+    [
+     "khám chuyển dạ",
+     1
+    ],
+    [
+     "khám tai biến",
+     1
+    ],
+    [
+     "chụp x quang",
+     1
+    ],
+    [
+     "theo dõi thai định kỳ",
+     1
+    ],
+    [
+     "mri xquang",
+     1
+    ],
+    [
+     "chụp xquang",
+     1
+    ]
+   ],
+   "PROCEDURE": [
+    [
+     "điều trị",
+     165
+    ],
+    [
+     "đặt vòng",
+     73
+    ],
+    [
+     "phẫu thuật",
+     57
+    ],
+    [
+     "tránh thai",
+     56
+    ],
+    [
+     "implant",
+     50
+    ],
+    [
+     "ghép xương",
+     40
+    ],
+    [
+     "chăm sóc",
+     34
+    ],
+    [
+     "uống thuốc",
+     25
+    ],
+    [
+     "phương pháp tránh thai",
+     24
+    ],
+    [
+     "phục hồi",
+     21
+    ],
+    [
+     "cấy que tránh thai",
+     21
+    ],
+    [
+     "tiêm",
+     20
+    ],
+    [
+     "que tránh thai",
+     19
+    ],
+    [
+     "trồng implant",
+     17
+    ],
+    [
+     "cấy ốc tai điện tử",
+     17
+    ],
+    [
+     "nhổ răng",
+     15
+    ],
+    [
+     "hồi sức tích cực",
+     15
+    ],
+    [
+     "vòng tránh thai",
+     14
+    ],
+    [
+     "cấy que",
+     14
+    ],
+    [
+     "mổ",
+     12
+    ],
+    [
+     "ốc tai",
+     11
+    ],
+    [
+     "tái tạo",
+     9
+    ],
+    [
+     "trồng răng",
+     9
+    ],
+    [
+     "cấy implant",
+     9
+    ],
+    [
+     "ngừa thai",
+     8
+    ],
+    [
+     "điều trị loãng xương",
+     8
+    ],
+    [
+     "trữ sữa",
+     8
+    ],
+    [
+     "hạ sốt",
+     8
+    ],
+    [
+     "nội soi",
+     7
+    ],
+    [
+     "nạo buồng tử cung",
+     7
+    ]
+   ]
+  },
+  "relations": {
+   "located_at": {
+    "pairs": 575,
+    "near": 240,
+    "cue": 86,
+    "rule_positive": 80,
+    "strong": 83,
+    "sentences": 278,
+    "sentences_strong": 79,
+    "gap_median": 6,
+    "gap_le_4_share": 0.42
+   },
+   "treated_by": {
+    "pairs": 129,
+    "near": 34,
+    "cue": 28,
+    "rule_positive": 10,
+    "strong": 11,
+    "sentences": 79,
+    "sentences_strong": 10,
+    "gap_median": 7,
+    "gap_le_4_share": 0.26
+   },
+   "treated_by_procedure": {
+    "pairs": 263,
+    "near": 90,
+    "cue": 27,
+    "rule_positive": 10,
+    "strong": 11,
+    "sentences": 172,
+    "sentences_strong": 11,
+    "gap_median": 6,
+    "gap_le_4_share": 0.34
+   },
+   "diagnosed_by": {
+    "pairs": 41,
+    "near": 7,
+    "cue": 10,
+    "rule_positive": 4,
+    "strong": 5,
+    "sentences": 27,
+    "sentences_strong": 4,
+    "gap_median": 7,
+    "gap_le_4_share": 0.17
+   },
+   "has_dosage": {
+    "pairs": 66,
+    "near": 35,
+    "cue": 0,
+    "rule_positive": 2,
+    "strong": 2,
+    "sentences": 35,
+    "sentences_strong": 2,
+    "gap_median": 4.0,
+    "gap_le_4_share": 0.53
+   }
+  },
+  "strong_examples": {
+   "treated_by": [
+    "táo bón → vitamin d | viện ăn uống không được thì chúng ta nên dùng với vitamin d còn khi đã sử dụng táo bón thì thậm chí mình dùng bất cứ",
+    "đau đầu → thuốc giảm đau | lý các trường hợp cảm sốt đau đầu thông thường tại nhà bằng những thuốc giảm đau hạ sốt được các bác sĩ chỉ định",
+    "ung thư cổ tử cung → estrogen | lê trần anh minh bắt xe bus hàng ngày đến bệnh viện để tiếp tục điều trị ung thư cổ tử cung sử dụng phương pháp điều trị kết hợp estrogen và nhân sâm",
+    "đau → thuốc giảm đau | sốt đau thì xử lý ra sau có nên dùng thuốc giảm đau hạ sốt từ đầu ngay tại nhà hay không đây là những kiến thức",
+    "thuyên tắc huyết khối tĩnh mạch → thuốc tiêm | nếu và dự phòng thuyên tắc huyết khối tĩnh mạch bằng thuốc tiêm thì tôi có cần lưu ý gì khi tiêm hay không và tôi",
+    "ung thư vú → tamoxifen | trị bệnh ung thư vú chẳng hạn bằng tamoxifen này kéo dài thì nó cũng hay gây nên ra máu âm đạo bất thường",
+    "covid19 → vắc xin | được nâng cao hơn về các biện pháp phòng chống covid19 và tình hình tiêm chủng vắc xin cũng đạt tỷ lệ cao thế nhưng",
+    "lao → thuốc tiêm | huyết khối tĩnh mạch tại nhà sau chấn thương tai nạn lao động bằng thuốc tiêm tuy nhiên trên da em gần đây xuất"
+   ],
+   "treated_by_procedure": [
+    "bệnh lý trên mái tóc → chăm sóc | những cái tiến bộ của y học trong vấn đề chăm sóc và điều trị các trục trặc các bệnh lý trên mái tóc của mình khi mà",
+    "loãng xương → mổ | mới phát hiện mình nó có thể ba mẹ mình loãng xương và bác sĩ điều trị mổ cho bà xong rồi cho về cũng không có hướng dẫn",
+    "câm → phẫu thuật | có những cái đối tượng người lớn mà bị điếc câm chưa được can thiệp phẫu thuật kéo tai điện tử để có thể nghe được về",
+    "mất răng → trồng răng | mất răng mà mình không có điều trị mình không trồng răng lại thì cái phần xương",
+    "phỏng cấp độ ba → hồi sức tích cực | là người nhà tôi bị phỏng cấp độ ba điều trị hồi sức tích cực vừa xuất viện về nhà cho tôi hỏi theo thông tin",
+    "bệnh lý trên mái tóc → chăm sóc | những giải pháp hữu hiệu trong vấn đề chăm sóc và điều trị các bệnh lý trên mái tóc đầu tiên thì chúng ta sẽ nghe",
+    "viêm → uống thuốc | được đánh giá và quyết định điều trị kháng sinh kịp thời ngay cả khi bạn đang uống thuốc điều trị cho viêm tuyến vú",
+    "có thai → tránh thai | pháp tránh thai bằng cấy que mà có thai chắc chắn bạn phải đi khám"
+   ],
+   "located_at": [
+    "triệu chứng → thần kinh | đây thực sự là triệu chứng của các bệnh thần kinh nguy hiểm nhưng đa phần xuất phát từ cảm cúm nhiễm virus viêm dây",
+    "bị tiêu → xương | muốn thực hiện cái giải pháp tiến bộ trong vấn đề phục hồi bị tiêu xương và hoặc là hoàn thiện lại",
+    "di truyền → gen | con nó có gen của mình là nó di truyền qua mình mà bệnh của nó là nó thay đổi",
+    "viêm → nội mạc tử cung | do rối loạn chức năng của buồng trứng hoặc là do viêm nội mạc tử cung hoặc quá sản nội mạc tử cung hoặc là polyp buồng",
+    "bị tiêu → xương | răng ít thôi nhưng lại tiêu xương rất là nhiều và cái giải pháp cho những người mà bị tiêu xương nhiều là như thế nào",
+    "đau → thần kinh | phối cái cái hàm trên với hàm dưới đó tuy nhiên những biến chứng mà do cái cái nhổ răng mà gây ra đó mà đau thần kinh",
+    "đau → đại tràng | thì đau của đại tràng ấy là thường viêm đại tràng thường là đau ở hố chậu trái hoặc hố chậu phải và ở tại chỗ",
+    "bệnh thuyên tắc huyết khối → tĩnh mạch | có hỏi là bác sĩ cho tôi hỏi người đã từng điều trị khỏi bệnh thuyên tắc huyết khối tĩnh mạch có khả năng bị"
+   ],
+   "diagnosed_by": [
+    "rong kinh → xét nghiệm | ba xét nghiệm chẩn đoán rong kinh rong huyết thì ba cách xác nhận không thể thiếu được đó là",
+    "loãng xương → kiểm tra | là thứ nhất là để chúng tôi sẽ nói với bạn hiểu nghĩa là kiểm tra sức khỏe để chẩn đoán loãng xương thì kiểm",
+    "rong huyết → xét nghiệm | ba xét nghiệm chẩn đoán rong kinh rong huyết thì ba cách xác nhận không thể thiếu được đó là",
+    "xẹp đốt sống → chụp x quang | có khi đem vô chụp x quang thấy bố bạn xẹp đốt sống thì lúc đó bác sĩ là quay qua là biến chứng là gãy cột sống do",
+    "covid19 → test | như số đau rát họng tìm đến thăm khám và test nhanh phát hiện nhiễm covid19"
+   ],
+   "has_dosage": [
+    "natri clorua → chín phần ngàn không | nước này là nước muối sinh lý thôi natri clorua chín phần ngàn không và cái tên của nó sẽ",
+    "canxi → một ngàn miligam | mà cầm một viên canxi một ngàn miligam nằm ở trong cái cái lọ như thuốc mà là supplement vô hồn nó"
+   ]
+  }
+ }
+}

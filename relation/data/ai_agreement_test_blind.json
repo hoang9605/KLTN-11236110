@@ -1,0 +1,348 @@
+{
+ "sentences": 100,
+ "entity_kappa": 0.297,
+ "entity_agreement": 0.856,
+ "pairs_compared": 244,
+ "pair_kappa": -0.018,
+ "pair_agreement": 0.43,
+ "pair_kappa_by_relation": {
+  "diagnosed_by": {
+   "n": 31,
+   "kappa": 0.0,
+   "pos_human": 31,
+   "pos_ai": 15
+  },
+  "has_dosage": {
+   "n": 19,
+   "kappa": -0.208,
+   "pos_human": 17,
+   "pos_ai": 10
+  },
+  "located_at": {
+   "n": 139,
+   "kappa": -0.005,
+   "pos_human": 137,
+   "pos_ai": 54
+  },
+  "treated_by": {
+   "n": 29,
+   "kappa": 0.0,
+   "pos_human": 29,
+   "pos_ai": 14
+  },
+  "treated_by_procedure": {
+   "n": 26,
+   "kappa": 0.0,
+   "pos_human": 26,
+   "pos_ai": 14
+  }
+ },
+ "confusion_human_vs_ai": {
+  "NO_RELATION|NO_RELATION": 1,
+  "NO_RELATION|SKIP": 3,
+  "NO_RELATION|has_dosage": 2,
+  "NO_RELATION|located_at": 1,
+  "SKIP|NO_RELATION": 3,
+  "SKIP|SKIP": 19,
+  "SKIP|treated_by": 1,
+  "diagnosed_by|NO_RELATION": 16,
+  "diagnosed_by|SKIP": 4,
+  "diagnosed_by|diagnosed_by": 15,
+  "has_dosage|NO_RELATION": 9,
+  "has_dosage|SKIP": 15,
+  "has_dosage|has_dosage": 8,
+  "located_at|NO_RELATION": 84,
+  "located_at|SKIP": 22,
+  "located_at|located_at": 53,
+  "treated_by|NO_RELATION": 15,
+  "treated_by|SKIP": 3,
+  "treated_by|treated_by": 14,
+  "treated_by_procedure|NO_RELATION": 12,
+  "treated_by_procedure|SKIP": 20,
+  "treated_by_procedure|treated_by_procedure": 14
+ },
+ "threshold": 0.6,
+ "ai_labels_usable_for_seed": false,
+ "disagreement_examples": [
+  {
+   "id": "VM-TE-00710",
+   "pair": "P1",
+   "human": "treated_by",
+   "ai": "NO_RELATION",
+   "text": "viện ăn uống không được thì chúng ta nên dùng với vitamin d còn khi đã sử dụng táo bón thì thậm chí mình dùng bất cứ"
+  },
+  {
+   "id": "VM-TE-00263",
+   "pair": "P1",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "lớn hay nhỏ mà nếu mà lớn thì mình nghi ngờ u xơ tử cung hoặc là ung thư tử cung còn nếu"
+  },
+  {
+   "id": "VM-TE-02812",
+   "pair": "P1",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "vai trò nền móng cho xương vitamin d cần cho thấy có vai trò bảo vệ cơ thể làm giảm nguy cơ ung thư ruột bệnh tim"
+  },
+  {
+   "id": "VM-TE-02812",
+   "pair": "P2",
+   "human": "treated_by",
+   "ai": "NO_RELATION",
+   "text": "vai trò nền móng cho xương vitamin d cần cho thấy có vai trò bảo vệ cơ thể làm giảm nguy cơ ung thư ruột bệnh tim"
+  },
+  {
+   "id": "VM-TE-02812",
+   "pair": "P5",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "vai trò nền móng cho xương vitamin d cần cho thấy có vai trò bảo vệ cơ thể làm giảm nguy cơ ung thư ruột bệnh tim"
+  },
+  {
+   "id": "VM-TE-01780",
+   "pair": "P5",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "phối cái cái hàm trên với hàm dưới đó tuy nhiên những biến chứng mà do cái cái nhổ răng mà gây ra đó mà đau thần kinh"
+  },
+  {
+   "id": "VM-TE-01780",
+   "pair": "P6",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "phối cái cái hàm trên với hàm dưới đó tuy nhiên những biến chứng mà do cái cái nhổ răng mà gây ra đó mà đau thần kinh"
+  },
+  {
+   "id": "VM-TE-01780",
+   "pair": "P7",
+   "human": "treated_by_procedure",
+   "ai": "NO_RELATION",
+   "text": "phối cái cái hàm trên với hàm dưới đó tuy nhiên những biến chứng mà do cái cái nhổ răng mà gây ra đó mà đau thần kinh"
+  },
+  {
+   "id": "VM-TE-00919",
+   "pair": "P2",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "là phải điều trị ổn định cái thần kinh của bệnh nhân bị hội chứng ruột kích thích bởi vì làm sao cái trục thần kinh"
+  },
+  {
+   "id": "VM-TE-00919",
+   "pair": "P3",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "là phải điều trị ổn định cái thần kinh của bệnh nhân bị hội chứng ruột kích thích bởi vì làm sao cái trục thần kinh"
+  },
+  {
+   "id": "VM-TE-00180",
+   "pair": "P1",
+   "human": "NO_RELATION",
+   "ai": "has_dosage",
+   "text": "nước này là nước muối sinh lý thôi natri clorua chín phần ngàn không và cái tên của nó sẽ"
+  },
+  {
+   "id": "VM-TE-00180",
+   "pair": "P2",
+   "human": "NO_RELATION",
+   "ai": "has_dosage",
+   "text": "nước này là nước muối sinh lý thôi natri clorua chín phần ngàn không và cái tên của nó sẽ"
+  },
+  {
+   "id": "VM-TE-00072",
+   "pair": "P1",
+   "human": "treated_by",
+   "ai": "NO_RELATION",
+   "text": "progesterone đây là hcv và cho bệnh nhân đi đi siêu âm phụ khoa"
+  },
+  {
+   "id": "VM-TE-00072",
+   "pair": "P2",
+   "human": "diagnosed_by",
+   "ai": "NO_RELATION",
+   "text": "progesterone đây là hcv và cho bệnh nhân đi đi siêu âm phụ khoa"
+  },
+  {
+   "id": "VM-TE-00740",
+   "pair": "P3",
+   "human": "has_dosage",
+   "ai": "NO_RELATION",
+   "text": "mà cầm một viên canxi một ngàn miligam nằm ở trong cái cái lọ như thuốc mà là supplement vô hồn nó"
+  },
+  {
+   "id": "VM-TE-00740",
+   "pair": "P4",
+   "human": "has_dosage",
+   "ai": "NO_RELATION",
+   "text": "mà cầm một viên canxi một ngàn miligam nằm ở trong cái cái lọ như thuốc mà là supplement vô hồn nó"
+  },
+  {
+   "id": "VM-TE-00344",
+   "pair": "P2",
+   "human": "has_dosage",
+   "ai": "NO_RELATION",
+   "text": "bảy viên nên là thuốc bổ chưa chỉ vì mục đích của họ làm hai mươi tám viên làm gì để"
+  },
+  {
+   "id": "VM-TE-02824",
+   "pair": "P1",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "cơ loãng xương gãy xương và tăng nguy cơ bệnh lý của người lớn cao huyết áp tim"
+  },
+  {
+   "id": "VM-TE-02824",
+   "pair": "P2",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "cơ loãng xương gãy xương và tăng nguy cơ bệnh lý của người lớn cao huyết áp tim"
+  },
+  {
+   "id": "VM-TE-02824",
+   "pair": "P3",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "cơ loãng xương gãy xương và tăng nguy cơ bệnh lý của người lớn cao huyết áp tim"
+  },
+  {
+   "id": "VM-TE-03403",
+   "pair": "P2",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "huyết khối tĩnh mạch tại nhà sau chấn thương tai nạn lao động bằng thuốc tiêm tuy nhiên trên da em gần đây xuất"
+  },
+  {
+   "id": "VM-TE-03403",
+   "pair": "P3",
+   "human": "treated_by",
+   "ai": "NO_RELATION",
+   "text": "huyết khối tĩnh mạch tại nhà sau chấn thương tai nạn lao động bằng thuốc tiêm tuy nhiên trên da em gần đây xuất"
+  },
+  {
+   "id": "VM-TE-00214",
+   "pair": "P1",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "thể là bị bị cái biểu hiện ra tại chó bà ra máu chảy máu vào trong trong ổ bụng bệnh nhân sẽ bị choáng do đau đớn mà choáng"
+  },
+  {
+   "id": "VM-TE-00214",
+   "pair": "P3",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "thể là bị bị cái biểu hiện ra tại chó bà ra máu chảy máu vào trong trong ổ bụng bệnh nhân sẽ bị choáng do đau đớn mà choáng"
+  },
+  {
+   "id": "VM-TE-03267",
+   "pair": "P1",
+   "human": "treated_by",
+   "ai": "NO_RELATION",
+   "text": "nếu và dự phòng thuyên tắc huyết khối tĩnh mạch bằng thuốc tiêm thì tôi có cần lưu ý gì khi tiêm hay không và tôi"
+  },
+  {
+   "id": "VM-TE-01788",
+   "pair": "P1",
+   "human": "diagnosed_by",
+   "ai": "NO_RELATION",
+   "text": "khám kỹ cho cô còn tất nhiên thì cái cái nhổ răng mà đau thần kinh hiện giờ thì cái tỷ lệ nó rất là hiếm mà bởi vì cái"
+  },
+  {
+   "id": "VM-TE-01788",
+   "pair": "P2",
+   "human": "treated_by_procedure",
+   "ai": "NO_RELATION",
+   "text": "khám kỹ cho cô còn tất nhiên thì cái cái nhổ răng mà đau thần kinh hiện giờ thì cái tỷ lệ nó rất là hiếm mà bởi vì cái"
+  },
+  {
+   "id": "VM-TE-00831",
+   "pair": "P2",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "đại tràng với những hình ảnh như là xuất huyết này chảy máu này hoặc là những cái ổ viêm nhiễm áp xe ở đại tràng tổn"
+  },
+  {
+   "id": "VM-TE-00831",
+   "pair": "P4",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "đại tràng với những hình ảnh như là xuất huyết này chảy máu này hoặc là những cái ổ viêm nhiễm áp xe ở đại tràng tổn"
+  },
+  {
+   "id": "VM-TE-00977",
+   "pair": "P1",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "định được thần kinh ruột và đặc biệt làm sao cái thần kinh của chị cũng đỡ căng thẳng hơn qua chi5 cung cấp cho"
+  },
+  {
+   "id": "VM-TE-03176",
+   "pair": "P2",
+   "human": "diagnosed_by",
+   "ai": "NO_RELATION",
+   "text": "như số đau rát họng tìm đến thăm khám và test nhanh phát hiện nhiễm covid19"
+  },
+  {
+   "id": "VM-TE-03176",
+   "pair": "P3",
+   "human": "diagnosed_by",
+   "ai": "NO_RELATION",
+   "text": "như số đau rát họng tìm đến thăm khám và test nhanh phát hiện nhiễm covid19"
+  },
+  {
+   "id": "VM-TE-03176",
+   "pair": "P4",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "như số đau rát họng tìm đến thăm khám và test nhanh phát hiện nhiễm covid19"
+  },
+  {
+   "id": "VM-TE-01862",
+   "pair": "P2",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "bị viêm ở vùng quanh chân răng thì khi cái nhiễm trùng cái viêm đó đó thì bản"
+  },
+  {
+   "id": "VM-TE-03146",
+   "pair": "P1",
+   "human": "treated_by",
+   "ai": "NO_RELATION",
+   "text": "dạng thuốc gì đặc biệt là đối với những cái vùng mà hiện nay được cho phép f0 điều trị tại nhà thì cái thuốc giảm đau"
+  },
+  {
+   "id": "VM-TE-03079",
+   "pair": "P1",
+   "human": "treated_by_procedure",
+   "ai": "NO_RELATION",
+   "text": "để được nội soi chẩn đoán chụp ct kiểm tra nếu mà trường hợp mà viêm gan xương"
+  },
+  {
+   "id": "VM-TE-03079",
+   "pair": "P2",
+   "human": "diagnosed_by",
+   "ai": "NO_RELATION",
+   "text": "để được nội soi chẩn đoán chụp ct kiểm tra nếu mà trường hợp mà viêm gan xương"
+  },
+  {
+   "id": "VM-TE-03079",
+   "pair": "P3",
+   "human": "diagnosed_by",
+   "ai": "NO_RELATION",
+   "text": "để được nội soi chẩn đoán chụp ct kiểm tra nếu mà trường hợp mà viêm gan xương"
+  },
+  {
+   "id": "VM-TE-03079",
+   "pair": "P5",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "để được nội soi chẩn đoán chụp ct kiểm tra nếu mà trường hợp mà viêm gan xương"
+  },
+  {
+   "id": "VM-TE-00244",
+   "pair": "P1",
+   "human": "located_at",
+   "ai": "NO_RELATION",
+   "text": "những cái bệnh lý thực thể ví dụ như là có u xơ tử cung này u buồng trứng hoặc là chảy máu từ cổ tử cung âm đạo"
+  }
+ ]
+}

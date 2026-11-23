@@ -1,0 +1,956 @@
+[
+ {
+  "text": "Bệnh nhân tăng huyết áp, kê Aspirin 81mg mỗi ngày.",
+  "entities": [
+   {
+    "surface_text": "tăng huyết áp",
+    "label": "CONDITION",
+    "start_char": 10,
+    "end_char": 23,
+    "confidence": 0.9955,
+    "normalized": {
+     "ontology": "ICD-10",
+     "code": "I10",
+     "label_standard": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+     "match_method": "synonym",
+     "match_score": 1.0
+    },
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "ICD-10",
+      "code": "I10",
+      "label_standard": "Bệnh tăng huyết áp vô căn (nguyên phát)",
+      "match_method": "synonym",
+      "match_score": 1.0
+     },
+     {
+      "rank": 2,
+      "ontology": "ICD-10",
+      "code": "P29.2",
+      "label_standard": "Tăng huyết áp sơ sinh",
+      "match_method": "retrieval",
+      "match_score": 0.8502076051994046
+     },
+     {
+      "rank": 3,
+      "ontology": "ICD-10",
+      "code": "I11",
+      "label_standard": "Bệnh tim do tăng huyết áp",
+      "match_method": "retrieval",
+      "match_score": 0.8225424601096282
+     },
+     {
+      "rank": 4,
+      "ontology": "ICD-10",
+      "code": "I12",
+      "label_standard": "Bệnh thận do tăng huyết áp",
+      "match_method": "retrieval",
+      "match_score": 0.8083513398214105
+     },
+     {
+      "rank": 5,
+      "ontology": "ICD-10",
+      "code": "I15",
+      "label_standard": "Tăng huyết áp thứ phát",
+      "match_method": "retrieval",
+      "match_score": 0.790403847187007
+     }
+    ],
+    "id": "E1",
+    "start": 10,
+    "end": 23,
+    "text": "tăng huyết áp"
+   },
+   {
+    "surface_text": "Aspirin",
+    "label": "DRUG",
+    "start_char": 28,
+    "end_char": 35,
+    "confidence": 0.9947,
+    "normalized": {
+     "ontology": "RxNorm",
+     "code": "1191",
+     "label_standard": "aspirin",
+     "match_method": "api",
+     "match_score": 1.0
+    },
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "RxNorm",
+      "code": "1191",
+      "label_standard": "aspirin",
+      "match_method": "api",
+      "match_score": 1.0
+     }
+    ],
+    "id": "E2",
+    "start": 28,
+    "end": 35,
+    "text": "Aspirin"
+   },
+   {
+    "surface_text": "81mg",
+    "label": "DOSAGE",
+    "start_char": 36,
+    "end_char": 40,
+    "confidence": 0.99,
+    "dosage_details": {
+     "value": "81",
+     "unit": "mg",
+     "frequency": null
+    },
+    "value": "81",
+    "unit": "mg",
+    "frequency": null,
+    "normalized": null,
+    "candidates": [],
+    "id": "E3",
+    "start": 36,
+    "end": 40,
+    "text": "81mg"
+   }
+  ],
+  "relation_candidates": [
+   {
+    "head": "E1",
+    "tail": "E2",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.999793847401937,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E3",
+    "allowed_relation": "has_dosage",
+    "label": "has_dosage",
+    "score": 0.9999065796534221,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "relations": [
+   {
+    "head": "E1",
+    "tail": "E2",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.999793847401937,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E3",
+    "allowed_relation": "has_dosage",
+    "label": "has_dosage",
+    "score": 0.9999065796534221,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "re_metadata": {
+   "label_source": "hybrid",
+   "generic_entities_skipped": [],
+   "supported_relations": [
+    "diagnosed_by",
+    "has_dosage",
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+  },
+  "elapsed_ms": 1572
+ },
+ {
+  "text": "Bệnh nhân đau ở vùng bụng, được điều trị bằng phẫu thuật.",
+  "entities": [
+   {
+    "surface_text": "đau",
+    "label": "CONDITION",
+    "start_char": 10,
+    "end_char": 13,
+    "confidence": 0.9964,
+    "normalized": {
+     "ontology": "ICD-10",
+     "code": "R52.9",
+     "label_standard": "Đau, không đặc hiệu",
+     "match_method": "synonym",
+     "match_score": 1.0
+    },
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "ICD-10",
+      "code": "R52.9",
+      "label_standard": "Đau, không đặc hiệu",
+      "match_method": "synonym",
+      "match_score": 1.0
+     },
+     {
+      "rank": 2,
+      "ontology": "ICD-10",
+      "code": "M79.1",
+      "label_standard": "Đau cơ",
+      "match_method": "retrieval",
+      "match_score": 0.8497123832959748
+     },
+     {
+      "rank": 3,
+      "ontology": "ICD-10",
+      "code": "H92.0",
+      "label_standard": "Đau tai",
+      "match_method": "retrieval",
+      "match_score": 0.7855091427391907
+     },
+     {
+      "rank": 4,
+      "ontology": "ICD-10",
+      "code": "M25.5",
+      "label_standard": "Đau khớp",
+      "match_method": "retrieval",
+      "match_score": 0.7599390628649586
+     },
+     {
+      "rank": 5,
+      "ontology": "ICD-10",
+      "code": "R51",
+      "label_standard": "Đau đầu",
+      "match_method": "retrieval",
+      "match_score": 0.7322449336058043
+     }
+    ],
+    "id": "E1",
+    "start": 10,
+    "end": 13,
+    "text": "đau"
+   },
+   {
+    "surface_text": "vùng bụng",
+    "label": "BODY_PART",
+    "start_char": 16,
+    "end_char": 25,
+    "confidence": 0.77,
+    "normalized": null,
+    "candidates": [],
+    "id": "E2",
+    "start": 16,
+    "end": 25,
+    "text": "vùng bụng"
+   },
+   {
+    "surface_text": "điều trị",
+    "label": "PROCEDURE",
+    "start_char": 32,
+    "end_char": 40,
+    "confidence": 0.9957,
+    "normalized": null,
+    "candidates": [],
+    "id": "E3",
+    "start": 32,
+    "end": 40,
+    "text": "điều trị",
+    "re_excluded": "generic_entity"
+   },
+   {
+    "surface_text": "phẫu thuật",
+    "label": "PROCEDURE",
+    "start_char": 46,
+    "end_char": 56,
+    "confidence": 0.9892,
+    "normalized": null,
+    "candidates": [],
+    "id": "E4",
+    "start": 46,
+    "end": 56,
+    "text": "phẫu thuật"
+   }
+  ],
+  "relation_candidates": [
+   {
+    "head": "E1",
+    "tail": "E2",
+    "allowed_relation": "located_at",
+    "label": "located_at",
+    "score": 0.9999197721481323,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E1",
+    "tail": "E4",
+    "allowed_relation": "treated_by_procedure",
+    "label": "treated_by_procedure",
+    "score": 0.9998609622319539,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "relations": [
+   {
+    "head": "E1",
+    "tail": "E2",
+    "allowed_relation": "located_at",
+    "label": "located_at",
+    "score": 0.9999197721481323,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E1",
+    "tail": "E4",
+    "allowed_relation": "treated_by_procedure",
+    "label": "treated_by_procedure",
+    "score": 0.9998609622319539,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "re_metadata": {
+   "label_source": "hybrid",
+   "generic_entities_skipped": [
+    "E3"
+   ],
+   "supported_relations": [
+    "diagnosed_by",
+    "has_dosage",
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+  },
+  "elapsed_ms": 531
+ },
+ {
+  "text": "bác sĩ chỉ định chụp x quang phổi để chẩn đoán viêm phổi cho bé",
+  "entities": [
+   {
+    "surface_text": "chụp x quang phổi",
+    "label": "TEST",
+    "start_char": 16,
+    "end_char": 33,
+    "confidence": 0.7319,
+    "normalized": null,
+    "candidates": [],
+    "id": "E1",
+    "start": 16,
+    "end": 33,
+    "text": "chụp x quang phổi"
+   },
+   {
+    "surface_text": "chẩn đoán",
+    "label": "TEST",
+    "start_char": 37,
+    "end_char": 46,
+    "confidence": 0.9911,
+    "normalized": null,
+    "candidates": [],
+    "id": "E2",
+    "start": 37,
+    "end": 46,
+    "text": "chẩn đoán",
+    "re_excluded": "generic_entity"
+   },
+   {
+    "surface_text": "viêm phổi",
+    "label": "CONDITION",
+    "start_char": 47,
+    "end_char": 56,
+    "confidence": 0.9967,
+    "normalized": {
+     "ontology": "ICD-10",
+     "code": "J18",
+     "label_standard": "Viêm phổi, vi sinh vật không xác định",
+     "match_method": "synonym",
+     "match_score": 1.0
+    },
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "ICD-10",
+      "code": "J18",
+      "label_standard": "Viêm phổi, vi sinh vật không xác định",
+      "match_method": "synonym",
+      "match_score": 1.0
+     },
+     {
+      "rank": 2,
+      "ontology": "ICD-10",
+      "code": "J85.1",
+      "label_standard": "Áp xe phổi có viêm phổi",
+      "match_method": "retrieval",
+      "match_score": 0.8072998686041646
+     },
+     {
+      "rank": 3,
+      "ontology": "ICD-10",
+      "code": "R09.1",
+      "label_standard": "Viêm màng phổi",
+      "match_method": "retrieval",
+      "match_score": 0.7935756089028932
+     },
+     {
+      "rank": 4,
+      "ontology": "ICD-10",
+      "code": "J85.2",
+      "label_standard": "Áp xe phổi không có viêm phổi",
+      "match_method": "retrieval",
+      "match_score": 0.7787978235630424
+     },
+     {
+      "rank": 5,
+      "ontology": "ICD-10",
+      "code": "P23",
+      "label_standard": "Viêm phổi bẩm sinh",
+      "match_method": "retrieval",
+      "match_score": 0.75459442510857
+     }
+    ],
+    "id": "E3",
+    "start": 47,
+    "end": 56,
+    "text": "viêm phổi"
+   }
+  ],
+  "relation_candidates": [
+   {
+    "head": "E3",
+    "tail": "E1",
+    "allowed_relation": "diagnosed_by",
+    "label": "diagnosed_by",
+    "score": 0.9998653729756672,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "relations": [
+   {
+    "head": "E3",
+    "tail": "E1",
+    "allowed_relation": "diagnosed_by",
+    "label": "diagnosed_by",
+    "score": 0.9998653729756672,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "re_metadata": {
+   "label_source": "hybrid",
+   "generic_entities_skipped": [
+    "E2"
+   ],
+   "supported_relations": [
+    "diagnosed_by",
+    "has_dosage",
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+  },
+  "elapsed_ms": 344
+ },
+ {
+  "text": "người bị đái tháo đường type 2 thường được dùng metformin 500mg hai lần mỗi ngày",
+  "entities": [
+   {
+    "surface_text": "đái tháo đường",
+    "label": "CONDITION",
+    "start_char": 9,
+    "end_char": 23,
+    "confidence": 0.9978,
+    "normalized": {
+     "ontology": "ICD-10",
+     "code": "E14",
+     "label_standard": "Bệnh đái tháo đường không xác định",
+     "match_method": "synonym",
+     "match_score": 1.0
+    },
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "ICD-10",
+      "code": "E14",
+      "label_standard": "Bệnh đái tháo đường không xác định",
+      "match_method": "synonym",
+      "match_score": 1.0
+     },
+     {
+      "rank": 2,
+      "ontology": "ICD-10",
+      "code": "P70.2",
+      "label_standard": "Đái tháo đường sơ sinh",
+      "match_method": "retrieval",
+      "match_score": 0.8641266038622653
+     },
+     {
+      "rank": 3,
+      "ontology": "ICD-10",
+      "code": "E13",
+      "label_standard": "Bệnh đái tháo đường xác định khác",
+      "match_method": "retrieval",
+      "match_score": 0.8186545226265663
+     },
+     {
+      "rank": 4,
+      "ontology": "ICD-10",
+      "code": "O24",
+      "label_standard": "Đái tháo đường trong khi có thai",
+      "match_method": "retrieval",
+      "match_score": 0.7844733101223219
+     },
+     {
+      "rank": 5,
+      "ontology": "ICD-10",
+      "code": "E15",
+      "label_standard": "Hôn mê hạ đường máu không do đái tháo đường",
+      "match_method": "retrieval",
+      "match_score": 0.7241024135567707
+     }
+    ],
+    "id": "E1",
+    "start": 9,
+    "end": 23,
+    "text": "đái tháo đường"
+   },
+   {
+    "surface_text": "metformin",
+    "label": "DRUG",
+    "start_char": 48,
+    "end_char": 57,
+    "confidence": 0.9935,
+    "normalized": {
+     "ontology": "RxNorm",
+     "code": "6809",
+     "label_standard": "metformin",
+     "match_method": "api",
+     "match_score": 1.0
+    },
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "RxNorm",
+      "code": "6809",
+      "label_standard": "metformin",
+      "match_method": "api",
+      "match_score": 1.0
+     },
+     {
+      "rank": 2,
+      "ontology": "RxNorm",
+      "code": "1161611",
+      "label_standard": "metformin Pill",
+      "match_method": "retrieval",
+      "match_score": 10.869607300281526
+     },
+     {
+      "rank": 3,
+      "ontology": "RxNorm",
+      "code": "583194",
+      "label_standard": "metformin Oral Tablet [Metforming]",
+      "match_method": "retrieval",
+      "match_score": 10.578635780315977
+     }
+    ],
+    "id": "E2",
+    "start": 48,
+    "end": 57,
+    "text": "metformin"
+   },
+   {
+    "surface_text": "500mg",
+    "label": "DOSAGE",
+    "start_char": 58,
+    "end_char": 63,
+    "confidence": 0.98,
+    "dosage_details": {
+     "value": "500",
+     "unit": "mg",
+     "frequency": null
+    },
+    "value": "500",
+    "unit": "mg",
+    "frequency": null,
+    "normalized": null,
+    "candidates": [],
+    "id": "E3",
+    "start": 58,
+    "end": 63,
+    "text": "500mg"
+   }
+  ],
+  "relation_candidates": [
+   {
+    "head": "E1",
+    "tail": "E2",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.9998879432678223,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E3",
+    "allowed_relation": "has_dosage",
+    "label": "has_dosage",
+    "score": 0.9998949766159058,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "relations": [
+   {
+    "head": "E1",
+    "tail": "E2",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.9998879432678223,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E3",
+    "allowed_relation": "has_dosage",
+    "label": "has_dosage",
+    "score": 0.9998949766159058,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "re_metadata": {
+   "label_source": "hybrid",
+   "generic_entities_skipped": [],
+   "supported_relations": [
+    "diagnosed_by",
+    "has_dosage",
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+  },
+  "elapsed_ms": 574
+ },
+ {
+  "text": "viêm khớp gối khiến bệnh nhân đau nhức ở đầu gối, bác sĩ cho tiêm corticoid",
+  "entities": [
+   {
+    "surface_text": "viêm khớp gối",
+    "label": "CONDITION",
+    "start_char": 0,
+    "end_char": 13,
+    "confidence": 0.9954,
+    "normalized": null,
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "ICD-10",
+      "code": "S83.1",
+      "label_standard": "Sai khớp gối",
+      "match_method": "retrieval",
+      "match_score": 0.7362096465685656
+     },
+     {
+      "rank": 2,
+      "ontology": "ICD-10",
+      "code": "M13.9",
+      "label_standard": "Viêm khớp không đặc hiệu",
+      "match_method": "retrieval",
+      "match_score": 0.6971316659674376
+     },
+     {
+      "rank": 3,
+      "ontology": "ICD-10",
+      "code": "G51.1",
+      "label_standard": "Viêm hạch gối",
+      "match_method": "retrieval",
+      "match_score": 0.6689663552510321
+     },
+     {
+      "rank": 4,
+      "ontology": "ICD-10",
+      "code": "M70.5",
+      "label_standard": "Viêm túi thanh mạc khác ở khớp gối",
+      "match_method": "retrieval",
+      "match_score": 0.658143482940927
+     },
+     {
+      "rank": 5,
+      "ontology": "ICD-10",
+      "code": "M17",
+      "label_standard": "thoái hóa khớp gối",
+      "match_method": "retrieval",
+      "match_score": 0.6076137067554161
+     }
+    ],
+    "id": "E1",
+    "start": 0,
+    "end": 13,
+    "text": "viêm khớp gối"
+   },
+   {
+    "surface_text": "đau nhức",
+    "label": "CONDITION",
+    "start_char": 30,
+    "end_char": 38,
+    "confidence": 0.9976,
+    "normalized": {
+     "ontology": "ICD-10",
+     "code": "R52.9",
+     "label_standard": "Đau, không đặc hiệu",
+     "match_method": "synonym",
+     "match_score": 1.0
+    },
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "ICD-10",
+      "code": "R52.9",
+      "label_standard": "Đau, không đặc hiệu",
+      "match_method": "synonym",
+      "match_score": 1.0
+     },
+     {
+      "rank": 2,
+      "ontology": "ICD-10",
+      "code": "R51",
+      "label_standard": "Đau đầu",
+      "match_method": "retrieval",
+      "match_score": 0.6727320035029944
+     },
+     {
+      "rank": 3,
+      "ontology": "ICD-10",
+      "code": "H57.1",
+      "label_standard": "Nhức mắt",
+      "match_method": "retrieval",
+      "match_score": 0.6561162573825957
+     },
+     {
+      "rank": 4,
+      "ontology": "ICD-10",
+      "code": "M79.1",
+      "label_standard": "Đau cơ",
+      "match_method": "retrieval",
+      "match_score": 0.5016710452541921
+     },
+     {
+      "rank": 5,
+      "ontology": "ICD-10",
+      "code": "H92.0",
+      "label_standard": "Đau tai",
+      "match_method": "retrieval",
+      "match_score": 0.46376538749045315
+     }
+    ],
+    "id": "E2",
+    "start": 30,
+    "end": 38,
+    "text": "đau nhức"
+   },
+   {
+    "surface_text": "đầu gối",
+    "label": "BODY_PART",
+    "start_char": 41,
+    "end_char": 48,
+    "confidence": 0.996,
+    "normalized": null,
+    "candidates": [],
+    "id": "E3",
+    "start": 41,
+    "end": 48,
+    "text": "đầu gối"
+   },
+   {
+    "surface_text": "tiêm",
+    "label": "PROCEDURE",
+    "start_char": 61,
+    "end_char": 65,
+    "confidence": 0.9777,
+    "normalized": null,
+    "candidates": [],
+    "id": "E4",
+    "start": 61,
+    "end": 65,
+    "text": "tiêm"
+   },
+   {
+    "surface_text": "corticoid",
+    "label": "DRUG",
+    "start_char": 66,
+    "end_char": 75,
+    "confidence": 0.9943,
+    "normalized": null,
+    "candidates": [
+     {
+      "rank": 1,
+      "ontology": "RxNorm",
+      "code": "795064",
+      "label_standard": "Corticool",
+      "match_method": "retrieval",
+      "match_score": 8.63435173034668
+     },
+     {
+      "rank": 2,
+      "ontology": "RxNorm",
+      "code": "1170961",
+      "label_standard": "Corticool Topical Product",
+      "match_method": "retrieval",
+      "match_score": 8.38764887997842
+     },
+     {
+      "rank": 3,
+      "ontology": "RxNorm",
+      "code": "795066",
+      "label_standard": "hydrocortisone Topical Gel [Corticool]",
+      "match_method": "retrieval",
+      "match_score": 8.292878875831605
+     },
+     {
+      "rank": 4,
+      "ontology": "RxNorm",
+      "code": "795067",
+      "label_standard": "Corticool 1 % Topical Gel",
+      "match_method": "retrieval",
+      "match_score": 6.291730936643689
+     },
+     {
+      "rank": 5,
+      "ontology": "RxNorm",
+      "code": "795065",
+      "label_standard": "hydrocortisone 0.01 MG/MG [Corticool]",
+      "match_method": "retrieval",
+      "match_score": 6.209063257000751
+     }
+    ],
+    "id": "E5",
+    "start": 66,
+    "end": 75,
+    "text": "corticoid"
+   }
+  ],
+  "relation_candidates": [
+   {
+    "head": "E1",
+    "tail": "E3",
+    "allowed_relation": "located_at",
+    "label": "NO_RELATION",
+    "score": 0.019867168235577992,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E1",
+    "tail": "E4",
+    "allowed_relation": "treated_by_procedure",
+    "label": "treated_by_procedure",
+    "score": 0.8597244421641032,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E1",
+    "tail": "E5",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.6424641522268454,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E3",
+    "allowed_relation": "located_at",
+    "label": "located_at",
+    "score": 0.9999222755432129,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E4",
+    "allowed_relation": "treated_by_procedure",
+    "label": "treated_by_procedure",
+    "score": 0.9998484253883362,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E5",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.999597688515981,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "relations": [
+   {
+    "head": "E1",
+    "tail": "E4",
+    "allowed_relation": "treated_by_procedure",
+    "label": "treated_by_procedure",
+    "score": 0.8597244421641032,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E1",
+    "tail": "E5",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.6424641522268454,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E3",
+    "allowed_relation": "located_at",
+    "label": "located_at",
+    "score": 0.9999222755432129,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E4",
+    "allowed_relation": "treated_by_procedure",
+    "label": "treated_by_procedure",
+    "score": 0.9998484253883362,
+    "status": "predicted",
+    "source": "model"
+   },
+   {
+    "head": "E2",
+    "tail": "E5",
+    "allowed_relation": "treated_by",
+    "label": "treated_by",
+    "score": 0.999597688515981,
+    "status": "predicted",
+    "source": "model"
+   }
+  ],
+  "re_metadata": {
+   "label_source": "hybrid",
+   "generic_entities_skipped": [],
+   "supported_relations": [
+    "diagnosed_by",
+    "has_dosage",
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+  },
+  "elapsed_ms": 1223
+ }
+]

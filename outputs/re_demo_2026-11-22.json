@@ -1,0 +1,100 @@
+{
+ "text": "Bệnh nhân đau ở vùng bụng, được điều trị bằng phẫu thuật.",
+ "entities": [
+  {
+   "surface_text": "đau",
+   "label": "CONDITION",
+   "start_char": 10,
+   "end_char": 13,
+   "confidence": 0.9964,
+   "id": "E1",
+   "start": 10,
+   "end": 13,
+   "text": "đau"
+  },
+  {
+   "surface_text": "vùng bụng",
+   "label": "BODY_PART",
+   "start_char": 16,
+   "end_char": 25,
+   "confidence": 0.77,
+   "id": "E2",
+   "start": 16,
+   "end": 25,
+   "text": "vùng bụng"
+  },
+  {
+   "surface_text": "điều trị",
+   "label": "PROCEDURE",
+   "start_char": 32,
+   "end_char": 40,
+   "confidence": 0.9957,
+   "id": "E3",
+   "start": 32,
+   "end": 40,
+   "text": "điều trị",
+   "re_excluded": "generic_entity"
+  },
+  {
+   "surface_text": "phẫu thuật",
+   "label": "PROCEDURE",
+   "start_char": 46,
+   "end_char": 56,
+   "confidence": 0.9892,
+   "id": "E4",
+   "start": 46,
+   "end": 56,
+   "text": "phẫu thuật"
+  }
+ ],
+ "relation_candidates": [
+  {
+   "head": "E1",
+   "tail": "E2",
+   "allowed_relation": "located_at",
+   "label": "located_at",
+   "score": 0.9999197721481323,
+   "status": "predicted"
+  },
+  {
+   "head": "E1",
+   "tail": "E4",
+   "allowed_relation": "treated_by_procedure",
+   "label": "treated_by_procedure",
+   "score": 0.9998609622319539,
+   "status": "predicted"
+  }
+ ],
+ "relations": [
+  {
+   "head": "E1",
+   "tail": "E2",
+   "allowed_relation": "located_at",
+   "label": "located_at",
+   "score": 0.9999197721481323,
+   "status": "predicted"
+  },
+  {
+   "head": "E1",
+   "tail": "E4",
+   "allowed_relation": "treated_by_procedure",
+   "label": "treated_by_procedure",
+   "score": 0.9998609622319539,
+   "status": "predicted"
+  }
+ ],
+ "re_metadata": {
+  "label_source": "ai_labeled_expert_reviewed+synthetic_pattern_validated",
+  "generic_entities_skipped": [
+   "E3"
+  ],
+  "supported_relations": [
+   "diagnosed_by",
+   "has_dosage",
+   "located_at",
+   "treated_by",
+   "treated_by_procedure"
+  ],
+  "score_meaning": "uncalibrated positive probability conditional on allowed type and NO_RELATION"
+ }
+}

@@ -1,0 +1,150 @@
+{"id": "VM-TR-03455", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "treated_by_procedure", "P4": "treated_by_procedure"}}
+{"id": "VM-VA-00994", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-03726", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID", "E4": "VALID", "E5": "INVALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": null, "P4": null, "P5": null, "P6": null}}
+{"id": "VM-TR-04296", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "INVALID", "E6": "INVALID"}, "pairs": {"P1": null, "P2": "treated_by_procedure", "P3": "treated_by_procedure", "P4": null}}
+{"id": "VM-TR-00254", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "INVALID"}, "pairs": {"P1": "located_at", "P2": "NO_RELATION", "P3": null, "P4": "NO_RELATION", "P5": "NO_RELATION", "P6": null}}
+{"id": "VM-TR-01822", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": "located_at"}}
+{"id": "VM-VA-00891", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-03180", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-04119", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "treated_by_procedure", "P2": "treated_by_procedure", "P3": "treated_by_procedure"}}
+{"id": "VM-TR-00939", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "NO_RELATION", "P4": "treated_by_procedure", "P5": "treated_by_procedure", "P6": "NO_RELATION"}}
+{"id": "VM-TR-04012", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "treated_by_procedure", "P2": "treated_by_procedure"}}
+{"id": "VM-TR-02788", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID"}, "pairs": {"P1": "treated_by_procedure", "P2": null}}
+{"id": "VM-VA-00925", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": "treated_by_procedure", "P4": null}}
+{"id": "VM-TR-02008", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": "treated_by_procedure", "P2": "treated_by_procedure", "P3": null}}
+{"id": "VM-TR-02160", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "treated_by_procedure", "P2": "treated_by_procedure"}}
+{"id": "VM-VA-00193", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by"}}
+{"id": "VM-TR-03696", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "NO_RELATION"}}
+{"id": "VM-TR-04101", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "INVALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": "NO_RELATION", "P3": null, "P4": null, "P5": "treated_by", "P6": null}}
+{"id": "VM-TR-04238", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": "NO_RELATION"}}
+{"id": "VM-TR-01227", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": "treated_by", "P4": null}}
+{"id": "VM-TR-02767", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID", "E5": "INVALID", "E6": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": null, "P6": null, "P7": null, "P8": null}}
+{"id": "VM-TR-00360", "entities": {"E1": "VALID", "E2": "INVALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-03818", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "treated_by_procedure", "P2": null, "P3": "treated_by", "P4": "treated_by"}}
+{"id": "VM-TR-02665", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "NO_RELATION"}}
+{"id": "VM-TR-03711", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": null}}
+{"id": "VM-TR-02167", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID", "E6": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "diagnosed_by", "P4": "NO_RELATION", "P5": "NO_RELATION", "P6": "diagnosed_by", "P7": "NO_RELATION", "P8": "NO_RELATION", "P9": "diagnosed_by"}}
+{"id": "VM-TR-00535", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": "NO_RELATION", "P2": null, "P3": null, "P4": null}}
+{"id": "VM-TR-01921", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-VA-00767", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-VA-01077", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION"}}
+{"id": "VM-VA-00741", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-04442", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": null, "P3": null}}
+{"id": "VM-TR-00429", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": null}}
+{"id": "VM-TR-02796", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": null}}
+{"id": "VM-TR-03880", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "treated_by"}}
+{"id": "VM-TR-02902", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": "NO_RELATION", "P3": "NO_RELATION", "P4": "treated_by"}}
+{"id": "VM-TR-03492", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-02737", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by", "P3": "treated_by", "P4": "treated_by"}}
+{"id": "VM-VA-00629", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by"}}
+{"id": "VM-TR-03063", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "INVALID", "E5": "INVALID", "E6": "INVALID", "E7": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": null, "P6": null}}
+{"id": "VM-TR-04347", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": "treated_by", "P2": null}}
+{"id": "VM-TR-01319", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION"}}
+{"id": "VM-TR-03570", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-01761", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "NO_RELATION"}}
+{"id": "VM-TR-03200", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION"}}
+{"id": "VM-TR-03118", "entities": {"E1": "VALID", "E2": "INVALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-03061", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-VA-00508", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-02194", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-VA-00201", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": "located_at", "P3": null, "P4": "located_at"}}
+{"id": "VM-VA-00646", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by", "P3": "located_at", "P4": "located_at"}}
+{"id": "VM-TR-00662", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "INVALID", "E6": "VALID", "E7": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": "NO_RELATION", "P4": null, "P5": "NO_RELATION", "P6": null, "P7": "NO_RELATION", "P8": null, "P9": null}}
+{"id": "VM-TR-03823", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "located_at"}}
+{"id": "VM-VA-00122", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-01199", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID"}, "pairs": {"P1": "located_at", "P2": null}}
+{"id": "VM-TR-04474", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": null, "P3": null}}
+{"id": "VM-TR-00004", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": "located_at"}}
+{"id": "VM-TR-01318", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "located_at", "P2": "NO_RELATION", "P3": "NO_RELATION", "P4": "NO_RELATION"}}
+{"id": "VM-TR-01149", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": null, "P3": "NO_RELATION", "P4": "NO_RELATION"}}
+{"id": "VM-TR-00425", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": "located_at"}}
+{"id": "VM-TR-01824", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "NO_RELATION"}}
+{"id": "VM-TR-03730", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID", "E5": "INVALID", "E6": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": null, "P6": "NO_RELATION", "P7": "located_at", "P8": null}}
+{"id": "VM-TR-04326", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": null, "P3": "located_at"}}
+{"id": "VM-VA-00941", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "located_at", "P2": "NO_RELATION"}}
+{"id": "VM-TR-00105", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "located_at", "P2": "NO_RELATION"}}
+{"id": "VM-VA-00886", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": "NO_RELATION", "P4": "located_at"}}
+{"id": "VM-TR-04526", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "treated_by", "P2": "located_at", "P3": "treated_by", "P4": "treated_by"}}
+{"id": "VM-TR-03211", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "INVALID", "E6": "INVALID"}, "pairs": {"P1": "located_at", "P2": "NO_RELATION", "P3": null, "P4": null, "P5": "located_at", "P6": "NO_RELATION", "P7": null, "P8": null}}
+{"id": "VM-TR-03922", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": "located_at", "P2": null, "P3": "located_at", "P4": null}}
+{"id": "VM-TR-00416", "entities": {"E1": "VALID", "E2": "INVALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-01619", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-04041", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": null}}
+{"id": "VM-TR-03764", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "INVALID", "E5": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": null, "P6": null}}
+{"id": "VM-TR-01872", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by"}}
+{"id": "VM-TR-01322", "entities": {"E1": "VALID", "E2": "INVALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-00467", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "NO_RELATION"}}
+{"id": "VM-TR-00620", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID"}, "pairs": {"P1": "NO_RELATION", "P2": null}}
+{"id": "VM-TR-01331", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID"}, "pairs": {"P1": "NO_RELATION", "P2": null}}
+{"id": "VM-TR-02901", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": "treated_by", "P3": null, "P4": "treated_by"}}
+{"id": "VM-TR-03435", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "treated_by"}}
+{"id": "VM-VA-00759", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-03706", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "INVALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": "NO_RELATION", "P5": null, "P6": null}}
+{"id": "VM-TR-00062", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-00906", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "NO_RELATION"}}
+{"id": "VM-TR-00900", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-03855", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-02571", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by", "P3": null}}
+{"id": "VM-TR-01586", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-02652", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "INVALID", "E4": "VALID", "E5": "VALID", "E6": "VALID"}, "pairs": {"P1": null, "P2": "NO_RELATION", "P3": null, "P4": null, "P5": "treated_by", "P6": null, "P7": null, "P8": "NO_RELATION", "P9": null}}
+{"id": "VM-VA-01135", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": "treated_by", "P4": "treated_by", "P5": "treated_by", "P6": "treated_by"}}
+{"id": "VM-TR-03123", "entities": {"E1": "INVALID", "E2": "VALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-00958", "entities": {"E1": "INVALID", "E2": "VALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-01592", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "treated_by"}}
+{"id": "VM-TR-00985", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": "located_at", "P2": null}}
+{"id": "VM-VA-00686", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "INVALID", "E4": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-02492", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "treated_by", "P2": "NO_RELATION", "P3": "NO_RELATION", "P4": "NO_RELATION", "P5": "NO_RELATION", "P6": "treated_by"}}
+{"id": "VM-VA-00252", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": "located_at"}}
+{"id": "VM-TR-04158", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by", "P3": null}}
+{"id": "VM-TR-03866", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "treated_by"}}
+{"id": "VM-TR-02069", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null}}
+{"id": "VM-VA-00093", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID", "E6": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "NO_RELATION", "P4": "treated_by", "P5": "NO_RELATION", "P6": "NO_RELATION", "P7": "NO_RELATION", "P8": "treated_by", "P9": "NO_RELATION"}}
+{"id": "VM-VA-00685", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID", "E6": "VALID", "E7": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "NO_RELATION", "P4": "NO_RELATION", "P5": "NO_RELATION", "P6": "NO_RELATION"}}
+{"id": "VM-TR-00294", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "located_at", "P2": "NO_RELATION"}}
+{"id": "VM-TR-02646", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID"}, "pairs": {"P1": "treated_by", "P2": "NO_RELATION", "P3": "NO_RELATION", "P4": "treated_by"}}
+{"id": "VM-TR-02870", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": "treated_by"}}
+{"id": "VM-TR-02941", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "INVALID", "E5": "INVALID", "E6": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": null, "P6": null, "P7": null, "P8": null}}
+{"id": "VM-TR-04306", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "INVALID", "E4": "INVALID", "E5": "VALID", "E6": "VALID"}, "pairs": {"P1": null, "P2": "NO_RELATION", "P3": null, "P4": null, "P5": "NO_RELATION"}}
+{"id": "VM-TR-00917", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "located_at", "P2": "treated_by"}}
+{"id": "VM-VA-00803", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "located_at", "P2": "NO_RELATION"}}
+{"id": "VM-TR-00119", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID", "E6": "VALID", "E7": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "treated_by", "P4": "treated_by", "P5": "NO_RELATION", "P6": "NO_RELATION", "P7": "NO_RELATION", "P8": "treated_by", "P9": "treated_by", "P10": "located_at"}}
+{"id": "VM-TR-01455", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID", "E6": "INVALID", "E7": "INVALID"}, "pairs": {"P1": "NO_RELATION", "P2": "treated_by", "P3": null, "P4": null, "P5": "NO_RELATION", "P6": "treated_by", "P7": null, "P8": null, "P9": "located_at", "P10": "treated_by", "P11": null, "P12": null}}
+{"id": "VM-TR-01117", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID", "E5": "VALID", "E6": "VALID", "E7": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": "treated_by", "P5": "NO_RELATION", "P6": "NO_RELATION", "P7": "NO_RELATION", "P8": "located_at", "P9": "NO_RELATION", "P10": "NO_RELATION", "P11": "NO_RELATION", "P12": "located_at"}}
+{"id": "VM-TR-01052", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": "located_at", "P2": "treated_by", "P3": null}}
+{"id": "VM-TR-02250", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "INVALID", "E5": "VALID", "E6": "INVALID", "E7": "VALID", "E8": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": null, "P6": null, "P7": null, "P8": null, "P9": null, "P10": "treated_by", "P11": "treated_by", "P12": "treated_by", "P13": "treated_by", "P14": "treated_by", "P15": "treated_by"}}
+{"id": "VM-TR-00714", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "VALID", "E5": "VALID", "E6": "VALID", "E7": "VALID", "E8": "VALID", "E9": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "NO_RELATION", "P3": "treated_by", "P4": "treated_by", "P5": "treated_by", "P6": "treated_by", "P7": null, "P8": null, "P9": null, "P10": null, "P11": null, "P12": null, "P13": "located_at", "P14": "located_at", "P15": "treated_by", "P16": "treated_by", "P17": "treated_by", "P18": "treated_by"}}
+{"id": "VM-TR-02320", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by", "P3": "treated_by_procedure"}}
+{"id": "VM-VA-00867", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "treated_by", "P2": "treated_by", "P3": "treated_by"}}
+{"id": "VM-TR-04488", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "diagnosed_by", "P2": "diagnosed_by"}}
+{"id": "VM-TR-03773", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": "diagnosed_by", "P4": null}}
+{"id": "VM-TR-02189", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID", "E5": "INVALID"}, "pairs": {"P1": null, "P2": "diagnosed_by", "P3": null}}
+{"id": "VM-TR-03067", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": "NO_RELATION"}}
+{"id": "VM-TR-00678", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "diagnosed_by"}}
+{"id": "VM-TR-03911", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "diagnosed_by"}}
+{"id": "VM-VA-00491", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "diagnosed_by"}}
+{"id": "VM-TR-04447", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": "diagnosed_by", "P2": "NO_RELATION", "P3": "NO_RELATION"}}
+{"id": "VM-TR-00023", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "diagnosed_by"}}
+{"id": "VM-TR-04523", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-00229", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "diagnosed_by"}}
+{"id": "VM-TR-00763", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "NO_RELATION", "P2": "diagnosed_by"}}
+{"id": "VM-TR-02999", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "diagnosed_by"}}
+{"id": "VM-TR-02846", "entities": {"E1": "VALID", "E2": "VALID"}, "pairs": {"P1": "diagnosed_by"}}
+{"id": "VM-VA-00338", "entities": {"E1": "INVALID", "E2": "VALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-02722", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID", "E4": "INVALID"}, "pairs": {"P1": "diagnosed_by", "P2": null}}
+{"id": "VM-TR-00286", "entities": {"E1": "VALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": "diagnosed_by", "P2": "NO_RELATION"}}
+{"id": "VM-TR-02533", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID", "E5": "VALID", "E6": "INVALID", "E7": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": "NO_RELATION", "P6": null, "P7": "treated_by", "P8": null, "P9": null, "P10": null, "P11": null, "P12": null}}
+{"id": "VM-TR-03272", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": "treated_by", "P4": null}}
+{"id": "VM-TR-03550", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-VA-00455", "entities": {"E1": "VALID", "E2": "INVALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-00399", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID", "E4": "INVALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-03579", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "VALID", "E4": "INVALID", "E5": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": "NO_RELATION", "P4": null}}
+{"id": "VM-TR-04563", "entities": {"E1": "VALID", "E2": "INVALID"}, "pairs": {"P1": null}}
+{"id": "VM-TR-01275", "entities": {"E1": "VALID", "E2": "VALID", "E3": "INVALID"}, "pairs": {"P1": "treated_by", "P2": null}}
+{"id": "VM-TR-04535", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-02362", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "VALID", "E4": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-01412", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-02275", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null}}
+{"id": "VM-TR-01485", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null}}
+{"id": "VM-TR-04111", "entities": {"E1": "VALID", "E2": "INVALID", "E3": "INVALID", "E4": "VALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-VA-00168", "entities": {"E1": "INVALID", "E2": "VALID", "E3": "VALID"}, "pairs": {"P1": null, "P2": null}}
+{"id": "VM-TR-04211", "entities": {"E1": "INVALID", "E2": "INVALID", "E3": "INVALID", "E4": "INVALID", "E5": "INVALID", "E6": "INVALID"}, "pairs": {"P1": null, "P2": null, "P3": null, "P4": null, "P5": null, "P6": null}}

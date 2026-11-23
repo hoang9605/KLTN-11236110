@@ -1,0 +1,101 @@
+{"unit_id": "K2-00009", "head_en": "COVID-19", "relation": "diagnosed_by", "tail_en": "pulmonary function test", "head_vi": "sarscov2", "tail_vi": "đo chức năng hô hấp"}
+{"unit_id": "K2-00027", "head_en": "COVID-19", "relation": "diagnosed_by", "tail_en": "laboratory test", "head_vi": "covid19", "tail_vi": "xét nghiệm"}
+{"unit_id": "K2-00049", "head_en": "COVID-19", "relation": "diagnosed_by", "tail_en": "chest X-ray", "head_vi": "covid19", "tail_vi": "chụp x quang phổi"}
+{"unit_id": "K2-00064", "head_en": "sensitive skin", "relation": "diagnosed_by", "tail_en": "dermoscopy", "head_vi": "da nhạy cảm", "tail_vi": "soi da"}
+{"unit_id": "K2-00079", "head_en": "atrial fibrillation", "relation": "diagnosed_by", "tail_en": "electrocardiography", "head_vi": "rung nhĩ", "tail_vi": "điện tâm đồ"}
+{"unit_id": "K2-00098", "head_en": "gout", "relation": "treated_by", "tail_en": "anti-inflammatory drug", "head_vi": "bệnh gút", "tail_vi": "thuốc chống viêm"}
+{"unit_id": "K2-00111", "head_en": "aches", "relation": "treated_by", "tail_en": "corticosteroid", "head_vi": "nhức mỏi", "tail_vi": "corticoid"}
+{"unit_id": "K2-00137", "head_en": "vascular occlusion", "relation": "located_at", "tail_en": "limbs", "head_vi": "nghẽn mạch máu", "tail_vi": "chân tay"}
+{"unit_id": "K2-00162", "head_en": "cancer", "relation": "treated_by", "tail_en": "chemotherapy drug", "head_vi": "ung thư", "tail_vi": "thuốc hóa trị"}
+{"unit_id": "K2-00190", "head_en": "melasma", "relation": "treated_by", "tail_en": "corticosteroid", "head_vi": "nám", "tail_vi": "corticoid"}
+{"unit_id": "K2-00202", "head_en": "lesion", "relation": "located_at", "tail_en": "intestine", "head_vi": "tổn thương", "tail_vi": "ruột"}
+{"unit_id": "K2-00221", "head_en": "atherosclerosis", "relation": "treated_by", "tail_en": "heart-rate-lowering drug", "head_vi": "xơ vữa động mạch", "tail_vi": "thuốc để giảm nhịp tim"}
+{"unit_id": "K2-00232", "head_en": "atrial fibrillation", "relation": "treated_by", "tail_en": "statin", "head_vi": "rung nhĩ", "tail_vi": "statin"}
+{"unit_id": "K2-00251", "head_en": "sensitive skin", "relation": "treated_by", "tail_en": "retinol", "head_vi": "da nhạy cảm", "tail_vi": "retinol"}
+{"unit_id": "K2-00282", "head_en": "diabetes mellitus", "relation": "located_at", "tail_en": "thyroid gland", "head_vi": "tiểu đường", "tail_vi": "tuyến giáp"}
+{"unit_id": "K2-00305", "head_en": "lesion", "relation": "located_at", "tail_en": "colon", "head_vi": "tổn thương", "tail_vi": "đại tràng"}
+{"unit_id": "K2-00333", "head_en": "sensitive skin", "relation": "treated_by", "tail_en": "topical cream", "head_vi": "da nhạy cảm", "tail_vi": "kem bôi"}
+{"unit_id": "K2-00364", "head_en": "atrial fibrillation", "relation": "treated_by", "tail_en": "aspirin", "head_vi": "rung nhĩ", "tail_vi": "aspirin"}
+{"unit_id": "K2-00376", "head_en": "paresthesia", "relation": "treated_by_procedure", "tail_en": "gene therapy", "head_vi": "tê bì", "tail_vi": "điều trị gen"}
+{"unit_id": "K2-00389", "head_en": "obesity", "relation": "treated_by_procedure", "tail_en": "thyroidectomy", "head_vi": "béo phì", "tail_vi": "phẫu thuật tuyến giáp"}
+{"unit_id": "K2-00447", "head_en": "paresthesia", "relation": "located_at", "tail_en": "brain", "head_vi": "tê bì kiến bò", "tail_vi": "não"}
+{"unit_id": "K2-00496", "head_en": "hemorrhage", "relation": "treated_by_procedure", "tail_en": "deep brain stimulation", "head_vi": "xuất huyết", "tail_vi": "kích thích não sâu"}
+{"unit_id": "K2-00511", "head_en": "aching pain", "relation": "treated_by_procedure", "tail_en": "joint replacement surgery", "head_vi": "đau nhức", "tail_vi": "phẫu thuật thay khớp"}
+{"unit_id": "K2-00573", "head_en": "stroke", "relation": "treated_by_procedure", "tail_en": "deep brain stimulation surgery", "head_vi": "đột quỵ", "tail_vi": "phẫu thuật kích thích não sâu"}
+{"unit_id": "K2-00610", "head_en": "rigidity", "relation": "treated_by_procedure", "tail_en": "gene therapy", "head_vi": "cứng đờ", "tail_vi": "điều trị gen"}
+{"unit_id": "K2-00652", "head_en": "blood clot", "relation": "located_at", "tail_en": "vein", "head_vi": "cục máu đông", "tail_vi": "tĩnh mạch"}
+{"unit_id": "K2-00669", "head_en": "headache", "relation": "located_at", "tail_en": "limbs", "head_vi": "đau đầu", "tail_vi": "chân tay"}
+{"unit_id": "K2-00677", "head_en": "herniated disc", "relation": "located_at", "tail_en": "spine", "head_vi": "thoát vị đĩa đệm", "tail_vi": "cột sống"}
+{"unit_id": "K2-00720", "head_en": "headache", "relation": "located_at", "tail_en": "hand", "head_vi": "đau đầu", "tail_vi": "bàn tay"}
+{"unit_id": "K2-00774", "head_en": "hand tremor", "relation": "located_at", "tail_en": "brain", "head_vi": "run tay", "tail_vi": "não"}
+{"unit_id": "K2-00817", "head_en": "liver cirrhosis", "relation": "located_at", "tail_en": "stomach", "head_vi": "xơ gan", "tail_vi": "dạ dày"}
+{"unit_id": "K2-00864", "head_en": "dizziness", "relation": "located_at", "tail_en": "limbs", "head_vi": "chóng mặt", "tail_vi": "chân tay"}
+{"unit_id": "K2-00886", "head_en": "aches", "relation": "located_at", "tail_en": "spine", "head_vi": "nhức mỏi", "tail_vi": "cột sống"}
+{"unit_id": "K2-00934", "head_en": "aches", "relation": "located_at", "tail_en": "joint", "head_vi": "nhức mỏi", "tail_vi": "khớp"}
+{"unit_id": "K2-00978", "head_en": "gout", "relation": "located_at", "tail_en": "joint", "head_vi": "bệnh gút", "tail_vi": "khớp"}
+{"unit_id": "K2-01008", "head_en": "oily skin", "relation": "located_at", "tail_en": "hair", "head_vi": "nhiều dầu", "tail_vi": "mái tóc"}
+{"unit_id": "K2-01051", "head_en": "hypertension", "relation": "located_at", "tail_en": "blood vessel", "head_vi": "huyết áp cao", "tail_vi": "mạch máu"}
+{"unit_id": "K2-01095", "head_en": "heart failure", "relation": "located_at", "tail_en": "vein", "head_vi": "suy tim", "tail_vi": "tĩnh mạch"}
+{"unit_id": "K2-01149", "head_en": "headache", "relation": "located_at", "tail_en": "brain", "head_vi": "đau đầu", "tail_vi": "não bộ"}
+{"unit_id": "K2-01180", "head_en": "herniated disc", "relation": "located_at", "tail_en": "bones and joints", "head_vi": "thoát vị đĩa đệm", "tail_vi": "xương khớp"}
+{"unit_id": "K2-01233", "head_en": "abdominal pain", "relation": "located_at", "tail_en": "stomach", "head_vi": "đau bụng", "tail_vi": "dạ dày"}
+{"unit_id": "K2-01336", "head_en": "lesion", "relation": "located_at", "tail_en": "esophagus", "head_vi": "tổn thương", "tail_vi": "thực quản"}
+{"unit_id": "K2-01434", "head_en": "atrial fibrillation", "relation": "located_at", "tail_en": "blood vessel", "head_vi": "rung nhĩ", "tail_vi": "mạch máu"}
+{"unit_id": "K2-01445", "head_en": "dry itchy skin", "relation": "located_at", "tail_en": "scalp", "head_vi": "khô ngứa", "tail_vi": "da đầu"}
+{"unit_id": "K2-01537", "head_en": "sensitive skin", "relation": "located_at", "tail_en": "hair", "head_vi": "da nhạy cảm", "tail_vi": "mái tóc"}
+{"unit_id": "K2-01578", "head_en": "degeneration", "relation": "located_at", "tail_en": "nape of neck", "head_vi": "thoái hóa", "tail_vi": "gáy"}
+{"unit_id": "K2-01653", "head_en": "reflux", "relation": "located_at", "tail_en": "gastrointestinal tract", "head_vi": "trào ngược", "tail_vi": "đường tiêu hóa"}
+{"unit_id": "K2-01675", "head_en": "blood clot", "relation": "diagnosed_by", "tail_en": "echocardiography", "head_vi": "cục máu đông", "tail_vi": "siêu âm tim"}
+{"unit_id": "K2-01698", "head_en": "eczema", "relation": "diagnosed_by", "tail_en": "patch test", "head_vi": "chàm", "tail_vi": "test áp da"}
+{"unit_id": "K2-01710", "head_en": "liver cirrhosis", "relation": "diagnosed_by", "tail_en": "abdominal ultrasound", "head_vi": "xơ gan", "tail_vi": "siêu âm bụng"}
+{"unit_id": "K2-01736", "head_en": "reflux", "relation": "diagnosed_by", "tail_en": "endoscopy", "head_vi": "trào ngược", "tail_vi": "nội soi"}
+{"unit_id": "K2-01754", "head_en": "high cholesterol", "relation": "diagnosed_by", "tail_en": "lipid panel", "head_vi": "cholesterol", "tail_vi": "xét nghiệm mỡ máu"}
+{"unit_id": "K2-01780", "head_en": "tachycardia", "relation": "diagnosed_by", "tail_en": "Holter ECG monitoring", "head_vi": "tim đập nhanh", "tail_vi": "holter điện tim"}
+{"unit_id": "K2-01795", "head_en": "abdominal pain", "relation": "diagnosed_by", "tail_en": "gastroscopy", "head_vi": "đau bụng", "tail_vi": "nội soi dạ dày"}
+{"unit_id": "K2-01823", "head_en": "hand tremor", "relation": "diagnosed_by", "tail_en": "electroencephalography", "head_vi": "run tay", "tail_vi": "điện não đồ"}
+{"unit_id": "K2-01843", "head_en": "degeneration", "relation": "diagnosed_by", "tail_en": "bone densitometry", "head_vi": "thoái hóa", "tail_vi": "đo mật độ xương"}
+{"unit_id": "K2-01863", "head_en": "diarrhea", "relation": "diagnosed_by", "tail_en": "liver enzyme test", "head_vi": "tiêu chảy", "tail_vi": "xét nghiệm men gan"}
+{"unit_id": "K2-01896", "head_en": "lesion", "relation": "diagnosed_by", "tail_en": "gastroscopy", "head_vi": "tổn thương", "tail_vi": "nội soi dạ dày"}
+{"unit_id": "K2-01922", "head_en": "melasma", "relation": "diagnosed_by", "tail_en": "dermoscopy", "head_vi": "nám", "tail_vi": "soi da"}
+{"unit_id": "K2-01966", "head_en": "myocardial ischemia", "relation": "diagnosed_by", "tail_en": "Holter ECG monitoring", "head_vi": "thiếu máu cơ tim", "tail_vi": "holter điện tim"}
+{"unit_id": "K2-02122", "head_en": "constipation", "relation": "diagnosed_by", "tail_en": "endoscopy", "head_vi": "táo bón", "tail_vi": "nội soi"}
+{"unit_id": "K2-02133", "head_en": "psoriasis", "relation": "diagnosed_by", "tail_en": "dermoscopy", "head_vi": "vảy nến", "tail_vi": "soi da"}
+{"unit_id": "K2-02152", "head_en": "obesity", "relation": "diagnosed_by", "tail_en": "thyroid ultrasound", "head_vi": "béo phì", "tail_vi": "siêu âm tuyến giáp"}
+{"unit_id": "K2-02164", "head_en": "lesion", "relation": "diagnosed_by", "tail_en": "abdominal ultrasound", "head_vi": "tổn thương", "tail_vi": "siêu âm bụng"}
+{"unit_id": "K2-02179", "head_en": "tuberculosis", "relation": "diagnosed_by", "tail_en": "PCR test", "head_vi": "lao", "tail_vi": "xét nghiệm pcr"}
+{"unit_id": "K2-02200", "head_en": "aching pain", "relation": "diagnosed_by", "tail_en": "X-ray", "head_vi": "đau nhức", "tail_vi": "chụp x quang"}
+{"unit_id": "K2-02232", "head_en": "hypertension", "relation": "diagnosed_by", "tail_en": "electrocardiography", "head_vi": "huyết áp cao", "tail_vi": "điện tâm đồ"}
+{"unit_id": "K2-02248", "head_en": "lesion", "relation": "diagnosed_by", "tail_en": "endoscopy", "head_vi": "tổn thương", "tail_vi": "nội soi"}
+{"unit_id": "K2-02278", "head_en": "infarction", "relation": "diagnosed_by", "tail_en": "coronary angiography", "head_vi": "nhồi máu", "tail_vi": "chụp mạch vành"}
+{"unit_id": "K2-02297", "head_en": "hand tremor", "relation": "diagnosed_by", "tail_en": "CT scan", "head_vi": "run tay", "tail_vi": "chụp ct"}
+{"unit_id": "K2-02317", "head_en": "epilepsy", "relation": "diagnosed_by", "tail_en": "MRI", "head_vi": "động kinh", "tail_vi": "mri"}
+{"unit_id": "K2-02797", "head_en": "heart failure", "relation": "located_at", "tail_en": "coronary artery", "head_vi": "suy tim", "tail_vi": "động mạch vành"}
+{"unit_id": "K2-02816", "head_en": "melasma", "relation": "located_at", "tail_en": "face", "head_vi": "nám", "tail_vi": "mặt"}
+{"unit_id": "K2-02846", "head_en": "psoriasis", "relation": "located_at", "tail_en": "hair", "head_vi": "vảy nến", "tail_vi": "mái tóc"}
+{"unit_id": "K2-02865", "head_en": "gout", "relation": "located_at", "tail_en": "spine", "head_vi": "bệnh gút", "tail_vi": "cột sống"}
+{"unit_id": "K2-02898", "head_en": "hypertension", "relation": "located_at", "tail_en": "coronary artery", "head_vi": "huyết áp cao", "tail_vi": "động mạch vành"}
+{"unit_id": "K2-02924", "head_en": "high cholesterol", "relation": "located_at", "tail_en": "pancreas", "head_vi": "cholesterol", "tail_vi": "tuyến tụy"}
+{"unit_id": "K2-02940", "head_en": "epilepsy", "relation": "located_at", "tail_en": "spinal cord", "head_vi": "động kinh", "tail_vi": "tủy sống"}
+{"unit_id": "K2-03215", "head_en": "liver cirrhosis", "relation": "treated_by", "tail_en": "antibiotic", "head_vi": "xơ gan", "tail_vi": "kháng sinh"}
+{"unit_id": "K2-03247", "head_en": "reflux", "relation": "treated_by", "tail_en": "antacid", "head_vi": "trào ngược", "tail_vi": "thuốc kháng axit"}
+{"unit_id": "K2-03278", "head_en": "ulcer", "relation": "treated_by", "tail_en": "antacid", "head_vi": "viêm loét", "tail_vi": "thuốc kháng axit"}
+{"unit_id": "K2-03330", "head_en": "degeneration", "relation": "treated_by", "tail_en": "colchicine", "head_vi": "thoái hóa", "tail_vi": "colchicin"}
+{"unit_id": "K2-03376", "head_en": "stroke", "relation": "treated_by", "tail_en": "levodopa", "head_vi": "đột quỵ", "tail_vi": "levodopa"}
+{"unit_id": "K2-03435", "head_en": "diabetes mellitus", "relation": "treated_by", "tail_en": "statin", "head_vi": "tiểu đường", "tail_vi": "statin"}
+{"unit_id": "K2-03456", "head_en": "constipation", "relation": "treated_by", "tail_en": "antibiotic", "head_vi": "táo bón", "tail_vi": "kháng sinh"}
+{"unit_id": "K2-03537", "head_en": "reflux", "relation": "treated_by", "tail_en": "antibiotic", "head_vi": "trào ngược", "tail_vi": "kháng sinh"}
+{"unit_id": "K2-03579", "head_en": "dyslipidemia", "relation": "treated_by", "tail_en": "statin", "head_vi": "mỡ máu", "tail_vi": "statin"}
+{"unit_id": "K2-03590", "head_en": "atherosclerosis", "relation": "treated_by", "tail_en": "antihypertensive drug", "head_vi": "xơ vữa động mạch", "tail_vi": "thuốc hạ áp"}
+{"unit_id": "K2-03610", "head_en": "dermatitis", "relation": "treated_by", "tail_en": "corticosteroid", "head_vi": "viêm da", "tail_vi": "corticoid"}
+{"unit_id": "K2-03648", "head_en": "hyperthyroidism", "relation": "treated_by", "tail_en": "hypoglycemic drug", "head_vi": "cường giáp", "tail_vi": "thuốc hạ đường huyết"}
+{"unit_id": "K2-03670", "head_en": "epilepsy", "relation": "treated_by_procedure", "tail_en": "rehabilitation", "head_vi": "động kinh", "tail_vi": "phục hồi chức năng"}
+{"unit_id": "K2-03701", "head_en": "hyperthyroidism", "relation": "treated_by_procedure", "tail_en": "surgery", "head_vi": "cường giáp", "tail_vi": "mổ"}
+{"unit_id": "K2-03728", "head_en": "arthritis", "relation": "treated_by_procedure", "tail_en": "physical therapy", "head_vi": "viêm khớp", "tail_vi": "vật lý trị liệu"}
+{"unit_id": "K2-03741", "head_en": "lesion", "relation": "treated_by_procedure", "tail_en": "liver transplantation", "head_vi": "tổn thương", "tail_vi": "ghép gan"}
+{"unit_id": "K2-03767", "head_en": "hand tremor", "relation": "treated_by_procedure", "tail_en": "deep brain stimulation", "head_vi": "run tay", "tail_vi": "kích thích não sâu"}
+{"unit_id": "K2-03807", "head_en": "liver cirrhosis", "relation": "treated_by_procedure", "tail_en": "gastrectomy", "head_vi": "xơ gan", "tail_vi": "phẫu thuật cắt dạ dày"}
+{"unit_id": "K2-03869", "head_en": "gout", "relation": "treated_by_procedure", "tail_en": "physical therapy", "head_vi": "bệnh gút", "tail_vi": "vật lý trị liệu"}
+{"unit_id": "K2-03909", "head_en": "oily skin", "relation": "treated_by_procedure", "tail_en": "chemical peel", "head_vi": "nhiều dầu", "tail_vi": "peel da"}
+{"unit_id": "K2-03964", "head_en": "hypertension", "relation": "treated_by_procedure", "tail_en": "bypass surgery", "head_vi": "huyết áp cao", "tail_vi": "phẫu thuật bắc cầu"}
+{"unit_id": "K2-04014", "head_en": "dyslipidemia", "relation": "treated_by_procedure", "tail_en": "surgery", "head_vi": "mỡ máu", "tail_vi": "mổ"}
+{"unit_id": "K2-04053", "head_en": "vascular occlusion", "relation": "treated_by_procedure", "tail_en": "gene therapy", "head_vi": "nghẽn mạch máu", "tail_vi": "điều trị gen"}

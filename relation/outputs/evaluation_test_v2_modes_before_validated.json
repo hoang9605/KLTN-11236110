@@ -1,0 +1,231 @@
+{
+ "test_set": "test_v2",
+ "note": "mô hình nạp từ Model/vihealthbert-re-vietmed trên CPU; luật relation_extraction.rules; union như knowledge_graph.HybridRelationExtractor",
+ "model": {
+  "micro": {
+   "tp": 86,
+   "fp": 53,
+   "fn": 20,
+   "precision": 0.619,
+   "recall": 0.811,
+   "f1": 0.702
+  },
+  "macro_f1": 0.634,
+  "macro_over": [
+   "located_at",
+   "treated_by",
+   "treated_by_procedure",
+   "diagnosed_by",
+   "has_dosage"
+  ],
+  "per_relation": {
+   "located_at": {
+    "tp": 45,
+    "fp": 8,
+    "fn": 8,
+    "precision": 0.849,
+    "recall": 0.849,
+    "f1": 0.849,
+    "pairs": 161,
+    "positives": 53
+   },
+   "treated_by": {
+    "tp": 13,
+    "fp": 7,
+    "fn": 1,
+    "precision": 0.65,
+    "recall": 0.929,
+    "f1": 0.765,
+    "pairs": 32,
+    "positives": 14
+   },
+   "treated_by_procedure": {
+    "tp": 4,
+    "fp": 14,
+    "fn": 10,
+    "precision": 0.222,
+    "recall": 0.286,
+    "f1": 0.25,
+    "pairs": 49,
+    "positives": 14
+   },
+   "diagnosed_by": {
+    "tp": 14,
+    "fp": 9,
+    "fn": 1,
+    "precision": 0.609,
+    "recall": 0.933,
+    "f1": 0.737,
+    "pairs": 35,
+    "positives": 15
+   },
+   "has_dosage": {
+    "tp": 10,
+    "fp": 15,
+    "fn": 0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1": 0.571,
+    "pairs": 34,
+    "positives": 10
+   }
+  },
+  "pairs": 311
+ },
+ "rules": {
+  "micro": {
+   "tp": 49,
+   "fp": 18,
+   "fn": 57,
+   "precision": 0.731,
+   "recall": 0.462,
+   "f1": 0.566
+  },
+  "macro_f1": 0.43,
+  "macro_over": [
+   "located_at",
+   "treated_by",
+   "treated_by_procedure",
+   "diagnosed_by",
+   "has_dosage"
+  ],
+  "per_relation": {
+   "located_at": {
+    "tp": 35,
+    "fp": 10,
+    "fn": 18,
+    "precision": 0.778,
+    "recall": 0.66,
+    "f1": 0.714,
+    "pairs": 161,
+    "positives": 53
+   },
+   "treated_by": {
+    "tp": 6,
+    "fp": 5,
+    "fn": 8,
+    "precision": 0.545,
+    "recall": 0.429,
+    "f1": 0.48,
+    "pairs": 32,
+    "positives": 14
+   },
+   "treated_by_procedure": {
+    "tp": 4,
+    "fp": 2,
+    "fn": 10,
+    "precision": 0.667,
+    "recall": 0.286,
+    "f1": 0.4,
+    "pairs": 49,
+    "positives": 14
+   },
+   "diagnosed_by": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 13,
+    "precision": 0.667,
+    "recall": 0.133,
+    "f1": 0.222,
+    "pairs": 35,
+    "positives": 15
+   },
+   "has_dosage": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 8,
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1": 0.333,
+    "pairs": 34,
+    "positives": 10
+   }
+  },
+  "pairs": 311
+ },
+ "union": {
+  "micro": {
+   "tp": 90,
+   "fp": 60,
+   "fn": 16,
+   "precision": 0.6,
+   "recall": 0.849,
+   "f1": 0.703
+  },
+  "macro_f1": 0.646,
+  "macro_over": [
+   "located_at",
+   "treated_by",
+   "treated_by_procedure",
+   "diagnosed_by",
+   "has_dosage"
+  ],
+  "per_relation": {
+   "located_at": {
+    "tp": 46,
+    "fp": 11,
+    "fn": 7,
+    "precision": 0.807,
+    "recall": 0.868,
+    "f1": 0.836,
+    "pairs": 161,
+    "positives": 53
+   },
+   "treated_by": {
+    "tp": 13,
+    "fp": 10,
+    "fn": 1,
+    "precision": 0.565,
+    "recall": 0.929,
+    "f1": 0.703,
+    "pairs": 32,
+    "positives": 14
+   },
+   "treated_by_procedure": {
+    "tp": 7,
+    "fp": 14,
+    "fn": 7,
+    "precision": 0.333,
+    "recall": 0.5,
+    "f1": 0.4,
+    "pairs": 49,
+    "positives": 14
+   },
+   "diagnosed_by": {
+    "tp": 14,
+    "fp": 10,
+    "fn": 1,
+    "precision": 0.583,
+    "recall": 0.933,
+    "f1": 0.718,
+    "pairs": 35,
+    "positives": 15
+   },
+   "has_dosage": {
+    "tp": 10,
+    "fp": 15,
+    "fn": 0,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1": 0.571,
+    "pairs": 34,
+    "positives": 10
+   }
+  },
+  "pairs": 311
+ },
+ "ci95_micro_f1": {
+  "model": [
+   0.63,
+   0.767
+  ],
+  "rules": [
+   0.473,
+   0.659
+  ],
+  "union": [
+   0.634,
+   0.767
+  ]
+ }
+}

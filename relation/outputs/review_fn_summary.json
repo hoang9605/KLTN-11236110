@@ -1,0 +1,81 @@
+{
+ "blank_as": "skip",
+ "control_tp": {
+  "positive": 0,
+  "negative": 7,
+  "blank": 3,
+  "judged": 7,
+  "positive_rate": 0.0,
+  "positive_rate_ci95": [
+   0.0,
+   0.354
+  ]
+ },
+ "fn": {
+  "positive": 0,
+  "negative": 12,
+  "blank": 28,
+  "judged": 12,
+  "positive_rate": 0.0,
+  "positive_rate_ci95": [
+   0.0,
+   0.243
+  ]
+ },
+ "fn:diagnosed_by": {
+  "positive": 0,
+  "negative": 2,
+  "blank": 4,
+  "judged": 2,
+  "positive_rate": 0.0,
+  "positive_rate_ci95": [
+   0.0,
+   0.658
+  ]
+ },
+ "fn:has_dosage": {
+  "positive": 0,
+  "negative": 1,
+  "blank": 4,
+  "judged": 1,
+  "positive_rate": 0.0,
+  "positive_rate_ci95": [
+   0.0,
+   0.793
+  ]
+ },
+ "fn:located_at": {
+  "positive": 0,
+  "negative": 6,
+  "blank": 9,
+  "judged": 6,
+  "positive_rate": 0.0,
+  "positive_rate_ci95": [
+   0.0,
+   0.39
+  ]
+ },
+ "fn:treated_by": {
+  "positive": 0,
+  "negative": 2,
+  "blank": 4,
+  "judged": 2,
+  "positive_rate": 0.0,
+  "positive_rate_ci95": [
+   0.0,
+   0.658
+  ]
+ },
+ "fn:treated_by_procedure": {
+  "positive": 0,
+  "negative": 1,
+  "blank": 7,
+  "judged": 1,
+  "positive_rate": 0.0,
+  "positive_rate_ci95": [
+   0.0,
+   0.793
+  ]
+ },
+ "reading": "Trong 12 cặp bỏ sót đã soát, 0 vẫn là dương (ước tính khoảng 0/171 cặp bỏ sót là dương thật)."
+}

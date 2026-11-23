@@ -1,0 +1,145 @@
+{
+ "seed": {
+  "sentences": 540,
+  "candidate_pairs": 1446,
+  "reasons": {
+   "quota:has_dosage": 15,
+   "quota:diagnosed_by": 18,
+   "quota:treated_by": 102,
+   "quota:treated_by_procedure": 112,
+   "quota:located_at": 82,
+   "random": 54,
+   "fill": 157
+  },
+  "sentences_by_relation": {
+   "located_at": 349,
+   "treated_by": 106,
+   "treated_by_procedure": 120,
+   "diagnosed_by": 18,
+   "has_dosage": 15
+  },
+  "pairs_by_relation": {
+   "located_at": 1037,
+   "treated_by": 183,
+   "treated_by_procedure": 175,
+   "diagnosed_by": 25,
+   "has_dosage": 26
+  },
+  "strong_pairs_by_relation (score>=2)": {
+   "located_at": 174,
+   "treated_by": 6,
+   "treated_by_procedure": 9,
+   "diagnosed_by": 0,
+   "has_dosage": 1
+  },
+  "entities_blocklisted": 292
+ },
+ "plan": {
+  "seed": {
+   "splits": [
+    "train",
+    "validation"
+   ],
+   "size": 600,
+   "random": 60,
+   "quota": {
+    "has_dosage": 150,
+    "diagnosed_by": 150,
+    "treated_by": 150,
+    "treated_by_procedure": 150,
+    "located_at": 150
+   }
+  },
+  "test": {
+   "splits": [
+    "test"
+   ],
+   "size": 100,
+   "random": 15,
+   "quota": {
+    "has_dosage": 12,
+    "diagnosed_by": 12,
+    "treated_by": 15,
+    "treated_by_procedure": 15,
+    "located_at": 20
+   }
+  }
+ },
+ "near_words": 4,
+ "leak_ngram": 8,
+ "pool_sentences_with_valid_candidate": {
+  "seed": 752,
+  "test": 379
+ },
+ "seed_pool_sentences_sharing_8gram_with_test": 0,
+ "dev": {
+  "sentences": 60,
+  "candidate_pairs": 146,
+  "reasons": {
+   "quota:has_dosage": 2,
+   "quota:diagnosed_by": 2,
+   "quota:treated_by": 11,
+   "quota:treated_by_procedure": 12,
+   "quota:located_at": 9,
+   "random": 6,
+   "fill": 18
+  },
+  "sentences_by_relation": {
+   "located_at": 36,
+   "treated_by": 11,
+   "treated_by_procedure": 13,
+   "diagnosed_by": 2,
+   "has_dosage": 2
+  },
+  "pairs_by_relation": {
+   "located_at": 102,
+   "treated_by": 22,
+   "treated_by_procedure": 16,
+   "diagnosed_by": 2,
+   "has_dosage": 4
+  },
+  "strong_pairs_by_relation (score>=2)": {
+   "located_at": 22,
+   "treated_by": 0,
+   "treated_by_procedure": 0,
+   "diagnosed_by": 0,
+   "has_dosage": 0
+  },
+  "entities_blocklisted": 35
+ },
+ "test": {
+  "sentences": 100,
+  "candidate_pairs": 276,
+  "reasons": {
+   "quota:has_dosage": 12,
+   "quota:diagnosed_by": 12,
+   "quota:treated_by": 14,
+   "quota:treated_by_procedure": 7,
+   "quota:located_at": 8,
+   "random": 15,
+   "fill": 32
+  },
+  "sentences_by_relation": {
+   "located_at": 60,
+   "treated_by": 19,
+   "treated_by_procedure": 31,
+   "diagnosed_by": 12,
+   "has_dosage": 13
+  },
+  "pairs_by_relation": {
+   "located_at": 152,
+   "treated_by": 31,
+   "treated_by_procedure": 45,
+   "diagnosed_by": 18,
+   "has_dosage": 30
+  },
+  "strong_pairs_by_relation (score>=2)": {
+   "located_at": 46,
+   "treated_by": 11,
+   "treated_by_procedure": 6,
+   "diagnosed_by": 5,
+   "has_dosage": 2
+  },
+  "entities_blocklisted": 20
+ }
+}

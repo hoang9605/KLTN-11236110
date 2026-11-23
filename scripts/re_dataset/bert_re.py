@@ -16,6 +16,7 @@ averaged over seeds and the threshold is 0.5.
 Protocol is identical to benchmark.py: the same 5 grouped CV folds over gold v1 + RE v2,
 and a final model trained on all pairs scored on both golden test versions.
 Output: <out>/bert_predictions.json  (uid -> label), merged by benchmark.py.
+--save-model DIR trains the single model used by the pipeline and knowledge graph.
 
     .venv-gpu\Scripts\python.exe -X utf8 scripts/re_dataset/bert_re.py --out outputs/re_benchmark_2026-11-08
 """
@@ -35,62 +36,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import numpy as np  # noqa: E402
 import torch  # noqa: E402
 from torch import nn  # noqa: E402
-from transformers import AutoModel, AutoTokenizer, get_linear_schedule_with_warmup  # noqa: E402
+from transformers import AutoTokenizer, get_linear_schedule_with_warmup  # noqa: E402
 
 from benchmark import folds, load_data  # noqa: E402
-from relation_extraction.data import NEGATIVE, SCHEMA  # noqa: E402
-
-TYPES = SCHEMA["entity_types"]
-MARKERS = [f"[HEAD_{t}]" for t in TYPES] + [f"[TAIL_{t}]" for t in TYPES] + ["[/HEAD]", "[/TAIL]"]
-
-
-class PairClassifier(nn.Module):
-    def __init__(self, base, n_tokens):
-        super().__init__()
-        self.enc = AutoModel.from_pretrained(base)
-        self.enc.resize_token_embeddings(n_tokens)
-        h = self.enc.config.hidden_size
-        self.drop = nn.Dropout(0.1)
-        self.out = nn.Linear(2 * h, 2)
-
-    def forward(self, ids, att, hpos, tpos):
-        hs = self.enc(input_ids=ids, attention_mask=att).last_hidden_state
-        r = torch.arange(hs.size(0), device=hs.device)
-        return self.out(self.drop(torch.cat([hs[r, hpos], hs[r, tpos]], -1)))
+from relation_extraction.bert_model import (PairClassifier, add_markers, batches, encode,  # noqa: E402
+                                            positive_probs, save_config, save_member)
+from relation_extraction.data import NEGATIVE, RELATIONS  # noqa: E402
 
 
-def encode(tok, pairs, max_len, start_ids):
-    items = []
-    for p in pairs:
-        ids = tok(p["features"], truncation=True, max_length=max_len)["input_ids"]
-        hpos = next((i for i, x in enumerate(ids) if x in start_ids["HEAD"]), 0)
-        tpos = next((i for i, x in enumerate(ids) if x in start_ids["TAIL"]), 0)
-        items.append((ids, hpos, tpos, int(p["label"] != NEGATIVE)))
-    return items
-
-
-def batches(items, bs, pad, rng=None):
-    order = list(range(len(items)))
-    if rng:
-        rng.shuffle(order)
-    for i in range(0, len(order), bs):
-        ch = [items[j] for j in order[i:i + bs]]
-        n = max(len(c[0]) for c in ch)
-        ids = torch.full((len(ch), n), pad, dtype=torch.long)
-        att = torch.zeros((len(ch), n), dtype=torch.long)
-        for k, c in enumerate(ch):
-            ids[k, :len(c[0])] = torch.tensor(c[0])
-            att[k, :len(c[0])] = 1
-        yield (ids, att, torch.tensor([c[1] for c in ch]), torch.tensor([c[2] for c in ch]),
-               torch.tensor([c[3] for c in ch]), order[i:i + bs])
-
-
-def train_predict(a, tok, start_ids, train, tests, seed, device):
+def train_predict(a, tok, start_ids, train, tests, seed, device, keep=False):
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
-    model = PairClassifier(a.base, len(tok)).to(device)
+    model = PairClassifier.from_base(a.base, len(tok)).to(device)
     tr = encode(tok, train, a.max_len, start_ids)
     npos = sum(x[3] for x in tr)
     w = torch.tensor([1.0, (len(tr) - npos) / max(npos, 1)], device=device)
@@ -114,21 +73,99 @@ def train_predict(a, tok, start_ids, train, tests, seed, device):
             scaler.step(opt)
             scaler.update()
             sch.step()
-    model.eval()
-    probs = []
-    with torch.no_grad():
-        for pairs in tests:
-            te = encode(tok, pairs, a.max_len, start_ids)
-            pr = [0.0] * len(te)
-            for ids, att, hp, tp, _, idx in batches(te, 64, pad):
-                with torch.autocast(device_type=device.type, dtype=torch.float16, enabled=device.type == "cuda"):
-                    logits = model(ids.to(device), att.to(device), hp.to(device), tp.to(device))
-                for j, v in zip(idx, torch.softmax(logits.float(), -1)[:, 1].cpu().tolist()):
-                    pr[j] = v
-            probs.append(pr)
+    probs = [positive_probs(model, tok, start_ids, pairs, a.max_len, device) for pairs in tests]
+    if keep:
+        return probs, model
     del model
     torch.cuda.empty_cache()
     return probs
+
+
+def save_deployed(a, tok, start_ids, both, tests, device):
+    """The models the pipeline uses: the benchmark's final method (same data, hyper-parameters
+    and seeds; mean probability over the seeds, threshold 0.5), saved so it can be loaded."""
+    t0 = time.time()
+    gl = list({p["uid"]: p for t in tests.values() for p in t}.values())
+    acc = [0.0] * len(gl)
+    per_seed = {}
+    for seed in a.seeds:
+        (pr,), model = train_predict(a, tok, start_ids, both, [gl], seed, device, keep=True)
+        save_member(model, tok, a.save_model, seed)
+        per_seed[str(seed)] = {p["uid"]: round(v, 6) for p, v in zip(gl, pr)}
+        acc = [x + v / len(a.seeds) for x, v in zip(acc, pr)]
+        del model
+        torch.cuda.empty_cache()
+        print(f"seed {seed} saved ({time.time() - t0:.0f}s)", flush=True)
+    pr = acc
+    pos = sorted({p["allowed_relation"] for p in both if p["label"] != NEGATIVE})
+    cfg = {"base": a.base, "max_len": a.max_len, "threshold": 0.5, "seeds": a.seeds,
+           "seed_aggregation": "mean probability, threshold 0.5", "epochs": a.epochs, "lr": a.lr,
+           "batch": a.batch, "class_weight": "n_neg/n_pos", "pooling": "head/tail start markers",
+           "supported_relations": pos, "all_relations": sorted(RELATIONS),
+           "train_pairs": len(both), "train_positives": sum(p["label"] != NEGATIVE for p in both),
+           "train_data": "RE gold v1 (người duyệt trên giấy, quy ước 05/11/2026) + RE v2 (nhãn AI)",
+           "label_source": "gold_v1_reviewed+ai_v2", "human_verified": False,
+           "torch": torch.__version__, "trained_on": torch.cuda.get_device_name(0) if device.type == "cuda" else platform.processor(),
+           "seconds": round(time.time() - t0), "date": time.strftime("%Y-%m-%d")}
+    save_config(a.save_model, cfg)
+    preds = {p["uid"]: (p["allowed_relation"] if v >= 0.5 else NEGATIVE) for p, v in zip(gl, pr)}
+    probs = {p["uid"]: round(v, 6) for p, v in zip(gl, pr)}
+    out = Path(a.out)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "bert_deployed_predictions.json").write_text(json.dumps(
+        {"meta": {**cfg, "model_dir": str(a.save_model)}, "golden_test": preds, "prob": probs, "prob_per_seed": per_seed},
+        ensure_ascii=False, indent=0), encoding="utf-8")
+    print(json.dumps(cfg, ensure_ascii=False))
+
+
+def run_augmented(a, tok, start_ids, both, tests, device):
+    """Augmentation experiment: the deployed recipe (same hyper-parameters and seeds) trained on
+    all VietMed pairs plus extra pairs (e.g. data/re_translated_en_v1, translated English data).
+    Extra pairs are training-only. Nothing is saved except the test-set probabilities."""
+    from relation_extraction.data import load_pairs
+    from train_eval import attach_entities
+    extra, audit = load_pairs(a.extra_train, allow_ai=True)
+    attach_entities(extra, a.extra_train)
+    extra = [p for p in extra if any(p["sample_id"].startswith(x) for x in a.extra_prefix)]
+    for p in extra:
+        p["source"] = "extra"
+        p["uid"] = f"{p['sample_id']}:{p['head']['id']}:{p['tail']['id']}:{p['allowed_relation']}"
+    train = both + extra
+    t0 = time.time()
+    gl = list({p["uid"]: p for t in tests.values() for p in t}.values())
+    # Lưu xác suất sau từng seed để chạy tiếp được nếu tiến trình bị ngắt (máy ngủ, job bị dừng).
+    # Seed đã có trong file partial và cùng file extra-train thì bỏ qua.
+    out = Path(a.out)
+    out.mkdir(parents=True, exist_ok=True)
+    partial = out / f"bert_aug_{a.tag}_partial.json"
+    per_seed = {}
+    if partial.exists():
+        saved = json.loads(partial.read_text(encoding="utf-8"))
+        if saved.get("extra_train") == str(a.extra_train) and saved.get("extra_pairs") == len(extra):
+            per_seed = {s: v for s, v in saved["prob_per_seed"].items() if int(s) in a.seeds}
+            print(f"[{a.tag}] resume: seeds {sorted(per_seed)} already done", flush=True)
+    for seed in a.seeds:
+        if str(seed) in per_seed:
+            continue
+        pr = train_predict(a, tok, start_ids, train, [gl], seed, device)[0]
+        per_seed[str(seed)] = {p["uid"]: round(v, 6) for p, v in zip(gl, pr)}
+        partial.write_text(json.dumps({"extra_train": str(a.extra_train), "extra_pairs": len(extra),
+                                       "prob_per_seed": per_seed}, ensure_ascii=False), encoding="utf-8")
+        print(f"[{a.tag}] seed {seed} done ({time.time() - t0:.0f}s)", flush=True)
+    acc = [sum(per_seed[str(s)][p["uid"]] for s in a.seeds) / len(a.seeds) for p in gl]
+    from collections import Counter
+    meta = {"tag": a.tag, "extra_train": str(a.extra_train), "extra_prefix": a.extra_prefix,
+            "extra_pairs": len(extra), "extra_by_label": dict(Counter(f"{p['allowed_relation']}:{p['label']}" for p in extra)),
+            "base_pairs": len(both), "base": a.base, "seeds": a.seeds, "epochs": a.epochs, "lr": a.lr, "batch": a.batch,
+            "max_len": a.max_len, "seed_aggregation": "mean probability, threshold 0.5",
+            "torch": torch.__version__, "device": torch.cuda.get_device_name(0) if device.type == "cuda" else platform.processor(),
+            "seconds": round(time.time() - t0), "date": time.strftime("%Y-%m-%d")}
+    out = Path(a.out)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / f"bert_aug_{a.tag}_predictions.json").write_text(json.dumps(
+        {"meta": meta, "prob": {p["uid"]: round(v, 6) for p, v in zip(gl, acc)}, "prob_per_seed": per_seed},
+        ensure_ascii=False, indent=0), encoding="utf-8")
+    print(json.dumps(meta, ensure_ascii=False))
 
 
 def main():
@@ -143,13 +180,23 @@ def main():
     ap.add_argument("--final-only", action="store_true",
                     help="keep the CV predictions in <out>/bert_predictions.json; retrain the final models and "
                          "predict every current test set (e.g. after adding data/re_test_random_v1)")
+    ap.add_argument("--save-model", metavar="DIR",
+                    help="train the final models (every seed) on all pairs, save them to DIR for the pipeline/KG and "
+                         "write its test-set predictions to <out>/bert_deployed_predictions.json")
+    ap.add_argument("--extra-train", metavar="JSONL", type=Path,
+                    help="augmentation experiment: also train on these annotations (training only), write "
+                         "<out>/bert_aug_<tag>_predictions.json; nothing is saved to the model directory")
+    ap.add_argument("--extra-prefix", nargs="+", default=["TR-"], help="keep extra rows whose id starts with one of these")
+    ap.add_argument("--tag", default="aug")
     a = ap.parse_args()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     tok = AutoTokenizer.from_pretrained(a.base)
-    tok.add_tokens(MARKERS, special_tokens=True)
-    start_ids = {"HEAD": set(tok.convert_tokens_to_ids([f"[HEAD_{t}]" for t in TYPES])),
-                 "TAIL": set(tok.convert_tokens_to_ids([f"[TAIL_{t}]" for t in TYPES]))}
+    start_ids = add_markers(tok)
     both, tests = load_data()
+    if a.extra_train:
+        return run_augmented(a, tok, start_ids, both, tests, device)
+    if a.save_model:
+        return save_deployed(a, tok, start_ids, both, tests, device)
     fl = folds(both)
     t0 = time.time()
     cv = {}

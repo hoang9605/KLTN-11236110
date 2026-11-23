@@ -1,0 +1,1533 @@
+{
+  "baseline": "bert_deployed_predictions.json",
+  "variants": {
+    "biotext": {
+      "tag": "biotext",
+      "extra_train": "data\\re_translated_en_v1\\annotations.jsonl",
+      "extra_prefix": [
+        "TR-BT-"
+      ],
+      "extra_pairs": 145,
+      "extra_by_label": {
+        "treated_by_procedure:treated_by_procedure": 45,
+        "treated_by:treated_by": 41,
+        "treated_by_procedure:NO_RELATION": 23,
+        "treated_by:NO_RELATION": 36
+      },
+      "base_pairs": 556,
+      "base": "demdecuong/vihealthbert-base-syllable",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs": 10,
+      "lr": 3e-05,
+      "batch": 16,
+      "max_len": 192,
+      "seed_aggregation": "mean probability, threshold 0.5",
+      "torch": "2.14.0+cu126",
+      "device": "NVIDIA GeForce GTX 1650",
+      "seconds": 2288,
+      "date": "2026-11-08"
+    },
+    "biotext_ade": {
+      "tag": "biotext_ade",
+      "extra_train": "data\\re_translated_en_v1\\annotations.jsonl",
+      "extra_prefix": [
+        "TR-"
+      ],
+      "extra_pairs": 205,
+      "extra_by_label": {
+        "treated_by_procedure:treated_by_procedure": 45,
+        "treated_by:treated_by": 41,
+        "treated_by_procedure:NO_RELATION": 23,
+        "treated_by:NO_RELATION": 36,
+        "has_dosage:has_dosage": 60
+      },
+      "base_pairs": 556,
+      "base": "demdecuong/vihealthbert-base-syllable",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "epochs": 10,
+      "lr": 3e-05,
+      "batch": 16,
+      "max_len": 192,
+      "seed_aggregation": "mean probability, threshold 0.5",
+      "torch": "2.14.0+cu126",
+      "device": "NVIDIA GeForce GTX 1650",
+      "seconds": 2255,
+      "date": "2026-11-08"
+    }
+  },
+  "decision_rule": "change the deployed model only if variant ∪ rules beats baseline ∪ rules on both golden_test and random_test and neither paired 95% interval is entirely below zero",
+  "sets": {
+    "golden_test": {
+      "pairs": 117,
+      "scores": {
+        "baseline": {
+          "positive_micro": {
+            "precision": 0.586,
+            "recall": 0.436,
+            "f1": 0.5,
+            "tp": 17,
+            "fp": 12,
+            "fn": 22,
+            "support": 39
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.524,
+              "recall": 0.647,
+              "f1": 0.579,
+              "tp": 11,
+              "fp": 10,
+              "fn": 6,
+              "support": 17
+            },
+            "treated_by": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "support": 5
+            },
+            "treated_by_procedure": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 2,
+              "fn": 2,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.111,
+              "f1": 0.2,
+              "tp": 1,
+              "fp": 0,
+              "fn": 8,
+              "support": 9
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.333,
+            0.645
+          ]
+        },
+        "baseline+rules": {
+          "positive_micro": {
+            "precision": 0.568,
+            "recall": 0.538,
+            "f1": 0.553,
+            "tp": 21,
+            "fp": 16,
+            "fn": 18,
+            "support": 39
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.5,
+              "recall": 0.706,
+              "f1": 0.585,
+              "tp": 12,
+              "fp": 12,
+              "fn": 5,
+              "support": 17
+            },
+            "treated_by": {
+              "precision": 0.714,
+              "recall": 1.0,
+              "f1": 0.833,
+              "tp": 5,
+              "fp": 2,
+              "fn": 0,
+              "support": 5
+            },
+            "treated_by_procedure": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 2,
+              "fn": 2,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.333,
+              "f1": 0.5,
+              "tp": 3,
+              "fp": 0,
+              "fn": 6,
+              "support": 9
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.167,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 0,
+              "fn": 5,
+              "support": 6
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.4,
+            0.667
+          ]
+        },
+        "rules": {
+          "positive_micro": {
+            "precision": 0.722,
+            "recall": 0.333,
+            "f1": 0.456,
+            "tp": 13,
+            "fp": 5,
+            "fn": 26,
+            "support": 39
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.667,
+              "recall": 0.353,
+              "f1": 0.462,
+              "tp": 6,
+              "fp": 3,
+              "fn": 11,
+              "support": 17
+            },
+            "treated_by": {
+              "precision": 0.6,
+              "recall": 0.6,
+              "f1": 0.6,
+              "tp": 3,
+              "fp": 2,
+              "fn": 2,
+              "support": 5
+            },
+            "treated_by_procedure": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.333,
+              "f1": 0.5,
+              "tp": 3,
+              "fp": 0,
+              "fn": 6,
+              "support": 9
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.167,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 0,
+              "fn": 5,
+              "support": 6
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.286,
+            0.592
+          ]
+        },
+        "biotext": {
+          "positive_micro": {
+            "precision": 0.444,
+            "recall": 0.41,
+            "f1": 0.427,
+            "tp": 16,
+            "fp": 20,
+            "fn": 23,
+            "support": 39
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.364,
+              "recall": 0.471,
+              "f1": 0.41,
+              "tp": 8,
+              "fp": 14,
+              "fn": 9,
+              "support": 17
+            },
+            "treated_by": {
+              "precision": 0.714,
+              "recall": 1.0,
+              "f1": 0.833,
+              "tp": 5,
+              "fp": 2,
+              "fn": 0,
+              "support": 5
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.222,
+              "f1": 0.364,
+              "tp": 2,
+              "fp": 0,
+              "fn": 7,
+              "support": 9
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.286,
+            0.56
+          ]
+        },
+        "biotext+rules": {
+          "positive_micro": {
+            "precision": 0.489,
+            "recall": 0.564,
+            "f1": 0.524,
+            "tp": 22,
+            "fp": 23,
+            "fn": 17,
+            "support": 39
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.407,
+              "recall": 0.647,
+              "f1": 0.5,
+              "tp": 11,
+              "fp": 16,
+              "fn": 6,
+              "support": 17
+            },
+            "treated_by": {
+              "precision": 0.625,
+              "recall": 1.0,
+              "f1": 0.769,
+              "tp": 5,
+              "fp": 3,
+              "fn": 0,
+              "support": 5
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.444,
+              "f1": 0.615,
+              "tp": 4,
+              "fp": 0,
+              "fn": 5,
+              "support": 9
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.167,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 0,
+              "fn": 5,
+              "support": 6
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.386,
+            0.632
+          ]
+        },
+        "biotext_ade": {
+          "positive_micro": {
+            "precision": 0.475,
+            "recall": 0.487,
+            "f1": 0.481,
+            "tp": 19,
+            "fp": 21,
+            "fn": 20,
+            "support": 39
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.4,
+              "recall": 0.588,
+              "f1": 0.476,
+              "tp": 10,
+              "fp": 15,
+              "fn": 7,
+              "support": 17
+            },
+            "treated_by": {
+              "precision": 0.714,
+              "recall": 1.0,
+              "f1": 0.833,
+              "tp": 5,
+              "fp": 2,
+              "fn": 0,
+              "support": 5
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.222,
+              "f1": 0.364,
+              "tp": 2,
+              "fp": 0,
+              "fn": 7,
+              "support": 9
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.167,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 0,
+              "fn": 5,
+              "support": 6
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.349,
+            0.598
+          ]
+        },
+        "biotext_ade+rules": {
+          "positive_micro": {
+            "precision": 0.489,
+            "recall": 0.59,
+            "f1": 0.535,
+            "tp": 23,
+            "fp": 24,
+            "fn": 16,
+            "support": 39
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.393,
+              "recall": 0.647,
+              "f1": 0.489,
+              "tp": 11,
+              "fp": 17,
+              "fn": 6,
+              "support": 17
+            },
+            "treated_by": {
+              "precision": 0.625,
+              "recall": 1.0,
+              "f1": 0.769,
+              "tp": 5,
+              "fp": 3,
+              "fn": 0,
+              "support": 5
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.444,
+              "f1": 0.615,
+              "tp": 4,
+              "fp": 0,
+              "fn": 5,
+              "support": 9
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.333,
+              "f1": 0.5,
+              "tp": 2,
+              "fp": 0,
+              "fn": 4,
+              "support": 6
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.405,
+            0.642
+          ]
+        }
+      },
+      "paired_diff_ci95": {
+        "biotext": {
+          "alone": [
+            -0.185,
+            0.035
+          ],
+          "with_rules": [
+            -0.109,
+            0.054
+          ]
+        },
+        "biotext_ade": {
+          "alone": [
+            -0.126,
+            0.103
+          ],
+          "with_rules": [
+            -0.1,
+            0.074
+          ]
+        }
+      },
+      "diagnostics": {
+        "biotext": {
+          "new_false_positives": 12,
+          "new_false_positives_by_relation": {
+            "treated_by": 2,
+            "located_at": 7,
+            "treated_by_procedure": 3
+          },
+          "new_true_positives": 2,
+          "lost_true_positives": 3,
+          "mean_prob_on_negatives": 0.296,
+          "mean_prob_on_negatives_baseline": 0.244
+        },
+        "biotext_ade": {
+          "new_false_positives": 12,
+          "new_false_positives_by_relation": {
+            "treated_by": 2,
+            "located_at": 7,
+            "treated_by_procedure": 3
+          },
+          "new_true_positives": 4,
+          "lost_true_positives": 2,
+          "mean_prob_on_negatives": 0.292,
+          "mean_prob_on_negatives_baseline": 0.244
+        }
+      }
+    },
+    "golden_test_v1_original": {
+      "pairs": 121,
+      "scores": {
+        "baseline": {
+          "positive_micro": {
+            "precision": 0.615,
+            "recall": 0.348,
+            "f1": 0.444,
+            "tp": 16,
+            "fp": 10,
+            "fn": 30,
+            "support": 46
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.6,
+              "recall": 0.6,
+              "f1": 0.6,
+              "tp": 12,
+              "fp": 8,
+              "fn": 8,
+              "support": 20
+            },
+            "treated_by": {
+              "precision": 1.0,
+              "recall": 0.75,
+              "f1": 0.857,
+              "tp": 3,
+              "fp": 0,
+              "fn": 1,
+              "support": 4
+            },
+            "treated_by_procedure": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 2,
+              "fn": 2,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.182,
+              "tp": 1,
+              "fp": 0,
+              "fn": 9,
+              "support": 10
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 10,
+              "support": 10
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.286,
+            0.583
+          ]
+        },
+        "baseline+rules": {
+          "positive_micro": {
+            "precision": 0.571,
+            "recall": 0.435,
+            "f1": 0.494,
+            "tp": 20,
+            "fp": 15,
+            "fn": 26,
+            "support": 46
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.565,
+              "recall": 0.65,
+              "f1": 0.605,
+              "tp": 13,
+              "fp": 10,
+              "fn": 7,
+              "support": 20
+            },
+            "treated_by": {
+              "precision": 0.5,
+              "recall": 0.75,
+              "f1": 0.6,
+              "tp": 3,
+              "fp": 3,
+              "fn": 1,
+              "support": 4
+            },
+            "treated_by_procedure": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 2,
+              "fn": 2,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.3,
+              "f1": 0.462,
+              "tp": 3,
+              "fp": 0,
+              "fn": 7,
+              "support": 10
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.182,
+              "tp": 1,
+              "fp": 0,
+              "fn": 9,
+              "support": 10
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.351,
+            0.607
+          ]
+        },
+        "rules": {
+          "positive_micro": {
+            "precision": 0.706,
+            "recall": 0.261,
+            "f1": 0.381,
+            "tp": 12,
+            "fp": 5,
+            "fn": 34,
+            "support": 46
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.75,
+              "recall": 0.3,
+              "f1": 0.429,
+              "tp": 6,
+              "fp": 2,
+              "fn": 14,
+              "support": 20
+            },
+            "treated_by": {
+              "precision": 0.4,
+              "recall": 0.5,
+              "f1": 0.444,
+              "tp": 2,
+              "fp": 3,
+              "fn": 2,
+              "support": 4
+            },
+            "treated_by_procedure": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.3,
+              "f1": 0.462,
+              "tp": 3,
+              "fp": 0,
+              "fn": 7,
+              "support": 10
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.182,
+              "tp": 1,
+              "fp": 0,
+              "fn": 9,
+              "support": 10
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.203,
+            0.528
+          ]
+        },
+        "biotext": {
+          "positive_micro": {
+            "precision": 0.485,
+            "recall": 0.348,
+            "f1": 0.405,
+            "tp": 16,
+            "fp": 17,
+            "fn": 30,
+            "support": 46
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.476,
+              "recall": 0.5,
+              "f1": 0.488,
+              "tp": 10,
+              "fp": 11,
+              "fn": 10,
+              "support": 20
+            },
+            "treated_by": {
+              "precision": 0.6,
+              "recall": 0.75,
+              "f1": 0.667,
+              "tp": 3,
+              "fp": 2,
+              "fn": 1,
+              "support": 4
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.333,
+              "tp": 2,
+              "fp": 0,
+              "fn": 8,
+              "support": 10
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 10,
+              "support": 10
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.268,
+            0.531
+          ]
+        },
+        "biotext+rules": {
+          "positive_micro": {
+            "precision": 0.512,
+            "recall": 0.478,
+            "f1": 0.494,
+            "tp": 22,
+            "fp": 21,
+            "fn": 24,
+            "support": 46
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.5,
+              "recall": 0.65,
+              "f1": 0.565,
+              "tp": 13,
+              "fp": 13,
+              "fn": 7,
+              "support": 20
+            },
+            "treated_by": {
+              "precision": 0.429,
+              "recall": 0.75,
+              "f1": 0.545,
+              "tp": 3,
+              "fp": 4,
+              "fn": 1,
+              "support": 4
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.571,
+              "tp": 4,
+              "fp": 0,
+              "fn": 6,
+              "support": 10
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.182,
+              "tp": 1,
+              "fp": 0,
+              "fn": 9,
+              "support": 10
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.364,
+            0.596
+          ]
+        },
+        "biotext_ade": {
+          "positive_micro": {
+            "precision": 0.514,
+            "recall": 0.413,
+            "f1": 0.458,
+            "tp": 19,
+            "fp": 18,
+            "fn": 27,
+            "support": 46
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.5,
+              "recall": 0.6,
+              "f1": 0.545,
+              "tp": 12,
+              "fp": 12,
+              "fn": 8,
+              "support": 20
+            },
+            "treated_by": {
+              "precision": 0.6,
+              "recall": 0.75,
+              "f1": 0.667,
+              "tp": 3,
+              "fp": 2,
+              "fn": 1,
+              "support": 4
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.333,
+              "tp": 2,
+              "fp": 0,
+              "fn": 8,
+              "support": 10
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.1,
+              "f1": 0.182,
+              "tp": 1,
+              "fp": 0,
+              "fn": 9,
+              "support": 10
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.329,
+            0.566
+          ]
+        },
+        "biotext_ade+rules": {
+          "positive_micro": {
+            "precision": 0.511,
+            "recall": 0.5,
+            "f1": 0.505,
+            "tp": 23,
+            "fp": 22,
+            "fn": 23,
+            "support": 46
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.481,
+              "recall": 0.65,
+              "f1": 0.553,
+              "tp": 13,
+              "fp": 14,
+              "fn": 7,
+              "support": 20
+            },
+            "treated_by": {
+              "precision": 0.429,
+              "recall": 0.75,
+              "f1": 0.545,
+              "tp": 3,
+              "fp": 4,
+              "fn": 1,
+              "support": 4
+            },
+            "treated_by_procedure": {
+              "precision": 0.2,
+              "recall": 0.5,
+              "f1": 0.286,
+              "tp": 1,
+              "fp": 4,
+              "fn": 1,
+              "support": 2
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.571,
+              "tp": 4,
+              "fp": 0,
+              "fn": 6,
+              "support": 10
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.333,
+              "tp": 2,
+              "fp": 0,
+              "fn": 8,
+              "support": 10
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.377,
+            0.6
+          ]
+        }
+      },
+      "paired_diff_ci95": {
+        "biotext": {
+          "alone": [
+            -0.165,
+            0.084
+          ],
+          "with_rules": [
+            -0.092,
+            0.094
+          ]
+        },
+        "biotext_ade": {
+          "alone": [
+            -0.107,
+            0.151
+          ],
+          "with_rules": [
+            -0.086,
+            0.117
+          ]
+        }
+      },
+      "diagnostics": {
+        "biotext": {
+          "new_false_positives": 11,
+          "new_false_positives_by_relation": {
+            "treated_by": 2,
+            "located_at": 6,
+            "treated_by_procedure": 3
+          },
+          "new_true_positives": 3,
+          "lost_true_positives": 3,
+          "mean_prob_on_negatives": 0.268,
+          "mean_prob_on_negatives_baseline": 0.229
+        },
+        "biotext_ade": {
+          "new_false_positives": 11,
+          "new_false_positives_by_relation": {
+            "treated_by": 2,
+            "located_at": 6,
+            "treated_by_procedure": 3
+          },
+          "new_true_positives": 5,
+          "lost_true_positives": 2,
+          "mean_prob_on_negatives": 0.272,
+          "mean_prob_on_negatives_baseline": 0.229
+        }
+      }
+    },
+    "random_test": {
+      "pairs": 391,
+      "scores": {
+        "baseline": {
+          "positive_micro": {
+            "precision": 0.478,
+            "recall": 0.611,
+            "f1": 0.537,
+            "tp": 44,
+            "fp": 48,
+            "fn": 28,
+            "support": 72
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.477,
+              "recall": 0.633,
+              "f1": 0.544,
+              "tp": 31,
+              "fp": 34,
+              "fn": 18,
+              "support": 49
+            },
+            "treated_by": {
+              "precision": 0.625,
+              "recall": 0.833,
+              "f1": 0.714,
+              "tp": 5,
+              "fp": 3,
+              "fn": 1,
+              "support": 6
+            },
+            "treated_by_procedure": {
+              "precision": 0.353,
+              "recall": 0.5,
+              "f1": 0.414,
+              "tp": 6,
+              "fp": 11,
+              "fn": 6,
+              "support": 12
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.667,
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "support": 4
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.44,
+            0.621
+          ]
+        },
+        "baseline+rules": {
+          "positive_micro": {
+            "precision": 0.504,
+            "recall": 0.792,
+            "f1": 0.616,
+            "tp": 57,
+            "fp": 56,
+            "fn": 15,
+            "support": 72
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.512,
+              "recall": 0.857,
+              "f1": 0.641,
+              "tp": 42,
+              "fp": 40,
+              "fn": 7,
+              "support": 49
+            },
+            "treated_by": {
+              "precision": 0.625,
+              "recall": 0.833,
+              "f1": 0.714,
+              "tp": 5,
+              "fp": 3,
+              "fn": 1,
+              "support": 6
+            },
+            "treated_by_procedure": {
+              "precision": 0.35,
+              "recall": 0.583,
+              "f1": 0.438,
+              "tp": 7,
+              "fp": 13,
+              "fn": 5,
+              "support": 12
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.75,
+              "f1": 0.857,
+              "tp": 3,
+              "fp": 0,
+              "fn": 1,
+              "support": 4
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.537,
+            0.688
+          ]
+        },
+        "rules": {
+          "positive_micro": {
+            "precision": 0.778,
+            "recall": 0.486,
+            "f1": 0.598,
+            "tp": 35,
+            "fp": 10,
+            "fn": 37,
+            "support": 72
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.842,
+              "recall": 0.653,
+              "f1": 0.736,
+              "tp": 32,
+              "fp": 6,
+              "fn": 17,
+              "support": 49
+            },
+            "treated_by": {
+              "precision": 0.5,
+              "recall": 0.167,
+              "f1": 0.25,
+              "tp": 1,
+              "fp": 1,
+              "fn": 5,
+              "support": 6
+            },
+            "treated_by_procedure": {
+              "precision": 0.25,
+              "recall": 0.083,
+              "f1": 0.125,
+              "tp": 1,
+              "fp": 3,
+              "fn": 11,
+              "support": 12
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1": 0.4,
+              "tp": 1,
+              "fp": 0,
+              "fn": 3,
+              "support": 4
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.5,
+            0.695
+          ]
+        },
+        "biotext": {
+          "positive_micro": {
+            "precision": 0.416,
+            "recall": 0.583,
+            "f1": 0.486,
+            "tp": 42,
+            "fp": 59,
+            "fn": 30,
+            "support": 72
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.42,
+              "recall": 0.592,
+              "f1": 0.492,
+              "tp": 29,
+              "fp": 40,
+              "fn": 20,
+              "support": 49
+            },
+            "treated_by": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.857,
+              "tp": 6,
+              "fp": 2,
+              "fn": 0,
+              "support": 6
+            },
+            "treated_by_procedure": {
+              "precision": 0.261,
+              "recall": 0.5,
+              "f1": 0.343,
+              "tp": 6,
+              "fp": 17,
+              "fn": 6,
+              "support": 12
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1": 0.4,
+              "tp": 1,
+              "fp": 0,
+              "fn": 3,
+              "support": 4
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.395,
+            0.573
+          ]
+        },
+        "biotext+rules": {
+          "positive_micro": {
+            "precision": 0.468,
+            "recall": 0.806,
+            "f1": 0.592,
+            "tp": 58,
+            "fp": 66,
+            "fn": 14,
+            "support": 72
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.489,
+              "recall": 0.878,
+              "f1": 0.628,
+              "tp": 43,
+              "fp": 45,
+              "fn": 6,
+              "support": 49
+            },
+            "treated_by": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1": 0.857,
+              "tp": 6,
+              "fp": 2,
+              "fn": 0,
+              "support": 6
+            },
+            "treated_by_procedure": {
+              "precision": 0.269,
+              "recall": 0.583,
+              "f1": 0.368,
+              "tp": 7,
+              "fp": 19,
+              "fn": 5,
+              "support": 12
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.667,
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "support": 4
+            },
+            "has_dosage": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.512,
+            0.67
+          ]
+        },
+        "biotext_ade": {
+          "positive_micro": {
+            "precision": 0.439,
+            "recall": 0.597,
+            "f1": 0.506,
+            "tp": 43,
+            "fp": 55,
+            "fn": 29,
+            "support": 72
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.448,
+              "recall": 0.612,
+              "f1": 0.517,
+              "tp": 30,
+              "fp": 37,
+              "fn": 19,
+              "support": 49
+            },
+            "treated_by": {
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.75,
+              "tp": 6,
+              "fp": 4,
+              "fn": 0,
+              "support": 6
+            },
+            "treated_by_procedure": {
+              "precision": 0.263,
+              "recall": 0.417,
+              "f1": 0.323,
+              "tp": 5,
+              "fp": 14,
+              "fn": 7,
+              "support": 12
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.25,
+              "f1": 0.4,
+              "tp": 1,
+              "fp": 0,
+              "fn": 3,
+              "support": 4
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "support": 1
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.413,
+            0.585
+          ]
+        },
+        "biotext_ade+rules": {
+          "positive_micro": {
+            "precision": 0.479,
+            "recall": 0.792,
+            "f1": 0.597,
+            "tp": 57,
+            "fp": 62,
+            "fn": 15,
+            "support": 72
+          },
+          "per_relation": {
+            "located_at": {
+              "precision": 0.5,
+              "recall": 0.857,
+              "f1": 0.632,
+              "tp": 42,
+              "fp": 42,
+              "fn": 7,
+              "support": 49
+            },
+            "treated_by": {
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.75,
+              "tp": 6,
+              "fp": 4,
+              "fn": 0,
+              "support": 6
+            },
+            "treated_by_procedure": {
+              "precision": 0.273,
+              "recall": 0.5,
+              "f1": 0.353,
+              "tp": 6,
+              "fp": 16,
+              "fn": 6,
+              "support": 12
+            },
+            "diagnosed_by": {
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.667,
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "support": 4
+            },
+            "has_dosage": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "support": 1
+            }
+          },
+          "positive_micro_f1_ci95": [
+            0.521,
+            0.67
+          ]
+        }
+      },
+      "paired_diff_ci95": {
+        "biotext": {
+          "alone": [
+            -0.107,
+            0.0
+          ],
+          "with_rules": [
+            -0.071,
+            0.019
+          ]
+        },
+        "biotext_ade": {
+          "alone": [
+            -0.109,
+            0.045
+          ],
+          "with_rules": [
+            -0.079,
+            0.034
+          ]
+        }
+      },
+      "diagnostics": {
+        "biotext": {
+          "new_false_positives": 20,
+          "new_false_positives_by_relation": {
+            "located_at": 12,
+            "treated_by_procedure": 8
+          },
+          "new_true_positives": 2,
+          "lost_true_positives": 4,
+          "mean_prob_on_negatives": 0.192,
+          "mean_prob_on_negatives_baseline": 0.172
+        },
+        "biotext_ade": {
+          "new_false_positives": 20,
+          "new_false_positives_by_relation": {
+            "located_at": 11,
+            "treated_by_procedure": 7,
+            "treated_by": 2
+          },
+          "new_true_positives": 6,
+          "lost_true_positives": 7,
+          "mean_prob_on_negatives": 0.187,
+          "mean_prob_on_negatives_baseline": 0.172
+        }
+      }
+    }
+  },
+  "decision": {
+    "biotext": "giữ mô hình triển khai",
+    "biotext_ade": "giữ mô hình triển khai"
+  }
+}

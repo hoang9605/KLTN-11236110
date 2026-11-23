@@ -1,0 +1,81 @@
+{
+ "seed_pairs": 1169,
+ "seed_positive_rate": 0.373,
+ "target_positive_rate": [
+  0.32,
+  0.42
+ ],
+ "audit": {
+  "drop_skeleton_cap": 543,
+  "drop_duplicate": 174,
+  "drop_leak_dev_test": 8,
+  "drop_positive_ratio": 428
+ },
+ "pool": {
+  "records": 2874,
+  "pairs": 4946,
+  "by_method": {
+   "mention_replacement": 925,
+   "hard_negative": 1657,
+   "template": 292
+  },
+  "pairs_by_label": {
+   "diagnosed_by:neg": 414,
+   "diagnosed_by:pos": 221,
+   "has_dosage:neg": 55,
+   "has_dosage:pos": 250,
+   "located_at:neg": 1904,
+   "located_at:pos": 748,
+   "treated_by:neg": 522,
+   "treated_by:pos": 178,
+   "treated_by_procedure:neg": 468,
+   "treated_by_procedure:pos": 186
+  }
+ },
+ "x1": {
+  "records": 691,
+  "pairs": 1169,
+  "by_method": {
+   "hard_negative": 407,
+   "mention_replacement": 220,
+   "template": 64
+  },
+  "pairs_by_label": {
+   "diagnosed_by:neg": 99,
+   "diagnosed_by:pos": 45,
+   "has_dosage:neg": 13,
+   "has_dosage:pos": 55,
+   "located_at:neg": 441,
+   "located_at:pos": 179,
+   "treated_by:neg": 130,
+   "treated_by:pos": 47,
+   "treated_by_procedure:neg": 111,
+   "treated_by_procedure:pos": 49
+  },
+  "requested_pairs": 1169,
+  "short_of_request": false
+ },
+ "x3": {
+  "records": 2023,
+  "pairs": 3509,
+  "by_method": {
+   "hard_negative": 1187,
+   "mention_replacement": 647,
+   "template": 189
+  },
+  "pairs_by_label": {
+   "diagnosed_by:neg": 292,
+   "diagnosed_by:pos": 145,
+   "has_dosage:neg": 39,
+   "has_dosage:pos": 165,
+   "located_at:neg": 1363,
+   "located_at:pos": 514,
+   "treated_by:neg": 387,
+   "treated_by:pos": 127,
+   "treated_by_procedure:neg": 337,
+   "treated_by_procedure:pos": 140
+  },
+  "requested_pairs": 3507,
+  "short_of_request": false
+ }
+}

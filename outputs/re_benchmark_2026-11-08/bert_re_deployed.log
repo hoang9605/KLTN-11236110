@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12723.57it/s]
+[transformers] The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+seed 42 saved (462s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12351.16it/s]
+seed 43 saved (961s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12726.48it/s]
+seed 44 saved (1466s)
+{"base": "demdecuong/vihealthbert-base-syllable", "max_len": 192, "threshold": 0.5, "seeds": [42, 43, 44], "seed_aggregation": "mean probability, threshold 0.5", "epochs": 10, "lr": 3e-05, "batch": 16, "class_weight": "n_neg/n_pos", "pooling": "head/tail start markers", "supported_relations": ["diagnosed_by", "located_at", "treated_by", "treated_by_procedure"], "all_relations": ["diagnosed_by", "has_dosage", "located_at", "treated_by", "treated_by_procedure"], "train_pairs": 556, "train_positives": 64, "train_data": "RE gold v1 (người duyệt trên giấy, quy ước 05/11/2026) + RE v2 (nhãn AI)", "label_source": "gold_v1_reviewed+ai_v2", "human_verified": false, "torch": "2.14.0+cu126", "trained_on": "NVIDIA GeForce GTX 1650", "seconds": 1466, "date": "2026-11-08"}

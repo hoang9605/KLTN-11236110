@@ -1,0 +1,773 @@
+{
+ "sets": {
+  "train_gold_v1": {
+   "sentences": 73,
+   "sentences_with_positive": 24,
+   "pairs": 162,
+   "positives": 25,
+   "by_relation": {
+    "located_at": {
+     "neg": 100,
+     "pos": 20
+    },
+    "treated_by": {
+     "neg": 21
+    },
+    "treated_by_procedure": {
+     "pos": 4,
+     "neg": 15
+    },
+    "diagnosed_by": {
+     "neg": 1,
+     "pos": 1
+    },
+    "has_dosage": {}
+   },
+   "gap_words_median": {
+    "neg": 10,
+    "pos": 3
+   },
+   "gap_words_mean": {
+    "neg": 9.8,
+    "pos": 3.9
+   },
+   "pairs_per_sentence_max": 9,
+   "sentence_words_median": 27.0
+  },
+  "train_ai_v2": {
+   "sentences": 190,
+   "sentences_with_positive": 34,
+   "pairs": 394,
+   "positives": 39,
+   "by_relation": {
+    "located_at": {
+     "neg": 54,
+     "pos": 14
+    },
+    "treated_by": {
+     "neg": 102,
+     "pos": 9
+    },
+    "treated_by_procedure": {
+     "neg": 57,
+     "pos": 11
+    },
+    "diagnosed_by": {
+     "pos": 5,
+     "neg": 62
+    },
+    "has_dosage": {
+     "neg": 80
+    }
+   },
+   "gap_words_median": {
+    "neg": 7,
+    "pos": 3
+   },
+   "gap_words_mean": {
+    "neg": 8.0,
+    "pos": 4.6
+   },
+   "pairs_per_sentence_max": 6,
+   "sentence_words_median": 27.0
+  },
+  "test_golden_v1_1": {
+   "sentences": 62,
+   "sentences_with_positive": 28,
+   "pairs": 117,
+   "positives": 39,
+   "by_relation": {
+    "located_at": {
+     "neg": 52,
+     "pos": 17
+    },
+    "treated_by": {
+     "neg": 16,
+     "pos": 5
+    },
+    "treated_by_procedure": {
+     "neg": 7,
+     "pos": 2
+    },
+    "diagnosed_by": {
+     "pos": 9
+    },
+    "has_dosage": {
+     "pos": 6,
+     "neg": 3
+    }
+   },
+   "gap_words_median": {
+    "neg": 8.0,
+    "pos": 4
+   },
+   "gap_words_mean": {
+    "neg": 9.1,
+    "pos": 5.8
+   },
+   "pairs_per_sentence_max": 5,
+   "sentence_words_median": 27
+  },
+  "test_random_v1": {
+   "sentences": 186,
+   "sentences_with_positive": 59,
+   "pairs": 391,
+   "positives": 72,
+   "by_relation": {
+    "located_at": {
+     "neg": 207,
+     "pos": 49
+    },
+    "treated_by": {
+     "neg": 24,
+     "pos": 6
+    },
+    "treated_by_procedure": {
+     "neg": 77,
+     "pos": 12
+    },
+    "diagnosed_by": {
+     "neg": 4,
+     "pos": 4
+    },
+    "has_dosage": {
+     "pos": 1,
+     "neg": 7
+    }
+   },
+   "gap_words_median": {
+    "neg": 7,
+    "pos": 1.0
+   },
+   "gap_words_mean": {
+    "neg": 7.7,
+    "pos": 3.9
+   },
+   "pairs_per_sentence_max": 9,
+   "sentence_words_median": 26
+  }
+ },
+ "mentions_train": {
+  "CONDITION": {
+   "distinct": 138,
+   "top": [
+    [
+     "ung thư",
+     42
+    ],
+    [
+     "biến chứng",
+     15
+    ],
+    [
+     "vi khuẩn",
+     15
+    ],
+    [
+     "parkinson",
+     14
+    ],
+    [
+     "triệu chứng",
+     12
+    ],
+    [
+     "covid",
+     12
+    ],
+    [
+     "viêm",
+     11
+    ],
+    [
+     "đau đầu",
+     11
+    ],
+    [
+     "rung nhĩ",
+     10
+    ],
+    [
+     "xơ vữa động mạch",
+     9
+    ],
+    [
+     "tế bào ung thư",
+     9
+    ],
+    [
+     "mảng xơ vữa",
+     8
+    ]
+   ],
+   "top_in_positive": [
+    [
+     "parkinson",
+     4
+    ],
+    [
+     "rung nhĩ",
+     4
+    ],
+    [
+     "tổn thương",
+     3
+    ],
+    [
+     "viêm",
+     3
+    ],
+    [
+     "da nhạy cảm",
+     3
+    ],
+    [
+     "ung thư",
+     3
+    ],
+    [
+     "sarscov2",
+     3
+    ],
+    [
+     "cục máu đông",
+     2
+    ]
+   ]
+  },
+  "BODY_PART": {
+   "distinct": 55,
+   "top": [
+    [
+     "cơ thể",
+     23
+    ],
+    [
+     "tim",
+     17
+    ],
+    [
+     "não",
+     16
+    ],
+    [
+     "tim mạch",
+     11
+    ],
+    [
+     "máu",
+     9
+    ],
+    [
+     "mạch vành",
+     9
+    ],
+    [
+     "da",
+     8
+    ],
+    [
+     "động mạch",
+     8
+    ],
+    [
+     "mạch",
+     5
+    ],
+    [
+     "tế bào",
+     4
+    ],
+    [
+     "thần kinh",
+     3
+    ],
+    [
+     "mô",
+     3
+    ]
+   ],
+   "top_in_positive": [
+    [
+     "da",
+     4
+    ],
+    [
+     "đường tiêu hóa",
+     3
+    ],
+    [
+     "tim",
+     2
+    ],
+    [
+     "chân tay",
+     2
+    ],
+    [
+     "tuyến giáp",
+     2
+    ],
+    [
+     "xương khớp",
+     2
+    ],
+    [
+     "não",
+     2
+    ],
+    [
+     "động mạch",
+     2
+    ]
+   ]
+  },
+  "PROCEDURE": {
+   "distinct": 32,
+   "top": [
+    [
+     "tiêm",
+     9
+    ],
+    [
+     "cải thiện",
+     9
+    ],
+    [
+     "hóa trị",
+     8
+    ],
+    [
+     "hỗ trợ",
+     8
+    ],
+    [
+     "nuôi dưỡng",
+     6
+    ],
+    [
+     "uống thuốc",
+     5
+    ],
+    [
+     "xạ trị",
+     4
+    ],
+    [
+     "phẫu thuật kích thích não sâu",
+     3
+    ],
+    [
+     "phẫu thuật",
+     3
+    ],
+    [
+     "điện cực",
+     2
+    ],
+    [
+     "sinh mổ",
+     2
+    ],
+    [
+     "mổ",
+     2
+    ]
+   ],
+   "top_in_positive": [
+    [
+     "phẫu thuật kích thích não sâu",
+     3
+    ],
+    [
+     "uống thuốc",
+     3
+    ],
+    [
+     "điều trị gen",
+     2
+    ],
+    [
+     "phẫu thuật",
+     1
+    ],
+    [
+     "kích thích não sâu",
+     1
+    ],
+    [
+     "mổ",
+     1
+    ],
+    [
+     "phương pháp trị liệu",
+     1
+    ],
+    [
+     "hóa trị",
+     1
+    ]
+   ]
+  },
+  "DRUG": {
+   "distinct": 78,
+   "top": [
+    [
+     "ngăn ngừa",
+     16
+    ],
+    [
+     "kiểm soát",
+     15
+    ],
+    [
+     "chất béo",
+     10
+    ],
+    [
+     "chỉ định",
+     10
+    ],
+    [
+     "phòng ngừa",
+     8
+    ],
+    [
+     "corticoid",
+     6
+    ],
+    [
+     "vắcxin",
+     6
+    ],
+    [
+     "ức chế",
+     6
+    ],
+    [
+     "carbohydrate",
+     5
+    ],
+    [
+     "kẽm",
+     5
+    ],
+    [
+     "dự phòng",
+     5
+    ],
+    [
+     "thảo dược",
+     5
+    ]
+   ],
+   "top_in_positive": [
+    [
+     "thuốc kháng đông",
+     2
+    ],
+    [
+     "corticoid",
+     2
+    ],
+    [
+     "niacinamide",
+     1
+    ],
+    [
+     "thuốc để giảm nhịp tim",
+     1
+    ],
+    [
+     "kháng sinh",
+     1
+    ],
+    [
+     "thuốc giảm đau",
+     1
+    ],
+    [
+     "levodopa",
+     1
+    ]
+   ]
+  },
+  "TEST": {
+   "distinct": 20,
+   "top": [
+    [
+     "nghiên cứu",
+     15
+    ],
+    [
+     "chuyển hóa",
+     10
+    ],
+    [
+     "xét nghiệm",
+     10
+    ],
+    [
+     "kiểm tra",
+     7
+    ],
+    [
+     "sức đề kháng",
+     4
+    ],
+    [
+     "quá trình lão hóa",
+     4
+    ],
+    [
+     "test",
+     3
+    ],
+    [
+     "thụ thể",
+     2
+    ],
+    [
+     "chiếc máu",
+     2
+    ],
+    [
+     "tự bảo vệ",
+     2
+    ],
+    [
+     "lấy mẫu",
+     1
+    ],
+    [
+     "nghiệm pháp kích thích",
+     1
+    ]
+   ],
+   "top_in_positive": [
+    [
+     "xét nghiệm",
+     3
+    ],
+    [
+     "test",
+     2
+    ],
+    [
+     "nghiệm pháp kích thích",
+     1
+    ]
+   ]
+  },
+  "DOSAGE": {
+   "distinct": 27,
+   "top": [
+    [
+     "cao",
+     15
+    ],
+    [
+     "thứ nhất",
+     10
+    ],
+    [
+     "rất nhiều",
+     10
+    ],
+    [
+     "một trăm phần trăm",
+     10
+    ],
+    [
+     "cái thứ hai",
+     3
+    ],
+    [
+     "một phần",
+     3
+    ],
+    [
+     "phần trăm",
+     3
+    ],
+    [
+     "thấp",
+     2
+    ],
+    [
+     "tỷ lệ",
+     2
+    ],
+    [
+     "nồng độ cao",
+     2
+    ],
+    [
+     "nhịp tim",
+     2
+    ],
+    [
+     "liều thuốc",
+     2
+    ]
+   ],
+   "top_in_positive": []
+  }
+ },
+ "rules_on": {
+  "train_gold_v1": {
+   "located_at": {
+    "tp": 8,
+    "fp": 4,
+    "fn": 12
+   },
+   "treated_by": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+   },
+   "treated_by_procedure": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 3
+   },
+   "diagnosed_by": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 1
+   },
+   "has_dosage": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0
+   }
+  },
+  "train_ai_v2": {
+   "located_at": {
+    "tp": 9,
+    "fp": 1,
+    "fn": 5
+   },
+   "treated_by": {
+    "tp": 2,
+    "fp": 3,
+    "fn": 7
+   },
+   "treated_by_procedure": {
+    "tp": 2,
+    "fp": 2,
+    "fn": 9
+   },
+   "diagnosed_by": {
+    "tp": 0,
+    "fp": 7,
+    "fn": 5
+   },
+   "has_dosage": {
+    "tp": 0,
+    "fp": 6,
+    "fn": 0
+   }
+  },
+  "test_golden_v1_1": {
+   "located_at": {
+    "tp": 6,
+    "fp": 3,
+    "fn": 11
+   },
+   "treated_by": {
+    "tp": 3,
+    "fp": 2,
+    "fn": 2
+   },
+   "treated_by_procedure": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 2
+   },
+   "diagnosed_by": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 6
+   },
+   "has_dosage": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 5
+   }
+  },
+  "test_random_v1": {
+   "located_at": {
+    "tp": 32,
+    "fp": 6,
+    "fn": 17
+   },
+   "treated_by": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 5
+   },
+   "treated_by_procedure": {
+    "tp": 1,
+    "fp": 3,
+    "fn": 11
+   },
+   "diagnosed_by": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 3
+   },
+   "has_dosage": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 1
+   }
+  }
+ },
+ "sentence_overlap": {
+  "train_ai_v2&train_gold_v1": 0,
+  "test_golden_v1_1&train_gold_v1": 0,
+  "test_golden_v1_1&train_ai_v2": 0,
+  "test_golden_v1_1&test_random_v1": 0,
+  "test_random_v1&train_gold_v1": 0,
+  "test_random_v1&train_ai_v2": 0
+ },
+ "vietmed_pool": {
+  "train": {
+   "sentences": 4616,
+   "sentences_with_candidate_pair": 1035,
+   "candidate_pairs": 2760,
+   "by_relation": {
+    "has_dosage": 200,
+    "treated_by_procedure": 440,
+    "treated_by": 458,
+    "located_at": 1551,
+    "diagnosed_by": 111
+   }
+  },
+  "validation": {
+   "sentences": 1154,
+   "sentences_with_candidate_pair": 241,
+   "candidate_pairs": 610,
+   "by_relation": {
+    "treated_by_procedure": 121,
+    "treated_by": 109,
+    "located_at": 314,
+    "diagnosed_by": 22,
+    "has_dosage": 44
+   }
+  },
+  "test": {
+   "sentences": 3497,
+   "sentences_with_candidate_pair": 488,
+   "candidate_pairs": 1074,
+   "by_relation": {
+    "located_at": 575,
+    "treated_by": 129,
+    "treated_by_procedure": 263,
+    "has_dosage": 66,
+    "diagnosed_by": 41
+   }
+  }
+ }
+}

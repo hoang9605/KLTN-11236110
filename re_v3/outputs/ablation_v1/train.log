@@ -1,0 +1,16 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9518.59it/s]
+[transformers] The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+[pattern_x1] seed 42 done (974s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 18499.22it/s]
+[pattern_x1] seed 43 done (2024s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15511.94it/s]
+[pattern_x1] seed 44 done (3080s)
+{"tag": "pattern_x1", "extra_train": "re_v3\\data\\filtered\\pattern_v1_x1.jsonl", "extra_prefix": ["SP-"], "extra_pairs": 566, "extra_by_label": {"located_at:NO_RELATION": 135, "located_at:located_at": 27, "treated_by_procedure:NO_RELATION": 91, "treated_by:NO_RELATION": 107, "diagnosed_by:diagnosed_by": 28, "treated_by_procedure:treated_by_procedure": 27, "diagnosed_by:NO_RELATION": 84, "treated_by:treated_by": 27, "has_dosage:NO_RELATION": 12, "has_dosage:has_dosage": 28}, "base_pairs": 556, "base": "demdecuong/vihealthbert-base-syllable", "seeds": [42, 43, 44], "epochs": 10, "lr": 3e-05, "batch": 16, "max_len": 192, "seed_aggregation": "mean probability, threshold 0.5", "torch": "2.14.0+cu126", "device": "NVIDIA GeForce GTX 1650", "seconds": 3080, "date": "2026-11-19"}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13996.02it/s]
+[transformers] The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+[pattern_x3] seed 42 done (2040s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 14094.33it/s]
+C:\Users\ASUS\dev\Code_Study\AI-KLTN\scripts\re_dataset\bert_re.py:75: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  sch.step()
+[pattern_x3] seed 43 done (3991s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10070.66it/s]

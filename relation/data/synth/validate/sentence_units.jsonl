@@ -1,0 +1,2874 @@
+{"sentence_id": "SY-00001", "unit_ids": ["K1-00001", "K2-00002", "K3-00003"]}
+{"sentence_id": "SY-00002", "unit_ids": ["K1-00004", "K1-00005", "K2-00006", "K3-00007"]}
+{"sentence_id": "SY-00003", "unit_ids": ["K1-00008", "K2-00009", "K3-00010"]}
+{"sentence_id": "SY-00004", "unit_ids": ["K1-00008", "K2-00009", "K3-00011"]}
+{"sentence_id": "SY-00005", "unit_ids": ["K1-00012", "K1-00013", "K1-00014", "K2-00015", "K3-00016"]}
+{"sentence_id": "SY-00006", "unit_ids": ["K1-00017", "K2-00018", "K3-00019"]}
+{"sentence_id": "SY-00007", "unit_ids": ["K1-00020", "K1-00021", "K2-00022", "K3-00023"]}
+{"sentence_id": "SY-00008", "unit_ids": ["K1-00001", "K2-00002", "K3-00024"]}
+{"sentence_id": "SY-00009", "unit_ids": ["K1-00025", "K1-00026", "K2-00027", "K3-00028"]}
+{"sentence_id": "SY-00010", "unit_ids": ["K1-00029", "K1-00030", "K2-00031", "K3-00032"]}
+{"sentence_id": "SY-00011", "unit_ids": ["K1-00008", "K2-00009", "K3-00033"]}
+{"sentence_id": "SY-00012", "unit_ids": ["K1-00004", "K1-00005", "K2-00006", "K3-00034"]}
+{"sentence_id": "SY-00013", "unit_ids": ["K1-00035", "K2-00036", "K3-00037"]}
+{"sentence_id": "SY-00014", "unit_ids": ["K1-00038", "K2-00039", "K3-00040"]}
+{"sentence_id": "SY-00015", "unit_ids": ["K1-00041", "K2-00042", "K3-00043"]}
+{"sentence_id": "SY-00016", "unit_ids": ["K1-00004", "K1-00005", "K2-00006", "K3-00044"]}
+{"sentence_id": "SY-00017", "unit_ids": ["K1-00017", "K2-00018", "K3-00045"]}
+{"sentence_id": "SY-00018", "unit_ids": ["K1-00012", "K1-00014", "K2-00015", "K3-00046"]}
+{"sentence_id": "SY-00019", "unit_ids": ["K1-00047", "K1-00048", "K2-00049", "K3-00050"]}
+{"sentence_id": "SY-00020", "unit_ids": ["K1-00051", "K2-00052", "K3-00053"]}
+{"sentence_id": "SY-00021", "unit_ids": ["K1-00054", "K1-00055", "K2-00056", "K3-00057"]}
+{"sentence_id": "SY-00022", "unit_ids": ["K2-00058", "K3-00059"]}
+{"sentence_id": "SY-00023", "unit_ids": ["K2-00060", "K3-00061"]}
+{"sentence_id": "SY-00024", "unit_ids": ["K2-00058", "K3-00062"]}
+{"sentence_id": "SY-00025", "unit_ids": ["K1-00063", "K2-00064", "K3-00065"]}
+{"sentence_id": "SY-00026", "unit_ids": ["K1-00066", "K2-00067", "K3-00068"]}
+{"sentence_id": "SY-00027", "unit_ids": ["K1-00008", "K2-00009", "K3-00069"]}
+{"sentence_id": "SY-00028", "unit_ids": ["K1-00070", "K1-00071", "K2-00072", "K3-00073"]}
+{"sentence_id": "SY-00029", "unit_ids": ["K1-00038", "K2-00039", "K3-00074"]}
+{"sentence_id": "SY-00031", "unit_ids": ["K3-00075"]}
+{"sentence_id": "SY-00032", "unit_ids": ["K3-00076"]}
+{"sentence_id": "SY-00033", "unit_ids": ["K2-00077", "K3-00078"]}
+{"sentence_id": "SY-00034", "unit_ids": ["K2-00079", "K3-00080"]}
+{"sentence_id": "SY-00035", "unit_ids": ["K2-00081", "K3-00082"]}
+{"sentence_id": "SY-00036", "unit_ids": ["K2-00083", "K2-00084", "K3-00085"]}
+{"sentence_id": "SY-00037", "unit_ids": ["K2-00084", "K2-00086", "K3-00087"]}
+{"sentence_id": "SY-00038", "unit_ids": ["K2-00083", "K2-00088", "K3-00089"]}
+{"sentence_id": "SY-00039", "unit_ids": ["K1-00090", "K2-00091", "K2-00092", "K3-00093"]}
+{"sentence_id": "SY-00040", "unit_ids": ["K1-00094", "K2-00091", "K2-00095", "K3-00096"]}
+{"sentence_id": "SY-00041", "unit_ids": ["K1-00097", "K2-00091", "K2-00098", "K3-00099"]}
+{"sentence_id": "SY-00042", "unit_ids": ["K1-00100", "K2-00101", "K2-00102", "K3-00103"]}
+{"sentence_id": "SY-00043", "unit_ids": ["K1-00104", "K1-00105", "K2-00106", "K2-00107", "K3-00108"]}
+{"sentence_id": "SY-00044", "unit_ids": ["K1-00109", "K2-00110", "K2-00111", "K3-00112"]}
+{"sentence_id": "SY-00045", "unit_ids": ["K1-00113", "K1-00114", "K2-00115", "K2-00116", "K2-00117", "K3-00118"]}
+{"sentence_id": "SY-00046", "unit_ids": ["K1-00119", "K2-00115", "K2-00116", "K2-00120", "K3-00121"]}
+{"sentence_id": "SY-00047", "unit_ids": ["K1-00122", "K1-00123", "K2-00116", "K2-00124", "K2-00125", "K3-00126"]}
+{"sentence_id": "SY-00048", "unit_ids": ["K1-00127", "K1-00128", "K2-00107", "K2-00129", "K2-00130", "K2-00131", "K3-00132"]}
+{"sentence_id": "SY-00049", "unit_ids": ["K2-00107", "K2-00110", "K2-00130", "K2-00133", "K3-00134"]}
+{"sentence_id": "SY-00050", "unit_ids": ["K1-00135", "K1-00136", "K2-00129", "K2-00130", "K2-00137", "K2-00138", "K3-00139"]}
+{"sentence_id": "SY-00051", "unit_ids": ["K2-00140", "K2-00141", "K3-00142"]}
+{"sentence_id": "SY-00052", "unit_ids": ["K2-00140", "K2-00141", "K3-00143"]}
+{"sentence_id": "SY-00053", "unit_ids": ["K2-00140", "K2-00141", "K3-00144"]}
+{"sentence_id": "SY-00054", "unit_ids": ["K1-00145", "K2-00146", "K3-00147"]}
+{"sentence_id": "SY-00055", "unit_ids": ["K1-00148", "K1-00149", "K2-00150", "K3-00151"]}
+{"sentence_id": "SY-00056", "unit_ids": ["K1-00152", "K2-00153", "K3-00154"]}
+{"sentence_id": "SY-00057", "unit_ids": ["K1-00155", "K1-00156", "K2-00157", "K2-00158", "K3-00159"]}
+{"sentence_id": "SY-00058", "unit_ids": ["K1-00160", "K2-00161", "K2-00162", "K3-00163"]}
+{"sentence_id": "SY-00059", "unit_ids": ["K1-00148", "K1-00149", "K2-00150", "K2-00158", "K3-00164"]}
+{"sentence_id": "SY-00060", "unit_ids": ["K2-00165", "K3-00166"]}
+{"sentence_id": "SY-00061", "unit_ids": ["K2-00167", "K3-00168"]}
+{"sentence_id": "SY-00062", "unit_ids": ["K2-00169", "K3-00170"]}
+{"sentence_id": "SY-00063", "unit_ids": ["K1-00171", "K1-00172", "K2-00173", "K2-00174", "K3-00175"]}
+{"sentence_id": "SY-00064", "unit_ids": ["K1-00171", "K2-00173", "K2-00174", "K3-00176"]}
+{"sentence_id": "SY-00065", "unit_ids": ["K1-00177", "K1-00178", "K2-00173", "K2-00174", "K3-00179"]}
+{"sentence_id": "SY-00066", "unit_ids": ["K1-00180", "K3-00181"]}
+{"sentence_id": "SY-00067", "unit_ids": ["K1-00182", "K3-00183"]}
+{"sentence_id": "SY-00069", "unit_ids": ["K1-00184", "K2-00185", "K2-00186", "K3-00187"]}
+{"sentence_id": "SY-00070", "unit_ids": ["K2-00115", "K2-00186", "K3-00188"]}
+{"sentence_id": "SY-00071", "unit_ids": ["K1-00189", "K2-00186", "K2-00190", "K3-00191"]}
+{"sentence_id": "SY-00072", "unit_ids": ["K2-00192", "K3-00193"]}
+{"sentence_id": "SY-00073", "unit_ids": ["K2-00194", "K3-00195"]}
+{"sentence_id": "SY-00074", "unit_ids": ["K2-00196", "K3-00197"]}
+{"sentence_id": "SY-00075", "unit_ids": ["K2-00198", "K3-00199"]}
+{"sentence_id": "SY-00076", "unit_ids": ["K2-00200", "K3-00201"]}
+{"sentence_id": "SY-00077", "unit_ids": ["K2-00202", "K3-00203"]}
+{"sentence_id": "SY-00078", "unit_ids": ["K2-00162", "K3-00204"]}
+{"sentence_id": "SY-00079", "unit_ids": ["K2-00205", "K3-00206"]}
+{"sentence_id": "SY-00080", "unit_ids": ["K2-00207", "K3-00208"]}
+{"sentence_id": "SY-00081", "unit_ids": ["K1-00209", "K1-00210", "K2-00211", "K3-00212"]}
+{"sentence_id": "SY-00082", "unit_ids": ["K1-00213", "K1-00214", "K2-00215", "K3-00216"]}
+{"sentence_id": "SY-00083", "unit_ids": ["K1-00217", "K1-00218", "K2-00219", "K3-00220"]}
+{"sentence_id": "SY-00084", "unit_ids": ["K2-00221", "K3-00222"]}
+{"sentence_id": "SY-00085", "unit_ids": ["K2-00223", "K3-00224"]}
+{"sentence_id": "SY-00086", "unit_ids": ["K2-00225", "K3-00226"]}
+{"sentence_id": "SY-00087", "unit_ids": ["K1-00227", "K2-00228", "K3-00229"]}
+{"sentence_id": "SY-00088", "unit_ids": ["K2-00230", "K3-00231"]}
+{"sentence_id": "SY-00089", "unit_ids": ["K2-00232", "K3-00233"]}
+{"sentence_id": "SY-00090", "unit_ids": ["K2-00205", "K2-00207", "K3-00234"]}
+{"sentence_id": "SY-00091", "unit_ids": ["K2-00207", "K2-00235", "K3-00236"]}
+{"sentence_id": "SY-00092", "unit_ids": ["K2-00162", "K2-00205", "K3-00237"]}
+{"sentence_id": "SY-00093", "unit_ids": ["K2-00088", "K3-00238"]}
+{"sentence_id": "SY-00094", "unit_ids": ["K2-00239", "K3-00240"]}
+{"sentence_id": "SY-00095", "unit_ids": ["K2-00241", "K3-00242"]}
+{"sentence_id": "SY-00096", "unit_ids": ["K3-00243"]}
+{"sentence_id": "SY-00097", "unit_ids": ["K3-00244"]}
+{"sentence_id": "SY-00098", "unit_ids": ["K3-00245"]}
+{"sentence_id": "SY-00099", "unit_ids": ["K1-00246", "K2-00247", "K2-00248", "K3-00249"]}
+{"sentence_id": "SY-00100", "unit_ids": ["K1-00250", "K2-00251", "K2-00252", "K3-00253"]}
+{"sentence_id": "SY-00101", "unit_ids": ["K1-00254", "K2-00255", "K2-00256", "K3-00257"]}
+{"sentence_id": "SY-00102", "unit_ids": ["K1-00258", "K3-00259"]}
+{"sentence_id": "SY-00103", "unit_ids": ["K3-00260"]}
+{"sentence_id": "SY-00104", "unit_ids": ["K1-00261", "K3-00262"]}
+{"sentence_id": "SY-00105", "unit_ids": ["K2-00215", "K2-00263", "K3-00264"]}
+{"sentence_id": "SY-00106", "unit_ids": ["K2-00219", "K2-00265", "K3-00266"]}
+{"sentence_id": "SY-00107", "unit_ids": ["K2-00263", "K2-00265", "K3-00267"]}
+{"sentence_id": "SY-00108", "unit_ids": ["K1-00152", "K2-00153", "K3-00268"]}
+{"sentence_id": "SY-00109", "unit_ids": ["K1-00269", "K2-00161", "K3-00270"]}
+{"sentence_id": "SY-00110", "unit_ids": ["K1-00271", "K1-00272", "K2-00273", "K3-00274"]}
+{"sentence_id": "SY-00111", "unit_ids": ["K2-00275", "K3-00276"]}
+{"sentence_id": "SY-00112", "unit_ids": ["K2-00277", "K3-00278"]}
+{"sentence_id": "SY-00113", "unit_ids": ["K2-00279", "K3-00280"]}
+{"sentence_id": "SY-00114", "unit_ids": ["K1-00281", "K2-00282", "K3-00283"]}
+{"sentence_id": "SY-00115", "unit_ids": ["K1-00284", "K1-00285", "K2-00286", "K3-00287"]}
+{"sentence_id": "SY-00116", "unit_ids": ["K1-00288", "K2-00289", "K3-00290"]}
+{"sentence_id": "SY-00117", "unit_ids": ["K1-00284", "K1-00285", "K2-00286", "K3-00291"]}
+{"sentence_id": "SY-00118", "unit_ids": ["K1-00292", "K2-00293", "K3-00294"]}
+{"sentence_id": "SY-00119", "unit_ids": ["K1-00119", "K1-00295", "K2-00120", "K3-00296"]}
+{"sentence_id": "SY-00120", "unit_ids": ["K1-00297", "K3-00298"]}
+{"sentence_id": "SY-00121", "unit_ids": ["K3-00299"]}
+{"sentence_id": "SY-00123", "unit_ids": ["K2-00300", "K3-00301"]}
+{"sentence_id": "SY-00124", "unit_ids": ["K1-00302", "K2-00202", "K3-00303"]}
+{"sentence_id": "SY-00125", "unit_ids": ["K1-00304", "K2-00305", "K3-00306"]}
+{"sentence_id": "SY-00126", "unit_ids": ["K3-00307"]}
+{"sentence_id": "SY-00128", "unit_ids": ["K3-00308"]}
+{"sentence_id": "SY-00129", "unit_ids": ["K1-00309", "K3-00310"]}
+{"sentence_id": "SY-00130", "unit_ids": ["K1-00311", "K3-00312"]}
+{"sentence_id": "SY-00131", "unit_ids": ["K1-00313", "K3-00314"]}
+{"sentence_id": "SY-00132", "unit_ids": ["K1-00315", "K2-00316", "K3-00317"]}
+{"sentence_id": "SY-00133", "unit_ids": ["K2-00318", "K3-00319"]}
+{"sentence_id": "SY-00134", "unit_ids": ["K1-00320", "K2-00316", "K3-00321"]}
+{"sentence_id": "SY-00135", "unit_ids": ["K2-00322", "K2-00323", "K3-00324"]}
+{"sentence_id": "SY-00136", "unit_ids": ["K2-00325", "K2-00326", "K3-00327"]}
+{"sentence_id": "SY-00137", "unit_ids": ["K2-00215", "K2-00323", "K3-00328"]}
+{"sentence_id": "SY-00138", "unit_ids": ["K3-00329"]}
+{"sentence_id": "SY-00139", "unit_ids": ["K3-00330"]}
+{"sentence_id": "SY-00141", "unit_ids": ["K3-00331"]}
+{"sentence_id": "SY-00143", "unit_ids": ["K3-00332"]}
+{"sentence_id": "SY-00144", "unit_ids": ["K2-00333", "K3-00334"]}
+{"sentence_id": "SY-00145", "unit_ids": ["K2-00247", "K3-00335"]}
+{"sentence_id": "SY-00146", "unit_ids": ["K2-00251", "K3-00336"]}
+{"sentence_id": "SY-00147", "unit_ids": ["K1-00337", "K2-00338", "K2-00339", "K2-00340", "K3-00341"]}
+{"sentence_id": "SY-00148", "unit_ids": ["K1-00342", "K2-00338", "K2-00339", "K2-00340", "K3-00343"]}
+{"sentence_id": "SY-00149", "unit_ids": ["K1-00344", "K2-00338", "K2-00339", "K2-00340", "K3-00345"]}
+{"sentence_id": "SY-00150", "unit_ids": ["K3-00346"]}
+{"sentence_id": "SY-00151", "unit_ids": ["K3-00347"]}
+{"sentence_id": "SY-00152", "unit_ids": ["K3-00348"]}
+{"sentence_id": "SY-00153", "unit_ids": ["K2-00255", "K2-00349", "K3-00350"]}
+{"sentence_id": "SY-00154", "unit_ids": ["K2-00247", "K2-00349", "K3-00351"]}
+{"sentence_id": "SY-00155", "unit_ids": ["K2-00349", "K2-00352", "K3-00353"]}
+{"sentence_id": "SY-00156", "unit_ids": ["K2-00333", "K3-00354"]}
+{"sentence_id": "SY-00157", "unit_ids": ["K2-00355", "K3-00356"]}
+{"sentence_id": "SY-00158", "unit_ids": ["K2-00352", "K3-00357"]}
+{"sentence_id": "SY-00159", "unit_ids": ["K3-00358"]}
+{"sentence_id": "SY-00161", "unit_ids": ["K3-00359"]}
+{"sentence_id": "SY-00162", "unit_ids": ["K2-00360", "K3-00361"]}
+{"sentence_id": "SY-00163", "unit_ids": ["K1-00362", "K2-00228", "K3-00363"]}
+{"sentence_id": "SY-00164", "unit_ids": ["K2-00364", "K3-00365"]}
+{"sentence_id": "SY-00165", "unit_ids": ["K1-00366", "K2-00367", "K2-00368", "K3-00369"]}
+{"sentence_id": "SY-00166", "unit_ids": ["K2-00370", "K2-00371", "K3-00372"]}
+{"sentence_id": "SY-00167", "unit_ids": ["K1-00373", "K2-00367", "K2-00374", "K3-00375"]}
+{"sentence_id": "SY-00168", "unit_ids": ["K2-00376", "K3-00377"]}
+{"sentence_id": "SY-00169", "unit_ids": ["K2-00378", "K3-00379"]}
+{"sentence_id": "SY-00170", "unit_ids": ["K2-00380", "K3-00381"]}
+{"sentence_id": "SY-00171", "unit_ids": ["K2-00370", "K3-00382"]}
+{"sentence_id": "SY-00172", "unit_ids": ["K2-00371", "K3-00383"]}
+{"sentence_id": "SY-00173", "unit_ids": ["K2-00378", "K3-00384"]}
+{"sentence_id": "SY-00174", "unit_ids": ["K2-00385", "K3-00386"]}
+{"sentence_id": "SY-00175", "unit_ids": ["K2-00387", "K3-00388"]}
+{"sentence_id": "SY-00176", "unit_ids": ["K2-00389", "K3-00390"]}
+{"sentence_id": "SY-00177", "unit_ids": ["K2-00385", "K3-00391"]}
+{"sentence_id": "SY-00178", "unit_ids": ["K1-00392", "K1-00393", "K2-00394", "K3-00395"]}
+{"sentence_id": "SY-00179", "unit_ids": ["K1-00396", "K1-00397", "K2-00398", "K3-00399"]}
+{"sentence_id": "SY-00180", "unit_ids": ["K2-00400", "K3-00401"]}
+{"sentence_id": "SY-00181", "unit_ids": ["K1-00392", "K1-00393", "K2-00402", "K3-00403"]}
+{"sentence_id": "SY-00182", "unit_ids": ["K2-00404", "K3-00405"]}
+{"sentence_id": "SY-00183", "unit_ids": ["K2-00385", "K2-00406", "K3-00407"]}
+{"sentence_id": "SY-00184", "unit_ids": ["K2-00389", "K2-00406", "K3-00408"]}
+{"sentence_id": "SY-00185", "unit_ids": ["K2-00409", "K3-00410"]}
+{"sentence_id": "SY-00186", "unit_ids": ["K1-00411", "K2-00412", "K3-00413"]}
+{"sentence_id": "SY-00187", "unit_ids": ["K2-00414", "K3-00415"]}
+{"sentence_id": "SY-00188", "unit_ids": ["K1-00416", "K2-00417", "K3-00418"]}
+{"sentence_id": "SY-00189", "unit_ids": ["K2-00419", "K3-00420"]}
+{"sentence_id": "SY-00190", "unit_ids": ["K1-00421", "K2-00380", "K3-00422"]}
+{"sentence_id": "SY-00191", "unit_ids": ["K3-00423"]}
+{"sentence_id": "SY-00192", "unit_ids": ["K1-00424", "K3-00425"]}
+{"sentence_id": "SY-00194", "unit_ids": ["K2-00400", "K2-00404", "K3-00426"]}
+{"sentence_id": "SY-00195", "unit_ids": ["K2-00394", "K2-00427", "K3-00428"]}
+{"sentence_id": "SY-00196", "unit_ids": ["K1-00429", "K2-00394", "K2-00402", "K3-00430"]}
+{"sentence_id": "SY-00197", "unit_ids": ["K1-00431", "K2-00432", "K2-00433", "K3-00434"]}
+{"sentence_id": "SY-00198", "unit_ids": ["K1-00435", "K1-00436", "K2-00378", "K2-00419", "K3-00437"]}
+{"sentence_id": "SY-00199", "unit_ids": ["K1-00438", "K2-00432", "K2-00439", "K3-00440"]}
+{"sentence_id": "SY-00200", "unit_ids": ["K3-00441"]}
+{"sentence_id": "SY-00201", "unit_ids": ["K3-00442"]}
+{"sentence_id": "SY-00203", "unit_ids": ["K2-00443", "K3-00444"]}
+{"sentence_id": "SY-00204", "unit_ids": ["K2-00445", "K3-00446"]}
+{"sentence_id": "SY-00205", "unit_ids": ["K2-00447", "K3-00448"]}
+{"sentence_id": "SY-00206", "unit_ids": ["K1-00449", "K2-00450", "K3-00451"]}
+{"sentence_id": "SY-00207", "unit_ids": ["K2-00378", "K3-00452"]}
+{"sentence_id": "SY-00208", "unit_ids": ["K1-00453", "K2-00450", "K3-00454"]}
+{"sentence_id": "SY-00209", "unit_ids": ["K2-00455", "K3-00456"]}
+{"sentence_id": "SY-00210", "unit_ids": ["K2-00455", "K3-00457"]}
+{"sentence_id": "SY-00211", "unit_ids": ["K2-00455", "K3-00458"]}
+{"sentence_id": "SY-00212", "unit_ids": ["K3-00459"]}
+{"sentence_id": "SY-00213", "unit_ids": ["K3-00460"]}
+{"sentence_id": "SY-00214", "unit_ids": ["K3-00461"]}
+{"sentence_id": "SY-00215", "unit_ids": ["K2-00385", "K3-00462"]}
+{"sentence_id": "SY-00216", "unit_ids": ["K2-00394", "K3-00463"]}
+{"sentence_id": "SY-00217", "unit_ids": ["K2-00464", "K3-00465"]}
+{"sentence_id": "SY-00218", "unit_ids": ["K2-00439", "K3-00466"]}
+{"sentence_id": "SY-00219", "unit_ids": ["K2-00371", "K3-00467"]}
+{"sentence_id": "SY-00220", "unit_ids": ["K2-00468", "K3-00469"]}
+{"sentence_id": "SY-00222", "unit_ids": ["K3-00470"]}
+{"sentence_id": "SY-00223", "unit_ids": ["K3-00471"]}
+{"sentence_id": "SY-00224", "unit_ids": ["K2-00472", "K3-00473"]}
+{"sentence_id": "SY-00225", "unit_ids": ["K2-00472", "K3-00474"]}
+{"sentence_id": "SY-00226", "unit_ids": ["K2-00472", "K3-00475"]}
+{"sentence_id": "SY-00227", "unit_ids": ["K2-00433", "K3-00476"]}
+{"sentence_id": "SY-00228", "unit_ids": ["K2-00398", "K3-00477"]}
+{"sentence_id": "SY-00229", "unit_ids": ["K2-00378", "K3-00478"]}
+{"sentence_id": "SY-00230", "unit_ids": ["K2-00400", "K3-00479"]}
+{"sentence_id": "SY-00231", "unit_ids": ["K2-00404", "K3-00480"]}
+{"sentence_id": "SY-00232", "unit_ids": ["K2-00398", "K3-00481"]}
+{"sentence_id": "SY-00233", "unit_ids": ["K2-00402", "K2-00427", "K3-00482"]}
+{"sentence_id": "SY-00234", "unit_ids": ["K2-00398", "K2-00400", "K3-00483"]}
+{"sentence_id": "SY-00235", "unit_ids": ["K1-00429", "K2-00398", "K2-00404", "K3-00484"]}
+{"sentence_id": "SY-00236", "unit_ids": ["K2-00368", "K3-00485"]}
+{"sentence_id": "SY-00237", "unit_ids": ["K2-00433", "K3-00486"]}
+{"sentence_id": "SY-00238", "unit_ids": ["K2-00374", "K3-00487"]}
+{"sentence_id": "SY-00239", "unit_ids": ["K2-00488", "K3-00489"]}
+{"sentence_id": "SY-00240", "unit_ids": ["K1-00490", "K2-00378", "K3-00491"]}
+{"sentence_id": "SY-00241", "unit_ids": ["K2-00492", "K3-00493"]}
+{"sentence_id": "SY-00242", "unit_ids": ["K1-00494", "K2-00378", "K3-00495"]}
+{"sentence_id": "SY-00243", "unit_ids": ["K2-00496", "K3-00497"]}
+{"sentence_id": "SY-00244", "unit_ids": ["K2-00488", "K3-00498"]}
+{"sentence_id": "SY-00246", "unit_ids": ["K3-00499"]}
+{"sentence_id": "SY-00248", "unit_ids": ["K2-00500", "K3-00501"]}
+{"sentence_id": "SY-00249", "unit_ids": ["K2-00502", "K2-00503", "K3-00504"]}
+{"sentence_id": "SY-00250", "unit_ids": ["K2-00502", "K2-00503", "K3-00505"]}
+{"sentence_id": "SY-00251", "unit_ids": ["K1-00506", "K1-00507", "K2-00508", "K2-00509", "K3-00510"]}
+{"sentence_id": "SY-00252", "unit_ids": ["K2-00511", "K2-00512", "K3-00513"]}
+{"sentence_id": "SY-00253", "unit_ids": ["K1-00514", "K2-00508", "K2-00512", "K3-00515"]}
+{"sentence_id": "SY-00254", "unit_ids": ["K1-00506", "K1-00507", "K2-00509", "K3-00516"]}
+{"sentence_id": "SY-00255", "unit_ids": ["K1-00517", "K2-00518", "K3-00519"]}
+{"sentence_id": "SY-00256", "unit_ids": ["K1-00520", "K1-00521", "K2-00522", "K3-00523"]}
+{"sentence_id": "SY-00257", "unit_ids": ["K1-00524", "K2-00198", "K3-00525"]}
+{"sentence_id": "SY-00258", "unit_ids": ["K2-00198", "K3-00526"]}
+{"sentence_id": "SY-00259", "unit_ids": ["K1-00527", "K2-00528", "K3-00529"]}
+{"sentence_id": "SY-00260", "unit_ids": ["K3-00530"]}
+{"sentence_id": "SY-00261", "unit_ids": ["K3-00531"]}
+{"sentence_id": "SY-00263", "unit_ids": ["K3-00532"]}
+{"sentence_id": "SY-00264", "unit_ids": ["K3-00533"]}
+{"sentence_id": "SY-00265", "unit_ids": ["K3-00534"]}
+{"sentence_id": "SY-00266", "unit_ids": ["K1-00535", "K2-00414", "K3-00536"]}
+{"sentence_id": "SY-00267", "unit_ids": ["K1-00537", "K2-00538", "K3-00539"]}
+{"sentence_id": "SY-00268", "unit_ids": ["K1-00540", "K2-00541", "K3-00542"]}
+{"sentence_id": "SY-00269", "unit_ids": ["K3-00543"]}
+{"sentence_id": "SY-00270", "unit_ids": ["K3-00544"]}
+{"sentence_id": "SY-00271", "unit_ids": ["K3-00545"]}
+{"sentence_id": "SY-00272", "unit_ids": ["K2-00378", "K3-00546"]}
+{"sentence_id": "SY-00273", "unit_ids": ["K2-00547", "K3-00548"]}
+{"sentence_id": "SY-00274", "unit_ids": ["K2-00419", "K3-00549"]}
+{"sentence_id": "SY-00275", "unit_ids": ["K3-00550"]}
+{"sentence_id": "SY-00276", "unit_ids": ["K3-00551"]}
+{"sentence_id": "SY-00277", "unit_ids": ["K3-00552"]}
+{"sentence_id": "SY-00278", "unit_ids": ["K2-00433", "K3-00553"]}
+{"sentence_id": "SY-00279", "unit_ids": ["K2-00370", "K3-00554"]}
+{"sentence_id": "SY-00280", "unit_ids": ["K2-00419", "K3-00555"]}
+{"sentence_id": "SY-00281", "unit_ids": ["K2-00389", "K3-00556"]}
+{"sentence_id": "SY-00282", "unit_ids": ["K2-00385", "K3-00557"]}
+{"sentence_id": "SY-00283", "unit_ids": ["K2-00464", "K3-00558"]}
+{"sentence_id": "SY-00284", "unit_ids": ["K3-00559"]}
+{"sentence_id": "SY-00285", "unit_ids": ["K3-00560"]}
+{"sentence_id": "SY-00286", "unit_ids": ["K3-00561"]}
+{"sentence_id": "SY-00287", "unit_ids": ["K2-00419", "K3-00562"]}
+{"sentence_id": "SY-00288", "unit_ids": ["K2-00378", "K3-00563"]}
+{"sentence_id": "SY-00289", "unit_ids": ["K2-00439", "K3-00564"]}
+{"sentence_id": "SY-00290", "unit_ids": ["K3-00565"]}
+{"sentence_id": "SY-00291", "unit_ids": ["K3-00566"]}
+{"sentence_id": "SY-00293", "unit_ids": ["K1-00567", "K2-00439", "K3-00568"]}
+{"sentence_id": "SY-00294", "unit_ids": ["K1-00569", "K2-00378", "K3-00570"]}
+{"sentence_id": "SY-00295", "unit_ids": ["K1-00571", "K2-00419", "K3-00572"]}
+{"sentence_id": "SY-00296", "unit_ids": ["K2-00573", "K2-00574", "K3-00575"]}
+{"sentence_id": "SY-00297", "unit_ids": ["K2-00468", "K2-00576", "K3-00577"]}
+{"sentence_id": "SY-00298", "unit_ids": ["K2-00468", "K2-00574", "K3-00578"]}
+{"sentence_id": "SY-00300", "unit_ids": ["K3-00579"]}
+{"sentence_id": "SY-00301", "unit_ids": ["K3-00580"]}
+{"sentence_id": "SY-00302", "unit_ids": ["K2-00581", "K3-00582"]}
+{"sentence_id": "SY-00303", "unit_ids": ["K2-00370", "K3-00583"]}
+{"sentence_id": "SY-00304", "unit_ids": ["K2-00584", "K3-00585"]}
+{"sentence_id": "SY-00305", "unit_ids": ["K1-00586", "K2-00439", "K2-00587", "K3-00588"]}
+{"sentence_id": "SY-00306", "unit_ids": ["K1-00589", "K2-00419", "K2-00587", "K3-00590"]}
+{"sentence_id": "SY-00307", "unit_ids": ["K1-00591", "K2-00378", "K2-00587", "K3-00592"]}
+{"sentence_id": "SY-00308", "unit_ids": ["K3-00593"]}
+{"sentence_id": "SY-00309", "unit_ids": ["K3-00594"]}
+{"sentence_id": "SY-00310", "unit_ids": ["K3-00595"]}
+{"sentence_id": "SY-00313", "unit_ids": ["K3-00596"]}
+{"sentence_id": "SY-00314", "unit_ids": ["K3-00597"]}
+{"sentence_id": "SY-00315", "unit_ids": ["K1-00598", "K3-00599"]}
+{"sentence_id": "SY-00316", "unit_ids": ["K3-00600"]}
+{"sentence_id": "SY-00317", "unit_ids": ["K2-00472", "K3-00601"]}
+{"sentence_id": "SY-00318", "unit_ids": ["K2-00472", "K3-00602"]}
+{"sentence_id": "SY-00319", "unit_ids": ["K2-00472", "K3-00603"]}
+{"sentence_id": "SY-00320", "unit_ids": ["K2-00402", "K3-00604"]}
+{"sentence_id": "SY-00321", "unit_ids": ["K2-00605", "K3-00606"]}
+{"sentence_id": "SY-00322", "unit_ids": ["K2-00400", "K3-00607"]}
+{"sentence_id": "SY-00323", "unit_ids": ["K2-00371", "K3-00608"]}
+{"sentence_id": "SY-00324", "unit_ids": ["K2-00492", "K3-00609"]}
+{"sentence_id": "SY-00325", "unit_ids": ["K2-00610", "K3-00611"]}
+{"sentence_id": "SY-00326", "unit_ids": ["K3-00612"]}
+{"sentence_id": "SY-00327", "unit_ids": ["K3-00613"]}
+{"sentence_id": "SY-00328", "unit_ids": ["K3-00614"]}
+{"sentence_id": "SY-00329", "unit_ids": ["K3-00615"]}
+{"sentence_id": "SY-00332", "unit_ids": ["K2-00616", "K3-00617"]}
+{"sentence_id": "SY-00333", "unit_ids": ["K2-00433", "K3-00618"]}
+{"sentence_id": "SY-00334", "unit_ids": ["K2-00387", "K3-00619"]}
+{"sentence_id": "SY-00335", "unit_ids": ["K2-00385", "K3-00620"]}
+{"sentence_id": "SY-00336", "unit_ids": ["K2-00464", "K3-00621"]}
+{"sentence_id": "SY-00337", "unit_ids": ["K2-00389", "K3-00622"]}
+{"sentence_id": "SY-00338", "unit_ids": ["K1-00623", "K2-00624", "K2-00625", "K3-00626"]}
+{"sentence_id": "SY-00339", "unit_ids": ["K1-00627", "K2-00624", "K2-00625", "K3-00628"]}
+{"sentence_id": "SY-00340", "unit_ids": ["K1-00629", "K2-00624", "K2-00625", "K3-00630"]}
+{"sentence_id": "SY-00341", "unit_ids": ["K1-00631", "K2-00632", "K2-00633", "K3-00634"]}
+{"sentence_id": "SY-00342", "unit_ids": ["K1-00635", "K1-00636", "K2-00633", "K2-00637", "K3-00638"]}
+{"sentence_id": "SY-00343", "unit_ids": ["K1-00639", "K2-00633", "K2-00640", "K3-00641"]}
+{"sentence_id": "SY-00345", "unit_ids": ["K3-00642"]}
+{"sentence_id": "SY-00346", "unit_ids": ["K1-00643", "K3-00644"]}
+{"sentence_id": "SY-00347", "unit_ids": ["K2-00645", "K2-00646", "K2-00647", "K2-00648", "K3-00649"]}
+{"sentence_id": "SY-00348", "unit_ids": ["K1-00650", "K2-00645", "K2-00646", "K2-00648", "K3-00651"]}
+{"sentence_id": "SY-00349", "unit_ids": ["K2-00645", "K2-00647", "K2-00648", "K2-00652", "K3-00653"]}
+{"sentence_id": "SY-00350", "unit_ids": ["K1-00654", "K2-00655", "K2-00656", "K2-00657", "K3-00658"]}
+{"sentence_id": "SY-00351", "unit_ids": ["K2-00409", "K2-00522", "K2-00656", "K3-00659"]}
+{"sentence_id": "SY-00352", "unit_ids": ["K1-00660", "K2-00409", "K2-00512", "K2-00655", "K3-00661"]}
+{"sentence_id": "SY-00353", "unit_ids": ["K2-00445", "K2-00662", "K3-00663"]}
+{"sentence_id": "SY-00354", "unit_ids": ["K2-00275", "K2-00443", "K3-00664"]}
+{"sentence_id": "SY-00355", "unit_ids": ["K2-00275", "K2-00665", "K3-00666"]}
+{"sentence_id": "SY-00356", "unit_ids": ["K3-00667"]}
+{"sentence_id": "SY-00358", "unit_ids": ["K3-00668"]}
+{"sentence_id": "SY-00359", "unit_ids": ["K2-00669", "K3-00670"]}
+{"sentence_id": "SY-00360", "unit_ids": ["K2-00671", "K3-00672"]}
+{"sentence_id": "SY-00361", "unit_ids": ["K2-00673", "K3-00674"]}
+{"sentence_id": "SY-00362", "unit_ids": ["K2-00675", "K3-00676"]}
+{"sentence_id": "SY-00363", "unit_ids": ["K2-00677", "K3-00678"]}
+{"sentence_id": "SY-00364", "unit_ids": ["K2-00679", "K3-00680"]}
+{"sentence_id": "SY-00365", "unit_ids": ["K2-00646", "K2-00681", "K3-00682"]}
+{"sentence_id": "SY-00366", "unit_ids": ["K2-00275", "K2-00683", "K3-00684"]}
+{"sentence_id": "SY-00367", "unit_ids": ["K2-00652", "K2-00681", "K3-00685"]}
+{"sentence_id": "SY-00368", "unit_ids": ["K2-00200", "K3-00686"]}
+{"sentence_id": "SY-00369", "unit_ids": ["K2-00326", "K3-00687"]}
+{"sentence_id": "SY-00370", "unit_ids": ["K2-00688", "K3-00689"]}
+{"sentence_id": "SY-00371", "unit_ids": ["K1-00690", "K2-00691", "K3-00692"]}
+{"sentence_id": "SY-00372", "unit_ids": ["K2-00632", "K3-00693"]}
+{"sentence_id": "SY-00373", "unit_ids": ["K1-00694", "K2-00691", "K3-00695"]}
+{"sentence_id": "SY-00374", "unit_ids": ["K2-00696", "K3-00697"]}
+{"sentence_id": "SY-00375", "unit_ids": ["K2-00696", "K3-00698"]}
+{"sentence_id": "SY-00376", "unit_ids": ["K2-00696", "K3-00699"]}
+{"sentence_id": "SY-00377", "unit_ids": ["K2-00700", "K3-00701"]}
+{"sentence_id": "SY-00378", "unit_ids": ["K2-00702", "K3-00703"]}
+{"sentence_id": "SY-00379", "unit_ids": ["K2-00305", "K3-00704"]}
+{"sentence_id": "SY-00380", "unit_ids": ["K2-00705", "K3-00706"]}
+{"sentence_id": "SY-00381", "unit_ids": ["K2-00707", "K3-00708"]}
+{"sentence_id": "SY-00382", "unit_ids": ["K2-00705", "K3-00709"]}
+{"sentence_id": "SY-00383", "unit_ids": ["K3-00710"]}
+{"sentence_id": "SY-00384", "unit_ids": ["K1-00711", "K3-00712"]}
+{"sentence_id": "SY-00385", "unit_ids": ["K3-00713"]}
+{"sentence_id": "SY-00386", "unit_ids": ["K2-00714", "K3-00715"]}
+{"sentence_id": "SY-00387", "unit_ids": ["K2-00219", "K3-00716"]}
+{"sentence_id": "SY-00388", "unit_ids": ["K2-00322", "K3-00717"]}
+{"sentence_id": "SY-00389", "unit_ids": ["K2-00718", "K3-00719"]}
+{"sentence_id": "SY-00390", "unit_ids": ["K2-00720", "K3-00721"]}
+{"sentence_id": "SY-00391", "unit_ids": ["K2-00722", "K3-00723"]}
+{"sentence_id": "SY-00392", "unit_ids": ["K2-00125", "K3-00724"]}
+{"sentence_id": "SY-00393", "unit_ids": ["K1-00725", "K2-00726", "K3-00727"]}
+{"sentence_id": "SY-00394", "unit_ids": ["K1-00728", "K2-00726", "K3-00729"]}
+{"sentence_id": "SY-00395", "unit_ids": ["K2-00322", "K3-00730"]}
+{"sentence_id": "SY-00396", "unit_ids": ["K2-00731", "K3-00732"]}
+{"sentence_id": "SY-00397", "unit_ids": ["K2-00714", "K3-00733"]}
+{"sentence_id": "SY-00398", "unit_ids": ["K2-00734", "K3-00735"]}
+{"sentence_id": "SY-00399", "unit_ids": ["K2-00652", "K3-00736"]}
+{"sentence_id": "SY-00400", "unit_ids": ["K2-00737", "K3-00738"]}
+{"sentence_id": "SY-00401", "unit_ids": ["K3-00739"]}
+{"sentence_id": "SY-00402", "unit_ids": ["K3-00740"]}
+{"sentence_id": "SY-00403", "unit_ids": ["K3-00741"]}
+{"sentence_id": "SY-00404", "unit_ids": ["K1-00742", "K2-00743", "K2-00744", "K2-00745", "K3-00746"]}
+{"sentence_id": "SY-00405", "unit_ids": ["K1-00100", "K1-00747", "K2-00101", "K2-00744", "K2-00745", "K3-00748"]}
+{"sentence_id": "SY-00406", "unit_ids": ["K1-00635", "K1-00636", "K1-00749", "K2-00637", "K2-00743", "K2-00744", "K3-00750"]}
+{"sentence_id": "SY-00407", "unit_ids": ["K1-00751", "K1-00752", "K2-00412", "K2-00753", "K2-00754", "K3-00755"]}
+{"sentence_id": "SY-00408", "unit_ids": ["K1-00756", "K2-00412", "K2-00753", "K2-00757", "K3-00758"]}
+{"sentence_id": "SY-00409", "unit_ids": ["K1-00759", "K1-00760", "K2-00412", "K2-00669", "K2-00753", "K3-00761"]}
+{"sentence_id": "SY-00410", "unit_ids": ["K1-00506", "K1-00507", "K1-00762", "K2-00412", "K2-00509", "K2-00753", "K3-00763"]}
+{"sentence_id": "SY-00411", "unit_ids": ["K1-00128", "K2-00131", "K2-00412", "K2-00753", "K3-00764"]}
+{"sentence_id": "SY-00412", "unit_ids": ["K1-00765", "K1-00766", "K1-00767", "K2-00412", "K2-00657", "K2-00753", "K3-00768"]}
+{"sentence_id": "SY-00413", "unit_ids": ["K2-00744", "K2-00745", "K3-00769"]}
+{"sentence_id": "SY-00414", "unit_ids": ["K1-00770", "K1-00771", "K2-00707", "K2-00744", "K3-00772"]}
+{"sentence_id": "SY-00415", "unit_ids": ["K1-00773", "K2-00745", "K2-00774", "K3-00775"]}
+{"sentence_id": "SY-00416", "unit_ids": ["K1-00776", "K1-00777", "K2-00412", "K2-00753", "K3-00778"]}
+{"sentence_id": "SY-00417", "unit_ids": ["K2-00412", "K2-00753", "K3-00779"]}
+{"sentence_id": "SY-00418", "unit_ids": ["K1-00780", "K1-00781", "K2-00412", "K2-00753", "K3-00782"]}
+{"sentence_id": "SY-00419", "unit_ids": ["K1-00783", "K1-00784", "K2-00744", "K2-00785", "K3-00786"]}
+{"sentence_id": "SY-00420", "unit_ids": ["K1-00100", "K1-00787", "K2-00101", "K2-00744", "K3-00788"]}
+{"sentence_id": "SY-00421", "unit_ids": ["K2-00744", "K2-00745", "K3-00789"]}
+{"sentence_id": "SY-00422", "unit_ids": ["K2-00744", "K2-00745", "K3-00790"]}
+{"sentence_id": "SY-00423", "unit_ids": ["K1-00635", "K1-00636", "K1-00791", "K2-00637", "K2-00745", "K3-00792"]}
+{"sentence_id": "SY-00424", "unit_ids": ["K2-00744", "K2-00745", "K3-00793"]}
+{"sentence_id": "SY-00425", "unit_ids": ["K1-00794", "K1-00795", "K2-00796", "K2-00797", "K3-00798"]}
+{"sentence_id": "SY-00426", "unit_ids": ["K1-00799", "K1-00800", "K2-00796", "K2-00801", "K3-00802"]}
+{"sentence_id": "SY-00427", "unit_ids": ["K1-00803", "K1-00804", "K2-00796", "K2-00805", "K3-00806"]}
+{"sentence_id": "SY-00428", "unit_ids": ["K1-00807", "K2-00326", "K2-00808", "K3-00809"]}
+{"sentence_id": "SY-00429", "unit_ids": ["K1-00810", "K2-00211", "K2-00808", "K3-00811"]}
+{"sentence_id": "SY-00430", "unit_ids": ["K1-00812", "K2-00714", "K2-00808", "K3-00813"]}
+{"sentence_id": "SY-00431", "unit_ids": ["K1-00119", "K2-00120", "K2-00814", "K3-00815"]}
+{"sentence_id": "SY-00432", "unit_ids": ["K1-00816", "K2-00814", "K2-00817", "K3-00818"]}
+{"sentence_id": "SY-00433", "unit_ids": ["K1-00819", "K2-00702", "K2-00814", "K3-00820"]}
+{"sentence_id": "SY-00434", "unit_ids": ["K2-00821", "K2-00822", "K2-00823", "K3-00824"]}
+{"sentence_id": "SY-00435", "unit_ids": ["K2-00821", "K2-00822", "K2-00823", "K3-00825"]}
+{"sentence_id": "SY-00436", "unit_ids": ["K2-00821", "K2-00822", "K2-00823", "K3-00826"]}
+{"sentence_id": "SY-00437", "unit_ids": ["K1-00119", "K1-00827", "K2-00120", "K2-00198", "K3-00828"]}
+{"sentence_id": "SY-00438", "unit_ids": ["K1-00829", "K1-00830", "K1-00831", "K2-00202", "K2-00702", "K3-00832"]}
+{"sentence_id": "SY-00439", "unit_ids": ["K1-00833", "K1-00834", "K2-00702", "K2-00835", "K3-00836"]}
+{"sentence_id": "SY-00440", "unit_ids": ["K2-00624", "K2-00625", "K3-00837"]}
+{"sentence_id": "SY-00441", "unit_ids": ["K2-00624", "K2-00625", "K3-00838"]}
+{"sentence_id": "SY-00442", "unit_ids": ["K1-00839", "K2-00624", "K2-00625", "K3-00840"]}
+{"sentence_id": "SY-00443", "unit_ids": ["K1-00752", "K1-00841", "K2-00754", "K3-00842"]}
+{"sentence_id": "SY-00444", "unit_ids": ["K2-00743", "K3-00843"]}
+{"sentence_id": "SY-00445", "unit_ids": ["K1-00844", "K2-00743", "K3-00845"]}
+{"sentence_id": "SY-00446", "unit_ids": ["K1-00795", "K2-00797", "K2-00846", "K3-00847"]}
+{"sentence_id": "SY-00447", "unit_ids": ["K2-00848", "K2-00849", "K3-00850"]}
+{"sentence_id": "SY-00448", "unit_ids": ["K2-00848", "K2-00849", "K3-00851"]}
+{"sentence_id": "SY-00449", "unit_ids": ["K1-00852", "K2-00743", "K3-00853"]}
+{"sentence_id": "SY-00450", "unit_ids": ["K1-00854", "K1-00855", "K1-00856", "K2-00857", "K3-00858"]}
+{"sentence_id": "SY-00451", "unit_ids": ["K1-00859", "K2-00743", "K3-00860"]}
+{"sentence_id": "SY-00452", "unit_ids": ["K1-00854", "K1-00855", "K2-00857", "K3-00861"]}
+{"sentence_id": "SY-00453", "unit_ids": ["K1-00862", "K1-00863", "K2-00864", "K3-00865"]}
+{"sentence_id": "SY-00454", "unit_ids": ["K1-00866", "K2-00743", "K3-00867"]}
+{"sentence_id": "SY-00455", "unit_ids": ["K2-00868", "K2-00869", "K3-00870"]}
+{"sentence_id": "SY-00456", "unit_ids": ["K2-00869", "K2-00871", "K3-00872"]}
+{"sentence_id": "SY-00457", "unit_ids": ["K2-00869", "K2-00873", "K3-00874"]}
+{"sentence_id": "SY-00458", "unit_ids": ["K2-00743", "K3-00875"]}
+{"sentence_id": "SY-00459", "unit_ids": ["K1-00876", "K1-00877", "K2-00878", "K3-00879"]}
+{"sentence_id": "SY-00460", "unit_ids": ["K1-00880", "K2-00743", "K3-00881"]}
+{"sentence_id": "SY-00461", "unit_ids": ["K1-00882", "K2-00110", "K3-00883"]}
+{"sentence_id": "SY-00462", "unit_ids": ["K1-00884", "K1-00885", "K2-00886", "K3-00887"]}
+{"sentence_id": "SY-00463", "unit_ids": ["K1-00888", "K2-00110", "K3-00889"]}
+{"sentence_id": "SY-00464", "unit_ids": ["K2-00624", "K2-00625", "K3-00890"]}
+{"sentence_id": "SY-00465", "unit_ids": ["K2-00624", "K2-00625", "K3-00891"]}
+{"sentence_id": "SY-00466", "unit_ids": ["K2-00624", "K2-00625", "K3-00892"]}
+{"sentence_id": "SY-00467", "unit_ids": ["K1-00893", "K1-00894", "K3-00895"]}
+{"sentence_id": "SY-00469", "unit_ids": ["K1-00896", "K1-00897", "K3-00898"]}
+{"sentence_id": "SY-00470", "unit_ids": ["K1-00899", "K1-00900", "K2-00901", "K3-00902"]}
+{"sentence_id": "SY-00471", "unit_ids": ["K1-00135", "K1-00136", "K2-00137", "K3-00903"]}
+{"sentence_id": "SY-00472", "unit_ids": ["K1-00904", "K2-00110", "K3-00905"]}
+{"sentence_id": "SY-00473", "unit_ids": ["K1-00906", "K2-00691", "K3-00907"]}
+{"sentence_id": "SY-00474", "unit_ids": ["K1-00908", "K2-00691", "K3-00909"]}
+{"sentence_id": "SY-00475", "unit_ids": ["K1-00631", "K1-00910", "K2-00632", "K3-00911"]}
+{"sentence_id": "SY-00476", "unit_ids": ["K1-00760", "K1-00912", "K2-00669", "K3-00913"]}
+{"sentence_id": "SY-00477", "unit_ids": ["K2-00743", "K3-00914"]}
+{"sentence_id": "SY-00478", "unit_ids": ["K1-00915", "K2-00743", "K3-00916"]}
+{"sentence_id": "SY-00479", "unit_ids": ["K1-00639", "K2-00640", "K3-00917"]}
+{"sentence_id": "SY-00480", "unit_ids": ["K1-00918", "K2-00445", "K3-00919"]}
+{"sentence_id": "SY-00481", "unit_ids": ["K1-00920", "K2-00921", "K3-00922"]}
+{"sentence_id": "SY-00482", "unit_ids": ["K1-00923", "K2-00110", "K3-00924"]}
+{"sentence_id": "SY-00483", "unit_ids": ["K1-00135", "K1-00136", "K2-00137", "K3-00925"]}
+{"sentence_id": "SY-00484", "unit_ids": ["K1-00899", "K1-00900", "K2-00901", "K3-00926"]}
+{"sentence_id": "SY-00485", "unit_ids": ["K2-00743", "K3-00927"]}
+{"sentence_id": "SY-00486", "unit_ids": ["K1-00863", "K2-00864", "K3-00928"]}
+{"sentence_id": "SY-00487", "unit_ids": ["K1-00929", "K1-00930", "K2-00931", "K3-00932"]}
+{"sentence_id": "SY-00488", "unit_ids": ["K1-00933", "K2-00934", "K3-00935"]}
+{"sentence_id": "SY-00489", "unit_ids": ["K1-00936", "K2-00937", "K3-00938"]}
+{"sentence_id": "SY-00490", "unit_ids": ["K2-00937", "K3-00939"]}
+{"sentence_id": "SY-00491", "unit_ids": ["K1-00915", "K2-00743", "K3-00940"]}
+{"sentence_id": "SY-00492", "unit_ids": ["K1-00941", "K1-00942", "K2-00673", "K3-00943"]}
+{"sentence_id": "SY-00493", "unit_ids": ["K1-00854", "K1-00855", "K2-00857", "K3-00944"]}
+{"sentence_id": "SY-00494", "unit_ids": ["K3-00945"]}
+{"sentence_id": "SY-00495", "unit_ids": ["K2-00946", "K3-00947"]}
+{"sentence_id": "SY-00496", "unit_ids": ["K1-00948", "K2-00688", "K3-00949"]}
+{"sentence_id": "SY-00497", "unit_ids": ["K2-00946", "K3-00950"]}
+{"sentence_id": "SY-00498", "unit_ids": ["K2-00951", "K3-00952"]}
+{"sentence_id": "SY-00499", "unit_ids": ["K1-00953", "K2-00502", "K3-00954"]}
+{"sentence_id": "SY-00500", "unit_ids": ["K2-00951", "K3-00955"]}
+{"sentence_id": "SY-00501", "unit_ids": ["K1-00956", "K1-00957", "K1-00958", "K2-00959", "K3-00960"]}
+{"sentence_id": "SY-00502", "unit_ids": ["K1-00961", "K1-00962", "K1-00963", "K2-00512", "K3-00964"]}
+{"sentence_id": "SY-00503", "unit_ids": ["K1-00965", "K1-00966", "K3-00967"]}
+{"sentence_id": "SY-00505", "unit_ids": ["K1-00968", "K1-00969", "K3-00970"]}
+{"sentence_id": "SY-00506", "unit_ids": ["K1-00971", "K2-00972", "K3-00973"]}
+{"sentence_id": "SY-00507", "unit_ids": ["K1-00974", "K2-00975", "K3-00976"]}
+{"sentence_id": "SY-00508", "unit_ids": ["K1-00977", "K2-00978", "K3-00979"]}
+{"sentence_id": "SY-00509", "unit_ids": ["K1-00980", "K2-00981", "K3-00982"]}
+{"sentence_id": "SY-00510", "unit_ids": ["K1-00929", "K1-00930", "K2-00931", "K3-00983"]}
+{"sentence_id": "SY-00511", "unit_ids": ["K1-00984", "K2-00985", "K3-00986"]}
+{"sentence_id": "SY-00512", "unit_ids": ["K1-00767", "K2-00657", "K3-00987"]}
+{"sentence_id": "SY-00513", "unit_ids": ["K1-00971", "K2-00972", "K3-00988"]}
+{"sentence_id": "SY-00514", "unit_ids": ["K1-00933", "K2-00934", "K3-00989"]}
+{"sentence_id": "SY-00515", "unit_ids": ["K1-00990", "K2-00116", "K3-00991"]}
+{"sentence_id": "SY-00516", "unit_ids": ["K1-00119", "K2-00120", "K3-00992"]}
+{"sentence_id": "SY-00517", "unit_ids": ["K1-00993", "K2-00116", "K3-00994"]}
+{"sentence_id": "SY-00519", "unit_ids": ["K3-00995"]}
+{"sentence_id": "SY-00520", "unit_ids": ["K3-00996"]}
+{"sentence_id": "SY-00521", "unit_ids": ["K1-00997", "K2-00219", "K3-00998"]}
+{"sentence_id": "SY-00522", "unit_ids": ["K1-00999", "K2-00215", "K3-01000"]}
+{"sentence_id": "SY-00523", "unit_ids": ["K1-01001", "K2-00688", "K3-01002"]}
+{"sentence_id": "SY-00524", "unit_ids": ["K3-01003"]}
+{"sentence_id": "SY-00525", "unit_ids": ["K3-01004"]}
+{"sentence_id": "SY-00526", "unit_ids": ["K3-01005"]}
+{"sentence_id": "SY-00527", "unit_ids": ["K2-01006", "K3-01007"]}
+{"sentence_id": "SY-00528", "unit_ids": ["K2-01008", "K3-01009"]}
+{"sentence_id": "SY-00529", "unit_ids": ["K2-01010", "K3-01011"]}
+{"sentence_id": "SY-00530", "unit_ids": ["K1-00297", "K3-01012"]}
+{"sentence_id": "SY-00532", "unit_ids": ["K3-01013"]}
+{"sentence_id": "SY-00533", "unit_ids": ["K2-00702", "K2-01014", "K3-01015"]}
+{"sentence_id": "SY-00534", "unit_ids": ["K1-01016", "K2-00198", "K2-01017", "K3-01018"]}
+{"sentence_id": "SY-00535", "unit_ids": ["K2-00305", "K2-01014", "K3-01019"]}
+{"sentence_id": "SY-00536", "unit_ids": ["K1-01020", "K2-01021", "K3-01022"]}
+{"sentence_id": "SY-00537", "unit_ids": ["K1-01023", "K1-01024", "K2-00718", "K3-01025"]}
+{"sentence_id": "SY-00538", "unit_ids": ["K1-00100", "K2-00101", "K3-01026"]}
+{"sentence_id": "SY-00539", "unit_ids": ["K3-01027"]}
+{"sentence_id": "SY-00540", "unit_ids": ["K3-01028"]}
+{"sentence_id": "SY-00541", "unit_ids": ["K3-01029"]}
+{"sentence_id": "SY-00542", "unit_ids": ["K2-01030", "K3-01031"]}
+{"sentence_id": "SY-00543", "unit_ids": ["K2-01030", "K3-01032"]}
+{"sentence_id": "SY-00544", "unit_ids": ["K2-01030", "K3-01033"]}
+{"sentence_id": "SY-00545", "unit_ids": ["K1-01034", "K2-00443", "K3-01035"]}
+{"sentence_id": "SY-00546", "unit_ids": ["K1-01036", "K1-01037", "K2-01038", "K3-01039"]}
+{"sentence_id": "SY-00547", "unit_ids": ["K1-01040", "K1-01041", "K2-00665", "K3-01042"]}
+{"sentence_id": "SY-00548", "unit_ids": ["K1-01043", "K2-00211", "K3-01044"]}
+{"sentence_id": "SY-00549", "unit_ids": ["K1-01045", "K2-00322", "K3-01046"]}
+{"sentence_id": "SY-00550", "unit_ids": ["K1-01047", "K2-00326", "K3-01048"]}
+{"sentence_id": "SY-00552", "unit_ids": ["K3-01049"]}
+{"sentence_id": "SY-00553", "unit_ids": ["K3-01050"]}
+{"sentence_id": "SY-00554", "unit_ids": ["K2-01051", "K3-01052"]}
+{"sentence_id": "SY-00555", "unit_ids": ["K2-00305", "K3-01053"]}
+{"sentence_id": "SY-00556", "unit_ids": ["K2-01054", "K3-01055"]}
+{"sentence_id": "SY-00557", "unit_ids": ["K1-01056", "K3-01057"]}
+{"sentence_id": "SY-00558", "unit_ids": ["K1-01058", "K3-01059"]}
+{"sentence_id": "SY-00559", "unit_ids": ["K1-01060", "K3-01061"]}
+{"sentence_id": "SY-00560", "unit_ids": ["K3-01062"]}
+{"sentence_id": "SY-00561", "unit_ids": ["K3-01063"]}
+{"sentence_id": "SY-00562", "unit_ids": ["K3-01064"]}
+{"sentence_id": "SY-00563", "unit_ids": ["K3-01065"]}
+{"sentence_id": "SY-00564", "unit_ids": ["K3-01066"]}
+{"sentence_id": "SY-00565", "unit_ids": ["K3-01067"]}
+{"sentence_id": "SY-00566", "unit_ids": ["K1-01068", "K1-01069", "K3-01070"]}
+{"sentence_id": "SY-00567", "unit_ids": ["K1-01071", "K1-01072", "K3-01073"]}
+{"sentence_id": "SY-00568", "unit_ids": ["K1-01074", "K1-01075", "K3-01076"]}
+{"sentence_id": "SY-00569", "unit_ids": ["K1-01077", "K1-01078", "K3-01079"]}
+{"sentence_id": "SY-00570", "unit_ids": ["K3-01080"]}
+{"sentence_id": "SY-00572", "unit_ids": ["K1-01081", "K2-01082", "K3-01083"]}
+{"sentence_id": "SY-00573", "unit_ids": ["K2-01084", "K3-01085"]}
+{"sentence_id": "SY-00574", "unit_ids": ["K1-01086", "K2-00886", "K3-01087"]}
+{"sentence_id": "SY-00575", "unit_ids": ["K2-00774", "K3-01088"]}
+{"sentence_id": "SY-00576", "unit_ids": ["K2-00447", "K3-01089"]}
+{"sentence_id": "SY-00577", "unit_ids": ["K2-00640", "K3-01090"]}
+{"sentence_id": "SY-00578", "unit_ids": ["K1-01091", "K2-01092", "K3-01093"]}
+{"sentence_id": "SY-00579", "unit_ids": ["K1-01094", "K2-01095", "K3-01096"]}
+{"sentence_id": "SY-00580", "unit_ids": ["K1-01097", "K2-00652", "K3-01098"]}
+{"sentence_id": "SY-00581", "unit_ids": ["K2-00743", "K3-01099"]}
+{"sentence_id": "SY-00582", "unit_ids": ["K1-00980", "K2-00981", "K3-01100"]}
+{"sentence_id": "SY-00583", "unit_ids": ["K1-00854", "K1-00855", "K2-00857", "K3-01101"]}
+{"sentence_id": "SY-00584", "unit_ids": ["K3-01102"]}
+{"sentence_id": "SY-00585", "unit_ids": ["K3-01103"]}
+{"sentence_id": "SY-00587", "unit_ids": ["K2-01104", "K3-01105"]}
+{"sentence_id": "SY-00588", "unit_ids": ["K2-01104", "K3-01106"]}
+{"sentence_id": "SY-00589", "unit_ids": ["K2-01104", "K3-01107"]}
+{"sentence_id": "SY-00590", "unit_ids": ["K1-01108", "K3-01109"]}
+{"sentence_id": "SY-00592", "unit_ids": ["K1-01110", "K3-01111"]}
+{"sentence_id": "SY-00593", "unit_ids": ["K2-00211", "K3-01112"]}
+{"sentence_id": "SY-00594", "unit_ids": ["K2-00219", "K3-01113"]}
+{"sentence_id": "SY-00595", "unit_ids": ["K2-00714", "K3-01114"]}
+{"sentence_id": "SY-00596", "unit_ids": ["K1-01115", "K3-01116"]}
+{"sentence_id": "SY-00597", "unit_ids": ["K1-01117", "K3-01118"]}
+{"sentence_id": "SY-00598", "unit_ids": ["K1-01119", "K3-01120"]}
+{"sentence_id": "SY-00599", "unit_ids": ["K1-00128", "K2-00131", "K3-01121"]}
+{"sentence_id": "SY-00600", "unit_ids": ["K1-00506", "K1-00507", "K2-00509", "K3-01122"]}
+{"sentence_id": "SY-00601", "unit_ids": ["K1-01123", "K2-01124", "K3-01125"]}
+{"sentence_id": "SY-00602", "unit_ids": ["K1-01036", "K1-01037", "K2-01038", "K3-01126"]}
+{"sentence_id": "SY-00603", "unit_ids": ["K2-00445", "K3-01127"]}
+{"sentence_id": "SY-00604", "unit_ids": ["K1-00631", "K1-01128", "K2-00632", "K3-01129"]}
+{"sentence_id": "SY-00605", "unit_ids": ["K1-00933", "K2-00934", "K3-01130"]}
+{"sentence_id": "SY-00606", "unit_ids": ["K1-01131", "K2-01132", "K3-01133"]}
+{"sentence_id": "SY-00607", "unit_ids": ["K1-00971", "K2-00972", "K3-01134"]}
+{"sentence_id": "SY-00608", "unit_ids": ["K3-01135"]}
+{"sentence_id": "SY-00609", "unit_ids": ["K3-01136"]}
+{"sentence_id": "SY-00610", "unit_ids": ["K3-01137"]}
+{"sentence_id": "SY-00611", "unit_ids": ["K1-01138", "K3-01139"]}
+{"sentence_id": "SY-00615", "unit_ids": ["K3-01140"]}
+{"sentence_id": "SY-00616", "unit_ids": ["K3-01141"]}
+{"sentence_id": "SY-00617", "unit_ids": ["K1-00152", "K2-00153", "K3-01142"]}
+{"sentence_id": "SY-00618", "unit_ids": ["K1-00155", "K1-00156", "K2-00157", "K3-01143"]}
+{"sentence_id": "SY-00619", "unit_ids": ["K1-00281", "K2-00282", "K3-01144"]}
+{"sentence_id": "SY-00620", "unit_ids": ["K2-01145", "K2-01146", "K3-01147"]}
+{"sentence_id": "SY-00621", "unit_ids": ["K2-01148", "K2-01149", "K3-01150"]}
+{"sentence_id": "SY-00622", "unit_ids": ["K2-01146", "K2-01151", "K3-01152"]}
+{"sentence_id": "SY-00623", "unit_ids": ["K1-01153", "K3-01154"]}
+{"sentence_id": "SY-00624", "unit_ids": ["K1-01155", "K3-01156"]}
+{"sentence_id": "SY-00625", "unit_ids": ["K1-01157", "K3-01158"]}
+{"sentence_id": "SY-00627", "unit_ids": ["K1-01159", "K3-01160"]}
+{"sentence_id": "SY-00628", "unit_ids": ["K1-01161", "K3-01162"]}
+{"sentence_id": "SY-00629", "unit_ids": ["K3-01163"]}
+{"sentence_id": "SY-00630", "unit_ids": ["K3-01164"]}
+{"sentence_id": "SY-00631", "unit_ids": ["K3-01165"]}
+{"sentence_id": "SY-00632", "unit_ids": ["K2-01166", "K3-01167"]}
+{"sentence_id": "SY-00633", "unit_ids": ["K2-00101", "K3-01168"]}
+{"sentence_id": "SY-00634", "unit_ids": ["K2-01169", "K3-01170"]}
+{"sentence_id": "SY-00635", "unit_ids": ["K2-01171", "K3-01172"]}
+{"sentence_id": "SY-00636", "unit_ids": ["K2-01171", "K3-01173"]}
+{"sentence_id": "SY-00637", "unit_ids": ["K2-01171", "K3-01174"]}
+{"sentence_id": "SY-00639", "unit_ids": ["K3-01175"]}
+{"sentence_id": "SY-00640", "unit_ids": ["K3-01176"]}
+{"sentence_id": "SY-00641", "unit_ids": ["K1-01177", "K1-01178", "K2-01179", "K2-01180", "K3-01181"]}
+{"sentence_id": "SY-00642", "unit_ids": ["K1-00128", "K1-01182", "K2-00131", "K2-00518", "K3-01183"]}
+{"sentence_id": "SY-00643", "unit_ids": ["K1-01123", "K1-01184", "K2-00518", "K2-01124", "K3-01185"]}
+{"sentence_id": "SY-00644", "unit_ids": ["K2-00200", "K2-00219", "K2-01186", "K3-01187"]}
+{"sentence_id": "SY-00645", "unit_ids": ["K2-00688", "K2-01186", "K2-01188", "K3-01189"]}
+{"sentence_id": "SY-00646", "unit_ids": ["K2-01186", "K2-01190", "K2-01191", "K3-01192"]}
+{"sentence_id": "SY-00647", "unit_ids": ["K1-00517", "K1-01193", "K2-00518", "K3-01194"]}
+{"sentence_id": "SY-00648", "unit_ids": ["K1-01195", "K1-01196", "K2-00131", "K2-01179", "K3-01197"]}
+{"sentence_id": "SY-00649", "unit_ids": ["K1-00128", "K1-01182", "K2-00131", "K2-00518", "K3-01198"]}
+{"sentence_id": "SY-00650", "unit_ids": ["K2-01199", "K2-01200", "K3-01201"]}
+{"sentence_id": "SY-00651", "unit_ids": ["K2-01199", "K2-01200", "K3-01202"]}
+{"sentence_id": "SY-00652", "unit_ids": ["K2-01199", "K2-01200", "K3-01203"]}
+{"sentence_id": "SY-00653", "unit_ids": ["K1-01204", "K1-01205", "K2-01169", "K3-01206"]}
+{"sentence_id": "SY-00654", "unit_ids": ["K1-00639", "K2-00640", "K3-01207"]}
+{"sentence_id": "SY-00655", "unit_ids": ["K1-00635", "K1-00636", "K2-00637", "K3-01208"]}
+{"sentence_id": "SY-00656", "unit_ids": ["K1-00942", "K2-00673", "K3-01209"]}
+{"sentence_id": "SY-00657", "unit_ids": ["K1-01023", "K1-01024", "K2-00718", "K3-01210"]}
+{"sentence_id": "SY-00658", "unit_ids": ["K1-00929", "K1-00930", "K2-00931", "K3-01211"]}
+{"sentence_id": "SY-00659", "unit_ids": ["K2-01212", "K3-01213"]}
+{"sentence_id": "SY-00660", "unit_ids": ["K2-01212", "K3-01214"]}
+{"sentence_id": "SY-00661", "unit_ids": ["K2-01212", "K3-01215"]}
+{"sentence_id": "SY-00662", "unit_ids": ["K2-01216", "K3-01217"]}
+{"sentence_id": "SY-00663", "unit_ids": ["K2-01216", "K3-01218"]}
+{"sentence_id": "SY-00664", "unit_ids": ["K2-01216", "K3-01219"]}
+{"sentence_id": "SY-00665", "unit_ids": ["K1-01220", "K1-01221", "K2-01222", "K3-01223"]}
+{"sentence_id": "SY-00666", "unit_ids": ["K1-01224", "K2-01222", "K3-01225"]}
+{"sentence_id": "SY-00667", "unit_ids": ["K1-01226", "K2-01222", "K3-01227"]}
+{"sentence_id": "SY-00668", "unit_ids": ["K1-01228", "K1-01229", "K2-01230", "K3-01231"]}
+{"sentence_id": "SY-00669", "unit_ids": ["K1-01232", "K2-01233", "K3-01234"]}
+{"sentence_id": "SY-00670", "unit_ids": ["K1-01235", "K2-00300", "K3-01236"]}
+{"sentence_id": "SY-00671", "unit_ids": ["K1-01237", "K2-00624", "K2-00625", "K3-01238"]}
+{"sentence_id": "SY-00672", "unit_ids": ["K1-01239", "K2-00624", "K2-00625", "K3-01240"]}
+{"sentence_id": "SY-00673", "unit_ids": ["K1-01241", "K2-00624", "K2-00625", "K3-01242"]}
+{"sentence_id": "SY-00674", "unit_ids": ["K1-01243", "K1-01244", "K2-01166", "K3-01245"]}
+{"sentence_id": "SY-00675", "unit_ids": ["K2-00744", "K3-01246"]}
+{"sentence_id": "SY-00676", "unit_ids": ["K2-00744", "K3-01247"]}
+{"sentence_id": "SY-00677", "unit_ids": ["K1-00765", "K1-00767", "K2-00657", "K3-01248"]}
+{"sentence_id": "SY-00678", "unit_ids": ["K1-01249", "K2-01180", "K3-01250"]}
+{"sentence_id": "SY-00679", "unit_ids": ["K1-00128", "K2-00131", "K3-01251"]}
+{"sentence_id": "SY-00680", "unit_ids": ["K1-00128", "K2-00131", "K3-01252"]}
+{"sentence_id": "SY-00681", "unit_ids": ["K1-01253", "K2-00538", "K3-01254"]}
+{"sentence_id": "SY-00682", "unit_ids": ["K1-00517", "K2-00518", "K3-01255"]}
+{"sentence_id": "SY-00683", "unit_ids": ["K1-00829", "K1-00831", "K2-00202", "K3-01256"]}
+{"sentence_id": "SY-00684", "unit_ids": ["K1-01257", "K1-01258", "K2-00700", "K3-01259"]}
+{"sentence_id": "SY-00685", "unit_ids": ["K1-01260", "K1-01261", "K2-00198", "K3-01262"]}
+{"sentence_id": "SY-00686", "unit_ids": ["K2-01263", "K3-01264"]}
+{"sentence_id": "SY-00687", "unit_ids": ["K1-01265", "K2-01263", "K3-01266"]}
+{"sentence_id": "SY-00688", "unit_ids": ["K2-01263", "K3-01267"]}
+{"sentence_id": "SY-00689", "unit_ids": ["K1-00520", "K1-00521", "K2-00522", "K3-01268"]}
+{"sentence_id": "SY-00690", "unit_ids": ["K1-01253", "K2-00538", "K3-01269"]}
+{"sentence_id": "SY-00691", "unit_ids": ["K1-00506", "K1-00507", "K2-00509", "K3-01270"]}
+{"sentence_id": "SY-00692", "unit_ids": ["K1-00918", "K2-00445", "K3-01271"]}
+{"sentence_id": "SY-00693", "unit_ids": ["K1-01272", "K2-00744", "K3-01273"]}
+{"sentence_id": "SY-00694", "unit_ids": ["K1-00639", "K2-00640", "K3-01274"]}
+{"sentence_id": "SY-00695", "unit_ids": ["K1-01204", "K1-01205", "K2-01169", "K3-01275"]}
+{"sentence_id": "SY-00696", "unit_ids": ["K1-00100", "K1-00787", "K2-00101", "K3-01276"]}
+{"sentence_id": "SY-00697", "unit_ids": ["K1-01277", "K1-01278", "K2-01279", "K3-01280"]}
+{"sentence_id": "SY-00698", "unit_ids": ["K2-01281", "K3-01282"]}
+{"sentence_id": "SY-00699", "unit_ids": ["K2-01281", "K3-01283"]}
+{"sentence_id": "SY-00700", "unit_ids": ["K2-01281", "K3-01284"]}
+{"sentence_id": "SY-00701", "unit_ids": ["K1-01285", "K1-01286", "K2-00409", "K3-01287"]}
+{"sentence_id": "SY-00702", "unit_ids": ["K1-01123", "K2-01124", "K3-01288"]}
+{"sentence_id": "SY-00703", "unit_ids": ["K1-01249", "K2-01180", "K3-01289"]}
+{"sentence_id": "SY-00704", "unit_ids": ["K1-01249", "K2-01180", "K3-01290"]}
+{"sentence_id": "SY-00705", "unit_ids": ["K1-01291", "K1-01292", "K2-01082", "K3-01293"]}
+{"sentence_id": "SY-00706", "unit_ids": ["K1-01253", "K2-00538", "K3-01294"]}
+{"sentence_id": "SY-00707", "unit_ids": ["K2-00743", "K3-01295"]}
+{"sentence_id": "SY-00708", "unit_ids": ["K1-00760", "K2-00669", "K3-01296"]}
+{"sentence_id": "SY-00709", "unit_ids": ["K1-00876", "K1-00877", "K2-00878", "K3-01297"]}
+{"sentence_id": "SY-00710", "unit_ids": ["K1-00635", "K1-00636", "K2-00637", "K3-01298"]}
+{"sentence_id": "SY-00711", "unit_ids": ["K1-00639", "K2-00640", "K3-01299"]}
+{"sentence_id": "SY-00712", "unit_ids": ["K1-01277", "K1-01278", "K2-01279", "K3-01300"]}
+{"sentence_id": "SY-00713", "unit_ids": ["K2-00512", "K3-01301"]}
+{"sentence_id": "SY-00714", "unit_ids": ["K1-00520", "K1-00521", "K1-01302", "K2-00522", "K3-01303"]}
+{"sentence_id": "SY-00715", "unit_ids": ["K1-00517", "K2-00518", "K3-01304"]}
+{"sentence_id": "SY-00716", "unit_ids": ["K1-01305", "K3-01306"]}
+{"sentence_id": "SY-00717", "unit_ids": ["K1-01307", "K3-01308"]}
+{"sentence_id": "SY-00718", "unit_ids": ["K1-01040", "K3-01309"]}
+{"sentence_id": "SY-00719", "unit_ids": ["K1-00520", "K1-00521", "K2-00522", "K3-01310"]}
+{"sentence_id": "SY-00720", "unit_ids": ["K1-00517", "K2-00518", "K3-01311"]}
+{"sentence_id": "SY-00721", "unit_ids": ["K1-01291", "K1-01292", "K2-01082", "K3-01312"]}
+{"sentence_id": "SY-00722", "unit_ids": ["K1-01313", "K2-01314", "K3-01315"]}
+{"sentence_id": "SY-00723", "unit_ids": ["K2-00744", "K3-01316"]}
+{"sentence_id": "SY-00724", "unit_ids": ["K1-00635", "K1-00636", "K2-00637", "K3-01317"]}
+{"sentence_id": "SY-00725", "unit_ids": ["K1-00752", "K2-00754", "K3-01318"]}
+{"sentence_id": "SY-00726", "unit_ids": ["K1-00854", "K1-00855", "K2-00857", "K3-01319"]}
+{"sentence_id": "SY-00727", "unit_ids": ["K1-00984", "K2-00985", "K3-01320"]}
+{"sentence_id": "SY-00728", "unit_ids": ["K1-01313", "K2-01314", "K3-01321"]}
+{"sentence_id": "SY-00729", "unit_ids": ["K1-00635", "K1-00636", "K2-00637", "K3-01322"]}
+{"sentence_id": "SY-00730", "unit_ids": ["K1-01204", "K1-01205", "K2-01169", "K3-01323"]}
+{"sentence_id": "SY-00731", "unit_ids": ["K1-01285", "K1-01286", "K1-01324", "K2-00409", "K2-01325", "K3-01326"]}
+{"sentence_id": "SY-00732", "unit_ids": ["K1-00520", "K1-00521", "K1-01327", "K2-00522", "K2-01325", "K3-01328"]}
+{"sentence_id": "SY-00733", "unit_ids": ["K1-00765", "K1-00767", "K1-01329", "K2-00657", "K2-01325", "K3-01330"]}
+{"sentence_id": "SY-00734", "unit_ids": ["K1-01331", "K2-01332", "K3-01333"]}
+{"sentence_id": "SY-00735", "unit_ids": ["K1-01334", "K1-01335", "K2-01336", "K3-01337"]}
+{"sentence_id": "SY-00736", "unit_ids": ["K2-00700", "K3-01338"]}
+{"sentence_id": "SY-00737", "unit_ids": ["K2-01336", "K3-01339"]}
+{"sentence_id": "SY-00738", "unit_ids": ["K2-01051", "K3-01340"]}
+{"sentence_id": "SY-00739", "unit_ids": ["K2-00702", "K3-01341"]}
+{"sentence_id": "SY-00740", "unit_ids": ["K1-00773", "K2-00774", "K3-01342"]}
+{"sentence_id": "SY-00741", "unit_ids": ["K1-00631", "K2-00632", "K3-01343"]}
+{"sentence_id": "SY-00742", "unit_ids": ["K1-00918", "K2-00445", "K3-01344"]}
+{"sentence_id": "SY-00743", "unit_ids": ["K1-01253", "K2-00538", "K3-01345"]}
+{"sentence_id": "SY-00744", "unit_ids": ["K1-01123", "K2-01124", "K3-01346"]}
+{"sentence_id": "SY-00745", "unit_ids": ["K1-00958", "K2-00959", "K3-01347"]}
+{"sentence_id": "SY-00746", "unit_ids": ["K1-00771", "K2-00707", "K3-01348"]}
+{"sentence_id": "SY-00747", "unit_ids": ["K1-01349", "K2-01350", "K3-01351"]}
+{"sentence_id": "SY-00748", "unit_ids": ["K1-01352", "K2-01353", "K3-01354"]}
+{"sentence_id": "SY-00749", "unit_ids": ["K1-00119", "K2-00120", "K3-01355"]}
+{"sentence_id": "SY-00750", "unit_ids": ["K1-01356", "K2-00116", "K3-01357"]}
+{"sentence_id": "SY-00751", "unit_ids": ["K1-01358", "K2-00116", "K3-01359"]}
+{"sentence_id": "SY-00752", "unit_ids": ["K2-00700", "K3-01360"]}
+{"sentence_id": "SY-00753", "unit_ids": ["K2-01361", "K3-01362"]}
+{"sentence_id": "SY-00754", "unit_ids": ["K2-01336", "K3-01363"]}
+{"sentence_id": "SY-00755", "unit_ids": ["K1-00863", "K2-00864", "K3-01364"]}
+{"sentence_id": "SY-00756", "unit_ids": ["K1-00933", "K1-01365", "K2-00934", "K3-01366"]}
+{"sentence_id": "SY-00757", "unit_ids": ["K1-00104", "K1-00105", "K2-00106", "K3-01367"]}
+{"sentence_id": "SY-00759", "unit_ids": ["K1-01368", "K3-01369"]}
+{"sentence_id": "SY-00760", "unit_ids": ["K1-01370", "K1-01371", "K1-01372", "K3-01373"]}
+{"sentence_id": "SY-00761", "unit_ids": ["K1-00136", "K2-00137", "K3-01374"]}
+{"sentence_id": "SY-00762", "unit_ids": ["K1-00639", "K1-01375", "K2-00640", "K3-01376"]}
+{"sentence_id": "SY-00763", "unit_ids": ["K1-00760", "K2-00669", "K3-01377"]}
+{"sentence_id": "SY-00764", "unit_ids": ["K3-01378"]}
+{"sentence_id": "SY-00765", "unit_ids": ["K3-01379"]}
+{"sentence_id": "SY-00766", "unit_ids": ["K3-01380"]}
+{"sentence_id": "SY-00767", "unit_ids": ["K1-01381", "K3-01382"]}
+{"sentence_id": "SY-00768", "unit_ids": ["K1-01383", "K3-01384"]}
+{"sentence_id": "SY-00769", "unit_ids": ["K2-00215", "K3-01385"]}
+{"sentence_id": "SY-00770", "unit_ids": ["K2-00219", "K3-01386"]}
+{"sentence_id": "SY-00771", "unit_ids": ["K2-00326", "K3-01387"]}
+{"sentence_id": "SY-00772", "unit_ids": ["K1-01388", "K2-01389", "K3-01390"]}
+{"sentence_id": "SY-00773", "unit_ids": ["K1-01391", "K1-01392", "K2-00985", "K3-01393"]}
+{"sentence_id": "SY-00774", "unit_ids": ["K1-01394", "K2-01389", "K3-01395"]}
+{"sentence_id": "SY-00775", "unit_ids": ["K2-01396", "K3-01397"]}
+{"sentence_id": "SY-00776", "unit_ids": ["K2-01396", "K3-01398"]}
+{"sentence_id": "SY-00777", "unit_ids": ["K2-01396", "K3-01399"]}
+{"sentence_id": "SY-00780", "unit_ids": ["K3-01400"]}
+{"sentence_id": "SY-00781", "unit_ids": ["K1-01401", "K3-01402"]}
+{"sentence_id": "SY-00782", "unit_ids": ["K3-01403"]}
+{"sentence_id": "SY-00783", "unit_ids": ["K3-01404"]}
+{"sentence_id": "SY-00785", "unit_ids": ["K1-01405", "K1-01406", "K3-01407"]}
+{"sentence_id": "SY-00787", "unit_ids": ["K3-01408"]}
+{"sentence_id": "SY-00788", "unit_ids": ["K3-01409"]}
+{"sentence_id": "SY-00789", "unit_ids": ["K3-01410"]}
+{"sentence_id": "SY-00790", "unit_ids": ["K3-01411"]}
+{"sentence_id": "SY-00793", "unit_ids": ["K3-01412"]}
+{"sentence_id": "SY-00794", "unit_ids": ["K1-01413", "K1-01414", "K3-01415"]}
+{"sentence_id": "SY-00796", "unit_ids": ["K2-01416", "K3-01417"]}
+{"sentence_id": "SY-00797", "unit_ids": ["K2-01416", "K3-01418"]}
+{"sentence_id": "SY-00798", "unit_ids": ["K2-01416", "K3-01419"]}
+{"sentence_id": "SY-00799", "unit_ids": ["K2-01420", "K2-01421", "K3-01422"]}
+{"sentence_id": "SY-00800", "unit_ids": ["K2-00700", "K2-01420", "K3-01423"]}
+{"sentence_id": "SY-00801", "unit_ids": ["K2-00305", "K2-01421", "K3-01424"]}
+{"sentence_id": "SY-00802", "unit_ids": ["K2-00202", "K2-00702", "K3-01425"]}
+{"sentence_id": "SY-00803", "unit_ids": ["K2-00702", "K2-01426", "K3-01427"]}
+{"sentence_id": "SY-00804", "unit_ids": ["K1-01428", "K2-00198", "K2-01426", "K3-01429"]}
+{"sentence_id": "SY-00805", "unit_ids": ["K3-01430"]}
+{"sentence_id": "SY-00806", "unit_ids": ["K3-01431"]}
+{"sentence_id": "SY-00807", "unit_ids": ["K3-01432"]}
+{"sentence_id": "SY-00808", "unit_ids": ["K1-01433", "K2-01434", "K3-01435"]}
+{"sentence_id": "SY-00809", "unit_ids": ["K1-01436", "K2-00500", "K3-01437"]}
+{"sentence_id": "SY-00810", "unit_ids": ["K1-01438", "K2-01439", "K3-01440"]}
+{"sentence_id": "SY-00811", "unit_ids": ["K2-01441", "K3-01442"]}
+{"sentence_id": "SY-00812", "unit_ids": ["K2-01443", "K3-01444"]}
+{"sentence_id": "SY-00813", "unit_ids": ["K2-01445", "K3-01446"]}
+{"sentence_id": "SY-00815", "unit_ids": ["K1-01447", "K3-01448"]}
+{"sentence_id": "SY-00816", "unit_ids": ["K1-01449", "K3-01450"]}
+{"sentence_id": "SY-00817", "unit_ids": ["K2-01451", "K3-01452"]}
+{"sentence_id": "SY-00818", "unit_ids": ["K2-00509", "K3-01453"]}
+{"sentence_id": "SY-00819", "unit_ids": ["K2-01454", "K3-01455"]}
+{"sentence_id": "SY-00820", "unit_ids": ["K2-00322", "K3-01456"]}
+{"sentence_id": "SY-00821", "unit_ids": ["K2-01457", "K3-01458"]}
+{"sentence_id": "SY-00822", "unit_ids": ["K2-01457", "K3-01459"]}
+{"sentence_id": "SY-00823", "unit_ids": ["K3-01460"]}
+{"sentence_id": "SY-00824", "unit_ids": ["K3-01461"]}
+{"sentence_id": "SY-00825", "unit_ids": ["K1-01462", "K3-01463"]}
+{"sentence_id": "SY-00826", "unit_ids": ["K3-01464"]}
+{"sentence_id": "SY-00827", "unit_ids": ["K3-01465"]}
+{"sentence_id": "SY-00828", "unit_ids": ["K1-01466", "K1-01467", "K3-01468"]}
+{"sentence_id": "SY-00829", "unit_ids": ["K3-01469"]}
+{"sentence_id": "SY-00831", "unit_ids": ["K3-01470"]}
+{"sentence_id": "SY-00832", "unit_ids": ["K2-00700", "K3-01471"]}
+{"sentence_id": "SY-00833", "unit_ids": ["K2-00202", "K3-01472"]}
+{"sentence_id": "SY-00834", "unit_ids": ["K2-00198", "K3-01473"]}
+{"sentence_id": "SY-00835", "unit_ids": ["K1-01474", "K3-01475"]}
+{"sentence_id": "SY-00836", "unit_ids": ["K1-01476", "K3-01477"]}
+{"sentence_id": "SY-00838", "unit_ids": ["K2-00219", "K3-01478"]}
+{"sentence_id": "SY-00839", "unit_ids": ["K2-00215", "K3-01479"]}
+{"sentence_id": "SY-00840", "unit_ids": ["K2-00211", "K3-01480"]}
+{"sentence_id": "SY-00841", "unit_ids": ["K1-01481", "K3-01482"]}
+{"sentence_id": "SY-00843", "unit_ids": ["K1-01483", "K3-01484"]}
+{"sentence_id": "SY-00844", "unit_ids": ["K1-01485", "K3-01486"]}
+{"sentence_id": "SY-00845", "unit_ids": ["K1-01487", "K3-01488"]}
+{"sentence_id": "SY-00847", "unit_ids": ["K1-01489", "K3-01490"]}
+{"sentence_id": "SY-00848", "unit_ids": ["K1-01491", "K3-01492"]}
+{"sentence_id": "SY-00849", "unit_ids": ["K1-01493", "K3-01494"]}
+{"sentence_id": "SY-00850", "unit_ids": ["K1-01495", "K2-01496", "K3-01497"]}
+{"sentence_id": "SY-00851", "unit_ids": ["K1-01498", "K2-01496", "K3-01499"]}
+{"sentence_id": "SY-00852", "unit_ids": ["K1-01500", "K2-01496", "K3-01501"]}
+{"sentence_id": "SY-00853", "unit_ids": ["K1-01502", "K3-01503"]}
+{"sentence_id": "SY-00854", "unit_ids": ["K1-01504", "K3-01505"]}
+{"sentence_id": "SY-00855", "unit_ids": ["K1-01506", "K3-01507"]}
+{"sentence_id": "SY-00856", "unit_ids": ["K2-00215", "K3-01508"]}
+{"sentence_id": "SY-00857", "unit_ids": ["K2-00326", "K3-01509"]}
+{"sentence_id": "SY-00858", "unit_ids": ["K2-01188", "K3-01510"]}
+{"sentence_id": "SY-00860", "unit_ids": ["K3-01511"]}
+{"sentence_id": "SY-00861", "unit_ids": ["K3-01512"]}
+{"sentence_id": "SY-00862", "unit_ids": ["K1-01161", "K3-01513"]}
+{"sentence_id": "SY-00863", "unit_ids": ["K1-01514", "K3-01515"]}
+{"sentence_id": "SY-00865", "unit_ids": ["K3-01516"]}
+{"sentence_id": "SY-00866", "unit_ids": ["K3-01517"]}
+{"sentence_id": "SY-00868", "unit_ids": ["K3-01518"]}
+{"sentence_id": "SY-00869", "unit_ids": ["K3-01519"]}
+{"sentence_id": "SY-00870", "unit_ids": ["K3-01520"]}
+{"sentence_id": "SY-00871", "unit_ids": ["K1-01159", "K2-00202", "K3-01521"]}
+{"sentence_id": "SY-00872", "unit_ids": ["K1-01522", "K2-00700", "K3-01523"]}
+{"sentence_id": "SY-00873", "unit_ids": ["K1-01016", "K2-00198", "K3-01524"]}
+{"sentence_id": "SY-00874", "unit_ids": ["K2-01525", "K3-01526"]}
+{"sentence_id": "SY-00875", "unit_ids": ["K2-01132", "K3-01527"]}
+{"sentence_id": "SY-00876", "unit_ids": ["K2-00978", "K3-01528"]}
+{"sentence_id": "SY-00877", "unit_ids": ["K3-01529"]}
+{"sentence_id": "SY-00878", "unit_ids": ["K3-01530"]}
+{"sentence_id": "SY-00879", "unit_ids": ["K3-01531"]}
+{"sentence_id": "SY-00880", "unit_ids": ["K3-01532"]}
+{"sentence_id": "SY-00882", "unit_ids": ["K3-01533"]}
+{"sentence_id": "SY-00885", "unit_ids": ["K3-01534"]}
+{"sentence_id": "SY-00886", "unit_ids": ["K1-01535", "K2-00215", "K3-01536"]}
+{"sentence_id": "SY-00887", "unit_ids": ["K2-01537", "K3-01538"]}
+{"sentence_id": "SY-00888", "unit_ids": ["K1-01539", "K2-00326", "K3-01540"]}
+{"sentence_id": "SY-00889", "unit_ids": ["K1-01541", "K2-01542", "K2-01543", "K2-01544", "K3-01545"]}
+{"sentence_id": "SY-00890", "unit_ids": ["K2-00921", "K2-01544", "K2-01546", "K3-01547"]}
+{"sentence_id": "SY-00891", "unit_ids": ["K2-00774", "K2-01543", "K2-01546", "K3-01548"]}
+{"sentence_id": "SY-00892", "unit_ids": ["K3-01549"]}
+{"sentence_id": "SY-00893", "unit_ids": ["K3-01550"]}
+{"sentence_id": "SY-00894", "unit_ids": ["K3-01551"]}
+{"sentence_id": "SY-00895", "unit_ids": ["K2-01054", "K3-01552"]}
+{"sentence_id": "SY-00896", "unit_ids": ["K2-01434", "K3-01553"]}
+{"sentence_id": "SY-00897", "unit_ids": ["K2-00318", "K3-01554"]}
+{"sentence_id": "SY-00898", "unit_ids": ["K2-01555", "K3-01556"]}
+{"sentence_id": "SY-00899", "unit_ids": ["K1-01557", "K2-00150", "K3-01558"]}
+{"sentence_id": "SY-00900", "unit_ids": ["K2-01555", "K3-01559"]}
+{"sentence_id": "SY-00901", "unit_ids": ["K1-01522", "K2-00700", "K3-01560"]}
+{"sentence_id": "SY-00902", "unit_ids": ["K1-01159", "K2-00202", "K3-01561"]}
+{"sentence_id": "SY-00903", "unit_ids": ["K1-01562", "K2-01336", "K3-01563"]}
+{"sentence_id": "SY-00904", "unit_ids": ["K2-00202", "K3-01564"]}
+{"sentence_id": "SY-00905", "unit_ids": ["K2-00305", "K3-01565"]}
+{"sentence_id": "SY-00906", "unit_ids": ["K2-01336", "K3-01566"]}
+{"sentence_id": "SY-00907", "unit_ids": ["K2-01567", "K3-01568"]}
+{"sentence_id": "SY-00908", "unit_ids": ["K2-00931", "K3-01569"]}
+{"sentence_id": "SY-00909", "unit_ids": ["K2-01570", "K3-01571"]}
+{"sentence_id": "SY-00910", "unit_ids": ["K1-01572", "K3-01573"]}
+{"sentence_id": "SY-00912", "unit_ids": ["K1-01574", "K3-01575"]}
+{"sentence_id": "SY-00914", "unit_ids": ["K3-01576"]}
+{"sentence_id": "SY-00915", "unit_ids": ["K3-01577"]}
+{"sentence_id": "SY-00916", "unit_ids": ["K2-01578", "K3-01579"]}
+{"sentence_id": "SY-00917", "unit_ids": ["K2-00679", "K3-01580"]}
+{"sentence_id": "SY-00918", "unit_ids": ["K2-00972", "K3-01581"]}
+{"sentence_id": "SY-00919", "unit_ids": ["K3-01582"]}
+{"sentence_id": "SY-00920", "unit_ids": ["K3-01583"]}
+{"sentence_id": "SY-00921", "unit_ids": ["K3-01584"]}
+{"sentence_id": "SY-00922", "unit_ids": ["K2-00211", "K3-01585"]}
+{"sentence_id": "SY-00923", "unit_ids": ["K2-00219", "K3-01586"]}
+{"sentence_id": "SY-00924", "unit_ids": ["K3-01587"]}
+{"sentence_id": "SY-00925", "unit_ids": ["K3-01588"]}
+{"sentence_id": "SY-00926", "unit_ids": ["K3-01589"]}
+{"sentence_id": "SY-00927", "unit_ids": ["K2-00215", "K3-01590"]}
+{"sentence_id": "SY-00928", "unit_ids": ["K2-00200", "K3-01591"]}
+{"sentence_id": "SY-00929", "unit_ids": ["K2-00322", "K3-01592"]}
+{"sentence_id": "SY-00930", "unit_ids": ["K3-01593"]}
+{"sentence_id": "SY-00931", "unit_ids": ["K3-01594"]}
+{"sentence_id": "SY-00932", "unit_ids": ["K3-01595"]}
+{"sentence_id": "SY-00933", "unit_ids": ["K1-01016", "K2-00198", "K3-01596"]}
+{"sentence_id": "SY-00934", "unit_ids": ["K1-01159", "K2-00202", "K3-01597"]}
+{"sentence_id": "SY-00935", "unit_ids": ["K1-01562", "K2-01336", "K3-01598"]}
+{"sentence_id": "SY-00936", "unit_ids": ["K1-01599", "K3-01600"]}
+{"sentence_id": "SY-00937", "unit_ids": ["K3-01601"]}
+{"sentence_id": "SY-00938", "unit_ids": ["K3-01602"]}
+{"sentence_id": "SY-00939", "unit_ids": ["K3-01603"]}
+{"sentence_id": "SY-00940", "unit_ids": ["K3-01604"]}
+{"sentence_id": "SY-00941", "unit_ids": ["K3-01605"]}
+{"sentence_id": "SY-00942", "unit_ids": ["K2-01350", "K3-01606"]}
+{"sentence_id": "SY-00943", "unit_ids": ["K2-00500", "K3-01607"]}
+{"sentence_id": "SY-00944", "unit_ids": ["K2-01608", "K3-01609"]}
+{"sentence_id": "SY-00945", "unit_ids": ["K2-01434", "K3-01610"]}
+{"sentence_id": "SY-00946", "unit_ids": ["K2-00700", "K2-01611", "K3-01612"]}
+{"sentence_id": "SY-00947", "unit_ids": ["K2-00202", "K2-01611", "K3-01613"]}
+{"sentence_id": "SY-00948", "unit_ids": ["K2-01124", "K3-01614"]}
+{"sentence_id": "SY-00949", "unit_ids": ["K1-01615", "K2-01525", "K3-01616"]}
+{"sentence_id": "SY-00950", "unit_ids": ["K2-01180", "K3-01617"]}
+{"sentence_id": "SY-00951", "unit_ids": ["K1-01618", "K1-01619", "K3-01620"]}
+{"sentence_id": "SY-00953", "unit_ids": ["K3-01621"]}
+{"sentence_id": "SY-00954", "unit_ids": ["K2-00714", "K3-01622"]}
+{"sentence_id": "SY-00955", "unit_ids": ["K2-00688", "K3-01623"]}
+{"sentence_id": "SY-00956", "unit_ids": ["K2-00215", "K3-01624"]}
+{"sentence_id": "SY-00957", "unit_ids": ["K3-01625"]}
+{"sentence_id": "SY-00958", "unit_ids": ["K3-01626"]}
+{"sentence_id": "SY-00960", "unit_ids": ["K2-01525", "K3-01627"]}
+{"sentence_id": "SY-00961", "unit_ids": ["K2-00512", "K3-01628"]}
+{"sentence_id": "SY-00962", "unit_ids": ["K2-01629", "K3-01630"]}
+{"sentence_id": "SY-00963", "unit_ids": ["K2-00326", "K3-01631"]}
+{"sentence_id": "SY-00964", "unit_ids": ["K2-00322", "K3-01632"]}
+{"sentence_id": "SY-00965", "unit_ids": ["K2-01188", "K3-01633"]}
+{"sentence_id": "SY-00967", "unit_ids": ["K3-01634"]}
+{"sentence_id": "SY-00969", "unit_ids": ["K3-01635"]}
+{"sentence_id": "SY-00970", "unit_ids": ["K3-01636"]}
+{"sentence_id": "SY-00971", "unit_ids": ["K3-01637"]}
+{"sentence_id": "SY-00973", "unit_ids": ["K3-01638"]}
+{"sentence_id": "SY-00975", "unit_ids": ["K3-01639"]}
+{"sentence_id": "SY-00977", "unit_ids": ["K3-01640"]}
+{"sentence_id": "SY-00978", "unit_ids": ["K3-01641"]}
+{"sentence_id": "SY-00979", "unit_ids": ["K1-01642", "K3-01643"]}
+{"sentence_id": "SY-00981", "unit_ids": ["K2-01353", "K3-01644"]}
+{"sentence_id": "SY-00982", "unit_ids": ["K2-00737", "K3-01645"]}
+{"sentence_id": "SY-00983", "unit_ids": ["K2-01646", "K3-01647"]}
+{"sentence_id": "SY-00984", "unit_ids": ["K3-01648"]}
+{"sentence_id": "SY-00986", "unit_ids": ["K3-01649"]}
+{"sentence_id": "SY-00987", "unit_ids": ["K2-01361", "K3-01650"]}
+{"sentence_id": "SY-00988", "unit_ids": ["K2-01651", "K3-01652"]}
+{"sentence_id": "SY-00989", "unit_ids": ["K2-01653", "K3-01654"]}
+{"sentence_id": "SY-00990", "unit_ids": ["K2-01655", "K3-01656"]}
+{"sentence_id": "SY-00991", "unit_ids": ["K3-01657"]}
+{"sentence_id": "SY-00992", "unit_ids": ["K3-01658"]}
+{"sentence_id": "SY-00993", "unit_ids": ["K3-01659"]}
+{"sentence_id": "SY-00994", "unit_ids": ["K2-01660", "K3-01661"]}
+{"sentence_id": "SY-00996", "unit_ids": ["K3-01662"]}
+{"sentence_id": "SY-00998", "unit_ids": ["K3-01663"]}
+{"sentence_id": "SY-00999", "unit_ids": ["K3-01664"]}
+{"sentence_id": "SY-01001", "unit_ids": ["K3-01665"]}
+{"sentence_id": "SY-01002", "unit_ids": ["K3-01666"]}
+{"sentence_id": "SY-01003", "unit_ids": ["K2-01667", "K3-01668"]}
+{"sentence_id": "SY-01004", "unit_ids": ["K2-01669", "K3-01670"]}
+{"sentence_id": "SY-01006", "unit_ids": ["K3-01671"]}
+{"sentence_id": "SY-01007", "unit_ids": ["K3-01672"]}
+{"sentence_id": "SY-01008", "unit_ids": ["K2-01673", "K3-01674"]}
+{"sentence_id": "SY-01009", "unit_ids": ["K2-01675", "K3-01676"]}
+{"sentence_id": "SY-01010", "unit_ids": ["K3-01677"]}
+{"sentence_id": "SY-01011", "unit_ids": ["K3-01678"]}
+{"sentence_id": "SY-01013", "unit_ids": ["K3-01679"]}
+{"sentence_id": "SY-01014", "unit_ids": ["K3-01680"]}
+{"sentence_id": "SY-01015", "unit_ids": ["K3-01681"]}
+{"sentence_id": "SY-01016", "unit_ids": ["K3-01682"]}
+{"sentence_id": "SY-01017", "unit_ids": ["K2-00018", "K3-01683"]}
+{"sentence_id": "SY-01018", "unit_ids": ["K2-01684", "K3-01685"]}
+{"sentence_id": "SY-01019", "unit_ids": ["K3-01686"]}
+{"sentence_id": "SY-01020", "unit_ids": ["K2-01687", "K3-01688"]}
+{"sentence_id": "SY-01021", "unit_ids": ["K3-01689"]}
+{"sentence_id": "SY-01022", "unit_ids": ["K3-01690"]}
+{"sentence_id": "SY-01023", "unit_ids": ["K2-01691", "K3-01692"]}
+{"sentence_id": "SY-01025", "unit_ids": ["K3-01693"]}
+{"sentence_id": "SY-01026", "unit_ids": ["K3-01694"]}
+{"sentence_id": "SY-01029", "unit_ids": ["K3-01695"]}
+{"sentence_id": "SY-01030", "unit_ids": ["K3-01696"]}
+{"sentence_id": "SY-01031", "unit_ids": ["K3-01697"]}
+{"sentence_id": "SY-01032", "unit_ids": ["K2-01698", "K3-01699"]}
+{"sentence_id": "SY-01033", "unit_ids": ["K3-01700"]}
+{"sentence_id": "SY-01034", "unit_ids": ["K3-01701"]}
+{"sentence_id": "SY-01035", "unit_ids": ["K2-01702", "K3-01703"]}
+{"sentence_id": "SY-01036", "unit_ids": ["K3-01704"]}
+{"sentence_id": "SY-01037", "unit_ids": ["K2-01705", "K3-01706"]}
+{"sentence_id": "SY-01038", "unit_ids": ["K3-01707"]}
+{"sentence_id": "SY-01039", "unit_ids": ["K2-01708", "K3-01709"]}
+{"sentence_id": "SY-01040", "unit_ids": ["K2-01710", "K3-01711"]}
+{"sentence_id": "SY-01041", "unit_ids": ["K3-01712"]}
+{"sentence_id": "SY-01043", "unit_ids": ["K2-01713", "K3-01714"]}
+{"sentence_id": "SY-01045", "unit_ids": ["K3-01715"]}
+{"sentence_id": "SY-01047", "unit_ids": ["K3-01716"]}
+{"sentence_id": "SY-01048", "unit_ids": ["K3-01717"]}
+{"sentence_id": "SY-01051", "unit_ids": ["K3-01718"]}
+{"sentence_id": "SY-01052", "unit_ids": ["K3-01719"]}
+{"sentence_id": "SY-01053", "unit_ids": ["K3-01720"]}
+{"sentence_id": "SY-01054", "unit_ids": ["K3-01721"]}
+{"sentence_id": "SY-01055", "unit_ids": ["K3-01722"]}
+{"sentence_id": "SY-01056", "unit_ids": ["K2-01723", "K3-01724"]}
+{"sentence_id": "SY-01059", "unit_ids": ["K2-01725", "K3-01726"]}
+{"sentence_id": "SY-01060", "unit_ids": ["K3-01727"]}
+{"sentence_id": "SY-01061", "unit_ids": ["K3-01728"]}
+{"sentence_id": "SY-01062", "unit_ids": ["K3-01729"]}
+{"sentence_id": "SY-01063", "unit_ids": ["K3-01730"]}
+{"sentence_id": "SY-01064", "unit_ids": ["K3-01731"]}
+{"sentence_id": "SY-01065", "unit_ids": ["K3-01732"]}
+{"sentence_id": "SY-01066", "unit_ids": ["K3-01733"]}
+{"sentence_id": "SY-01067", "unit_ids": ["K3-01734"]}
+{"sentence_id": "SY-01068", "unit_ids": ["K3-01735"]}
+{"sentence_id": "SY-01069", "unit_ids": ["K2-01736", "K3-01737"]}
+{"sentence_id": "SY-01070", "unit_ids": ["K3-01738"]}
+{"sentence_id": "SY-01071", "unit_ids": ["K3-01739"]}
+{"sentence_id": "SY-01072", "unit_ids": ["K2-01740", "K3-01741"]}
+{"sentence_id": "SY-01074", "unit_ids": ["K3-01742"]}
+{"sentence_id": "SY-01075", "unit_ids": ["K3-01743"]}
+{"sentence_id": "SY-01080", "unit_ids": ["K3-01744"]}
+{"sentence_id": "SY-01081", "unit_ids": ["K2-01745", "K3-01746"]}
+{"sentence_id": "SY-01083", "unit_ids": ["K3-01747"]}
+{"sentence_id": "SY-01084", "unit_ids": ["K3-01748"]}
+{"sentence_id": "SY-01085", "unit_ids": ["K3-01749"]}
+{"sentence_id": "SY-01086", "unit_ids": ["K3-01750"]}
+{"sentence_id": "SY-01087", "unit_ids": ["K3-01751"]}
+{"sentence_id": "SY-01088", "unit_ids": ["K2-01752", "K3-01753"]}
+{"sentence_id": "SY-01089", "unit_ids": ["K2-01754", "K3-01755"]}
+{"sentence_id": "SY-01090", "unit_ids": ["K2-01756", "K3-01757"]}
+{"sentence_id": "SY-01091", "unit_ids": ["K3-01758"]}
+{"sentence_id": "SY-01092", "unit_ids": ["K2-01723", "K3-01759"]}
+{"sentence_id": "SY-01093", "unit_ids": ["K3-01760"]}
+{"sentence_id": "SY-01094", "unit_ids": ["K2-01723", "K3-01761"]}
+{"sentence_id": "SY-01095", "unit_ids": ["K3-01762"]}
+{"sentence_id": "SY-01096", "unit_ids": ["K3-01763"]}
+{"sentence_id": "SY-01097", "unit_ids": ["K3-01764"]}
+{"sentence_id": "SY-01099", "unit_ids": ["K2-01765", "K3-01766"]}
+{"sentence_id": "SY-01100", "unit_ids": ["K3-01767"]}
+{"sentence_id": "SY-01101", "unit_ids": ["K3-01768"]}
+{"sentence_id": "SY-01102", "unit_ids": ["K3-01769"]}
+{"sentence_id": "SY-01103", "unit_ids": ["K3-01770"]}
+{"sentence_id": "SY-01104", "unit_ids": ["K2-01710", "K3-01771"]}
+{"sentence_id": "SY-01105", "unit_ids": ["K3-01772"]}
+{"sentence_id": "SY-01106", "unit_ids": ["K3-01773"]}
+{"sentence_id": "SY-01107", "unit_ids": ["K3-01774"]}
+{"sentence_id": "SY-01109", "unit_ids": ["K3-01775"]}
+{"sentence_id": "SY-01110", "unit_ids": ["K2-01776", "K3-01777"]}
+{"sentence_id": "SY-01111", "unit_ids": ["K3-01778"]}
+{"sentence_id": "SY-01112", "unit_ids": ["K3-01779"]}
+{"sentence_id": "SY-01113", "unit_ids": ["K2-01780", "K3-01781"]}
+{"sentence_id": "SY-01114", "unit_ids": ["K2-01782", "K3-01783"]}
+{"sentence_id": "SY-01115", "unit_ids": ["K3-01784"]}
+{"sentence_id": "SY-01116", "unit_ids": ["K3-01785"]}
+{"sentence_id": "SY-01117", "unit_ids": ["K3-01786"]}
+{"sentence_id": "SY-01118", "unit_ids": ["K3-01787"]}
+{"sentence_id": "SY-01119", "unit_ids": ["K2-01788", "K3-01789"]}
+{"sentence_id": "SY-01121", "unit_ids": ["K3-01790"]}
+{"sentence_id": "SY-01122", "unit_ids": ["K3-01791"]}
+{"sentence_id": "SY-01123", "unit_ids": ["K3-01792"]}
+{"sentence_id": "SY-01124", "unit_ids": ["K2-01793", "K3-01794"]}
+{"sentence_id": "SY-01126", "unit_ids": ["K2-01795", "K3-01796"]}
+{"sentence_id": "SY-01127", "unit_ids": ["K3-01797"]}
+{"sentence_id": "SY-01128", "unit_ids": ["K3-01798"]}
+{"sentence_id": "SY-01129", "unit_ids": ["K3-01799"]}
+{"sentence_id": "SY-01130", "unit_ids": ["K2-01667", "K3-01800"]}
+{"sentence_id": "SY-01131", "unit_ids": ["K3-01801"]}
+{"sentence_id": "SY-01132", "unit_ids": ["K3-01802"]}
+{"sentence_id": "SY-01133", "unit_ids": ["K3-01803"]}
+{"sentence_id": "SY-01134", "unit_ids": ["K3-01804"]}
+{"sentence_id": "SY-01135", "unit_ids": ["K3-01805"]}
+{"sentence_id": "SY-01136", "unit_ids": ["K3-01806"]}
+{"sentence_id": "SY-01137", "unit_ids": ["K2-01807", "K3-01808"]}
+{"sentence_id": "SY-01138", "unit_ids": ["K3-01809"]}
+{"sentence_id": "SY-01139", "unit_ids": ["K3-01810"]}
+{"sentence_id": "SY-01140", "unit_ids": ["K2-01811", "K3-01812"]}
+{"sentence_id": "SY-01141", "unit_ids": ["K3-01813"]}
+{"sentence_id": "SY-01142", "unit_ids": ["K3-01814"]}
+{"sentence_id": "SY-01143", "unit_ids": ["K3-01815"]}
+{"sentence_id": "SY-01145", "unit_ids": ["K3-01816"]}
+{"sentence_id": "SY-01146", "unit_ids": ["K3-01817"]}
+{"sentence_id": "SY-01147", "unit_ids": ["K3-01818"]}
+{"sentence_id": "SY-01149", "unit_ids": ["K3-01819"]}
+{"sentence_id": "SY-01150", "unit_ids": ["K3-01820"]}
+{"sentence_id": "SY-01152", "unit_ids": ["K2-01821", "K3-01822"]}
+{"sentence_id": "SY-01153", "unit_ids": ["K2-01823", "K3-01824"]}
+{"sentence_id": "SY-01154", "unit_ids": ["K3-01825"]}
+{"sentence_id": "SY-01155", "unit_ids": ["K3-01826"]}
+{"sentence_id": "SY-01156", "unit_ids": ["K3-01827"]}
+{"sentence_id": "SY-01157", "unit_ids": ["K3-01828"]}
+{"sentence_id": "SY-01158", "unit_ids": ["K3-01829"]}
+{"sentence_id": "SY-01159", "unit_ids": ["K3-01830"]}
+{"sentence_id": "SY-01160", "unit_ids": ["K3-01831"]}
+{"sentence_id": "SY-01161", "unit_ids": ["K2-01832", "K3-01833"]}
+{"sentence_id": "SY-01162", "unit_ids": ["K3-01834"]}
+{"sentence_id": "SY-01163", "unit_ids": ["K3-01835"]}
+{"sentence_id": "SY-01164", "unit_ids": ["K3-01836"]}
+{"sentence_id": "SY-01165", "unit_ids": ["K2-01837", "K3-01838"]}
+{"sentence_id": "SY-01166", "unit_ids": ["K2-01839", "K3-01840"]}
+{"sentence_id": "SY-01167", "unit_ids": ["K3-01841"]}
+{"sentence_id": "SY-01168", "unit_ids": ["K3-01842"]}
+{"sentence_id": "SY-01169", "unit_ids": ["K2-01843", "K3-01844"]}
+{"sentence_id": "SY-01170", "unit_ids": ["K2-01845", "K3-01846"]}
+{"sentence_id": "SY-01172", "unit_ids": ["K3-01847"]}
+{"sentence_id": "SY-01174", "unit_ids": ["K2-01736", "K3-01848"]}
+{"sentence_id": "SY-01175", "unit_ids": ["K3-01849"]}
+{"sentence_id": "SY-01176", "unit_ids": ["K3-01850"]}
+{"sentence_id": "SY-01177", "unit_ids": ["K2-01851", "K3-01852"]}
+{"sentence_id": "SY-01178", "unit_ids": ["K2-00022", "K3-01853"]}
+{"sentence_id": "SY-01179", "unit_ids": ["K3-01854"]}
+{"sentence_id": "SY-01180", "unit_ids": ["K3-01855"]}
+{"sentence_id": "SY-01181", "unit_ids": ["K3-01856"]}
+{"sentence_id": "SY-01182", "unit_ids": ["K2-01669", "K3-01857"]}
+{"sentence_id": "SY-01183", "unit_ids": ["K3-01858"]}
+{"sentence_id": "SY-01184", "unit_ids": ["K2-01859", "K3-01860"]}
+{"sentence_id": "SY-01185", "unit_ids": ["K3-01861"]}
+{"sentence_id": "SY-01186", "unit_ids": ["K3-01862"]}
+{"sentence_id": "SY-01187", "unit_ids": ["K2-01863", "K3-01864"]}
+{"sentence_id": "SY-01188", "unit_ids": ["K3-01865"]}
+{"sentence_id": "SY-01189", "unit_ids": ["K3-01866"]}
+{"sentence_id": "SY-01190", "unit_ids": ["K3-01867"]}
+{"sentence_id": "SY-01191", "unit_ids": ["K3-01868"]}
+{"sentence_id": "SY-01192", "unit_ids": ["K2-01807", "K3-01869"]}
+{"sentence_id": "SY-01193", "unit_ids": ["K3-01870"]}
+{"sentence_id": "SY-01194", "unit_ids": ["K2-01871", "K3-01872"]}
+{"sentence_id": "SY-01195", "unit_ids": ["K3-01873"]}
+{"sentence_id": "SY-01196", "unit_ids": ["K3-01874"]}
+{"sentence_id": "SY-01197", "unit_ids": ["K3-01875"]}
+{"sentence_id": "SY-01198", "unit_ids": ["K2-01876", "K3-01877"]}
+{"sentence_id": "SY-01199", "unit_ids": ["K3-01878"]}
+{"sentence_id": "SY-01200", "unit_ids": ["K3-01879"]}
+{"sentence_id": "SY-01201", "unit_ids": ["K3-01880"]}
+{"sentence_id": "SY-01203", "unit_ids": ["K3-01881"]}
+{"sentence_id": "SY-01204", "unit_ids": ["K3-01882"]}
+{"sentence_id": "SY-01205", "unit_ids": ["K2-01883", "K3-01884"]}
+{"sentence_id": "SY-01206", "unit_ids": ["K3-01885"]}
+{"sentence_id": "SY-01207", "unit_ids": ["K3-01886"]}
+{"sentence_id": "SY-01208", "unit_ids": ["K3-01887"]}
+{"sentence_id": "SY-01209", "unit_ids": ["K3-01888"]}
+{"sentence_id": "SY-01211", "unit_ids": ["K3-01889"]}
+{"sentence_id": "SY-01212", "unit_ids": ["K3-01890"]}
+{"sentence_id": "SY-01213", "unit_ids": ["K3-01891"]}
+{"sentence_id": "SY-01214", "unit_ids": ["K2-01807", "K3-01892"]}
+{"sentence_id": "SY-01215", "unit_ids": ["K3-01893"]}
+{"sentence_id": "SY-01216", "unit_ids": ["K2-00022", "K3-01894"]}
+{"sentence_id": "SY-01217", "unit_ids": ["K3-01895"]}
+{"sentence_id": "SY-01218", "unit_ids": ["K2-01896", "K3-01897"]}
+{"sentence_id": "SY-01219", "unit_ids": ["K3-01898"]}
+{"sentence_id": "SY-01220", "unit_ids": ["K3-01899"]}
+{"sentence_id": "SY-01221", "unit_ids": ["K2-00039", "K3-01900"]}
+{"sentence_id": "SY-01222", "unit_ids": ["K3-01901"]}
+{"sentence_id": "SY-01223", "unit_ids": ["K3-01902"]}
+{"sentence_id": "SY-01227", "unit_ids": ["K2-01903", "K3-01904"]}
+{"sentence_id": "SY-01228", "unit_ids": ["K2-01905", "K3-01906"]}
+{"sentence_id": "SY-01230", "unit_ids": ["K2-01851", "K3-01907"]}
+{"sentence_id": "SY-01231", "unit_ids": ["K2-01807", "K3-01908"]}
+{"sentence_id": "SY-01232", "unit_ids": ["K3-01909"]}
+{"sentence_id": "SY-01233", "unit_ids": ["K3-01910"]}
+{"sentence_id": "SY-01234", "unit_ids": ["K3-01911"]}
+{"sentence_id": "SY-01236", "unit_ids": ["K3-01912"]}
+{"sentence_id": "SY-01237", "unit_ids": ["K3-01913"]}
+{"sentence_id": "SY-01238", "unit_ids": ["K2-01914", "K3-01915"]}
+{"sentence_id": "SY-01239", "unit_ids": ["K3-01916"]}
+{"sentence_id": "SY-01240", "unit_ids": ["K3-01917"]}
+{"sentence_id": "SY-01241", "unit_ids": ["K3-01918"]}
+{"sentence_id": "SY-01242", "unit_ids": ["K3-01919"]}
+{"sentence_id": "SY-01243", "unit_ids": ["K2-01807", "K3-01920"]}
+{"sentence_id": "SY-01244", "unit_ids": ["K3-01921"]}
+{"sentence_id": "SY-01245", "unit_ids": ["K2-01922", "K3-01923"]}
+{"sentence_id": "SY-01246", "unit_ids": ["K3-01924"]}
+{"sentence_id": "SY-01247", "unit_ids": ["K3-01925"]}
+{"sentence_id": "SY-01248", "unit_ids": ["K3-01926"]}
+{"sentence_id": "SY-01249", "unit_ids": ["K3-01927"]}
+{"sentence_id": "SY-01250", "unit_ids": ["K3-01928"]}
+{"sentence_id": "SY-01251", "unit_ids": ["K2-01667", "K3-01929"]}
+{"sentence_id": "SY-01252", "unit_ids": ["K3-01930"]}
+{"sentence_id": "SY-01253", "unit_ids": ["K3-01931"]}
+{"sentence_id": "SY-01254", "unit_ids": ["K2-01922", "K3-01932"]}
+{"sentence_id": "SY-01255", "unit_ids": ["K3-01933"]}
+{"sentence_id": "SY-01256", "unit_ids": ["K3-01934"]}
+{"sentence_id": "SY-01257", "unit_ids": ["K2-01723", "K3-01935"]}
+{"sentence_id": "SY-01258", "unit_ids": ["K3-01936"]}
+{"sentence_id": "SY-01260", "unit_ids": ["K3-01937"]}
+{"sentence_id": "SY-01261", "unit_ids": ["K3-01938"]}
+{"sentence_id": "SY-01262", "unit_ids": ["K3-01939"]}
+{"sentence_id": "SY-01263", "unit_ids": ["K3-01940"]}
+{"sentence_id": "SY-01264", "unit_ids": ["K2-01941", "K3-01942"]}
+{"sentence_id": "SY-01265", "unit_ids": ["K2-01723", "K3-01943"]}
+{"sentence_id": "SY-01266", "unit_ids": ["K3-01944"]}
+{"sentence_id": "SY-01267", "unit_ids": ["K3-01945"]}
+{"sentence_id": "SY-01268", "unit_ids": ["K3-01946"]}
+{"sentence_id": "SY-01269", "unit_ids": ["K3-01947"]}
+{"sentence_id": "SY-01272", "unit_ids": ["K3-01948"]}
+{"sentence_id": "SY-01273", "unit_ids": ["K3-01949"]}
+{"sentence_id": "SY-01275", "unit_ids": ["K3-01950"]}
+{"sentence_id": "SY-01276", "unit_ids": ["K3-01951"]}
+{"sentence_id": "SY-01277", "unit_ids": ["K3-01952"]}
+{"sentence_id": "SY-01279", "unit_ids": ["K3-01953"]}
+{"sentence_id": "SY-01280", "unit_ids": ["K3-01954"]}
+{"sentence_id": "SY-01281", "unit_ids": ["K2-01955", "K3-01956"]}
+{"sentence_id": "SY-01282", "unit_ids": ["K2-01914", "K3-01957"]}
+{"sentence_id": "SY-01283", "unit_ids": ["K3-01958"]}
+{"sentence_id": "SY-01284", "unit_ids": ["K3-01959"]}
+{"sentence_id": "SY-01285", "unit_ids": ["K2-00036", "K3-01960"]}
+{"sentence_id": "SY-01286", "unit_ids": ["K2-01961", "K3-01962"]}
+{"sentence_id": "SY-01287", "unit_ids": ["K3-01963"]}
+{"sentence_id": "SY-01288", "unit_ids": ["K3-01964"]}
+{"sentence_id": "SY-01289", "unit_ids": ["K3-01965"]}
+{"sentence_id": "SY-01290", "unit_ids": ["K2-01966", "K3-01967"]}
+{"sentence_id": "SY-01293", "unit_ids": ["K3-01968"]}
+{"sentence_id": "SY-01294", "unit_ids": ["K3-01969"]}
+{"sentence_id": "SY-01295", "unit_ids": ["K3-01970"]}
+{"sentence_id": "SY-01296", "unit_ids": ["K3-01971"]}
+{"sentence_id": "SY-01297", "unit_ids": ["K3-01972"]}
+{"sentence_id": "SY-01298", "unit_ids": ["K3-01973"]}
+{"sentence_id": "SY-01299", "unit_ids": ["K3-01974"]}
+{"sentence_id": "SY-01300", "unit_ids": ["K3-01975"]}
+{"sentence_id": "SY-01301", "unit_ids": ["K3-01976"]}
+{"sentence_id": "SY-01302", "unit_ids": ["K3-01977"]}
+{"sentence_id": "SY-01303", "unit_ids": ["K3-01978"]}
+{"sentence_id": "SY-01306", "unit_ids": ["K3-01979"]}
+{"sentence_id": "SY-01307", "unit_ids": ["K3-01980"]}
+{"sentence_id": "SY-01308", "unit_ids": ["K3-01981"]}
+{"sentence_id": "SY-01309", "unit_ids": ["K3-01982"]}
+{"sentence_id": "SY-01311", "unit_ids": ["K3-01983"]}
+{"sentence_id": "SY-01312", "unit_ids": ["K3-01984"]}
+{"sentence_id": "SY-01313", "unit_ids": ["K3-01985"]}
+{"sentence_id": "SY-01314", "unit_ids": ["K3-01986"]}
+{"sentence_id": "SY-01315", "unit_ids": ["K3-01987"]}
+{"sentence_id": "SY-01316", "unit_ids": ["K3-01988"]}
+{"sentence_id": "SY-01319", "unit_ids": ["K3-01989"]}
+{"sentence_id": "SY-01320", "unit_ids": ["K3-01990"]}
+{"sentence_id": "SY-01321", "unit_ids": ["K3-01991"]}
+{"sentence_id": "SY-01322", "unit_ids": ["K3-01992"]}
+{"sentence_id": "SY-01323", "unit_ids": ["K3-01993"]}
+{"sentence_id": "SY-01324", "unit_ids": ["K3-01994"]}
+{"sentence_id": "SY-01325", "unit_ids": ["K3-01995"]}
+{"sentence_id": "SY-01326", "unit_ids": ["K3-01996"]}
+{"sentence_id": "SY-01328", "unit_ids": ["K3-01997"]}
+{"sentence_id": "SY-01329", "unit_ids": ["K3-01998"]}
+{"sentence_id": "SY-01330", "unit_ids": ["K3-01999"]}
+{"sentence_id": "SY-01331", "unit_ids": ["K3-02000"]}
+{"sentence_id": "SY-01332", "unit_ids": ["K3-02001"]}
+{"sentence_id": "SY-01333", "unit_ids": ["K3-02002"]}
+{"sentence_id": "SY-01334", "unit_ids": ["K3-02003"]}
+{"sentence_id": "SY-01335", "unit_ids": ["K3-02004"]}
+{"sentence_id": "SY-01337", "unit_ids": ["K3-02005"]}
+{"sentence_id": "SY-01338", "unit_ids": ["K3-02006"]}
+{"sentence_id": "SY-01342", "unit_ids": ["K3-02007"]}
+{"sentence_id": "SY-01343", "unit_ids": ["K3-02008"]}
+{"sentence_id": "SY-01344", "unit_ids": ["K3-02009"]}
+{"sentence_id": "SY-01345", "unit_ids": ["K3-02010"]}
+{"sentence_id": "SY-01346", "unit_ids": ["K3-02011"]}
+{"sentence_id": "SY-01348", "unit_ids": ["K3-02012"]}
+{"sentence_id": "SY-01350", "unit_ids": ["K3-02013"]}
+{"sentence_id": "SY-01351", "unit_ids": ["K3-02014"]}
+{"sentence_id": "SY-01352", "unit_ids": ["K3-02015"]}
+{"sentence_id": "SY-01354", "unit_ids": ["K3-02016"]}
+{"sentence_id": "SY-01356", "unit_ids": ["K3-02017"]}
+{"sentence_id": "SY-01358", "unit_ids": ["K3-02018"]}
+{"sentence_id": "SY-01359", "unit_ids": ["K3-02019"]}
+{"sentence_id": "SY-01360", "unit_ids": ["K3-02020"]}
+{"sentence_id": "SY-01361", "unit_ids": ["K3-02021"]}
+{"sentence_id": "SY-01362", "unit_ids": ["K3-02022"]}
+{"sentence_id": "SY-01363", "unit_ids": ["K3-02023"]}
+{"sentence_id": "SY-01364", "unit_ids": ["K3-02024"]}
+{"sentence_id": "SY-01365", "unit_ids": ["K3-02025"]}
+{"sentence_id": "SY-01367", "unit_ids": ["K3-02026"]}
+{"sentence_id": "SY-01368", "unit_ids": ["K3-02027"]}
+{"sentence_id": "SY-01370", "unit_ids": ["K3-02028"]}
+{"sentence_id": "SY-01371", "unit_ids": ["K3-02029"]}
+{"sentence_id": "SY-01372", "unit_ids": ["K3-02030"]}
+{"sentence_id": "SY-01373", "unit_ids": ["K3-02031"]}
+{"sentence_id": "SY-01374", "unit_ids": ["K3-02032"]}
+{"sentence_id": "SY-01375", "unit_ids": ["K3-02033"]}
+{"sentence_id": "SY-01376", "unit_ids": ["K3-02034"]}
+{"sentence_id": "SY-01377", "unit_ids": ["K3-02035"]}
+{"sentence_id": "SY-01378", "unit_ids": ["K3-02036"]}
+{"sentence_id": "SY-01380", "unit_ids": ["K3-02037"]}
+{"sentence_id": "SY-01381", "unit_ids": ["K3-02038"]}
+{"sentence_id": "SY-01382", "unit_ids": ["K3-02039"]}
+{"sentence_id": "SY-01383", "unit_ids": ["K3-02040"]}
+{"sentence_id": "SY-01384", "unit_ids": ["K3-02041"]}
+{"sentence_id": "SY-01387", "unit_ids": ["K3-02042"]}
+{"sentence_id": "SY-01388", "unit_ids": ["K3-02043"]}
+{"sentence_id": "SY-01389", "unit_ids": ["K3-02044"]}
+{"sentence_id": "SY-01391", "unit_ids": ["K3-02045"]}
+{"sentence_id": "SY-01392", "unit_ids": ["K3-02046"]}
+{"sentence_id": "SY-01393", "unit_ids": ["K3-02047"]}
+{"sentence_id": "SY-01394", "unit_ids": ["K3-02048"]}
+{"sentence_id": "SY-01395", "unit_ids": ["K3-02049"]}
+{"sentence_id": "SY-01396", "unit_ids": ["K3-02050"]}
+{"sentence_id": "SY-01397", "unit_ids": ["K3-02051"]}
+{"sentence_id": "SY-01398", "unit_ids": ["K3-02052"]}
+{"sentence_id": "SY-01400", "unit_ids": ["K3-02053"]}
+{"sentence_id": "SY-01401", "unit_ids": ["K3-02054"]}
+{"sentence_id": "SY-01402", "unit_ids": ["K3-02055"]}
+{"sentence_id": "SY-01404", "unit_ids": ["K3-02056"]}
+{"sentence_id": "SY-01406", "unit_ids": ["K3-02057"]}
+{"sentence_id": "SY-01407", "unit_ids": ["K3-02058"]}
+{"sentence_id": "SY-01408", "unit_ids": ["K3-02059"]}
+{"sentence_id": "SY-01410", "unit_ids": ["K3-02060"]}
+{"sentence_id": "SY-01411", "unit_ids": ["K3-02061"]}
+{"sentence_id": "SY-01412", "unit_ids": ["K3-02062"]}
+{"sentence_id": "SY-01413", "unit_ids": ["K3-02063"]}
+{"sentence_id": "SY-01414", "unit_ids": ["K3-02064"]}
+{"sentence_id": "SY-01415", "unit_ids": ["K3-02065"]}
+{"sentence_id": "SY-01418", "unit_ids": ["K3-02066"]}
+{"sentence_id": "SY-01419", "unit_ids": ["K3-02067"]}
+{"sentence_id": "SY-01420", "unit_ids": ["K3-02068"]}
+{"sentence_id": "SY-01421", "unit_ids": ["K3-02069"]}
+{"sentence_id": "SY-01422", "unit_ids": ["K3-02070"]}
+{"sentence_id": "SY-01423", "unit_ids": ["K3-02071"]}
+{"sentence_id": "SY-01425", "unit_ids": ["K3-02072"]}
+{"sentence_id": "SY-01426", "unit_ids": ["K3-02073"]}
+{"sentence_id": "SY-01427", "unit_ids": ["K3-02074"]}
+{"sentence_id": "SY-01428", "unit_ids": ["K3-02075"]}
+{"sentence_id": "SY-01429", "unit_ids": ["K3-02076"]}
+{"sentence_id": "SY-01431", "unit_ids": ["K3-02077"]}
+{"sentence_id": "SY-01432", "unit_ids": ["K3-02078"]}
+{"sentence_id": "SY-01433", "unit_ids": ["K3-02079"]}
+{"sentence_id": "SY-01436", "unit_ids": ["K3-02080"]}
+{"sentence_id": "SY-01437", "unit_ids": ["K3-02081"]}
+{"sentence_id": "SY-01438", "unit_ids": ["K3-02082"]}
+{"sentence_id": "SY-01439", "unit_ids": ["K3-02083"]}
+{"sentence_id": "SY-01441", "unit_ids": ["K3-02084"]}
+{"sentence_id": "SY-01442", "unit_ids": ["K3-02085"]}
+{"sentence_id": "SY-01443", "unit_ids": ["K3-02086"]}
+{"sentence_id": "SY-01444", "unit_ids": ["K3-02087"]}
+{"sentence_id": "SY-01446", "unit_ids": ["K3-02088"]}
+{"sentence_id": "SY-01447", "unit_ids": ["K3-02089"]}
+{"sentence_id": "SY-01448", "unit_ids": ["K3-02090"]}
+{"sentence_id": "SY-01449", "unit_ids": ["K3-02091"]}
+{"sentence_id": "SY-01450", "unit_ids": ["K3-02092"]}
+{"sentence_id": "SY-01451", "unit_ids": ["K3-02093"]}
+{"sentence_id": "SY-01452", "unit_ids": ["K3-02094"]}
+{"sentence_id": "SY-01453", "unit_ids": ["K3-02095"]}
+{"sentence_id": "SY-01454", "unit_ids": ["K3-02096"]}
+{"sentence_id": "SY-01455", "unit_ids": ["K3-02097"]}
+{"sentence_id": "SY-01456", "unit_ids": ["K3-02098"]}
+{"sentence_id": "SY-01457", "unit_ids": ["K3-02099"]}
+{"sentence_id": "SY-01458", "unit_ids": ["K3-02100"]}
+{"sentence_id": "SY-01460", "unit_ids": ["K3-02101"]}
+{"sentence_id": "SY-01461", "unit_ids": ["K3-02102"]}
+{"sentence_id": "SY-01462", "unit_ids": ["K3-02103"]}
+{"sentence_id": "SY-01463", "unit_ids": ["K3-02104"]}
+{"sentence_id": "SY-01465", "unit_ids": ["K3-02105"]}
+{"sentence_id": "SY-01466", "unit_ids": ["K3-02106"]}
+{"sentence_id": "SY-01467", "unit_ids": ["K3-02107"]}
+{"sentence_id": "SY-01468", "unit_ids": ["K3-02108"]}
+{"sentence_id": "SY-01469", "unit_ids": ["K3-02109"]}
+{"sentence_id": "SY-01470", "unit_ids": ["K3-02110"]}
+{"sentence_id": "SY-01471", "unit_ids": ["K2-01821", "K3-02111"]}
+{"sentence_id": "SY-01472", "unit_ids": ["K1-02112", "K2-00027", "K3-02113"]}
+{"sentence_id": "SY-01473", "unit_ids": ["K1-02114", "K2-02115", "K3-02116"]}
+{"sentence_id": "SY-01474", "unit_ids": ["K1-02117", "K2-02118", "K3-02119"]}
+{"sentence_id": "SY-01475", "unit_ids": ["K2-02120", "K3-02121"]}
+{"sentence_id": "SY-01476", "unit_ids": ["K2-02122", "K3-02123"]}
+{"sentence_id": "SY-01477", "unit_ids": ["K1-02124", "K2-02125", "K3-02126"]}
+{"sentence_id": "SY-01478", "unit_ids": ["K1-02127", "K2-02128", "K3-02129"]}
+{"sentence_id": "SY-01479", "unit_ids": ["K2-02130", "K3-02131"]}
+{"sentence_id": "SY-01480", "unit_ids": ["K1-02132", "K2-02133", "K3-02134"]}
+{"sentence_id": "SY-01481", "unit_ids": ["K1-02135", "K2-01811", "K3-02136"]}
+{"sentence_id": "SY-01482", "unit_ids": ["K1-02137", "K2-01871", "K3-02138"]}
+{"sentence_id": "SY-01483", "unit_ids": ["K1-02139", "K2-02140", "K3-02141"]}
+{"sentence_id": "SY-01484", "unit_ids": ["K1-02142", "K2-01871", "K3-02143"]}
+{"sentence_id": "SY-01485", "unit_ids": ["K2-01673", "K3-02144"]}
+{"sentence_id": "SY-01486", "unit_ids": ["K1-02145", "K2-02146", "K3-02147"]}
+{"sentence_id": "SY-01487", "unit_ids": ["K2-02148", "K3-02149"]}
+{"sentence_id": "SY-01488", "unit_ids": ["K1-02150", "K1-02151", "K2-02152", "K3-02153"]}
+{"sentence_id": "SY-01489", "unit_ids": ["K2-01871", "K3-02154"]}
+{"sentence_id": "SY-01490", "unit_ids": ["K1-02155", "K2-02156", "K3-02157"]}
+{"sentence_id": "SY-01491", "unit_ids": ["K2-02158", "K3-02159"]}
+{"sentence_id": "SY-01492", "unit_ids": ["K1-02160", "K2-02161", "K3-02162"]}
+{"sentence_id": "SY-01493", "unit_ids": ["K1-02163", "K2-02164", "K3-02165"]}
+{"sentence_id": "SY-01494", "unit_ids": ["K2-02166", "K3-02167"]}
+{"sentence_id": "SY-01495", "unit_ids": ["K1-02168", "K2-01914", "K3-02169"]}
+{"sentence_id": "SY-01496", "unit_ids": ["K2-02170", "K3-02171"]}
+{"sentence_id": "SY-01497", "unit_ids": ["K1-02172", "K1-02173", "K2-00060", "K3-02174"]}
+{"sentence_id": "SY-01498", "unit_ids": ["K1-02175", "K2-02176", "K3-02177"]}
+{"sentence_id": "SY-01499", "unit_ids": ["K1-02178", "K2-02179", "K3-02180"]}
+{"sentence_id": "SY-01500", "unit_ids": ["K2-02181", "K3-02182"]}
+{"sentence_id": "SY-01501", "unit_ids": ["K1-02183", "K2-01795", "K3-02184"]}
+{"sentence_id": "SY-01502", "unit_ids": ["K2-02185", "K3-02186"]}
+{"sentence_id": "SY-01503", "unit_ids": ["K1-00038", "K2-00039", "K3-02187"]}
+{"sentence_id": "SY-01504", "unit_ids": ["K2-02181", "K3-02188"]}
+{"sentence_id": "SY-01505", "unit_ids": ["K1-02189", "K2-02128", "K3-02190"]}
+{"sentence_id": "SY-01506", "unit_ids": ["K1-02191", "K1-02192", "K2-02181", "K3-02193"]}
+{"sentence_id": "SY-01507", "unit_ids": ["K1-02194", "K2-00060", "K3-02195"]}
+{"sentence_id": "SY-01508", "unit_ids": ["K1-02196", "K2-02197", "K3-02198"]}
+{"sentence_id": "SY-01509", "unit_ids": ["K1-02199", "K2-02200", "K3-02201"]}
+{"sentence_id": "SY-01510", "unit_ids": ["K1-02202", "K2-01667", "K3-02203"]}
+{"sentence_id": "SY-01511", "unit_ids": ["K1-02204", "K2-00039", "K3-02205"]}
+{"sentence_id": "SY-01512", "unit_ids": ["K1-02206", "K2-02207", "K3-02208"]}
+{"sentence_id": "SY-01513", "unit_ids": ["K1-02204", "K2-00018", "K3-02209"]}
+{"sentence_id": "SY-01514", "unit_ids": ["K1-02210", "K2-01845", "K3-02211"]}
+{"sentence_id": "SY-01515", "unit_ids": ["K1-02212", "K2-01793", "K3-02213"]}
+{"sentence_id": "SY-01516", "unit_ids": ["K2-00027", "K3-02214"]}
+{"sentence_id": "SY-01517", "unit_ids": ["K2-02118", "K3-02215"]}
+{"sentence_id": "SY-01518", "unit_ids": ["K2-02216", "K3-02217"]}
+{"sentence_id": "SY-01519", "unit_ids": ["K1-02218", "K2-00015", "K3-02219"]}
+{"sentence_id": "SY-01520", "unit_ids": ["K1-02220", "K1-02221", "K2-02166", "K3-02222"]}
+{"sentence_id": "SY-01521", "unit_ids": ["K2-02223", "K3-02224"]}
+{"sentence_id": "SY-01522", "unit_ids": ["K1-02194", "K2-00060", "K3-02225"]}
+{"sentence_id": "SY-01523", "unit_ids": ["K1-02226", "K2-00009", "K3-02227"]}
+{"sentence_id": "SY-01524", "unit_ids": ["K2-00015", "K3-02228"]}
+{"sentence_id": "SY-01525", "unit_ids": ["K2-01740", "K3-02229"]}
+{"sentence_id": "SY-01526", "unit_ids": ["K2-01698", "K3-02230"]}
+{"sentence_id": "SY-01527", "unit_ids": ["K2-01955", "K3-02231"]}
+{"sentence_id": "SY-01528", "unit_ids": ["K2-02232", "K3-02233"]}
+{"sentence_id": "SY-01529", "unit_ids": ["K1-02234", "K2-02235", "K3-02236"]}
+{"sentence_id": "SY-01530", "unit_ids": ["K1-02237", "K2-01723", "K3-02238"]}
+{"sentence_id": "SY-01531", "unit_ids": ["K1-02239", "K2-02122", "K3-02240"]}
+{"sentence_id": "SY-01532", "unit_ids": ["K2-02241", "K3-02242"]}
+{"sentence_id": "SY-01533", "unit_ids": ["K1-02243", "K2-02244", "K3-02245"]}
+{"sentence_id": "SY-01534", "unit_ids": ["K1-02246", "K1-02247", "K2-02248", "K3-02249"]}
+{"sentence_id": "SY-01535", "unit_ids": ["K1-02250", "K2-00060", "K3-02251"]}
+{"sentence_id": "SY-01536", "unit_ids": ["K1-02252", "K2-01723", "K3-02253"]}
+{"sentence_id": "SY-01537", "unit_ids": ["K1-02254", "K2-01837", "K3-02255"]}
+{"sentence_id": "SY-01538", "unit_ids": ["K1-02256", "K2-02257", "K3-02258"]}
+{"sentence_id": "SY-01539", "unit_ids": ["K2-00060", "K3-02259"]}
+{"sentence_id": "SY-01540", "unit_ids": ["K1-02260", "K2-01667", "K3-02261"]}
+{"sentence_id": "SY-01541", "unit_ids": ["K1-02237", "K2-01723", "K3-02262"]}
+{"sentence_id": "SY-01542", "unit_ids": ["K1-02263", "K2-01876", "K3-02264"]}
+{"sentence_id": "SY-01543", "unit_ids": ["K2-01675", "K3-02265"]}
+{"sentence_id": "SY-01544", "unit_ids": ["K1-01001", "K1-02266", "K2-02267", "K3-02268"]}
+{"sentence_id": "SY-01545", "unit_ids": ["K1-02269", "K2-00064", "K3-02270"]}
+{"sentence_id": "SY-01546", "unit_ids": ["K1-02271", "K2-02272", "K3-02273"]}
+{"sentence_id": "SY-01547", "unit_ids": ["K1-02274", "K2-01845", "K3-02275"]}
+{"sentence_id": "SY-01548", "unit_ids": ["K1-02276", "K2-01843", "K3-02277"]}
+{"sentence_id": "SY-01549", "unit_ids": ["K2-02278", "K3-02279"]}
+{"sentence_id": "SY-01550", "unit_ids": ["K2-02280", "K3-02281"]}
+{"sentence_id": "SY-01551", "unit_ids": ["K2-01845", "K3-02282"]}
+{"sentence_id": "SY-01552", "unit_ids": ["K2-02283", "K3-02284"]}
+{"sentence_id": "SY-01553", "unit_ids": ["K2-02170", "K3-02285"]}
+{"sentence_id": "SY-01554", "unit_ids": ["K1-02286", "K2-00027", "K3-02287"]}
+{"sentence_id": "SY-01555", "unit_ids": ["K1-02288", "K2-02289", "K3-02290"]}
+{"sentence_id": "SY-01556", "unit_ids": ["K1-02291", "K2-01660", "K3-02292"]}
+{"sentence_id": "SY-01557", "unit_ids": ["K1-02293", "K2-00060", "K3-02294"]}
+{"sentence_id": "SY-01558", "unit_ids": ["K1-02295", "K1-02296", "K2-02297", "K3-02298"]}
+{"sentence_id": "SY-01559", "unit_ids": ["K2-02140", "K3-02299"]}
+{"sentence_id": "SY-01560", "unit_ids": ["K2-02300", "K3-02301"]}
+{"sentence_id": "SY-01561", "unit_ids": ["K1-02302", "K1-02303", "K2-01845", "K3-02304"]}
+{"sentence_id": "SY-01562", "unit_ids": ["K1-02305", "K2-01740", "K3-02306"]}
+{"sentence_id": "SY-01563", "unit_ids": ["K2-02307", "K3-02308"]}
+{"sentence_id": "SY-01564", "unit_ids": ["K1-02309", "K2-02235", "K3-02310"]}
+{"sentence_id": "SY-01565", "unit_ids": ["K1-02311", "K2-02312", "K3-02313"]}
+{"sentence_id": "SY-01566", "unit_ids": ["K2-01955", "K3-02314"]}
+{"sentence_id": "SY-01567", "unit_ids": ["K2-02257", "K3-02315"]}
+{"sentence_id": "SY-01568", "unit_ids": ["K1-02316", "K2-02317", "K3-02318"]}
+{"sentence_id": "SY-01569", "unit_ids": ["K1-02319", "K2-01710", "K3-02320"]}
+{"sentence_id": "SY-01570", "unit_ids": ["K1-02321", "K2-01793", "K3-02322"]}
+{"sentence_id": "SY-01571", "unit_ids": ["K1-02137", "K2-00015", "K3-02323"]}
+{"sentence_id": "SY-01572", "unit_ids": ["K1-02324", "K2-02170", "K3-02325"]}
+{"sentence_id": "SY-01573", "unit_ids": ["K1-02263", "K2-02125", "K3-02326"]}
+{"sentence_id": "SY-01574", "unit_ids": ["K1-02327", "K1-02328", "K2-02185", "K3-02329"]}
+{"sentence_id": "SY-01575", "unit_ids": ["K1-02330", "K2-02133", "K3-02331"]}
+{"sentence_id": "SY-01576", "unit_ids": ["K1-02332", "K1-02333", "K2-02334", "K3-02335"]}
+{"sentence_id": "SY-01577", "unit_ids": ["K2-02336", "K3-02337"]}
+{"sentence_id": "SY-01578", "unit_ids": ["K2-02338", "K3-02339"]}
+{"sentence_id": "SY-01579", "unit_ids": ["K1-02340", "K1-02341", "K2-02342", "K3-02343"]}
+{"sentence_id": "SY-01580", "unit_ids": ["K1-02344", "K1-02345", "K2-02346", "K3-02347"]}
+{"sentence_id": "SY-01581", "unit_ids": ["K2-02348", "K3-02349"]}
+{"sentence_id": "SY-01582", "unit_ids": ["K2-02350", "K3-02351"]}
+{"sentence_id": "SY-01583", "unit_ids": ["K2-02352", "K3-02353"]}
+{"sentence_id": "SY-01584", "unit_ids": ["K1-02354", "K1-02355", "K2-02356", "K3-02357"]}
+{"sentence_id": "SY-01585", "unit_ids": ["K2-02358", "K3-02359"]}
+{"sentence_id": "SY-01586", "unit_ids": ["K1-02332", "K1-02360", "K2-02361", "K3-02362"]}
+{"sentence_id": "SY-01587", "unit_ids": ["K1-02345", "K1-02363", "K2-02364", "K3-02365"]}
+{"sentence_id": "SY-01588", "unit_ids": ["K2-02366", "K3-02367"]}
+{"sentence_id": "SY-01589", "unit_ids": ["K2-02368", "K3-02369"]}
+{"sentence_id": "SY-01590", "unit_ids": ["K2-02370", "K3-02371"]}
+{"sentence_id": "SY-01591", "unit_ids": ["K2-02372", "K3-02373"]}
+{"sentence_id": "SY-01592", "unit_ids": ["K2-02361", "K3-02374"]}
+{"sentence_id": "SY-01593", "unit_ids": ["K1-02333", "K1-02340", "K2-02350", "K3-02375"]}
+{"sentence_id": "SY-01594", "unit_ids": ["K1-02332", "K1-02354", "K2-02376", "K3-02377"]}
+{"sentence_id": "SY-01595", "unit_ids": ["K2-02378", "K3-02379"]}
+{"sentence_id": "SY-01596", "unit_ids": ["K2-02380", "K3-02381"]}
+{"sentence_id": "SY-01597", "unit_ids": ["K2-02382", "K3-02383"]}
+{"sentence_id": "SY-01598", "unit_ids": ["K2-02384", "K3-02385"]}
+{"sentence_id": "SY-01599", "unit_ids": ["K1-02340", "K1-02386", "K2-02387", "K3-02388"]}
+{"sentence_id": "SY-01600", "unit_ids": ["K2-02389", "K3-02390"]}
+{"sentence_id": "SY-01601", "unit_ids": ["K2-02391", "K3-02392"]}
+{"sentence_id": "SY-01602", "unit_ids": ["K2-02393", "K3-02394"]}
+{"sentence_id": "SY-01603", "unit_ids": ["K2-02395", "K3-02396"]}
+{"sentence_id": "SY-01604", "unit_ids": ["K2-02397", "K3-02398"]}
+{"sentence_id": "SY-01605", "unit_ids": ["K1-02333", "K1-02360", "K2-02399", "K3-02400"]}
+{"sentence_id": "SY-01606", "unit_ids": ["K2-02401", "K3-02402"]}
+{"sentence_id": "SY-01607", "unit_ids": ["K2-02403", "K3-02404"]}
+{"sentence_id": "SY-01608", "unit_ids": ["K1-02333", "K1-02354", "K2-02405", "K3-02406"]}
+{"sentence_id": "SY-01609", "unit_ids": ["K2-02407", "K3-02408"]}
+{"sentence_id": "SY-01610", "unit_ids": ["K1-02332", "K1-02409", "K2-02410", "K3-02411"]}
+{"sentence_id": "SY-01611", "unit_ids": ["K2-02412", "K3-02413"]}
+{"sentence_id": "SY-01612", "unit_ids": ["K2-02414", "K3-02415"]}
+{"sentence_id": "SY-01613", "unit_ids": ["K2-02416", "K3-02417"]}
+{"sentence_id": "SY-01614", "unit_ids": ["K2-02387", "K3-02418"]}
+{"sentence_id": "SY-01615", "unit_ids": ["K2-02419", "K3-02420"]}
+{"sentence_id": "SY-01616", "unit_ids": ["K2-02361", "K3-02421"]}
+{"sentence_id": "SY-01617", "unit_ids": ["K2-02422", "K3-02423"]}
+{"sentence_id": "SY-01618", "unit_ids": ["K2-02424", "K3-02425"]}
+{"sentence_id": "SY-01619", "unit_ids": ["K2-02426", "K3-02427"]}
+{"sentence_id": "SY-01620", "unit_ids": ["K1-02341", "K1-02363", "K2-02428", "K3-02429"]}
+{"sentence_id": "SY-01621", "unit_ids": ["K2-02430", "K3-02431"]}
+{"sentence_id": "SY-01622", "unit_ids": ["K2-02432", "K3-02433"]}
+{"sentence_id": "SY-01623", "unit_ids": ["K2-02434", "K3-02435"]}
+{"sentence_id": "SY-01624", "unit_ids": ["K1-02341", "K1-02436", "K2-02437", "K3-02438"]}
+{"sentence_id": "SY-01625", "unit_ids": ["K2-02439", "K3-02440"]}
+{"sentence_id": "SY-01626", "unit_ids": ["K2-02441", "K3-02442"]}
+{"sentence_id": "SY-01627", "unit_ids": ["K2-02414", "K3-02443"]}
+{"sentence_id": "SY-01628", "unit_ids": ["K2-02350", "K3-02444"]}
+{"sentence_id": "SY-01629", "unit_ids": ["K1-02360", "K1-02409", "K2-02352", "K3-02445"]}
+{"sentence_id": "SY-01630", "unit_ids": ["K2-02446", "K3-02447"]}
+{"sentence_id": "SY-01631", "unit_ids": ["K2-02448", "K3-02449"]}
+{"sentence_id": "SY-01632", "unit_ids": ["K2-02450", "K3-02451"]}
+{"sentence_id": "SY-01633", "unit_ids": ["K2-02452", "K3-02453"]}
+{"sentence_id": "SY-01634", "unit_ids": ["K2-02454", "K3-02455"]}
+{"sentence_id": "SY-01635", "unit_ids": ["K2-02456", "K3-02457"]}
+{"sentence_id": "SY-01636", "unit_ids": ["K1-02333", "K1-02458", "K2-02459", "K3-02460"]}
+{"sentence_id": "SY-01637", "unit_ids": ["K2-02461", "K3-02462"]}
+{"sentence_id": "SY-01638", "unit_ids": ["K2-02454", "K3-02463"]}
+{"sentence_id": "SY-01639", "unit_ids": ["K2-02464", "K3-02465"]}
+{"sentence_id": "SY-01640", "unit_ids": ["K2-02466", "K3-02467"]}
+{"sentence_id": "SY-01641", "unit_ids": ["K2-02468", "K3-02469"]}
+{"sentence_id": "SY-01642", "unit_ids": ["K2-02470", "K3-02471"]}
+{"sentence_id": "SY-01643", "unit_ids": ["K2-02456", "K3-02472"]}
+{"sentence_id": "SY-01644", "unit_ids": ["K2-02342", "K3-02473"]}
+{"sentence_id": "SY-01645", "unit_ids": ["K2-02474", "K3-02475"]}
+{"sentence_id": "SY-01646", "unit_ids": ["K1-02341", "K1-02345", "K2-02348", "K3-02476"]}
+{"sentence_id": "SY-01647", "unit_ids": ["K2-02477", "K3-02478"]}
+{"sentence_id": "SY-01648", "unit_ids": ["K2-02479", "K3-02480"]}
+{"sentence_id": "SY-01649", "unit_ids": ["K1-02344", "K1-02354", "K2-02481", "K3-02482"]}
+{"sentence_id": "SY-01650", "unit_ids": ["K2-02483", "K3-02484"]}
+{"sentence_id": "SY-01651", "unit_ids": ["K2-02485", "K3-02486"]}
+{"sentence_id": "SY-01652", "unit_ids": ["K2-02470", "K3-02487"]}
+{"sentence_id": "SY-01653", "unit_ids": ["K1-02355", "K2-02456", "K3-02488"]}
+{"sentence_id": "SY-01654", "unit_ids": ["K2-02489", "K3-02490"]}
+{"sentence_id": "SY-01655", "unit_ids": ["K2-02491", "K3-02492"]}
+{"sentence_id": "SY-01656", "unit_ids": ["K1-02493", "K2-02494", "K3-02495"]}
+{"sentence_id": "SY-01657", "unit_ids": ["K2-02496", "K3-02497"]}
+{"sentence_id": "SY-01658", "unit_ids": ["K2-02459", "K3-02498"]}
+{"sentence_id": "SY-01659", "unit_ids": ["K2-02499", "K3-02500"]}
+{"sentence_id": "SY-01660", "unit_ids": ["K2-02501", "K3-02502"]}
+{"sentence_id": "SY-01661", "unit_ids": ["K2-02424", "K3-02503"]}
+{"sentence_id": "SY-01662", "unit_ids": ["K2-02361", "K3-02504"]}
+{"sentence_id": "SY-01663", "unit_ids": ["K2-02370", "K3-02505"]}
+{"sentence_id": "SY-01664", "unit_ids": ["K2-02506", "K3-02507"]}
+{"sentence_id": "SY-01665", "unit_ids": ["K2-02441", "K3-02508"]}
+{"sentence_id": "SY-01666", "unit_ids": ["K1-02360", "K2-02509", "K3-02510"]}
+{"sentence_id": "SY-01667", "unit_ids": ["K2-02405", "K3-02511"]}
+{"sentence_id": "SY-01668", "unit_ids": ["K1-02340", "K2-02512", "K3-02513"]}
+{"sentence_id": "SY-01669", "unit_ids": ["K1-02344", "K2-02514", "K3-02515"]}
+{"sentence_id": "SY-01670", "unit_ids": ["K1-02333", "K2-02338", "K3-02516"]}
+{"sentence_id": "SY-01671", "unit_ids": ["K1-02517", "K2-02518", "K3-02519"]}
+{"sentence_id": "SY-01672", "unit_ids": ["K2-02520", "K3-02521"]}
+{"sentence_id": "SY-01673", "unit_ids": ["K1-02344", "K2-02522", "K3-02523"]}
+{"sentence_id": "SY-01674", "unit_ids": ["K2-02524", "K3-02525"]}
+{"sentence_id": "SY-01675", "unit_ids": ["K2-02334", "K3-02526"]}
+{"sentence_id": "SY-01676", "unit_ids": ["K2-02527", "K3-02528"]}
+{"sentence_id": "SY-01677", "unit_ids": ["K2-02391", "K3-02529"]}
+{"sentence_id": "SY-01678", "unit_ids": ["K2-02501", "K3-02530"]}
+{"sentence_id": "SY-01679", "unit_ids": ["K2-02531", "K3-02532"]}
+{"sentence_id": "SY-01680", "unit_ids": ["K2-02477", "K3-02533"]}
+{"sentence_id": "SY-01681", "unit_ids": ["K2-02432", "K3-02534"]}
+{"sentence_id": "SY-01682", "unit_ids": ["K1-02345", "K2-02477", "K3-02535"]}
+{"sentence_id": "SY-01683", "unit_ids": ["K2-02494", "K3-02536"]}
+{"sentence_id": "SY-01684", "unit_ids": ["K2-02537", "K3-02538"]}
+{"sentence_id": "SY-01685", "unit_ids": ["K2-02539", "K3-02540"]}
+{"sentence_id": "SY-01686", "unit_ids": ["K2-02541", "K3-02542"]}
+{"sentence_id": "SY-01687", "unit_ids": ["K1-02543", "K2-02544", "K3-02545"]}
+{"sentence_id": "SY-01688", "unit_ids": ["K1-02546", "K2-02547", "K3-02548"]}
+{"sentence_id": "SY-01689", "unit_ids": ["K1-02549", "K2-02434", "K3-02550"]}
+{"sentence_id": "SY-01690", "unit_ids": ["K1-02549", "K2-02551", "K3-02552"]}
+{"sentence_id": "SY-01691", "unit_ids": ["K1-02549", "K2-02553", "K3-02554"]}
+{"sentence_id": "SY-01692", "unit_ids": ["K2-02518", "K3-02555"]}
+{"sentence_id": "SY-01693", "unit_ids": ["K1-02556", "K2-02557", "K3-02558"]}
+{"sentence_id": "SY-01694", "unit_ids": ["K1-02559", "K2-02414", "K3-02560"]}
+{"sentence_id": "SY-01695", "unit_ids": ["K1-02561", "K2-02562", "K3-02563"]}
+{"sentence_id": "SY-01696", "unit_ids": ["K1-02556", "K2-02564", "K3-02565"]}
+{"sentence_id": "SY-01697", "unit_ids": ["K2-02566", "K3-02567"]}
+{"sentence_id": "SY-01698", "unit_ids": ["K2-02568", "K3-02569"]}
+{"sentence_id": "SY-01699", "unit_ids": ["K1-02360", "K2-02352", "K3-02570"]}
+{"sentence_id": "SY-01700", "unit_ids": ["K2-02571", "K3-02572"]}
+{"sentence_id": "SY-01701", "unit_ids": ["K2-02573", "K3-02574"]}
+{"sentence_id": "SY-01702", "unit_ids": ["K1-02575", "K2-02491", "K3-02576"]}
+{"sentence_id": "SY-01703", "unit_ids": ["K1-02556", "K2-02520", "K3-02577"]}
+{"sentence_id": "SY-01704", "unit_ids": ["K1-02578", "K2-02403", "K3-02579"]}
+{"sentence_id": "SY-01705", "unit_ids": ["K1-02580", "K2-02481", "K3-02581"]}
+{"sentence_id": "SY-01706", "unit_ids": ["K1-02543", "K2-02582", "K3-02583"]}
+{"sentence_id": "SY-01707", "unit_ids": ["K2-02584", "K3-02585"]}
+{"sentence_id": "SY-01708", "unit_ids": ["K1-02543", "K2-02586", "K3-02587"]}
+{"sentence_id": "SY-01709", "unit_ids": ["K1-02588", "K2-02491", "K3-02589"]}
+{"sentence_id": "SY-01710", "unit_ids": ["K2-02590", "K3-02591"]}
+{"sentence_id": "SY-01711", "unit_ids": ["K2-02592", "K3-02593"]}
+{"sentence_id": "SY-01712", "unit_ids": ["K2-02594", "K3-02595"]}
+{"sentence_id": "SY-01713", "unit_ids": ["K2-02522", "K3-02596"]}
+{"sentence_id": "SY-01714", "unit_ids": ["K1-02597", "K2-02598", "K3-02599"]}
+{"sentence_id": "SY-01715", "unit_ids": ["K1-02543", "K2-02600", "K3-02601"]}
+{"sentence_id": "SY-01716", "unit_ids": ["K1-02561", "K2-02524", "K3-02602"]}
+{"sentence_id": "SY-01717", "unit_ids": ["K1-02341", "K2-02603", "K3-02604"]}
+{"sentence_id": "SY-01718", "unit_ids": ["K1-02597", "K2-02605", "K3-02606"]}
+{"sentence_id": "SY-01719", "unit_ids": ["K1-02561", "K2-02524", "K3-02607"]}
+{"sentence_id": "SY-01720", "unit_ids": ["K2-02489", "K3-02608"]}
+{"sentence_id": "SY-01721", "unit_ids": ["K2-02609", "K3-02610"]}
+{"sentence_id": "SY-01722", "unit_ids": ["K2-02611", "K3-02612"]}
+{"sentence_id": "SY-01723", "unit_ids": ["K1-02354", "K2-02613", "K3-02614"]}
+{"sentence_id": "SY-01724", "unit_ids": ["K1-02615", "K2-02382", "K3-02616"]}
+{"sentence_id": "SY-01725", "unit_ids": ["K2-02617", "K3-02618"]}
+{"sentence_id": "SY-01726", "unit_ids": ["K2-02566", "K3-02619"]}
+{"sentence_id": "SY-01727", "unit_ids": ["K2-02600", "K3-02620"]}
+{"sentence_id": "SY-01728", "unit_ids": ["K1-02517", "K2-02537", "K3-02621"]}
+{"sentence_id": "SY-01729", "unit_ids": ["K2-02491", "K3-02622"]}
+{"sentence_id": "SY-01730", "unit_ids": ["K2-02399", "K3-02623"]}
+{"sentence_id": "SY-01731", "unit_ids": ["K2-02624", "K3-02625"]}
+{"sentence_id": "SY-01732", "unit_ids": ["K2-02617", "K3-02626"]}
+{"sentence_id": "SY-01733", "unit_ids": ["K1-02409", "K2-02571", "K3-02627"]}
+{"sentence_id": "SY-01734", "unit_ids": ["K1-02549", "K2-02541", "K3-02628"]}
+{"sentence_id": "SY-01735", "unit_ids": ["K1-02629", "K2-02630", "K3-02631"]}
+{"sentence_id": "SY-01736", "unit_ids": ["K1-02632", "K2-02434", "K3-02633"]}
+{"sentence_id": "SY-01737", "unit_ids": ["K2-02370", "K3-02634"]}
+{"sentence_id": "SY-01738", "unit_ids": ["K2-02635", "K3-02636"]}
+{"sentence_id": "SY-01739", "unit_ids": ["K2-02637", "K3-02638"]}
+{"sentence_id": "SY-01740", "unit_ids": ["K2-02639", "K3-02640"]}
+{"sentence_id": "SY-01741", "unit_ids": ["K2-02551", "K3-02641"]}
+{"sentence_id": "SY-01742", "unit_ids": ["K2-02391", "K3-02642"]}
+{"sentence_id": "SY-01743", "unit_ids": ["K1-02643", "K2-02603", "K3-02644"]}
+{"sentence_id": "SY-01744", "unit_ids": ["K2-02464", "K3-02645"]}
+{"sentence_id": "SY-01745", "unit_ids": ["K1-02345", "K2-02646", "K3-02647"]}
+{"sentence_id": "SY-01746", "unit_ids": ["K1-02559", "K2-02611", "K3-02648"]}
+{"sentence_id": "SY-01747", "unit_ids": ["K2-02410", "K3-02649"]}
+{"sentence_id": "SY-01748", "unit_ids": ["K1-02360", "K2-02397", "K3-02650"]}
+{"sentence_id": "SY-01749", "unit_ids": ["K2-02387", "K3-02651"]}
+{"sentence_id": "SY-01750", "unit_ids": ["K2-02348", "K3-02652"]}
+{"sentence_id": "SY-01751", "unit_ids": ["K2-02512", "K3-02653"]}
+{"sentence_id": "SY-01752", "unit_ids": ["K2-02654", "K3-02655"]}
+{"sentence_id": "SY-01753", "unit_ids": ["K2-02656", "K3-02657"]}
+{"sentence_id": "SY-01754", "unit_ids": ["K1-02458", "K2-02658", "K3-02659"]}
+{"sentence_id": "SY-01755", "unit_ids": ["K1-02549", "K2-02434", "K3-02660"]}
+{"sentence_id": "SY-01756", "unit_ids": ["K1-02588", "K2-02661", "K3-02662"]}
+{"sentence_id": "SY-01757", "unit_ids": ["K1-02341", "K2-02663", "K3-02664"]}
+{"sentence_id": "SY-01758", "unit_ids": ["K2-02448", "K3-02665"]}
+{"sentence_id": "SY-01759", "unit_ids": ["K2-02666", "K3-02667"]}
+{"sentence_id": "SY-01760", "unit_ids": ["K2-02424", "K3-02668"]}
+{"sentence_id": "SY-01761", "unit_ids": ["K2-02624", "K3-02669"]}
+{"sentence_id": "SY-01762", "unit_ids": ["K2-02361", "K3-02670"]}
+{"sentence_id": "SY-01763", "unit_ids": ["K2-02485", "K3-02671"]}
+{"sentence_id": "SY-01764", "unit_ids": ["K2-02672", "K3-02673"]}
+{"sentence_id": "SY-01765", "unit_ids": ["K2-02674", "K3-02675"]}
+{"sentence_id": "SY-01766", "unit_ids": ["K2-02676", "K3-02677"]}
+{"sentence_id": "SY-01767", "unit_ids": ["K1-02363", "K2-02466", "K3-02678"]}
+{"sentence_id": "SY-01768", "unit_ids": ["K1-02679", "K2-02571", "K3-02680"]}
+{"sentence_id": "SY-01769", "unit_ids": ["K2-02681", "K3-02682"]}
+{"sentence_id": "SY-01770", "unit_ids": ["K1-02683", "K2-02566", "K3-02684"]}
+{"sentence_id": "SY-01771", "unit_ids": ["K2-02672", "K3-02685"]}
+{"sentence_id": "SY-01772", "unit_ids": ["K2-02686", "K3-02687"]}
+{"sentence_id": "SY-01773", "unit_ids": ["K1-02355", "K2-02416", "K3-02688"]}
+{"sentence_id": "SY-01774", "unit_ids": ["K2-02689", "K3-02690"]}
+{"sentence_id": "SY-01775", "unit_ids": ["K1-02543", "K2-02691", "K3-02692"]}
+{"sentence_id": "SY-01776", "unit_ids": ["K2-02378", "K3-02693"]}
+{"sentence_id": "SY-01777", "unit_ids": ["K1-02546", "K2-02694", "K3-02695"]}
+{"sentence_id": "SY-01778", "unit_ids": ["K2-02696", "K3-02697"]}
+{"sentence_id": "SY-01779", "unit_ids": ["K2-02592", "K3-02698"]}
+{"sentence_id": "SY-01780", "unit_ids": ["K2-02635", "K3-02699"]}
+{"sentence_id": "SY-01781", "unit_ids": ["K2-02700", "K3-02701"]}
+{"sentence_id": "SY-01782", "unit_ids": ["K2-02403", "K3-02702"]}
+{"sentence_id": "SY-01783", "unit_ids": ["K2-02592", "K3-02703"]}
+{"sentence_id": "SY-01784", "unit_ids": ["K1-02629", "K2-02568", "K3-02704"]}
+{"sentence_id": "SY-01785", "unit_ids": ["K1-02588", "K2-02366", "K3-02705"]}
+{"sentence_id": "SY-01786", "unit_ids": ["K2-02656", "K3-02706"]}
+{"sentence_id": "SY-01787", "unit_ids": ["K2-02672", "K3-02707"]}
+{"sentence_id": "SY-01788", "unit_ids": ["K2-02708", "K3-02709"]}
+{"sentence_id": "SY-01789", "unit_ids": ["K2-02686", "K3-02710"]}
+{"sentence_id": "SY-01790", "unit_ids": ["K2-02658", "K3-02711"]}
+{"sentence_id": "SY-01791", "unit_ids": ["K1-02575", "K2-02712", "K3-02713"]}
+{"sentence_id": "SY-01792", "unit_ids": ["K2-02342", "K3-02714"]}
+{"sentence_id": "SY-01793", "unit_ids": ["K2-02518", "K3-02715"]}
+{"sentence_id": "SY-01794", "unit_ids": ["K1-02345", "K2-02370", "K3-02716"]}
+{"sentence_id": "SY-01795", "unit_ids": ["K2-02481", "K3-02717"]}
+{"sentence_id": "SY-01796", "unit_ids": ["K2-02524", "K3-02718"]}
+{"sentence_id": "SY-01797", "unit_ids": ["K2-02405", "K3-02719"]}
+{"sentence_id": "SY-01798", "unit_ids": ["K1-02354", "K2-02446", "K3-02720"]}
+{"sentence_id": "SY-01799", "unit_ids": ["K2-02397", "K3-02721"]}
+{"sentence_id": "SY-01800", "unit_ids": ["K2-02468", "K3-02722"]}
+{"sentence_id": "SY-01801", "unit_ids": ["K2-02566", "K3-02723"]}
+{"sentence_id": "SY-01802", "unit_ids": ["K1-02578", "K2-02483", "K3-02724"]}
+{"sentence_id": "SY-01803", "unit_ids": ["K2-02434", "K3-02725"]}
+{"sentence_id": "SY-01804", "unit_ids": ["K2-02466", "K3-02726"]}
+{"sentence_id": "SY-01805", "unit_ids": ["K2-02428", "K3-02727"]}
+{"sentence_id": "SY-01806", "unit_ids": ["K1-02728", "K2-02401", "K3-02729"]}
+{"sentence_id": "SY-01807", "unit_ids": ["K2-02730", "K3-02731"]}
+{"sentence_id": "SY-01808", "unit_ids": ["K1-02578", "K2-02646", "K3-02732"]}
+{"sentence_id": "SY-01809", "unit_ids": ["K2-02592", "K3-02733"]}
+{"sentence_id": "SY-01810", "unit_ids": ["K2-02734", "K3-02735"]}
+{"sentence_id": "SY-01811", "unit_ids": ["K1-02409", "K2-02736", "K3-02737"]}
+{"sentence_id": "SY-01812", "unit_ids": ["K1-02345", "K2-02483", "K3-02738"]}
+{"sentence_id": "SY-01813", "unit_ids": ["K2-02348", "K3-02739"]}
+{"sentence_id": "SY-01814", "unit_ids": ["K2-02370", "K3-02740"]}
+{"sentence_id": "SY-01815", "unit_ids": ["K2-02741", "K3-02742"]}
+{"sentence_id": "SY-01816", "unit_ids": ["K2-02743", "K3-02744"]}
+{"sentence_id": "SY-01817", "unit_ids": ["K2-02745", "K3-02746"]}
+{"sentence_id": "SY-01818", "unit_ids": ["K2-02439", "K3-02747"]}
+{"sentence_id": "SY-01819", "unit_ids": ["K1-02549", "K2-02700", "K3-02748"]}
+{"sentence_id": "SY-01820", "unit_ids": ["K2-02749", "K3-02750"]}
+{"sentence_id": "SY-01821", "unit_ids": ["K1-02679", "K2-02496", "K3-02751"]}
+{"sentence_id": "SY-01822", "unit_ids": ["K1-02344", "K2-02391", "K3-02752"]}
+{"sentence_id": "SY-01823", "unit_ids": ["K2-02439", "K3-02753"]}
+{"sentence_id": "SY-01824", "unit_ids": ["K1-02754", "K2-02755", "K3-02756"]}
+{"sentence_id": "SY-01825", "unit_ids": ["K1-02436", "K2-02757", "K3-02758"]}
+{"sentence_id": "SY-01826", "unit_ids": ["K3-02759"]}
+{"sentence_id": "SY-01827", "unit_ids": ["K3-02760"]}
+{"sentence_id": "SY-01828", "unit_ids": ["K3-02761"]}
+{"sentence_id": "SY-01829", "unit_ids": ["K2-01010", "K3-02762"]}
+{"sentence_id": "SY-01830", "unit_ids": ["K3-02763"]}
+{"sentence_id": "SY-01831", "unit_ids": ["K3-02764"]}
+{"sentence_id": "SY-01832", "unit_ids": ["K3-02765"]}
+{"sentence_id": "SY-01833", "unit_ids": ["K2-02766", "K3-02767"]}
+{"sentence_id": "SY-01834", "unit_ids": ["K3-02768"]}
+{"sentence_id": "SY-01835", "unit_ids": ["K3-02769"]}
+{"sentence_id": "SY-01836", "unit_ids": ["K2-00202", "K3-02770"]}
+{"sentence_id": "SY-01838", "unit_ids": ["K2-00211", "K3-02771"]}
+{"sentence_id": "SY-01839", "unit_ids": ["K3-02772"]}
+{"sentence_id": "SY-01840", "unit_ids": ["K3-02773"]}
+{"sentence_id": "SY-01841", "unit_ids": ["K3-02774"]}
+{"sentence_id": "SY-01842", "unit_ids": ["K2-02775", "K3-02776"]}
+{"sentence_id": "SY-01843", "unit_ids": ["K3-02777"]}
+{"sentence_id": "SY-01844", "unit_ids": ["K2-00157", "K3-02778"]}
+{"sentence_id": "SY-01845", "unit_ids": ["K3-02779"]}
+{"sentence_id": "SY-01847", "unit_ids": ["K3-02780"]}
+{"sentence_id": "SY-01848", "unit_ids": ["K2-01051", "K3-02781"]}
+{"sentence_id": "SY-01849", "unit_ids": ["K2-00305", "K3-02782"]}
+{"sentence_id": "SY-01850", "unit_ids": ["K3-02783"]}
+{"sentence_id": "SY-01851", "unit_ids": ["K2-02775", "K3-02784"]}
+{"sentence_id": "SY-01853", "unit_ids": ["K3-02785"]}
+{"sentence_id": "SY-01854", "unit_ids": ["K3-02786"]}
+{"sentence_id": "SY-01855", "unit_ids": ["K3-02787"]}
+{"sentence_id": "SY-01856", "unit_ids": ["K2-02788", "K3-02789"]}
+{"sentence_id": "SY-01857", "unit_ids": ["K3-02790"]}
+{"sentence_id": "SY-01858", "unit_ids": ["K3-02791"]}
+{"sentence_id": "SY-01859", "unit_ids": ["K3-02792"]}
+{"sentence_id": "SY-01860", "unit_ids": ["K3-02793"]}
+{"sentence_id": "SY-01861", "unit_ids": ["K3-02794"]}
+{"sentence_id": "SY-01862", "unit_ids": ["K2-01145", "K3-02795"]}
+{"sentence_id": "SY-01863", "unit_ids": ["K3-02796"]}
+{"sentence_id": "SY-01864", "unit_ids": ["K2-02797", "K3-02798"]}
+{"sentence_id": "SY-01865", "unit_ids": ["K2-02799", "K3-02800"]}
+{"sentence_id": "SY-01866", "unit_ids": ["K3-02801"]}
+{"sentence_id": "SY-01867", "unit_ids": ["K2-00665", "K3-02802"]}
+{"sentence_id": "SY-01868", "unit_ids": ["K2-02803", "K3-02804"]}
+{"sentence_id": "SY-01869", "unit_ids": ["K2-02805", "K3-02806"]}
+{"sentence_id": "SY-01870", "unit_ids": ["K3-02807"]}
+{"sentence_id": "SY-01871", "unit_ids": ["K3-02808"]}
+{"sentence_id": "SY-01872", "unit_ids": ["K2-00273", "K3-02809"]}
+{"sentence_id": "SY-01874", "unit_ids": ["K2-00273", "K3-02810"]}
+{"sentence_id": "SY-01875", "unit_ids": ["K3-02811"]}
+{"sentence_id": "SY-01876", "unit_ids": ["K3-02812"]}
+{"sentence_id": "SY-01877", "unit_ids": ["K2-00300", "K3-02813"]}
+{"sentence_id": "SY-01878", "unit_ids": ["K3-02814"]}
+{"sentence_id": "SY-01879", "unit_ids": ["K2-00305", "K3-02815"]}
+{"sentence_id": "SY-01881", "unit_ids": ["K2-02816", "K3-02817"]}
+{"sentence_id": "SY-01882", "unit_ids": ["K2-00273", "K3-02818"]}
+{"sentence_id": "SY-01885", "unit_ids": ["K3-02819"]}
+{"sentence_id": "SY-01886", "unit_ids": ["K2-00528", "K3-02820"]}
+{"sentence_id": "SY-01887", "unit_ids": ["K3-02821"]}
+{"sentence_id": "SY-01889", "unit_ids": ["K2-01537", "K3-02822"]}
+{"sentence_id": "SY-01890", "unit_ids": ["K3-02823"]}
+{"sentence_id": "SY-01891", "unit_ids": ["K3-02824"]}
+{"sentence_id": "SY-01892", "unit_ids": ["K3-02825"]}
+{"sentence_id": "SY-01893", "unit_ids": ["K3-02826"]}
+{"sentence_id": "SY-01895", "unit_ids": ["K3-02827"]}
+{"sentence_id": "SY-01896", "unit_ids": ["K2-02828", "K3-02829"]}
+{"sentence_id": "SY-01897", "unit_ids": ["K3-02830"]}
+{"sentence_id": "SY-01898", "unit_ids": ["K3-02831"]}
+{"sentence_id": "SY-01899", "unit_ids": ["K3-02832"]}
+{"sentence_id": "SY-01900", "unit_ids": ["K2-01653", "K3-02833"]}
+{"sentence_id": "SY-01901", "unit_ids": ["K2-01124", "K3-02834"]}
+{"sentence_id": "SY-01902", "unit_ids": ["K2-02835", "K3-02836"]}
+{"sentence_id": "SY-01903", "unit_ids": ["K2-00528", "K3-02837"]}
+{"sentence_id": "SY-01904", "unit_ids": ["K3-02838"]}
+{"sentence_id": "SY-01905", "unit_ids": ["K2-01092", "K3-02839"]}
+{"sentence_id": "SY-01906", "unit_ids": ["K3-02840"]}
+{"sentence_id": "SY-01907", "unit_ids": ["K3-02841"]}
+{"sentence_id": "SY-01908", "unit_ids": ["K2-00921", "K3-02842"]}
+{"sentence_id": "SY-01909", "unit_ids": ["K2-02843", "K3-02844"]}
+{"sentence_id": "SY-01910", "unit_ids": ["K3-02845"]}
+{"sentence_id": "SY-01911", "unit_ids": ["K2-02846", "K3-02847"]}
+{"sentence_id": "SY-01912", "unit_ids": ["K3-02848"]}
+{"sentence_id": "SY-01913", "unit_ids": ["K2-00273", "K3-02849"]}
+{"sentence_id": "SY-01914", "unit_ids": ["K2-02850", "K3-02851"]}
+{"sentence_id": "SY-01915", "unit_ids": ["K3-02852"]}
+{"sentence_id": "SY-01916", "unit_ids": ["K3-02853"]}
+{"sentence_id": "SY-01918", "unit_ids": ["K3-02854"]}
+{"sentence_id": "SY-01919", "unit_ids": ["K3-02855"]}
+{"sentence_id": "SY-01920", "unit_ids": ["K2-00150", "K3-02856"]}
+{"sentence_id": "SY-01921", "unit_ids": ["K2-00215", "K3-02857"]}
+{"sentence_id": "SY-01922", "unit_ids": ["K3-02858"]}
+{"sentence_id": "SY-01923", "unit_ids": ["K2-02859", "K3-02860"]}
+{"sentence_id": "SY-01924", "unit_ids": ["K3-02861"]}
+{"sentence_id": "SY-01925", "unit_ids": ["K3-02862"]}
+{"sentence_id": "SY-01926", "unit_ids": ["K2-02863", "K3-02864"]}
+{"sentence_id": "SY-01927", "unit_ids": ["K2-02865", "K3-02866"]}
+{"sentence_id": "SY-01928", "unit_ids": ["K2-01010", "K3-02867"]}
+{"sentence_id": "SY-01929", "unit_ids": ["K3-02868"]}
+{"sentence_id": "SY-01930", "unit_ids": ["K3-02869"]}
+{"sentence_id": "SY-01931", "unit_ids": ["K2-02870", "K3-02871"]}
+{"sentence_id": "SY-01932", "unit_ids": ["K3-02872"]}
+{"sentence_id": "SY-01933", "unit_ids": ["K3-02873"]}
+{"sentence_id": "SY-01934", "unit_ids": ["K2-00972", "K3-02874"]}
+{"sentence_id": "SY-01935", "unit_ids": ["K2-02875", "K3-02876"]}
+{"sentence_id": "SY-01936", "unit_ids": ["K3-02877"]}
+{"sentence_id": "SY-01938", "unit_ids": ["K3-02878"]}
+{"sentence_id": "SY-01939", "unit_ids": ["K2-00805", "K3-02879"]}
+{"sentence_id": "SY-01940", "unit_ids": ["K3-02880"]}
+{"sentence_id": "SY-01941", "unit_ids": ["K3-02881"]}
+{"sentence_id": "SY-01942", "unit_ids": ["K3-02882"]}
+{"sentence_id": "SY-01943", "unit_ids": ["K3-02883"]}
+{"sentence_id": "SY-01944", "unit_ids": ["K2-02884", "K3-02885"]}
+{"sentence_id": "SY-01945", "unit_ids": ["K2-00737", "K3-02886"]}
+{"sentence_id": "SY-01946", "unit_ids": ["K3-02887"]}
+{"sentence_id": "SY-01947", "unit_ids": ["K2-02888", "K3-02889"]}
+{"sentence_id": "SY-01948", "unit_ids": ["K2-00161", "K3-02890"]}
+{"sentence_id": "SY-01949", "unit_ids": ["K3-02891"]}
+{"sentence_id": "SY-01950", "unit_ids": ["K3-02892"]}
+{"sentence_id": "SY-01951", "unit_ids": ["K3-02893"]}
+{"sentence_id": "SY-01953", "unit_ids": ["K3-02894"]}
+{"sentence_id": "SY-01954", "unit_ids": ["K3-02895"]}
+{"sentence_id": "SY-01955", "unit_ids": ["K3-02896"]}
+{"sentence_id": "SY-01956", "unit_ids": ["K2-00273", "K3-02897"]}
+{"sentence_id": "SY-01957", "unit_ids": ["K2-02898", "K3-02899"]}
+{"sentence_id": "SY-01958", "unit_ids": ["K2-00934", "K3-02900"]}
+{"sentence_id": "SY-01959", "unit_ids": ["K3-02901"]}
+{"sentence_id": "SY-01960", "unit_ids": ["K2-00640", "K3-02902"]}
+{"sentence_id": "SY-01962", "unit_ids": ["K2-02903", "K3-02904"]}
+{"sentence_id": "SY-01963", "unit_ids": ["K3-02905"]}
+{"sentence_id": "SY-01965", "unit_ids": ["K2-02906", "K3-02907"]}
+{"sentence_id": "SY-01966", "unit_ids": ["K3-02908"]}
+{"sentence_id": "SY-01967", "unit_ids": ["K2-01151", "K3-02909"]}
+{"sentence_id": "SY-01968", "unit_ids": ["K3-02910"]}
+{"sentence_id": "SY-01969", "unit_ids": ["K3-02911"]}
+{"sentence_id": "SY-01971", "unit_ids": ["K3-02912"]}
+{"sentence_id": "SY-01972", "unit_ids": ["K2-00720", "K3-02913"]}
+{"sentence_id": "SY-01973", "unit_ids": ["K2-00300", "K3-02914"]}
+{"sentence_id": "SY-01974", "unit_ids": ["K3-02915"]}
+{"sentence_id": "SY-01975", "unit_ids": ["K2-00293", "K3-02916"]}
+{"sentence_id": "SY-01976", "unit_ids": ["K3-02917"]}
+{"sentence_id": "SY-01977", "unit_ids": ["K3-02918"]}
+{"sentence_id": "SY-01979", "unit_ids": ["K2-00106", "K3-02919"]}
+{"sentence_id": "SY-01980", "unit_ids": ["K3-02920"]}
+{"sentence_id": "SY-01981", "unit_ids": ["K2-02921", "K3-02922"]}
+{"sentence_id": "SY-01982", "unit_ids": ["K2-01132", "K3-02923"]}
+{"sentence_id": "SY-01983", "unit_ids": ["K2-02924", "K3-02925"]}
+{"sentence_id": "SY-01984", "unit_ids": ["K2-02926", "K3-02927"]}
+{"sentence_id": "SY-01985", "unit_ids": ["K2-02928", "K3-02929"]}
+{"sentence_id": "SY-01986", "unit_ids": ["K3-02930"]}
+{"sentence_id": "SY-01987", "unit_ids": ["K2-02931", "K3-02932"]}
+{"sentence_id": "SY-01988", "unit_ids": ["K3-02933"]}
+{"sentence_id": "SY-01989", "unit_ids": ["K2-02921", "K3-02934"]}
+{"sentence_id": "SY-01990", "unit_ids": ["K3-02935"]}
+{"sentence_id": "SY-01991", "unit_ids": ["K3-02936"]}
+{"sentence_id": "SY-01992", "unit_ids": ["K2-02937", "K3-02938"]}
+{"sentence_id": "SY-01993", "unit_ids": ["K2-00326", "K3-02939"]}
+{"sentence_id": "SY-01994", "unit_ids": ["K2-02940", "K3-02941"]}
+{"sentence_id": "SY-01995", "unit_ids": ["K2-00873", "K3-02942"]}
+{"sentence_id": "SY-01996", "unit_ids": ["K2-02943", "K3-02944"]}
+{"sentence_id": "SY-01997", "unit_ids": ["K2-00731", "K3-02945"]}
+{"sentence_id": "SY-01998", "unit_ids": ["K3-02946"]}
+{"sentence_id": "SY-01999", "unit_ids": ["K3-02947"]}
+{"sentence_id": "SY-02000", "unit_ids": ["K3-02948"]}
+{"sentence_id": "SY-02001", "unit_ids": ["K2-02799", "K3-02949"]}
+{"sentence_id": "SY-02002", "unit_ids": ["K2-00669", "K3-02950"]}
+{"sentence_id": "SY-02004", "unit_ids": ["K3-02951"]}
+{"sentence_id": "SY-02005", "unit_ids": ["K3-02952"]}
+{"sentence_id": "SY-02006", "unit_ids": ["K3-02953"]}
+{"sentence_id": "SY-02007", "unit_ids": ["K3-02954"]}
+{"sentence_id": "SY-02008", "unit_ids": ["K3-02955"]}
+{"sentence_id": "SY-02009", "unit_ids": ["K3-02956"]}
+{"sentence_id": "SY-02010", "unit_ids": ["K3-02957"]}
+{"sentence_id": "SY-02011", "unit_ids": ["K3-02958"]}
+{"sentence_id": "SY-02013", "unit_ids": ["K3-02959"]}
+{"sentence_id": "SY-02015", "unit_ids": ["K3-02960"]}
+{"sentence_id": "SY-02017", "unit_ids": ["K3-02961"]}
+{"sentence_id": "SY-02018", "unit_ids": ["K3-02962"]}
+{"sentence_id": "SY-02019", "unit_ids": ["K3-02963"]}
+{"sentence_id": "SY-02020", "unit_ids": ["K3-02964"]}
+{"sentence_id": "SY-02022", "unit_ids": ["K3-02965"]}
+{"sentence_id": "SY-02023", "unit_ids": ["K3-02966"]}
+{"sentence_id": "SY-02024", "unit_ids": ["K3-02967"]}
+{"sentence_id": "SY-02026", "unit_ids": ["K3-02968"]}
+{"sentence_id": "SY-02027", "unit_ids": ["K3-02969"]}
+{"sentence_id": "SY-02028", "unit_ids": ["K3-02970"]}
+{"sentence_id": "SY-02029", "unit_ids": ["K3-02971"]}
+{"sentence_id": "SY-02030", "unit_ids": ["K3-02972"]}
+{"sentence_id": "SY-02031", "unit_ids": ["K3-02973"]}
+{"sentence_id": "SY-02034", "unit_ids": ["K3-02974"]}
+{"sentence_id": "SY-02035", "unit_ids": ["K3-02975"]}
+{"sentence_id": "SY-02036", "unit_ids": ["K3-02976"]}
+{"sentence_id": "SY-02037", "unit_ids": ["K3-02977"]}
+{"sentence_id": "SY-02038", "unit_ids": ["K3-02978"]}
+{"sentence_id": "SY-02040", "unit_ids": ["K3-02979"]}
+{"sentence_id": "SY-02041", "unit_ids": ["K3-02980"]}
+{"sentence_id": "SY-02042", "unit_ids": ["K3-02981"]}
+{"sentence_id": "SY-02043", "unit_ids": ["K3-02982"]}
+{"sentence_id": "SY-02044", "unit_ids": ["K3-02983"]}
+{"sentence_id": "SY-02045", "unit_ids": ["K3-02984"]}
+{"sentence_id": "SY-02046", "unit_ids": ["K3-02985"]}
+{"sentence_id": "SY-02047", "unit_ids": ["K3-02986"]}
+{"sentence_id": "SY-02048", "unit_ids": ["K3-02987"]}
+{"sentence_id": "SY-02049", "unit_ids": ["K3-02988"]}
+{"sentence_id": "SY-02052", "unit_ids": ["K3-02989"]}
+{"sentence_id": "SY-02053", "unit_ids": ["K3-02990"]}
+{"sentence_id": "SY-02055", "unit_ids": ["K3-02991"]}
+{"sentence_id": "SY-02057", "unit_ids": ["K3-02992"]}
+{"sentence_id": "SY-02058", "unit_ids": ["K3-02993"]}
+{"sentence_id": "SY-02059", "unit_ids": ["K3-02994"]}
+{"sentence_id": "SY-02060", "unit_ids": ["K3-02995"]}
+{"sentence_id": "SY-02061", "unit_ids": ["K3-02996"]}
+{"sentence_id": "SY-02062", "unit_ids": ["K3-02997"]}
+{"sentence_id": "SY-02063", "unit_ids": ["K3-02998"]}
+{"sentence_id": "SY-02064", "unit_ids": ["K3-02999"]}
+{"sentence_id": "SY-02066", "unit_ids": ["K3-03000"]}
+{"sentence_id": "SY-02067", "unit_ids": ["K3-03001"]}
+{"sentence_id": "SY-02068", "unit_ids": ["K3-03002"]}
+{"sentence_id": "SY-02070", "unit_ids": ["K3-03003"]}
+{"sentence_id": "SY-02071", "unit_ids": ["K3-03004"]}
+{"sentence_id": "SY-02072", "unit_ids": ["K3-03005"]}
+{"sentence_id": "SY-02074", "unit_ids": ["K3-03006"]}
+{"sentence_id": "SY-02075", "unit_ids": ["K3-03007"]}
+{"sentence_id": "SY-02078", "unit_ids": ["K3-03008"]}
+{"sentence_id": "SY-02079", "unit_ids": ["K3-03009"]}
+{"sentence_id": "SY-02080", "unit_ids": ["K3-03010"]}
+{"sentence_id": "SY-02081", "unit_ids": ["K3-03011"]}
+{"sentence_id": "SY-02082", "unit_ids": ["K3-03012"]}
+{"sentence_id": "SY-02084", "unit_ids": ["K3-03013"]}
+{"sentence_id": "SY-02086", "unit_ids": ["K3-03014"]}
+{"sentence_id": "SY-02087", "unit_ids": ["K3-03015"]}
+{"sentence_id": "SY-02088", "unit_ids": ["K3-03016"]}
+{"sentence_id": "SY-02091", "unit_ids": ["K3-03017"]}
+{"sentence_id": "SY-02092", "unit_ids": ["K3-03018"]}
+{"sentence_id": "SY-02093", "unit_ids": ["K3-03019"]}
+{"sentence_id": "SY-02094", "unit_ids": ["K3-03020"]}
+{"sentence_id": "SY-02095", "unit_ids": ["K3-03021"]}
+{"sentence_id": "SY-02096", "unit_ids": ["K3-03022"]}
+{"sentence_id": "SY-02099", "unit_ids": ["K3-03023"]}
+{"sentence_id": "SY-02100", "unit_ids": ["K3-03024"]}
+{"sentence_id": "SY-02101", "unit_ids": ["K3-03025"]}
+{"sentence_id": "SY-02103", "unit_ids": ["K3-03026"]}
+{"sentence_id": "SY-02104", "unit_ids": ["K3-03027"]}
+{"sentence_id": "SY-02105", "unit_ids": ["K3-03028"]}
+{"sentence_id": "SY-02106", "unit_ids": ["K3-03029"]}
+{"sentence_id": "SY-02107", "unit_ids": ["K3-03030"]}
+{"sentence_id": "SY-02108", "unit_ids": ["K3-03031"]}
+{"sentence_id": "SY-02109", "unit_ids": ["K3-03032"]}
+{"sentence_id": "SY-02110", "unit_ids": ["K3-03033"]}
+{"sentence_id": "SY-02111", "unit_ids": ["K3-03034"]}
+{"sentence_id": "SY-02113", "unit_ids": ["K3-03035"]}
+{"sentence_id": "SY-02114", "unit_ids": ["K3-03036"]}
+{"sentence_id": "SY-02115", "unit_ids": ["K3-03037"]}
+{"sentence_id": "SY-02116", "unit_ids": ["K3-03038"]}
+{"sentence_id": "SY-02117", "unit_ids": ["K3-03039"]}
+{"sentence_id": "SY-02118", "unit_ids": ["K3-03040"]}
+{"sentence_id": "SY-02120", "unit_ids": ["K3-03041"]}
+{"sentence_id": "SY-02121", "unit_ids": ["K3-03042"]}
+{"sentence_id": "SY-02125", "unit_ids": ["K3-03043"]}
+{"sentence_id": "SY-02126", "unit_ids": ["K3-03044"]}
+{"sentence_id": "SY-02127", "unit_ids": ["K3-03045"]}
+{"sentence_id": "SY-02128", "unit_ids": ["K3-03046"]}
+{"sentence_id": "SY-02129", "unit_ids": ["K3-03047"]}
+{"sentence_id": "SY-02130", "unit_ids": ["K3-03048"]}
+{"sentence_id": "SY-02131", "unit_ids": ["K3-03049"]}
+{"sentence_id": "SY-02132", "unit_ids": ["K3-03050"]}
+{"sentence_id": "SY-02133", "unit_ids": ["K3-03051"]}
+{"sentence_id": "SY-02134", "unit_ids": ["K3-03052"]}
+{"sentence_id": "SY-02136", "unit_ids": ["K3-03053"]}
+{"sentence_id": "SY-02137", "unit_ids": ["K3-03054"]}
+{"sentence_id": "SY-02138", "unit_ids": ["K3-03055"]}
+{"sentence_id": "SY-02139", "unit_ids": ["K3-03056"]}
+{"sentence_id": "SY-02140", "unit_ids": ["K3-03057"]}
+{"sentence_id": "SY-02141", "unit_ids": ["K3-03058"]}
+{"sentence_id": "SY-02143", "unit_ids": ["K3-03059"]}
+{"sentence_id": "SY-02144", "unit_ids": ["K3-03060"]}
+{"sentence_id": "SY-02145", "unit_ids": ["K3-03061"]}
+{"sentence_id": "SY-02146", "unit_ids": ["K3-03062"]}
+{"sentence_id": "SY-02147", "unit_ids": ["K3-03063"]}
+{"sentence_id": "SY-02148", "unit_ids": ["K3-03064"]}
+{"sentence_id": "SY-02149", "unit_ids": ["K3-03065"]}
+{"sentence_id": "SY-02150", "unit_ids": ["K3-03066"]}
+{"sentence_id": "SY-02151", "unit_ids": ["K3-03067"]}
+{"sentence_id": "SY-02154", "unit_ids": ["K3-03068"]}
+{"sentence_id": "SY-02156", "unit_ids": ["K3-03069"]}
+{"sentence_id": "SY-02157", "unit_ids": ["K3-03070"]}
+{"sentence_id": "SY-02158", "unit_ids": ["K3-03071"]}
+{"sentence_id": "SY-02161", "unit_ids": ["K3-03072"]}
+{"sentence_id": "SY-02162", "unit_ids": ["K3-03073"]}
+{"sentence_id": "SY-02163", "unit_ids": ["K3-03074"]}
+{"sentence_id": "SY-02164", "unit_ids": ["K3-03075"]}
+{"sentence_id": "SY-02166", "unit_ids": ["K3-03076"]}
+{"sentence_id": "SY-02167", "unit_ids": ["K3-03077"]}
+{"sentence_id": "SY-02168", "unit_ids": ["K3-03078"]}
+{"sentence_id": "SY-02169", "unit_ids": ["K3-03079"]}
+{"sentence_id": "SY-02170", "unit_ids": ["K3-03080"]}
+{"sentence_id": "SY-02172", "unit_ids": ["K3-03081"]}
+{"sentence_id": "SY-02173", "unit_ids": ["K3-03082"]}
+{"sentence_id": "SY-02174", "unit_ids": ["K3-03083"]}
+{"sentence_id": "SY-02175", "unit_ids": ["K3-03084"]}
+{"sentence_id": "SY-02176", "unit_ids": ["K3-03085"]}
+{"sentence_id": "SY-02177", "unit_ids": ["K3-03086"]}
+{"sentence_id": "SY-02179", "unit_ids": ["K3-03087"]}
+{"sentence_id": "SY-02180", "unit_ids": ["K3-03088"]}
+{"sentence_id": "SY-02181", "unit_ids": ["K3-03089"]}
+{"sentence_id": "SY-02182", "unit_ids": ["K3-03090"]}
+{"sentence_id": "SY-02183", "unit_ids": ["K3-03091"]}
+{"sentence_id": "SY-02184", "unit_ids": ["K3-03092"]}
+{"sentence_id": "SY-02185", "unit_ids": ["K3-03093"]}
+{"sentence_id": "SY-02186", "unit_ids": ["K3-03094"]}
+{"sentence_id": "SY-02187", "unit_ids": ["K3-03095"]}
+{"sentence_id": "SY-02188", "unit_ids": ["K3-03096"]}
+{"sentence_id": "SY-02189", "unit_ids": ["K3-03097"]}
+{"sentence_id": "SY-02190", "unit_ids": ["K3-03098"]}
+{"sentence_id": "SY-02192", "unit_ids": ["K3-03099"]}
+{"sentence_id": "SY-02193", "unit_ids": ["K3-03100"]}
+{"sentence_id": "SY-02194", "unit_ids": ["K3-03101"]}
+{"sentence_id": "SY-02195", "unit_ids": ["K3-03102"]}
+{"sentence_id": "SY-02196", "unit_ids": ["K3-03103"]}
+{"sentence_id": "SY-02199", "unit_ids": ["K3-03104"]}
+{"sentence_id": "SY-02200", "unit_ids": ["K3-03105"]}
+{"sentence_id": "SY-02201", "unit_ids": ["K3-03106"]}
+{"sentence_id": "SY-02204", "unit_ids": ["K3-03107"]}
+{"sentence_id": "SY-02205", "unit_ids": ["K3-03108"]}
+{"sentence_id": "SY-02207", "unit_ids": ["K3-03109"]}
+{"sentence_id": "SY-02208", "unit_ids": ["K3-03110"]}
+{"sentence_id": "SY-02209", "unit_ids": ["K3-03111"]}
+{"sentence_id": "SY-02211", "unit_ids": ["K3-03112"]}
+{"sentence_id": "SY-02212", "unit_ids": ["K3-03113"]}
+{"sentence_id": "SY-02214", "unit_ids": ["K3-03114"]}
+{"sentence_id": "SY-02215", "unit_ids": ["K3-03115"]}
+{"sentence_id": "SY-02217", "unit_ids": ["K3-03116"]}
+{"sentence_id": "SY-02218", "unit_ids": ["K3-03117"]}
+{"sentence_id": "SY-02219", "unit_ids": ["K3-03118"]}
+{"sentence_id": "SY-02220", "unit_ids": ["K3-03119"]}
+{"sentence_id": "SY-02221", "unit_ids": ["K3-03120"]}
+{"sentence_id": "SY-02222", "unit_ids": ["K3-03121"]}
+{"sentence_id": "SY-02224", "unit_ids": ["K3-03122"]}
+{"sentence_id": "SY-02225", "unit_ids": ["K3-03123"]}
+{"sentence_id": "SY-02226", "unit_ids": ["K3-03124"]}
+{"sentence_id": "SY-02228", "unit_ids": ["K3-03125"]}
+{"sentence_id": "SY-02229", "unit_ids": ["K3-03126"]}
+{"sentence_id": "SY-02230", "unit_ids": ["K3-03127"]}
+{"sentence_id": "SY-02231", "unit_ids": ["K3-03128"]}
+{"sentence_id": "SY-02232", "unit_ids": ["K3-03129"]}
+{"sentence_id": "SY-02234", "unit_ids": ["K3-03130"]}
+{"sentence_id": "SY-02235", "unit_ids": ["K3-03131"]}
+{"sentence_id": "SY-02236", "unit_ids": ["K3-03132"]}
+{"sentence_id": "SY-02237", "unit_ids": ["K3-03133"]}
+{"sentence_id": "SY-02239", "unit_ids": ["K3-03134"]}
+{"sentence_id": "SY-02240", "unit_ids": ["K3-03135"]}
+{"sentence_id": "SY-02241", "unit_ids": ["K3-03136"]}
+{"sentence_id": "SY-02242", "unit_ids": ["K3-03137"]}
+{"sentence_id": "SY-02243", "unit_ids": ["K3-03138"]}
+{"sentence_id": "SY-02244", "unit_ids": ["K3-03139"]}
+{"sentence_id": "SY-02245", "unit_ids": ["K3-03140"]}
+{"sentence_id": "SY-02246", "unit_ids": ["K3-03141"]}
+{"sentence_id": "SY-02247", "unit_ids": ["K3-03142"]}
+{"sentence_id": "SY-02248", "unit_ids": ["K3-03143"]}
+{"sentence_id": "SY-02250", "unit_ids": ["K3-03144"]}
+{"sentence_id": "SY-02251", "unit_ids": ["K3-03145"]}
+{"sentence_id": "SY-02252", "unit_ids": ["K3-03146"]}
+{"sentence_id": "SY-02253", "unit_ids": ["K3-03147"]}
+{"sentence_id": "SY-02254", "unit_ids": ["K3-03148"]}
+{"sentence_id": "SY-02256", "unit_ids": ["K3-03149"]}
+{"sentence_id": "SY-02257", "unit_ids": ["K3-03150"]}
+{"sentence_id": "SY-02258", "unit_ids": ["K3-03151"]}
+{"sentence_id": "SY-02259", "unit_ids": ["K3-03152"]}
+{"sentence_id": "SY-02260", "unit_ids": ["K3-03153"]}
+{"sentence_id": "SY-02261", "unit_ids": ["K3-03154"]}
+{"sentence_id": "SY-02262", "unit_ids": ["K3-03155"]}
+{"sentence_id": "SY-02264", "unit_ids": ["K3-03156"]}
+{"sentence_id": "SY-02265", "unit_ids": ["K3-03157"]}
+{"sentence_id": "SY-02266", "unit_ids": ["K3-03158"]}
+{"sentence_id": "SY-02267", "unit_ids": ["K3-03159"]}
+{"sentence_id": "SY-02268", "unit_ids": ["K3-03160"]}
+{"sentence_id": "SY-02270", "unit_ids": ["K3-03161"]}
+{"sentence_id": "SY-02271", "unit_ids": ["K3-03162"]}
+{"sentence_id": "SY-02272", "unit_ids": ["K3-03163"]}
+{"sentence_id": "SY-02273", "unit_ids": ["K3-03164"]}
+{"sentence_id": "SY-02275", "unit_ids": ["K3-03165"]}
+{"sentence_id": "SY-02276", "unit_ids": ["K3-03166"]}
+{"sentence_id": "SY-02277", "unit_ids": ["K3-03167"]}
+{"sentence_id": "SY-02280", "unit_ids": ["K3-03168"]}
+{"sentence_id": "SY-02281", "unit_ids": ["K3-03169"]}
+{"sentence_id": "SY-02283", "unit_ids": ["K3-03170"]}
+{"sentence_id": "SY-02285", "unit_ids": ["K3-03171"]}
+{"sentence_id": "SY-02287", "unit_ids": ["K3-03172"]}
+{"sentence_id": "SY-02288", "unit_ids": ["K3-03173"]}
+{"sentence_id": "SY-02289", "unit_ids": ["K3-03174"]}
+{"sentence_id": "SY-02290", "unit_ids": ["K3-03175"]}
+{"sentence_id": "SY-02291", "unit_ids": ["K3-03176"]}
+{"sentence_id": "SY-02292", "unit_ids": ["K3-03177"]}
+{"sentence_id": "SY-02293", "unit_ids": ["K3-03178"]}
+{"sentence_id": "SY-02295", "unit_ids": ["K3-03179"]}
+{"sentence_id": "SY-02296", "unit_ids": ["K3-03180"]}
+{"sentence_id": "SY-02297", "unit_ids": ["K3-03181"]}
+{"sentence_id": "SY-02298", "unit_ids": ["K3-03182"]}
+{"sentence_id": "SY-02300", "unit_ids": ["K3-03183"]}
+{"sentence_id": "SY-02302", "unit_ids": ["K3-03184"]}
+{"sentence_id": "SY-02303", "unit_ids": ["K3-03185"]}
+{"sentence_id": "SY-02304", "unit_ids": ["K3-03186"]}
+{"sentence_id": "SY-02305", "unit_ids": ["K3-03187"]}
+{"sentence_id": "SY-02306", "unit_ids": ["K3-03188"]}
+{"sentence_id": "SY-02307", "unit_ids": ["K3-03189"]}
+{"sentence_id": "SY-02308", "unit_ids": ["K3-03190"]}
+{"sentence_id": "SY-02309", "unit_ids": ["K1-03191", "K2-03192", "K3-03193"]}
+{"sentence_id": "SY-02310", "unit_ids": ["K3-03194"]}
+{"sentence_id": "SY-02311", "unit_ids": ["K3-03195"]}
+{"sentence_id": "SY-02313", "unit_ids": ["K3-03196"]}
+{"sentence_id": "SY-02314", "unit_ids": ["K3-03197"]}
+{"sentence_id": "SY-02315", "unit_ids": ["K3-03198"]}
+{"sentence_id": "SY-02316", "unit_ids": ["K3-03199"]}
+{"sentence_id": "SY-02317", "unit_ids": ["K3-03200"]}
+{"sentence_id": "SY-02318", "unit_ids": ["K1-02333", "K3-03201"]}
+{"sentence_id": "SY-02319", "unit_ids": ["K3-03202"]}
+{"sentence_id": "SY-02320", "unit_ids": ["K1-02333", "K2-03203", "K3-03204"]}
+{"sentence_id": "SY-02321", "unit_ids": ["K1-02333", "K3-03205"]}
+{"sentence_id": "SY-02322", "unit_ids": ["K3-03206"]}
+{"sentence_id": "SY-02323", "unit_ids": ["K3-03207"]}
+{"sentence_id": "SY-02324", "unit_ids": ["K3-03208"]}
+{"sentence_id": "SY-02325", "unit_ids": ["K1-02386", "K3-03209"]}
+{"sentence_id": "SY-02327", "unit_ids": ["K3-03210"]}
+{"sentence_id": "SY-02328", "unit_ids": ["K1-03211", "K3-03212"]}
+{"sentence_id": "SY-02329", "unit_ids": ["K3-03213"]}
+{"sentence_id": "SY-02330", "unit_ids": ["K1-02360", "K3-03214"]}
+{"sentence_id": "SY-02332", "unit_ids": ["K1-02360", "K2-03215", "K3-03216"]}
+{"sentence_id": "SY-02333", "unit_ids": ["K1-03217", "K2-03218", "K3-03219"]}
+{"sentence_id": "SY-02334", "unit_ids": ["K1-03220", "K3-03221"]}
+{"sentence_id": "SY-02335", "unit_ids": ["K3-03222"]}
+{"sentence_id": "SY-02336", "unit_ids": ["K3-03223"]}
+{"sentence_id": "SY-02337", "unit_ids": ["K1-02333", "K3-03224"]}
+{"sentence_id": "SY-02338", "unit_ids": ["K1-02360", "K2-03225", "K3-03226"]}
+{"sentence_id": "SY-02339", "unit_ids": ["K3-03227"]}
+{"sentence_id": "SY-02340", "unit_ids": ["K3-03228"]}
+{"sentence_id": "SY-02341", "unit_ids": ["K1-03229", "K3-03230"]}
+{"sentence_id": "SY-02342", "unit_ids": ["K1-02344", "K2-03231", "K3-03232"]}
+{"sentence_id": "SY-02343", "unit_ids": ["K3-03233"]}
+{"sentence_id": "SY-02344", "unit_ids": ["K1-02332", "K3-03234"]}
+{"sentence_id": "SY-02345", "unit_ids": ["K3-03235"]}
+{"sentence_id": "SY-02348", "unit_ids": ["K3-03236"]}
+{"sentence_id": "SY-02349", "unit_ids": ["K3-03237"]}
+{"sentence_id": "SY-02352", "unit_ids": ["K3-03238"]}
+{"sentence_id": "SY-02353", "unit_ids": ["K3-03239"]}
+{"sentence_id": "SY-02354", "unit_ids": ["K3-03240"]}
+{"sentence_id": "SY-02355", "unit_ids": ["K3-03241"]}
+{"sentence_id": "SY-02357", "unit_ids": ["K3-03242"]}
+{"sentence_id": "SY-02358", "unit_ids": ["K3-03243"]}
+{"sentence_id": "SY-02359", "unit_ids": ["K3-03244"]}
+{"sentence_id": "SY-02360", "unit_ids": ["K3-03245"]}
+{"sentence_id": "SY-02361", "unit_ids": ["K3-03246"]}
+{"sentence_id": "SY-02362", "unit_ids": ["K1-03217", "K2-03247", "K3-03248"]}
+{"sentence_id": "SY-02363", "unit_ids": ["K1-03211", "K3-03249"]}
+{"sentence_id": "SY-02364", "unit_ids": ["K1-02360", "K3-03250"]}
+{"sentence_id": "SY-02365", "unit_ids": ["K3-03251"]}
+{"sentence_id": "SY-02366", "unit_ids": ["K3-03252"]}
+{"sentence_id": "SY-02367", "unit_ids": ["K3-03253"]}
+{"sentence_id": "SY-02368", "unit_ids": ["K1-02458", "K2-03254", "K3-03255"]}
+{"sentence_id": "SY-02369", "unit_ids": ["K3-03256"]}
+{"sentence_id": "SY-02370", "unit_ids": ["K3-03257"]}
+{"sentence_id": "SY-02371", "unit_ids": ["K3-03258"]}
+{"sentence_id": "SY-02372", "unit_ids": ["K1-03191", "K2-03259", "K3-03260"]}
+{"sentence_id": "SY-02373", "unit_ids": ["K1-02333", "K3-03261"]}
+{"sentence_id": "SY-02374", "unit_ids": ["K3-03262"]}
+{"sentence_id": "SY-02375", "unit_ids": ["K3-03263"]}
+{"sentence_id": "SY-02376", "unit_ids": ["K3-03264"]}
+{"sentence_id": "SY-02377", "unit_ids": ["K1-03217", "K2-03265", "K3-03266"]}
+{"sentence_id": "SY-02378", "unit_ids": ["K1-02333", "K3-03267"]}
+{"sentence_id": "SY-02379", "unit_ids": ["K3-03268"]}
+{"sentence_id": "SY-02380", "unit_ids": ["K3-03269"]}
+{"sentence_id": "SY-02381", "unit_ids": ["K3-03270"]}
+{"sentence_id": "SY-02383", "unit_ids": ["K3-03271"]}
+{"sentence_id": "SY-02385", "unit_ids": ["K3-03272"]}
+{"sentence_id": "SY-02386", "unit_ids": ["K3-03273"]}
+{"sentence_id": "SY-02387", "unit_ids": ["K3-03274"]}
+{"sentence_id": "SY-02388", "unit_ids": ["K3-03275"]}
+{"sentence_id": "SY-02390", "unit_ids": ["K3-03276"]}
+{"sentence_id": "SY-02391", "unit_ids": ["K3-03277"]}
+{"sentence_id": "SY-02392", "unit_ids": ["K1-03217", "K2-03278", "K3-03279"]}
+{"sentence_id": "SY-02393", "unit_ids": ["K3-03280"]}
+{"sentence_id": "SY-02394", "unit_ids": ["K3-03281"]}
+{"sentence_id": "SY-02396", "unit_ids": ["K1-03220", "K3-03282"]}
+{"sentence_id": "SY-02397", "unit_ids": ["K3-03283"]}
+{"sentence_id": "SY-02398", "unit_ids": ["K3-03284"]}
+{"sentence_id": "SY-02399", "unit_ids": ["K1-03285", "K2-03286", "K3-03287"]}
+{"sentence_id": "SY-02400", "unit_ids": ["K1-03217", "K2-03278", "K3-03288"]}
+{"sentence_id": "SY-02402", "unit_ids": ["K3-03289"]}
+{"sentence_id": "SY-02403", "unit_ids": ["K1-02360", "K2-03290", "K3-03291"]}
+{"sentence_id": "SY-02404", "unit_ids": ["K3-03292"]}
+{"sentence_id": "SY-02405", "unit_ids": ["K1-02344", "K3-03293"]}
+{"sentence_id": "SY-02406", "unit_ids": ["K3-03294"]}
+{"sentence_id": "SY-02407", "unit_ids": ["K3-03295"]}
+{"sentence_id": "SY-02409", "unit_ids": ["K3-03296"]}
+{"sentence_id": "SY-02411", "unit_ids": ["K1-02360", "K3-03297"]}
+{"sentence_id": "SY-02412", "unit_ids": ["K1-02409", "K3-03298"]}
+{"sentence_id": "SY-02413", "unit_ids": ["K3-03299"]}
+{"sentence_id": "SY-02414", "unit_ids": ["K1-03229", "K3-03300"]}
+{"sentence_id": "SY-02416", "unit_ids": ["K1-03220", "K3-03301"]}
+{"sentence_id": "SY-02417", "unit_ids": ["K1-03229", "K3-03302"]}
+{"sentence_id": "SY-02418", "unit_ids": ["K3-03303"]}
+{"sentence_id": "SY-02419", "unit_ids": ["K3-03304"]}
+{"sentence_id": "SY-02420", "unit_ids": ["K1-02333", "K3-03305"]}
+{"sentence_id": "SY-02422", "unit_ids": ["K3-03306"]}
+{"sentence_id": "SY-02423", "unit_ids": ["K1-03229", "K2-00207", "K3-03307"]}
+{"sentence_id": "SY-02424", "unit_ids": ["K3-03308"]}
+{"sentence_id": "SY-02425", "unit_ids": ["K3-03309"]}
+{"sentence_id": "SY-02426", "unit_ids": ["K1-03220", "K2-03310", "K3-03311"]}
+{"sentence_id": "SY-02427", "unit_ids": ["K3-03312"]}
+{"sentence_id": "SY-02428", "unit_ids": ["K1-03191", "K3-03313"]}
+{"sentence_id": "SY-02429", "unit_ids": ["K3-03314"]}
+{"sentence_id": "SY-02431", "unit_ids": ["K1-02354", "K3-03315"]}
+{"sentence_id": "SY-02432", "unit_ids": ["K3-03316"]}
+{"sentence_id": "SY-02433", "unit_ids": ["K3-03317"]}
+{"sentence_id": "SY-02434", "unit_ids": ["K3-03318"]}
+{"sentence_id": "SY-02437", "unit_ids": ["K3-03319"]}
+{"sentence_id": "SY-02438", "unit_ids": ["K3-03320"]}
+{"sentence_id": "SY-02440", "unit_ids": ["K1-02363", "K3-03321"]}
+{"sentence_id": "SY-02441", "unit_ids": ["K1-02386", "K2-03322", "K3-03323"]}
+{"sentence_id": "SY-02442", "unit_ids": ["K3-03324"]}
+{"sentence_id": "SY-02443", "unit_ids": ["K3-03325"]}
+{"sentence_id": "SY-02444", "unit_ids": ["K3-03326"]}
+{"sentence_id": "SY-02446", "unit_ids": ["K1-02333", "K3-03327"]}
+{"sentence_id": "SY-02447", "unit_ids": ["K3-03328"]}
+{"sentence_id": "SY-02448", "unit_ids": ["K3-03329"]}
+{"sentence_id": "SY-02449", "unit_ids": ["K1-02436", "K2-03330", "K3-03331"]}
+{"sentence_id": "SY-02450", "unit_ids": ["K1-02363", "K3-03332"]}
+{"sentence_id": "SY-02451", "unit_ids": ["K3-03333"]}
+{"sentence_id": "SY-02452", "unit_ids": ["K3-03334"]}
+{"sentence_id": "SY-02454", "unit_ids": ["K3-03335"]}
+{"sentence_id": "SY-02455", "unit_ids": ["K3-03336"]}
+{"sentence_id": "SY-02457", "unit_ids": ["K3-03337"]}
+{"sentence_id": "SY-02458", "unit_ids": ["K3-03338"]}
+{"sentence_id": "SY-02459", "unit_ids": ["K3-03339"]}
+{"sentence_id": "SY-02460", "unit_ids": ["K3-03340"]}
+{"sentence_id": "SY-02461", "unit_ids": ["K3-03341"]}
+{"sentence_id": "SY-02462", "unit_ids": ["K3-03342"]}
+{"sentence_id": "SY-02463", "unit_ids": ["K1-03229", "K2-00207", "K3-03343"]}
+{"sentence_id": "SY-02464", "unit_ids": ["K3-03344"]}
+{"sentence_id": "SY-02465", "unit_ids": ["K1-02354", "K3-03345"]}
+{"sentence_id": "SY-02466", "unit_ids": ["K1-03217", "K3-03346"]}
+{"sentence_id": "SY-02467", "unit_ids": ["K1-02436", "K2-03347", "K3-03348"]}
+{"sentence_id": "SY-02468", "unit_ids": ["K3-03349"]}
+{"sentence_id": "SY-02469", "unit_ids": ["K3-03350"]}
+{"sentence_id": "SY-02470", "unit_ids": ["K3-03351"]}
+{"sentence_id": "SY-02472", "unit_ids": ["K3-03352"]}
+{"sentence_id": "SY-02475", "unit_ids": ["K3-03353"]}
+{"sentence_id": "SY-02476", "unit_ids": ["K3-03354"]}
+{"sentence_id": "SY-02477", "unit_ids": ["K3-03355"]}
+{"sentence_id": "SY-02479", "unit_ids": ["K1-02363", "K3-03356"]}
+{"sentence_id": "SY-02481", "unit_ids": ["K3-03357"]}
+{"sentence_id": "SY-02482", "unit_ids": ["K1-03229", "K3-03358"]}
+{"sentence_id": "SY-02483", "unit_ids": ["K3-03359"]}
+{"sentence_id": "SY-02485", "unit_ids": ["K3-03360"]}
+{"sentence_id": "SY-02487", "unit_ids": ["K1-03191", "K2-03361", "K3-03362"]}
+{"sentence_id": "SY-02488", "unit_ids": ["K1-02363", "K2-03363", "K3-03364"]}
+{"sentence_id": "SY-02489", "unit_ids": ["K3-03365"]}
+{"sentence_id": "SY-02491", "unit_ids": ["K3-03366"]}
+{"sentence_id": "SY-02492", "unit_ids": ["K3-03367"]}
+{"sentence_id": "SY-02493", "unit_ids": ["K3-03368"]}
+{"sentence_id": "SY-02494", "unit_ids": ["K3-03369"]}
+{"sentence_id": "SY-02495", "unit_ids": ["K3-03370"]}
+{"sentence_id": "SY-02496", "unit_ids": ["K3-03371"]}
+{"sentence_id": "SY-02499", "unit_ids": ["K3-03372"]}
+{"sentence_id": "SY-02501", "unit_ids": ["K3-03373"]}
+{"sentence_id": "SY-02502", "unit_ids": ["K1-03374", "K3-03375"]}
+{"sentence_id": "SY-02503", "unit_ids": ["K1-02354", "K2-03376", "K3-03377"]}
+{"sentence_id": "SY-02504", "unit_ids": ["K1-02409", "K3-03378"]}
+{"sentence_id": "SY-02505", "unit_ids": ["K1-02436", "K2-00095", "K3-03379"]}
+{"sentence_id": "SY-02506", "unit_ids": ["K3-03380"]}
+{"sentence_id": "SY-02507", "unit_ids": ["K3-03381"]}
+{"sentence_id": "SY-02508", "unit_ids": ["K3-03382"]}
+{"sentence_id": "SY-02509", "unit_ids": ["K3-03383"]}
+{"sentence_id": "SY-02512", "unit_ids": ["K3-03384"]}
+{"sentence_id": "SY-02515", "unit_ids": ["K3-03385"]}
+{"sentence_id": "SY-02520", "unit_ids": ["K3-03386"]}
+{"sentence_id": "SY-02522", "unit_ids": ["K1-03220", "K2-00162", "K3-03387"]}
+{"sentence_id": "SY-02523", "unit_ids": ["K3-03388"]}
+{"sentence_id": "SY-02524", "unit_ids": ["K3-03389"]}
+{"sentence_id": "SY-02525", "unit_ids": ["K3-03390"]}
+{"sentence_id": "SY-02527", "unit_ids": ["K1-02341", "K2-03391", "K3-03392"]}
+{"sentence_id": "SY-02528", "unit_ids": ["K3-03393"]}
+{"sentence_id": "SY-02529", "unit_ids": ["K3-03394"]}
+{"sentence_id": "SY-02530", "unit_ids": ["K3-03395"]}
+{"sentence_id": "SY-02532", "unit_ids": ["K3-03396"]}
+{"sentence_id": "SY-02533", "unit_ids": ["K3-03397"]}
+{"sentence_id": "SY-02534", "unit_ids": ["K1-02333", "K2-00185", "K3-03398"]}
+{"sentence_id": "SY-02535", "unit_ids": ["K3-03399"]}
+{"sentence_id": "SY-02536", "unit_ids": ["K1-03400", "K3-03401"]}
+{"sentence_id": "SY-02538", "unit_ids": ["K3-03402"]}
+{"sentence_id": "SY-02539", "unit_ids": ["K3-03403"]}
+{"sentence_id": "SY-02540", "unit_ids": ["K3-03404"]}
+{"sentence_id": "SY-02542", "unit_ids": ["K1-03374", "K2-03405", "K3-03406"]}
+{"sentence_id": "SY-02544", "unit_ids": ["K3-03407"]}
+{"sentence_id": "SY-02545", "unit_ids": ["K3-03408"]}
+{"sentence_id": "SY-02546", "unit_ids": ["K3-03409"]}
+{"sentence_id": "SY-02547", "unit_ids": ["K3-03410"]}
+{"sentence_id": "SY-02548", "unit_ids": ["K3-03411"]}
+{"sentence_id": "SY-02549", "unit_ids": ["K3-03412"]}
+{"sentence_id": "SY-02551", "unit_ids": ["K3-03413"]}
+{"sentence_id": "SY-02552", "unit_ids": ["K3-03414"]}
+{"sentence_id": "SY-02553", "unit_ids": ["K1-02333", "K3-03415"]}
+{"sentence_id": "SY-02554", "unit_ids": ["K3-03416"]}
+{"sentence_id": "SY-02555", "unit_ids": ["K1-02355", "K2-03417", "K3-03418"]}
+{"sentence_id": "SY-02556", "unit_ids": ["K3-03419"]}
+{"sentence_id": "SY-02557", "unit_ids": ["K3-03420"]}
+{"sentence_id": "SY-02558", "unit_ids": ["K3-03421"]}
+{"sentence_id": "SY-02559", "unit_ids": ["K1-02341", "K3-03422"]}
+{"sentence_id": "SY-02560", "unit_ids": ["K3-03423"]}
+{"sentence_id": "SY-02561", "unit_ids": ["K3-03424"]}
+{"sentence_id": "SY-02562", "unit_ids": ["K3-03425"]}
+{"sentence_id": "SY-02563", "unit_ids": ["K1-02354", "K3-03426"]}
+{"sentence_id": "SY-02564", "unit_ids": ["K3-03427"]}
+{"sentence_id": "SY-02565", "unit_ids": ["K3-03428"]}
+{"sentence_id": "SY-02566", "unit_ids": ["K3-03429"]}
+{"sentence_id": "SY-02567", "unit_ids": ["K3-03430"]}
+{"sentence_id": "SY-02568", "unit_ids": ["K3-03431"]}
+{"sentence_id": "SY-02570", "unit_ids": ["K3-03432"]}
+{"sentence_id": "SY-02572", "unit_ids": ["K3-03433"]}
+{"sentence_id": "SY-02573", "unit_ids": ["K3-03434"]}
+{"sentence_id": "SY-02574", "unit_ids": ["K1-02386", "K2-03435", "K3-03436"]}
+{"sentence_id": "SY-02575", "unit_ids": ["K3-03437"]}
+{"sentence_id": "SY-02576", "unit_ids": ["K3-03438"]}
+{"sentence_id": "SY-02580", "unit_ids": ["K3-03439"]}
+{"sentence_id": "SY-02581", "unit_ids": ["K3-03440"]}
+{"sentence_id": "SY-02582", "unit_ids": ["K3-03441"]}
+{"sentence_id": "SY-02583", "unit_ids": ["K1-03400", "K2-03442", "K3-03443"]}
+{"sentence_id": "SY-02584", "unit_ids": ["K1-03191", "K3-03444"]}
+{"sentence_id": "SY-02585", "unit_ids": ["K1-02345", "K2-03445", "K3-03446"]}
+{"sentence_id": "SY-02586", "unit_ids": ["K3-03447"]}
+{"sentence_id": "SY-02587", "unit_ids": ["K1-02355", "K3-03448"]}
+{"sentence_id": "SY-02589", "unit_ids": ["K1-02355", "K2-03449", "K3-03450"]}
+{"sentence_id": "SY-02590", "unit_ids": ["K3-03451"]}
+{"sentence_id": "SY-02591", "unit_ids": ["K3-03452"]}
+{"sentence_id": "SY-02592", "unit_ids": ["K1-02332", "K2-03453", "K3-03454"]}
+{"sentence_id": "SY-02593", "unit_ids": ["K1-03229", "K3-03455"]}
+{"sentence_id": "SY-02594", "unit_ids": ["K1-02360", "K2-03456", "K3-03457"]}
+{"sentence_id": "SY-02595", "unit_ids": ["K1-03229", "K3-03458"]}
+{"sentence_id": "SY-02596", "unit_ids": ["K1-02360", "K2-00194", "K3-03459"]}
+{"sentence_id": "SY-02597", "unit_ids": ["K1-03220", "K2-00162", "K3-03460"]}
+{"sentence_id": "SY-02598", "unit_ids": ["K1-03229", "K3-03461"]}
+{"sentence_id": "SY-02599", "unit_ids": ["K3-03462"]}
+{"sentence_id": "SY-02600", "unit_ids": ["K3-03463"]}
+{"sentence_id": "SY-02601", "unit_ids": ["K3-03464"]}
+{"sentence_id": "SY-02602", "unit_ids": ["K3-03465"]}
+{"sentence_id": "SY-02603", "unit_ids": ["K1-02355", "K3-03466"]}
+{"sentence_id": "SY-02605", "unit_ids": ["K3-03467"]}
+{"sentence_id": "SY-02606", "unit_ids": ["K1-03229", "K3-03468"]}
+{"sentence_id": "SY-02607", "unit_ids": ["K3-03469"]}
+{"sentence_id": "SY-02608", "unit_ids": ["K1-02409", "K3-03470"]}
+{"sentence_id": "SY-02609", "unit_ids": ["K1-02436", "K3-03471"]}
+{"sentence_id": "SY-02610", "unit_ids": ["K3-03472"]}
+{"sentence_id": "SY-02612", "unit_ids": ["K3-03473"]}
+{"sentence_id": "SY-02614", "unit_ids": ["K3-03474"]}
+{"sentence_id": "SY-02616", "unit_ids": ["K3-03475"]}
+{"sentence_id": "SY-02617", "unit_ids": ["K3-03476"]}
+{"sentence_id": "SY-02618", "unit_ids": ["K3-03477"]}
+{"sentence_id": "SY-02620", "unit_ids": ["K1-02360", "K3-03478"]}
+{"sentence_id": "SY-02622", "unit_ids": ["K1-02363", "K3-03479"]}
+{"sentence_id": "SY-02624", "unit_ids": ["K3-03480"]}
+{"sentence_id": "SY-02627", "unit_ids": ["K3-03481"]}
+{"sentence_id": "SY-02629", "unit_ids": ["K3-03482"]}
+{"sentence_id": "SY-02630", "unit_ids": ["K3-03483"]}
+{"sentence_id": "SY-02634", "unit_ids": ["K3-03484"]}
+{"sentence_id": "SY-02635", "unit_ids": ["K3-03485"]}
+{"sentence_id": "SY-02636", "unit_ids": ["K3-03486"]}
+{"sentence_id": "SY-02637", "unit_ids": ["K3-03487"]}
+{"sentence_id": "SY-02638", "unit_ids": ["K1-03285", "K3-03488"]}
+{"sentence_id": "SY-02639", "unit_ids": ["K1-03229", "K3-03489"]}
+{"sentence_id": "SY-02640", "unit_ids": ["K3-03490"]}
+{"sentence_id": "SY-02641", "unit_ids": ["K3-03491"]}
+{"sentence_id": "SY-02642", "unit_ids": ["K3-03492"]}
+{"sentence_id": "SY-02643", "unit_ids": ["K1-02345", "K3-03493"]}
+{"sentence_id": "SY-02644", "unit_ids": ["K1-02386", "K3-03494"]}
+{"sentence_id": "SY-02646", "unit_ids": ["K1-03495", "K3-03496"]}
+{"sentence_id": "SY-02647", "unit_ids": ["K3-03497"]}
+{"sentence_id": "SY-02648", "unit_ids": ["K1-03400", "K3-03498"]}
+{"sentence_id": "SY-02649", "unit_ids": ["K1-02386", "K3-03499"]}
+{"sentence_id": "SY-02650", "unit_ids": ["K1-03191", "K3-03500"]}
+{"sentence_id": "SY-02651", "unit_ids": ["K3-03501"]}
+{"sentence_id": "SY-02653", "unit_ids": ["K1-02333", "K3-03502"]}
+{"sentence_id": "SY-02654", "unit_ids": ["K1-02333", "K3-03503"]}
+{"sentence_id": "SY-02655", "unit_ids": ["K3-03504"]}
+{"sentence_id": "SY-02656", "unit_ids": ["K1-03400", "K3-03505"]}
+{"sentence_id": "SY-02657", "unit_ids": ["K3-03506"]}
+{"sentence_id": "SY-02658", "unit_ids": ["K3-03507"]}
+{"sentence_id": "SY-02659", "unit_ids": ["K3-03508"]}
+{"sentence_id": "SY-02660", "unit_ids": ["K1-03400", "K2-03509", "K3-03510"]}
+{"sentence_id": "SY-02661", "unit_ids": ["K1-02360", "K2-03225", "K3-03511"]}
+{"sentence_id": "SY-02662", "unit_ids": ["K1-03211", "K2-03512", "K3-03513"]}
+{"sentence_id": "SY-02663", "unit_ids": ["K3-03514"]}
+{"sentence_id": "SY-02664", "unit_ids": ["K3-03515"]}
+{"sentence_id": "SY-02667", "unit_ids": ["K3-03516"]}
+{"sentence_id": "SY-02668", "unit_ids": ["K1-02360", "K3-03517"]}
+{"sentence_id": "SY-02669", "unit_ids": ["K1-02333", "K3-03518"]}
+{"sentence_id": "SY-02670", "unit_ids": ["K1-03374", "K2-03519", "K3-03520"]}
+{"sentence_id": "SY-02671", "unit_ids": ["K1-03285", "K3-03521"]}
+{"sentence_id": "SY-02672", "unit_ids": ["K3-03522"]}
+{"sentence_id": "SY-02673", "unit_ids": ["K3-03523"]}
+{"sentence_id": "SY-02675", "unit_ids": ["K1-03220", "K2-00162", "K3-03524"]}
+{"sentence_id": "SY-02676", "unit_ids": ["K3-03525"]}
+{"sentence_id": "SY-02677", "unit_ids": ["K3-03526"]}
+{"sentence_id": "SY-02679", "unit_ids": ["K1-02360", "K3-03527"]}
+{"sentence_id": "SY-02680", "unit_ids": ["K3-03528"]}
+{"sentence_id": "SY-02681", "unit_ids": ["K3-03529"]}
+{"sentence_id": "SY-02682", "unit_ids": ["K3-03530"]}
+{"sentence_id": "SY-02683", "unit_ids": ["K3-03531"]}
+{"sentence_id": "SY-02684", "unit_ids": ["K3-03532"]}
+{"sentence_id": "SY-02685", "unit_ids": ["K1-03400", "K3-03533"]}
+{"sentence_id": "SY-02686", "unit_ids": ["K3-03534"]}
+{"sentence_id": "SY-02687", "unit_ids": ["K3-03535"]}
+{"sentence_id": "SY-02688", "unit_ids": ["K3-03536"]}
+{"sentence_id": "SY-02689", "unit_ids": ["K1-02360", "K2-03537", "K3-03538"]}
+{"sentence_id": "SY-02690", "unit_ids": ["K3-03539"]}
+{"sentence_id": "SY-02691", "unit_ids": ["K3-03540"]}
+{"sentence_id": "SY-02692", "unit_ids": ["K3-03541"]}
+{"sentence_id": "SY-02693", "unit_ids": ["K3-03542"]}
+{"sentence_id": "SY-02695", "unit_ids": ["K1-02354", "K2-03376", "K3-03543"]}
+{"sentence_id": "SY-02697", "unit_ids": ["K3-03544"]}
+{"sentence_id": "SY-02698", "unit_ids": ["K3-03545"]}
+{"sentence_id": "SY-02699", "unit_ids": ["K1-03285", "K3-03546"]}
+{"sentence_id": "SY-02700", "unit_ids": ["K3-03547"]}
+{"sentence_id": "SY-02701", "unit_ids": ["K3-03548"]}
+{"sentence_id": "SY-02703", "unit_ids": ["K3-03549"]}
+{"sentence_id": "SY-02704", "unit_ids": ["K3-03550"]}
+{"sentence_id": "SY-02705", "unit_ids": ["K3-03551"]}
+{"sentence_id": "SY-02706", "unit_ids": ["K3-03552"]}
+{"sentence_id": "SY-02707", "unit_ids": ["K3-03553"]}
+{"sentence_id": "SY-02708", "unit_ids": ["K3-03554"]}
+{"sentence_id": "SY-02709", "unit_ids": ["K1-02333", "K3-03555"]}
+{"sentence_id": "SY-02711", "unit_ids": ["K3-03556"]}
+{"sentence_id": "SY-02714", "unit_ids": ["K3-03557"]}
+{"sentence_id": "SY-02716", "unit_ids": ["K1-02344", "K3-03558"]}
+{"sentence_id": "SY-02717", "unit_ids": ["K3-03559"]}
+{"sentence_id": "SY-02718", "unit_ids": ["K1-03374", "K3-03560"]}
+{"sentence_id": "SY-02719", "unit_ids": ["K1-02333", "K2-03561", "K3-03562"]}
+{"sentence_id": "SY-02720", "unit_ids": ["K1-02386", "K2-03563", "K3-03564"]}
+{"sentence_id": "SY-02721", "unit_ids": ["K3-03565"]}
+{"sentence_id": "SY-02722", "unit_ids": ["K3-03566"]}
+{"sentence_id": "SY-02723", "unit_ids": ["K3-03567"]}
+{"sentence_id": "SY-02724", "unit_ids": ["K3-03568"]}
+{"sentence_id": "SY-02725", "unit_ids": ["K3-03569"]}
+{"sentence_id": "SY-02727", "unit_ids": ["K1-03217", "K2-03570", "K3-03571"]}
+{"sentence_id": "SY-02729", "unit_ids": ["K3-03572"]}
+{"sentence_id": "SY-02733", "unit_ids": ["K3-03573"]}
+{"sentence_id": "SY-02736", "unit_ids": ["K3-03574"]}
+{"sentence_id": "SY-02738", "unit_ids": ["K3-03575"]}
+{"sentence_id": "SY-02739", "unit_ids": ["K3-03576"]}
+{"sentence_id": "SY-02741", "unit_ids": ["K1-03400", "K3-03577"]}
+{"sentence_id": "SY-02742", "unit_ids": ["K1-02345", "K3-03578"]}
+{"sentence_id": "SY-02743", "unit_ids": ["K1-02386", "K2-03579", "K3-03580"]}
+{"sentence_id": "SY-02744", "unit_ids": ["K3-03581"]}
+{"sentence_id": "SY-02745", "unit_ids": ["K1-03211", "K2-03582", "K3-03583"]}
+{"sentence_id": "SY-02746", "unit_ids": ["K3-03584"]}
+{"sentence_id": "SY-02747", "unit_ids": ["K1-02354", "K2-03585", "K3-03586"]}
+{"sentence_id": "SY-02748", "unit_ids": ["K1-02345", "K2-03587", "K3-03588"]}
+{"sentence_id": "SY-02749", "unit_ids": ["K3-03589"]}
+{"sentence_id": "SY-02750", "unit_ids": ["K1-02341", "K2-03590", "K3-03591"]}
+{"sentence_id": "SY-02752", "unit_ids": ["K1-02345", "K3-03592"]}
+{"sentence_id": "SY-02753", "unit_ids": ["K1-02436", "K2-03593", "K3-03594"]}
+{"sentence_id": "SY-02755", "unit_ids": ["K3-03595"]}
+{"sentence_id": "SY-02756", "unit_ids": ["K3-03596"]}
+{"sentence_id": "SY-02757", "unit_ids": ["K3-03597"]}
+{"sentence_id": "SY-02758", "unit_ids": ["K1-02360", "K3-03598"]}
+{"sentence_id": "SY-02759", "unit_ids": ["K3-03599"]}
+{"sentence_id": "SY-02761", "unit_ids": ["K3-03600"]}
+{"sentence_id": "SY-02762", "unit_ids": ["K1-02340", "K2-03601", "K3-03602"]}
+{"sentence_id": "SY-02763", "unit_ids": ["K3-03603"]}
+{"sentence_id": "SY-02764", "unit_ids": ["K3-03604"]}
+{"sentence_id": "SY-02765", "unit_ids": ["K1-02341", "K2-03605", "K3-03606"]}
+{"sentence_id": "SY-02766", "unit_ids": ["K1-02360", "K2-03290", "K3-03607"]}
+{"sentence_id": "SY-02767", "unit_ids": ["K3-03608"]}
+{"sentence_id": "SY-02769", "unit_ids": ["K3-03609"]}
+{"sentence_id": "SY-02770", "unit_ids": ["K1-02333", "K2-03610", "K3-03611"]}
+{"sentence_id": "SY-02771", "unit_ids": ["K1-03400", "K3-03612"]}
+{"sentence_id": "SY-02772", "unit_ids": ["K3-03613"]}
+{"sentence_id": "SY-02773", "unit_ids": ["K1-03400", "K3-03614"]}
+{"sentence_id": "SY-02774", "unit_ids": ["K1-03217", "K3-03615"]}
+{"sentence_id": "SY-02775", "unit_ids": ["K3-03616"]}
+{"sentence_id": "SY-02776", "unit_ids": ["K3-03617"]}
+{"sentence_id": "SY-02777", "unit_ids": ["K1-02345", "K2-03618", "K3-03619"]}
+{"sentence_id": "SY-02778", "unit_ids": ["K3-03620"]}
+{"sentence_id": "SY-02780", "unit_ids": ["K1-02332", "K2-03621", "K3-03622"]}
+{"sentence_id": "SY-02781", "unit_ids": ["K3-03623"]}
+{"sentence_id": "SY-02782", "unit_ids": ["K3-03624"]}
+{"sentence_id": "SY-02783", "unit_ids": ["K3-03625"]}
+{"sentence_id": "SY-02784", "unit_ids": ["K3-03626"]}
+{"sentence_id": "SY-02785", "unit_ids": ["K3-03627"]}
+{"sentence_id": "SY-02786", "unit_ids": ["K1-02360", "K3-03628"]}
+{"sentence_id": "SY-02787", "unit_ids": ["K3-03629"]}
+{"sentence_id": "SY-02788", "unit_ids": ["K3-03630"]}
+{"sentence_id": "SY-02789", "unit_ids": ["K3-03631"]}
+{"sentence_id": "SY-02790", "unit_ids": ["K3-03632"]}
+{"sentence_id": "SY-02791", "unit_ids": ["K3-03633"]}
+{"sentence_id": "SY-02792", "unit_ids": ["K1-03229", "K2-00207", "K3-03634"]}
+{"sentence_id": "SY-02794", "unit_ids": ["K3-03635"]}
+{"sentence_id": "SY-02795", "unit_ids": ["K3-03636"]}
+{"sentence_id": "SY-02796", "unit_ids": ["K1-02333", "K2-00185", "K3-03637"]}
+{"sentence_id": "SY-02798", "unit_ids": ["K3-03638"]}
+{"sentence_id": "SY-02799", "unit_ids": ["K3-03639"]}
+{"sentence_id": "SY-02800", "unit_ids": ["K1-03191", "K3-03640"]}
+{"sentence_id": "SY-02801", "unit_ids": ["K3-03641"]}
+{"sentence_id": "SY-02802", "unit_ids": ["K3-03642"]}
+{"sentence_id": "SY-02803", "unit_ids": ["K3-03643"]}
+{"sentence_id": "SY-02804", "unit_ids": ["K1-03644", "K2-03645", "K3-03646"]}
+{"sentence_id": "SY-02805", "unit_ids": ["K1-03647", "K2-03648", "K3-03649"]}
+{"sentence_id": "SY-02806", "unit_ids": ["K1-02409", "K1-03650", "K2-03651", "K3-03652"]}
+{"sentence_id": "SY-02807", "unit_ids": ["K1-02363", "K2-03653", "K3-03654"]}
+{"sentence_id": "SY-02808", "unit_ids": ["K1-03400", "K1-03655", "K2-03656", "K3-03657"]}
+{"sentence_id": "SY-02809", "unit_ids": ["K2-00111", "K3-03658"]}
+{"sentence_id": "SY-02810", "unit_ids": ["K1-03659", "K2-03570", "K3-03660"]}
+{"sentence_id": "SY-02811", "unit_ids": ["K2-03645", "K3-03661"]}
+{"sentence_id": "SY-02812", "unit_ids": ["K1-02436", "K1-03662", "K2-00095", "K3-03663"]}
+{"sentence_id": "SY-02813", "unit_ids": ["K2-03664", "K3-03665"]}
+{"sentence_id": "SY-02814", "unit_ids": ["K1-02363", "K2-03653", "K3-03666"]}
+{"sentence_id": "SY-02815", "unit_ids": ["K2-03667", "K3-03668"]}
+{"sentence_id": "SY-02816", "unit_ids": ["K3-03669"]}
+{"sentence_id": "SY-02817", "unit_ids": ["K2-03670", "K3-03671"]}
+{"sentence_id": "SY-02819", "unit_ids": ["K3-03672"]}
+{"sentence_id": "SY-02821", "unit_ids": ["K3-03673"]}
+{"sentence_id": "SY-02823", "unit_ids": ["K3-03674"]}
+{"sentence_id": "SY-02824", "unit_ids": ["K3-03675"]}
+{"sentence_id": "SY-02825", "unit_ids": ["K3-03676"]}
+{"sentence_id": "SY-02826", "unit_ids": ["K3-03677"]}
+{"sentence_id": "SY-02827", "unit_ids": ["K3-03678"]}
+{"sentence_id": "SY-02828", "unit_ids": ["K3-03679"]}
+{"sentence_id": "SY-02829", "unit_ids": ["K3-03680"]}
+{"sentence_id": "SY-02830", "unit_ids": ["K3-03681"]}
+{"sentence_id": "SY-02831", "unit_ids": ["K3-03682"]}
+{"sentence_id": "SY-02832", "unit_ids": ["K3-03683"]}
+{"sentence_id": "SY-02833", "unit_ids": ["K3-03684"]}
+{"sentence_id": "SY-02835", "unit_ids": ["K3-03685"]}
+{"sentence_id": "SY-02836", "unit_ids": ["K3-03686"]}
+{"sentence_id": "SY-02837", "unit_ids": ["K3-03687"]}
+{"sentence_id": "SY-02838", "unit_ids": ["K3-03688"]}
+{"sentence_id": "SY-02839", "unit_ids": ["K3-03689"]}
+{"sentence_id": "SY-02841", "unit_ids": ["K3-03690"]}
+{"sentence_id": "SY-02842", "unit_ids": ["K3-03691"]}
+{"sentence_id": "SY-02843", "unit_ids": ["K3-03692"]}
+{"sentence_id": "SY-02844", "unit_ids": ["K2-03693", "K3-03694"]}
+{"sentence_id": "SY-02845", "unit_ids": ["K2-03695", "K3-03696"]}
+{"sentence_id": "SY-02846", "unit_ids": ["K3-03697"]}
+{"sentence_id": "SY-02849", "unit_ids": ["K2-03698", "K3-03699"]}
+{"sentence_id": "SY-02851", "unit_ids": ["K3-03700"]}
+{"sentence_id": "SY-02852", "unit_ids": ["K2-03701", "K3-03702"]}
+{"sentence_id": "SY-02853", "unit_ids": ["K3-03703"]}
+{"sentence_id": "SY-02854", "unit_ids": ["K3-03704"]}
+{"sentence_id": "SY-02855", "unit_ids": ["K3-03705"]}
+{"sentence_id": "SY-02856", "unit_ids": ["K3-03706"]}
+{"sentence_id": "SY-02857", "unit_ids": ["K3-03707"]}
+{"sentence_id": "SY-02858", "unit_ids": ["K3-03708"]}
+{"sentence_id": "SY-02860", "unit_ids": ["K3-03709"]}
+{"sentence_id": "SY-02862", "unit_ids": ["K3-03710"]}
+{"sentence_id": "SY-02863", "unit_ids": ["K2-03711", "K3-03712"]}
+{"sentence_id": "SY-02864", "unit_ids": ["K2-03713", "K3-03714"]}
+{"sentence_id": "SY-02866", "unit_ids": ["K3-03715"]}
+{"sentence_id": "SY-02867", "unit_ids": ["K3-03716"]}
+{"sentence_id": "SY-02868", "unit_ids": ["K3-03717"]}
+{"sentence_id": "SY-02869", "unit_ids": ["K3-03718"]}
+{"sentence_id": "SY-02870", "unit_ids": ["K2-03719", "K3-03720"]}
+{"sentence_id": "SY-02872", "unit_ids": ["K3-03721"]}
+{"sentence_id": "SY-02873", "unit_ids": ["K3-03722"]}
+{"sentence_id": "SY-02874", "unit_ids": ["K3-03723"]}
+{"sentence_id": "SY-02875", "unit_ids": ["K3-03724"]}
+{"sentence_id": "SY-02876", "unit_ids": ["K3-03725"]}
+{"sentence_id": "SY-02877", "unit_ids": ["K3-03726"]}
+{"sentence_id": "SY-02878", "unit_ids": ["K3-03727"]}
+{"sentence_id": "SY-02880", "unit_ids": ["K2-03728", "K3-03729"]}
+{"sentence_id": "SY-02882", "unit_ids": ["K3-03730"]}
+{"sentence_id": "SY-02883", "unit_ids": ["K2-03731", "K3-03732"]}
+{"sentence_id": "SY-02885", "unit_ids": ["K3-03733"]}
+{"sentence_id": "SY-02886", "unit_ids": ["K2-00398", "K3-03734"]}
+{"sentence_id": "SY-02887", "unit_ids": ["K3-03735"]}
+{"sentence_id": "SY-02888", "unit_ids": ["K3-03736"]}
+{"sentence_id": "SY-02889", "unit_ids": ["K2-03737", "K3-03738"]}
+{"sentence_id": "SY-02890", "unit_ids": ["K2-03739", "K3-03740"]}
+{"sentence_id": "SY-02891", "unit_ids": ["K2-03741", "K3-03742"]}
+{"sentence_id": "SY-02893", "unit_ids": ["K2-03743", "K3-03744"]}
+{"sentence_id": "SY-02894", "unit_ids": ["K3-03745"]}
+{"sentence_id": "SY-02896", "unit_ids": ["K3-03746"]}
+{"sentence_id": "SY-02898", "unit_ids": ["K2-03747", "K3-03748"]}
+{"sentence_id": "SY-02899", "unit_ids": ["K2-00404", "K3-03749"]}
+{"sentence_id": "SY-02901", "unit_ids": ["K3-03750"]}
+{"sentence_id": "SY-02902", "unit_ids": ["K3-03751"]}
+{"sentence_id": "SY-02903", "unit_ids": ["K3-03752"]}
+{"sentence_id": "SY-02904", "unit_ids": ["K3-03753"]}
+{"sentence_id": "SY-02905", "unit_ids": ["K3-03754"]}
+{"sentence_id": "SY-02906", "unit_ids": ["K3-03755"]}
+{"sentence_id": "SY-02908", "unit_ids": ["K2-00389", "K3-03756"]}
+{"sentence_id": "SY-02909", "unit_ids": ["K3-03757"]}
+{"sentence_id": "SY-02910", "unit_ids": ["K3-03758"]}
+{"sentence_id": "SY-02912", "unit_ids": ["K3-03759"]}
+{"sentence_id": "SY-02913", "unit_ids": ["K3-03760"]}
+{"sentence_id": "SY-02914", "unit_ids": ["K2-03761", "K3-03762"]}
+{"sentence_id": "SY-02915", "unit_ids": ["K2-00417", "K3-03763"]}
+{"sentence_id": "SY-02917", "unit_ids": ["K2-03764", "K3-03765"]}
+{"sentence_id": "SY-02918", "unit_ids": ["K3-03766"]}
+{"sentence_id": "SY-02919", "unit_ids": ["K2-03767", "K3-03768"]}
+{"sentence_id": "SY-02920", "unit_ids": ["K3-03769"]}
+{"sentence_id": "SY-02921", "unit_ids": ["K3-03770"]}
+{"sentence_id": "SY-02922", "unit_ids": ["K3-03771"]}
+{"sentence_id": "SY-02923", "unit_ids": ["K2-03772", "K3-03773"]}
+{"sentence_id": "SY-02924", "unit_ids": ["K3-03774"]}
+{"sentence_id": "SY-02926", "unit_ids": ["K3-03775"]}
+{"sentence_id": "SY-02928", "unit_ids": ["K3-03776"]}
+{"sentence_id": "SY-02929", "unit_ids": ["K3-03777"]}
+{"sentence_id": "SY-02932", "unit_ids": ["K3-03778"]}
+{"sentence_id": "SY-02934", "unit_ids": ["K3-03779"]}
+{"sentence_id": "SY-02935", "unit_ids": ["K3-03780"]}
+{"sentence_id": "SY-02936", "unit_ids": ["K3-03781"]}
+{"sentence_id": "SY-02937", "unit_ids": ["K3-03782"]}
+{"sentence_id": "SY-02939", "unit_ids": ["K3-03783"]}
+{"sentence_id": "SY-02941", "unit_ids": ["K3-03784"]}
+{"sentence_id": "SY-02942", "unit_ids": ["K2-00380", "K3-03785"]}
+{"sentence_id": "SY-02943", "unit_ids": ["K3-03786"]}
+{"sentence_id": "SY-02945", "unit_ids": ["K2-03739", "K3-03787"]}
+{"sentence_id": "SY-02946", "unit_ids": ["K3-03788"]}
+{"sentence_id": "SY-02947", "unit_ids": ["K3-03789"]}
+{"sentence_id": "SY-02948", "unit_ids": ["K2-03790", "K3-03791"]}
+{"sentence_id": "SY-02950", "unit_ids": ["K3-03792"]}
+{"sentence_id": "SY-02953", "unit_ids": ["K3-03793"]}
+{"sentence_id": "SY-02954", "unit_ids": ["K2-00394", "K3-03794"]}
+{"sentence_id": "SY-02955", "unit_ids": ["K3-03795"]}
+{"sentence_id": "SY-02956", "unit_ids": ["K3-03796"]}
+{"sentence_id": "SY-02957", "unit_ids": ["K3-03797"]}
+{"sentence_id": "SY-02958", "unit_ids": ["K3-03798"]}
+{"sentence_id": "SY-02959", "unit_ids": ["K3-03799"]}
+{"sentence_id": "SY-02960", "unit_ids": ["K3-03800"]}
+{"sentence_id": "SY-02962", "unit_ids": ["K3-03801"]}
+{"sentence_id": "SY-02963", "unit_ids": ["K2-03802", "K3-03803"]}
+{"sentence_id": "SY-02965", "unit_ids": ["K3-03804"]}
+{"sentence_id": "SY-02968", "unit_ids": ["K3-03805"]}
+{"sentence_id": "SY-02969", "unit_ids": ["K2-00468", "K3-03806"]}
+{"sentence_id": "SY-02971", "unit_ids": ["K2-03807", "K3-03808"]}
+{"sentence_id": "SY-02972", "unit_ids": ["K3-03809"]}
+{"sentence_id": "SY-02973", "unit_ids": ["K3-03810"]}
+{"sentence_id": "SY-02975", "unit_ids": ["K3-03811"]}
+{"sentence_id": "SY-02976", "unit_ids": ["K3-03812"]}
+{"sentence_id": "SY-02977", "unit_ids": ["K3-03813"]}
+{"sentence_id": "SY-02978", "unit_ids": ["K2-00394", "K3-03814"]}
+{"sentence_id": "SY-02979", "unit_ids": ["K3-03815"]}
+{"sentence_id": "SY-02980", "unit_ids": ["K3-03816"]}
+{"sentence_id": "SY-02981", "unit_ids": ["K3-03817"]}
+{"sentence_id": "SY-02982", "unit_ids": ["K3-03818"]}
+{"sentence_id": "SY-02983", "unit_ids": ["K3-03819"]}
+{"sentence_id": "SY-02985", "unit_ids": ["K3-03820"]}
+{"sentence_id": "SY-02987", "unit_ids": ["K3-03821"]}
+{"sentence_id": "SY-02988", "unit_ids": ["K3-03822"]}
+{"sentence_id": "SY-02990", "unit_ids": ["K3-03823"]}
+{"sentence_id": "SY-02991", "unit_ids": ["K3-03824"]}
+{"sentence_id": "SY-02992", "unit_ids": ["K3-03825"]}
+{"sentence_id": "SY-02993", "unit_ids": ["K2-03739", "K3-03826"]}
+{"sentence_id": "SY-02994", "unit_ids": ["K2-03827", "K3-03828"]}
+{"sentence_id": "SY-02996", "unit_ids": ["K3-03829"]}
+{"sentence_id": "SY-02997", "unit_ids": ["K3-03830"]}
+{"sentence_id": "SY-02999", "unit_ids": ["K2-00547", "K3-03831"]}
+{"sentence_id": "SY-03000", "unit_ids": ["K3-03832"]}
+{"sentence_id": "SY-03001", "unit_ids": ["K3-03833"]}
+{"sentence_id": "SY-03002", "unit_ids": ["K3-03834"]}
+{"sentence_id": "SY-03003", "unit_ids": ["K2-00402", "K3-03835"]}
+{"sentence_id": "SY-03004", "unit_ids": ["K3-03836"]}
+{"sentence_id": "SY-03006", "unit_ids": ["K3-03837"]}
+{"sentence_id": "SY-03009", "unit_ids": ["K3-03838"]}
+{"sentence_id": "SY-03010", "unit_ids": ["K3-03839"]}
+{"sentence_id": "SY-03011", "unit_ids": ["K2-00404", "K3-03840"]}
+{"sentence_id": "SY-03012", "unit_ids": ["K3-03841"]}
+{"sentence_id": "SY-03013", "unit_ids": ["K3-03842"]}
+{"sentence_id": "SY-03014", "unit_ids": ["K3-03843"]}
+{"sentence_id": "SY-03015", "unit_ids": ["K3-03844"]}
+{"sentence_id": "SY-03016", "unit_ids": ["K3-03845"]}
+{"sentence_id": "SY-03017", "unit_ids": ["K3-03846"]}
+{"sentence_id": "SY-03018", "unit_ids": ["K3-03847"]}
+{"sentence_id": "SY-03020", "unit_ids": ["K3-03848"]}
+{"sentence_id": "SY-03022", "unit_ids": ["K2-00389", "K3-03849"]}
+{"sentence_id": "SY-03024", "unit_ids": ["K3-03850"]}
+{"sentence_id": "SY-03025", "unit_ids": ["K3-03851"]}
+{"sentence_id": "SY-03026", "unit_ids": ["K2-03852", "K3-03853"]}
+{"sentence_id": "SY-03027", "unit_ids": ["K3-03854"]}
+{"sentence_id": "SY-03028", "unit_ids": ["K3-03855"]}
+{"sentence_id": "SY-03029", "unit_ids": ["K3-03856"]}
+{"sentence_id": "SY-03031", "unit_ids": ["K3-03857"]}
+{"sentence_id": "SY-03032", "unit_ids": ["K3-03858"]}
+{"sentence_id": "SY-03033", "unit_ids": ["K3-03859"]}
+{"sentence_id": "SY-03034", "unit_ids": ["K3-03860"]}
+{"sentence_id": "SY-03035", "unit_ids": ["K3-03861"]}
+{"sentence_id": "SY-03036", "unit_ids": ["K2-03862", "K3-03863"]}
+{"sentence_id": "SY-03037", "unit_ids": ["K3-03864"]}
+{"sentence_id": "SY-03039", "unit_ids": ["K3-03865"]}
+{"sentence_id": "SY-03041", "unit_ids": ["K3-03866"]}
+{"sentence_id": "SY-03042", "unit_ids": ["K3-03867"]}
+{"sentence_id": "SY-03043", "unit_ids": ["K3-03868"]}
+{"sentence_id": "SY-03044", "unit_ids": ["K2-03869", "K3-03870"]}
+{"sentence_id": "SY-03045", "unit_ids": ["K3-03871"]}
+{"sentence_id": "SY-03046", "unit_ids": ["K3-03872"]}
+{"sentence_id": "SY-03049", "unit_ids": ["K3-03873"]}
+{"sentence_id": "SY-03050", "unit_ids": ["K2-03874", "K3-03875"]}
+{"sentence_id": "SY-03051", "unit_ids": ["K3-03876"]}
+{"sentence_id": "SY-03052", "unit_ids": ["K3-03877"]}
+{"sentence_id": "SY-03053", "unit_ids": ["K2-03878", "K3-03879"]}
+{"sentence_id": "SY-03054", "unit_ids": ["K3-03880"]}
+{"sentence_id": "SY-03055", "unit_ids": ["K3-03881"]}
+{"sentence_id": "SY-03056", "unit_ids": ["K3-03882"]}
+{"sentence_id": "SY-03057", "unit_ids": ["K2-03883", "K3-03884"]}
+{"sentence_id": "SY-03058", "unit_ids": ["K3-03885"]}
+{"sentence_id": "SY-03059", "unit_ids": ["K2-03886", "K3-03887"]}
+{"sentence_id": "SY-03060", "unit_ids": ["K3-03888"]}
+{"sentence_id": "SY-03061", "unit_ids": ["K3-03889"]}
+{"sentence_id": "SY-03063", "unit_ids": ["K3-03890"]}
+{"sentence_id": "SY-03064", "unit_ids": ["K3-03891"]}
+{"sentence_id": "SY-03065", "unit_ids": ["K3-03892"]}
+{"sentence_id": "SY-03066", "unit_ids": ["K3-03893"]}
+{"sentence_id": "SY-03067", "unit_ids": ["K3-03894"]}
+{"sentence_id": "SY-03068", "unit_ids": ["K3-03895"]}
+{"sentence_id": "SY-03069", "unit_ids": ["K2-00404", "K3-03896"]}
+{"sentence_id": "SY-03070", "unit_ids": ["K3-03897"]}
+{"sentence_id": "SY-03071", "unit_ids": ["K3-03898"]}
+{"sentence_id": "SY-03072", "unit_ids": ["K2-00427", "K3-03899"]}
+{"sentence_id": "SY-03073", "unit_ids": ["K3-03900"]}
+{"sentence_id": "SY-03075", "unit_ids": ["K3-03901"]}
+{"sentence_id": "SY-03076", "unit_ids": ["K3-03902"]}
+{"sentence_id": "SY-03077", "unit_ids": ["K3-03903"]}
+{"sentence_id": "SY-03078", "unit_ids": ["K3-03904"]}
+{"sentence_id": "SY-03079", "unit_ids": ["K3-03905"]}
+{"sentence_id": "SY-03080", "unit_ids": ["K3-03906"]}
+{"sentence_id": "SY-03081", "unit_ids": ["K3-03907"]}
+{"sentence_id": "SY-03085", "unit_ids": ["K3-03908"]}
+{"sentence_id": "SY-03086", "unit_ids": ["K2-03909", "K3-03910"]}
+{"sentence_id": "SY-03087", "unit_ids": ["K3-03911"]}
+{"sentence_id": "SY-03088", "unit_ids": ["K3-03912"]}
+{"sentence_id": "SY-03089", "unit_ids": ["K3-03913"]}
+{"sentence_id": "SY-03090", "unit_ids": ["K3-03914"]}
+{"sentence_id": "SY-03091", "unit_ids": ["K3-03915"]}
+{"sentence_id": "SY-03092", "unit_ids": ["K3-03916"]}
+{"sentence_id": "SY-03094", "unit_ids": ["K2-03886", "K3-03917"]}
+{"sentence_id": "SY-03095", "unit_ids": ["K3-03918"]}
+{"sentence_id": "SY-03096", "unit_ids": ["K3-03919"]}
+{"sentence_id": "SY-03097", "unit_ids": ["K2-03920", "K3-03921"]}
+{"sentence_id": "SY-03098", "unit_ids": ["K2-03862", "K3-03922"]}
+{"sentence_id": "SY-03099", "unit_ids": ["K3-03923"]}
+{"sentence_id": "SY-03100", "unit_ids": ["K3-03924"]}
+{"sentence_id": "SY-03101", "unit_ids": ["K3-03925"]}
+{"sentence_id": "SY-03102", "unit_ids": ["K3-03926"]}
+{"sentence_id": "SY-03103", "unit_ids": ["K3-03927"]}
+{"sentence_id": "SY-03104", "unit_ids": ["K3-03928"]}
+{"sentence_id": "SY-03105", "unit_ids": ["K2-00400", "K3-03929"]}
+{"sentence_id": "SY-03106", "unit_ids": ["K3-03930"]}
+{"sentence_id": "SY-03107", "unit_ids": ["K3-03931"]}
+{"sentence_id": "SY-03108", "unit_ids": ["K3-03932"]}
+{"sentence_id": "SY-03109", "unit_ids": ["K3-03933"]}
+{"sentence_id": "SY-03111", "unit_ids": ["K3-03934"]}
+{"sentence_id": "SY-03113", "unit_ids": ["K3-03935"]}
+{"sentence_id": "SY-03115", "unit_ids": ["K3-03936"]}
+{"sentence_id": "SY-03116", "unit_ids": ["K3-03937"]}
+{"sentence_id": "SY-03117", "unit_ids": ["K3-03938"]}
+{"sentence_id": "SY-03118", "unit_ids": ["K2-00427", "K3-03939"]}
+{"sentence_id": "SY-03119", "unit_ids": ["K3-03940"]}
+{"sentence_id": "SY-03120", "unit_ids": ["K3-03941"]}
+{"sentence_id": "SY-03121", "unit_ids": ["K3-03942"]}
+{"sentence_id": "SY-03124", "unit_ids": ["K3-03943"]}
+{"sentence_id": "SY-03125", "unit_ids": ["K2-00402", "K3-03944"]}
+{"sentence_id": "SY-03128", "unit_ids": ["K3-03945"]}
+{"sentence_id": "SY-03129", "unit_ids": ["K3-03946"]}
+{"sentence_id": "SY-03132", "unit_ids": ["K3-03947"]}
+{"sentence_id": "SY-03133", "unit_ids": ["K3-03948"]}
+{"sentence_id": "SY-03134", "unit_ids": ["K2-00400", "K3-03949"]}
+{"sentence_id": "SY-03135", "unit_ids": ["K2-03950", "K3-03951"]}
+{"sentence_id": "SY-03136", "unit_ids": ["K3-03952"]}
+{"sentence_id": "SY-03137", "unit_ids": ["K2-03953", "K3-03954"]}
+{"sentence_id": "SY-03138", "unit_ids": ["K3-03955"]}
+{"sentence_id": "SY-03139", "unit_ids": ["K3-03956"]}
+{"sentence_id": "SY-03141", "unit_ids": ["K3-03957"]}
+{"sentence_id": "SY-03142", "unit_ids": ["K2-00511", "K3-03958"]}
+{"sentence_id": "SY-03143", "unit_ids": ["K3-03959"]}
+{"sentence_id": "SY-03144", "unit_ids": ["K3-03960"]}
+{"sentence_id": "SY-03145", "unit_ids": ["K3-03961"]}
+{"sentence_id": "SY-03146", "unit_ids": ["K3-03962"]}
+{"sentence_id": "SY-03147", "unit_ids": ["K3-03963"]}
+{"sentence_id": "SY-03148", "unit_ids": ["K2-03964", "K3-03965"]}
+{"sentence_id": "SY-03149", "unit_ids": ["K3-03966"]}
+{"sentence_id": "SY-03150", "unit_ids": ["K3-03967"]}
+{"sentence_id": "SY-03151", "unit_ids": ["K3-03968"]}
+{"sentence_id": "SY-03152", "unit_ids": ["K3-03969"]}
+{"sentence_id": "SY-03154", "unit_ids": ["K3-03970"]}
+{"sentence_id": "SY-03155", "unit_ids": ["K3-03971"]}
+{"sentence_id": "SY-03156", "unit_ids": ["K3-03972"]}
+{"sentence_id": "SY-03157", "unit_ids": ["K3-03973"]}
+{"sentence_id": "SY-03158", "unit_ids": ["K3-03974"]}
+{"sentence_id": "SY-03160", "unit_ids": ["K3-03975"]}
+{"sentence_id": "SY-03161", "unit_ids": ["K3-03976"]}
+{"sentence_id": "SY-03162", "unit_ids": ["K3-03977"]}
+{"sentence_id": "SY-03163", "unit_ids": ["K3-03978"]}
+{"sentence_id": "SY-03164", "unit_ids": ["K3-03979"]}
+{"sentence_id": "SY-03165", "unit_ids": ["K2-00385", "K3-03980"]}
+{"sentence_id": "SY-03166", "unit_ids": ["K3-03981"]}
+{"sentence_id": "SY-03167", "unit_ids": ["K3-03982"]}
+{"sentence_id": "SY-03168", "unit_ids": ["K3-03983"]}
+{"sentence_id": "SY-03169", "unit_ids": ["K3-03984"]}
+{"sentence_id": "SY-03171", "unit_ids": ["K3-03985"]}
+{"sentence_id": "SY-03172", "unit_ids": ["K3-03986"]}
+{"sentence_id": "SY-03173", "unit_ids": ["K3-03987"]}
+{"sentence_id": "SY-03175", "unit_ids": ["K2-00496", "K3-03988"]}
+{"sentence_id": "SY-03176", "unit_ids": ["K2-03989", "K3-03990"]}
+{"sentence_id": "SY-03178", "unit_ids": ["K3-03991"]}
+{"sentence_id": "SY-03179", "unit_ids": ["K3-03992"]}
+{"sentence_id": "SY-03180", "unit_ids": ["K3-03993"]}
+{"sentence_id": "SY-03181", "unit_ids": ["K3-03994"]}
+{"sentence_id": "SY-03182", "unit_ids": ["K3-03995"]}
+{"sentence_id": "SY-03183", "unit_ids": ["K3-03996"]}
+{"sentence_id": "SY-03184", "unit_ids": ["K2-00584", "K3-03997"]}
+{"sentence_id": "SY-03185", "unit_ids": ["K3-03998"]}
+{"sentence_id": "SY-03187", "unit_ids": ["K3-03999"]}
+{"sentence_id": "SY-03189", "unit_ids": ["K3-04000"]}
+{"sentence_id": "SY-03190", "unit_ids": ["K3-04001"]}
+{"sentence_id": "SY-03191", "unit_ids": ["K3-04002"]}
+{"sentence_id": "SY-03192", "unit_ids": ["K3-04003"]}
+{"sentence_id": "SY-03193", "unit_ids": ["K2-04004", "K3-04005"]}
+{"sentence_id": "SY-03194", "unit_ids": ["K2-04006", "K3-04007"]}
+{"sentence_id": "SY-03195", "unit_ids": ["K3-04008"]}
+{"sentence_id": "SY-03196", "unit_ids": ["K3-04009"]}
+{"sentence_id": "SY-03197", "unit_ids": ["K3-04010"]}
+{"sentence_id": "SY-03200", "unit_ids": ["K3-04011"]}
+{"sentence_id": "SY-03201", "unit_ids": ["K3-04012"]}
+{"sentence_id": "SY-03202", "unit_ids": ["K3-04013"]}
+{"sentence_id": "SY-03204", "unit_ids": ["K2-04014", "K3-04015"]}
+{"sentence_id": "SY-03205", "unit_ids": ["K3-04016"]}
+{"sentence_id": "SY-03206", "unit_ids": ["K2-00605", "K3-04017"]}
+{"sentence_id": "SY-03209", "unit_ids": ["K3-04018"]}
+{"sentence_id": "SY-03210", "unit_ids": ["K3-04019"]}
+{"sentence_id": "SY-03212", "unit_ids": ["K3-04020"]}
+{"sentence_id": "SY-03213", "unit_ids": ["K3-04021"]}
+{"sentence_id": "SY-03215", "unit_ids": ["K3-04022"]}
+{"sentence_id": "SY-03216", "unit_ids": ["K2-04023", "K3-04024"]}
+{"sentence_id": "SY-03217", "unit_ids": ["K3-04025"]}
+{"sentence_id": "SY-03218", "unit_ids": ["K2-04026", "K3-04027"]}
+{"sentence_id": "SY-03220", "unit_ids": ["K3-04028"]}
+{"sentence_id": "SY-03221", "unit_ids": ["K2-00605", "K3-04029"]}
+{"sentence_id": "SY-03222", "unit_ids": ["K3-04030"]}
+{"sentence_id": "SY-03224", "unit_ids": ["K3-04031"]}
+{"sentence_id": "SY-03225", "unit_ids": ["K3-04032"]}
+{"sentence_id": "SY-03226", "unit_ids": ["K3-04033"]}
+{"sentence_id": "SY-03227", "unit_ids": ["K3-04034"]}
+{"sentence_id": "SY-03228", "unit_ids": ["K3-04035"]}
+{"sentence_id": "SY-03229", "unit_ids": ["K3-04036"]}
+{"sentence_id": "SY-03231", "unit_ids": ["K3-04037"]}
+{"sentence_id": "SY-03232", "unit_ids": ["K3-04038"]}
+{"sentence_id": "SY-03233", "unit_ids": ["K3-04039"]}
+{"sentence_id": "SY-03234", "unit_ids": ["K3-04040"]}
+{"sentence_id": "SY-03235", "unit_ids": ["K2-04041", "K3-04042"]}
+{"sentence_id": "SY-03236", "unit_ids": ["K3-04043"]}
+{"sentence_id": "SY-03237", "unit_ids": ["K3-04044"]}
+{"sentence_id": "SY-03238", "unit_ids": ["K2-00402", "K3-04045"]}
+{"sentence_id": "SY-03239", "unit_ids": ["K3-04046"]}
+{"sentence_id": "SY-03240", "unit_ids": ["K3-04047"]}
+{"sentence_id": "SY-03241", "unit_ids": ["K3-04048"]}
+{"sentence_id": "SY-03242", "unit_ids": ["K3-04049"]}
+{"sentence_id": "SY-03243", "unit_ids": ["K3-04050"]}
+{"sentence_id": "SY-03244", "unit_ids": ["K2-00404", "K3-04051"]}
+{"sentence_id": "SY-03245", "unit_ids": ["K3-04052"]}
+{"sentence_id": "SY-03247", "unit_ids": ["K2-04053", "K3-04054"]}
+{"sentence_id": "SY-03248", "unit_ids": ["K3-04055"]}
+{"sentence_id": "SY-03249", "unit_ids": ["K2-04056", "K3-04057"]}
+{"sentence_id": "SY-03250", "unit_ids": ["K3-04058"]}
+{"sentence_id": "SY-03252", "unit_ids": ["K3-04059"]}
+{"sentence_id": "SY-03253", "unit_ids": ["K3-04060"]}
+{"sentence_id": "SY-03254", "unit_ids": ["K3-04061"]}
+{"sentence_id": "SY-03255", "unit_ids": ["K3-04062"]}
+{"sentence_id": "SY-03258", "unit_ids": ["K3-04063"]}
+{"sentence_id": "SY-03259", "unit_ids": ["K3-04064"]}
+{"sentence_id": "SY-03261", "unit_ids": ["K3-04065"]}
+{"sentence_id": "SY-03262", "unit_ids": ["K3-04066"]}
+{"sentence_id": "SY-03264", "unit_ids": ["K3-04067"]}
+{"sentence_id": "SY-03265", "unit_ids": ["K3-04068"]}
+{"sentence_id": "SY-03267", "unit_ids": ["K3-04069"]}
+{"sentence_id": "SY-03268", "unit_ids": ["K3-04070"]}
+{"sentence_id": "SY-03270", "unit_ids": ["K3-04071"]}
+{"sentence_id": "SY-03271", "unit_ids": ["K3-04072"]}
+{"sentence_id": "SY-03272", "unit_ids": ["K3-04073"]}
+{"sentence_id": "SY-03273", "unit_ids": ["K3-04074"]}
+{"sentence_id": "SY-03274", "unit_ids": ["K3-04075"]}
+{"sentence_id": "SY-03275", "unit_ids": ["K3-04076"]}
+{"sentence_id": "SY-03276", "unit_ids": ["K3-04077"]}
+{"sentence_id": "SY-03278", "unit_ids": ["K3-04078"]}
+{"sentence_id": "SY-03279", "unit_ids": ["K3-04079"]}
+{"sentence_id": "SY-03280", "unit_ids": ["K3-04080"]}
+{"sentence_id": "SY-03281", "unit_ids": ["K3-04081"]}
+{"sentence_id": "SY-03282", "unit_ids": ["K3-04082"]}
+{"sentence_id": "SY-03284", "unit_ids": ["K3-04083"]}
+{"sentence_id": "SY-03285", "unit_ids": ["K3-04084"]}
+{"sentence_id": "SY-03287", "unit_ids": ["K3-04085"]}
+{"sentence_id": "SY-03288", "unit_ids": ["K3-04086"]}
+{"sentence_id": "SY-03289", "unit_ids": ["K3-04087"]}
+{"sentence_id": "SY-03290", "unit_ids": ["K3-04088"]}
+{"sentence_id": "SY-03291", "unit_ids": ["K3-04089"]}
+{"sentence_id": "SY-03293", "unit_ids": ["K3-04090"]}
+{"sentence_id": "SY-03294", "unit_ids": ["K3-04091"]}
+{"sentence_id": "SY-03299", "unit_ids": ["K3-04092"]}
+{"sentence_id": "SY-03301", "unit_ids": ["K3-04093"]}
+{"sentence_id": "SY-03302", "unit_ids": ["K3-04094"]}

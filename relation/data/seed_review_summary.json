@@ -1,0 +1,23 @@
+{
+ "seed_sentences": 540,
+ "dev_sentences": 60,
+ "dev:located_at:neg": 52,
+ "dev:located_at:pos": 38,
+ "dev:treated_by:neg": 6,
+ "dev:treated_by:pos": 4,
+ "dev:treated_by_procedure:neg": 4,
+ "dev:treated_by_procedure:pos": 7,
+ "entity_changed_from_ai_agreed": 0,
+ "entity_unresolved_dropped": 53,
+ "pair_changed_from_ai_agreed": 0,
+ "pair_dropped_entity_unresolved": 77,
+ "pair_unresolved_dropped": 33,
+ "seed:diagnosed_by:neg": 7,
+ "seed:diagnosed_by:pos": 20,
+ "seed:located_at:neg": 632,
+ "seed:located_at:pos": 299,
+ "seed:treated_by:neg": 54,
+ "seed:treated_by:pos": 75,
+ "seed:treated_by_procedure:neg": 40,
+ "seed:treated_by_procedure:pos": 42
+}

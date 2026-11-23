@@ -1,0 +1,104 @@
+{
+ "expert_decisions": {
+  "KEEP": 403,
+  "DROP": 118
+ },
+ "verdict_precision": {
+  "sample_valid": {
+   "rows": 267,
+   "expert_agrees_with_system": 241,
+   "rate": 0.903
+  },
+  "sample_wrong": {
+   "rows": 143,
+   "expert_agrees_with_system": 31,
+   "rate": 0.217
+  },
+  "all_not_found": {
+   "rows": 111,
+   "expert_agrees_with_system": 61,
+   "rate": 0.55
+  }
+ },
+ "kept_before_balance": 1473,
+ "dropped_by_balance": 189,
+ "pool": {
+  "records": 1284,
+  "pairs": 2024,
+  "by_method": {
+   "mention_replacement": 396,
+   "hard_negative": 768,
+   "template": 120
+  },
+  "by_status": {
+   "SYNTHETIC_AUTO_VALIDATED": 931,
+   "SYNTHETIC_EXPERT_CHECKED": 353
+  },
+  "pairs_by_label": {
+   "diagnosed_by:neg": 219,
+   "diagnosed_by:pos": 99,
+   "has_dosage:neg": 10,
+   "has_dosage:pos": 68,
+   "located_at:neg": 720,
+   "located_at:pos": 319,
+   "treated_by:neg": 216,
+   "treated_by:pos": 80,
+   "treated_by_procedure:neg": 211,
+   "treated_by_procedure:pos": 82
+  }
+ },
+ "x1": {
+  "records": 744,
+  "pairs": 1169,
+  "by_method": {
+   "hard_negative": 441,
+   "mention_replacement": 229,
+   "template": 74
+  },
+  "by_status": {
+   "SYNTHETIC_AUTO_VALIDATED": 536,
+   "SYNTHETIC_EXPERT_CHECKED": 208
+  },
+  "pairs_by_label": {
+   "diagnosed_by:neg": 129,
+   "diagnosed_by:pos": 56,
+   "has_dosage:neg": 6,
+   "has_dosage:pos": 45,
+   "located_at:neg": 433,
+   "located_at:pos": 172,
+   "treated_by:neg": 112,
+   "treated_by:pos": 41,
+   "treated_by_procedure:neg": 129,
+   "treated_by_procedure:pos": 46
+  },
+  "requested_pairs": 1169,
+  "short_of_request": false
+ },
+ "x3": {
+  "records": 1284,
+  "pairs": 2024,
+  "by_method": {
+   "hard_negative": 768,
+   "mention_replacement": 396,
+   "template": 120
+  },
+  "by_status": {
+   "SYNTHETIC_AUTO_VALIDATED": 931,
+   "SYNTHETIC_EXPERT_CHECKED": 353
+  },
+  "pairs_by_label": {
+   "diagnosed_by:neg": 219,
+   "diagnosed_by:pos": 99,
+   "has_dosage:neg": 10,
+   "has_dosage:pos": 68,
+   "located_at:neg": 720,
+   "located_at:pos": 319,
+   "treated_by:neg": 216,
+   "treated_by:pos": 80,
+   "treated_by_procedure:neg": 211,
+   "treated_by_procedure:pos": 82
+  },
+  "requested_pairs": 3507,
+  "short_of_request": true
+ }
+}

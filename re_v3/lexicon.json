@@ -1,0 +1,66 @@
+{
+  "_note": "Từ điển thực thể theo nhóm chuyên khoa, dùng cho synth_pattern.py. Hai thực thể chỉ được ghép làm cặp dương khi cùng nhóm (ràng buộc hợp lý, tránh câu phản thực tế như 'viêm phổi ở đầu gối'). Viết theo văn phong VietMed: chữ thường, không dấu câu. Gồm các thực thể dương trong seed và các mention phổ biến, rõ nghĩa. Không có thực thể chung chung (relation_extraction.data.GENERIC_ENTITIES), thực phẩm chức năng hay đông y.",
+  "groups": {
+    "tim_mach": {
+      "CONDITION": ["rung nhĩ", "suy tim", "tăng huyết áp", "huyết áp cao", "xơ vữa động mạch", "cục máu đông", "thiếu máu cơ tim", "tim đập nhanh", "đau thắt ngực", "thiểu năng vành", "nhồi máu"],
+      "BODY_PART": ["tim", "động mạch", "mạch máu", "động mạch vành", "tĩnh mạch", "cơ tim"],
+      "DRUG": ["thuốc kháng đông", "aspirin", "warfarin", "thuốc hạ áp", "amlodipin", "statin", "thuốc để giảm nhịp tim"],
+      "PROCEDURE": ["đặt stent", "cắt đốt", "nong mạch vành", "phẫu thuật bắc cầu", "uống thuốc"],
+      "TEST": ["điện tâm đồ", "siêu âm tim", "holter điện tim", "chụp mạch vành"]
+    },
+    "than_kinh": {
+      "CONDITION": ["parkinson", "đột quỵ", "đau đầu", "chóng mặt", "tê bì", "run tay", "động kinh", "nghẽn mạch máu", "xuất huyết", "cứng đờ", "tê bì kiến bò"],
+      "BODY_PART": ["não", "thần kinh", "tủy sống", "não bộ", "bàn tay", "chân tay"],
+      "DRUG": ["levodopa", "thuốc giảm đau", "paracetamol", "thuốc chống động kinh"],
+      "PROCEDURE": ["phẫu thuật kích thích não sâu", "kích thích não sâu", "phục hồi chức năng", "điều trị gen"],
+      "TEST": ["mri", "chụp cắt lớp", "điện não đồ", "chụp ct"]
+    },
+    "tieu_hoa": {
+      "CONDITION": ["viêm loét", "đau bụng", "trào ngược", "tổn thương", "táo bón", "tiêu chảy", "viêm gan", "xơ gan"],
+      "BODY_PART": ["dạ dày", "đường tiêu hóa", "ruột", "đại tràng", "gan", "thực quản"],
+      "DRUG": ["omeprazol", "thuốc kháng axit", "kháng sinh", "thuốc nhuận tràng"],
+      "PROCEDURE": ["phẫu thuật cắt dạ dày", "ghép gan", "mổ"],
+      "TEST": ["nội soi", "nội soi dạ dày", "siêu âm bụng", "xét nghiệm men gan"]
+    },
+    "da_lieu": {
+      "CONDITION": ["mụn", "viêm da", "khô ngứa", "da nhạy cảm", "nám", "chàm", "vảy nến", "nhiều dầu", "khô ngứa bong tróc"],
+      "BODY_PART": ["da", "mặt", "mái tóc", "da đầu", "lỗ chân lông"],
+      "DRUG": ["niacinamide", "retinol", "corticoid", "kem bôi", "kháng sinh bôi"],
+      "PROCEDURE": ["plasma lạnh", "laser", "lăn kim", "peel da"],
+      "TEST": ["soi da", "nghiệm pháp kích thích", "test áp da"]
+    },
+    "xuong_khop": {
+      "CONDITION": ["đau nhức", "viêm khớp", "thoái hóa", "bệnh gút", "loãng xương", "thoát vị đĩa đệm", "nhức mỏi"],
+      "BODY_PART": ["xương khớp", "khớp", "cột sống", "đầu gối", "gáy", "cơ"],
+      "DRUG": ["corticoid", "thuốc giảm đau", "thuốc chống viêm", "colchicin"],
+      "PROCEDURE": ["phẫu thuật thay khớp", "vật lý trị liệu", "mổ"],
+      "TEST": ["chụp x quang", "đo mật độ xương", "xét nghiệm axit uric"]
+    },
+    "ho_hap": {
+      "CONDITION": ["viêm phổi", "ho", "hen suyễn", "covid19", "sarscov2", "khó thở", "lao", "nhiễm trùng"],
+      "BODY_PART": ["phổi", "phế quản", "họng", "đường hô hấp", "mũi"],
+      "DRUG": ["kháng sinh", "thuốc giãn phế quản", "thuốc ho"],
+      "PROCEDURE": ["thở oxy", "khí dung", "phẫu thuật cắt thùy phổi"],
+      "TEST": ["xét nghiệm", "test", "chụp x quang phổi", "xét nghiệm pcr", "đo chức năng hô hấp"]
+    },
+    "noi_tiet": {
+      "CONDITION": ["đái tháo đường", "tiểu đường", "béo phì", "mỡ máu", "cholesterol", "cường giáp"],
+      "BODY_PART": ["máu", "tuyến giáp", "tuyến tụy"],
+      "DRUG": ["insulin", "metformin", "statin", "thuốc hạ đường huyết"],
+      "PROCEDURE": ["phẫu thuật cắt dạ dày", "phẫu thuật tuyến giáp", "mổ"],
+      "TEST": ["xét nghiệm đường huyết", "xét nghiệm mỡ máu", "siêu âm tuyến giáp"]
+    },
+    "ung_buou": {
+      "CONDITION": ["ung thư", "khối u"],
+      "BODY_PART": ["tuyến giáp", "phổi", "gan", "vú", "đại tràng", "dạ dày"],
+      "DRUG": ["thuốc hóa trị", "thuốc nhắm trúng đích"],
+      "PROCEDURE": ["hóa trị", "xạ trị", "phẫu thuật", "cắt bỏ khối u"],
+      "TEST": ["sinh thiết", "chụp pet ct", "tầm soát"]
+    }
+  },
+  "topical_drugs": ["niacinamide", "retinol", "kem bôi", "kháng sinh bôi"],
+  "dosage_drugs": ["paracetamol", "aspirin", "metformin", "insulin", "levodopa", "amlodipin", "omeprazol", "warfarin", "colchicin", "corticoid", "kháng sinh", "statin", "thuốc giảm đau", "thuốc hạ áp"],
+  "dosages": ["năm trăm mi li gam", "một viên", "hai viên", "nửa viên", "mười mi li gam", "hai mươi mi li gam", "một ống", "một gói", "ba trăm mi li gam", "hai mươi đơn vị", "mười đơn vị", "một liều", "hai lần một ngày", "một lần mỗi ngày", "tám mươi mi li gam"],
+  "prefixes": ["", "", "", "thì", "và", "cho nên là", "bác sĩ cho biết là", "trường hợp mà", "nhiều người", "các bạn thấy là", "thực ra thì", "ví dụ như", "xin thưa với các bạn là", "đối với những người", "bệnh nhân", "người bệnh", "chúng ta thấy là", "rồi thì"],
+  "suffixes": ["", "", "", "rồi", "thì", "đó", "các bạn ạ", "như vậy", "nhé", "trong thời gian dài", "thì rất là tốt", "là rất quan trọng", "thì phải hỏi ý kiến bác sĩ"]
+}

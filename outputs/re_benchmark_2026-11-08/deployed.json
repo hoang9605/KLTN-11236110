@@ -1,0 +1,567 @@
+{
+  "model": "C:\\Users\\ASUS\\dev\\Code_Study\\AI-KLTN\\Model\\vihealthbert-re-v1",
+  "config": {
+    "base": "demdecuong/vihealthbert-base-syllable",
+    "max_len": 192,
+    "threshold": 0.5,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_aggregation": "mean probability, threshold 0.5",
+    "epochs": 10,
+    "lr": 3e-05,
+    "batch": 16,
+    "class_weight": "n_neg/n_pos",
+    "pooling": "head/tail start markers",
+    "supported_relations": [
+      "diagnosed_by",
+      "located_at",
+      "treated_by",
+      "treated_by_procedure"
+    ],
+    "all_relations": [
+      "diagnosed_by",
+      "has_dosage",
+      "located_at",
+      "treated_by",
+      "treated_by_procedure"
+    ],
+    "train_pairs": 556,
+    "train_positives": 64,
+    "train_data": "RE gold v1 (người duyệt trên giấy, quy ước 05/11/2026) + RE v2 (nhãn AI)",
+    "label_source": "gold_v1_reviewed+ai_v2",
+    "human_verified": false,
+    "torch": "2.14.0+cu126",
+    "trained_on": "NVIDIA GeForce GTX 1650",
+    "seconds": 1466,
+    "date": "2026-11-08",
+    "directory": "C:\\Users\\ASUS\\dev\\Code_Study\\AI-KLTN\\Model\\vihealthbert-re-v1"
+  },
+  "device": "cpu",
+  "sets": {
+    "golden_test": {
+      "pairs": 117,
+      "bert_deployed": {
+        "positive_micro": {
+          "precision": 0.586,
+          "recall": 0.436,
+          "f1": 0.5,
+          "tp": 17,
+          "fp": 12,
+          "fn": 22,
+          "support": 39
+        },
+        "per_relation": {
+          "located_at": {
+            "precision": 0.524,
+            "recall": 0.647,
+            "f1": 0.579,
+            "tp": 11,
+            "fp": 10,
+            "fn": 6,
+            "support": 17
+          },
+          "treated_by": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "support": 5
+          },
+          "treated_by_procedure": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "support": 2
+          },
+          "diagnosed_by": {
+            "precision": 1.0,
+            "recall": 0.111,
+            "f1": 0.2,
+            "tp": 1,
+            "fp": 0,
+            "fn": 8,
+            "support": 9
+          },
+          "has_dosage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 6,
+            "support": 6
+          }
+        },
+        "positive_micro_f1_ci95": [
+          0.333,
+          0.645
+        ]
+      },
+      "bert_deployed+rules": {
+        "positive_micro": {
+          "precision": 0.568,
+          "recall": 0.538,
+          "f1": 0.553,
+          "tp": 21,
+          "fp": 16,
+          "fn": 18,
+          "support": 39
+        },
+        "per_relation": {
+          "located_at": {
+            "precision": 0.5,
+            "recall": 0.706,
+            "f1": 0.585,
+            "tp": 12,
+            "fp": 12,
+            "fn": 5,
+            "support": 17
+          },
+          "treated_by": {
+            "precision": 0.714,
+            "recall": 1.0,
+            "f1": 0.833,
+            "tp": 5,
+            "fp": 2,
+            "fn": 0,
+            "support": 5
+          },
+          "treated_by_procedure": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "support": 2
+          },
+          "diagnosed_by": {
+            "precision": 1.0,
+            "recall": 0.333,
+            "f1": 0.5,
+            "tp": 3,
+            "fp": 0,
+            "fn": 6,
+            "support": 9
+          },
+          "has_dosage": {
+            "precision": 1.0,
+            "recall": 0.167,
+            "f1": 0.286,
+            "tp": 1,
+            "fp": 0,
+            "fn": 5,
+            "support": 6
+          }
+        },
+        "positive_micro_f1_ci95": [
+          0.4,
+          0.667
+        ]
+      },
+      "benchmark_3seed": {
+        "bert": {
+          "precision": 0.586,
+          "recall": 0.436,
+          "f1": 0.5,
+          "tp": 17,
+          "fp": 12,
+          "fn": 22,
+          "support": 39
+        },
+        "bert+rules": {
+          "precision": 0.568,
+          "recall": 0.538,
+          "f1": 0.553,
+          "tp": 21,
+          "fp": 16,
+          "fn": 18,
+          "support": 39
+        },
+        "rules": {
+          "precision": 0.722,
+          "recall": 0.333,
+          "f1": 0.456,
+          "tp": 13,
+          "fp": 5,
+          "fn": 26,
+          "support": 39
+        }
+      },
+      "single_seed_f1": {
+        "42": {
+          "alone": 0.45,
+          "with_rules": 0.506
+        },
+        "43": {
+          "alone": 0.444,
+          "with_rules": 0.519
+        },
+        "44": {
+          "alone": 0.431,
+          "with_rules": 0.533
+        }
+      },
+      "cpu_vs_gpu_label_differences": 0,
+      "gpu_predictions_checked": 117,
+      "cpu_seconds": 28.0,
+      "ms_per_pair": 239.6
+    },
+    "golden_test_v1_original": {
+      "pairs": 121,
+      "bert_deployed": {
+        "positive_micro": {
+          "precision": 0.615,
+          "recall": 0.348,
+          "f1": 0.444,
+          "tp": 16,
+          "fp": 10,
+          "fn": 30,
+          "support": 46
+        },
+        "per_relation": {
+          "located_at": {
+            "precision": 0.6,
+            "recall": 0.6,
+            "f1": 0.6,
+            "tp": 12,
+            "fp": 8,
+            "fn": 8,
+            "support": 20
+          },
+          "treated_by": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.857,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "support": 4
+          },
+          "treated_by_procedure": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "support": 2
+          },
+          "diagnosed_by": {
+            "precision": 1.0,
+            "recall": 0.1,
+            "f1": 0.182,
+            "tp": 1,
+            "fp": 0,
+            "fn": 9,
+            "support": 10
+          },
+          "has_dosage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 10,
+            "support": 10
+          }
+        },
+        "positive_micro_f1_ci95": [
+          0.286,
+          0.583
+        ]
+      },
+      "bert_deployed+rules": {
+        "positive_micro": {
+          "precision": 0.571,
+          "recall": 0.435,
+          "f1": 0.494,
+          "tp": 20,
+          "fp": 15,
+          "fn": 26,
+          "support": 46
+        },
+        "per_relation": {
+          "located_at": {
+            "precision": 0.565,
+            "recall": 0.65,
+            "f1": 0.605,
+            "tp": 13,
+            "fp": 10,
+            "fn": 7,
+            "support": 20
+          },
+          "treated_by": {
+            "precision": 0.5,
+            "recall": 0.75,
+            "f1": 0.6,
+            "tp": 3,
+            "fp": 3,
+            "fn": 1,
+            "support": 4
+          },
+          "treated_by_procedure": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 2,
+            "fn": 2,
+            "support": 2
+          },
+          "diagnosed_by": {
+            "precision": 1.0,
+            "recall": 0.3,
+            "f1": 0.462,
+            "tp": 3,
+            "fp": 0,
+            "fn": 7,
+            "support": 10
+          },
+          "has_dosage": {
+            "precision": 1.0,
+            "recall": 0.1,
+            "f1": 0.182,
+            "tp": 1,
+            "fp": 0,
+            "fn": 9,
+            "support": 10
+          }
+        },
+        "positive_micro_f1_ci95": [
+          0.351,
+          0.607
+        ]
+      },
+      "benchmark_3seed": {
+        "bert": {
+          "precision": 0.615,
+          "recall": 0.348,
+          "f1": 0.444,
+          "tp": 16,
+          "fp": 10,
+          "fn": 30,
+          "support": 46
+        },
+        "bert+rules": {
+          "precision": 0.571,
+          "recall": 0.435,
+          "f1": 0.494,
+          "tp": 20,
+          "fp": 15,
+          "fn": 26,
+          "support": 46
+        },
+        "rules": {
+          "precision": 0.706,
+          "recall": 0.261,
+          "f1": 0.381,
+          "tp": 12,
+          "fp": 5,
+          "fn": 34,
+          "support": 46
+        }
+      },
+      "single_seed_f1": {
+        "42": {
+          "alone": 0.429,
+          "with_rules": 0.478
+        },
+        "43": {
+          "alone": 0.395,
+          "with_rules": 0.465
+        },
+        "44": {
+          "alone": 0.348,
+          "with_rules": 0.45
+        }
+      },
+      "cpu_vs_gpu_label_differences": 0,
+      "gpu_predictions_checked": 121,
+      "cpu_seconds": 26.9,
+      "ms_per_pair": 222.7
+    },
+    "random_test": {
+      "pairs": 391,
+      "bert_deployed": {
+        "positive_micro": {
+          "precision": 0.478,
+          "recall": 0.611,
+          "f1": 0.537,
+          "tp": 44,
+          "fp": 48,
+          "fn": 28,
+          "support": 72
+        },
+        "per_relation": {
+          "located_at": {
+            "precision": 0.477,
+            "recall": 0.633,
+            "f1": 0.544,
+            "tp": 31,
+            "fp": 34,
+            "fn": 18,
+            "support": 49
+          },
+          "treated_by": {
+            "precision": 0.625,
+            "recall": 0.833,
+            "f1": 0.714,
+            "tp": 5,
+            "fp": 3,
+            "fn": 1,
+            "support": 6
+          },
+          "treated_by_procedure": {
+            "precision": 0.353,
+            "recall": 0.5,
+            "f1": 0.414,
+            "tp": 6,
+            "fp": 11,
+            "fn": 6,
+            "support": 12
+          },
+          "diagnosed_by": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.667,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "support": 4
+          },
+          "has_dosage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "support": 1
+          }
+        },
+        "positive_micro_f1_ci95": [
+          0.44,
+          0.621
+        ]
+      },
+      "bert_deployed+rules": {
+        "positive_micro": {
+          "precision": 0.504,
+          "recall": 0.792,
+          "f1": 0.616,
+          "tp": 57,
+          "fp": 56,
+          "fn": 15,
+          "support": 72
+        },
+        "per_relation": {
+          "located_at": {
+            "precision": 0.512,
+            "recall": 0.857,
+            "f1": 0.641,
+            "tp": 42,
+            "fp": 40,
+            "fn": 7,
+            "support": 49
+          },
+          "treated_by": {
+            "precision": 0.625,
+            "recall": 0.833,
+            "f1": 0.714,
+            "tp": 5,
+            "fp": 3,
+            "fn": 1,
+            "support": 6
+          },
+          "treated_by_procedure": {
+            "precision": 0.35,
+            "recall": 0.583,
+            "f1": 0.438,
+            "tp": 7,
+            "fp": 13,
+            "fn": 5,
+            "support": 12
+          },
+          "diagnosed_by": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.857,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "support": 4
+          },
+          "has_dosage": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "support": 1
+          }
+        },
+        "positive_micro_f1_ci95": [
+          0.537,
+          0.688
+        ]
+      },
+      "benchmark_3seed": {
+        "bert": {
+          "precision": 0.478,
+          "recall": 0.611,
+          "f1": 0.537,
+          "tp": 44,
+          "fp": 48,
+          "fn": 28,
+          "support": 72
+        },
+        "bert+rules": {
+          "precision": 0.504,
+          "recall": 0.792,
+          "f1": 0.616,
+          "tp": 57,
+          "fp": 56,
+          "fn": 15,
+          "support": 72
+        },
+        "rules": {
+          "precision": 0.778,
+          "recall": 0.486,
+          "f1": 0.598,
+          "tp": 35,
+          "fp": 10,
+          "fn": 37,
+          "support": 72
+        }
+      },
+      "single_seed_f1": {
+        "42": {
+          "alone": 0.486,
+          "with_rules": 0.571
+        },
+        "43": {
+          "alone": 0.578,
+          "with_rules": 0.638
+        },
+        "44": {
+          "alone": 0.528,
+          "with_rules": 0.611
+        }
+      },
+      "cpu_vs_gpu_label_differences": 0,
+      "gpu_predictions_checked": 391,
+      "cpu_seconds": 87.5,
+      "ms_per_pair": 223.7
+    }
+  }
+}

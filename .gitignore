@@ -65,3 +65,6 @@ run_git_operations.py
 
 # GPU training environment
 .venv-gpu/
+
+# Dữ liệu tiếng Anh tải về (BioText, ADE); tải lại bằng scripts/re_dataset/translated_en.py download
+data/external_en_raw/

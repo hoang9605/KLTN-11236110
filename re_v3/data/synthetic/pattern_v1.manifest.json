@@ -1,0 +1,47 @@
+{
+ "script": "re_v3/synth_pattern.py",
+ "seed": 42,
+ "args": {
+  "out": "C:\\Users\\ASUS\\dev\\Code_Study\\AI-KLTN\\re_v3\\data\\synthetic\\pattern_v1.jsonl",
+  "seed": 42,
+  "positives_per_relation": 250,
+  "per_sentence": 5,
+  "hard_negative_ratio": 2.0
+ },
+ "seed_files": [
+  "data\\re_gold_v1\\annotations_gold_v1.jsonl",
+  "data\\re_ai_v2\\annotations_ai_v2.jsonl"
+ ],
+ "lexicon": "re_v3\\lexicon.json",
+ "records": 3225,
+ "pairs": 4497,
+ "positive_ratio": 0.25,
+ "target_positive_ratio": [
+  0.2,
+  0.25
+ ],
+ "positives_by_relation": {
+  "diagnosed_by": 224,
+  "has_dosage": 225,
+  "located_at": 225,
+  "treated_by": 225,
+  "treated_by_procedure": 225
+ },
+ "negatives_by_relation": {
+  "diagnosed_by": 682,
+  "has_dosage": 82,
+  "located_at": 1083,
+  "treated_by": 824,
+  "treated_by_procedure": 702
+ },
+ "records_by_method": {
+  "mention_replacement": 651,
+  "hard_negative": 2070,
+  "template": 504
+ },
+ "audit": {
+  "skip_duplicate_text": 59,
+  "dropped_for_positive_ratio": 84
+ },
+ "warning": "Dữ liệu tự sinh, chưa người duyệt, chưa qua filter_synth.py. Không dùng làm test."
+}

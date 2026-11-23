@@ -1,0 +1,83 @@
+{
+ "script": "re_v3/filter_synth.py",
+ "inputs": [
+  "re_v3\\data\\synthetic\\pattern_v1.jsonl"
+ ],
+ "seed": 42,
+ "input_records": 3225,
+ "audit": {
+  "drop_skeleton_cap": 296,
+  "drop_rebalance": 106
+ },
+ "test_files": [
+  "data\\re_test_random_v1\\annotations.jsonl",
+  "data\\golden_test\\v1\\candidates.jsonl"
+ ],
+ "leak_ngram": 8,
+ "max_per_skeleton": 3,
+ "kept": {
+  "records": 2823,
+  "pairs": 3749,
+  "positive_ratio": 0.25,
+  "positives_by_relation": {
+   "diagnosed_by": 187,
+   "has_dosage": 188,
+   "located_at": 186,
+   "treated_by": 188,
+   "treated_by_procedure": 188
+  },
+  "negatives_by_relation": {
+   "diagnosed_by": 589,
+   "has_dosage": 73,
+   "located_at": 836,
+   "treated_by": 700,
+   "treated_by_procedure": 614
+  },
+  "records_by_method": {
+   "mention_replacement": 422,
+   "hard_negative": 2005,
+   "template": 396
+  },
+  "records_with_rule_flags": 1066,
+  "rule_flags_by_kind_and_method": {
+   "rule_says_negative|mention_replacement": 113,
+   "rule_says_positive|mention_replacement": 26,
+   "rule_says_positive|hard_negative": 664,
+   "rule_says_negative|template": 159,
+   "rule_says_negative|hard_negative": 109
+  }
+ },
+ "review_sample_pairs": 375,
+ "scaled_x3": {
+  "records": 1257,
+  "pairs": 1676,
+  "positive_ratio": 0.249,
+  "positives_by_relation": {
+   "diagnosed_by": 83,
+   "has_dosage": 84,
+   "located_at": 86,
+   "treated_by": 82,
+   "treated_by_procedure": 82
+  },
+  "negatives_by_relation": {
+   "diagnosed_by": 257,
+   "has_dosage": 34,
+   "located_at": 380,
+   "treated_by": 318,
+   "treated_by_procedure": 270
+  },
+  "records_by_method": {
+   "mention_replacement": 191,
+   "hard_negative": 881,
+   "template": 185
+  },
+  "records_with_rule_flags": 476,
+  "rule_flags_by_kind_and_method": {
+   "rule_says_negative|mention_replacement": 50,
+   "rule_says_positive|mention_replacement": 13,
+   "rule_says_positive|hard_negative": 297,
+   "rule_says_negative|template": 77,
+   "rule_says_negative|hard_negative": 41
+  }
+ }
+}

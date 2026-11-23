@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="720" viewBox="0 0 680 720" font-family="Segoe UI, Arial, sans-serif">
+<title>Pipeline RE v3</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<style>
+.g{fill:#F1EFE8;stroke:#5F5E5A}.p{fill:#EEEDFE;stroke:#534AB7}.t{fill:#E1F5EE;stroke:#0F6E56}
+.gh{fill:#444441}.gs{fill:#5F5E5A}.ph{fill:#3C3489}.ps{fill:#534AB7}.th{fill:#085041}.ts{fill:#0F6E56}
+.h{font-size:14px;font-weight:500}.s{font-size:12px}
+line{stroke:#5F5E5A;stroke-width:1.5}
+</style></defs>
+<rect width="680" height="720" fill="#FFFFFF"/>
+<rect class="g" x="40" y="30" width="350" height="56" rx="8" stroke-width="0.5"/>
+<text class="gh h" x="215" y="53" text-anchor="middle">Dữ liệu seed</text>
+<text class="gs s" x="215" y="72" text-anchor="middle">gold v1 + ai v2 (~64 cặp dương)</text>
+<line x1="215" y1="86" x2="215" y2="124" marker-end="url(#a)"/>
+<rect class="p" x="40" y="126" width="350" height="56" rx="8" stroke-width="0.5"/>
+<text class="ph h" x="215" y="149" text-anchor="middle">(A) Khai thác pattern</text>
+<text class="ps s" x="215" y="168" text-anchor="middle">pattern dương + pattern âm khó</text>
+<rect class="g" x="430" y="126" width="210" height="56" rx="8" stroke-width="0.5"/>
+<text class="gh h" x="535" y="149" text-anchor="middle">VietMed-NER train</text>
+<text class="gs s" x="535" y="168" text-anchor="middle">câu chưa có nhãn RE</text>
+<line x1="122" y1="182" x2="122" y2="220" marker-end="url(#a)"/>
+<line x1="308" y1="182" x2="308" y2="220" marker-end="url(#a)"/>
+<line x1="535" y1="182" x2="535" y2="220" marker-end="url(#a)"/>
+<rect class="p" x="40" y="222" width="165" height="56" rx="8" stroke-width="0.5"/>
+<text class="ph h" x="122" y="245" text-anchor="middle">(B) Theo pattern</text>
+<text class="ps s" x="122" y="264" text-anchor="middle">đổi thực thể, câu âm</text>
+<rect class="p" x="225" y="222" width="165" height="56" rx="8" stroke-width="0.5"/>
+<text class="ph h" x="308" y="245" text-anchor="middle">(C) Sinh bằng LLM</text>
+<text class="ps s" x="308" y="264" text-anchor="middle">văn phong VietMed</text>
+<rect class="p" x="430" y="222" width="210" height="56" rx="8" stroke-width="0.5"/>
+<text class="ph h" x="535" y="245" text-anchor="middle">(D) Gán nhãn giả</text>
+<text class="ps s" x="535" y="264" text-anchor="middle">luật ∩ BERT tin cậy cao</text>
+<line x1="122" y1="278" x2="122" y2="316" marker-end="url(#a)"/>
+<line x1="308" y1="278" x2="308" y2="316" marker-end="url(#a)"/>
+<line x1="535" y1="278" x2="535" y2="316" marker-end="url(#a)"/>
+<rect class="t" x="40" y="318" width="600" height="56" rx="8" stroke-width="0.5"/>
+<text class="th h" x="340" y="341" text-anchor="middle">Bộ lọc chung</text>
+<text class="ts s" x="340" y="360" text-anchor="middle">offset · đối chiếu luật · trùng lặp · rò rỉ test · duyệt tay 10%</text>
+<line x1="170" y1="374" x2="170" y2="412" marker-end="url(#a)"/>
+<rect class="t" x="40" y="414" width="260" height="56" rx="8" stroke-width="0.5"/>
+<text class="th h" x="170" y="437" text-anchor="middle">Giai đoạn 1</text>
+<text class="ts s" x="170" y="456" text-anchor="middle">synthetic + silver + (E) augment</text>
+<line x1="300" y1="442" x2="368" y2="442" marker-end="url(#a)"/>
+<rect class="t" x="370" y="414" width="270" height="56" rx="8" stroke-width="0.5"/>
+<text class="th h" x="505" y="437" text-anchor="middle">Giai đoạn 2</text>
+<text class="ts s" x="505" y="456" text-anchor="middle">fine-tune trên gold, lr nhỏ</text>
+<line x1="505" y1="470" x2="505" y2="508" marker-end="url(#a)"/>
+<rect class="t" x="370" y="510" width="270" height="56" rx="8" stroke-width="0.5"/>
+<text class="th h" x="505" y="533" text-anchor="middle">ViHealthBERT ∪ luật</text>
+<text class="ts s" x="505" y="552" text-anchor="middle">ngưỡng riêng từng quan hệ</text>
+<line x1="370" y1="538" x2="302" y2="538" marker-end="url(#a)"/>
+<rect class="t" x="40" y="510" width="260" height="56" rx="8" stroke-width="0.5"/>
+<text class="th h" x="170" y="533" text-anchor="middle">Đánh giá ablation</text>
+<text class="ts s" x="170" y="552" text-anchor="middle">3 seed, CI95, test đã duyệt tay</text>
+<line x1="170" y1="566" x2="170" y2="604" marker-end="url(#a)"/>
+<rect class="g" x="40" y="606" width="260" height="56" rx="8" stroke-width="0.5"/>
+<text class="gh h" x="170" y="629" text-anchor="middle">Quyết định</text>
+<text class="gs s" x="170" y="648" text-anchor="middle">thắng cả 2 tập test mới thay</text>
+<rect class="g" x="40" y="688" width="14" height="14" rx="3" stroke-width="0.5"/>
+<text class="gs s" x="60" y="699">dữ liệu / quyết định</text>
+<rect class="p" x="200" y="688" width="14" height="14" rx="3" stroke-width="0.5"/>
+<text class="gs s" x="220" y="699">sinh dữ liệu</text>
+<rect class="t" x="320" y="688" width="14" height="14" rx="3" stroke-width="0.5"/>
+<text class="gs s" x="340" y="699">lọc, huấn luyện, đánh giá</text>
+</svg>

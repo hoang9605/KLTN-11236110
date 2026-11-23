@@ -1,0 +1,4189 @@
+{
+ "BODY_PART|buồng tâm nhĩ": {
+  "label": "BODY_PART",
+  "vi": "buồng tâm nhĩ",
+  "en": "atrial chamber",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|bàn tay": {
+  "label": "BODY_PART",
+  "vi": "bàn tay",
+  "en": "hand",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|bắp chân": {
+  "label": "BODY_PART",
+  "vi": "bắp chân",
+  "en": "calf",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|bề mặt da": {
+  "label": "BODY_PART",
+  "vi": "bề mặt da",
+  "en": "skin surface",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|bộ máy tiêu hóa": {
+  "label": "BODY_PART",
+  "vi": "bộ máy tiêu hóa",
+  "en": "digestive system",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|chân tay": {
+  "label": "BODY_PART",
+  "vi": "chân tay",
+  "en": "limbs",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|các chi": {
+  "label": "BODY_PART",
+  "vi": "các chi",
+  "en": "limbs",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|các cái chi": {
+  "label": "BODY_PART",
+  "vi": "các cái chi",
+  "en": "limbs",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|cái xương": {
+  "label": "BODY_PART",
+  "vi": "cái xương",
+  "en": "bone",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|cơ": {
+  "label": "BODY_PART",
+  "vi": "cơ",
+  "en": "muscle",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|cơ tim": {
+  "label": "BODY_PART",
+  "vi": "cơ tim",
+  "en": "myocardium",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|cơ địa": {
+  "label": "BODY_PART",
+  "vi": "cơ địa",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|cổ tay": {
+  "label": "BODY_PART",
+  "vi": "cổ tay",
+  "en": "wrist",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|cột sống": {
+  "label": "BODY_PART",
+  "vi": "cột sống",
+  "en": "spine",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|da": {
+  "label": "BODY_PART",
+  "vi": "da",
+  "en": "skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|da đầu": {
+  "label": "BODY_PART",
+  "vi": "da đầu",
+  "en": "scalp",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|dòng máu": {
+  "label": "BODY_PART",
+  "vi": "dòng máu",
+  "en": "bloodstream",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|dạ dày": {
+  "label": "BODY_PART",
+  "vi": "dạ dày",
+  "en": "stomach",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|enzym": {
+  "label": "BODY_PART",
+  "vi": "enzym",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|gan": {
+  "label": "BODY_PART",
+  "vi": "gan",
+  "en": "liver",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|gáy": {
+  "label": "BODY_PART",
+  "vi": "gáy",
+  "en": "nape of neck",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|huyết": {
+  "label": "BODY_PART",
+  "vi": "huyết",
+  "en": "blood",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|hệ vi sinh": {
+  "label": "BODY_PART",
+  "vi": "hệ vi sinh",
+  "en": "microbiome",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|họng": {
+  "label": "BODY_PART",
+  "vi": "họng",
+  "en": "throat",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|khối cơ": {
+  "label": "BODY_PART",
+  "vi": "khối cơ",
+  "en": "muscle mass",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|khớp": {
+  "label": "BODY_PART",
+  "vi": "khớp",
+  "en": "joint",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|làn da": {
+  "label": "BODY_PART",
+  "vi": "làn da",
+  "en": "skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|lỗ chân lông": {
+  "label": "BODY_PART",
+  "vi": "lỗ chân lông",
+  "en": "skin pore",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|miệng": {
+  "label": "BODY_PART",
+  "vi": "miệng",
+  "en": "mouth",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mái tóc": {
+  "label": "BODY_PART",
+  "vi": "mái tóc",
+  "en": "hair",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|máu": {
+  "label": "BODY_PART",
+  "vi": "máu",
+  "en": "blood",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mô": {
+  "label": "BODY_PART",
+  "vi": "mô",
+  "en": "tissue",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mô cơ tim": {
+  "label": "BODY_PART",
+  "vi": "mô cơ tim",
+  "en": "myocardial tissue",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mũi": {
+  "label": "BODY_PART",
+  "vi": "mũi",
+  "en": "nose",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mạch": {
+  "label": "BODY_PART",
+  "vi": "mạch",
+  "en": "blood vessel",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mạch máu": {
+  "label": "BODY_PART",
+  "vi": "mạch máu",
+  "en": "blood vessel",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mật": {
+  "label": "BODY_PART",
+  "vi": "mật",
+  "en": "bile duct",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mắt": {
+  "label": "BODY_PART",
+  "vi": "mắt",
+  "en": "eye",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|mặt": {
+  "label": "BODY_PART",
+  "vi": "mặt",
+  "en": "face",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|ngực": {
+  "label": "BODY_PART",
+  "vi": "ngực",
+  "en": "chest",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|niêm mạc ruột": {
+  "label": "BODY_PART",
+  "vi": "niêm mạc ruột",
+  "en": "intestinal mucosa",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|não": {
+  "label": "BODY_PART",
+  "vi": "não",
+  "en": "brain",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|não bộ": {
+  "label": "BODY_PART",
+  "vi": "não bộ",
+  "en": "brain",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|nội mạc": {
+  "label": "BODY_PART",
+  "vi": "nội mạc",
+  "en": "endothelium",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|phế quản": {
+  "label": "BODY_PART",
+  "vi": "phế quản",
+  "en": "bronchus",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|phổi": {
+  "label": "BODY_PART",
+  "vi": "phổi",
+  "en": "lung",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|ruột": {
+  "label": "BODY_PART",
+  "vi": "ruột",
+  "en": "intestine",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|răng": {
+  "label": "BODY_PART",
+  "vi": "răng",
+  "en": "tooth",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|sọ": {
+  "label": "BODY_PART",
+  "vi": "sọ",
+  "en": "skull",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tay": {
+  "label": "BODY_PART",
+  "vi": "tay",
+  "en": "arm",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tay phải": {
+  "label": "BODY_PART",
+  "vi": "tay phải",
+  "en": "right arm",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|thượng bì": {
+  "label": "BODY_PART",
+  "vi": "thượng bì",
+  "en": "epidermis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|thần kinh": {
+  "label": "BODY_PART",
+  "vi": "thần kinh",
+  "en": "nerve",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|thận": {
+  "label": "BODY_PART",
+  "vi": "thận",
+  "en": "kidney",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|thắt lưng": {
+  "label": "BODY_PART",
+  "vi": "thắt lưng",
+  "en": "lower back",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|thực quản": {
+  "label": "BODY_PART",
+  "vi": "thực quản",
+  "en": "esophagus",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tim": {
+  "label": "BODY_PART",
+  "vi": "tim",
+  "en": "heart",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tim mạch": {
+  "label": "BODY_PART",
+  "vi": "tim mạch",
+  "en": "cardiovascular system",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|trái tim": {
+  "label": "BODY_PART",
+  "vi": "trái tim",
+  "en": "heart",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tuyến giáp": {
+  "label": "BODY_PART",
+  "vi": "tuyến giáp",
+  "en": "thyroid gland",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tuyến tụy": {
+  "label": "BODY_PART",
+  "vi": "tuyến tụy",
+  "en": "pancreas",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tâm nhĩ": {
+  "label": "BODY_PART",
+  "vi": "tâm nhĩ",
+  "en": "atrium",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tâm thất": {
+  "label": "BODY_PART",
+  "vi": "tâm thất",
+  "en": "ventricle",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tóc": {
+  "label": "BODY_PART",
+  "vi": "tóc",
+  "en": "hair",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tĩnh mạch": {
+  "label": "BODY_PART",
+  "vi": "tĩnh mạch",
+  "en": "vein",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tế bào": {
+  "label": "BODY_PART",
+  "vi": "tế bào",
+  "en": "cell",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tế bào gốc": {
+  "label": "BODY_PART",
+  "vi": "tế bào gốc",
+  "en": "stem cell",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tế bào não": {
+  "label": "BODY_PART",
+  "vi": "tế bào não",
+  "en": "brain cell",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|tủy sống": {
+  "label": "BODY_PART",
+  "vi": "tủy sống",
+  "en": "spinal cord",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|vai": {
+  "label": "BODY_PART",
+  "vi": "vai",
+  "en": "shoulder",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|van": {
+  "label": "BODY_PART",
+  "vi": "van",
+  "en": "valve",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|van ở tĩnh mạch": {
+  "label": "BODY_PART",
+  "vi": "van ở tĩnh mạch",
+  "en": "venous valve",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|vùng": {
+  "label": "BODY_PART",
+  "vi": "vùng",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|vùng chi": {
+  "label": "BODY_PART",
+  "vi": "vùng chi",
+  "en": "limb",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|vùng cổ": {
+  "label": "BODY_PART",
+  "vi": "vùng cổ",
+  "en": "neck",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|vú": {
+  "label": "BODY_PART",
+  "vi": "vú",
+  "en": "breast",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|vắt chân": {
+  "label": "BODY_PART",
+  "vi": "vắt chân",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|xoang": {
+  "label": "BODY_PART",
+  "vi": "xoang",
+  "en": "sinus",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|xương": {
+  "label": "BODY_PART",
+  "vi": "xương",
+  "en": "bone",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|xương khớp": {
+  "label": "BODY_PART",
+  "vi": "xương khớp",
+  "en": "bones and joints",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|đường hô hấp": {
+  "label": "BODY_PART",
+  "vi": "đường hô hấp",
+  "en": "respiratory tract",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|đường ruột": {
+  "label": "BODY_PART",
+  "vi": "đường ruột",
+  "en": "intestinal tract",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|đường tiêu hóa": {
+  "label": "BODY_PART",
+  "vi": "đường tiêu hóa",
+  "en": "gastrointestinal tract",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|đại tràng": {
+  "label": "BODY_PART",
+  "vi": "đại tràng",
+  "en": "colon",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|đầu gối": {
+  "label": "BODY_PART",
+  "vi": "đầu gối",
+  "en": "knee",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|để": {
+  "label": "BODY_PART",
+  "vi": "để",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|động mạch": {
+  "label": "BODY_PART",
+  "vi": "động mạch",
+  "en": "artery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|động mạch chi": {
+  "label": "BODY_PART",
+  "vi": "động mạch chi",
+  "en": "limb artery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "BODY_PART|động mạch vành": {
+  "label": "BODY_PART",
+  "vi": "động mạch vành",
+  "en": "coronary artery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|alzheimer": {
+  "label": "CONDITION",
+  "vi": "alzheimer",
+  "en": "Alzheimer disease",
+  "generic": false,
+  "code": "G30.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Alzheimer s disease, unspecified",
+  "code_name_vi": "Bệnh Alzheimer không đặc hiệu"
+ },
+ "CONDITION|biến chứng": {
+  "label": "CONDITION",
+  "vi": "biến chứng",
+  "en": "complication",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|buồn": {
+  "label": "CONDITION",
+  "vi": "buồn",
+  "en": "sadness",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|buồn nôn": {
+  "label": "CONDITION",
+  "vi": "buồn nôn",
+  "en": "nausea",
+  "generic": false,
+  "code": "R11",
+  "code_system": "ICD-10",
+  "code_name_en": "Nausea and vomitting",
+  "code_name_vi": "Buồn nôn và nôn"
+ },
+ "CONDITION|béo phì": {
+  "label": "CONDITION",
+  "vi": "béo phì",
+  "en": "obesity",
+  "generic": false,
+  "code": "E66.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Obesity, unspecified",
+  "code_name_vi": "Béo phì, không đặc hiệu"
+ },
+ "CONDITION|bệnh chết người": {
+  "label": "CONDITION",
+  "vi": "bệnh chết người",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|bệnh gút": {
+  "label": "CONDITION",
+  "vi": "bệnh gút",
+  "en": "gout",
+  "generic": false,
+  "code": "M10.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Gout, unspecified",
+  "code_name_vi": "Bệnh Gút không đặc hiệu"
+ },
+ "CONDITION|bệnh lý": {
+  "label": "CONDITION",
+  "vi": "bệnh lý",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|bệnh lý nền": {
+  "label": "CONDITION",
+  "vi": "bệnh lý nền",
+  "en": "comorbidity",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|bệnh nhiễm nấm mạn": {
+  "label": "CONDITION",
+  "vi": "bệnh nhiễm nấm mạn",
+  "en": "chronic fungal infection",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|bệnh về lợi": {
+  "label": "CONDITION",
+  "vi": "bệnh về lợi",
+  "en": "gum disease",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|bị": {
+  "label": "CONDITION",
+  "vi": "bị",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|bị bệnh": {
+  "label": "CONDITION",
+  "vi": "bị bệnh",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|bị rung cứng": {
+  "label": "CONDITION",
+  "vi": "bị rung cứng",
+  "en": "tremor and rigidity",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|cao huyết áp": {
+  "label": "CONDITION",
+  "vi": "cao huyết áp",
+  "en": "hypertension",
+  "generic": false,
+  "code": "I10",
+  "code_system": "ICD-10",
+  "code_name_en": null,
+  "code_name_vi": "Bệnh lý tăng huyết áp"
+ },
+ "CONDITION|cholesterol": {
+  "label": "CONDITION",
+  "vi": "cholesterol",
+  "en": "high cholesterol",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|chuột rút": {
+  "label": "CONDITION",
+  "vi": "chuột rút",
+  "en": "muscle cramp",
+  "generic": false,
+  "code": "R25.2",
+  "code_system": "ICD-10",
+  "code_name_en": "Cramp and spasm",
+  "code_name_vi": "Chuột rút và co cứng"
+ },
+ "CONDITION|chàm": {
+  "label": "CONDITION",
+  "vi": "chàm",
+  "en": "eczema",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|chóng mặt": {
+  "label": "CONDITION",
+  "vi": "chóng mặt",
+  "en": "dizziness",
+  "generic": false,
+  "code": "R42",
+  "code_system": "ICD-10",
+  "code_name_en": "Dizziness and giddiness",
+  "code_name_vi": "Hoa mắt và chóng mặt"
+ },
+ "CONDITION|chảy máu": {
+  "label": "CONDITION",
+  "vi": "chảy máu",
+  "en": "bleeding",
+  "generic": false,
+  "code": "R58",
+  "code_system": "ICD-10",
+  "code_name_en": "Haemorrhage, not elsewhere classified",
+  "code_name_vi": "Chảy máu chưa được phân loại ở nơi khác"
+ },
+ "CONDITION|chấn thương": {
+  "label": "CONDITION",
+  "vi": "chấn thương",
+  "en": "injury",
+  "generic": false,
+  "code": "T14.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Injury, unspecified",
+  "code_name_vi": "Tổn thương, chưa xác định"
+ },
+ "CONDITION|chậm chạp": {
+  "label": "CONDITION",
+  "vi": "chậm chạp",
+  "en": "bradykinesia",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|covid": {
+  "label": "CONDITION",
+  "vi": "covid",
+  "en": "COVID-19",
+  "generic": false,
+  "code": "U07.1",
+  "code_system": "ICD-10",
+  "code_name_en": "Acute respiratory disease du to SARS-CoV-2 (Covid-19)",
+  "code_name_vi": "COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính)"
+ },
+ "CONDITION|covid19": {
+  "label": "CONDITION",
+  "vi": "covid19",
+  "en": "COVID-19",
+  "generic": false,
+  "code": "U07.1",
+  "code_system": "ICD-10",
+  "code_name_en": "Acute respiratory disease du to SARS-CoV-2 (Covid-19)",
+  "code_name_vi": "COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính)"
+ },
+ "CONDITION|căng kéo khô rát đỏ ngứa": {
+  "label": "CONDITION",
+  "vi": "căng kéo khô rát đỏ ngứa",
+  "en": "tight, dry, burning, red and itchy skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|căng thẳng": {
+  "label": "CONDITION",
+  "vi": "căng thẳng",
+  "en": "stress",
+  "generic": false,
+  "code": "R45.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Nervousness",
+  "code_name_vi": "Căng thẳng"
+ },
+ "CONDITION|cường giáp": {
+  "label": "CONDITION",
+  "vi": "cường giáp",
+  "en": "hyperthyroidism",
+  "generic": false,
+  "code": "E05.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Thyrotoxicosis, unspecified",
+  "code_name_vi": "Nhiễm độc giáp, không đặc hiệu"
+ },
+ "CONDITION|cục máu đông": {
+  "label": "CONDITION",
+  "vi": "cục máu đông",
+  "en": "blood clot",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|cứng đờ": {
+  "label": "CONDITION",
+  "vi": "cứng đờ",
+  "en": "rigidity",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|da mụn nhạy cảm": {
+  "label": "CONDITION",
+  "vi": "da mụn nhạy cảm",
+  "en": "sensitive acne-prone skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|da nhạy cảm": {
+  "label": "CONDITION",
+  "vi": "da nhạy cảm",
+  "en": "sensitive skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|dao động vận động": {
+  "label": "CONDITION",
+  "vi": "dao động vận động",
+  "en": "motor fluctuations",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|dư": {
+  "label": "CONDITION",
+  "vi": "dư",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|dương tính": {
+  "label": "CONDITION",
+  "vi": "dương tính",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|dị ứng": {
+  "label": "CONDITION",
+  "vi": "dị ứng",
+  "en": "allergy",
+  "generic": false,
+  "code": "T78.4",
+  "code_system": "ICD-10",
+  "code_name_en": "Allergy, unspecified",
+  "code_name_vi": "Dị ứng chưa xác định"
+ },
+ "CONDITION|giảm": {
+  "label": "CONDITION",
+  "vi": "giảm",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|hen": {
+  "label": "CONDITION",
+  "vi": "hen",
+  "en": "asthma",
+  "generic": false,
+  "code": "J45.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Asthma, unspecified",
+  "code_name_vi": "Hen, không phân loại"
+ },
+ "CONDITION|hen suyễn": {
+  "label": "CONDITION",
+  "vi": "hen suyễn",
+  "en": "asthma",
+  "generic": false,
+  "code": "J45",
+  "code_system": "ICD-10",
+  "code_name_en": "Asthma",
+  "code_name_vi": "Hen [suyễn]"
+ },
+ "CONDITION|ho": {
+  "label": "CONDITION",
+  "vi": "ho",
+  "en": "cough",
+  "generic": false,
+  "code": "R05",
+  "code_system": "ICD-10",
+  "code_name_en": "Cough",
+  "code_name_vi": "Ho"
+ },
+ "CONDITION|hoa mắt": {
+  "label": "CONDITION",
+  "vi": "hoa mắt",
+  "en": "dizziness",
+  "generic": false,
+  "code": "R42",
+  "code_system": "ICD-10",
+  "code_name_en": "Dizziness and giddiness",
+  "code_name_vi": "Hoa mắt và chóng mặt"
+ },
+ "CONDITION|hoại tử": {
+  "label": "CONDITION",
+  "vi": "hoại tử",
+  "en": "necrosis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|huyết áp": {
+  "label": "CONDITION",
+  "vi": "huyết áp",
+  "en": "hypertension",
+  "generic": false,
+  "code": "I10",
+  "code_system": "ICD-10",
+  "code_name_en": null,
+  "code_name_vi": "Bệnh lý tăng huyết áp"
+ },
+ "CONDITION|huyết áp cao": {
+  "label": "CONDITION",
+  "vi": "huyết áp cao",
+  "en": "hypertension",
+  "generic": false,
+  "code": "I10",
+  "code_system": "ICD-10",
+  "code_name_en": null,
+  "code_name_vi": "Bệnh lý tăng huyết áp"
+ },
+ "CONDITION|hơi thở có mùi hôi": {
+  "label": "CONDITION",
+  "vi": "hơi thở có mùi hôi",
+  "en": "bad breath",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|hẹp mạch cảnh": {
+  "label": "CONDITION",
+  "vi": "hẹp mạch cảnh",
+  "en": "carotid artery stenosis",
+  "generic": false,
+  "code": "I65.2",
+  "code_system": "ICD-10",
+  "code_name_en": "Occlusion and stenosis of carotid artery",
+  "code_name_vi": "Nghẽn tắc và hẹp động mạch cảnh"
+ },
+ "CONDITION|hồi hộp trống ngực": {
+  "label": "CONDITION",
+  "vi": "hồi hộp trống ngực",
+  "en": "palpitations",
+  "generic": false,
+  "code": "R00.2",
+  "code_system": "ICD-10",
+  "code_name_en": "Palpitations",
+  "code_name_vi": "Đánh trống ngực"
+ },
+ "CONDITION|hội chứng": {
+  "label": "CONDITION",
+  "vi": "hội chứng",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|hội chứng ống": {
+  "label": "CONDITION",
+  "vi": "hội chứng ống",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|khó thở": {
+  "label": "CONDITION",
+  "vi": "khó thở",
+  "en": "dyspnea",
+  "generic": false,
+  "code": "R06.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Dyspnoea",
+  "code_name_vi": "Khó thở"
+ },
+ "CONDITION|khô": {
+  "label": "CONDITION",
+  "vi": "khô",
+  "en": "dryness",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|khô ngứa": {
+  "label": "CONDITION",
+  "vi": "khô ngứa",
+  "en": "dry itchy skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|khô ngứa bong tróc": {
+  "label": "CONDITION",
+  "vi": "khô ngứa bong tróc",
+  "en": "dry, itchy, peeling skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|khối u": {
+  "label": "CONDITION",
+  "vi": "khối u",
+  "en": "tumor",
+  "generic": false,
+  "code": "D48.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Neoplasm of uncertain or unknown behaviour: Neoplasm of uncertain or unknown behaviour, unspecified",
+  "code_name_vi": "U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu"
+ },
+ "CONDITION|khớp gối tê": {
+  "label": "CONDITION",
+  "vi": "khớp gối tê",
+  "en": "knee numbness",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|kích ứng": {
+  "label": "CONDITION",
+  "vi": "kích ứng",
+  "en": "irritation",
+  "generic": false,
+  "code": "L30.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Dermatitis, unspecified",
+  "code_name_vi": "Viêm da, không đặc hiệu"
+ },
+ "CONDITION|lao": {
+  "label": "CONDITION",
+  "vi": "lao",
+  "en": "tuberculosis",
+  "generic": false,
+  "code": "A16.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation",
+  "code_name_vi": "Lao hô hấp không xác định và không đề cập đến việc xác nhận về vi khuẩn học và mô học"
+ },
+ "CONDITION|lo âu": {
+  "label": "CONDITION",
+  "vi": "lo âu",
+  "en": "anxiety",
+  "generic": false,
+  "code": "F41.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Anxiety disorder, unspecified",
+  "code_name_vi": "Rối loạn lo âu, không biệt định"
+ },
+ "CONDITION|loãng xương": {
+  "label": "CONDITION",
+  "vi": "loãng xương",
+  "en": "osteoporosis",
+  "generic": false,
+  "code": "M81.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Osteoporosis, unspecified",
+  "code_name_vi": "Loãng xương không đặc hiệu"
+ },
+ "CONDITION|loạn động": {
+  "label": "CONDITION",
+  "vi": "loạn động",
+  "en": "dyskinesia",
+  "generic": false,
+  "code": "G24.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Dystonia, unspecified",
+  "code_name_vi": "Loạn trương lực cơ, không xác định"
+ },
+ "CONDITION|làn da nhạy cảm": {
+  "label": "CONDITION",
+  "vi": "làn da nhạy cảm",
+  "en": "sensitive skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|lão hóa": {
+  "label": "CONDITION",
+  "vi": "lão hóa",
+  "en": "aging",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|mãn tính": {
+  "label": "CONDITION",
+  "vi": "mãn tính",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|mảng xơ vữa": {
+  "label": "CONDITION",
+  "vi": "mảng xơ vữa",
+  "en": "atherosclerotic plaque",
+  "generic": false,
+  "code": "I70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Generalized and unspecified atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch, toàn thể và không xác định"
+ },
+ "CONDITION|mảng xơ vữa động mạch": {
+  "label": "CONDITION",
+  "vi": "mảng xơ vữa động mạch",
+  "en": "atherosclerotic plaque",
+  "generic": false,
+  "code": "I70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Generalized and unspecified atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch, toàn thể và không xác định"
+ },
+ "CONDITION|mất ngủ": {
+  "label": "CONDITION",
+  "vi": "mất ngủ",
+  "en": "insomnia",
+  "generic": false,
+  "code": "G47.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Disorders of initiating and maintaining sleep [insomnias]",
+  "code_name_vi": "Rối loạn vào giấc và duy trì giấc ngủ [mất ngủ]"
+ },
+ "CONDITION|mất nước qua": {
+  "label": "CONDITION",
+  "vi": "mất nước qua",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|mầm bệnh": {
+  "label": "CONDITION",
+  "vi": "mầm bệnh",
+  "en": "pathogen",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|mắc bệnh viêm khớp": {
+  "label": "CONDITION",
+  "vi": "mắc bệnh viêm khớp",
+  "en": "arthritis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|mỡ máu": {
+  "label": "CONDITION",
+  "vi": "mỡ máu",
+  "en": "dyslipidemia",
+  "generic": false,
+  "code": "E78.5",
+  "code_system": "ICD-10",
+  "code_name_en": "Hyperlipidaemia, unspecified",
+  "code_name_vi": "Tăng lipid máu, không đặc hiệu"
+ },
+ "CONDITION|mụn": {
+  "label": "CONDITION",
+  "vi": "mụn",
+  "en": "acne",
+  "generic": false,
+  "code": "L70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Acne, unspecified",
+  "code_name_vi": "Trứng cá không điển hình"
+ },
+ "CONDITION|nghẽn mạch máu": {
+  "label": "CONDITION",
+  "vi": "nghẽn mạch máu",
+  "en": "vascular occlusion",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|ngứa": {
+  "label": "CONDITION",
+  "vi": "ngứa",
+  "en": "itching",
+  "generic": false,
+  "code": "L29",
+  "code_system": "ICD-10",
+  "code_name_en": "Pruritus",
+  "code_name_vi": "Ngứa"
+ },
+ "CONDITION|nhiều dầu": {
+  "label": "CONDITION",
+  "vi": "nhiều dầu",
+  "en": "oily skin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|nhiễm nấm": {
+  "label": "CONDITION",
+  "vi": "nhiễm nấm",
+  "en": "fungal infection",
+  "generic": false,
+  "code": "B49",
+  "code_system": "ICD-10",
+  "code_name_en": "Unspecified mycosis",
+  "code_name_vi": "Nhiễm nấm không xác định"
+ },
+ "CONDITION|nhiễm trùng": {
+  "label": "CONDITION",
+  "vi": "nhiễm trùng",
+  "en": "infection",
+  "generic": false,
+  "code": "B99",
+  "code_system": "ICD-10",
+  "code_name_en": "Other and unspecified infetious disease",
+  "code_name_vi": "Các bệnh nhiễm trùng khác và không xác định"
+ },
+ "CONDITION|nhịp tim nhanh": {
+  "label": "CONDITION",
+  "vi": "nhịp tim nhanh",
+  "en": "tachycardia",
+  "generic": false,
+  "code": "R00.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Tachycardia, unspecified",
+  "code_name_vi": "Nhịp nhanh tim, không đặc hiệu"
+ },
+ "CONDITION|nhồi máu": {
+  "label": "CONDITION",
+  "vi": "nhồi máu",
+  "en": "infarction",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|nhồi máu cơ tim": {
+  "label": "CONDITION",
+  "vi": "nhồi máu cơ tim",
+  "en": "myocardial infarction",
+  "generic": false,
+  "code": "I21",
+  "code_system": "ICD-10",
+  "code_name_en": "Acute myocardial infarction",
+  "code_name_vi": "Nhồi máu cơ tim cấp"
+ },
+ "CONDITION|nhớ nhớ hay quên": {
+  "label": "CONDITION",
+  "vi": "nhớ nhớ hay quên",
+  "en": "forgetfulness",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|nhớ nhớ quên quên": {
+  "label": "CONDITION",
+  "vi": "nhớ nhớ quên quên",
+  "en": "forgetfulness",
+  "generic": false,
+  "code": "R41.3",
+  "code_system": "ICD-10",
+  "code_name_en": "Other amnesia",
+  "code_name_vi": "Các loại quên khác"
+ },
+ "CONDITION|nhức mỏi": {
+  "label": "CONDITION",
+  "vi": "nhức mỏi",
+  "en": "aches",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|nhức đầu": {
+  "label": "CONDITION",
+  "vi": "nhức đầu",
+  "en": "headache",
+  "generic": false,
+  "code": "R51",
+  "code_system": "ICD-10",
+  "code_name_en": "Headache",
+  "code_name_vi": "Đau đầu"
+ },
+ "CONDITION|nám": {
+  "label": "CONDITION",
+  "vi": "nám",
+  "en": "melasma",
+  "generic": false,
+  "code": "L81.1",
+  "code_system": "ICD-10",
+  "code_name_en": "Chloasma",
+  "code_name_vi": "Rám má"
+ },
+ "CONDITION|parkinson": {
+  "label": "CONDITION",
+  "vi": "parkinson",
+  "en": "Parkinson disease",
+  "generic": false,
+  "code": "G20",
+  "code_system": "ICD-10",
+  "code_name_en": "Parkinson disease",
+  "code_name_vi": "Bệnh Parkinson"
+ },
+ "CONDITION|phá hủy nội tạng": {
+  "label": "CONDITION",
+  "vi": "phá hủy nội tạng",
+  "en": "organ damage",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|run tay": {
+  "label": "CONDITION",
+  "vi": "run tay",
+  "en": "hand tremor",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|rung nhĩ": {
+  "label": "CONDITION",
+  "vi": "rung nhĩ",
+  "en": "atrial fibrillation",
+  "generic": false,
+  "code": "I48",
+  "code_system": "ICD-10",
+  "code_name_en": null,
+  "code_name_vi": "Rung nhĩ và cuồng nhĩ"
+ },
+ "CONDITION|rối loạn": {
+  "label": "CONDITION",
+  "vi": "rối loạn",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|rối loạn chức năng": {
+  "label": "CONDITION",
+  "vi": "rối loạn chức năng",
+  "en": "dysfunction",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|rối loạn mỡ": {
+  "label": "CONDITION",
+  "vi": "rối loạn mỡ",
+  "en": "dyslipidemia",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|rối loạn mỡ máu": {
+  "label": "CONDITION",
+  "vi": "rối loạn mỡ máu",
+  "en": "dyslipidemia",
+  "generic": false,
+  "code": "E78",
+  "code_system": "ICD-10",
+  "code_name_en": "Disorders of lipoprotein metabolism and other lipidaemias",
+  "code_name_vi": "Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác"
+ },
+ "CONDITION|rối loạn nhịp tim": {
+  "label": "CONDITION",
+  "vi": "rối loạn nhịp tim",
+  "en": "cardiac arrhythmia",
+  "generic": false,
+  "code": "I49.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Cardiac arrhythmia, unspecified",
+  "code_name_vi": "Rối loạn nhịp tim, không đặc hiệu"
+ },
+ "CONDITION|rối loạn thần kinh": {
+  "label": "CONDITION",
+  "vi": "rối loạn thần kinh",
+  "en": "neurological disorder",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|rụng tóc": {
+  "label": "CONDITION",
+  "vi": "rụng tóc",
+  "en": "hair loss",
+  "generic": false,
+  "code": "L65.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Nonscarring hair loss, unspecified",
+  "code_name_vi": "Rụng tóc không sẹo, không điển hình"
+ },
+ "CONDITION|sa sút trí tuệ": {
+  "label": "CONDITION",
+  "vi": "sa sút trí tuệ",
+  "en": "dementia",
+  "generic": false,
+  "code": "F03",
+  "code_system": "ICD-10",
+  "code_name_en": "Unspecified dementia",
+  "code_name_vi": "Sa sút trí tuệ không biệt định"
+ },
+ "CONDITION|sang chấn": {
+  "label": "CONDITION",
+  "vi": "sang chấn",
+  "en": "trauma",
+  "generic": false,
+  "code": "F43.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Reaction to severe stress, unspecified",
+  "code_name_vi": "Phản ứng với stress trầm trọng, không đặc hiệu"
+ },
+ "CONDITION|sarscov2": {
+  "label": "CONDITION",
+  "vi": "sarscov2",
+  "en": "COVID-19",
+  "generic": false,
+  "code": "U07.1",
+  "code_system": "ICD-10",
+  "code_name_en": "Acute respiratory disease du to SARS-CoV-2 (Covid-19)",
+  "code_name_vi": "COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính)"
+ },
+ "CONDITION|stress": {
+  "label": "CONDITION",
+  "vi": "stress",
+  "en": "stress",
+  "generic": false,
+  "code": "F43.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Reaction to severe stress, unspecified",
+  "code_name_vi": "Phản ứng với stress trầm trọng, không đặc hiệu"
+ },
+ "CONDITION|suy giãn tĩnh mạch": {
+  "label": "CONDITION",
+  "vi": "suy giãn tĩnh mạch",
+  "en": "varicose veins",
+  "generic": false,
+  "code": "I83.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Varicose veins of lower extremities without ulcer or inflammation",
+  "code_name_vi": "Dãn tĩnh mạch chi dưới không loét không viêm"
+ },
+ "CONDITION|suy giảm chức năng gan": {
+  "label": "CONDITION",
+  "vi": "suy giảm chức năng gan",
+  "en": "liver dysfunction",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|suy giảm nhận thức": {
+  "label": "CONDITION",
+  "vi": "suy giảm nhận thức",
+  "en": "cognitive impairment",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|suy nhược": {
+  "label": "CONDITION",
+  "vi": "suy nhược",
+  "en": "asthenia",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|suy thận": {
+  "label": "CONDITION",
+  "vi": "suy thận",
+  "en": "kidney failure",
+  "generic": false,
+  "code": "N19",
+  "code_system": "ICD-10",
+  "code_name_en": "Unspecified kidney failure",
+  "code_name_vi": "Suy thận không xác định"
+ },
+ "CONDITION|suy tim": {
+  "label": "CONDITION",
+  "vi": "suy tim",
+  "en": "heart failure",
+  "generic": false,
+  "code": "I50",
+  "code_system": "ICD-10",
+  "code_name_en": "Heart failure",
+  "code_name_vi": "Suy tim"
+ },
+ "CONDITION|suyễn": {
+  "label": "CONDITION",
+  "vi": "suyễn",
+  "en": "asthma",
+  "generic": false,
+  "code": "J45.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Asthma, unspecified",
+  "code_name_vi": "Hen, không phân loại"
+ },
+ "CONDITION|sụn khớp thoái": {
+  "label": "CONDITION",
+  "vi": "sụn khớp thoái",
+  "en": "cartilage degeneration",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|sụt cân": {
+  "label": "CONDITION",
+  "vi": "sụt cân",
+  "en": "weight loss",
+  "generic": false,
+  "code": "R63.4",
+  "code_system": "ICD-10",
+  "code_name_en": "Abnormal weight loss",
+  "code_name_vi": "Giảm cân bất thường"
+ },
+ "CONDITION|tai biến": {
+  "label": "CONDITION",
+  "vi": "tai biến",
+  "en": "stroke",
+  "generic": false,
+  "code": "I64",
+  "code_system": "ICD-10",
+  "code_name_en": "Stroke, not specified as haemorrhage or infarction",
+  "code_name_vi": "Đột quị, không xác định do xuất huyết hay nhồi máu (Tai biến mạch máu não)"
+ },
+ "CONDITION|tai nạn": {
+  "label": "CONDITION",
+  "vi": "tai nạn",
+  "en": "accident",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thay đổi về mặt cảm xúc": {
+  "label": "CONDITION",
+  "vi": "thay đổi về mặt cảm xúc",
+  "en": "mood changes",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thay đổi vị giác": {
+  "label": "CONDITION",
+  "vi": "thay đổi vị giác",
+  "en": "taste disturbance",
+  "generic": false,
+  "code": "R43.8",
+  "code_system": "ICD-10",
+  "code_name_en": "Other and unspecified disturbances of smell and taste",
+  "code_name_vi": "Rối loạn không xác định và rối loạn khác về mùi và vị"
+ },
+ "CONDITION|thiếu máu": {
+  "label": "CONDITION",
+  "vi": "thiếu máu",
+  "en": "anemia",
+  "generic": false,
+  "code": "D64.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Anaemia, unspecified",
+  "code_name_vi": "Thiếu máu không đặc hiệu"
+ },
+ "CONDITION|thiếu máu cơ tim": {
+  "label": "CONDITION",
+  "vi": "thiếu máu cơ tim",
+  "en": "myocardial ischemia",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thiếu máu não": {
+  "label": "CONDITION",
+  "vi": "thiếu máu não",
+  "en": "cerebral ischemia",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thiếu nước": {
+  "label": "CONDITION",
+  "vi": "thiếu nước",
+  "en": "dehydration",
+  "generic": false,
+  "code": "X54",
+  "code_system": "ICD-10",
+  "code_name_en": "Lack of water",
+  "code_name_vi": "Thiếu nước"
+ },
+ "CONDITION|thiếu oxy": {
+  "label": "CONDITION",
+  "vi": "thiếu oxy",
+  "en": "hypoxia",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thiểu năng": {
+  "label": "CONDITION",
+  "vi": "thiểu năng",
+  "en": "insufficiency",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thiểu năng vành": {
+  "label": "CONDITION",
+  "vi": "thiểu năng vành",
+  "en": "coronary insufficiency",
+  "generic": false,
+  "code": "I25.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Chronic ischaemic heart disease, unspecified",
+  "code_name_vi": "Bệnh tim thiếu máu cục bộ mạn, không đặc hiệu"
+ },
+ "CONDITION|thoái hóa": {
+  "label": "CONDITION",
+  "vi": "thoái hóa",
+  "en": "degeneration",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thoái hóa cột sống": {
+  "label": "CONDITION",
+  "vi": "thoái hóa cột sống",
+  "en": "spondylosis",
+  "generic": false,
+  "code": "M47",
+  "code_system": "ICD-10",
+  "code_name_en": "Spondylosis",
+  "code_name_vi": "thoái hóa cột sống"
+ },
+ "CONDITION|thoái hóa khớp": {
+  "label": "CONDITION",
+  "vi": "thoái hóa khớp",
+  "en": "osteoarthritis",
+  "generic": false,
+  "code": "M19.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Arthrosis, unspecified",
+  "code_name_vi": "Thoái hóa khớp không đặc hiệu"
+ },
+ "CONDITION|thoát vị đĩa đệm": {
+  "label": "CONDITION",
+  "vi": "thoát vị đĩa đệm",
+  "en": "herniated disc",
+  "generic": false,
+  "code": "M51.2",
+  "code_system": "ICD-10",
+  "code_name_en": "Other specified intervertebral disc displacement",
+  "code_name_vi": "Thoát vị đĩa đệm đốt sống đặc hiệu khác"
+ },
+ "CONDITION|thần kinh liên sườn tê": {
+  "label": "CONDITION",
+  "vi": "thần kinh liên sườn tê",
+  "en": "intercostal numbness",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|thần kinh suy nhược": {
+  "label": "CONDITION",
+  "vi": "thần kinh suy nhược",
+  "en": "neurasthenia",
+  "generic": false,
+  "code": "F48.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Neurasthenia",
+  "code_name_vi": "Bệnh suy nhược thần kinh"
+ },
+ "CONDITION|tim đập nhanh": {
+  "label": "CONDITION",
+  "vi": "tim đập nhanh",
+  "en": "tachycardia",
+  "generic": false,
+  "code": "R00.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Tachycardia, unspecified",
+  "code_name_vi": "Nhịp nhanh tim, không đặc hiệu"
+ },
+ "CONDITION|tiêu chảy": {
+  "label": "CONDITION",
+  "vi": "tiêu chảy",
+  "en": "diarrhea",
+  "generic": false,
+  "code": "A09.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Gastroenteritis and colitis of unspecified origin",
+  "code_name_vi": "Viêm dạ dày - ruột và viêm đại tràng khác không rõ nguyên nhân"
+ },
+ "CONDITION|tiền đình": {
+  "label": "CONDITION",
+  "vi": "tiền đình",
+  "en": "vestibular disorder",
+  "generic": false,
+  "code": "H81.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Disorder of vestibular function, unspecified",
+  "code_name_vi": "Rối loạn chức năng tiền đình, không đặc hiệu"
+ },
+ "CONDITION|tiểu đường": {
+  "label": "CONDITION",
+  "vi": "tiểu đường",
+  "en": "diabetes mellitus",
+  "generic": false,
+  "code": "E14",
+  "code_system": "ICD-10",
+  "code_name_en": "Unspecified diabetes mellitus",
+  "code_name_vi": "Các thể loại đái tháo đường không xác định"
+ },
+ "CONDITION|triệu chứng": {
+  "label": "CONDITION",
+  "vi": "triệu chứng",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|triệu chứng đơ cứng": {
+  "label": "CONDITION",
+  "vi": "triệu chứng đơ cứng",
+  "en": "rigidity",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|trào ngược": {
+  "label": "CONDITION",
+  "vi": "trào ngược",
+  "en": "reflux",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|trầm cảm": {
+  "label": "CONDITION",
+  "vi": "trầm cảm",
+  "en": "depression",
+  "generic": false,
+  "code": "F32.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Depressive episode, unspecified",
+  "code_name_vi": "Giai đoạn trầm cảm không đặc hiệu"
+ },
+ "CONDITION|tác dụng phụ": {
+  "label": "CONDITION",
+  "vi": "tác dụng phụ",
+  "en": "adverse effect",
+  "generic": false,
+  "code": "T88.7",
+  "code_system": "ICD-10",
+  "code_name_en": "Unspecified adverse effect of drug or medicament",
+  "code_name_vi": "Tác dụng phụ chưa xác định của thuốc hoặc dược phẩm"
+ },
+ "CONDITION|tái phát": {
+  "label": "CONDITION",
+  "vi": "tái phát",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|táo bón": {
+  "label": "CONDITION",
+  "vi": "táo bón",
+  "en": "constipation",
+  "generic": false,
+  "code": "K59.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Constipation",
+  "code_name_vi": "Táo bón"
+ },
+ "CONDITION|tâm thần": {
+  "label": "CONDITION",
+  "vi": "tâm thần",
+  "en": "mental disorder",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tê": {
+  "label": "CONDITION",
+  "vi": "tê",
+  "en": "numbness",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tê bì": {
+  "label": "CONDITION",
+  "vi": "tê bì",
+  "en": "paresthesia",
+  "generic": false,
+  "code": "R20.2",
+  "code_system": "ICD-10",
+  "code_name_en": "Paraesthesia of skin",
+  "code_name_vi": "Dị cảm da"
+ },
+ "CONDITION|tê bì kiến bò": {
+  "label": "CONDITION",
+  "vi": "tê bì kiến bò",
+  "en": "paresthesia",
+  "generic": false,
+  "code": "R20.2",
+  "code_system": "ICD-10",
+  "code_name_en": "Paraesthesia of skin",
+  "code_name_vi": "Dị cảm da"
+ },
+ "CONDITION|tê liệt tay": {
+  "label": "CONDITION",
+  "vi": "tê liệt tay",
+  "en": "arm paralysis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tình trạng nhịp chậm": {
+  "label": "CONDITION",
+  "vi": "tình trạng nhịp chậm",
+  "en": "bradycardia",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tình trạng thiếu độ ẩm": {
+  "label": "CONDITION",
+  "vi": "tình trạng thiếu độ ẩm",
+  "en": "skin dehydration",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tình trạng xơ vữa": {
+  "label": "CONDITION",
+  "vi": "tình trạng xơ vữa",
+  "en": "atherosclerosis",
+  "generic": false,
+  "code": "I70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Generalized and unspecified atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch, toàn thể và không xác định"
+ },
+ "CONDITION|tình trạng xơ vữa mạch": {
+  "label": "CONDITION",
+  "vi": "tình trạng xơ vữa mạch",
+  "en": "atherosclerosis",
+  "generic": false,
+  "code": "I70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Generalized and unspecified atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch, toàn thể và không xác định"
+ },
+ "CONDITION|tăng huyết áp": {
+  "label": "CONDITION",
+  "vi": "tăng huyết áp",
+  "en": "hypertension",
+  "generic": false,
+  "code": "I10",
+  "code_system": "ICD-10",
+  "code_name_en": null,
+  "code_name_vi": "Bệnh lý tăng huyết áp"
+ },
+ "CONDITION|tắc mạch": {
+  "label": "CONDITION",
+  "vi": "tắc mạch",
+  "en": "embolism",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tắc mạch chi": {
+  "label": "CONDITION",
+  "vi": "tắc mạch chi",
+  "en": "limb artery occlusion",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tắc nghẽn": {
+  "label": "CONDITION",
+  "vi": "tắc nghẽn",
+  "en": "obstruction",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tắc động mạch thận": {
+  "label": "CONDITION",
+  "vi": "tắc động mạch thận",
+  "en": "renal artery occlusion",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tổn thương": {
+  "label": "CONDITION",
+  "vi": "tổn thương",
+  "en": "lesion",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tổn thương hàng rào": {
+  "label": "CONDITION",
+  "vi": "tổn thương hàng rào",
+  "en": "skin barrier damage",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tức ngực": {
+  "label": "CONDITION",
+  "vi": "tức ngực",
+  "en": "chest tightness",
+  "generic": false,
+  "code": "R07.4",
+  "code_system": "ICD-10",
+  "code_name_en": "Chest pain, unspecified",
+  "code_name_vi": "Đau ngực không đặc hiệu"
+ },
+ "CONDITION|tử vong": {
+  "label": "CONDITION",
+  "vi": "tử vong",
+  "en": "death",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|tự kỷ": {
+  "label": "CONDITION",
+  "vi": "tự kỷ",
+  "en": "autism",
+  "generic": false,
+  "code": "F84.0",
+  "code_system": "ICD-10",
+  "code_name_en": "Childhood autism",
+  "code_name_vi": "Tính tự kỷ ở trẻ em"
+ },
+ "CONDITION|ung thư": {
+  "label": "CONDITION",
+  "vi": "ung thư",
+  "en": "cancer",
+  "generic": false,
+  "code": "C80.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Malignant neoplasm, unspecified",
+  "code_name_vi": "U ác, không đặc hiệu"
+ },
+ "CONDITION|vi khuẩn": {
+  "label": "CONDITION",
+  "vi": "vi khuẩn",
+  "en": "bacterial infection",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|viêm": {
+  "label": "CONDITION",
+  "vi": "viêm",
+  "en": "inflammation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|viêm da": {
+  "label": "CONDITION",
+  "vi": "viêm da",
+  "en": "dermatitis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|viêm gan": {
+  "label": "CONDITION",
+  "vi": "viêm gan",
+  "en": "hepatitis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|viêm khớp": {
+  "label": "CONDITION",
+  "vi": "viêm khớp",
+  "en": "arthritis",
+  "generic": false,
+  "code": "M13.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Arthritis, unspecified",
+  "code_name_vi": "Viêm khớp không đặc hiệu"
+ },
+ "CONDITION|viêm loét": {
+  "label": "CONDITION",
+  "vi": "viêm loét",
+  "en": "ulcer",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|viêm phổi": {
+  "label": "CONDITION",
+  "vi": "viêm phổi",
+  "en": "pneumonia",
+  "generic": false,
+  "code": "J18",
+  "code_system": "ICD-10",
+  "code_name_en": "Pneumonia, organism unspecified",
+  "code_name_vi": "Viêm phổi, tác nhân không xác định"
+ },
+ "CONDITION|viêm đại tràng": {
+  "label": "CONDITION",
+  "vi": "viêm đại tràng",
+  "en": "colitis",
+  "generic": false,
+  "code": "K52.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Noninfective gastroenteritis and colitis, unspecified",
+  "code_name_vi": "Viêm dạ dày - ruột và đại tràng không nhiễm trùng, không đặc hiệu"
+ },
+ "CONDITION|vảy nến": {
+  "label": "CONDITION",
+  "vi": "vảy nến",
+  "en": "psoriasis",
+  "generic": false,
+  "code": "L40",
+  "code_system": "ICD-10",
+  "code_name_en": "Psoriasis",
+  "code_name_vi": "Vảy nến"
+ },
+ "CONDITION|vết cắt": {
+  "label": "CONDITION",
+  "vi": "vết cắt",
+  "en": "cut",
+  "generic": false,
+  "code": "T14.1",
+  "code_system": "ICD-10",
+  "code_name_en": "Open wound of unspecified body region",
+  "code_name_vi": "Vết thương hở chưa xác định vùng cơ thể"
+ },
+ "CONDITION|vết thương": {
+  "label": "CONDITION",
+  "vi": "vết thương",
+  "en": "wound",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|vữa xơ động mạch": {
+  "label": "CONDITION",
+  "vi": "vữa xơ động mạch",
+  "en": "atherosclerosis",
+  "generic": false,
+  "code": "I70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Generalized and unspecified atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch, toàn thể và không xác định"
+ },
+ "CONDITION|xuất huyết": {
+  "label": "CONDITION",
+  "vi": "xuất huyết",
+  "en": "hemorrhage",
+  "generic": false,
+  "code": "R58",
+  "code_system": "ICD-10",
+  "code_name_en": "Haemorrhage, not elsewhere classified",
+  "code_name_vi": "Chảy máu chưa được phân loại ở nơi khác"
+ },
+ "CONDITION|xây xước": {
+  "label": "CONDITION",
+  "vi": "xây xước",
+  "en": "abrasion",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|xây xẩm": {
+  "label": "CONDITION",
+  "vi": "xây xẩm",
+  "en": "dizziness",
+  "generic": false,
+  "code": "R42",
+  "code_system": "ICD-10",
+  "code_name_en": "Dizziness and giddiness",
+  "code_name_vi": "Hoa mắt và chóng mặt"
+ },
+ "CONDITION|xơ gan": {
+  "label": "CONDITION",
+  "vi": "xơ gan",
+  "en": "liver cirrhosis",
+  "generic": false,
+  "code": "K74.6",
+  "code_system": "ICD-10",
+  "code_name_en": "Other and unspecified cirrhosis of liver",
+  "code_name_vi": "Xơ gan khác và không đặc hiệu"
+ },
+ "CONDITION|xơ vữa": {
+  "label": "CONDITION",
+  "vi": "xơ vữa",
+  "en": "atherosclerosis",
+  "generic": false,
+  "code": "I70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Generalized and unspecified atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch, toàn thể và không xác định"
+ },
+ "CONDITION|xơ vữa mạch": {
+  "label": "CONDITION",
+  "vi": "xơ vữa mạch",
+  "en": "atherosclerosis",
+  "generic": false,
+  "code": "I70.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Generalized and unspecified atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch, toàn thể và không xác định"
+ },
+ "CONDITION|xơ vữa mạch não": {
+  "label": "CONDITION",
+  "vi": "xơ vữa mạch não",
+  "en": "cerebral atherosclerosis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|xơ vữa động mạch": {
+  "label": "CONDITION",
+  "vi": "xơ vữa động mạch",
+  "en": "atherosclerosis",
+  "generic": false,
+  "code": "I70",
+  "code_system": "ICD-10",
+  "code_name_en": "Atherosclerosis",
+  "code_name_vi": "Xơ vữa động mạch"
+ },
+ "CONDITION|đau": {
+  "label": "CONDITION",
+  "vi": "đau",
+  "en": "pain",
+  "generic": false,
+  "code": "R52.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Pain, unspecified",
+  "code_name_vi": "Đau, không đặc hiệu"
+ },
+ "CONDITION|đau bụng": {
+  "label": "CONDITION",
+  "vi": "đau bụng",
+  "en": "abdominal pain",
+  "generic": false,
+  "code": "R10",
+  "code_system": "ICD-10",
+  "code_name_en": "Abdominal and pelvic pain",
+  "code_name_vi": "Đau bụng và vùng chậu"
+ },
+ "CONDITION|đau lưng": {
+  "label": "CONDITION",
+  "vi": "đau lưng",
+  "en": "back pain",
+  "generic": false,
+  "code": "M54",
+  "code_system": "ICD-10",
+  "code_name_en": "Dorsalgia",
+  "code_name_vi": "Đau lưng"
+ },
+ "CONDITION|đau nhức": {
+  "label": "CONDITION",
+  "vi": "đau nhức",
+  "en": "aching pain",
+  "generic": false,
+  "code": "R52.9",
+  "code_system": "ICD-10",
+  "code_name_en": "Pain, unspecified",
+  "code_name_vi": "Đau, không đặc hiệu"
+ },
+ "CONDITION|đau thần kinh tọa": {
+  "label": "CONDITION",
+  "vi": "đau thần kinh tọa",
+  "en": "sciatica",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|đau thắt ngực": {
+  "label": "CONDITION",
+  "vi": "đau thắt ngực",
+  "en": "angina pectoris",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "CONDITION|đau tức ngực": {
+  "label": "CONDITION",
+  "vi": "đau tức ngực",
+  "en": "chest pain",
+  "generic": false,
+  "code": "R07.4",
+  "code_system": "ICD-10",
+  "code_name_en": "Chest pain, unspecified",
+  "code_name_vi": "Đau ngực không đặc hiệu"
+ },
+ "CONDITION|đau đầu": {
+  "label": "CONDITION",
+  "vi": "đau đầu",
+  "en": "headache",
+  "generic": false,
+  "code": "R51",
+  "code_system": "ICD-10",
+  "code_name_en": "Headache",
+  "code_name_vi": "Đau đầu"
+ },
+ "CONDITION|đái tháo đường": {
+  "label": "CONDITION",
+  "vi": "đái tháo đường",
+  "en": "diabetes mellitus",
+  "generic": false,
+  "code": "E14",
+  "code_system": "ICD-10",
+  "code_name_en": "Unspecified diabetes mellitus",
+  "code_name_vi": "Các thể loại đái tháo đường không xác định"
+ },
+ "CONDITION|động kinh": {
+  "label": "CONDITION",
+  "vi": "động kinh",
+  "en": "epilepsy",
+  "generic": false,
+  "code": "G40",
+  "code_system": "ICD-10",
+  "code_name_en": "Epilepsy",
+  "code_name_vi": "Động kinh"
+ },
+ "CONDITION|đột quỵ": {
+  "label": "CONDITION",
+  "vi": "đột quỵ",
+  "en": "stroke",
+  "generic": false,
+  "code": "I64",
+  "code_system": "ICD-10",
+  "code_name_en": "Stroke, not specified as haemorrhage or infarction",
+  "code_name_vi": "Đột quị, không xác định do xuất huyết hay nhồi máu (Tai biến mạch máu não)"
+ },
+ "DOSAGE|ba trăm mi li gam": {
+  "label": "DOSAGE",
+  "vi": "ba trăm mi li gam",
+  "en": "300 mg",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|cao": {
+  "label": "DOSAGE",
+  "vi": "cao",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|cái thứ hai": {
+  "label": "DOSAGE",
+  "vi": "cái thứ hai",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|cái tỷ lệ": {
+  "label": "DOSAGE",
+  "vi": "cái tỷ lệ",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|hai lần một ngày": {
+  "label": "DOSAGE",
+  "vi": "hai lần một ngày",
+  "en": "twice daily",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|hai mươi mi li gam": {
+  "label": "DOSAGE",
+  "vi": "hai mươi mi li gam",
+  "en": "20 mg",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|hai mươi đơn vị": {
+  "label": "DOSAGE",
+  "vi": "hai mươi đơn vị",
+  "en": "20 units",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|hai viên": {
+  "label": "DOSAGE",
+  "vi": "hai viên",
+  "en": "two tablets",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|mười mi li gam": {
+  "label": "DOSAGE",
+  "vi": "mười mi li gam",
+  "en": "10 mg",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|mười đơn vị": {
+  "label": "DOSAGE",
+  "vi": "mười đơn vị",
+  "en": "10 units",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một ca": {
+  "label": "DOSAGE",
+  "vi": "một ca",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một gói": {
+  "label": "DOSAGE",
+  "vi": "một gói",
+  "en": "one sachet",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một liều": {
+  "label": "DOSAGE",
+  "vi": "một liều",
+  "en": "one dose",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một lần mỗi ngày": {
+  "label": "DOSAGE",
+  "vi": "một lần mỗi ngày",
+  "en": "once daily",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một người": {
+  "label": "DOSAGE",
+  "vi": "một người",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một trong những cái hướng": {
+  "label": "DOSAGE",
+  "vi": "một trong những cái hướng",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một trăm phần trăm": {
+  "label": "DOSAGE",
+  "vi": "một trăm phần trăm",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một viên": {
+  "label": "DOSAGE",
+  "vi": "một viên",
+  "en": "one tablet",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|một ống": {
+  "label": "DOSAGE",
+  "vi": "một ống",
+  "en": "one ampoule",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|mức độ": {
+  "label": "DOSAGE",
+  "vi": "mức độ",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|những bệnh nhân": {
+  "label": "DOSAGE",
+  "vi": "những bệnh nhân",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|năm trăm mi li gam": {
+  "label": "DOSAGE",
+  "vi": "năm trăm mi li gam",
+  "en": "500 mg",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|nửa viên": {
+  "label": "DOSAGE",
+  "vi": "nửa viên",
+  "en": "half a tablet",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|ph": {
+  "label": "DOSAGE",
+  "vi": "ph",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|phần thứ hai": {
+  "label": "DOSAGE",
+  "vi": "phần thứ hai",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|rất nhiều": {
+  "label": "DOSAGE",
+  "vi": "rất nhiều",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|thấp": {
+  "label": "DOSAGE",
+  "vi": "thấp",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|tám mươi mi li gam": {
+  "label": "DOSAGE",
+  "vi": "tám mươi mi li gam",
+  "en": "80 mg",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|tần số": {
+  "label": "DOSAGE",
+  "vi": "tần số",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DOSAGE|tỷ lệ": {
+  "label": "DOSAGE",
+  "vi": "tỷ lệ",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|amlodipin": {
+  "label": "DRUG",
+  "vi": "amlodipin",
+  "en": "amlodipine",
+  "generic": false,
+  "code": "17767",
+  "code_system": "RxNorm",
+  "code_name_en": "amlodipine"
+ },
+ "DRUG|aspirin": {
+  "label": "DRUG",
+  "vi": "aspirin",
+  "en": "aspirin",
+  "generic": false,
+  "code": "1191",
+  "code_system": "RxNorm",
+  "code_name_en": "aspirin"
+ },
+ "DRUG|betadine": {
+  "label": "DRUG",
+  "vi": "betadine",
+  "en": "povidone-iodine",
+  "generic": false,
+  "code": "202750",
+  "code_system": "RxNorm",
+  "code_name_en": "Betadine"
+ },
+ "DRUG|bã nhờn": {
+  "label": "DRUG",
+  "vi": "bã nhờn",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|bảo vệ da": {
+  "label": "DRUG",
+  "vi": "bảo vệ da",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|can thiệp": {
+  "label": "DRUG",
+  "vi": "can thiệp",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|canxi": {
+  "label": "DRUG",
+  "vi": "canxi",
+  "en": "calcium",
+  "generic": false,
+  "code": "1895",
+  "code_system": "RxNorm",
+  "code_name_en": "calcium"
+ },
+ "DRUG|chất bột đường": {
+  "label": "DRUG",
+  "vi": "chất bột đường",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|chất nhầy": {
+  "label": "DRUG",
+  "vi": "chất nhầy",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|chỉ định": {
+  "label": "DRUG",
+  "vi": "chỉ định",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|colchicin": {
+  "label": "DRUG",
+  "vi": "colchicin",
+  "en": "colchicine",
+  "generic": false,
+  "code": "2683",
+  "code_system": "RxNorm",
+  "code_name_en": "colchicine"
+ },
+ "DRUG|corticoid": {
+  "label": "DRUG",
+  "vi": "corticoid",
+  "en": "corticosteroid",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|dầu nhờn": {
+  "label": "DRUG",
+  "vi": "dầu nhờn",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|dự phòng": {
+  "label": "DRUG",
+  "vi": "dự phòng",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|hormone": {
+  "label": "DRUG",
+  "vi": "hormone",
+  "en": "hormone",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|hóa chất bụi bẩn": {
+  "label": "DRUG",
+  "vi": "hóa chất bụi bẩn",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|immunesoyz": {
+  "label": "DRUG",
+  "vi": "immunesoyz",
+  "en": "Immunesoyz (supplement)",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|insulin": {
+  "label": "DRUG",
+  "vi": "insulin",
+  "en": "insulin",
+  "generic": false,
+  "code": "253182",
+  "code_system": "RxNorm",
+  "code_name_en": "insulin, regular, human"
+ },
+ "DRUG|iod": {
+  "label": "DRUG",
+  "vi": "iod",
+  "en": "iodine",
+  "generic": false,
+  "code": "5933",
+  "code_system": "RxNorm",
+  "code_name_en": "iodine"
+ },
+ "DRUG|kem bôi": {
+  "label": "DRUG",
+  "vi": "kem bôi",
+  "en": "topical cream",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|kem dưỡng ẩm": {
+  "label": "DRUG",
+  "vi": "kem dưỡng ẩm",
+  "en": "moisturizer",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|kháng sinh": {
+  "label": "DRUG",
+  "vi": "kháng sinh",
+  "en": "antibiotic",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|kháng sinh bôi": {
+  "label": "DRUG",
+  "vi": "kháng sinh bôi",
+  "en": "topical antibiotic",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|kiểm soát": {
+  "label": "DRUG",
+  "vi": "kiểm soát",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|kẽm": {
+  "label": "DRUG",
+  "vi": "kẽm",
+  "en": "zinc",
+  "generic": false,
+  "code": "11416",
+  "code_system": "RxNorm",
+  "code_name_en": "zinc"
+ },
+ "DRUG|levodopa": {
+  "label": "DRUG",
+  "vi": "levodopa",
+  "en": "levodopa",
+  "generic": false,
+  "code": "6375",
+  "code_system": "RxNorm",
+  "code_name_en": "levodopa"
+ },
+ "DRUG|metformin": {
+  "label": "DRUG",
+  "vi": "metformin",
+  "en": "metformin",
+  "generic": false,
+  "code": "6809",
+  "code_system": "RxNorm",
+  "code_name_en": "metformin"
+ },
+ "DRUG|natri": {
+  "label": "DRUG",
+  "vi": "natri",
+  "en": "sodium",
+  "generic": false,
+  "code": "9853",
+  "code_system": "RxNorm",
+  "code_name_en": "sodium"
+ },
+ "DRUG|nguyên tố vi lượng": {
+  "label": "DRUG",
+  "vi": "nguyên tố vi lượng",
+  "en": "trace elements",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|ngăn ngừa": {
+  "label": "DRUG",
+  "vi": "ngăn ngừa",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|niacinamide": {
+  "label": "DRUG",
+  "vi": "niacinamide",
+  "en": "niacinamide",
+  "generic": false,
+  "code": "7405",
+  "code_system": "RxNorm",
+  "code_name_en": "niacinamide"
+ },
+ "DRUG|omega3": {
+  "label": "DRUG",
+  "vi": "omega3",
+  "en": "omega-3 fatty acids",
+  "generic": false,
+  "code": "4301",
+  "code_system": "RxNorm",
+  "code_name_en": "omega-3 fatty acids"
+ },
+ "DRUG|omeprazol": {
+  "label": "DRUG",
+  "vi": "omeprazol",
+  "en": "omeprazole",
+  "generic": false,
+  "code": "7646",
+  "code_system": "RxNorm",
+  "code_name_en": "omeprazole"
+ },
+ "DRUG|oxy": {
+  "label": "DRUG",
+  "vi": "oxy",
+  "en": "oxygen",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|paracetamol": {
+  "label": "DRUG",
+  "vi": "paracetamol",
+  "en": "paracetamol",
+  "generic": false,
+  "code": "161",
+  "code_system": "RxNorm",
+  "code_name_en": "acetaminophen"
+ },
+ "DRUG|phòng ngừa": {
+  "label": "DRUG",
+  "vi": "phòng ngừa",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|phòng tránh": {
+  "label": "DRUG",
+  "vi": "phòng tránh",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|retinol": {
+  "label": "DRUG",
+  "vi": "retinol",
+  "en": "retinol",
+  "generic": false,
+  "code": "11246",
+  "code_system": "RxNorm",
+  "code_name_en": "vitamin A"
+ },
+ "DRUG|selen": {
+  "label": "DRUG",
+  "vi": "selen",
+  "en": "selenium",
+  "generic": false,
+  "code": "9641",
+  "code_system": "RxNorm",
+  "code_name_en": "selenium"
+ },
+ "DRUG|statin": {
+  "label": "DRUG",
+  "vi": "statin",
+  "en": "statin",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|sáng xanh": {
+  "label": "DRUG",
+  "vi": "sáng xanh",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc": {
+  "label": "DRUG",
+  "vi": "thuốc",
+  "en": "medication",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc chống tiểu cầu": {
+  "label": "DRUG",
+  "vi": "thuốc chống tiểu cầu",
+  "en": "antiplatelet drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc chống viêm": {
+  "label": "DRUG",
+  "vi": "thuốc chống viêm",
+  "en": "anti-inflammatory drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc chống động kinh": {
+  "label": "DRUG",
+  "vi": "thuốc chống động kinh",
+  "en": "antiepileptic drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc giãn phế quản": {
+  "label": "DRUG",
+  "vi": "thuốc giãn phế quản",
+  "en": "bronchodilator",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc giảm đau": {
+  "label": "DRUG",
+  "vi": "thuốc giảm đau",
+  "en": "analgesic",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc ho": {
+  "label": "DRUG",
+  "vi": "thuốc ho",
+  "en": "cough medicine",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc hóa trị": {
+  "label": "DRUG",
+  "vi": "thuốc hóa trị",
+  "en": "chemotherapy drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc hạ áp": {
+  "label": "DRUG",
+  "vi": "thuốc hạ áp",
+  "en": "antihypertensive drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc hạ đường huyết": {
+  "label": "DRUG",
+  "vi": "thuốc hạ đường huyết",
+  "en": "hypoglycemic drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc kháng axit": {
+  "label": "DRUG",
+  "vi": "thuốc kháng axit",
+  "en": "antacid",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc kháng đông": {
+  "label": "DRUG",
+  "vi": "thuốc kháng đông",
+  "en": "anticoagulant",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc nhuận tràng": {
+  "label": "DRUG",
+  "vi": "thuốc nhuận tràng",
+  "en": "laxative",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc nhắm trúng đích": {
+  "label": "DRUG",
+  "vi": "thuốc nhắm trúng đích",
+  "en": "targeted therapy drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc tiêu sợi huyết": {
+  "label": "DRUG",
+  "vi": "thuốc tiêu sợi huyết",
+  "en": "thrombolytic drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thuốc để giảm nhịp tim": {
+  "label": "DRUG",
+  "vi": "thuốc để giảm nhịp tim",
+  "en": "heart-rate-lowering drug",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|thảo dược": {
+  "label": "DRUG",
+  "vi": "thảo dược",
+  "en": "herbal medicine",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|warfarin": {
+  "label": "DRUG",
+  "vi": "warfarin",
+  "en": "warfarin",
+  "generic": false,
+  "code": "11289",
+  "code_system": "RxNorm",
+  "code_name_en": "warfarin"
+ },
+ "DRUG|điều chỉnh": {
+  "label": "DRUG",
+  "vi": "điều chỉnh",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "DRUG|đông trùng hạ thảo": {
+  "label": "DRUG",
+  "vi": "đông trùng hạ thảo",
+  "en": "cordyceps",
+  "generic": false,
+  "code": "1427139",
+  "code_system": "RxNorm",
+  "code_name_en": "Ophiocordyceps sinensis extract"
+ },
+ "PROCEDURE|cho thuốc": {
+  "label": "PROCEDURE",
+  "vi": "cho thuốc",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|chữa lành bệnh": {
+  "label": "PROCEDURE",
+  "vi": "chữa lành bệnh",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|chữa trị": {
+  "label": "PROCEDURE",
+  "vi": "chữa trị",
+  "en": "treatment",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|cải thiện": {
+  "label": "PROCEDURE",
+  "vi": "cải thiện",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|cắt bỏ khối u": {
+  "label": "PROCEDURE",
+  "vi": "cắt bỏ khối u",
+  "en": "tumor resection",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|cắt đốt": {
+  "label": "PROCEDURE",
+  "vi": "cắt đốt",
+  "en": "ablation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|ghép gan": {
+  "label": "PROCEDURE",
+  "vi": "ghép gan",
+  "en": "liver transplantation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|hóa trị": {
+  "label": "PROCEDURE",
+  "vi": "hóa trị",
+  "en": "chemotherapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|hỗ trợ": {
+  "label": "PROCEDURE",
+  "vi": "hỗ trợ",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|kháng viêm": {
+  "label": "PROCEDURE",
+  "vi": "kháng viêm",
+  "en": "anti-inflammatory therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|kháng đông": {
+  "label": "PROCEDURE",
+  "vi": "kháng đông",
+  "en": "anticoagulation therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|khí dung": {
+  "label": "PROCEDURE",
+  "vi": "khí dung",
+  "en": "nebulization",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|kích thích não sâu": {
+  "label": "PROCEDURE",
+  "vi": "kích thích não sâu",
+  "en": "deep brain stimulation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|laptop": {
+  "label": "PROCEDURE",
+  "vi": "laptop",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|laser": {
+  "label": "PROCEDURE",
+  "vi": "laser",
+  "en": "laser therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|liệu pháp chuyên sâu": {
+  "label": "PROCEDURE",
+  "vi": "liệu pháp chuyên sâu",
+  "en": "intensive therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|lăn kim": {
+  "label": "PROCEDURE",
+  "vi": "lăn kim",
+  "en": "microneedling",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|lưu tâm": {
+  "label": "PROCEDURE",
+  "vi": "lưu tâm",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|màn hình": {
+  "label": "PROCEDURE",
+  "vi": "màn hình",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|mổ": {
+  "label": "PROCEDURE",
+  "vi": "mổ",
+  "en": "surgery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|ngoại khoa": {
+  "label": "PROCEDURE",
+  "vi": "ngoại khoa",
+  "en": "surgery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|ngăn chặn": {
+  "label": "PROCEDURE",
+  "vi": "ngăn chặn",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|nong mạch vành": {
+  "label": "PROCEDURE",
+  "vi": "nong mạch vành",
+  "en": "coronary angioplasty",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|nuôi dưỡng": {
+  "label": "PROCEDURE",
+  "vi": "nuôi dưỡng",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|nuôi não": {
+  "label": "PROCEDURE",
+  "vi": "nuôi não",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|peel da": {
+  "label": "PROCEDURE",
+  "vi": "peel da",
+  "en": "chemical peel",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phẫu thuật": {
+  "label": "PROCEDURE",
+  "vi": "phẫu thuật",
+  "en": "surgery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phẫu thuật bắc cầu": {
+  "label": "PROCEDURE",
+  "vi": "phẫu thuật bắc cầu",
+  "en": "bypass surgery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phẫu thuật cắt dạ dày": {
+  "label": "PROCEDURE",
+  "vi": "phẫu thuật cắt dạ dày",
+  "en": "gastrectomy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phẫu thuật cắt thùy phổi": {
+  "label": "PROCEDURE",
+  "vi": "phẫu thuật cắt thùy phổi",
+  "en": "lobectomy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phẫu thuật kích thích não sâu": {
+  "label": "PROCEDURE",
+  "vi": "phẫu thuật kích thích não sâu",
+  "en": "deep brain stimulation surgery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phẫu thuật thay khớp": {
+  "label": "PROCEDURE",
+  "vi": "phẫu thuật thay khớp",
+  "en": "joint replacement surgery",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phẫu thuật tuyến giáp": {
+  "label": "PROCEDURE",
+  "vi": "phẫu thuật tuyến giáp",
+  "en": "thyroidectomy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phục hồi": {
+  "label": "PROCEDURE",
+  "vi": "phục hồi",
+  "en": "rehabilitation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|phục hồi chức năng": {
+  "label": "PROCEDURE",
+  "vi": "phục hồi chức năng",
+  "en": "rehabilitation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|plasma lạnh": {
+  "label": "PROCEDURE",
+  "vi": "plasma lạnh",
+  "en": "cold plasma therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|sinh mổ": {
+  "label": "PROCEDURE",
+  "vi": "sinh mổ",
+  "en": "cesarean section",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|thở oxy": {
+  "label": "PROCEDURE",
+  "vi": "thở oxy",
+  "en": "oxygen therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|trị liệu": {
+  "label": "PROCEDURE",
+  "vi": "trị liệu",
+  "en": "therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|uống thuốc": {
+  "label": "PROCEDURE",
+  "vi": "uống thuốc",
+  "en": "oral medication",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|vật lý trị liệu": {
+  "label": "PROCEDURE",
+  "vi": "vật lý trị liệu",
+  "en": "physical therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|xoa bóp": {
+  "label": "PROCEDURE",
+  "vi": "xoa bóp",
+  "en": "massage",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|xạ trị": {
+  "label": "PROCEDURE",
+  "vi": "xạ trị",
+  "en": "radiotherapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|điều trị": {
+  "label": "PROCEDURE",
+  "vi": "điều trị",
+  "en": "treatment",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|điều trị gen": {
+  "label": "PROCEDURE",
+  "vi": "điều trị gen",
+  "en": "gene therapy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|điện cực": {
+  "label": "PROCEDURE",
+  "vi": "điện cực",
+  "en": "electrode implantation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|đánh giá": {
+  "label": "PROCEDURE",
+  "vi": "đánh giá",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|đặt stent": {
+  "label": "PROCEDURE",
+  "vi": "đặt stent",
+  "en": "stent placement",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "PROCEDURE|đặt điện cực kích thích não sâu": {
+  "label": "PROCEDURE",
+  "vi": "đặt điện cực kích thích não sâu",
+  "en": "deep brain stimulation electrode implantation",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|bài tiết": {
+  "label": "TEST",
+  "vi": "bài tiết",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chuẩn đoán": {
+  "label": "TEST",
+  "vi": "chuẩn đoán",
+  "en": "diagnosis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chích máu": {
+  "label": "TEST",
+  "vi": "chích máu",
+  "en": "blood draw",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chẩn đoán": {
+  "label": "TEST",
+  "vi": "chẩn đoán",
+  "en": "diagnosis",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chụp ct": {
+  "label": "TEST",
+  "vi": "chụp ct",
+  "en": "CT scan",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chụp cắt lớp": {
+  "label": "TEST",
+  "vi": "chụp cắt lớp",
+  "en": "CT scan",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chụp mạch vành": {
+  "label": "TEST",
+  "vi": "chụp mạch vành",
+  "en": "coronary angiography",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chụp pet ct": {
+  "label": "TEST",
+  "vi": "chụp pet ct",
+  "en": "PET-CT scan",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chụp x quang": {
+  "label": "TEST",
+  "vi": "chụp x quang",
+  "en": "X-ray",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|chụp x quang phổi": {
+  "label": "TEST",
+  "vi": "chụp x quang phổi",
+  "en": "chest X-ray",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|holter điện tim": {
+  "label": "TEST",
+  "vi": "holter điện tim",
+  "en": "Holter ECG monitoring",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|khám": {
+  "label": "TEST",
+  "vi": "khám",
+  "en": "physical examination",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|kiểm tra": {
+  "label": "TEST",
+  "vi": "kiểm tra",
+  "en": "examination",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|mri": {
+  "label": "TEST",
+  "vi": "mri",
+  "en": "MRI",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|nghiên cứu": {
+  "label": "TEST",
+  "vi": "nghiên cứu",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|nghiệm pháp kích thích": {
+  "label": "TEST",
+  "vi": "nghiệm pháp kích thích",
+  "en": "provocation test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|nội soi": {
+  "label": "TEST",
+  "vi": "nội soi",
+  "en": "endoscopy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|nội soi dạ dày": {
+  "label": "TEST",
+  "vi": "nội soi dạ dày",
+  "en": "gastroscopy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|sinh thiết": {
+  "label": "TEST",
+  "vi": "sinh thiết",
+  "en": "biopsy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|siêu âm bụng": {
+  "label": "TEST",
+  "vi": "siêu âm bụng",
+  "en": "abdominal ultrasound",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|siêu âm tim": {
+  "label": "TEST",
+  "vi": "siêu âm tim",
+  "en": "echocardiography",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|siêu âm tuyến giáp": {
+  "label": "TEST",
+  "vi": "siêu âm tuyến giáp",
+  "en": "thyroid ultrasound",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|soi da": {
+  "label": "TEST",
+  "vi": "soi da",
+  "en": "dermoscopy",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|test": {
+  "label": "TEST",
+  "vi": "test",
+  "en": "test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|test áp da": {
+  "label": "TEST",
+  "vi": "test áp da",
+  "en": "patch test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|trao đổi chất": {
+  "label": "TEST",
+  "vi": "trao đổi chất",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|tuần hoàn máu": {
+  "label": "TEST",
+  "vi": "tuần hoàn máu",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|tuần hoàn não": {
+  "label": "TEST",
+  "vi": "tuần hoàn não",
+  "en": null,
+  "generic": true,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|tầm soát": {
+  "label": "TEST",
+  "vi": "tầm soát",
+  "en": "screening",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|xét nghiệm": {
+  "label": "TEST",
+  "vi": "xét nghiệm",
+  "en": "laboratory test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|xét nghiệm axit uric": {
+  "label": "TEST",
+  "vi": "xét nghiệm axit uric",
+  "en": "uric acid test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|xét nghiệm men gan": {
+  "label": "TEST",
+  "vi": "xét nghiệm men gan",
+  "en": "liver enzyme test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|xét nghiệm mỡ máu": {
+  "label": "TEST",
+  "vi": "xét nghiệm mỡ máu",
+  "en": "lipid panel",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|xét nghiệm pcr": {
+  "label": "TEST",
+  "vi": "xét nghiệm pcr",
+  "en": "PCR test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|xét nghiệm đường huyết": {
+  "label": "TEST",
+  "vi": "xét nghiệm đường huyết",
+  "en": "blood glucose test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|điện não đồ": {
+  "label": "TEST",
+  "vi": "điện não đồ",
+  "en": "electroencephalography",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|điện tâm đồ": {
+  "label": "TEST",
+  "vi": "điện tâm đồ",
+  "en": "electrocardiography",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|đo chức năng hô hấp": {
+  "label": "TEST",
+  "vi": "đo chức năng hô hấp",
+  "en": "pulmonary function test",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ },
+ "TEST|đo mật độ xương": {
+  "label": "TEST",
+  "vi": "đo mật độ xương",
+  "en": "bone densitometry",
+  "generic": false,
+  "code": null,
+  "code_system": null,
+  "code_name_en": null
+ }
+}

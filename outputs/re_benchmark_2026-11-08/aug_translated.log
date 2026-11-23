@@ -1,0 +1,18 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6518.08it/s]
+[transformers] The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+[biotext] seed 42 done (754s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8098.84it/s]
+[biotext] seed 43 done (1521s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6186.06it/s]
+[biotext] seed 44 done (2288s)
+{"tag": "biotext", "extra_train": "data\\re_translated_en_v1\\annotations.jsonl", "extra_prefix": ["TR-BT-"], "extra_pairs": 145, "extra_by_label": {"treated_by_procedure:treated_by_procedure": 45, "treated_by:treated_by": 41, "treated_by_procedure:NO_RELATION": 23, "treated_by:NO_RELATION": 36}, "base_pairs": 556, "base": "demdecuong/vihealthbert-base-syllable", "seeds": [42, 43, 44], "epochs": 10, "lr": 3e-05, "batch": 16, "max_len": 192, "seed_aggregation": "mean probability, threshold 0.5", "torch": "2.14.0+cu126", "device": "NVIDIA GeForce GTX 1650", "seconds": 2288, "date": "2026-11-08"}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7960.58it/s]
+[transformers] The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+[biotext_ade] seed 42 done (873s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6315.00it/s]
+[biotext_ade] seed 43 done (1568s)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13279.87it/s]
+[biotext_ade] seed 44 done (2255s)
+{"tag": "biotext_ade", "extra_train": "data\\re_translated_en_v1\\annotations.jsonl", "extra_prefix": ["TR-"], "extra_pairs": 205, "extra_by_label": {"treated_by_procedure:treated_by_procedure": 45, "treated_by:treated_by": 41, "treated_by_procedure:NO_RELATION": 23, "treated_by:NO_RELATION": 36, "has_dosage:has_dosage": 60}, "base_pairs": 556, "base": "demdecuong/vihealthbert-base-syllable", "seeds": [42, 43, 44], "epochs": 10, "lr": 3e-05, "batch": 16, "max_len": 192, "seed_aggregation": "mean probability, threshold 0.5", "torch": "2.14.0+cu126", "device": "NVIDIA GeForce GTX 1650", "seconds": 2255, "date": "2026-11-08"}

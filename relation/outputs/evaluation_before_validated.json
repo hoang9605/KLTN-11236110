@@ -1,0 +1,394 @@
+{
+ "selection_rule": "macro F1 trên dev, bằng nhau chọn ít dữ liệu sinh hơn",
+ "dev": {
+  "x0": {
+   "micro": {
+    "tp": 39,
+    "fp": 4,
+    "fn": 10,
+    "precision": 0.907,
+    "recall": 0.796,
+    "f1": 0.848
+   },
+   "macro_f1": 0.796,
+   "macro_over": [
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "per_relation": {
+    "located_at": {
+     "tp": 32,
+     "fp": 2,
+     "fn": 6,
+     "precision": 0.941,
+     "recall": 0.842,
+     "f1": 0.889,
+     "pairs": 90,
+     "positives": 38
+    },
+    "treated_by": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "pairs": 10,
+     "positives": 4
+    },
+    "treated_by_procedure": {
+     "tp": 3,
+     "fp": 2,
+     "fn": 4,
+     "precision": 0.6,
+     "recall": 0.429,
+     "f1": 0.5,
+     "pairs": 11,
+     "positives": 7
+    }
+   },
+   "pairs": 111,
+   "seeds": [
+    "42",
+    "43",
+    "44"
+   ],
+   "train_pairs": 1169,
+   "synthetic_pairs": 0,
+   "complete": true
+  },
+  "x1": {
+   "micro": {
+    "tp": 39,
+    "fp": 3,
+    "fn": 10,
+    "precision": 0.929,
+    "recall": 0.796,
+    "f1": 0.857
+   },
+   "macro_f1": 0.826,
+   "macro_over": [
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "per_relation": {
+    "located_at": {
+     "tp": 32,
+     "fp": 3,
+     "fn": 6,
+     "precision": 0.914,
+     "recall": 0.842,
+     "f1": 0.877,
+     "pairs": 90,
+     "positives": 38
+    },
+    "treated_by": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "pairs": 10,
+     "positives": 4
+    },
+    "treated_by_procedure": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 4,
+     "precision": 1.0,
+     "recall": 0.429,
+     "f1": 0.6,
+     "pairs": 11,
+     "positives": 7
+    }
+   },
+   "pairs": 111,
+   "seeds": [
+    "42",
+    "43",
+    "44"
+   ],
+   "train_pairs": 2338,
+   "synthetic_pairs": 1169,
+   "complete": true
+  },
+  "x3": {
+   "micro": {
+    "tp": 37,
+    "fp": 2,
+    "fn": 12,
+    "precision": 0.949,
+    "recall": 0.755,
+    "f1": 0.841
+   },
+   "macro_f1": 0.777,
+   "macro_over": [
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+   ],
+   "per_relation": {
+    "located_at": {
+     "tp": 31,
+     "fp": 2,
+     "fn": 7,
+     "precision": 0.939,
+     "recall": 0.816,
+     "f1": 0.873,
+     "pairs": 90,
+     "positives": 38
+    },
+    "treated_by": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 1,
+     "precision": 1.0,
+     "recall": 0.75,
+     "f1": 0.857,
+     "pairs": 10,
+     "positives": 4
+    },
+    "treated_by_procedure": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 4,
+     "precision": 1.0,
+     "recall": 0.429,
+     "f1": 0.6,
+     "pairs": 11,
+     "positives": 7
+    }
+   },
+   "pairs": 111,
+   "seeds": [
+    "42",
+    "43",
+    "44"
+   ],
+   "train_pairs": 4678,
+   "synthetic_pairs": 3509,
+   "complete": true
+  }
+ },
+ "chosen": "x1",
+ "configs_incomplete": [],
+ "test": {
+  "model": {
+   "micro": {
+    "tp": 133,
+    "fp": 6,
+    "fn": 171,
+    "precision": 0.957,
+    "recall": 0.438,
+    "f1": 0.6
+   },
+   "macro_f1": 0.666,
+   "macro_over": [
+    "located_at",
+    "treated_by",
+    "treated_by_procedure",
+    "diagnosed_by",
+    "has_dosage"
+   ],
+   "per_relation": {
+    "located_at": {
+     "tp": 52,
+     "fp": 1,
+     "fn": 107,
+     "precision": 0.981,
+     "recall": 0.327,
+     "f1": 0.491,
+     "pairs": 161,
+     "positives": 159
+    },
+    "treated_by": {
+     "tp": 20,
+     "fp": 0,
+     "fn": 12,
+     "precision": 1.0,
+     "recall": 0.625,
+     "f1": 0.769,
+     "pairs": 32,
+     "positives": 32
+    },
+    "treated_by_procedure": {
+     "tp": 15,
+     "fp": 3,
+     "fn": 31,
+     "precision": 0.833,
+     "recall": 0.326,
+     "f1": 0.469,
+     "pairs": 49,
+     "positives": 46
+    },
+    "diagnosed_by": {
+     "tp": 23,
+     "fp": 0,
+     "fn": 12,
+     "precision": 1.0,
+     "recall": 0.657,
+     "f1": 0.793,
+     "pairs": 35,
+     "positives": 35
+    },
+    "has_dosage": {
+     "tp": 23,
+     "fp": 2,
+     "fn": 9,
+     "precision": 0.92,
+     "recall": 0.719,
+     "f1": 0.807,
+     "pairs": 34,
+     "positives": 32
+    }
+   },
+   "pairs": 311
+  },
+  "always_positive": {
+   "micro": {
+    "tp": 304,
+    "fp": 7,
+    "fn": 0,
+    "precision": 0.977,
+    "recall": 1.0,
+    "f1": 0.989
+   },
+   "macro_f1": 0.986,
+   "macro_over": [
+    "located_at",
+    "treated_by",
+    "treated_by_procedure",
+    "diagnosed_by",
+    "has_dosage"
+   ],
+   "per_relation": {
+    "located_at": {
+     "tp": 159,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.988,
+     "recall": 1.0,
+     "f1": 0.994,
+     "pairs": 161,
+     "positives": 159
+    },
+    "treated_by": {
+     "tp": 32,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "pairs": 32,
+     "positives": 32
+    },
+    "treated_by_procedure": {
+     "tp": 46,
+     "fp": 3,
+     "fn": 0,
+     "precision": 0.939,
+     "recall": 1.0,
+     "f1": 0.968,
+     "pairs": 49,
+     "positives": 46
+    },
+    "diagnosed_by": {
+     "tp": 35,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "pairs": 35,
+     "positives": 35
+    },
+    "has_dosage": {
+     "tp": 32,
+     "fp": 2,
+     "fn": 0,
+     "precision": 0.941,
+     "recall": 1.0,
+     "f1": 0.97,
+     "pairs": 34,
+     "positives": 32
+    }
+   },
+   "pairs": 311
+  },
+  "model_random_sentences": {
+   "micro": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 26,
+    "precision": 1.0,
+    "recall": 0.212,
+    "f1": 0.35
+   },
+   "macro_f1": 0.368,
+   "macro_over": [
+    "located_at",
+    "treated_by",
+    "treated_by_procedure",
+    "has_dosage"
+   ],
+   "per_relation": {
+    "located_at": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 11,
+     "precision": 1.0,
+     "recall": 0.214,
+     "f1": 0.353,
+     "pairs": 15,
+     "positives": 14
+    },
+    "treated_by": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 5,
+     "precision": 1.0,
+     "recall": 0.167,
+     "f1": 0.286,
+     "pairs": 6,
+     "positives": 6
+    },
+    "treated_by_procedure": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 8,
+     "precision": 1.0,
+     "recall": 0.2,
+     "f1": 0.333,
+     "pairs": 10,
+     "positives": 10
+    },
+    "has_dosage": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2,
+     "precision": 1.0,
+     "recall": 0.333,
+     "f1": 0.5,
+     "pairs": 3,
+     "positives": 3
+    }
+   },
+   "pairs": 34
+  },
+  "random_sentences": 15,
+  "ci95_micro_f1": {
+   "model": [
+    0.541,
+    0.662
+   ],
+   "always_positive": [
+    0.977,
+    0.998
+   ]
+  }
+ },
+ "test_sentences": 100
+}

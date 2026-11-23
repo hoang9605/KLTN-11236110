@@ -1,0 +1,143 @@
+{
+ "name": "re_translated_en_v1",
+ "rows": 199,
+ "pairs": {
+  "treated_by_procedure:treated_by_procedure": 45,
+  "treated_by:treated_by": 41,
+  "treated_by_procedure:NO_RELATION": 23,
+  "treated_by:NO_RELATION": 36,
+  "has_dosage:has_dosage": 60
+ },
+ "source_sentences": 229,
+ "skipped": [
+  {
+   "id": "BT-1481",
+   "reason": "thực phẩm chức năng, quy ước ?"
+  },
+  {
+   "id": "BT-2176",
+   "reason": "thực phẩm chức năng, quy ước ?"
+  },
+  {
+   "id": "BT-2788",
+   "reason": "điều trị chung chung"
+  },
+  {
+   "id": "BT-3129",
+   "reason": "đông y (kampo), quy ước ?"
+  },
+  {
+   "id": "BT-3138",
+   "reason": "điều trị gộp cả thuốc và thủ thuật"
+  },
+  {
+   "id": "BT-3140",
+   "reason": "điều trị gộp cả thuốc và thủ thuật"
+  },
+  {
+   "id": "BT-3173",
+   "reason": "hành vi tự quản lý, không phải điều trị"
+  },
+  {
+   "id": "BT-3263",
+   "reason": "thảo dược dân gian, quy ước ?"
+  },
+  {
+   "id": "BT-3269",
+   "reason": "điều trị chung chung"
+  },
+  {
+   "id": "BT-3407",
+   "reason": "điều trị gộp cả thuốc và thủ thuật"
+  },
+  {
+   "id": "BT-3434",
+   "reason": "thuốc chung chung"
+  },
+  {
+   "id": "BT-3435",
+   "reason": "điều trị chung chung"
+  },
+  {
+   "id": "BT-3460",
+   "reason": "điều trị chung chung"
+  },
+  {
+   "id": "BT-3500",
+   "reason": "điều trị chung chung"
+  },
+  {
+   "id": "BT-0238",
+   "reason": "thuốc dùng cho chính bệnh nhân đau thắt ngực, nhãn phòng ngừa mơ hồ"
+  },
+  {
+   "id": "BT-2580",
+   "reason": "vi chất dinh dưỡng, thực phẩm chức năng, quy ước ?"
+  },
+  {
+   "id": "BT-2661",
+   "reason": "tên thử nghiệm lâm sàng, không phải điều trị"
+  },
+  {
+   "id": "BT-2996",
+   "reason": "xạ trị sau mổ là điều trị cho ung thư phổi, nhãn tác dụng phụ của bộ gốc trái quy ước"
+  },
+  {
+   "id": "BT-3022",
+   "reason": "vắc xin điều trị ung thư, phòng hay điều trị không rõ"
+  },
+  {
+   "id": "BT-3202",
+   "reason": "trùng nguyên văn câu BT-3188"
+  },
+  {
+   "id": "BT-3375",
+   "reason": "axit béo omega ba, thực phẩm chức năng, quy ước ?"
+  },
+  {
+   "id": "BT-3376",
+   "reason": "viên dầu cá, thực phẩm chức năng, quy ước ?"
+  },
+  {
+   "id": "BT-3629",
+   "reason": "vắc xin điều trị u hắc tố, phòng hay điều trị không rõ"
+  },
+  {
+   "id": "BT-3639",
+   "reason": "dự phòng thứ phát ở người đã mắc bệnh mạch vành, gần với điều trị"
+  },
+  {
+   "id": "ADE-016",
+   "reason": "bộ gốc nối lithium với liều cao của trazodone, sai theo quy ước"
+  },
+  {
+   "id": "ADE-100",
+   "reason": "liều thấp chỉ đi với cyclophosphamide, bộ gốc nối cả indomethacin"
+  },
+  {
+   "id": "ADE-141",
+   "reason": "liều chỉ của clomipramine, bộ gốc nối cả clozapine"
+  },
+  {
+   "id": "ADE-149",
+   "reason": "liều cao chỉ của halfan, bộ gốc nối cả mefloquine"
+  },
+  {
+   "id": "ADE-153",
+   "reason": "liều cao là của corticosteroid, không phải vecuronium"
+  },
+  {
+   "id": "ADE-201",
+   "reason": "bộ gốc nối mọi thuốc với mọi liều trong câu, sai theo quy ước"
+  }
+ ],
+ "sources": [
+  "ADE corpus v2 (Gurulingappa et al. 2012)",
+  "BioText (Rosario & Hearst 2004)"
+ ],
+ "seed": 42,
+ "selection": "BioText: 100 TREAT_FOR_DIS + all PREVENT/SIDE_EFF with one DIS and one TREAT, <= 45 words; ADE: 60 drug-dosage sentences, <= 45 words",
+ "style": "lowercase, no punctuation, numbers in words (like VietMed-NER transcripts)",
+ "use": "training augmentation only; never used as test data",
+ "human_verified": false
+}

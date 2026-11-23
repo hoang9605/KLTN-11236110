@@ -30,13 +30,13 @@ NER – ViHealthBERT fine-tune → 6 loại thực thể                    ner/
 Chuẩn hóa thực thể → ICD-10 (CONDITION), RxNorm (DRUG)            normalization/
         │   (mỗi thực thể kèm top-5 mã gợi ý)
         ▼
-Relation Extraction – mô hình học + luật (union)                   relation_extraction/, knowledge_graph/extract.py
+Relation Extraction – ViHealthBERT (3 seed)                       relation_extraction/, knowledge_graph/extract.py
         │
         ▼
 Knowledge Graph – gộp nút theo mã chuẩn, cộng dồn cạnh             knowledge_graph/
         │
         ▼
-Đầu ra: JSON, CSV, GraphML, trang HTML tương tác                   outputs/kg_test_2026-11-07/
+Đầu ra: JSON, CSV, GraphML, trang HTML tương tác                   outputs/kg_test_2026-11-08/
 ```
 
 Ví dụ với câu *"Bệnh nhân tăng huyết áp, kê Aspirin 81mg mỗi ngày."*:
@@ -142,38 +142,59 @@ Mười phương pháp được so trên cùng dữ liệu và cùng fold. Có b
 | Luật | 0.400 | 0.456 | 0.598 (0.50–0.70) |
 | Đặc trưng thủ công + LogReg | 0.370 | 0.406 | 0.550 |
 | TF-IDF + SVM | 0.357 | 0.083 | 0.218 |
-| TF-IDF + LogReg (mô hình đang dùng) | 0.400 | 0.378 | 0.321 |
+| TF-IDF + LogReg (mô hình cũ) | 0.400 | 0.378 | 0.321 |
 | **ViHealthBERT + marker** (3 seed) | **0.552** | 0.500 | 0.537 |
-| TF-IDF + LogReg ∪ luật (đang dùng trong KG) | 0.482 | 0.506 | 0.429 |
-| **ViHealthBERT ∪ luật** | 0.551 | **0.553** | **0.616** (0.54–0.69) |
+| TF-IDF + LogReg ∪ luật (KG đến 07/11) | 0.482 | 0.506 | 0.429 |
+| **ViHealthBERT ∪ luật** (đang dùng) | 0.551 | **0.553** | **0.616** (0.54–0.69) |
 
 Cách đọc bảng:
 - **ViHealthBERT ∪ luật** đứng đầu hoặc ngang đầu trên cả ba tập, nhưng khoảng tin cậy vẫn chồng lấn với luật.
 - **TF-IDF không ổn định:** trên CV nó ngang luật, nhưng trên dữ liệu tự nhiên thì tụt dưới cả baseline ghép cặp gần nhất. Lý do là n-gram ký tự học thuộc mặt chữ.
 - **Golden test phải đọc cạnh baseline đồng xuất hiện:** chỉ cần đoán mọi cặp là dương đã được 0.50–0.55 trên tập này.
 - **has_dosage và diagnosed_by** gần như chỉ được luật bắt, vì có quá ít mẫu để học.
-- KG và pipeline vẫn đang dùng TF-IDF ∪ luật. Chuyển sang ViHealthBERT ∪ luật là việc tiếp theo.
+- **Từ 22/11, KG, web và pipeline dùng ViHealthBERT-RE đứng một mình** (`Model/vihealthbert-re-vietmed-validated/`, `HybridRelationExtractor(..., mode="fallback")`: luật chỉ cho quan hệ mô hình không hỗ trợ, mà mô hình hỗ trợ cả năm), huấn luyện trên seed người chuyên môn duyệt + dữ liệu sinh đã validate (`relation/validate/`, chuyên gia duyệt 521 câu). Trên tập kiểm tra 311 cặp do người chuyên môn gán: mô hình 0,69, luật 0,54, mô hình ∪ luật 0,68 (thấp hơn mô hình nên không dùng), luôn đoán dương 0,51 (`Model/vihealthbert-re-vietmed-validated/README.md`). Mô hình 21/11 (`Model/vihealthbert-re-vietmed/`, dữ liệu sinh chưa validate) giữ để đối chiếu. Các con số trong bảng trên là của mô hình trước đó (`Model/vihealthbert-re-v1/`, 08/11). Mỗi cặp mất khoảng 230 ms trên CPU vì chạy ba encoder.
+- Không dùng một seed cho nhanh: từng seed riêng lẻ dao động mạnh (∪ luật trên test ngẫu nhiên: 0.571 / 0.638 / 0.611), seed 42 còn thấp hơn luật một mình.
+- Trọng số (`model_seed*.safetensors`, mỗi file khoảng 270 MB) không có trong git. Thiếu thì chạy lại `bert_re.py --save-model` (xem mục 6), hoặc dùng mô hình cũ bằng `--re-model outputs/re_ai_v2/model.joblib`.
+
+**Thử thêm dữ liệu tiếng Anh dịch sang tiếng Việt (08/11): không giúp ích, mô hình giữ nguyên.**
+- Dữ liệu: 199 câu, 205 cặp từ BioText (bệnh–điều trị) và ADE corpus (thuốc–liều), do AI dịch theo văn phong VietMed. Mô tả ở `data/re_translated_en_v1/README.md`. Chỉ dùng để huấn luyện.
+- Kết quả (`outputs/re_benchmark_2026-11-08/augmented.md`), F1 ∪ luật:
+
+  | Huấn luyện | Golden v1.1 | Test ngẫu nhiên |
+  |---|---:|---:|
+  | Chỉ dữ liệu tiếng Việt (đang dùng) | 0.553 | 0.616 |
+  | + BioText | 0.524 | 0.592 |
+  | + BioText + ADE | 0.535 | 0.597 |
+
+- Không chênh lệch nào có ý nghĩa thống kê. Quy tắc quyết định đặt trước khi huấn luyện yêu cầu tốt hơn trên cả hai tập, nên mô hình triển khai giữ nguyên.
+- Vì sao không giúp:
+  - Dữ liệu dịch phần lớn là cặp dương, nên tỉ lệ dương khi huấn luyện tăng từ 11,5% lên 21–28%. Mô hình đoán dương nhiều hơn, và đa số lỗi mới là located_at, loại quan hệ không có trong dữ liệu dịch.
+  - Câu bài báo nói rõ "điều trị … bằng …", còn lời tư vấn thì nói vòng.
+- Điểm tốt duy nhất: ADE giúp mô hình học has_dosage (golden test 0.286 → 0.500), nhưng chỉ trên 6 cặp.
+- i2b2 2010 và n2c2 2018 khớp lược đồ hơn nhưng cần ký thỏa thuận dữ liệu và cấm gửi dữ liệu ra ngoài, nên để vào hướng phát triển.
 
 **Dữ liệu mới cho RE:**
 - `data/re_test_random_v1/`: tập test ngẫu nhiên, 200 câu.
 - `data/golden_test/v1/ai_labels_v1_1.jsonl`: 17 nhãn golden test được sửa cho đúng quy ước, lý do từng nhãn ở `ai_labels_v1_1_changes.csv`. Bản gốc vẫn giữ.
 - `outputs/re_ai_v2/agreement.json`: trên bộ 600 đoạn, nhãn AI khớp người duyệt ở mức kappa 0.93. Đây là cận trên, vì người duyệt nhìn thấy nhãn AI khi duyệt.
 
-### 4.4. Knowledge Graph — `outputs/kg_test_2026-11-07/stats.md`
+### 4.4. Knowledge Graph — `outputs/kg_test_2026-11-08/stats.md`
 
-Chạy trên toàn bộ 3.496 câu (đã bỏ câu trùng) của split test, dùng thực thể do mô hình NER tìm ra, đúng như khi hệ thống chạy thật:
+Chạy trên toàn bộ 3.496 câu (đã bỏ câu trùng) của split test, dùng thực thể do mô hình NER tìm ra, đúng như khi hệ thống chạy thật; quan hệ do ViHealthBERT ∪ luật:
 - **1.337 nút**, trong đó 108 có mã ICD-10/RxNorm;
-- **293 cạnh** khác nhau, tổng cộng 391 lần xuất hiện.
+- **256 cạnh** khác nhau, tổng cộng 335 lần xuất hiện.
 
-| Quan hệ | Cạnh khác nhau | Lần xuất hiện |
-|---|---:|---:|
-| located_at (vị trí) | 246 | 341 |
-| treated_by_procedure | 21 | 24 |
-| treated_by | 16 | 16 |
-| has_dosage | 7 | 7 |
-| diagnosed_by | 3 | 3 |
+| Quan hệ | Cạnh khác nhau (mới) | Lần xuất hiện | Cạnh khác nhau (bản 07/11, TF-IDF ∪ luật) |
+|---|---:|---:|---:|
+| located_at (vị trí) | 176 | 250 | 246 |
+| treated_by_procedure | 35 | 40 | 21 |
+| treated_by | 31 | 31 | 16 |
+| has_dosage | 7 | 7 | 7 |
+| diagnosed_by | 7 | 7 | 3 |
 
-Mở `outputs/kg_test_2026-11-07/kg.html` bằng trình duyệt để xem đồ thị: lọc theo quan hệ, tìm khái niệm, bấm vào nút để xem mã chuẩn và câu nguồn.
+So với bản cũ (cùng thực thể, chỉ khác RE): nhiều cạnh điều trị và chẩn đoán hơn, ít located_at hơn. Phần located_at bị bỏ gồm nhiều cạnh vô nghĩa kiểu "đái tháo đường → xương"; cạnh "Tiêu xương → located_at → xương" giảm từ 8 lần xuống 1, đúng quy ước gold v1. Bản cũ vẫn giữ ở `outputs/kg_test_2026-11-07/` để so sánh.
+
+Mở `outputs/kg_test_2026-11-08/kg.html` bằng trình duyệt để xem đồ thị: lọc theo quan hệ, tìm khái niệm, bấm vào nút để xem mã chuẩn và câu nguồn.
 
 ---
 
@@ -223,6 +244,11 @@ Thư mục `data/re_ai_v2/`, script `scripts/re_dataset/`.
 Chạy từ thư mục gốc repo, trên Windows PowerShell:
 
 ```powershell
+# Giao diện web: mở http://127.0.0.1:8770 (mô hình nạp khoảng 26 giây, mỗi câu 0,4–2,7 giây trên CPU)
+.venv\Scripts\python.exe -X utf8 web/app.py
+# Chạy lại 5 câu ví dụ hiển thị khi máy chủ chưa bật (web/samples.json)
+.venv\Scripts\python.exe -X utf8 scripts/demo/make_samples.py
+
 # Demo đầu–cuối trên vài câu mẫu
 .venv\Scripts\python.exe -X utf8 scripts/demo_e2e.py
 
@@ -237,10 +263,22 @@ Chạy từ thư mục gốc repo, trên Windows PowerShell:
 
 # Dựng knowledge graph trên split test (chạy NER: vài chục phút)
 .venv\Scripts\python.exe -X utf8 scripts/build_kg.py --split test --out outputs/kg_<tên>
-# Đổi mô hình RE mà không chạy lại NER
-.venv\Scripts\python.exe -X utf8 scripts/build_kg.py --from-results outputs/kg_test_2026-11-07/ner_results_re_v1.jsonl --rerun-re --out outputs/kg_<tên>
+# Đổi mô hình RE mà không chạy lại NER (mặc định ViHealthBERT đứng một mình, --re-mode union để thêm luật; khoảng 6 phút CPU)
+.venv\Scripts\python.exe -X utf8 scripts/build_kg.py --from-results outputs/kg_test_2026-11-07/results.jsonl --rerun-re --out outputs/kg_<tên>
 
-# Toàn bộ unit test (89 test)
+# Huấn luyện lại và lưu ViHealthBERT-RE (GPU, khoảng 1,6 giờ), rồi chấm trên tập kiểm tra
+.venv-gpu\Scripts\python.exe -X utf8 -m relation.train --configs vall --save-model Model/vihealthbert-re-vietmed-validated
+.venv\Scripts\python.exe -X utf8 -m relation.relabel_test score
+
+# Thí nghiệm dữ liệu tiếng Anh dịch (tải, chọn câu, dựng nhãn từ translations_vi.jsonl, hai biến thể khoảng 80 phút GPU, chấm)
+.venv\Scripts\python.exe -X utf8 scripts/re_dataset/translated_en.py download
+.venv\Scripts\python.exe -X utf8 scripts/re_dataset/translated_en.py sample
+.venv\Scripts\python.exe -X utf8 scripts/re_dataset/translated_en.py build
+.venv-gpu\Scripts\python.exe -X utf8 scripts/re_dataset/bert_re.py --out outputs/re_benchmark_2026-11-08 --extra-train data/re_translated_en_v1/annotations.jsonl --extra-prefix TR-BT- --tag biotext
+.venv-gpu\Scripts\python.exe -X utf8 scripts/re_dataset/bert_re.py --out outputs/re_benchmark_2026-11-08 --extra-train data/re_translated_en_v1/annotations.jsonl --extra-prefix TR- --tag biotext_ade
+.venv\Scripts\python.exe -X utf8 scripts/re_dataset/eval_augmented.py --out outputs/re_benchmark_2026-11-08
+
+# Toàn bộ unit test (103 test, khoảng 1 phút; chạy với thư mục tests, không chạy pytest trống ở gốc vì test_run.py ở gốc sẽ chạy lại toàn bộ đánh giá NER)
 .venv\Scripts\python.exe -X utf8 -m pytest tests -q
 ```
 
@@ -248,11 +286,12 @@ Dùng trong code Python:
 
 ```python
 from ner.pipeline import MedicalNERPipeline
-from relation_extraction.model import RelationExtractor
+from relation_extraction.bert_model import load_extractor
 from relation_extraction.pipeline import MedicalREPipeline
 from knowledge_graph import HybridRelationExtractor, KnowledgeGraph
 
-re_pipe = MedicalREPipeline(HybridRelationExtractor(RelationExtractor.load("outputs/re_ai_v2/model.joblib")),
+# thư mục ViHealthBERT (có re_config.json) hoặc file .joblib TF-IDF
+re_pipe = MedicalREPipeline(HybridRelationExtractor(load_extractor("Model/vihealthbert-re-vietmed-validated"), mode="fallback"),
                             ner=MedicalNERPipeline(enable_normalization=True))
 result = re_pipe.predict("Bệnh nhân tăng huyết áp, kê Aspirin 81mg mỗi ngày.", normalize=True)
 # result["entities"][i]["normalized"]  -> mã quyết định (hoặc None)
@@ -271,15 +310,22 @@ kg = KnowledgeGraph(); kg.add_document(result); kg.save("outputs/kg_demo")
 | `normalization/` | Chuẩn hóa ICD-10 (`icd10.py`), RxNorm (`rxnorm.py`), điều phối và top-k (`dispatcher.py`) |
 | `normalization/data/icd10_synonyms.json` | 170 từ đồng nghĩa ICD-10 |
 | `normalization/data/rxnorm_vi_aliases.json` | 31 tên thuốc Việt → Anh |
-| `relation_extraction/` | Mô hình RE (TF-IDF + Logistic Regression), luật baseline, dữ liệu |
+| `relation_extraction/` | Mô hình RE: ViHealthBERT (`bert_model.py`, đang dùng) và TF-IDF + LogReg (`model.py`), luật baseline, dữ liệu |
+| `Model/vihealthbert-re-vietmed-validated/` | ViHealthBERT-RE, ba seed, mô hình RE đang dùng, dữ liệu sinh đã validate (trọng số huấn luyện riêng, xem `README.md` trong thư mục) |
+| `Model/vihealthbert-re-vietmed/` | ViHealthBERT-RE 21/11 (dữ liệu sinh chưa validate), giữ để đối chiếu |
+| `Model/vihealthbert-re-v1/` | Mô hình RE trước đó (08/11), giữ để đối chiếu |
+| `relation/` | Làm lại dữ liệu và huấn luyện RE: chọn mẫu, gán nhãn, dữ liệu sinh, huấn luyện, đánh giá |
 | `knowledge_graph/` | Bộ trích quan hệ union, dựng đồ thị, vẽ HTML (có `README.md` riêng) |
+| `web/` | Giao diện minh họa: `app.py` (FastAPI, API `/api/analyze`, `/api/health`), `index.html`, `samples.json` |
 | `data/norm_gold_v1/` | Gold chuẩn hóa (dev + test) và phiếu duyệt Excel |
 | `data/re_gold_v1/` | Gold RE v1 (600 câu, đã duyệt trên giấy) |
 | `data/re_ai_v2/` | Dữ liệu RE v2: ứng viên, nhãn gọn, file annotation |
+| `data/re_translated_en_v1/` | Dữ liệu RE dịch từ tiếng Anh (BioText, ADE), chỉ dùng cho thí nghiệm huấn luyện |
 | `data/golden_test/v1/` | Golden test đầu–cuối (150 đoạn từ split test) |
 | `eval/` | Kết quả đánh giá NER và chuẩn hóa |
-| `outputs/re_ai_v2/` | Mô hình RE mới, báo cáo so sánh, dự đoán trên golden test |
-| `outputs/kg_test_2026-11-07/` | Knowledge graph trên split test |
+| `outputs/re_ai_v2/` | Mô hình TF-IDF (dùng cho KG đến 07/11), báo cáo so sánh, dự đoán trên golden test |
+| `outputs/kg_test_2026-11-08/` | Knowledge graph trên split test (ViHealthBERT ∪ luật) |
+| `outputs/kg_test_2026-11-07/` | Knowledge graph cũ (TF-IDF ∪ luật), giữ để so sánh |
 | `scripts/` | Script tạo dữ liệu, đánh giá, dựng KG |
 
 ---

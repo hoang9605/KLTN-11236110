@@ -31,6 +31,7 @@ class HybridRelationExtractor:
         self.metadata = {
             "label_source": "hybrid", "mode": mode,
             "model_label_source": model.metadata.get("label_source", "unknown") if model is not None else None,
+            "model_name": model.metadata.get("model", "tfidf-logreg") if model is not None else None,
             "model_relations": sorted(model_rel),
             "rule_relations": sorted(set(self.rules.supported_relations) - model_rel),
         }

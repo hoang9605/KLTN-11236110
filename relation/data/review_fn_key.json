@@ -1,0 +1,321 @@
+{
+ "seed": 20261121,
+ "model": "x1",
+ "fn_total": 171,
+ "fn_by_relation": {
+  "treated_by": 12,
+  "treated_by_procedure": 31,
+  "located_at": 107,
+  "has_dosage": 9,
+  "diagnosed_by": 12
+ },
+ "allocation": {
+  "located_at": 15,
+  "treated_by": 6,
+  "treated_by_procedure": 8,
+  "diagnosed_by": 6,
+  "has_dosage": 5
+ },
+ "items": [
+  {
+   "stt": 1,
+   "uid": "VM-TE-03014:E2:E3:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "control_tp"
+  },
+  {
+   "stt": 2,
+   "uid": "VM-TE-03490:E2:E3:treated_by",
+   "relation": "treated_by",
+   "group": "control_tp"
+  },
+  {
+   "stt": 3,
+   "uid": "VM-TE-02812:E4:E2:treated_by",
+   "relation": "treated_by",
+   "group": "fn"
+  },
+  {
+   "stt": 4,
+   "uid": "VM-TE-03267:E1:E3:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 5,
+   "uid": "VM-TE-00597:E3:E5:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 6,
+   "uid": "VM-TE-00597:E8:E1:diagnosed_by",
+   "relation": "diagnosed_by",
+   "group": "fn"
+  },
+  {
+   "stt": 7,
+   "uid": "VM-TE-02811:E5:E2:has_dosage",
+   "relation": "has_dosage",
+   "group": "fn"
+  },
+  {
+   "stt": 8,
+   "uid": "VM-TE-03174:E1:E3:treated_by",
+   "relation": "treated_by",
+   "group": "fn"
+  },
+  {
+   "stt": 9,
+   "uid": "VM-TE-00030:E1:E4:has_dosage",
+   "relation": "has_dosage",
+   "group": "fn"
+  },
+  {
+   "stt": 10,
+   "uid": "VM-TE-03354:E3:E1:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 11,
+   "uid": "VM-TE-00597:E2:E4:diagnosed_by",
+   "relation": "diagnosed_by",
+   "group": "fn"
+  },
+  {
+   "stt": 12,
+   "uid": "VM-TE-00838:E4:E1:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 13,
+   "uid": "VM-TE-01854:E4:E1:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 14,
+   "uid": "VM-TE-03469:E3:E1:treated_by",
+   "relation": "treated_by",
+   "group": "fn"
+  },
+  {
+   "stt": 15,
+   "uid": "VM-TE-03186:E2:E4:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "control_tp"
+  },
+  {
+   "stt": 16,
+   "uid": "VM-TE-00030:E3:E1:treated_by",
+   "relation": "treated_by",
+   "group": "fn"
+  },
+  {
+   "stt": 17,
+   "uid": "VM-TE-01422:E1:E3:has_dosage",
+   "relation": "has_dosage",
+   "group": "fn"
+  },
+  {
+   "stt": 18,
+   "uid": "VM-TE-00597:E8:E5:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 19,
+   "uid": "VM-TE-01783:E1:E4:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 20,
+   "uid": "VM-TE-03146:E2:E1:treated_by",
+   "relation": "treated_by",
+   "group": "control_tp"
+  },
+  {
+   "stt": 21,
+   "uid": "VM-TE-00597:E2:E7:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 22,
+   "uid": "VM-TE-01324:E1:E3:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 23,
+   "uid": "VM-TE-03178:E2:E3:treated_by",
+   "relation": "treated_by",
+   "group": "fn"
+  },
+  {
+   "stt": 24,
+   "uid": "VM-TE-02084:E4:E2:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 25,
+   "uid": "VM-TE-00244:E3:E2:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 26,
+   "uid": "VM-TE-00254:E1:E4:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 27,
+   "uid": "VM-TE-00740:E4:E3:has_dosage",
+   "relation": "has_dosage",
+   "group": "control_tp"
+  },
+  {
+   "stt": 28,
+   "uid": "VM-TE-02650:E2:E5:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 29,
+   "uid": "VM-TE-00977:E3:E1:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 30,
+   "uid": "VM-TE-00200:E3:E1:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 31,
+   "uid": "VM-TE-00074:E2:E4:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 32,
+   "uid": "VM-TE-01818:E1:E3:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 33,
+   "uid": "VM-TE-00528:E3:E2:has_dosage",
+   "relation": "has_dosage",
+   "group": "fn"
+  },
+  {
+   "stt": 34,
+   "uid": "VM-TE-03324:E2:E3:located_at",
+   "relation": "located_at",
+   "group": "control_tp"
+  },
+  {
+   "stt": 35,
+   "uid": "VM-TE-00597:E8:E7:located_at",
+   "relation": "located_at",
+   "group": "control_tp"
+  },
+  {
+   "stt": 36,
+   "uid": "VM-TE-03235:E1:E4:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 37,
+   "uid": "VM-TE-00074:E2:E3:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 38,
+   "uid": "VM-TE-03079:E5:E3:diagnosed_by",
+   "relation": "diagnosed_by",
+   "group": "fn"
+  },
+  {
+   "stt": 39,
+   "uid": "VM-TE-00934:E2:E1:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 40,
+   "uid": "VM-TE-03228:E6:E1:diagnosed_by",
+   "relation": "diagnosed_by",
+   "group": "control_tp"
+  },
+  {
+   "stt": 41,
+   "uid": "VM-TE-01780:E5:E6:located_at",
+   "relation": "located_at",
+   "group": "control_tp"
+  },
+  {
+   "stt": 42,
+   "uid": "VM-TE-03354:E2:E1:treated_by_procedure",
+   "relation": "treated_by_procedure",
+   "group": "fn"
+  },
+  {
+   "stt": 43,
+   "uid": "VM-TE-03079:E5:E2:diagnosed_by",
+   "relation": "diagnosed_by",
+   "group": "fn"
+  },
+  {
+   "stt": 44,
+   "uid": "VM-TE-00137:E1:E3:diagnosed_by",
+   "relation": "diagnosed_by",
+   "group": "fn"
+  },
+  {
+   "stt": 45,
+   "uid": "VM-TE-00597:E2:E6:diagnosed_by",
+   "relation": "diagnosed_by",
+   "group": "fn"
+  },
+  {
+   "stt": 46,
+   "uid": "VM-TE-02700:E5:E2:treated_by",
+   "relation": "treated_by",
+   "group": "fn"
+  },
+  {
+   "stt": 47,
+   "uid": "VM-TE-03079:E5:E6:located_at",
+   "relation": "located_at",
+   "group": "control_tp"
+  },
+  {
+   "stt": 48,
+   "uid": "VM-TE-00343:E4:E1:has_dosage",
+   "relation": "has_dosage",
+   "group": "fn"
+  },
+  {
+   "stt": 49,
+   "uid": "VM-TE-02650:E2:E1:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  },
+  {
+   "stt": 50,
+   "uid": "VM-TE-00597:E3:E7:located_at",
+   "relation": "located_at",
+   "group": "fn"
+  }
+ ]
+}
