@@ -1,0 +1,18 @@
+# Phụ thuộc chạy dịch vụ API (đã thử với các phiên bản trong .venv của dự án).
+# torch bản CPU được cài riêng trong Dockerfile từ download.pytorch.org/whl/cpu.
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+numpy==2.5.3
+pandas==3.0.5
+openpyxl==3.1.5
+rapidfuzz==3.14.6
+scikit-learn==1.9.1
+joblib==1.6.0
+networkx==3.6.1
+requests==2.34.2
+fastapi==0.162.2
+pydantic==2.14.3
+uvicorn[standard]==0.54.0
+sqlalchemy>=2.0,<3
+psycopg[binary]>=3.2,<4

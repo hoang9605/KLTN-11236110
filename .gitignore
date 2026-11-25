@@ -72,3 +72,9 @@ data/external_en_raw/
 # Phiếu duyệt Excel (có họ tên người duyệt) chỉ giữ trên máy
 re_v3/data/silver/**/*.xlsx
 relation/data/synth/validate/dot2/*.xlsx
+
+# Hệ thống triển khai (server/, frontend/, deploy/)
+node_modules/
+outputs/server.db
+!.env.example
+*.tsbuildinfo

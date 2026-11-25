@@ -6,6 +6,18 @@
       "runtimeExecutable": ".venv/Scripts/python.exe",
       "runtimeArgs": ["-X", "utf8", "web/app.py", "--port", "8770"],
       "port": 8770
+    },
+    {
+      "name": "medkg-api",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-X", "utf8", "-m", "uvicorn", "server.main:app", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "medkg-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "frontend", "run", "dev"],
+      "port": 5173
     }
   ]
 }
