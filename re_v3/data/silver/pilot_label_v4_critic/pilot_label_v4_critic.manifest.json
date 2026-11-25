@@ -1,0 +1,27 @@
+{
+ "source": "pilot_label_v4",
+ "model": "gpt-5.4",
+ "rules": "v4",
+ "prompt_version": "critic_v1",
+ "pairs": 336,
+ "selected": 136,
+ "why": {
+  "hot_body": 54,
+  "K7": 80,
+  "SC": 44,
+  "K6": 6
+ },
+ "stats": {
+  "checked": 136,
+  "flip:NO_RELATION->diagnosed_by": 2,
+  "flip_low_conf_ignored": 2,
+  "flip:NO_RELATION->located_at": 14,
+  "flip:treated_by->NO_RELATION": 1,
+  "flip:located_at->NO_RELATION": 5,
+  "flip:NO_RELATION->treated_by_procedure": 2
+ },
+ "usage": {
+  "usd_this_run": 0.8687,
+  "api_calls": 136
+ }
+}

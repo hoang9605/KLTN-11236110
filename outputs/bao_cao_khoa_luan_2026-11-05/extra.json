@@ -1999,6 +1999,7 @@
   "tests/test_relation_extraction.py::test_positive_metrics_count_negative_false_positives",
   "tests/test_relation_extraction.py::test_ner_adapter_uses_returned_text_and_offsets",
   "tests/test_relation_extraction.py::test_pipeline_skips_generic_entities_like_gold_v1",
+  "tests/test_relation_extraction.py::test_pipeline_skips_guideline_invalid_forms",
   "tests/test_relation_pipeline.py::test_all_pairs_follow_schema",
   "tests/test_relation_pipeline.py::test_marks_keep_text",
   "tests/test_relation_pipeline.py::test_check_accepts_valid[labels0-ok0]",

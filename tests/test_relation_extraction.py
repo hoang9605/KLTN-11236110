@@ -141,3 +141,17 @@ def test_pipeline_skips_generic_entities_like_gold_v1():
     assert out["re_metadata"]["generic_entities_skipped"] == ["E2"]
     MedicalREPipeline(stub, skip_generic=False).from_ner_result(ner)
     assert stub.seen == ["đau", "Điều  trị", "phẫu thuật"]
+
+
+def test_pipeline_skips_guideline_invalid_forms():
+    """Dạng mà hướng dẫn gán nhãn coi là INVALID (tính từ gán DOSAGE, động từ gán DRUG) không vào RE."""
+    text = "vitamin D cao dùng để phòng ngừa loãng xương"
+    ner = {"text": text, "entities": [
+        {"label": "DRUG", "start_char": 0, "end_char": 9, "surface_text": "vitamin D"},
+        {"label": "DOSAGE", "start_char": 10, "end_char": 13, "surface_text": "cao"},
+        {"label": "DRUG", "start_char": 22, "end_char": 32, "surface_text": "phòng ngừa"},
+        {"label": "CONDITION", "start_char": 33, "end_char": 44, "surface_text": "loãng xương"}]}
+    stub = _StubExtractor()
+    out = MedicalREPipeline(stub).from_ner_result(ner)
+    assert stub.seen == ["vitamin D", "loãng xương"]
+    assert [e.get("re_excluded") for e in out["entities"]] == [None, "guideline_invalid", "guideline_invalid", None]

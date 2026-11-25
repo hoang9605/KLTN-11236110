@@ -1,0 +1,114 @@
+{
+ "sources": {
+  "train": {
+   "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-train.arrow",
+   "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+  },
+  "validation": {
+   "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-validation.arrow",
+   "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+  },
+  "test": {
+   "source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-test.arrow",
+   "fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+  }
+ },
+ "seed": 20261124,
+ "ratios": {
+  "train": 0.8,
+  "dev": 0.1,
+  "test": 0.1
+ },
+ "stratify_by": "rarest relation type among candidate pairs, else no_pair",
+ "rarity_order": [
+  "diagnosed_by",
+  "has_dosage",
+  "treated_by",
+  "treated_by_procedure",
+  "located_at"
+ ],
+ "audit": {
+  "rows_train": 4616,
+  "rows_validation": 1154,
+  "skip_duplicate": 3,
+  "rows_test": 3497
+ },
+ "splits": {
+  "train": {
+   "sentences": 7410,
+   "sentences_with_pairs": 1407,
+   "sentences_no_pair": 6003,
+   "pairs": 3575,
+   "pairs_by_type": {
+    "located_at": 1982,
+    "treated_by": 556,
+    "treated_by_procedure": 643,
+    "has_dosage": 255,
+    "diagnosed_by": 139
+   },
+   "from_original_split": {
+    "test": 2819,
+    "train": 3690,
+    "validation": 901
+   }
+  },
+  "dev": {
+   "sentences": 927,
+   "sentences_with_pairs": 177,
+   "sentences_no_pair": 750,
+   "pairs": 394,
+   "pairs_by_type": {
+    "located_at": 211,
+    "treated_by_procedure": 79,
+    "treated_by": 64,
+    "has_dosage": 27,
+    "diagnosed_by": 13
+   },
+   "from_original_split": {
+    "test": 360,
+    "train": 440,
+    "validation": 127
+   }
+  },
+  "test": {
+   "sentences": 927,
+   "sentences_with_pairs": 177,
+   "sentences_no_pair": 750,
+   "pairs": 469,
+   "pairs_by_type": {
+    "diagnosed_by": 22,
+    "located_at": 244,
+    "has_dosage": 28,
+    "treated_by_procedure": 99,
+    "treated_by": 76
+   },
+   "from_original_split": {
+    "test": 317,
+    "train": 486,
+    "validation": 124
+   }
+  }
+ },
+ "existing_sets_by_new_split": {
+  "golden_test_v1": {
+   "train": 121,
+   "test": 15,
+   "dev": 14
+  },
+  "re_test_random_v1": {
+   "train": 168,
+   "dev": 18,
+   "test": 14
+  },
+  "re_gold_v1": {
+   "train": 485,
+   "dev": 51,
+   "test": 64
+  },
+  "re_ai_v2": {
+   "test": 12,
+   "train": 137,
+   "dev": 23
+  }
+ }
+}

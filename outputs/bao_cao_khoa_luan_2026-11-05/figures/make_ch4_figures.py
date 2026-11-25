@@ -245,16 +245,16 @@ clean(ax)
 save(fig, "h4_8_du_lieu_dich.png")
 
 # ---------- Hình 4.9: lần xuất hiện của cạnh theo quan hệ, đồ thị mới so với đồ thị dựng bằng mô hình RE cũ ----------
-kg = J("outputs/kg_test_2026-11-22/kg.json")
-kg_old = J("outputs/kg_test_2026-11-08/kg.json")
+kg = J("outputs/kg_test_2026-11-25/kg.json")
+kg_old = J("outputs/kg_test_2026-11-23/kg.json")
 occ = lambda g, k: sum(e["count"] for e in g["edges"] if e["relation"] == k)  # noqa: E731
 fig, ax = plt.subplots(figsize=(6.3, 2.6))
 order = sorted(RELS, key=lambda k: occ(kg, k))
 h = 0.38
 for i, k in enumerate(order):
     a, b = occ(kg_old, k), occ(kg, k)
-    ax.barh(i + h / 2, a, color=C2, height=h, label="Mô hình RE cũ hợp với rule-based" if i == 0 else None)
-    ax.barh(i - h / 2, b, color=C1, height=h, label="Mô hình RE mới" if i == 0 else None)
+    ax.barh(i + h / 2, a, color=C2, height=h, label="Mô hình RE giai đoạn trước" if i == 0 else None)
+    ax.barh(i - h / 2, b, color=C1, height=h, label="Mô hình RE học từ bộ dữ liệu 8:1:1" if i == 0 else None)
     ax.text(a + 3, i + h / 2, str(a), va="center", fontsize=7.5)
     ax.text(b + 3, i - h / 2, str(b), va="center", fontsize=7.5)
 ax.set_yticks(range(len(order)), order)

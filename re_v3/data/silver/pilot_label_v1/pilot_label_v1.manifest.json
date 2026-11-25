@@ -1,0 +1,55 @@
+{
+ "prompt_version": "v1",
+ "model": "gpt-5.4-mini",
+ "k": 3,
+ "adaptive": true,
+ "calls_per_sentence": 1.49,
+ "temperature": 0.7,
+ "seed": 42,
+ "split": "train",
+ "sentences": 300,
+ "labeled": 300,
+ "failed": {},
+ "pairs": 353,
+ "labels": {
+  "located_at|located_at": 99,
+  "located_at|NO_RELATION": 168,
+  "treated_by_procedure|treated_by_procedure": 10,
+  "diagnosed_by|diagnosed_by": 9,
+  "has_dosage|NO_RELATION": 4,
+  "has_dosage|has_dosage": 2,
+  "treated_by|treated_by": 15,
+  "treated_by|NO_RELATION": 16,
+  "treated_by_procedure|NO_RELATION": 28,
+  "diagnosed_by|NO_RELATION": 2
+ },
+ "pair_unanimous_rate": 0.884,
+ "tiers": {
+  "B": 251,
+  "A": 49
+ },
+ "flags": {
+  "K1_fail": 210,
+  "K6_rule_disagree": 107,
+  "K7_no_corpus_support": 58,
+  "K3_fail": 57,
+  "K4_not_dosage": 63,
+  "SC_pair_disagree": 41,
+  "SC_entity_disagree": 16,
+  "K2_fail": 80,
+  "K3_type_mismatch": 1
+ },
+ "expert_a_fraction": 1.0,
+ "expert_rows": {
+  "tier=B|sample=1": 310,
+  "tier=A|sample=1": 43
+ },
+ "usage": {
+  "cache_hits": 1,
+  "api_calls": 446,
+  "gpt-5.4-mini:prompt_tokens": 637681,
+  "gpt-5.4-mini:completion_tokens": 143714,
+  "usd_this_run": 1.125
+ },
+ "budget_stopped_sentences": 0
+}

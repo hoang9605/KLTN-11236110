@@ -1,0 +1,53 @@
+{
+ "prompt_version": "v4",
+ "model": "gpt-5.4-mini",
+ "k": 3,
+ "adaptive": true,
+ "calls_per_sentence": 0.9,
+ "temperature": 0.7,
+ "seed": 42,
+ "split": "dev",
+ "sentences": 177,
+ "labeled": 177,
+ "failed": {},
+ "pairs": 139,
+ "labels": {
+  "located_at|located_at": 61,
+  "treated_by_procedure|treated_by_procedure": 10,
+  "located_at|NO_RELATION": 49,
+  "treated_by_procedure|NO_RELATION": 8,
+  "treated_by|NO_RELATION": 10,
+  "treated_by|treated_by": 1
+ },
+ "pair_unanimous_rate": 0.964,
+ "tiers": {
+  "B": 145,
+  "A": 32
+ },
+ "flags": {
+  "K1_fail": 118,
+  "K6_rule_disagree": 54,
+  "K7_no_corpus_support": 33,
+  "K3_fail": 22,
+  "SC_pair_disagree": 5,
+  "SC_entity_disagree": 7,
+  "K4_not_dosage": 33,
+  "K2_fail": 44
+ },
+ "expert_a_fraction": 1.0,
+ "expert_rows": {
+  "tier=B|sample=1": 115,
+  "tier=A|sample=1": 24
+ },
+ "usage": {
+  "cache_hits": 94,
+  "api_calls": 159,
+  "gpt-5.4-mini:prompt_tokens": 357954,
+  "gpt-5.4-mini:completion_tokens": 47013,
+  "usd_this_run": 0.48
+ },
+ "budget_stopped_sentences": 0
+}
+
+Đã chi ~0.48 USD trong lần chạy này. Kết quả: C:\Users\ASUS\dev\Code_Study\AI-KLTN\re_v3\data\silver\dev_label_v4
+Excel cho chuyên gia: C:\Users\ASUS\dev\Code_Study\AI-KLTN\re_v3\data\silver\dev_label_v4\dev_label_v4_expert_review.xlsx

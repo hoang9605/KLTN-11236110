@@ -283,47 +283,41 @@ rsyn = J("relation/data/synth/manifest.json")
 vman = J("relation/data/synth/validated/manifest.json")  # dữ liệu sinh đã kiểm tra (relation/validate/)
 rev = J("relation/outputs/evaluation.json")
 rev2 = J("relation/outputs/evaluation_test_v2.json")
+rv = J("outputs/re_811_gold/labeling_summary.json")  # bộ quan hệ chia lại 8:1:1 (25/11/2026)
+rvd = J("outputs/re_811_gold/data_stats.json")
 sz = X["splits"]["split_sizes"]
 forms = lambda sp: normMan["splits"][sp]["CONDITION"]["unique_forms"] + normMan["splits"][sp]["DRUG"]["unique_forms"]  # noqa: E731
-STY = {"human": ("-", 2.6), "review": ((0, (6, 2, 1, 2)), 2.2), "llm": ("--", 2.0), "auto": (":", 2.2)}
-fig, ax = canvas(12, 8.0, 24, 16.0)
-rbox(ax, 6.0, 14.2, 12.0, 1.5, fc=K1)
-txt(ax, 12.0, 14.95, f"VietMed-NER  ·  {n(sz['train'] + sz['validation'] + sz['test'])} câu có nhãn thực thể", 16, "white", weight="bold")
-cols = [
-    (4.0, "Tập train", sz["train"], [
-        ("Dữ liệu quan hệ huấn luyện", f"{rsel['seed']['sentences']} câu · {n(rsyn['seed_pairs'])} cặp", "review"),
-        ("Tập kiểm định quan hệ", f"{rsel['dev']['sentences']} câu · {rev['dev'][rev['chosen']]['pairs']} cặp", "review"),
-        ("Dữ liệu sinh đã kiểm tra", f"{n(vman['pool']['pairs'])} cặp · người duyệt {vman['expert_decisions']['KEEP'] + vman['expert_decisions']['DROP']} câu mẫu", "auto")],
-     "Huấn luyện và chọn cấu hình\nmô hình RE"),
-    (12.0, "Tập validation", sz["validation"], [
-        ("Tập đánh giá gán mã,\nphần dev", f"{forms('dev')} tên bệnh và thuốc", "llm")],
-     "Chọn tên gọi khác và ngưỡng\ncho bước gán mã"),
-    (20.0, "Tập test", sz["test"], [
-        ("Tập test quan hệ", f"{rsel['test']['sentences']} câu · {rev2['pairs']} cặp", "human"),
-        ("Tập đánh giá gán mã,\nphần test", f"{forms('test')} tên bệnh và thuốc", "llm")],
-     "Đánh giá NER, RE, gán mã\nvà dựng đồ thị tri thức"),
+# Vẽ lại theo góp ý trên v36 ("Sao nhiều tập thế này"): nhóm theo mục đích sử dụng (NER, RE, gán mã)
+# thay vì theo phần chia, mỗi ô ghi phần chia nguồn, chú giải chỉ còn hai kiểu viền.
+fig, ax = canvas(12, 7.2, 24, 14.4)
+rbox(ax, 3.0, 12.4, 18.0, 1.6, fc=K1)
+txt(ax, 12.0, 13.45, "VietMed-NER, bộ dữ liệu gốc có nhãn thực thể", 16, "white", weight="bold")
+txt(ax, 12.0, 12.85, f"train {n(sz['train'])} câu  ·  validation {n(sz['validation'])} câu  ·  test {n(sz['test'])} câu", 13, "white")
+groups = [
+    (3.6, 6.4, "Nhận diện thực thể", "dùng nguyên nhãn gốc", [
+        ("Phần test của VietMed-NER", f"{n(sz['test'])} câu", "từ phần test", "-")]),
+    (12.0, 8.6, "Trích xuất quan hệ", "chia lại 8:1:1 từ cả ba phần", [
+        ("Tập huấn luyện", f"{n(rv['split']['train']['sentences_with_pairs'])} câu · {n(rvd['train']['pairs'])} cặp", f"chuyên gia duyệt {n(rv['dataset']['train']['origin']['expert_pilot'] + rv['dataset']['train']['origin']['expert_train'])}/{n(rvd['train']['pairs'])} cặp", "-"),
+        ("Tập kiểm định", f"{rv['split']['dev']['sentences_with_pairs']} câu · {rvd['dev']['pairs']} cặp", "chuyên gia duyệt toàn bộ", "-"),
+        ("Tập kiểm tra", f"{rv['split']['test']['sentences_with_pairs']} câu · {rvd['test']['pairs']} cặp", "chuyên gia duyệt toàn bộ", "-")]),
+    (20.4, 6.4, "Gán mã chuẩn", "khóa luận tự xây dựng", [
+        ("Phần dev", f"{forms('dev')} tên bệnh và thuốc", "từ validation", "--"),
+        ("Phần test", f"{forms('test')} tên bệnh và thuốc", "từ phần test", "--")]),
 ]
-cw = 7.4
-for x, name, size, ds, use in cols:
-    arr(ax, 12.0 + (x - 12.0) * 0.45, 14.2, x, 12.75, lw=2.2, color=K2)
-    rbox(ax, x - cw / 2, 11.35, cw, 1.4, fc=F3)
-    txt(ax, x, 12.25, name, 16, weight="bold")
-    txt(ax, x, 11.7, f"{n(size)} câu", 13, K2)
-    for k, (dn, dd, src) in enumerate(ds):
-        y = 9.5 - k * 2.25
-        ls, lw = STY[src]
-        rbox(ax, x - cw / 2 + 0.3, y - 0.95, cw - 0.6, 1.9, fc=F1, ls=ls, lw=lw)
-        two = "\n" in dn
-        txt(ax, x, y + (0.38 if two else 0.3), dn, 14 if two else 15, weight="bold", linespacing=1.1)
-        txt(ax, x, y - (0.62 if two else 0.4), dd, 12.5, K2)
-    ax.plot([x, x], [11.35, 10.45], color=K3, lw=1.6)
-    txt(ax, x, 2.9, use, 13, K1, style="italic", linespacing=1.2)
-# câu của dữ liệu quan hệ huấn luyện và tập kiểm định lấy từ cả train lẫn validation
-arr(ax, 12.0 - cw / 2, 11.75, 4.0 + cw / 2 - 0.3, 9.5, color=K3, lw=1.6, ls="--")
-arr(ax, 12.0 - cw / 2, 11.55, 4.0 + cw / 2 - 0.3, 7.25, color=K3, lw=1.6, ls="--")
-txt(ax, 12.0, 1.75, "Viền liền: người có chuyên môn y khoa gán, có nhãn gợi ý của LLM.   Viền chấm gạch: LLM gán hai lượt, người duyệt.", 11.5, K2)
-txt(ax, 12.0, 1.2, "Viền đứt: LLM gán, chưa được bác sĩ duyệt.   Viền chấm: sinh từ câu huấn luyện, kiểm tra tự động, người duyệt một mẫu.", 11.5, K2)
-ax.set_ylim(0.8, 15.9)
+for x, w, title, sub, ds in groups:
+    arr(ax, 12.0 + (x - 12.0) * 0.55, 12.4, x, 11.25, lw=2.2, color=K2)
+    rbox(ax, x - w / 2, 10.0, w, 1.25, fc=F3)
+    txt(ax, x, 10.8, title, 15.5, weight="bold")
+    txt(ax, x, 10.3, sub, 12, K2, style="italic")
+    for k, (dn, dd, srcs, ls) in enumerate(ds):
+        y = 8.85 - k * 2.05
+        rbox(ax, x - w / 2 + 0.25, y - 0.85, w - 0.5, 1.7, fc=F1, ls=ls, lw=2.2)
+        txt(ax, x, y + 0.42, dn, 14, weight="bold")
+        txt(ax, x, y - 0.05, dd, 12.5, K1)
+        txt(ax, x, y - 0.5, srcs, 11.5, K3, style="italic")
+txt(ax, 12.0, 2.55, "Viền liền: nhãn do người gán hoặc người có chuyên môn y khoa duyệt.   Viền đứt: nhãn do mô hình ngôn ngữ lớn gán.", 11.5, K2)
+ax.set_ylim(2.1, 14.3)
+fig.set_size_inches(12, 7.2 * (14.3 - 2.1) / 14.4)
 save(fig, "h2_1_cac_tap_du_lieu.png")
 
 # ======================================================================

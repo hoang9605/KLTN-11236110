@@ -1,0 +1,230 @@
+{
+ "relation_rows": 212,
+ "reviewed": 212,
+ "not_reviewed": 0,
+ "ai_accuracy": {
+  "ALL": {
+   "n": 212,
+   "correct": 177,
+   "acc": 0.835,
+   "ci95": [
+    0.779,
+    0.879
+   ]
+  },
+  "relation=diagnosed_by": {
+   "n": 3,
+   "correct": 1,
+   "acc": 0.333,
+   "ci95": [
+    0.061,
+    0.792
+   ]
+  },
+  "relation=diagnosed_by|AI=CÓ": {
+   "n": 1,
+   "correct": 1,
+   "acc": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ]
+  },
+  "relation=diagnosed_by|AI=KHÔNG": {
+   "n": 2,
+   "correct": 0,
+   "acc": 0.0,
+   "ci95": [
+    0.0,
+    0.658
+   ]
+  },
+  "relation=has_dosage": {
+   "n": 7,
+   "correct": 4,
+   "acc": 0.571,
+   "ci95": [
+    0.25,
+    0.842
+   ]
+  },
+  "relation=has_dosage|AI=CÓ": {
+   "n": 6,
+   "correct": 3,
+   "acc": 0.5,
+   "ci95": [
+    0.188,
+    0.812
+   ]
+  },
+  "relation=has_dosage|AI=KHÔNG": {
+   "n": 1,
+   "correct": 1,
+   "acc": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ]
+  },
+  "relation=located_at": {
+   "n": 162,
+   "correct": 139,
+   "acc": 0.858,
+   "ci95": [
+    0.796,
+    0.903
+   ]
+  },
+  "relation=located_at|AI=CÓ": {
+   "n": 104,
+   "correct": 98,
+   "acc": 0.942,
+   "ci95": [
+    0.88,
+    0.973
+   ]
+  },
+  "relation=located_at|AI=KHÔNG": {
+   "n": 58,
+   "correct": 41,
+   "acc": 0.707,
+   "ci95": [
+    0.58,
+    0.808
+   ]
+  },
+  "relation=treated_by": {
+   "n": 22,
+   "correct": 18,
+   "acc": 0.818,
+   "ci95": [
+    0.615,
+    0.927
+   ]
+  },
+  "relation=treated_by_procedure": {
+   "n": 18,
+   "correct": 15,
+   "acc": 0.833,
+   "ci95": [
+    0.608,
+    0.942
+   ]
+  },
+  "relation=treated_by_procedure|AI=CÓ": {
+   "n": 8,
+   "correct": 7,
+   "acc": 0.875,
+   "ci95": [
+    0.529,
+    0.978
+   ]
+  },
+  "relation=treated_by_procedure|AI=KHÔNG": {
+   "n": 10,
+   "correct": 8,
+   "acc": 0.8,
+   "ci95": [
+    0.49,
+    0.943
+   ]
+  },
+  "relation=treated_by|AI=CÓ": {
+   "n": 4,
+   "correct": 3,
+   "acc": 0.75,
+   "ci95": [
+    0.301,
+    0.954
+   ]
+  },
+  "relation=treated_by|AI=KHÔNG": {
+   "n": 18,
+   "correct": 15,
+   "acc": 0.833,
+   "ci95": [
+    0.608,
+    0.942
+   ]
+  },
+  "target=0": {
+   "n": 212,
+   "correct": 177,
+   "acc": 0.835,
+   "ci95": [
+    0.779,
+    0.879
+   ]
+  },
+  "tier=A": {
+   "n": 12,
+   "correct": 7,
+   "acc": 0.583,
+   "ci95": [
+    0.32,
+    0.807
+   ]
+  },
+  "tier=B": {
+   "n": 200,
+   "correct": 170,
+   "acc": 0.85,
+   "ci95": [
+    0.794,
+    0.893
+   ]
+  }
+ },
+ "ai_precision": 0.911,
+ "ai_recall": 0.824,
+ "kappa_ai_vs_expert": 0.716,
+ "kappa_rule_vs_expert": 0.166,
+ "flag_effectiveness": {
+  "K1": {
+   "n_flagged": 141,
+   "ai_error_if_flagged": 0.149,
+   "ai_error_if_not": 0.197
+  },
+  "K2": {
+   "n_flagged": 35,
+   "ai_error_if_flagged": 0.257,
+   "ai_error_if_not": 0.147
+  },
+  "K3": {
+   "n_flagged": 43,
+   "ai_error_if_flagged": 0.14,
+   "ai_error_if_not": 0.172
+  },
+  "K4": {
+   "n_flagged": 26,
+   "ai_error_if_flagged": 0.346,
+   "ai_error_if_not": 0.14
+  },
+  "K5": {
+   "n_flagged": 0,
+   "ai_error_if_flagged": null,
+   "ai_error_if_not": 0.165
+  },
+  "K6": {
+   "n_flagged": 134,
+   "ai_error_if_flagged": 0.134,
+   "ai_error_if_not": 0.218
+  },
+  "K7": {
+   "n_flagged": 69,
+   "ai_error_if_flagged": 0.159,
+   "ai_error_if_not": 0.168
+  },
+  "SC": {
+   "n_flagged": 54,
+   "ai_error_if_flagged": 0.185,
+   "ai_error_if_not": 0.158
+  }
+ },
+ "entity_invalid_decisions": null,
+ "synthetic_natural": null,
+ "reviewer": {
+  "name": "Huyền Minh",
+  "date": "25/11/2026"
+ }
+}

@@ -1,0 +1,230 @@
+{
+ "relation_rows": 353,
+ "reviewed": 353,
+ "not_reviewed": 0,
+ "ai_accuracy": {
+  "ALL": {
+   "n": 353,
+   "correct": 240,
+   "acc": 0.68,
+   "ci95": [
+    0.63,
+    0.726
+   ]
+  },
+  "relation=diagnosed_by": {
+   "n": 11,
+   "correct": 9,
+   "acc": 0.818,
+   "ci95": [
+    0.523,
+    0.949
+   ]
+  },
+  "relation=diagnosed_by|AI=CÓ": {
+   "n": 9,
+   "correct": 9,
+   "acc": 1.0,
+   "ci95": [
+    0.701,
+    1.0
+   ]
+  },
+  "relation=diagnosed_by|AI=KHÔNG": {
+   "n": 2,
+   "correct": 0,
+   "acc": 0.0,
+   "ci95": [
+    0.0,
+    0.658
+   ]
+  },
+  "relation=has_dosage": {
+   "n": 6,
+   "correct": 5,
+   "acc": 0.833,
+   "ci95": [
+    0.436,
+    0.97
+   ]
+  },
+  "relation=has_dosage|AI=CÓ": {
+   "n": 2,
+   "correct": 2,
+   "acc": 1.0,
+   "ci95": [
+    0.342,
+    1.0
+   ]
+  },
+  "relation=has_dosage|AI=KHÔNG": {
+   "n": 4,
+   "correct": 3,
+   "acc": 0.75,
+   "ci95": [
+    0.301,
+    0.954
+   ]
+  },
+  "relation=located_at": {
+   "n": 267,
+   "correct": 177,
+   "acc": 0.663,
+   "ci95": [
+    0.604,
+    0.717
+   ]
+  },
+  "relation=located_at|AI=CÓ": {
+   "n": 99,
+   "correct": 94,
+   "acc": 0.949,
+   "ci95": [
+    0.887,
+    0.978
+   ]
+  },
+  "relation=located_at|AI=KHÔNG": {
+   "n": 168,
+   "correct": 83,
+   "acc": 0.494,
+   "ci95": [
+    0.419,
+    0.569
+   ]
+  },
+  "relation=treated_by": {
+   "n": 31,
+   "correct": 22,
+   "acc": 0.71,
+   "ci95": [
+    0.534,
+    0.839
+   ]
+  },
+  "relation=treated_by_procedure": {
+   "n": 38,
+   "correct": 27,
+   "acc": 0.711,
+   "ci95": [
+    0.552,
+    0.83
+   ]
+  },
+  "relation=treated_by_procedure|AI=CÓ": {
+   "n": 10,
+   "correct": 7,
+   "acc": 0.7,
+   "ci95": [
+    0.397,
+    0.892
+   ]
+  },
+  "relation=treated_by_procedure|AI=KHÔNG": {
+   "n": 28,
+   "correct": 20,
+   "acc": 0.714,
+   "ci95": [
+    0.529,
+    0.847
+   ]
+  },
+  "relation=treated_by|AI=CÓ": {
+   "n": 15,
+   "correct": 8,
+   "acc": 0.533,
+   "ci95": [
+    0.301,
+    0.752
+   ]
+  },
+  "relation=treated_by|AI=KHÔNG": {
+   "n": 16,
+   "correct": 14,
+   "acc": 0.875,
+   "ci95": [
+    0.64,
+    0.965
+   ]
+  },
+  "target=0": {
+   "n": 353,
+   "correct": 240,
+   "acc": 0.68,
+   "ci95": [
+    0.63,
+    0.726
+   ]
+  },
+  "tier=A": {
+   "n": 43,
+   "correct": 26,
+   "acc": 0.605,
+   "ci95": [
+    0.456,
+    0.736
+   ]
+  },
+  "tier=B": {
+   "n": 310,
+   "correct": 214,
+   "acc": 0.69,
+   "ci95": [
+    0.637,
+    0.739
+   ]
+  }
+ },
+ "ai_precision": 0.889,
+ "ai_recall": 0.55,
+ "kappa_ai_vs_expert": 0.482,
+ "kappa_rule_vs_expert": 0.117,
+ "flag_effectiveness": {
+  "K1": {
+   "n_flagged": 213,
+   "ai_error_if_flagged": 0.319,
+   "ai_error_if_not": 0.321
+  },
+  "K2": {
+   "n_flagged": 54,
+   "ai_error_if_flagged": 0.296,
+   "ai_error_if_not": 0.324
+  },
+  "K3": {
+   "n_flagged": 56,
+   "ai_error_if_flagged": 0.25,
+   "ai_error_if_not": 0.333
+  },
+  "K4": {
+   "n_flagged": 29,
+   "ai_error_if_flagged": 0.172,
+   "ai_error_if_not": 0.333
+  },
+  "K5": {
+   "n_flagged": 0,
+   "ai_error_if_flagged": null,
+   "ai_error_if_not": 0.32
+  },
+  "K6": {
+   "n_flagged": 213,
+   "ai_error_if_flagged": 0.324,
+   "ai_error_if_not": 0.314
+  },
+  "K7": {
+   "n_flagged": 120,
+   "ai_error_if_flagged": 0.292,
+   "ai_error_if_not": 0.335
+  },
+  "SC": {
+   "n_flagged": 89,
+   "ai_error_if_flagged": 0.348,
+   "ai_error_if_not": 0.311
+  }
+ },
+ "entity_invalid_decisions": null,
+ "synthetic_natural": null,
+ "reviewer": {
+  "name": null,
+  "date": null
+ }
+}

@@ -31,7 +31,7 @@ from fastapi.staticfiles import StaticFiles  # noqa: E402
 from pydantic import BaseModel, Field  # noqa: E402
 
 MAX_CHARS = 2000
-RE_MODEL = ROOT / "Model/vihealthbert-re-vietmed-validated"
+RE_MODEL = ROOT / "Model/vihealthbert-re-vietmed-811"
 
 
 class AnalyzeRequest(BaseModel):

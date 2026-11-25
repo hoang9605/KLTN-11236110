@@ -68,3 +68,7 @@ run_git_operations.py
 
 # Dữ liệu tiếng Anh tải về (BioText, ADE); tải lại bằng scripts/re_dataset/translated_en.py download
 data/external_en_raw/
+
+# Phiếu duyệt Excel (có họ tên người duyệt) chỉ giữ trên máy
+re_v3/data/silver/**/*.xlsx
+relation/data/synth/validate/dot2/*.xlsx

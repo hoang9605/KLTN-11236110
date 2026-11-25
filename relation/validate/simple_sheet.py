@@ -48,6 +48,12 @@ def relations_text(row):
 def main():
     pool = {r["id"]: r for r in load(SYNTH / "pool.jsonl")}
     key = json.loads((OUT / "expert_review_key.json").read_text())
+    write_sheet(SHEET, [pool[k["sentence_id"]] for k in key])
+
+
+def write_sheet(path, records):
+    """Write the blind sheet for these pool records (also used by round2_sheet.py)."""
+    key = records
     wb = Workbook()
     ws = wb.active
     ws.title = TAB
@@ -59,8 +65,7 @@ def main():
         c.font = Font(bold=True, color="FFFFFF", size=12)
         c.fill = PatternFill("solid", fgColor="305496")
         c.alignment = Alignment(wrap_text=True, vertical="center", horizontal="center")
-    for i, k in enumerate(key, 1):
-        r = pool[k["sentence_id"]]
+    for i, r in enumerate(key, 1):
         ws.append([r["id"], i, sentence_rich(r["text"], r["entities"]), relations_text(r), None, None, None])
     n = len(key) + 1
     dv = DataValidation(type="list", formula1=f'"{",".join(ANSWERS)}"', allow_blank=True,
@@ -104,8 +109,8 @@ def main():
         row[0].font = Font(size=12)
     g.column_dimensions["A"].width = 110
     wb.active = 1
-    wb.save(SHEET)
-    print(f"{SHEET} ({len(key)} rows)")
+    wb.save(path)
+    print(f"{path} ({len(key)} rows)")
 
 
 if __name__ == "__main__":

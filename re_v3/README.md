@@ -21,7 +21,12 @@ re_v3/
 ├── mine_patterns.py     (A) khai thác pattern            ✅ chạy được
 ├── lexicon.json         từ điển thực thể theo nhóm chuyên khoa, dùng cho (B)
 ├── synth_pattern.py     (B) sinh theo pattern            ✅ chạy được
-├── synth_llm.py         (C) sinh bằng LLM                ⏳ khung
+├── synth_llm.py         (C) sinh bằng LLM (OpenAI)       ✅ chạy được, xem SINH_LLM.md
+├── llm_rules.py         rule + kiểu mẫu cho (C)
+├── label_llm.py         gán nhãn câu thật bằng LLM (self-consistency)
+├── validate_kb.py       kiểm tra từ điển/công cụ K1–K7 trước khi đưa chuyên gia
+├── expert_review.py     bảng duyệt chuyên gia + chấm điểm
+├── prompts/            prompt sinh và prompt kiểm tra
 ├── pseudo_label.py      (D) gán nhãn giả (silver)        ⏳ khung
 ├── augment.py           (E) augmentation nhẹ khi train   ⏳ khung
 ├── filter_synth.py      bộ lọc chung                     ✅ chạy được

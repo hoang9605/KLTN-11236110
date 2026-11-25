@@ -11,9 +11,9 @@ Entities:
 
 Relations: the learned RE model alone (--re-mode fallback: rules only for relations the model does not support;
 the model supports all five, so rules are not used). --re-mode union adds rule positives (lower on test_v2: 0.682 vs 0.693).
-Default model: ViHealthBERT-RE (Model/vihealthbert-re-vietmed-validated), ViHealthBERT with entity markers,
-trained by relation/train.py --save-model on the expert-reviewed seed plus pattern-synthetic data,
-scored in relation/outputs/evaluation_test_v2.json. --re-model Model/vihealthbert-re-v1 gives the
+Default model: ViHealthBERT-RE (Model/vihealthbert-re-vietmed-811), ViHealthBERT with entity markers,
+trained by scripts/re_dataset/train_811_gold.py --save-model on the 8:1:1 RE split (LLM-labelled, expert-reviewed),
+scored in outputs/re_811_gold/compare.json. --re-model Model/vihealthbert-re-v1 gives the
 earlier model, --re-model outputs/re_ai_v2/model.joblib the TF-IDF model. --rules-only uses rules everywhere.
 
 Outputs in --out: results.jsonl, kg.json, triples.csv, nodes.csv, kg.graphml, kg.html, stats.md
@@ -36,7 +36,7 @@ sys.path.insert(0, str(ROOT / "scripts" / "golden_test"))
 from knowledge_graph import HybridRelationExtractor, KnowledgeGraph  # noqa: E402
 from knowledge_graph.visualize import RELATION_VI, write_html  # noqa: E402
 
-DEFAULT_RE_MODEL = ROOT / "Model/vihealthbert-re-vietmed-validated"  # ViHealthBERT-RE; relation/outputs/evaluation_test_v2.json
+DEFAULT_RE_MODEL = ROOT / "Model/vihealthbert-re-vietmed-811"  # ViHealthBERT-RE trên phép chia 8:1:1 do chuyên gia duyệt; outputs/re_811_gold/compare.json
 
 
 def iter_texts(a):

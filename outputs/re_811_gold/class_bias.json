@@ -1,0 +1,98 @@
+{
+ "dev": {
+  "vihealthbert": {
+   "located_at": {
+    "pairs": 111,
+    "gold_pos": 83,
+    "pred_pos": 82,
+    "neg": 28,
+    "neg_correct": 11
+   },
+   "treated_by_procedure": {
+    "pairs": 18,
+    "gold_pos": 11,
+    "pred_pos": 10,
+    "neg": 7,
+    "neg_correct": 7
+   },
+   "has_dosage": {
+    "pairs": 0,
+    "gold_pos": 0,
+    "pred_pos": 0,
+    "neg": 0,
+    "neg_correct": 0
+   }
+  },
+  "tfidf_svm": {
+   "located_at": {
+    "pairs": 111,
+    "gold_pos": 83,
+    "pred_pos": 75,
+    "neg": 28,
+    "neg_correct": 17
+   },
+   "treated_by_procedure": {
+    "pairs": 18,
+    "gold_pos": 11,
+    "pred_pos": 13,
+    "neg": 7,
+    "neg_correct": 5
+   },
+   "has_dosage": {
+    "pairs": 0,
+    "gold_pos": 0,
+    "pred_pos": 0,
+    "neg": 0,
+    "neg_correct": 0
+   }
+  }
+ },
+ "test": {
+  "vihealthbert": {
+   "located_at": {
+    "pairs": 162,
+    "gold_pos": 115,
+    "pred_pos": 109,
+    "neg": 47,
+    "neg_correct": 39
+   },
+   "treated_by_procedure": {
+    "pairs": 18,
+    "gold_pos": 9,
+    "pred_pos": 13,
+    "neg": 9,
+    "neg_correct": 4
+   },
+   "has_dosage": {
+    "pairs": 7,
+    "gold_pos": 3,
+    "pred_pos": 5,
+    "neg": 4,
+    "neg_correct": 1
+   }
+  },
+  "tfidf_svm": {
+   "located_at": {
+    "pairs": 162,
+    "gold_pos": 115,
+    "pred_pos": 115,
+    "neg": 47,
+    "neg_correct": 31
+   },
+   "treated_by_procedure": {
+    "pairs": 18,
+    "gold_pos": 9,
+    "pred_pos": 10,
+    "neg": 9,
+    "neg_correct": 5
+   },
+   "has_dosage": {
+    "pairs": 7,
+    "gold_pos": 3,
+    "pred_pos": 3,
+    "neg": 4,
+    "neg_correct": 3
+   }
+  }
+ }
+}

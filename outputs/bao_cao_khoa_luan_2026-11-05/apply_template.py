@@ -89,7 +89,10 @@ def fill(par):
     for label, key in LABELS.items():
         if joined.replace(" :", ":").startswith(label + ":"):
             n = len(re.findall(r"<w:t(?: [^>]*)?>", par))
-            return set_texts(par, [label, ": ", value(key)] if n >= 3 else [label, ": " + value(key)])
+            out = set_texts(par, [label, ": ", value(key)] if n >= 3 else [label, ": " + value(key)])
+            if label == "Lớp":  # căn dấu hai chấm thẳng các dòng khác như người dùng đã chỉnh tay ở bản v38
+                out = out.replace('<w:t xml:space="preserve">Lớp</w:t>', '<w:t xml:space="preserve">Lớp</w:t><w:tab/><w:tab/><w:tab/><w:tab/>', 1)
+            return out
     if joined == "TRƯỜNG CÔNG NGHỆ":
         return set_texts(par, [value("truong")])
     return par
@@ -126,6 +129,11 @@ ign |= set(re.search(r'mc:Ignorable="([^"]*)"', troot).group(1).split())
 new_root = re.sub(r'\s*mc:Ignorable="[^"]*"', "", root)[:-1] + add_ns + f' mc:Ignorable="{" ".join(sorted(ign))}">'
 doc = doc.replace(root, new_root, 1)
 doc = doc.replace("<w:body>", "<w:body>" + cover, 1)
+
+# Khoảng trắng không ngắt giữa "Chương/Bảng/Hình/mục/..." và con số theo sau, để Word không
+# đẩy riêng con số xuống dòng dưới (ví dụ "Chương" cuối dòng, "4." đầu dòng sau).
+NBSP_RE = re.compile(r"\b(Chương|Bảng|Hình|[Mm]ục|[Tt]iểu mục|Phụ lục|công thức|Công thức|Mã giả|Ví dụ|các mục) (?=[0-9(]|[A-J]\b|[A-J]\.\d)")
+doc = re.sub(r"(<w:t(?: [^>]*)?>)([^<]*)(</w:t>)", lambda m: m.group(1) + NBSP_RE.sub("\\1\u00a0", m.group(2)) + m.group(3), doc)
 
 rels = src.read("word/_rels/document.xml.rels").decode("utf-8")
 rels = rels.replace("</Relationships>", '<Relationship Id="rIdCoverImg1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/cover_image1.jpeg"/></Relationships>')

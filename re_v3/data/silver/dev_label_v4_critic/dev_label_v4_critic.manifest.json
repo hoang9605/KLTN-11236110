@@ -1,0 +1,25 @@
+{
+ "source": "dev_label_v4",
+ "model": "gpt-5.4",
+ "rules": "v4",
+ "prompt_version": "critic_v1",
+ "pairs": 139,
+ "selected": 45,
+ "why": {
+  "SC": 5,
+  "K7": 30,
+  "in_name": 1,
+  "hot_body": 32,
+  "K6": 2
+ },
+ "stats": {
+  "checked": 45,
+  "flip_low_conf_ignored": 3,
+  "flip:NO_RELATION->located_at": 15,
+  "flip:located_at->NO_RELATION": 1
+ },
+ "usage": {
+  "usd_this_run": 0.2982,
+  "api_calls": 45
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "prompt_version": "v4",
+ "model": "gpt-5.4-mini",
+ "k": 3,
+ "adaptive": true,
+ "calls_per_sentence": 1.56,
+ "temperature": 0.7,
+ "seed": 42,
+ "split": "test",
+ "sentences": 177,
+ "labeled": 177,
+ "failed": {},
+ "pairs": 212,
+ "labels": {
+  "located_at|NO_RELATION": 64,
+  "has_dosage|has_dosage": 6,
+  "located_at|located_at": 98,
+  "treated_by|NO_RELATION": 19,
+  "treated_by_procedure|NO_RELATION": 11,
+  "diagnosed_by|diagnosed_by": 1,
+  "diagnosed_by|NO_RELATION": 2,
+  "treated_by_procedure|treated_by_procedure": 7,
+  "treated_by|treated_by": 3,
+  "has_dosage|NO_RELATION": 1
+ },
+ "pair_unanimous_rate": 0.92,
+ "tiers": {
+  "B": 154,
+  "A": 23
+ },
+ "flags": {
+  "K1_fail": 129,
+  "K4_not_dosage": 30,
+  "K2_fail": 51,
+  "K3_fail": 34,
+  "K6_rule_disagree": 86,
+  "K7_no_corpus_support": 47,
+  "SC_pair_disagree": 17,
+  "SC_entity_disagree": 10
+ },
+ "expert_a_fraction": 1.0,
+ "expert_rows": {
+  "tier=B|sample=1": 200,
+  "tier=A|sample=1": 12
+ },
+ "usage": {
+  "api_calls": 277,
+  "gpt-5.4-mini:prompt_tokens": 592466,
+  "gpt-5.4-mini:completion_tokens": 84756,
+  "usd_this_run": 0.8258
+ },
+ "budget_stopped_sentences": 0
+}

@@ -1,0 +1,42 @@
+{
+ "train": {
+  "pairs": 1632,
+  "sentences": 717,
+  "labels": {
+   "NO_RELATION": 766,
+   "located_at": 714,
+   "treated_by": 44,
+   "diagnosed_by": 26,
+   "treated_by_procedure": 69,
+   "has_dosage": 13
+  }
+ },
+ "dev": {
+  "pairs": 143,
+  "sentences": 76,
+  "labels": {
+   "located_at": 83,
+   "treated_by_procedure": 11,
+   "NO_RELATION": 47,
+   "treated_by": 2
+  }
+ },
+ "test": {
+  "pairs": 212,
+  "sentences": 95,
+  "labels": {
+   "NO_RELATION": 76,
+   "located_at": 115,
+   "has_dosage": 3,
+   "diagnosed_by": 3,
+   "treated_by_procedure": 9,
+   "treated_by": 6
+  }
+ },
+ "synth_filter": {
+  "pool": 1284,
+  "kept": 1181,
+  "dropped": 103,
+  "pairs": 1762
+ }
+}

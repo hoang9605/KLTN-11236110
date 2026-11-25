@@ -1,5 +1,5 @@
 """Adapter for the existing NER output; normalization is independent of RE."""
-from .data import NEGATIVE, is_generic
+from .data import NEGATIVE, is_generic, is_guideline_invalid
 
 
 class MedicalREPipeline:
@@ -18,6 +18,8 @@ class MedicalREPipeline:
             entity.setdefault("text", entity.get("surface_text", result["text"][entity["start"]:entity["end"]]))
             if self.skip_generic and is_generic(entity):
                 entity["re_excluded"] = "generic_entity"
+            elif self.skip_generic and is_guideline_invalid(entity):
+                entity["re_excluded"] = "guideline_invalid"
             entities.append(entity)
         re_entities = [e for e in entities if "re_excluded" not in e]
         predictions = self.extractor.predict(result["text"], re_entities)

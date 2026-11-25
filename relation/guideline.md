@@ -104,6 +104,15 @@ Các quy định dưới đây do người gán chốt ngày 2026-11-20, sau khi
 |---|---|
 | Mention PROCEDURE chỉ gồm đúng chữ "điều trị", không kèm tên phương pháp | INVALID. "điều trị" đứng một mình không phải thủ thuật hay phương pháp cụ thể. Mention dài hơn có tên phương pháp, ví dụ "điều trị bằng nội tiết", vẫn xét theo bảng PROCEDURE ở bước A. |
 
+## Bổ sung 24/11/2026 sau khi chuyên gia chấm pilot_label_v1 và dev_label_v3
+
+Chuyên gia trả lời hai câu hỏi về located_at:
+
+1. Bệnh gây biến chứng hay tổn thương ở cơ quan khác: **có** tính located_at với cơ quan đó. Ví dụ «xơ vữa động mạch gây đột quỵ não» → xơ vữa động mạch → não là located_at.
+2. «máu» là nơi xảy ra bệnh: **tùy bệnh**. Dương với bệnh của chính máu, mỡ máu, huyết áp hay mạch máu (mỡ máu, huyết áp cao, xơ vữa, chảy máu). Âm với bệnh của cơ quan khác chỉ ảnh hưởng gián tiếp tới máu (suy gan, rung nhĩ), và âm khi «máu» chỉ là thứ được truyền, bổ hay bị mất.
+
+Ngoài ra (rút từ các dòng chuyên gia chấm 0): vị trí ngầm định theo kiến thức y khoa được tính khi bộ phận có trong câu và câu đang nói về bệnh đó; thực phẩm chức năng, mỹ phẩm quảng cáo «hỗ trợ» không phải treated_by; «cấp cứu», «vào viện» không phải PROCEDURE. Luật tương ứng: re_v3/llm_rules.py, bộ v4.
+
 ## Quy trình
 
 1. Đọc cả câu một lần.

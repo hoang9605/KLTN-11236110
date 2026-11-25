@@ -1,0 +1,38 @@
+{
+ "metrics": {
+  "v1": {
+   "n": 353,
+   "acc": 0.688,
+   "precision": 0.889,
+   "recall": 0.558,
+   "f1": 0.686,
+   "gold_pos": 215,
+   "per_relation_acc": {
+    "diagnosed_by": "9/11",
+    "has_dosage": "5/6",
+    "located_at": "177/267",
+    "treated_by": "22/31",
+    "treated_by_procedure": "30/38"
+   }
+  },
+  "pilot_label_v1": {
+   "n": 353,
+   "acc": 0.688,
+   "precision": 0.889,
+   "recall": 0.558,
+   "f1": 0.686,
+   "gold_pos": 215,
+   "per_relation_acc": {
+    "diagnosed_by": "9/11",
+    "has_dosage": "5/6",
+    "located_at": "177/267",
+    "treated_by": "22/31",
+    "treated_by_procedure": "30/38"
+   },
+   "dropped_invalid": 0
+  }
+ },
+ "changed_vs_v1": {
+  "pilot_label_v1": []
+ }
+}

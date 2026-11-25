@@ -30,7 +30,7 @@ SENTENCES = [
 def main():
     t0 = time.time()
     # fallback = mô hình đứng một mình (mô hình hỗ trợ cả năm quan hệ), giống web/app.py và scripts/build_kg.py
-    pipe = MedicalREPipeline(HybridRelationExtractor(load_extractor(str(ROOT / "Model/vihealthbert-re-vietmed-validated")),
+    pipe = MedicalREPipeline(HybridRelationExtractor(load_extractor(str(ROOT / "Model/vihealthbert-re-vietmed-811")),
                                                      mode="fallback"),
                              ner=MedicalNERPipeline(enable_normalization=True))
     print(f"loaded in {time.time() - t0:.1f}s", flush=True)

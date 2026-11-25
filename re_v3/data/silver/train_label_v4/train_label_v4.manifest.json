@@ -1,0 +1,56 @@
+{
+ "prompt_version": "v4",
+ "model": "gpt-5.4-mini",
+ "k": 3,
+ "adaptive": true,
+ "calls_per_sentence": 1.18,
+ "temperature": 0.7,
+ "seed": 42,
+ "split": "train",
+ "sentences": 1407,
+ "labeled": 1407,
+ "failed": {},
+ "pairs": 1632,
+ "labels": {
+  "located_at|NO_RELATION": 666,
+  "located_at|located_at": 613,
+  "treated_by|NO_RELATION": 116,
+  "treated_by|treated_by": 32,
+  "treated_by_procedure|NO_RELATION": 87,
+  "diagnosed_by|diagnosed_by": 24,
+  "diagnosed_by|NO_RELATION": 12,
+  "treated_by_procedure|treated_by_procedure": 61,
+  "has_dosage|has_dosage": 13,
+  "has_dosage|NO_RELATION": 8
+ },
+ "pair_unanimous_rate": 0.895,
+ "tiers": {
+  "B": 1178,
+  "A": 229
+ },
+ "flags": {
+  "K4_not_dosage": 323,
+  "K1_fail": 928,
+  "K3_fail": 237,
+  "K6_rule_disagree": 592,
+  "K7_no_corpus_support": 284,
+  "SC_pair_disagree": 171,
+  "SC_entity_disagree": 61,
+  "K2_fail": 405,
+  "K3_type_mismatch": 1
+ },
+ "expert_a_fraction": 0.2,
+ "expert_rows": {
+  "tier=B|sample=1": 1436,
+  "tier=A|sample=0": 158,
+  "tier=A|sample=1": 38
+ },
+ "usage": {
+  "cache_hits": 461,
+  "api_calls": 1659,
+  "gpt-5.4-mini:prompt_tokens": 3504938,
+  "gpt-5.4-mini:completion_tokens": 509965,
+  "usd_this_run": 4.9235
+ },
+ "budget_stopped_sentences": 0
+}

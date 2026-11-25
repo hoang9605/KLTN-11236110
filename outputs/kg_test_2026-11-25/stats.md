@@ -1,0 +1,58 @@
+# Đồ thị tri thức y tế
+
+- Nguồn: `outputs/kg_test_2026-11-23/results.jsonl`; thực thể: **model**; quan hệ: ViHealthBERT (diagnosed_by, has_dosage, located_at, treated_by, treated_by_procedure) ∪ luật (mọi quan hệ; riêng  chỉ do luật)
+- 3496 câu → **1315 nút** (107 có mã ICD-10/RxNorm), **469 cạnh** khác nhau (665 lần xuất hiện); 907 nút không có quan hệ.
+- Nút được gộp theo mã chuẩn khi chuẩn hóa có quyết định, nếu không theo loại + chữ đã chuẩn hóa.
+
+| Loại nút | Số nút |
+|---|---:|
+| CONDITION | 382 |
+| PROCEDURE | 243 |
+| DRUG | 229 |
+| BODY_PART | 228 |
+| DOSAGE | 169 |
+| TEST | 64 |
+
+| Quan hệ | Số cạnh khác nhau | Lần xuất hiện | Nguồn |
+|---|---:|---:|---|
+| located_at (vị trí) | 270 | 431 | model 431 |
+| treated_by_procedure (điều trị bằng thủ thuật) | 62 | 70 | model 70 |
+| has_dosage (liều dùng) | 54 | 62 | model 62 |
+| treated_by (điều trị bằng thuốc) | 53 | 70 | model 70 |
+| diagnosed_by (chẩn đoán bằng) | 30 | 32 | model 32 |
+
+## 25 bộ ba xuất hiện nhiều nhất
+
+| Đầu | Quan hệ | Cuối | Số lần | Nguồn |
+|---|---|---|---:|---|
+| thuyên tắc huyết | located_at | tĩnh mạch | 19 | model |
+| thính | treated_by | giả | 10 | model |
+| Tiêu xương | located_at | xương | 9 | model |
+| thuyên tắc huyết khối | located_at | tĩnh mạch | 9 | model |
+| áp xe | located_at | đại tràng | 6 | model |
+| Đau, không đặc hiệu | located_at | đại tràng | 6 | model |
+| Đau, không đặc hiệu | located_at | ruột | 6 | model |
+| ra máu | located_at | âm đạo | 5 | model |
+| nhân xơ | located_at | tử cung | 5 | model |
+| Loãng xương không đặc hiệu | located_at | xương | 5 | model |
+| polyp | located_at | tử cung | 4 | model |
+| Thiếu máu không đặc hiệu | located_at | máu | 4 | model |
+| nhân xơ | located_at | thanh mạc | 4 | model |
+| Chảy máu chưa được phân loại ở nơi khác | located_at | đại tràng | 4 | model |
+| có thai | treated_by | nghi ngờ | 4 | model |
+| mọc | located_at | răng | 4 | model |
+| Đau, không đặc hiệu | located_at | thần kinh | 4 | model |
+| mất răng | located_at | răng | 4 | model |
+| mất | located_at | răng | 4 | model |
+| Đau, không đặc hiệu | located_at | vai | 4 | model |
+| polyp | located_at | nội mạc | 3 | model |
+| nhân xơ tử cung | located_at | tử cung | 3 | model |
+| polyp | treated_by_procedure | mổ | 3 | model |
+| calcium | has_dosage | một | 3 | model |
+| Loãng xương không đặc hiệu | treated_by | calcium | 3 | model |
+
+## Hạn chế
+
+- Chất lượng cạnh phụ thuộc RE: trên tập kiểm tra test_v2 (311 cặp, người chuyên môn gán) ViHealthBERT đạt micro F1 0,69 (KTC 95% 0,62–0,76) với precision 0,60, còn ViHealthBERT ∪ luật đạt 0,68 với precision 0,57, tức khoảng 4/10 cạnh có thể sai (relation/outputs/evaluation_test_v2_modes.json). `has_dosage` không có trong tập kiểm định nên chưa được đánh giá riêng; nhiều cạnh `has_dosage` nối tới cụm không phải liều (ví dụ 'nồng độ', 'cao').
+- Thực thể chưa chuẩn hóa không gộp được với các cách viết khác (ví dụ 'rong kinh' và 'ra nhiều kinh' là hai nút).
+- RE chỉ xét cặp trong cùng một câu; không xử lý đồng tham chiếu.

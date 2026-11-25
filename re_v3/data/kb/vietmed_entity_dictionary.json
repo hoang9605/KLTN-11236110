@@ -1,0 +1,5931 @@
+{
+"_note": "Số lần mỗi mention được gán từng kiểu trong nhãn NER gốc VietMed-NER (3 split), đã ánh xạ sang 6 kiểu đích.",
+"sources": {
+"train": {
+"source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-train.arrow",
+"fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+},
+"validation": {
+"source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-validation.arrow",
+"fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+},
+"test": {
+"source": "C:\\Users\\ASUS\\.cache\\huggingface\\datasets\\leduckhai___viet_med-ner\\default\\0.0.0\\e3d0393c733858402a7c04228f45d351d2ce6d8f\\viet_med-ner-test.arrow",
+"fingerprint": "e3d0393c733858402a7c04228f45d351d2ce6d8f"
+}
+},
+"mentions": {
+"5htp": {
+"DRUG": 4
+},
+"5k": {
+"DRUG": 9
+},
+"acenocoumarol": {
+"DRUG": 1
+},
+"acetylcholine": {
+"DRUG": 2
+},
+"adenosine": {
+"DRUG": 4
+},
+"adenosine cordycepin": {
+"DRUG": 3
+},
+"adrenaline": {
+"DRUG": 2
+},
+"aha bha": {
+"DRUG": 2
+},
+"aizheimer": {
+"CONDITION": 2
+},
+"alzheimer": {
+"CONDITION": 20
+},
+"amidan": {
+"CONDITION": 1
+},
+"amino axit": {
+"DRUG": 1
+},
+"amip": {
+"DRUG": 1
+},
+"amylase": {
+"DRUG": 1
+},
+"anlene": {
+"DRUG": 2
+},
+"ascorbic": {
+"DRUG": 1
+},
+"aspirin": {
+"DRUG": 3
+},
+"axit": {
+"DRUG": 10
+},
+"axit amin": {
+"DRUG": 7
+},
+"axit hyaluronic": {
+"DRUG": 1
+},
+"axit hữu cơ": {
+"DRUG": 1
+},
+"axit lactic": {
+"DRUG": 2
+},
+"azelaic acid": {
+"DRUG": 1
+},
+"b": {
+"DRUG": 8
+},
+"b2": {
+"DRUG": 2
+},
+"b5": {
+"DRUG": 1
+},
+"b9": {
+"DRUG": 1
+},
+"ba bước": {
+"DOSAGE": 6
+},
+"ba bốn milimet": {
+"DOSAGE": 1
+},
+"ba câu hỏi": {
+"DOSAGE": 2
+},
+"ba gam": {
+"DOSAGE": 1
+},
+"ba giai đoạn": {
+"DOSAGE": 2
+},
+"ba lạng": {
+"DOSAGE": 1
+},
+"ba lực lượng": {
+"DOSAGE": 1
+},
+"ba milimet": {
+"DOSAGE": 1
+},
+"ba mươi gam": {
+"DOSAGE": 1
+},
+"ba mươi lăm phần trăm": {
+"DOSAGE": 3
+},
+"ba mươi milimet": {
+"DOSAGE": 1
+},
+"ba mươi phần trăm": {
+"DOSAGE": 6
+},
+"ba mươi đến năm mươi milimet": {
+"DOSAGE": 1
+},
+"ba mức cơ bản": {
+"DOSAGE": 1
+},
+"ba nghìn": {
+"DOSAGE": 1
+},
+"ba quận huyện": {
+"DOSAGE": 1
+},
+"ba viên": {
+"DOSAGE": 1
+},
+"bao cao su": {
+"PROCEDURE": 2
+},
+"bao tử": {
+"BODY_PART": 1
+},
+"beta hcg": {
+"PROCEDURE": 4
+},
+"betadine": {
+"DRUG": 1
+},
+"biotin": {
+"DRUG": 1
+},
+"biphosphonate": {
+"DRUG": 3
+},
+"biến chứng": {
+"CONDITION": 132
+},
+"biến chứng dao động vận động": {
+"CONDITION": 2
+},
+"biến dạng": {
+"CONDITION": 2
+},
+"biến đổi về tâm sinh lý": {
+"CONDITION": 1
+},
+"biện pháp": {
+"DRUG": 1
+},
+"biện pháp lại nghiệm pháp kích thích": {
+"PROCEDURE": 1
+},
+"biệt dược": {
+"DRUG": 1
+},
+"bmi": {
+"DOSAGE": 1
+},
+"bong vảy": {
+"CONDITION": 1
+},
+"buồn": {
+"CONDITION": 2
+},
+"buồn bã": {
+"CONDITION": 1
+},
+"buồn ngủ": {
+"CONDITION": 3
+},
+"buồn nôn": {
+"CONDITION": 9
+},
+"buồn phiền": {
+"CONDITION": 1
+},
+"buồng tim": {
+"BODY_PART": 2
+},
+"buồng trứng": {
+"BODY_PART": 14
+},
+"buồng tâm nhĩ": {
+"BODY_PART": 2
+},
+"buồng tử cung": {
+"BODY_PART": 19
+},
+"bài tiết": {
+"TEST": 4
+},
+"bàn chân": {
+"BODY_PART": 5
+},
+"bàn con": {
+"BODY_PART": 1
+},
+"bàn tay": {
+"BODY_PART": 12
+},
+"bàng quang": {
+"BODY_PART": 9
+},
+"bào chế": {
+"PROCEDURE": 2
+},
+"bã nhờn": {
+"DRUG": 3
+},
+"béo phì": {
+"CONDITION": 163
+},
+"bình giáp": {
+"CONDITION": 3
+},
+"bít tắc lỗ chân lông": {
+"CONDITION": 4
+},
+"bú bình": {
+"PROCEDURE": 2
+},
+"băng huyết": {
+"CONDITION": 1
+},
+"băng kinh": {
+"CONDITION": 1
+},
+"băng vệ sinh": {
+"PROCEDURE": 2
+},
+"băng ép": {
+"PROCEDURE": 3
+},
+"bơm nước vào buồng tử cung": {
+"TEST": 3
+},
+"bạc tóc": {
+"CONDITION": 5
+},
+"bạch cầu": {
+"BODY_PART": 4
+},
+"bạch hầu": {
+"CONDITION": 6
+},
+"bạch phục linh": {
+"DRUG": 4
+},
+"bạch quả": {
+"DRUG": 3
+},
+"bạch thược": {
+"DRUG": 3
+},
+"bạch truật": {
+"DRUG": 2
+},
+"bả vai": {
+"BODY_PART": 1
+},
+"bảng điện tâm đồ": {
+"PROCEDURE": 1
+},
+"bảng đánh giá tình trạng": {
+"TEST": 1
+},
+"bảo vệ da": {
+"DRUG": 7
+},
+"bảy mươi phần trăm": {
+"DOSAGE": 3
+},
+"bảy mươi tám mươi milimet": {
+"DOSAGE": 1
+},
+"bảy mươi đến chín phần trăm": {
+"DOSAGE": 1
+},
+"bảy mươi đến tám mươi phần trăm": {
+"DOSAGE": 2
+},
+"bảy tám cái răng": {
+"DOSAGE": 2
+},
+"bảy tỉnh": {
+"DOSAGE": 2
+},
+"bảy viên": {
+"DOSAGE": 2
+},
+"bất an": {
+"CONDITION": 6
+},
+"bầm tím": {
+"CONDITION": 1
+},
+"bầu hoàn não": {
+"BODY_PART": 1
+},
+"bẩm sinh": {
+"CONDITION": 16
+},
+"bắp chân": {
+"BODY_PART": 2
+},
+"bề mặt da": {
+"BODY_PART": 14
+},
+"bệnh": {
+"CONDITION": 2
+},
+"bệnh chết người": {
+"CONDITION": 1
+},
+"bệnh còi xương": {
+"CONDITION": 2
+},
+"bệnh cúm a": {
+"CONDITION": 1
+},
+"bệnh da chính": {
+"CONDITION": 2
+},
+"bệnh da nền": {
+"CONDITION": 1
+},
+"bệnh dại": {
+"CONDITION": 7
+},
+"bệnh dịch hạch": {
+"CONDITION": 1
+},
+"bệnh gút": {
+"CONDITION": 8
+},
+"bệnh lý": {
+"CONDITION": 70
+},
+"bệnh lý da": {
+"CONDITION": 2
+},
+"bệnh lý nhiễm": {
+"CONDITION": 1
+},
+"bệnh lý nền": {
+"CONDITION": 30
+},
+"bệnh lý thoái hóa": {
+"CONDITION": 4
+},
+"bệnh lý thoái hóa cột sống": {
+"CONDITION": 3
+},
+"bệnh lý thông thường": {
+"CONDITION": 1
+},
+"bệnh lý trên mái tóc": {
+"CONDITION": 3
+},
+"bệnh lý viêm khớp dạng thấp": {
+"CONDITION": 1
+},
+"bệnh mãn tính": {
+"CONDITION": 9
+},
+"bệnh mạch vành": {
+"CONDITION": 3
+},
+"bệnh nhiễm nấm mạn": {
+"CONDITION": 1
+},
+"bệnh nó nặng lên": {
+"CONDITION": 1
+},
+"bệnh nền": {
+"CONDITION": 17
+},
+"bệnh phổi tắc nghẽn": {
+"CONDITION": 3
+},
+"bệnh phụ khoa": {
+"CONDITION": 2
+},
+"bệnh sởi": {
+"CONDITION": 1
+},
+"bệnh thuyên tắc huyết khối": {
+"CONDITION": 5
+},
+"bệnh tụt khí huyết": {
+"CONDITION": 1
+},
+"bệnh tự miễn": {
+"CONDITION": 6
+},
+"bệnh viêm cột sống dính khớp": {
+"CONDITION": 2
+},
+"bệnh viêm khớp": {
+"CONDITION": 2
+},
+"bệnh về lợi": {
+"CONDITION": 1
+},
+"bệnh xơ vữa động mạch": {
+"CONDITION": 2
+},
+"bệnh xương khớp": {
+"CONDITION": 10
+},
+"bệnh đa xơ cứng": {
+"CONDITION": 2
+},
+"bệnh đồng": {
+"CONDITION": 1
+},
+"bệnh động mạch": {
+"CONDITION": 1
+},
+"bị": {
+"CONDITION": 11
+},
+"bị bít tắc lỗ chân lông": {
+"CONDITION": 1
+},
+"bị bệnh": {
+"CONDITION": 20
+},
+"bị bệnh gan": {
+"CONDITION": 1
+},
+"bị bệnh viêm khớp": {
+"CONDITION": 1
+},
+"bị bỏng": {
+"CONDITION": 1
+},
+"bị dại": {
+"CONDITION": 1
+},
+"bị dị vật": {
+"CONDITION": 2
+},
+"bị lép": {
+"CONDITION": 3
+},
+"bị mớm một bên": {
+"CONDITION": 1
+},
+"bị rung cứng": {
+"CONDITION": 1
+},
+"bị sâu": {
+"CONDITION": 3
+},
+"bị sặc": {
+"CONDITION": 1
+},
+"bị teo lại": {
+"CONDITION": 2
+},
+"bị thương": {
+"CONDITION": 2
+},
+"bị tiêu": {
+"CONDITION": 45
+},
+"bị trẻ hóa": {
+"CONDITION": 1
+},
+"bị tổn thương": {
+"CONDITION": 2
+},
+"bị xơ": {
+"CONDITION": 1
+},
+"bỏng rát": {
+"CONDITION": 1
+},
+"bỏng rát ngứa": {
+"CONDITION": 2
+},
+"bốn giai đoạn": {
+"DOSAGE": 1
+},
+"bốn lạng": {
+"DOSAGE": 1
+},
+"bốn mươi phần trăm": {
+"DOSAGE": 2
+},
+"bốn phần trăm": {
+"DOSAGE": 2
+},
+"bốn viên": {
+"DOSAGE": 4
+},
+"bồ kết": {
+"DRUG": 1
+},
+"bộ máy tiêu hóa": {
+"BODY_PART": 4
+},
+"bộ não": {
+"BODY_PART": 13
+},
+"bộ phận sinh dục": {
+"BODY_PART": 2
+},
+"bộ xương": {
+"BODY_PART": 3
+},
+"bộ điều khiển": {
+"PROCEDURE": 3
+},
+"bụi mịn": {
+"DRUG": 1
+},
+"bụng": {
+"BODY_PART": 2
+},
+"bụng dưới": {
+"BODY_PART": 1
+},
+"bụng đầy hơi": {
+"CONDITION": 1
+},
+"cai bú": {
+"PROCEDURE": 1
+},
+"calo": {
+"DRUG": 2
+},
+"cam kết giữ cân nặng": {
+"DRUG": 1
+},
+"cam thảo": {
+"DRUG": 3
+},
+"camera": {
+"PROCEDURE": 1
+},
+"can thiệp": {
+"DRUG": 24
+},
+"can thiệp giảm cân": {
+"PROCEDURE": 1
+},
+"can thiệp mạch": {
+"PROCEDURE": 1
+},
+"can thiệp nội mạch khối": {
+"PROCEDURE": 1
+},
+"canxi": {
+"DRUG": 100
+},
+"cao": {
+"DOSAGE": 295
+},
+"cao cấp hơn": {
+"DOSAGE": 2
+},
+"cao gấp hai mươi đến hai mươi tư lần": {
+"DOSAGE": 1
+},
+"cao huyết áp": {
+"CONDITION": 11
+},
+"carbohydrate": {
+"DRUG": 3
+},
+"carbonate": {
+"DRUG": 2
+},
+"catecholamine": {
+"DRUG": 1
+},
+"catecholamine trong máu": {
+"CONDITION": 1
+},
+"cetaphil": {
+"DRUG": 3
+},
+"chai canxi": {
+"DRUG": 1
+},
+"che chắn": {
+"DRUG": 2
+},
+"chiếc máu": {
+"TEST": 1
+},
+"chiếm đa số": {
+"DOSAGE": 3
+},
+"chiết xuất": {
+"PROCEDURE": 12
+},
+"chiết xuất từ thực vật": {
+"DRUG": 7
+},
+"cho thuốc": {
+"PROCEDURE": 8
+},
+"cholesterol": {
+"CONDITION": 16
+},
+"cholesterol 6": {
+"DRUG": 1
+},
+"choáng voáng": {
+"CONDITION": 1
+},
+"choáng váng": {
+"CONDITION": 2
+},
+"chu trình thay da": {
+"TEST": 1
+},
+"chuyển dạ": {
+"CONDITION": 1
+},
+"chuyển hóa": {
+"TEST": 19
+},
+"chuẩn đoán": {
+"TEST": 2
+},
+"chuỗi amin": {
+"DRUG": 1
+},
+"chuột rút": {
+"CONDITION": 7
+},
+"chàm": {
+"CONDITION": 1
+},
+"chán nản": {
+"CONDITION": 4
+},
+"chán ăn": {
+"CONDITION": 5
+},
+"châm chích": {
+"CONDITION": 4
+},
+"châm cứu": {
+"PROCEDURE": 3
+},
+"chân": {
+"BODY_PART": 9
+},
+"chân của": {
+"BODY_PART": 1
+},
+"chân không": {
+"DRUG": 1
+},
+"chân mạch máu não": {
+"BODY_PART": 1
+},
+"chân răng": {
+"BODY_PART": 11
+},
+"chân răng nhân tạo": {
+"PROCEDURE": 2
+},
+"chân tay": {
+"BODY_PART": 31
+},
+"chân tóc": {
+"BODY_PART": 6
+},
+"chèn ép thần kinh tọa": {
+"CONDITION": 1
+},
+"chí": {
+"BODY_PART": 1
+},
+"chích máu": {
+"TEST": 2
+},
+"chích ngừa": {
+"DRUG": 2,
+"PROCEDURE": 7
+},
+"chích ngừa dại": {
+"PROCEDURE": 1
+},
+"chích thuốc tê": {
+"PROCEDURE": 1
+},
+"chích vắcxin": {
+"DRUG": 2
+},
+"chín mươi chín phần trăm": {
+"DOSAGE": 1
+},
+"chín mươi chín trên chín chín phần trăm": {
+"DOSAGE": 1
+},
+"chín mươi phần trăm": {
+"DOSAGE": 3
+},
+"chín mươi tám phần trăm": {
+"DOSAGE": 1
+},
+"chín phần ngàn không": {
+"DOSAGE": 1
+},
+"chóng mặt": {
+"CONDITION": 52
+},
+"chăm sóc": {
+"PROCEDURE": 34
+},
+"chăm sóc da": {
+"PROCEDURE": 3
+},
+"chăm sóc dinh dưỡng": {
+"PROCEDURE": 1
+},
+"chăm sóc nha khoa": {
+"PROCEDURE": 1
+},
+"chăm sóc sức khỏe": {
+"PROCEDURE": 7
+},
+"chăm sóc tóc": {
+"PROCEDURE": 2
+},
+"chướng hơi": {
+"CONDITION": 1
+},
+"chườm lạnh": {
+"PROCEDURE": 1
+},
+"chạy thận nhân tạo": {
+"PROCEDURE": 1
+},
+"chảy máu": {
+"CONDITION": 33
+},
+"chảy mủ": {
+"CONDITION": 1
+},
+"chấn thương": {
+"CONDITION": 10
+},
+"chấn động": {
+"CONDITION": 2
+},
+"chấp hành nghiêm chỉnh": {
+"DRUG": 1
+},
+"chất béo": {
+"DRUG": 29
+},
+"chất bôi trơn": {
+"DRUG": 1
+},
+"chất bảo quản": {
+"DRUG": 5
+},
+"chất bổ trợ": {
+"DRUG": 6
+},
+"chất bột đường": {
+"DRUG": 3
+},
+"chất cấp ẩm": {
+"DRUG": 1
+},
+"chất dinh dưỡng": {
+"DRUG": 20
+},
+"chất khoáng": {
+"DRUG": 4
+},
+"chất khoáng hoạt động": {
+"DRUG": 1
+},
+"chất mỡ": {
+"DRUG": 2
+},
+"chất nhầy": {
+"DRUG": 2
+},
+"chất nền": {
+"DRUG": 1
+},
+"chất nội sinh": {
+"DRUG": 2
+},
+"chất tẩy rửa bề mặt": {
+"DRUG": 1
+},
+"chất điện giải": {
+"DRUG": 2
+},
+"chất độc": {
+"DRUG": 3
+},
+"chẩn đoán": {
+"TEST": 56
+},
+"chẩn đoán hình ảnh": {
+"PROCEDURE": 2
+},
+"chẩn đoán xác định": {
+"TEST": 1
+},
+"chậm": {
+"CONDITION": 26
+},
+"chậm chạp": {
+"CONDITION": 1
+},
+"chậm cử động": {
+"CONDITION": 2
+},
+"chậm mọc răng": {
+"CONDITION": 1
+},
+"chậm ngồi": {
+"CONDITION": 1
+},
+"chậm nhịp": {
+"CONDITION": 1
+},
+"chậm nói": {
+"CONDITION": 1
+},
+"chậm đi": {
+"CONDITION": 2
+},
+"chế biến": {
+"PROCEDURE": 10
+},
+"chế phẩm đông trùng hạ thảo": {
+"DRUG": 1
+},
+"chế độ ăn uống cân đối": {
+"PROCEDURE": 1
+},
+"chết hết": {
+"CONDITION": 1
+},
+"chỉ số đường huyết": {
+"DOSAGE": 2
+},
+"chỉ định": {
+"DRUG": 36
+},
+"chống lại bệnh tật": {
+"TEST": 5
+},
+"chống nắng": {
+"DRUG": 7
+},
+"chốt chặn": {
+"DRUG": 3
+},
+"chụp các mạch máu não": {
+"TEST": 1
+},
+"chụp cộng hưởng": {
+"PROCEDURE": 1
+},
+"chụp hình cột sống": {
+"PROCEDURE": 1
+},
+"chụp màn hình ảnh học": {
+"TEST": 1
+},
+"chụp phim": {
+"TEST": 6
+},
+"chụp phim ct": {
+"TEST": 2
+},
+"chụp vai gáy": {
+"PROCEDURE": 1
+},
+"chụp x quang": {
+"TEST": 1
+},
+"chụp xquang": {
+"TEST": 1
+},
+"chủng": {
+"CONDITION": 3
+},
+"chủng delta": {
+"CONDITION": 2
+},
+"chứng mất trí nhớ": {
+"CONDITION": 2
+},
+"chữa bệnh": {
+"PROCEDURE": 3
+},
+"chữa lành": {
+"PROCEDURE": 2
+},
+"chữa lành bệnh": {
+"PROCEDURE": 8
+},
+"chữa trị": {
+"PROCEDURE": 10
+},
+"cic": {
+"DRUG": 1
+},
+"clohidric": {
+"DRUG": 1
+},
+"co giật": {
+"CONDITION": 7
+},
+"co rúm người": {
+"CONDITION": 1
+},
+"collagen": {
+"DRUG": 13
+},
+"computer": {
+"PROCEDURE": 1
+},
+"con mắt": {
+"BODY_PART": 1
+},
+"cong chân": {
+"CONDITION": 9
+},
+"cordycepin": {
+"DRUG": 3
+},
+"corticoid": {
+"DRUG": 8
+},
+"cortisol": {
+"DRUG": 5
+},
+"covid": {
+"CONDITION": 33
+},
+"covid19": {
+"CONDITION": 12
+},
+"ct": {
+"TEST": 10
+},
+"cuồng ăn": {
+"CONDITION": 1
+},
+"các ca": {
+"DOSAGE": 3
+},
+"các chi": {
+"BODY_PART": 8
+},
+"các chỉ số": {
+"DOSAGE": 4
+},
+"các cái chi": {
+"BODY_PART": 1
+},
+"các cái khớp": {
+"BODY_PART": 6
+},
+"các vấn đề về trí nhớ": {
+"CONDITION": 1
+},
+"các đơn vị nhớ": {
+"BODY_PART": 1
+},
+"cách ly": {
+"DRUG": 13
+},
+"cái chân": {
+"BODY_PART": 4
+},
+"cái chân tóc": {
+"BODY_PART": 2
+},
+"cái khối cơ": {
+"BODY_PART": 1
+},
+"cái lắc": {
+"PROCEDURE": 1
+},
+"cái máy thận nhân tạo": {
+"PROCEDURE": 1
+},
+"cái ngưỡng mức": {
+"DOSAGE": 1
+},
+"cái thứ hai": {
+"DOSAGE": 51
+},
+"cái tỷ lệ": {
+"DOSAGE": 14
+},
+"cái vai": {
+"BODY_PART": 1
+},
+"cái xương": {
+"BODY_PART": 47
+},
+"cánh tay": {
+"BODY_PART": 5
+},
+"câm": {
+"CONDITION": 11
+},
+"câm điếc bẩm sinh": {
+"CONDITION": 1
+},
+"cây tránh thai một nang": {
+"PROCEDURE": 1
+},
+"còi cọc": {
+"CONDITION": 2
+},
+"có kinh": {
+"CONDITION": 10
+},
+"có thai": {
+"CONDITION": 39
+},
+"có ý định tự tử": {
+"CONDITION": 2
+},
+"có đờm": {
+"CONDITION": 1
+},
+"công nghệ sinh học": {
+"PROCEDURE": 2
+},
+"công nghệ sinh học hoa kỳ": {
+"PROCEDURE": 1
+},
+"công nghệ về làm đẹp": {
+"PROCEDURE": 1
+},
+"cúm": {
+"CONDITION": 5
+},
+"cúm a": {
+"CONDITION": 14
+},
+"cúm gà h1n1": {
+"CONDITION": 1
+},
+"cúm mùa": {
+"CONDITION": 1
+},
+"căng kéo": {
+"CONDITION": 1
+},
+"căng kéo khô rát đỏ ngứa": {
+"CONDITION": 1
+},
+"căng thẳng": {
+"CONDITION": 47
+},
+"cơ": {
+"BODY_PART": 58
+},
+"cơ bắp": {
+"BODY_PART": 3
+},
+"cơ khớp vai": {
+"BODY_PART": 1
+},
+"cơ mặt": {
+"BODY_PART": 1
+},
+"cơ quan": {
+"BODY_PART": 1
+},
+"cơ quan thần kinh": {
+"BODY_PART": 1
+},
+"cơ thể": {
+"BODY_PART": 216
+},
+"cơ tử cung": {
+"BODY_PART": 6
+},
+"cơ xương khớp": {
+"BODY_PART": 15
+},
+"cơ địa": {
+"BODY_PART": 9
+},
+"cường giáp": {
+"CONDITION": 14
+},
+"cường độ": {
+"DOSAGE": 9
+},
+"cạo gió cắt lễ": {
+"PROCEDURE": 1
+},
+"cải thiện": {
+"PROCEDURE": 126
+},
+"cải thiện vừa tâm lý vừa thể chất vừa các tương tác xã hội": {
+"PROCEDURE": 1
+},
+"cảm cúm": {
+"CONDITION": 7
+},
+"cảm giác": {
+"CONDITION": 1
+},
+"cảm lạnh": {
+"CONDITION": 2
+},
+"cảnh báo": {
+"DRUG": 5
+},
+"cấp cứu": {
+"PROCEDURE": 24
+},
+"cấu trúc nhỏ xíu": {
+"DOSAGE": 1
+},
+"cấy": {
+"PROCEDURE": 1
+},
+"cấy dưới ngực": {
+"PROCEDURE": 1
+},
+"cấy ghép": {
+"PROCEDURE": 7
+},
+"cấy implant": {
+"PROCEDURE": 9
+},
+"cấy que": {
+"PROCEDURE": 14
+},
+"cấy que tránh thai": {
+"PROCEDURE": 21
+},
+"cấy tránh thai": {
+"PROCEDURE": 1
+},
+"cấy vào trong cơ": {
+"PROCEDURE": 1
+},
+"cấy ốc tai điện tử": {
+"PROCEDURE": 17
+},
+"cận lâm sàng": {
+"TEST": 4
+},
+"cật": {
+"BODY_PART": 1
+},
+"cắt buồng trứng": {
+"PROCEDURE": 1
+},
+"cắt bỏ": {
+"PROCEDURE": 1
+},
+"cắt nhiệt": {
+"PROCEDURE": 1
+},
+"cắt đốt": {
+"PROCEDURE": 1
+},
+"cẳng chân": {
+"BODY_PART": 3
+},
+"cồn": {
+"DRUG": 4
+},
+"cổ": {
+"BODY_PART": 1
+},
+"cổ của tử cung": {
+"BODY_PART": 1
+},
+"cổ tay": {
+"BODY_PART": 12
+},
+"cổ tử cung": {
+"BODY_PART": 16
+},
+"cột sống": {
+"BODY_PART": 19
+},
+"cục máu đông": {
+"CONDITION": 28
+},
+"cục phát pin": {
+"PROCEDURE": 1
+},
+"cứng đờ": {
+"CONDITION": 3
+},
+"da": {
+"BODY_PART": 118
+},
+"da khô": {
+"CONDITION": 1
+},
+"da khô hơi có vảy": {
+"CONDITION": 1
+},
+"da mụn": {
+"CONDITION": 2
+},
+"da mụn nhạy cảm": {
+"CONDITION": 1
+},
+"da nhạy cảm": {
+"CONDITION": 23
+},
+"da vùng ngực": {
+"BODY_PART": 1
+},
+"da đầu": {
+"BODY_PART": 18
+},
+"daflon": {
+"DRUG": 1
+},
+"dao động vận động": {
+"CONDITION": 2
+},
+"dap": {
+"TEST": 10
+},
+"dbs": {
+"PROCEDURE": 3
+},
+"delta": {
+"DRUG": 4
+},
+"di chứng": {
+"CONDITION": 10
+},
+"di truyền": {
+"CONDITION": 16
+},
+"dna": {
+"BODY_PART": 6
+},
+"do thuốc gây ra": {
+"CONDITION": 2
+},
+"dung dịch sát khuẩn": {
+"DRUG": 1
+},
+"duphaston": {
+"DRUG": 2
+},
+"dày niêm mạc": {
+"CONDITION": 1
+},
+"dây chuyền công nghệ": {
+"PROCEDURE": 2
+},
+"dây chằng": {
+"BODY_PART": 2
+},
+"dây thần kinh": {
+"BODY_PART": 9
+},
+"dây thần kinh phế vị": {
+"BODY_PART": 2
+},
+"dây vòng": {
+"PROCEDURE": 4
+},
+"dòng máu": {
+"BODY_PART": 6
+},
+"dùng sóng cao tần": {
+"PROCEDURE": 1
+},
+"dư": {
+"CONDITION": 4
+},
+"dương tính": {
+"CONDITION": 3
+},
+"dưới nhiệt độ đông lạnh": {
+"DOSAGE": 1
+},
+"dưỡng chất": {
+"DRUG": 10
+},
+"dưỡng khí": {
+"DRUG": 1
+},
+"dược liệu": {
+"DRUG": 2
+},
+"dạ dày": {
+"BODY_PART": 44
+},
+"dại mèo": {
+"CONDITION": 1
+},
+"dầu dừa": {
+"DRUG": 1
+},
+"dầu gội": {
+"DRUG": 2
+},
+"dầu khoáng": {
+"DRUG": 1
+},
+"dầu nhờn": {
+"DRUG": 1
+},
+"dầu nóng": {
+"DRUG": 1
+},
+"dậy thì sớm": {
+"CONDITION": 1
+},
+"dễ bị sảy thai": {
+"CONDITION": 1
+},
+"dễ bị té": {
+"CONDITION": 1
+},
+"dị vật đường sinh dục": {
+"CONDITION": 1
+},
+"dị ứng": {
+"CONDITION": 19
+},
+"dịch cúm a": {
+"CONDITION": 3
+},
+"dịch cúm a h1n1": {
+"CONDITION": 1
+},
+"dịch cơ thể": {
+"BODY_PART": 1
+},
+"dịch mật": {
+"BODY_PART": 1
+},
+"dịch thể": {
+"DRUG": 1
+},
+"dịch tiêu hóa": {
+"DRUG": 2
+},
+"dịch điện giải": {
+"DRUG": 1
+},
+"dụng cụ nha": {
+"PROCEDURE": 1
+},
+"dụng cụ tránh thai": {
+"PROCEDURE": 1
+},
+"dụng cụ điều khiển": {
+"PROCEDURE": 1
+},
+"dự phòng": {
+"DRUG": 24
+},
+"dự đoán": {
+"PROCEDURE": 3
+},
+"emzym": {
+"DRUG": 1
+},
+"enzym": {
+"BODY_PART": 4
+},
+"enzyme": {
+"DRUG": 7
+},
+"eras": {
+"PROCEDURE": 2
+},
+"estrogen": {
+"DRUG": 21
+},
+"f0": {
+"CONDITION": 11
+},
+"fibrin": {
+"BODY_PART": 1
+},
+"flo": {
+"DRUG": 1
+},
+"folate": {
+"DRUG": 1
+},
+"forlic": {
+"DRUG": 1
+},
+"formaldehyde": {
+"DRUG": 1
+},
+"formalin": {
+"DRUG": 1
+},
+"fortamine": {
+"DRUG": 1
+},
+"fosamax": {
+"DRUG": 1
+},
+"fumarate": {
+"DRUG": 11
+},
+"gai cột sống": {
+"CONDITION": 1
+},
+"gan": {
+"BODY_PART": 25
+},
+"gel": {
+"DRUG": 2
+},
+"gel lotion": {
+"DRUG": 3
+},
+"gen": {
+"BODY_PART": 28
+},
+"ghép tạng": {
+"PROCEDURE": 2
+},
+"ghép xương": {
+"PROCEDURE": 40
+},
+"ghép xương hàm": {
+"PROCEDURE": 1
+},
+"giai đoạn": {
+"DOSAGE": 1
+},
+"giá thành": {
+"DOSAGE": 5
+},
+"giãn cách": {
+"DRUG": 3,
+"PROCEDURE": 2
+},
+"giải phẫu": {
+"PROCEDURE": 6
+},
+"giảm": {
+"CONDITION": 1
+},
+"giảm hàm lượng ngoài": {
+"DOSAGE": 1
+},
+"giảm hấp thu": {
+"CONDITION": 1
+},
+"giảm thiểu": {
+"DRUG": 6
+},
+"giảm thiểu số lượng": {
+"DRUG": 1
+},
+"giảm được ít nhất": {
+"DOSAGE": 1
+},
+"giấy xét nghiệm covid19": {
+"PROCEDURE": 2
+},
+"giọng lời nói giọng nói có vấn đề": {
+"CONDITION": 1
+},
+"giữ cái khoảng cách": {
+"DRUG": 1
+},
+"giữ khoảng cách": {
+"PROCEDURE": 2
+},
+"giữ tốt cái khoảng cách": {
+"DRUG": 1
+},
+"giữ ẩm": {
+"PROCEDURE": 3
+},
+"glucose": {
+"DRUG": 1
+},
+"gluten": {
+"DRUG": 2
+},
+"glycerin": {
+"DRUG": 2
+},
+"gáy": {
+"BODY_PART": 9
+},
+"gân": {
+"BODY_PART": 7
+},
+"gây": {
+"PROCEDURE": 1
+},
+"gây mê": {
+"PROCEDURE": 5
+},
+"gây mê toàn thân": {
+"PROCEDURE": 2
+},
+"gây tê": {
+"PROCEDURE": 2
+},
+"gãy chân": {
+"CONDITION": 1
+},
+"gãy cổ xương đùi": {
+"CONDITION": 1
+},
+"gãy cột sống": {
+"CONDITION": 1
+},
+"gãy tóc": {
+"CONDITION": 2
+},
+"gãy xương": {
+"CONDITION": 25
+},
+"gãy xương cổ tay": {
+"CONDITION": 1
+},
+"gãy xương khớp háng": {
+"CONDITION": 1
+},
+"góc tóc": {
+"BODY_PART": 1
+},
+"gót chân": {
+"BODY_PART": 7
+},
+"găng tay": {
+"PROCEDURE": 4
+},
+"gấp bảy lần": {
+"DOSAGE": 1
+},
+"gấp khoảng năm lần": {
+"DOSAGE": 1
+},
+"gần hai trăm ngàn người": {
+"DOSAGE": 1
+},
+"gần một phần ba": {
+"DOSAGE": 1
+},
+"gốc dầu": {
+"DRUG": 2
+},
+"gối": {
+"BODY_PART": 4
+},
+"h5n1": {
+"CONDITION": 1
+},
+"hai bệnh nhân đầu": {
+"DOSAGE": 1
+},
+"hai bộ phận": {
+"DOSAGE": 1
+},
+"hai cái viên nang": {
+"DOSAGE": 1
+},
+"hai hai cái cái căn bệnh": {
+"DOSAGE": 1
+},
+"hai hai người": {
+"DOSAGE": 1
+},
+"hai liều": {
+"DOSAGE": 1
+},
+"hai lần": {
+"DOSAGE": 9
+},
+"hai mũi": {
+"DOSAGE": 2
+},
+"hai mươi ba mươi phần trăm": {
+"DOSAGE": 1
+},
+"hai mươi mốt viên": {
+"DOSAGE": 3
+},
+"hai mươi phân": {
+"DOSAGE": 1
+},
+"hai mươi phần trăm": {
+"DOSAGE": 2
+},
+"hai mươi tám viên": {
+"DOSAGE": 1
+},
+"hai mươi viên": {
+"DOSAGE": 1
+},
+"hai mốt viên": {
+"DOSAGE": 1
+},
+"hai nhóm": {
+"DOSAGE": 3
+},
+"hai tám viên": {
+"DOSAGE": 2
+},
+"hai viên": {
+"DOSAGE": 4
+},
+"hay quên": {
+"CONDITION": 10
+},
+"hba1c": {
+"DOSAGE": 10
+},
+"hcv": {
+"CONDITION": 2
+},
+"hdl": {
+"DRUG": 1
+},
+"hdlc": {
+"DOSAGE": 2
+},
+"hen": {
+"CONDITION": 6
+},
+"hiv": {
+"CONDITION": 5
+},
+"hiệu quả cao": {
+"DOSAGE": 5
+},
+"hiệu quả cao nhất": {
+"DOSAGE": 10
+},
+"hiệu quả nhất": {
+"DOSAGE": 9
+},
+"hiệu quả tránh thai": {
+"DOSAGE": 3
+},
+"hiệu quả tốt nhất": {
+"DOSAGE": 3
+},
+"ho": {
+"CONDITION": 3
+},
+"hoa lan": {
+"DRUG": 2
+},
+"hoa mắt": {
+"CONDITION": 27
+},
+"hoa thủy tiên biển": {
+"DRUG": 4
+},
+"hoocmon": {
+"DRUG": 2
+},
+"hoocmon estrogen": {
+"DRUG": 1
+},
+"hormone": {
+"DRUG": 20,
+"CONDITION": 1
+},
+"hormone stress": {
+"CONDITION": 1
+},
+"hoàng bá": {
+"DRUG": 4
+},
+"hoàng liên": {
+"DRUG": 12
+},
+"hoại tử": {
+"CONDITION": 8
+},
+"hoại tử xương hàm": {
+"CONDITION": 3
+},
+"hoạt chất": {
+"DRUG": 47
+},
+"hoạt chất cấp ẩm": {
+"DRUG": 1
+},
+"hoạt chất dưỡng ẩm": {
+"DRUG": 1
+},
+"hoạt động trị liệu phối hợp": {
+"PROCEDURE": 1
+},
+"huyết": {
+"BODY_PART": 68
+},
+"huyết khối": {
+"BODY_PART": 1
+},
+"huyết khối trong buồng tâm nhĩ": {
+"CONDITION": 1
+},
+"huyết thanh": {
+"DRUG": 2
+},
+"huyết áp": {
+"CONDITION": 163
+},
+"huyết áp tâm thu": {
+"DOSAGE": 1
+},
+"huyết áp tâm trương": {
+"DOSAGE": 1
+},
+"huấn luyện ngôn ngữ": {
+"PROCEDURE": 4
+},
+"huấn luyện triệu chứng": {
+"PROCEDURE": 1
+},
+"hyaluronic acid": {
+"DRUG": 1
+},
+"hydroquinone": {
+"DRUG": 1
+},
+"hydroxyl peroxide": {
+"DRUG": 1
+},
+"hàm cố định": {
+"PROCEDURE": 1
+},
+"hàm dưới": {
+"BODY_PART": 2
+},
+"hàm giả": {
+"PROCEDURE": 6
+},
+"hàm răng": {
+"BODY_PART": 13
+},
+"hàm tháo lắp": {
+"PROCEDURE": 3
+},
+"hàm trên": {
+"BODY_PART": 1
+},
+"hàng rào": {
+"BODY_PART": 4
+},
+"hàng trăm triệu": {
+"DOSAGE": 1
+},
+"hàng trăm triệu đô la": {
+"DOSAGE": 1
+},
+"hành kinh": {
+"CONDITION": 7
+},
+"hòe hoa": {
+"DRUG": 11
+},
+"hóa chất": {
+"DRUG": 17
+},
+"hóa chất bụi bẩn": {
+"DRUG": 1
+},
+"hóa trị": {
+"PROCEDURE": 33
+},
+"hói": {
+"CONDITION": 2
+},
+"hói đầu": {
+"CONDITION": 4
+},
+"hơi thở có mùi hôi": {
+"CONDITION": 1
+},
+"hương liệu": {
+"DRUG": 8
+},
+"hạ sốt": {
+"PROCEDURE": 8
+},
+"hạ thảo": {
+"DRUG": 8
+},
+"hạn chế vận động mạnh": {
+"PROCEDURE": 1
+},
+"hạt sắc tố": {
+"DRUG": 3
+},
+"hấp thu": {
+"TEST": 4
+},
+"hậu môn": {
+"BODY_PART": 1
+},
+"hậu phẫu": {
+"PROCEDURE": 6
+},
+"hẹp lòng động mạch": {
+"CONDITION": 1
+},
+"hẹp mạch cảnh": {
+"CONDITION": 1
+},
+"hẹp van hai lá": {
+"CONDITION": 1
+},
+"hệ": {
+"BODY_PART": 16
+},
+"hệ cơ quan": {
+"BODY_PART": 2
+},
+"hệ miễn dịch": {
+"BODY_PART": 58
+},
+"hệ miễn dịch giải độc": {
+"BODY_PART": 1
+},
+"hệ thống niêm mạc": {
+"BODY_PART": 1
+},
+"hệ thống thần kinh": {
+"BODY_PART": 1
+},
+"hệ thống thần kinh trung ương": {
+"BODY_PART": 1
+},
+"hệ thống vận động": {
+"BODY_PART": 1
+},
+"hệ thống định vị": {
+"PROCEDURE": 1
+},
+"hệ tiêu hóa": {
+"BODY_PART": 4
+},
+"hệ vi sinh": {
+"BODY_PART": 36
+},
+"hệ động mạch": {
+"BODY_PART": 1
+},
+"họng": {
+"BODY_PART": 20
+},
+"hố nách": {
+"BODY_PART": 1
+},
+"hồi hộp trống ngực": {
+"CONDITION": 10
+},
+"hồi sức tích cực": {
+"PROCEDURE": 16
+},
+"hồng cầu": {
+"BODY_PART": 4
+},
+"hỗ trợ": {
+"PROCEDURE": 110
+},
+"hỗ trợ chuyên sâu về mặt tâm lý": {
+"PROCEDURE": 1
+},
+"hội chứng": {
+"CONDITION": 2
+},
+"hội chứng lo lắng": {
+"CONDITION": 1
+},
+"hội chứng ngưng thở": {
+"CONDITION": 1
+},
+"hội chứng ruột kích thích": {
+"CONDITION": 27
+},
+"hội chứng áo choàng trắng": {
+"CONDITION": 1
+},
+"hội chứng đột tử": {
+"CONDITION": 3
+},
+"hội chứng ống": {
+"CONDITION": 3
+},
+"hộp sọ": {
+"BODY_PART": 2
+},
+"hủy xương": {
+"CONDITION": 2
+},
+"hữu hiệu": {
+"DOSAGE": 7
+},
+"immunegamma": {
+"DRUG": 6
+},
+"immunesoyz": {
+"DRUG": 13
+},
+"implant": {
+"PROCEDURE": 50
+},
+"inr": {
+"DRUG": 3
+},
+"insulin": {
+"DRUG": 6
+},
+"iod": {
+"DRUG": 10
+},
+"kcal": {
+"DOSAGE": 3
+},
+"kem chống nắng": {
+"DRUG": 9
+},
+"kem dưỡng": {
+"DRUG": 7
+},
+"kem dưỡng sáng da": {
+"DRUG": 1
+},
+"kem dưỡng ẩm": {
+"DRUG": 7
+},
+"kem hỗ trợ": {
+"DRUG": 1
+},
+"kga1": {
+"DRUG": 12
+},
+"khai báo": {
+"DRUG": 1
+},
+"khiếm thính": {
+"CONDITION": 16
+},
+"khoáng chất": {
+"DRUG": 12
+},
+"khoảng bốn chấm năm": {
+"DOSAGE": 1
+},
+"khoảng bốn ký": {
+"DOSAGE": 1
+},
+"khoảng bốn mươi phần quà": {
+"DOSAGE": 1
+},
+"khoảng dưới một chấm năm": {
+"DOSAGE": 1
+},
+"khoảng hai ba mươi phần trăm": {
+"DOSAGE": 1
+},
+"khoảng hai mươi đến ba mươi phần trăm": {
+"DOSAGE": 1
+},
+"khoảng hai nghìn kcal": {
+"DOSAGE": 1
+},
+"khoảng hai phẩy năm": {
+"DOSAGE": 1
+},
+"khoảng hai trăm nghìn người mắc bệnh": {
+"DOSAGE": 1
+},
+"khoảng hai đến ba xăngtimét": {
+"DOSAGE": 1
+},
+"khoảng mười lăm mười sáu milimet": {
+"DOSAGE": 1
+},
+"khoảng mười lăm phần trăm": {
+"DOSAGE": 1
+},
+"khoảng mười milimet": {
+"DOSAGE": 2
+},
+"khoảng mười phân": {
+"DOSAGE": 1
+},
+"khoảng mười phần trăm": {
+"DOSAGE": 1
+},
+"khoảng một phết năm triệu": {
+"DOSAGE": 1
+},
+"khoảng năm mươi phần trăm": {
+"DOSAGE": 3
+},
+"khung xương": {
+"BODY_PART": 12
+},
+"khung định vị": {
+"PROCEDURE": 2
+},
+"khuyến cáo": {
+"DRUG": 7
+},
+"khuôn phân": {
+"DRUG": 2
+},
+"khám": {
+"TEST": 219
+},
+"khám chuyển dạ": {
+"TEST": 1
+},
+"khám tai biến": {
+"TEST": 1
+},
+"kháng nguyên": {
+"DRUG": 1
+},
+"kháng sinh": {
+"DRUG": 18
+},
+"kháng thuốc": {
+"CONDITION": 1
+},
+"kháng viêm": {
+"PROCEDURE": 1
+},
+"kháng đông": {
+"PROCEDURE": 11
+},
+"khâu chuẩn bị": {
+"PROCEDURE": 1
+},
+"khó ngủ": {
+"CONDITION": 4
+},
+"khó thở": {
+"CONDITION": 15
+},
+"khó vận động": {
+"CONDITION": 1
+},
+"khói bụi": {
+"DRUG": 2
+},
+"khô": {
+"CONDITION": 3
+},
+"khô căng": {
+"CONDITION": 2
+},
+"khô căng cứng": {
+"CONDITION": 1
+},
+"khô ngứa": {
+"CONDITION": 1
+},
+"khô ngứa bong tróc": {
+"CONDITION": 2
+},
+"khô ngứa viêm đỏ": {
+"CONDITION": 3
+},
+"không bóng mượt": {
+"CONDITION": 1
+},
+"không có kinh": {
+"CONDITION": 2
+},
+"không có thể hấp thu canxi": {
+"CONDITION": 1
+},
+"không mọc răng": {
+"CONDITION": 1
+},
+"không nên tiếp xúc gần": {
+"DRUG": 1
+},
+"không phẩy một phần trăm": {
+"DOSAGE": 1
+},
+"không thể giao tiếp": {
+"CONDITION": 1
+},
+"không thể sử dụng cái tay": {
+"CONDITION": 1
+},
+"không đẹp": {
+"CONDITION": 1
+},
+"khả năng hồi phục": {
+"TEST": 4
+},
+"khảo sát": {
+"DRUG": 9
+},
+"khẩu trang": {
+"PROCEDURE": 2
+},
+"khối cơ": {
+"BODY_PART": 5
+},
+"khối cơ thể": {
+"BODY_PART": 1
+},
+"khối nhân xơ": {
+"BODY_PART": 1
+},
+"khối u": {
+"CONDITION": 21
+},
+"khối u dây": {
+"BODY_PART": 1
+},
+"khối u ở âm đạo": {
+"CONDITION": 1
+},
+"khối xương": {
+"BODY_PART": 4
+},
+"khớp": {
+"BODY_PART": 35
+},
+"khớp gối": {
+"BODY_PART": 7
+},
+"khớp gối tê": {
+"CONDITION": 1
+},
+"kim": {
+"PROCEDURE": 2
+},
+"kim loại nặng": {
+"DRUG": 1
+},
+"kinh nguyệt dài": {
+"CONDITION": 1
+},
+"kinh nguyệt đều": {
+"CONDITION": 1
+},
+"kinh ngắn": {
+"CONDITION": 2
+},
+"kinh quý": {
+"DRUG": 1
+},
+"kinh quý chính xung": {
+"DRUG": 2
+},
+"kinh thưa": {
+"CONDITION": 1
+},
+"kiềm": {
+"DRUG": 3
+},
+"kiểm chứng lâm sàng": {
+"TEST": 1
+},
+"kiểm nghiệm": {
+"DRUG": 5
+},
+"kiểm soát": {
+"DRUG": 57
+},
+"kiểm soát chế độ ăn": {
+"DRUG": 1
+},
+"kiểm soát dịch bệnh": {
+"PROCEDURE": 1
+},
+"kiểm tra": {
+"TEST": 47
+},
+"kiểm tra trong máu": {
+"TEST": 1
+},
+"kém tập trung": {
+"CONDITION": 1
+},
+"kém ăn": {
+"CONDITION": 1
+},
+"kéo cái cổ tử cung": {
+"PROCEDURE": 1
+},
+"kéo dài tuổi thọ": {
+"DRUG": 3
+},
+"kê toa": {
+"PROCEDURE": 3
+},
+"kê toa thuốc uống và thuốc thoa": {
+"PROCEDURE": 1
+},
+"kìm": {
+"PROCEDURE": 3
+},
+"kìm buri": {
+"PROCEDURE": 1
+},
+"kích não sâu": {
+"PROCEDURE": 2
+},
+"kích thích não sâu": {
+"PROCEDURE": 23
+},
+"kích thước quá nhỏ": {
+"DOSAGE": 1
+},
+"kích ứng": {
+"CONDITION": 10
+},
+"kích ứng da": {
+"CONDITION": 1
+},
+"ký sinh": {
+"CONDITION": 7
+},
+"ký sinh trùng": {
+"CONDITION": 10
+},
+"kẽm": {
+"DRUG": 29
+},
+"kết luận": {
+"DRUG": 6
+},
+"l-carnitine": {
+"DRUG": 10
+},
+"lacto": {
+"DRUG": 1
+},
+"lactose": {
+"DRUG": 1
+},
+"lanolin": {
+"DRUG": 1
+},
+"lao": {
+"CONDITION": 5
+},
+"laptop": {
+"PROCEDURE": 2
+},
+"laureth sulfate": {
+"DRUG": 2
+},
+"lauryl sulfate": {
+"DRUG": 1
+},
+"ldl": {
+"DRUG": 1
+},
+"levodopa": {
+"DRUG": 5
+},
+"lipid": {
+"DRUG": 2
+},
+"lipopolysaccharide": {
+"DRUG": 1
+},
+"liều lượng": {
+"DOSAGE": 3
+},
+"liều thuốc": {
+"DOSAGE": 4
+},
+"liều đã cố định": {
+"DOSAGE": 1
+},
+"liệt": {
+"CONDITION": 1
+},
+"liệt mặt": {
+"CONDITION": 2
+},
+"liệt nửa mặt": {
+"CONDITION": 1
+},
+"liệt nửa người": {
+"CONDITION": 2
+},
+"liệt tay chân": {
+"CONDITION": 1
+},
+"liệu pháp chuyên sâu": {
+"PROCEDURE": 1
+},
+"liệu pháp hoocmon": {
+"PROCEDURE": 2
+},
+"lo âu": {
+"CONDITION": 19
+},
+"loãng xương": {
+"CONDITION": 120
+},
+"loãng xương bị biến chứng": {
+"CONDITION": 1
+},
+"loại bỏ": {
+"DRUG": 8
+},
+"loạn giấc ngủ": {
+"CONDITION": 1
+},
+"loạn kinh": {
+"CONDITION": 2
+},
+"loạn nhịp tim": {
+"CONDITION": 3
+},
+"loạn động": {
+"CONDITION": 4
+},
+"lps": {
+"DRUG": 2
+},
+"luồn cái dụng cụ": {
+"TEST": 1
+},
+"lympho": {
+"BODY_PART": 1
+},
+"làm": {
+"PROCEDURE": 1
+},
+"làn da": {
+"BODY_PART": 22
+},
+"làn da nhạy cảm": {
+"CONDITION": 9
+},
+"lá dâu tầm": {
+"DRUG": 1
+},
+"lá trà xanh": {
+"DRUG": 1
+},
+"lây lan": {
+"CONDITION": 9
+},
+"lây nhiễm": {
+"CONDITION": 10
+},
+"lây truyền": {
+"CONDITION": 1
+},
+"lão hóa": {
+"CONDITION": 8
+},
+"lít": {
+"DOSAGE": 1
+},
+"lú lẫn": {
+"CONDITION": 7
+},
+"lăn kim": {
+"PROCEDURE": 1
+},
+"lưng": {
+"BODY_PART": 17
+},
+"lưu huỳnh": {
+"DRUG": 1
+},
+"lưu lượng máu": {
+"DOSAGE": 2
+},
+"lưu tâm": {
+"PROCEDURE": 3
+},
+"lưỡi": {
+"BODY_PART": 1
+},
+"lượng gần như gần bằng so với trước": {
+"DOSAGE": 1
+},
+"lượng kinh": {
+"DOSAGE": 2
+},
+"lượng đường": {
+"DOSAGE": 1
+},
+"lượng đường trong máu": {
+"DOSAGE": 1
+},
+"lạnh run": {
+"CONDITION": 1
+},
+"lấy cái cục khối ra": {
+"PROCEDURE": 1
+},
+"lấy mẫu": {
+"PROCEDURE": 13
+},
+"lần thứ ba": {
+"DOSAGE": 1
+},
+"lần thứ hai": {
+"DOSAGE": 1
+},
+"lập chương trình kích thích não": {
+"PROCEDURE": 3
+},
+"lọc thận": {
+"PROCEDURE": 1
+},
+"lộ trình": {
+"PROCEDURE": 5
+},
+"lớn hơn hàng nghìn lần": {
+"DOSAGE": 1
+},
+"lớn hơn sáu phẩy năm phần trăm": {
+"DOSAGE": 1
+},
+"lớp da": {
+"BODY_PART": 2
+},
+"lớp lipid": {
+"BODY_PART": 1
+},
+"lớp màn mỏng trên": {
+"BODY_PART": 1
+},
+"lớp màn ẩm tự nhiên": {
+"BODY_PART": 1
+},
+"lớp sừng": {
+"BODY_PART": 2
+},
+"lợi khuẩn": {
+"DRUG": 6
+},
+"lỵ": {
+"CONDITION": 3
+},
+"ma túy": {
+"DRUG": 1
+},
+"magie": {
+"DRUG": 4
+},
+"mang nịt": {
+"PROCEDURE": 1
+},
+"mapping": {
+"PROCEDURE": 1
+},
+"melanin": {
+"DRUG": 7
+},
+"melatonin": {
+"DRUG": 1
+},
+"men amylase": {
+"DRUG": 1
+},
+"men tiroxina": {
+"DRUG": 1
+},
+"mesotherapy": {
+"PROCEDURE": 1
+},
+"miligam": {
+"DOSAGE": 1
+},
+"milimet": {
+"DOSAGE": 2
+},
+"militaris": {
+"DRUG": 1
+},
+"miếng dán tránh thai": {
+"PROCEDURE": 1
+},
+"miễn dịch cộng đồng": {
+"CONDITION": 1
+},
+"miệng": {
+"BODY_PART": 51
+},
+"mri": {
+"TEST": 16
+},
+"mri xquang": {
+"TEST": 1
+},
+"multivitamin": {
+"DRUG": 2
+},
+"muỗi anopheles": {
+"CONDITION": 1
+},
+"màn hình": {
+"PROCEDURE": 6
+},
+"màng chắn": {
+"BODY_PART": 1
+},
+"màng chắn kép": {
+"BODY_PART": 1
+},
+"màng trinh": {
+"BODY_PART": 1
+},
+"mái tóc": {
+"BODY_PART": 24
+},
+"máu": {
+"BODY_PART": 146
+},
+"máu âm đạo": {
+"BODY_PART": 2
+},
+"máy": {
+"PROCEDURE": 1
+},
+"máy kích thích não sâu": {
+"PROCEDURE": 1
+},
+"máy sấy tóc": {
+"PROCEDURE": 1
+},
+"máy tạo": {
+"PROCEDURE": 1
+},
+"máy tạo nhịp": {
+"PROCEDURE": 1
+},
+"mãn tính": {
+"CONDITION": 15
+},
+"mão": {
+"BODY_PART": 1
+},
+"méo cười": {
+"CONDITION": 2
+},
+"méo miệng": {
+"CONDITION": 2
+},
+"méo một bên": {
+"CONDITION": 1
+},
+"méo sệ": {
+"CONDITION": 1
+},
+"mô": {
+"BODY_PART": 25
+},
+"mô cơ tim": {
+"BODY_PART": 1
+},
+"mô mềm": {
+"BODY_PART": 1
+},
+"mô sống": {
+"BODY_PART": 1
+},
+"môi": {
+"BODY_PART": 23
+},
+"mông": {
+"BODY_PART": 2
+},
+"mù": {
+"CONDITION": 2
+},
+"mũi": {
+"BODY_PART": 22
+},
+"mười bảy người": {
+"DOSAGE": 1
+},
+"mười bảy phần trăm": {
+"DOSAGE": 1
+},
+"mười chín tỉnh": {
+"DOSAGE": 5
+},
+"mười hai milimet": {
+"DOSAGE": 2
+},
+"mười hai người": {
+"DOSAGE": 1
+},
+"mười hai phần trăm người": {
+"DOSAGE": 1
+},
+"mười hộp": {
+"DOSAGE": 1
+},
+"mười lăm phần trăm": {
+"DOSAGE": 1
+},
+"mười milimet": {
+"DOSAGE": 1
+},
+"mười tám bmi": {
+"DOSAGE": 1
+},
+"mạch": {
+"BODY_PART": 69
+},
+"mạch máu": {
+"BODY_PART": 46
+},
+"mạch máu chi": {
+"BODY_PART": 1
+},
+"mảng vữa xơ": {
+"BODY_PART": 5
+},
+"mảng xơ vữa": {
+"CONDITION": 25
+},
+"mảng xơ vữa động mạch": {
+"CONDITION": 7
+},
+"mất cái răng": {
+"CONDITION": 2
+},
+"mất cơ": {
+"CONDITION": 2
+},
+"mất hết răng": {
+"CONDITION": 2
+},
+"mất khối cơ": {
+"CONDITION": 2
+},
+"mất kiểm soát cảm xúc hành vi": {
+"CONDITION": 1
+},
+"mất màu trắng": {
+"CONDITION": 1
+},
+"mất máu": {
+"CONDITION": 3
+},
+"mất ngủ": {
+"CONDITION": 34
+},
+"mất nhiều răng": {
+"CONDITION": 1
+},
+"mất nước qua": {
+"CONDITION": 1
+},
+"mất răng": {
+"CONDITION": 21
+},
+"mất thăng bằng": {
+"CONDITION": 1
+},
+"mất vận ngôn": {
+"CONDITION": 1
+},
+"mất vị giác": {
+"CONDITION": 1
+},
+"mất đi khối cơ": {
+"CONDITION": 1
+},
+"mầm bệnh": {
+"CONDITION": 39
+},
+"mầm răng": {
+"BODY_PART": 3
+},
+"mật": {
+"BODY_PART": 10
+},
+"mật độ": {
+"DOSAGE": 6
+},
+"mắc bệnh": {
+"CONDITION": 23
+},
+"mắc bệnh viêm khớp": {
+"CONDITION": 1
+},
+"mắt": {
+"BODY_PART": 9
+},
+"mắt thường": {
+"BODY_PART": 1
+},
+"mặc cảm": {
+"CONDITION": 4
+},
+"mệt mỏi": {
+"CONDITION": 21
+},
+"mệt mỏi về tinh thần": {
+"CONDITION": 1
+},
+"mỏ vịt": {
+"PROCEDURE": 1
+},
+"mồ hôi": {
+"DRUG": 3
+},
+"mổ": {
+"PROCEDURE": 53
+},
+"mổ cắt": {
+"PROCEDURE": 2
+},
+"mổ hở": {
+"PROCEDURE": 1
+},
+"mổ nội soi": {
+"PROCEDURE": 4
+},
+"mổ tim": {
+"PROCEDURE": 1
+},
+"mổ đặt điện cực": {
+"PROCEDURE": 2
+},
+"một": {
+"DOSAGE": 1
+},
+"một ca": {
+"DOSAGE": 4
+},
+"một cách quá mức": {
+"DOSAGE": 2
+},
+"một cái chỉ định": {
+"DOSAGE": 1
+},
+"một cái nhóm thuốc": {
+"DOSAGE": 2
+},
+"một cái thông số": {
+"DOSAGE": 1
+},
+"một cái tầm cao mới hơn": {
+"DOSAGE": 1
+},
+"một cái viên nang": {
+"DOSAGE": 1
+},
+"một ekip": {
+"DOSAGE": 1
+},
+"một giá trị to lớn": {
+"DOSAGE": 1
+},
+"một lít": {
+"DOSAGE": 1
+},
+"một lọ": {
+"DOSAGE": 2
+},
+"một mét sáu": {
+"DOSAGE": 1
+},
+"một ngàn ca": {
+"DOSAGE": 1
+},
+"một ngàn miligam": {
+"DOSAGE": 1
+},
+"một người": {
+"DOSAGE": 22
+},
+"một nửa dân số": {
+"DOSAGE": 1
+},
+"một nửa số ca": {
+"DOSAGE": 1
+},
+"một nửa tiền": {
+"DOSAGE": 1
+},
+"một phần": {
+"DOSAGE": 29
+},
+"một phần trăm": {
+"DOSAGE": 2
+},
+"một phần tư viên": {
+"DOSAGE": 1
+},
+"một quần thể lớn": {
+"DOSAGE": 1
+},
+"một số biện pháp": {
+"DOSAGE": 1
+},
+"một số ca": {
+"DOSAGE": 1
+},
+"một thìa đầy": {
+"DOSAGE": 1
+},
+"một trong những cái hướng": {
+"DOSAGE": 2
+},
+"một trăm bảy hai": {
+"DOSAGE": 1
+},
+"một trăm bảy mươi": {
+"DOSAGE": 1
+},
+"một trăm bảy mươi một trăm tám mươi": {
+"DOSAGE": 2
+},
+"một trăm bốn mươi": {
+"DOSAGE": 1
+},
+"một trăm khách hàng": {
+"DOSAGE": 1
+},
+"một trăm người": {
+"DOSAGE": 3
+},
+"một trăm phần trăm": {
+"DOSAGE": 10
+},
+"một trăm phần tử": {
+"DOSAGE": 1
+},
+"một viên": {
+"DOSAGE": 6
+},
+"một vài": {
+"DOSAGE": 20
+},
+"một vài thông số": {
+"DOSAGE": 1
+},
+"một đồng xu": {
+"DOSAGE": 1
+},
+"mớm": {
+"CONDITION": 1
+},
+"mở": {
+"PROCEDURE": 1
+},
+"mỡ máu": {
+"CONDITION": 49
+},
+"mỡ trong máu": {
+"CONDITION": 1
+},
+"mỡ xấu": {
+"CONDITION": 2
+},
+"mụn": {
+"CONDITION": 7
+},
+"mụn trứng cá": {
+"CONDITION": 1
+},
+"mụn ẩn": {
+"CONDITION": 4
+},
+"mức thở tốt": {
+"DOSAGE": 1
+},
+"mức độ": {
+"DOSAGE": 44
+},
+"mức độ gia tăng": {
+"DOSAGE": 1
+},
+"mức độ rất nhẹ": {
+"DOSAGE": 1
+},
+"mức độ vệ sinh": {
+"DOSAGE": 1
+},
+"nam dược": {
+"DRUG": 1
+},
+"nang lông": {
+"BODY_PART": 1
+},
+"nang tóc": {
+"BODY_PART": 13
+},
+"natri": {
+"DRUG": 7
+},
+"natri clorua": {
+"DRUG": 1
+},
+"nct": {
+"PROCEDURE": 1
+},
+"nghi ngờ": {
+"DRUG": 6
+},
+"nghiên cứu": {
+"TEST": 117
+},
+"nghẽn mạch máu": {
+"CONDITION": 3
+},
+"ngoại biên": {
+"BODY_PART": 3
+},
+"ngoại khoa": {
+"PROCEDURE": 3
+},
+"nguy cơ lây chéo": {
+"DRUG": 1
+},
+"nguyên cứu báo cáo": {
+"PROCEDURE": 1
+},
+"nguyên tố vi lượng": {
+"DRUG": 4
+},
+"ngâm khoáng": {
+"PROCEDURE": 1
+},
+"ngón chân": {
+"BODY_PART": 2
+},
+"ngón cái": {
+"BODY_PART": 2
+},
+"ngón tay": {
+"BODY_PART": 2
+},
+"ngón trỏ": {
+"BODY_PART": 3
+},
+"ngăn chặn": {
+"PROCEDURE": 9
+},
+"ngăn cái khả năng rụng trứng": {
+"PROCEDURE": 1
+},
+"ngăn ngừa": {
+"DRUG": 20
+},
+"ngưng thuốc": {
+"PROCEDURE": 11
+},
+"ngưng thở": {
+"CONDITION": 3
+},
+"ngạt mũi": {
+"CONDITION": 1
+},
+"ngộ độc": {
+"CONDITION": 5
+},
+"ngủ kém": {
+"CONDITION": 4
+},
+"ngứa": {
+"CONDITION": 3
+},
+"ngừa dại": {
+"DRUG": 2
+},
+"ngừa thai": {
+"PROCEDURE": 8
+},
+"ngực": {
+"BODY_PART": 24
+},
+"nha chu": {
+"CONDITION": 4
+},
+"nhau thai": {
+"BODY_PART": 2
+},
+"nhiều hơn gấp mười lần": {
+"DOSAGE": 1
+},
+"nhiễm bẩn": {
+"CONDITION": 1
+},
+"nhiễm khuẩn": {
+"CONDITION": 6
+},
+"nhiễm nấm": {
+"CONDITION": 3
+},
+"nhiễm trùng": {
+"CONDITION": 25
+},
+"nhiễm độc": {
+"CONDITION": 1
+},
+"nhu mô não": {
+"BODY_PART": 2
+},
+"nhu động ruột": {
+"CONDITION": 1
+},
+"nhung hươu": {
+"DRUG": 2
+},
+"nhuận tràng": {
+"PROCEDURE": 2
+},
+"nhân sâm": {
+"DRUG": 4
+},
+"nhân xám lấy não": {
+"DRUG": 1
+},
+"nhân xơ": {
+"BODY_PART": 17
+},
+"nhân xơ dưới thanh mạc": {
+"CONDITION": 2
+},
+"nhăn mặt mày": {
+"CONDITION": 1
+},
+"nhạy cảm": {
+"CONDITION": 1
+},
+"nhạy cảm nắng mặt trời": {
+"CONDITION": 1
+},
+"nhập viện": {
+"PROCEDURE": 7
+},
+"nhịp thở": {
+"DOSAGE": 1
+},
+"nhịp tim": {
+"DOSAGE": 15
+},
+"nhịp tim không đều": {
+"CONDITION": 1
+},
+"nhịp tim nhanh": {
+"CONDITION": 4
+},
+"nhồi máu cơ tim": {
+"CONDITION": 23
+},
+"nhổ răng": {
+"PROCEDURE": 15
+},
+"nhớ nhớ hay quên": {
+"CONDITION": 1
+},
+"nhớ nhớ quên quên": {
+"CONDITION": 4
+},
+"nhức mỏi": {
+"CONDITION": 7
+},
+"nhức đầu": {
+"CONDITION": 3
+},
+"những bệnh nhân": {
+"DOSAGE": 25
+},
+"những cái tuổi": {
+"DOSAGE": 2
+},
+"những người bệnh nhân": {
+"DOSAGE": 1
+},
+"niacinamide": {
+"DRUG": 9
+},
+"niêm mạc": {
+"BODY_PART": 19
+},
+"niêm mạc ruột": {
+"BODY_PART": 5
+},
+"niêm mạc tử cung": {
+"BODY_PART": 2
+},
+"niêm mạc đại tràng": {
+"BODY_PART": 2
+},
+"niềng răng": {
+"PROCEDURE": 1
+},
+"noark": {
+"DRUG": 1
+},
+"nuôi cấy": {
+"PROCEDURE": 5
+},
+"nuôi dưỡng": {
+"PROCEDURE": 20
+},
+"nuôi dưỡng sụn khớp": {
+"PROCEDURE": 2
+},
+"nuôi não": {
+"PROCEDURE": 4
+},
+"nuôi tim": {
+"PROCEDURE": 3
+},
+"nuôi trồng": {
+"PROCEDURE": 1
+},
+"nám": {
+"CONDITION": 2
+},
+"nám da": {
+"CONDITION": 1
+},
+"nám da mọc mụn": {
+"CONDITION": 1
+},
+"não": {
+"BODY_PART": 175
+},
+"não bộ": {
+"BODY_PART": 29
+},
+"nói khó": {
+"CONDITION": 2
+},
+"nôn ói": {
+"CONDITION": 1
+},
+"núm vú": {
+"BODY_PART": 4
+},
+"năm cái đợt dịch": {
+"DOSAGE": 1
+},
+"năm lăm milimet": {
+"DOSAGE": 1
+},
+"năm mươi": {
+"DOSAGE": 8
+},
+"năm mươi phần trăm": {
+"DOSAGE": 3
+},
+"năm mươi triệu người": {
+"DOSAGE": 1
+},
+"năm mươi đến sáu mươi phần trăm": {
+"DOSAGE": 1
+},
+"năm phần trăm": {
+"DOSAGE": 2
+},
+"năm sáu lần": {
+"DOSAGE": 1
+},
+"năm trăm miligam": {
+"DOSAGE": 1
+},
+"năm trăm viên": {
+"DOSAGE": 1
+},
+"năm đến mười phần trăm": {
+"DOSAGE": 2
+},
+"năm đến sáu câu hỏi": {
+"DOSAGE": 1
+},
+"nơron": {
+"BODY_PART": 2
+},
+"nơron thần kinh": {
+"BODY_PART": 2
+},
+"nước muối sinh lý": {
+"DRUG": 1
+},
+"nước tiểu": {
+"DRUG": 3
+},
+"nướu": {
+"BODY_PART": 2
+},
+"nạo buồng tử cung": {
+"PROCEDURE": 7
+},
+"nạp đường": {
+"PROCEDURE": 1
+},
+"nấm bờm sư tử": {
+"DRUG": 1
+},
+"nấm hầu thủ": {
+"DRUG": 6
+},
+"nấm hộ thủ": {
+"DRUG": 1
+},
+"nấm linh chi": {
+"DRUG": 1
+},
+"nấm lông nhím": {
+"DRUG": 1
+},
+"nấm màu thủ": {
+"DRUG": 1
+},
+"nấm màu tủ": {
+"DRUG": 1
+},
+"nấm đông trùng hạ thảo": {
+"DRUG": 5
+},
+"nằm liệt giường": {
+"CONDITION": 2
+},
+"nối hai cái điện cực": {
+"PROCEDURE": 1
+},
+"nồng độ": {
+"DOSAGE": 1
+},
+"nồng độ cao": {
+"DOSAGE": 3
+},
+"nồng độ rất thấp": {
+"DOSAGE": 1
+},
+"nồng độ tương đối là cao": {
+"DOSAGE": 1
+},
+"nồng độ virus rất nhẹ": {
+"DOSAGE": 1
+},
+"nội khoa": {
+"PROCEDURE": 8
+},
+"nội mạc": {
+"BODY_PART": 20
+},
+"nội mạc tử cung": {
+"BODY_PART": 16
+},
+"nội mạc tử cung mỏng": {
+"CONDITION": 1
+},
+"nội soi": {
+"PROCEDURE": 7
+},
+"nội tiết": {
+"BODY_PART": 13
+},
+"nội tiết tố": {
+"BODY_PART": 5
+},
+"nội tạng": {
+"BODY_PART": 14
+},
+"nửa viên": {
+"DOSAGE": 1
+},
+"omega3": {
+"DRUG": 4
+},
+"orlistat": {
+"DRUG": 1
+},
+"oxy": {
+"DRUG": 27
+},
+"pacemaker": {
+"PROCEDURE": 1
+},
+"paraben": {
+"DRUG": 1
+},
+"paracetamol": {
+"DRUG": 1
+},
+"parkinson": {
+"CONDITION": 87
+},
+"penicillin": {
+"DRUG": 7
+},
+"pepsin": {
+"DRUG": 3
+},
+"peptit": {
+"DRUG": 1
+},
+"ph": {
+"DOSAGE": 12
+},
+"phosphate": {
+"DRUG": 2
+},
+"photpho": {
+"DRUG": 2
+},
+"phá hủy nội tạng": {
+"CONDITION": 2
+},
+"phác đồ": {
+"PROCEDURE": 9
+},
+"phát sóng pin": {
+"PROCEDURE": 1
+},
+"phân tích": {
+"PROCEDURE": 3
+},
+"phân tích dữ liệu thí nghiệm": {
+"PROCEDURE": 1
+},
+"phân tích thống kê": {
+"PROCEDURE": 1
+},
+"phân tử": {
+"DOSAGE": 21
+},
+"phòng chống": {
+"DRUG": 6
+},
+"phòng ngừa": {
+"DRUG": 34
+},
+"phòng ngừa huyết khối": {
+"DRUG": 1
+},
+"phòng tránh": {
+"DRUG": 13
+},
+"phòng trừ": {
+"DRUG": 1
+},
+"phơi nhiễm": {
+"CONDITION": 2
+},
+"phương pháp sinh đẻ": {
+"TEST": 1
+},
+"phương pháp sấy đồng khô thăng hoa": {
+"PROCEDURE": 1
+},
+"phương pháp tiêm mesotherapy": {
+"PROCEDURE": 1
+},
+"phương pháp tránh thai": {
+"PROCEDURE": 24
+},
+"phương pháp trị liệu": {
+"PROCEDURE": 13
+},
+"phương pháp trị liệu tâm lý": {
+"PROCEDURE": 2
+},
+"phương pháp ít xâm lấn": {
+"PROCEDURE": 1
+},
+"phương tiện hiện đại": {
+"PROCEDURE": 2
+},
+"phần lớn": {
+"DOSAGE": 10
+},
+"phần thứ hai": {
+"DOSAGE": 3
+},
+"phần trăm": {
+"DOSAGE": 15
+},
+"phẫu thuật": {
+"PROCEDURE": 147
+},
+"phẫu thuật hóa trị xạ trị": {
+"PROCEDURE": 1
+},
+"phẫu thuật kích thích não": {
+"PROCEDURE": 4
+},
+"phẫu thuật kích thích não sâu": {
+"PROCEDURE": 39
+},
+"phẫu thuật tim mạch": {
+"PROCEDURE": 1
+},
+"phẫu thuật tạo hình": {
+"PROCEDURE": 2
+},
+"phỏng cấp độ ba": {
+"CONDITION": 1
+},
+"phốtpho": {
+"DRUG": 4
+},
+"phổ biến nhất": {
+"DOSAGE": 7
+},
+"phổi": {
+"BODY_PART": 17
+},
+"phổi tắc nghẽn": {
+"CONDITION": 1
+},
+"phục hình": {
+"PROCEDURE": 4
+},
+"phục hình răng": {
+"PROCEDURE": 1
+},
+"phục hồi": {
+"PROCEDURE": 45
+},
+"plasma lạnh": {
+"PROCEDURE": 1
+},
+"polyp": {
+"BODY_PART": 8
+},
+"polyp buồng tử cung": {
+"BODY_PART": 3
+},
+"polyp cổ tử cung": {
+"CONDITION": 1
+},
+"polyp nội mạc tử cung": {
+"BODY_PART": 1
+},
+"polysaccharide": {
+"DRUG": 7
+},
+"polysaccharide adenosine": {
+"DRUG": 1
+},
+"pp": {
+"DRUG": 2
+},
+"prebiotic": {
+"DRUG": 2
+},
+"progesterone": {
+"DRUG": 23
+},
+"progesteronee": {
+"DRUG": 2
+},
+"protavirus": {
+"DRUG": 1
+},
+"protein": {
+"DRUG": 19
+},
+"protid": {
+"DRUG": 5
+},
+"prozac": {
+"DRUG": 1
+},
+"qua mắt": {
+"CONDITION": 1
+},
+"quan hệ": {
+"CONDITION": 23
+},
+"quan hệ tình dục": {
+"CONDITION": 2
+},
+"quan âm đạo": {
+"BODY_PART": 1
+},
+"que cấy": {
+"PROCEDURE": 2
+},
+"que cấy tránh thai": {
+"PROCEDURE": 6
+},
+"que tránh": {
+"PROCEDURE": 4
+},
+"que tránh thai": {
+"PROCEDURE": 19
+},
+"que tránh thai hai nang": {
+"PROCEDURE": 1
+},
+"que tránh thai một nang": {
+"PROCEDURE": 2
+},
+"quy trình sản sinh melanin": {
+"TEST": 1
+},
+"quy trình thay": {
+"TEST": 2
+},
+"quá sản nội mạc tử cung": {
+"CONDITION": 2
+},
+"quá trình dọn dẹp": {
+"DRUG": 1
+},
+"quá trình lão hóa": {
+"TEST": 9
+},
+"quá trình lấy mẫu": {
+"PROCEDURE": 3
+},
+"quá trình oxi hóa": {
+"PROCEDURE": 1
+},
+"quá trình sáng": {
+"PROCEDURE": 1
+},
+"quá trình trao đổi chất": {
+"TEST": 1
+},
+"quả thể": {
+"DRUG": 12
+},
+"quả thể nấm đông trùng": {
+"DRUG": 1
+},
+"quấy khóc": {
+"CONDITION": 3
+},
+"ra máu": {
+"CONDITION": 32
+},
+"ra máu nhau thai": {
+"CONDITION": 1
+},
+"ra máu âm đạo": {
+"CONDITION": 5
+},
+"ra nhiều kinh": {
+"CONDITION": 1
+},
+"radio": {
+"PROCEDURE": 1
+},
+"radiography": {
+"PROCEDURE": 1
+},
+"retinoic acid": {
+"DRUG": 1
+},
+"rong huyết": {
+"CONDITION": 34
+},
+"rong kinh": {
+"CONDITION": 36
+},
+"run": {
+"CONDITION": 4
+},
+"rung nhĩ": {
+"CONDITION": 87
+},
+"rung nhĩ bệnh mạch vành": {
+"CONDITION": 1
+},
+"rutin": {
+"DRUG": 4
+},
+"rutinc": {
+"DRUG": 2
+},
+"ruồi giấm": {
+"CONDITION": 4
+},
+"ruột": {
+"BODY_PART": 74
+},
+"ruột già": {
+"BODY_PART": 1
+},
+"ruột non": {
+"BODY_PART": 2
+},
+"rách tạng": {
+"CONDITION": 1
+},
+"ráy tai": {
+"DRUG": 1
+},
+"răng": {
+"BODY_PART": 94
+},
+"răng bị thưa": {
+"CONDITION": 1
+},
+"răng cố định": {
+"PROCEDURE": 1
+},
+"răng giả": {
+"PROCEDURE": 5
+},
+"răng hư": {
+"CONDITION": 1
+},
+"răng khôn": {
+"BODY_PART": 2
+},
+"răng số tám": {
+"BODY_PART": 6
+},
+"răng sứ": {
+"PROCEDURE": 2
+},
+"răng tháo lắp": {
+"PROCEDURE": 1
+},
+"răng tạm": {
+"PROCEDURE": 5
+},
+"rất là lớn": {
+"DOSAGE": 12
+},
+"rất nhiều": {
+"DOSAGE": 98
+},
+"rễ thần kinh": {
+"BODY_PART": 1
+},
+"rối loạn": {
+"CONDITION": 60
+},
+"rối loạn chuyển hóa đường huyết": {
+"CONDITION": 1
+},
+"rối loạn chức năng": {
+"CONDITION": 4
+},
+"rối loạn cơ năng": {
+"CONDITION": 1
+},
+"rối loạn cảm xúc": {
+"CONDITION": 1
+},
+"rối loạn giải phóng noãn": {
+"CONDITION": 1
+},
+"rối loạn kinh": {
+"CONDITION": 3
+},
+"rối loạn kinh nguyệt": {
+"CONDITION": 1
+},
+"rối loạn lipid máu": {
+"CONDITION": 5
+},
+"rối loạn lo âu": {
+"CONDITION": 1
+},
+"rối loạn mỡ": {
+"CONDITION": 1
+},
+"rối loạn mỡ máu": {
+"CONDITION": 24
+},
+"rối loạn nhịp tim": {
+"CONDITION": 10
+},
+"rối loạn nội môi": {
+"CONDITION": 1
+},
+"rối loạn phóng noãn": {
+"CONDITION": 1
+},
+"rối loạn sợ xã hội": {
+"CONDITION": 1
+},
+"rối loạn sức khỏe thể chất": {
+"CONDITION": 1
+},
+"rối loạn thần kinh": {
+"CONDITION": 3
+},
+"rối loạn thị giác": {
+"CONDITION": 2
+},
+"rối loạn tiêu hóa": {
+"CONDITION": 1
+},
+"rối loạn trí nhớ": {
+"CONDITION": 1
+},
+"rối loạn tâm thần": {
+"CONDITION": 1
+},
+"rối loạn vận động": {
+"CONDITION": 4
+},
+"rối loạn về mặt cảm xúc": {
+"CONDITION": 1
+},
+"rối loạn về mặt sinh lý": {
+"CONDITION": 1
+},
+"rối loạn điện học": {
+"CONDITION": 1
+},
+"rối loạn đại tiện": {
+"CONDITION": 3
+},
+"rối loạn ở tâm lý": {
+"CONDITION": 1
+},
+"rụng tóc": {
+"CONDITION": 38
+},
+"sa sút trí tuệ": {
+"CONDITION": 14
+},
+"sang chấn": {
+"CONDITION": 3
+},
+"sarscov2": {
+"CONDITION": 12
+},
+"selen": {
+"DRUG": 21
+},
+"serotonin": {
+"DRUG": 4
+},
+"serum": {
+"DRUG": 9
+},
+"serum đặc trị": {
+"DRUG": 3
+},
+"sids": {
+"CONDITION": 1
+},
+"simulations": {
+"PROCEDURE": 1
+},
+"sinapse": {
+"BODY_PART": 1
+},
+"sinensis": {
+"DRUG": 2
+},
+"sinh dục": {
+"BODY_PART": 2
+},
+"sinh mổ": {
+"PROCEDURE": 14
+},
+"sinh non": {
+"CONDITION": 6
+},
+"sinh nở": {
+"TEST": 3
+},
+"sis": {
+"TEST": 2
+},
+"siêu nhỏ": {
+"DOSAGE": 1
+},
+"siêu vi b": {
+"CONDITION": 2
+},
+"siêu vi c": {
+"CONDITION": 1
+},
+"siêu âm": {
+"TEST": 41
+},
+"siêu âm phụ khoa": {
+"TEST": 1
+},
+"siêu âm tim": {
+"TEST": 2
+},
+"siêu âm tử cung buồng trứng": {
+"TEST": 4
+},
+"siêu âm âm đạo": {
+"TEST": 1
+},
+"sls": {
+"DRUG": 2
+},
+"sodium": {
+"DRUG": 4
+},
+"soi chụp": {
+"PROCEDURE": 1
+},
+"sonohysterography": {
+"TEST": 1
+},
+"stent": {
+"PROCEDURE": 3
+},
+"steroid": {
+"DRUG": 1
+},
+"stress": {
+"CONDITION": 45
+},
+"stroma": {
+"DRUG": 1
+},
+"sulfonylurea": {
+"DRUG": 2
+},
+"sunfuric": {
+"DRUG": 1
+},
+"supplement": {
+"DRUG": 2
+},
+"suy dinh dưỡng": {
+"CONDITION": 4
+},
+"suy gan": {
+"CONDITION": 1
+},
+"suy giãn tĩnh mạch": {
+"CONDITION": 10
+},
+"suy giảm chức năng gan": {
+"CONDITION": 1
+},
+"suy giảm miễn dịch": {
+"CONDITION": 1
+},
+"suy giảm nhận thức": {
+"CONDITION": 1
+},
+"suy giảm trí nhớ": {
+"CONDITION": 1
+},
+"suy hô hấp": {
+"CONDITION": 1
+},
+"suy kiệt": {
+"CONDITION": 5
+},
+"suy mòn": {
+"CONDITION": 3
+},
+"suy nhược": {
+"CONDITION": 1
+},
+"suy nhược thần kinh": {
+"CONDITION": 1
+},
+"suy thận": {
+"CONDITION": 4
+},
+"suy tim": {
+"CONDITION": 23
+},
+"suy đoán": {
+"PROCEDURE": 1
+},
+"suyễn": {
+"CONDITION": 5
+},
+"sàng lọc yếu tố về dịch tể": {
+"DRUG": 1
+},
+"sáng xanh": {
+"DRUG": 1
+},
+"sát khuẩn": {
+"PROCEDURE": 3
+},
+"sáu chấm năm": {
+"DOSAGE": 1
+},
+"sáu hộp": {
+"DOSAGE": 1
+},
+"sáu mươi bảy mươi milimet": {
+"DOSAGE": 1
+},
+"sáu mươi phần trăm": {
+"DOSAGE": 1
+},
+"sáu mươi phần trăm bệnh nhân": {
+"DOSAGE": 1
+},
+"sáu mươi sáu milimet": {
+"DOSAGE": 1
+},
+"sáu trăm người": {
+"DOSAGE": 1
+},
+"sáu vỉ thuốc": {
+"DOSAGE": 1
+},
+"sâm dây ngọc linh": {
+"DRUG": 2
+},
+"sâm ngọc linh": {
+"DRUG": 4
+},
+"sóng siêu âm": {
+"PROCEDURE": 1
+},
+"sóng âm": {
+"PROCEDURE": 1
+},
+"săn trắng": {
+"CONDITION": 1
+},
+"sơ cứu": {
+"PROCEDURE": 1
+},
+"sưng phù": {
+"CONDITION": 1
+},
+"sạch kinh": {
+"CONDITION": 3
+},
+"sạm da": {
+"CONDITION": 1
+},
+"sạm nám": {
+"CONDITION": 3
+},
+"sạm nám tàn nhang": {
+"CONDITION": 1
+},
+"sản phẩm giữ sáng": {
+"DRUG": 1
+},
+"sản phẩm mà có tính lột tẩy": {
+"DRUG": 1
+},
+"sản phẩm từ thiên nhiên": {
+"DRUG": 1
+},
+"sắc tố": {
+"BODY_PART": 14
+},
+"sắc tố da": {
+"BODY_PART": 2
+},
+"sắt": {
+"DRUG": 13
+},
+"sẹo": {
+"BODY_PART": 4
+},
+"sẽ": {
+"CONDITION": 1
+},
+"sọ": {
+"BODY_PART": 9
+},
+"số mười": {
+"DOSAGE": 1
+},
+"số mười hai": {
+"DOSAGE": 1
+},
+"sốc điện": {
+"PROCEDURE": 2
+},
+"sốt": {
+"CONDITION": 15
+},
+"sốt rét": {
+"CONDITION": 7
+},
+"sợ hãi": {
+"CONDITION": 10
+},
+"sợi fibrin": {
+"BODY_PART": 2
+},
+"sợi lông": {
+"BODY_PART": 1
+},
+"sụn khớp": {
+"BODY_PART": 2
+},
+"sụn khớp thoái": {
+"CONDITION": 3
+},
+"sụt cân": {
+"CONDITION": 21
+},
+"sức khỏe giảm sút": {
+"CONDITION": 1
+},
+"sức miễn dịch": {
+"TEST": 2
+},
+"sức đề kháng": {
+"TEST": 13
+},
+"sức đề kháng kém": {
+"CONDITION": 1
+},
+"sử dụng những cái laser": {
+"PROCEDURE": 1
+},
+"sữa mẹ": {
+"DRUG": 59
+},
+"sữa rửa mặt": {
+"DRUG": 17
+},
+"sự đàn hồi mềm dẻo": {
+"PROCEDURE": 1
+},
+"sự đói": {
+"CONDITION": 1
+},
+"tai": {
+"BODY_PART": 28
+},
+"tai biến": {
+"CONDITION": 16
+},
+"tai biến mạch máu não": {
+"CONDITION": 6
+},
+"tai nạn": {
+"CONDITION": 14
+},
+"tai nạn giao thông": {
+"CONDITION": 1
+},
+"tam đại bộ phẩm": {
+"DRUG": 3
+},
+"tamoxifen": {
+"DRUG": 1
+},
+"tay": {
+"BODY_PART": 6
+},
+"tay bàn chân": {
+"BODY_PART": 1
+},
+"tay chân": {
+"BODY_PART": 1
+},
+"tay phải": {
+"BODY_PART": 2
+},
+"teo cơ": {
+"CONDITION": 1
+},
+"test": {
+"TEST": 5
+},
+"testosterone": {
+"DRUG": 1
+},
+"thanh lọc": {
+"TEST": 1
+},
+"thay găng": {
+"PROCEDURE": 2
+},
+"thay răng": {
+"CONDITION": 1
+},
+"thay đổi hành vi": {
+"CONDITION": 2
+},
+"thay đổi về mặt cảm xúc": {
+"CONDITION": 1
+},
+"thay đổi vị giác": {
+"CONDITION": 3
+},
+"theo dõi chó mèo": {
+"DRUG": 1
+},
+"theo dõi cân nặng": {
+"PROCEDURE": 2
+},
+"theo dõi thai định kỳ": {
+"TEST": 1
+},
+"thiết bị điện": {
+"PROCEDURE": 2
+},
+"thiết bị định vị": {
+"PROCEDURE": 2
+},
+"thiếu máu": {
+"CONDITION": 26
+},
+"thiếu máu cục bộ": {
+"CONDITION": 1
+},
+"thiếu máu não": {
+"CONDITION": 7
+},
+"thiếu máu não thoáng qua": {
+"CONDITION": 13
+},
+"thiếu nước": {
+"CONDITION": 2
+},
+"thiếu oxy": {
+"CONDITION": 3
+},
+"thiếu ẩm": {
+"CONDITION": 1
+},
+"thiểu năng": {
+"CONDITION": 3
+},
+"thiểu năng vành": {
+"CONDITION": 12
+},
+"thoái hóa": {
+"CONDITION": 20
+},
+"thoái hóa cột sống": {
+"CONDITION": 10
+},
+"thoái hóa khớp": {
+"CONDITION": 14
+},
+"thoái hóa đầu gối": {
+"CONDITION": 3
+},
+"thoát vị đĩa đệm": {
+"CONDITION": 6
+},
+"thuyên tắc huyết khối tĩnh mạch": {
+"CONDITION": 36
+},
+"thuốc": {
+"DRUG": 424
+},
+"thuốc bắc": {
+"DRUG": 1
+},
+"thuốc bổ": {
+"DRUG": 2
+},
+"thuốc chống tiểu cầu": {
+"DRUG": 3
+},
+"thuốc chống trầm cảm": {
+"DRUG": 3
+},
+"thuốc chống viêm corticoid": {
+"DRUG": 1
+},
+"thuốc chống viêm giảm đau": {
+"DRUG": 1
+},
+"thuốc chống đông": {
+"DRUG": 6
+},
+"thuốc của y học cổ truyền": {
+"DRUG": 2
+},
+"thuốc giảm đau": {
+"DRUG": 12
+},
+"thuốc gây nghiện": {
+"DRUG": 1
+},
+"thuốc hoạt huyết": {
+"DRUG": 2
+},
+"thuốc hỗ trợ": {
+"DRUG": 2
+},
+"thuốc kháng đông": {
+"DRUG": 14
+},
+"thuốc men": {
+"DRUG": 3
+},
+"thuốc mê": {
+"DRUG": 2
+},
+"thuốc ngừa thai": {
+"DRUG": 16
+},
+"thuốc nội tiết": {
+"DRUG": 1
+},
+"thuốc tan máu đông": {
+"DRUG": 1
+},
+"thuốc thoa": {
+"DRUG": 3
+},
+"thuốc tiêm": {
+"DRUG": 5
+},
+"thuốc tiêu sợi huyết": {
+"DRUG": 3
+},
+"thuốc tránh thai": {
+"DRUG": 11
+},
+"thuốc tây": {
+"DRUG": 1
+},
+"thuốc tây y": {
+"DRUG": 1
+},
+"thuốc tê": {
+"DRUG": 3
+},
+"thuốc tăng đông": {
+"DRUG": 2
+},
+"thuốc uống": {
+"DRUG": 14
+},
+"thuốc đông y": {
+"DRUG": 2
+},
+"thuốc để giảm nhịp tim": {
+"DRUG": 1
+},
+"thuốc độc hoạt tang": {
+"DRUG": 1
+},
+"thành bụng": {
+"BODY_PART": 3
+},
+"thành mạch máu": {
+"BODY_PART": 3
+},
+"thành phần": {
+"DRUG": 2
+},
+"thành phần cấp ẩm": {
+"DRUG": 1
+},
+"thành tử cung": {
+"BODY_PART": 1
+},
+"tháo que": {
+"PROCEDURE": 4
+},
+"tháo vòng": {
+"PROCEDURE": 4
+},
+"tháo đường": {
+"CONDITION": 2
+},
+"thâm nám": {
+"CONDITION": 4
+},
+"thâm sau": {
+"CONDITION": 1
+},
+"thâm sau mụn": {
+"CONDITION": 1
+},
+"thân bằng lảo đảo": {
+"CONDITION": 1
+},
+"thân mạc": {
+"BODY_PART": 1
+},
+"thèm ăn": {
+"CONDITION": 8
+},
+"thí nghiệm": {
+"PROCEDURE": 3
+},
+"thích nghi": {
+"TEST": 3
+},
+"thính học": {
+"PROCEDURE": 1
+},
+"thăm khám": {
+"PROCEDURE": 30
+},
+"thăm khám lâm sàng": {
+"TEST": 1
+},
+"thưa xương": {
+"CONDITION": 1
+},
+"thương tích": {
+"CONDITION": 1
+},
+"thương tật": {
+"CONDITION": 2
+},
+"thượng bì": {
+"BODY_PART": 2
+},
+"thượng thận": {
+"BODY_PART": 2
+},
+"thảo dược": {
+"DRUG": 43
+},
+"thấp": {
+"DOSAGE": 27
+},
+"thần kinh": {
+"BODY_PART": 115
+},
+"thần kinh liên sườn tê": {
+"CONDITION": 1
+},
+"thần kinh não bộ": {
+"BODY_PART": 2
+},
+"thần kinh ruột": {
+"BODY_PART": 6
+},
+"thần kinh suy nhược": {
+"CONDITION": 1
+},
+"thẩm thấu": {
+"TEST": 3
+},
+"thận": {
+"BODY_PART": 31
+},
+"thận mãn tính": {
+"CONDITION": 1
+},
+"thắt lưng": {
+"BODY_PART": 19
+},
+"thể": {
+"BODY_PART": 2
+},
+"thống kê": {
+"PROCEDURE": 2
+},
+"thở hơi chớp": {
+"CONDITION": 1
+},
+"thở máy": {
+"PROCEDURE": 1
+},
+"thụ hưởng": {
+"TEST": 1
+},
+"thụ thai": {
+"CONDITION": 1
+},
+"thụ thể": {
+"TEST": 15
+},
+"thủ thuật": {
+"DRUG": 3
+},
+"thủ thuật ghép xương": {
+"PROCEDURE": 2
+},
+"thủng đại tràng": {
+"CONDITION": 1
+},
+"thủy ngân": {
+"DRUG": 1
+},
+"thứ nhất": {
+"DOSAGE": 76
+},
+"thừa cân": {
+"CONDITION": 10
+},
+"thử nghiệm lâm sàng": {
+"PROCEDURE": 1
+},
+"thực hiện giãn cách": {
+"DRUG": 1,
+"PROCEDURE": 1
+},
+"thực phẩm chức năng": {
+"DRUG": 19
+},
+"thực quản": {
+"BODY_PART": 4
+},
+"ti thể": {
+"BODY_PART": 3
+},
+"tia siêu âm": {
+"PROCEDURE": 1
+},
+"tia sáng xanh": {
+"DRUG": 1
+},
+"tia uv": {
+"PROCEDURE": 5
+},
+"tia x": {
+"DRUG": 1
+},
+"tim": {
+"BODY_PART": 110
+},
+"tim mạch": {
+"BODY_PART": 83
+},
+"tim đập nhanh": {
+"CONDITION": 7
+},
+"tinh thần bất ổn": {
+"CONDITION": 1
+},
+"tinh trùng": {
+"BODY_PART": 3
+},
+"tiêm": {
+"PROCEDURE": 48
+},
+"tiêm dưới da": {
+"PROCEDURE": 1
+},
+"tiêm ngừa": {
+"DRUG": 6
+},
+"tiêm vắc xin": {
+"DRUG": 4
+},
+"tiên liệu": {
+"PROCEDURE": 1
+},
+"tiêu chảy": {
+"CONDITION": 5
+},
+"tiêu xương": {
+"CONDITION": 26
+},
+"tiêu xương hàm": {
+"CONDITION": 4
+},
+"tiết sữa": {
+"CONDITION": 1
+},
+"tiềm dương an thần": {
+"DRUG": 1
+},
+"tiền mê": {
+"PROCEDURE": 2
+},
+"tiền phẫu": {
+"PROCEDURE": 1
+},
+"tiền đình": {
+"CONDITION": 8
+},
+"tiểu cầu": {
+"BODY_PART": 5
+},
+"tiểu phẫu": {
+"PROCEDURE": 2
+},
+"tiểu đường": {
+"CONDITION": 38
+},
+"tocotrienol": {
+"DRUG": 2
+},
+"toner": {
+"DRUG": 6
+},
+"trao đổi chất": {
+"TEST": 5
+},
+"trao đổi khí": {
+"PROCEDURE": 1
+},
+"triển khai": {
+"DRUG": 2
+},
+"triệu chứng": {
+"CONDITION": 193
+},
+"triệu chứng da nhạy cảm": {
+"CONDITION": 1
+},
+"triệu chứng run": {
+"CONDITION": 5
+},
+"triệu chứng đơ cứng": {
+"CONDITION": 2
+},
+"trong máu": {
+"CONDITION": 3
+},
+"trung bình": {
+"DOSAGE": 21
+},
+"trung hòa": {
+"TEST": 1
+},
+"trung tiện": {
+"PROCEDURE": 2
+},
+"truy tìm": {
+"DRUG": 1
+},
+"truyền apomorphine": {
+"PROCEDURE": 1
+},
+"truyền miệng": {
+"PROCEDURE": 3
+},
+"truyền máu": {
+"PROCEDURE": 2
+},
+"tràn dịch": {
+"CONDITION": 1
+},
+"trào ngược dạ dày": {
+"CONDITION": 1
+},
+"trào ngược dạ dày thực quản": {
+"CONDITION": 1
+},
+"trái tim": {
+"BODY_PART": 8
+},
+"trán": {
+"BODY_PART": 1
+},
+"tránh hạn chế tiếp xúc": {
+"DRUG": 1
+},
+"tránh thai": {
+"PROCEDURE": 56
+},
+"trên chín chín phần trăm": {
+"DOSAGE": 1
+},
+"trí nhớ giảm sút": {
+"CONDITION": 1
+},
+"trí não": {
+"BODY_PART": 3
+},
+"trăm nghìn tỷ": {
+"DOSAGE": 1
+},
+"trăm phần trăm": {
+"DOSAGE": 2
+},
+"trướng bụng": {
+"CONDITION": 2
+},
+"trạng thái trầm cảm": {
+"CONDITION": 1
+},
+"trầm cảm": {
+"CONDITION": 48
+},
+"trầy xước": {
+"CONDITION": 3
+},
+"trị liệu": {
+"PROCEDURE": 19
+},
+"trị mụn": {
+"PROCEDURE": 1
+},
+"trọng lượng cơ thể": {
+"DOSAGE": 3
+},
+"trọng lượng phân tử cao": {
+"DOSAGE": 2
+},
+"trọng lượng phân tử thấp": {
+"DOSAGE": 4
+},
+"trồng cái răng": {
+"PROCEDURE": 1
+},
+"trồng implant": {
+"PROCEDURE": 17
+},
+"trồng răng": {
+"PROCEDURE": 9
+},
+"trồng răng implant": {
+"PROCEDURE": 2
+},
+"trở kháng": {
+"PROCEDURE": 2
+},
+"trữ sữa": {
+"PROCEDURE": 8
+},
+"trữ đông": {
+"PROCEDURE": 4
+},
+"trực tràng": {
+"BODY_PART": 1
+},
+"tuyến cận giáp": {
+"BODY_PART": 1
+},
+"tuyến giáp": {
+"BODY_PART": 11
+},
+"tuyến nước bọt": {
+"BODY_PART": 2
+},
+"tuyến thượng thận": {
+"BODY_PART": 3
+},
+"tuyến tụy": {
+"BODY_PART": 4
+},
+"tuyến yên": {
+"BODY_PART": 1
+},
+"tuân thủ": {
+"DRUG": 23
+},
+"tuân trị": {
+"PROCEDURE": 2
+},
+"tuần hoàn máu": {
+"TEST": 2
+},
+"tuần hoàn não": {
+"TEST": 7
+},
+"tuần hoàn vành": {
+"TEST": 1
+},
+"tài liệu": {
+"PROCEDURE": 3
+},
+"tàn nhang": {
+"CONDITION": 1
+},
+"tàn phế": {
+"CONDITION": 1
+},
+"tá tràng": {
+"BODY_PART": 1
+},
+"tác dụng phụ": {
+"CONDITION": 28
+},
+"tái phát": {
+"CONDITION": 19
+},
+"tái tạo": {
+"PROCEDURE": 10
+},
+"tái tạo da bằng hóa chất": {
+"PROCEDURE": 1
+},
+"tái tạo xương": {
+"PROCEDURE": 6
+},
+"tái đông": {
+"PROCEDURE": 2
+},
+"tám milimet": {
+"DOSAGE": 1
+},
+"tám mươi chín mươi": {
+"DOSAGE": 2
+},
+"tám mươi lăm phần trăm": {
+"DOSAGE": 1
+},
+"tám mươi phần": {
+"DOSAGE": 1
+},
+"tám mươi phần trăm": {
+"DOSAGE": 2
+},
+"tám mươi viên": {
+"DOSAGE": 1
+},
+"tám mươi đến chín mươi phần trăm": {
+"DOSAGE": 1
+},
+"tám viên": {
+"DOSAGE": 1
+},
+"táo bón": {
+"CONDITION": 29
+},
+"tâm lý lo lắng": {
+"CONDITION": 1
+},
+"tâm nhĩ": {
+"BODY_PART": 18
+},
+"tâm thất": {
+"BODY_PART": 7
+},
+"tâm thần": {
+"CONDITION": 9
+},
+"tâm trạng bất ổn": {
+"CONDITION": 1
+},
+"tân dược": {
+"DRUG": 16
+},
+"tê": {
+"CONDITION": 3
+},
+"tê bì": {
+"CONDITION": 27
+},
+"tê bì dọc theo tay": {
+"CONDITION": 1
+},
+"tê bì kiến bò": {
+"CONDITION": 4
+},
+"tê cả hai cái bàn tay": {
+"CONDITION": 1
+},
+"tê không để": {
+"CONDITION": 1
+},
+"tê liệt tay": {
+"CONDITION": 1
+},
+"tê lạnh": {
+"CONDITION": 1
+},
+"tình trạng da nguyên phát": {
+"CONDITION": 1
+},
+"tình trạng lo âu": {
+"CONDITION": 1
+},
+"tình trạng loạn nhịp": {
+"CONDITION": 1
+},
+"tình trạng nhịp chậm": {
+"CONDITION": 1
+},
+"tình trạng nhớ nhớ quên quên": {
+"CONDITION": 1
+},
+"tình trạng thiếu độ ẩm": {
+"CONDITION": 1
+},
+"tình trạng xơ vữa": {
+"CONDITION": 3
+},
+"tình trạng xơ vữa mạch": {
+"CONDITION": 10
+},
+"tình trạng xơ vữa mạch vành": {
+"CONDITION": 1
+},
+"tình trạng xơ vữa động mạch": {
+"CONDITION": 5
+},
+"tính dung nạp": {
+"DOSAGE": 1
+},
+"tính toán tọa độ": {
+"PROCEDURE": 1
+},
+"tóc": {
+"BODY_PART": 115
+},
+"tóc xơ yếu": {
+"CONDITION": 1
+},
+"tô vít": {
+"BODY_PART": 1
+},
+"túi mật": {
+"BODY_PART": 1
+},
+"túi sắc tố": {
+"BODY_PART": 5
+},
+"túi thai": {
+"BODY_PART": 1
+},
+"tăng chất lượng": {
+"DOSAGE": 1
+},
+"tăng cái cường độ": {
+"DOSAGE": 1
+},
+"tăng cân": {
+"CONDITION": 10
+},
+"tăng cường lưu thông máu": {
+"PROCEDURE": 1
+},
+"tăng huyết áp": {
+"CONDITION": 24
+},
+"tăng hơn gấp đôi": {
+"DOSAGE": 1
+},
+"tăng sinh mạch máu": {
+"CONDITION": 2
+},
+"tăng sản nội mạc": {
+"CONDITION": 1
+},
+"tăng sắc tố": {
+"CONDITION": 10
+},
+"tăng sức đề kháng": {
+"PROCEDURE": 5
+},
+"tăng thuốc lên": {
+"DOSAGE": 2
+},
+"tăng động giảm chú ý": {
+"CONDITION": 3
+},
+"tĩnh mạch": {
+"BODY_PART": 33
+},
+"tạng phủ": {
+"BODY_PART": 1
+},
+"tầm soát sức khỏe": {
+"PROCEDURE": 4
+},
+"tần số": {
+"DOSAGE": 3
+},
+"tập gym": {
+"PROCEDURE": 2
+},
+"tập thể dục": {
+"PROCEDURE": 7
+},
+"tập thể hình": {
+"PROCEDURE": 2
+},
+"tắc các mạch máu não": {
+"CONDITION": 1
+},
+"tắc mạch": {
+"CONDITION": 4
+},
+"tắc mạch chi": {
+"CONDITION": 2
+},
+"tắc mạch máu": {
+"CONDITION": 1
+},
+"tắc mạch máu não": {
+"CONDITION": 1
+},
+"tắc nghẽn": {
+"CONDITION": 3
+},
+"tắc nghẽn mãn tính": {
+"CONDITION": 1
+},
+"tắc động mạch não": {
+"CONDITION": 2
+},
+"tắc động mạch thận": {
+"CONDITION": 1
+},
+"tế bào": {
+"BODY_PART": 123
+},
+"tế bào b": {
+"BODY_PART": 6
+},
+"tế bào gan": {
+"BODY_PART": 1
+},
+"tế bào gốc": {
+"BODY_PART": 7
+},
+"tế bào non": {
+"BODY_PART": 1
+},
+"tế bào não": {
+"BODY_PART": 6
+},
+"tế bào sắc tố": {
+"BODY_PART": 5
+},
+"tế bào sừng": {
+"BODY_PART": 7
+},
+"tế bào t": {
+"BODY_PART": 8
+},
+"tế bào trong não": {
+"BODY_PART": 1
+},
+"tế bào ung thư": {
+"CONDITION": 20
+},
+"tế bào v": {
+"BODY_PART": 1
+},
+"tế bào âm đạo": {
+"BODY_PART": 1
+},
+"tổ chức xét nghiệm": {
+"DRUG": 1
+},
+"tổn thương": {
+"CONDITION": 44
+},
+"tổn thương da": {
+"CONDITION": 3
+},
+"tổn thương hàng rào": {
+"CONDITION": 1
+},
+"tổn thương não": {
+"CONDITION": 1
+},
+"tổn thương viêm": {
+"CONDITION": 3
+},
+"tổn thương ở niêm mạc": {
+"CONDITION": 1
+},
+"tụt huyết áp": {
+"CONDITION": 2
+},
+"tụt vòng": {
+"CONDITION": 1
+},
+"tủ lạnh": {
+"PROCEDURE": 7
+},
+"tủ đông": {
+"PROCEDURE": 3
+},
+"tủy sống": {
+"BODY_PART": 1
+},
+"tứ vật": {
+"DRUG": 2
+},
+"tức ngực": {
+"CONDITION": 5
+},
+"từ hai lăm đến ba mươi hai phần trăm": {
+"DOSAGE": 1
+},
+"từ mười lăm đến ba mươi phút": {
+"DOSAGE": 1
+},
+"từ năm đến mười": {
+"DOSAGE": 4
+},
+"từ năm đến mười phần": {
+"DOSAGE": 2
+},
+"từ trường": {
+"PROCEDURE": 6
+},
+"từ tám mươi đến tám lăm phần trăm": {
+"DOSAGE": 1
+},
+"từ tám đến mười hai milimet": {
+"DOSAGE": 1
+},
+"tử cung": {
+"BODY_PART": 50
+},
+"tử cung bị dị dạng": {
+"CONDITION": 1
+},
+"tử cung nhi hóa": {
+"BODY_PART": 1
+},
+"tử cung nó to to": {
+"CONDITION": 1
+},
+"tử vong": {
+"CONDITION": 35
+},
+"tự": {
+"TEST": 1
+},
+"tự bảo vệ": {
+"TEST": 2
+},
+"tự chăm sóc": {
+"PROCEDURE": 1
+},
+"tự chăm sóc sức khỏe": {
+"PROCEDURE": 1
+},
+"tự kỷ": {
+"CONDITION": 4
+},
+"tự ti": {
+"CONDITION": 14
+},
+"tỷ lệ": {
+"DOSAGE": 44
+},
+"tỷ lệ hiệu quả tránh thai": {
+"DOSAGE": 1
+},
+"tỷ lệ lên đến chín mươi tám phần": {
+"DOSAGE": 1
+},
+"tỷ lệ nhỏ": {
+"DOSAGE": 2
+},
+"u nang": {
+"CONDITION": 2
+},
+"u nang vùng mặt": {
+"CONDITION": 1
+},
+"u vú": {
+"CONDITION": 1
+},
+"u xơ": {
+"CONDITION": 4
+},
+"u xơ to": {
+"CONDITION": 1
+},
+"u xơ tử cung": {
+"CONDITION": 19
+},
+"umami": {
+"DRUG": 3
+},
+"ung thư": {
+"CONDITION": 237
+},
+"ung thư cổ tử cung": {
+"CONDITION": 5
+},
+"ung thư da": {
+"CONDITION": 1
+},
+"ung thư dạ dày": {
+"CONDITION": 5
+},
+"ung thư gan": {
+"CONDITION": 2
+},
+"ung thư nội mạc tử cung": {
+"CONDITION": 3
+},
+"ung thư phổi": {
+"CONDITION": 4
+},
+"ung thư phụ khoa": {
+"CONDITION": 1
+},
+"ung thư tuyến tụy bò": {
+"CONDITION": 1
+},
+"ung thư vú": {
+"CONDITION": 5
+},
+"ung thư đường sinh dục": {
+"CONDITION": 1
+},
+"ung thư đường tiêu hóa": {
+"CONDITION": 1
+},
+"uống thuốc": {
+"PROCEDURE": 57
+},
+"uống đúng liều": {
+"PROCEDURE": 1
+},
+"vai": {
+"BODY_PART": 6
+},
+"van": {
+"BODY_PART": 4
+},
+"van âm đạo": {
+"BODY_PART": 1
+},
+"van ở tĩnh mạch": {
+"BODY_PART": 1
+},
+"vi khuẩn": {
+"CONDITION": 100
+},
+"vi khuẩn có hại": {
+"DRUG": 7
+},
+"vi khuẩn có lợi": {
+"DRUG": 12
+},
+"vi lượng": {
+"DRUG": 3
+},
+"vi phẫu thuật": {
+"PROCEDURE": 1
+},
+"vi sinh vật": {
+"BODY_PART": 37
+},
+"vi sóng điện não": {
+"PROCEDURE": 1
+},
+"vi điện cực": {
+"PROCEDURE": 2
+},
+"virus": {
+"CONDITION": 44
+},
+"vitamin": {
+"DRUG": 54
+},
+"vitamin c": {
+"DRUG": 12
+},
+"vitamin d": {
+"DRUG": 72
+},
+"vitamin e": {
+"DRUG": 6
+},
+"vitamin k": {
+"DRUG": 16
+},
+"viêm": {
+"CONDITION": 75
+},
+"viêm cổ tử cung": {
+"CONDITION": 1
+},
+"viêm da": {
+"CONDITION": 3
+},
+"viêm da cơ địa": {
+"CONDITION": 2
+},
+"viêm da tiết bã": {
+"CONDITION": 1
+},
+"viêm da tiết bã nhờn": {
+"CONDITION": 1
+},
+"viêm gan": {
+"CONDITION": 6
+},
+"viêm gan b": {
+"CONDITION": 3
+},
+"viêm khớp": {
+"CONDITION": 2
+},
+"viêm loét": {
+"CONDITION": 5
+},
+"viêm nhiễm": {
+"CONDITION": 6
+},
+"viêm nhiễm áp xe": {
+"CONDITION": 1
+},
+"viêm phổi": {
+"CONDITION": 5
+},
+"viêm sung huyết đại tràng": {
+"CONDITION": 1
+},
+"viêm tai": {
+"CONDITION": 7
+},
+"viêm thần kinh tọa": {
+"CONDITION": 1
+},
+"viêm thực quản": {
+"CONDITION": 1
+},
+"viêm xương khớp": {
+"CONDITION": 3
+},
+"viêm đa khớp": {
+"CONDITION": 2
+},
+"viêm đại tràng": {
+"CONDITION": 24
+},
+"viên nang": {
+"DRUG": 6
+},
+"viên nang đông trùng hạ thảo": {
+"DRUG": 10
+},
+"viên ngừa thai": {
+"DRUG": 2
+},
+"viên thuốc uống": {
+"DRUG": 1
+},
+"viên uống đông trùng hạ thảo": {
+"DRUG": 1
+},
+"viên đá màu": {
+"DRUG": 1
+},
+"việc chủng ngừa": {
+"DRUG": 2
+},
+"vài chục kilogam": {
+"DOSAGE": 1
+},
+"vài trăm gam": {
+"DOSAGE": 1
+},
+"vòng chữ t": {
+"PROCEDURE": 1
+},
+"vòng kinh không phóng noãn": {
+"CONDITION": 1
+},
+"vòng kinh nhân tạo": {
+"PROCEDURE": 6
+},
+"vòng luẩn quẩn": {
+"DOSAGE": 6
+},
+"vòng tránh thai": {
+"PROCEDURE": 14
+},
+"vòng tránh thai hình chữ t": {
+"PROCEDURE": 1
+},
+"vòng vô khuẩn": {
+"PROCEDURE": 1
+},
+"vô khuẩn": {
+"PROCEDURE": 1
+},
+"vô kinh": {
+"CONDITION": 2
+},
+"vô sinh hiếm muộn": {
+"CONDITION": 1
+},
+"vô trùng": {
+"PROCEDURE": 6
+},
+"vùng": {
+"BODY_PART": 3
+},
+"vùng bụng": {
+"BODY_PART": 1
+},
+"vùng chi": {
+"BODY_PART": 2
+},
+"vùng cổ": {
+"BODY_PART": 2
+},
+"vùng da": {
+"BODY_PART": 1
+},
+"vùng da đầu": {
+"BODY_PART": 1
+},
+"vùng gót chân": {
+"BODY_PART": 2
+},
+"vùng sinh dục": {
+"BODY_PART": 1
+},
+"vùng trán": {
+"BODY_PART": 1
+},
+"vùng đáy não": {
+"BODY_PART": 1
+},
+"vú": {
+"BODY_PART": 5
+},
+"vẩy nến": {
+"CONDITION": 1
+},
+"vật dao động": {
+"PROCEDURE": 1
+},
+"vật liệu nhân tạo": {
+"PROCEDURE": 1
+},
+"vật lý trị liệu": {
+"PROCEDURE": 4
+},
+"vắc xin": {
+"DRUG": 6
+},
+"vắcxin": {
+"DRUG": 37
+},
+"vắcxin dại": {
+"DRUG": 2
+},
+"vắcxin huyết thanh kháng dại": {
+"DRUG": 1
+},
+"vắt chanh uống": {
+"PROCEDURE": 1
+},
+"vắt chân": {
+"BODY_PART": 1
+},
+"vắt sữa": {
+"PROCEDURE": 5
+},
+"vết cắt": {
+"CONDITION": 4
+},
+"vết thương": {
+"CONDITION": 4
+},
+"vị đan sâm": {
+"DRUG": 2
+},
+"vỏ quả thể": {
+"DRUG": 1
+},
+"với": {
+"BODY_PART": 1
+},
+"vừa uống vừa thoa": {
+"PROCEDURE": 1
+},
+"vữa xơ động mạch": {
+"CONDITION": 6
+},
+"x-quang": {
+"TEST": 2
+},
+"xoa bóp": {
+"PROCEDURE": 4
+},
+"xoang": {
+"BODY_PART": 3
+},
+"xuất huyết": {
+"CONDITION": 5
+},
+"xuất huyết não": {
+"CONDITION": 1
+},
+"xuất huyết trong": {
+"CONDITION": 1
+},
+"xuất huyết ở bên trong nội tạng": {
+"CONDITION": 1
+},
+"xà phòng": {
+"DRUG": 6
+},
+"xâm lấn": {
+"PROCEDURE": 5
+},
+"xây xước": {
+"CONDITION": 3
+},
+"xây xẩm": {
+"CONDITION": 4
+},
+"xây xẩm choáng váng": {
+"CONDITION": 1
+},
+"xét nghiệm": {
+"TEST": 55
+},
+"xét nghiệm máu": {
+"TEST": 3
+},
+"xơ": {
+"CONDITION": 1
+},
+"xơ gan": {
+"CONDITION": 2
+},
+"xơ vữa": {
+"CONDITION": 10
+},
+"xơ vữa mạch": {
+"CONDITION": 3
+},
+"xơ vữa mạch não": {
+"CONDITION": 1
+},
+"xơ vữa mảng": {
+"CONDITION": 1
+},
+"xơ vữa động mạch": {
+"CONDITION": 35
+},
+"xơ vữa động mạch chi": {
+"CONDITION": 1
+},
+"xương": {
+"BODY_PART": 200
+},
+"xương của chân": {
+"BODY_PART": 1
+},
+"xương hàm": {
+"BODY_PART": 11
+},
+"xương khớp": {
+"BODY_PART": 36
+},
+"xương sọ": {
+"BODY_PART": 3
+},
+"xương đốt sống": {
+"BODY_PART": 1
+},
+"xương ổ răng": {
+"BODY_PART": 3
+},
+"xạ trị": {
+"PROCEDURE": 30
+},
+"xẹp đốt sống": {
+"CONDITION": 4
+},
+"xử trí": {
+"PROCEDURE": 1
+},
+"y học cổ truyền": {
+"PROCEDURE": 4
+},
+"yếu chân": {
+"CONDITION": 2
+},
+"yếu tay": {
+"CONDITION": 3
+},
+"yếu tay chân": {
+"CONDITION": 1
+},
+"yếu ớt": {
+"CONDITION": 1
+},
+"zoloft": {
+"DRUG": 1
+},
+"ánh nắng mặt trời": {
+"DRUG": 1
+},
+"ánh sáng xanh": {
+"DRUG": 1
+},
+"áp lực về mặt tâm lý": {
+"CONDITION": 1
+},
+"áp xe đại tràng": {
+"CONDITION": 1
+},
+"âm tính giả": {
+"DRUG": 2
+},
+"âm đạo": {
+"BODY_PART": 14
+},
+"ít hơn": {
+"DOSAGE": 5
+},
+"ít xâm lấn": {
+"PROCEDURE": 8
+},
+"ăn dặm": {
+"PROCEDURE": 5
+},
+"ăn không ngon": {
+"CONDITION": 2
+},
+"đa xơ cứng": {
+"CONDITION": 4
+},
+"đan sâm": {
+"DRUG": 13
+},
+"đau": {
+"CONDITION": 167
+},
+"đau buốt": {
+"CONDITION": 1
+},
+"đau bụng": {
+"CONDITION": 6
+},
+"đau bụng kinh": {
+"CONDITION": 2
+},
+"đau chân": {
+"CONDITION": 1
+},
+"đau dữ dội": {
+"CONDITION": 3
+},
+"đau họng": {
+"CONDITION": 1
+},
+"đau lâm râm": {
+"CONDITION": 1
+},
+"đau lưng": {
+"CONDITION": 8
+},
+"đau ngực": {
+"CONDITION": 2
+},
+"đau nhức": {
+"CONDITION": 27
+},
+"đau quặn bụng": {
+"CONDITION": 1
+},
+"đau quặn lên": {
+"CONDITION": 1
+},
+"đau thần kinh tọa": {
+"CONDITION": 4
+},
+"đau thắt ngực": {
+"CONDITION": 1
+},
+"đau tức ngực": {
+"CONDITION": 12
+},
+"đau đầu": {
+"CONDITION": 59
+},
+"đeo răng giả": {
+"PROCEDURE": 2
+},
+"đi cầu": {
+"PROCEDURE": 6
+},
+"đi dễ té ngã": {
+"CONDITION": 1
+},
+"đi lỏng": {
+"CONDITION": 1
+},
+"điếc": {
+"CONDITION": 18
+},
+"điều chế": {
+"PROCEDURE": 1
+},
+"điều chỉnh": {
+"DRUG": 34
+},
+"điều chỉnh bằng thuốc": {
+"PROCEDURE": 1
+},
+"điều hòa": {
+"TEST": 6
+},
+"điều hòa cái nhịp tim": {
+"TEST": 1
+},
+"điều hòa khí huyết": {
+"TEST": 1
+},
+"điều hòa nhịp": {
+"TEST": 1
+},
+"điều hòa được nhịp tim": {
+"TEST": 1
+},
+"điều tiết": {
+"TEST": 1
+},
+"điều trị": {
+"PROCEDURE": 597,
+"DRUG": 1
+},
+"điều trị bằng nội tiết": {
+"PROCEDURE": 3
+},
+"điều trị bệnh lý": {
+"PROCEDURE": 7
+},
+"điều trị can thiệp": {
+"PROCEDURE": 1
+},
+"điều trị duy trì": {
+"PROCEDURE": 3
+},
+"điều trị gen": {
+"PROCEDURE": 6
+},
+"điều trị hoocmon": {
+"PROCEDURE": 1
+},
+"điều trị lao": {
+"PROCEDURE": 1
+},
+"điều trị loãng xương": {
+"PROCEDURE": 8
+},
+"điều trị mụn ẩn": {
+"PROCEDURE": 1
+},
+"điều trị tiểu đường": {
+"PROCEDURE": 2
+},
+"điều trị trầm cảm": {
+"PROCEDURE": 3
+},
+"điều trị viêm đại tràng": {
+"PROCEDURE": 1
+},
+"điều trị đa chuyên khoa": {
+"PROCEDURE": 1
+},
+"điện cực": {
+"PROCEDURE": 28
+},
+"điện tâm đồ": {
+"PROCEDURE": 3
+},
+"đo cái ngưỡng đau": {
+"PROCEDURE": 1
+},
+"đo thân nhiệt": {
+"PROCEDURE": 1
+},
+"đo điện tim": {
+"TEST": 2
+},
+"đo đường huyết": {
+"PROCEDURE": 2
+},
+"đuối sức": {
+"CONDITION": 1
+},
+"đào thải các": {
+"TEST": 1
+},
+"đái tháo đường": {
+"CONDITION": 46
+},
+"đánh giá": {
+"PROCEDURE": 57
+},
+"đánh giá nguy cơ": {
+"TEST": 6
+},
+"đánh giá toàn diện": {
+"TEST": 1
+},
+"đáy tử cung": {
+"BODY_PART": 3
+},
+"đã bị chết": {
+"CONDITION": 1
+},
+"đóng góp": {
+"DRUG": 8
+},
+"đôi tay": {
+"BODY_PART": 1
+},
+"đông cứng dáng đi": {
+"CONDITION": 1
+},
+"đông cứng về dáng đi": {
+"CONDITION": 1
+},
+"đông trùng hạ thảo": {
+"DRUG": 71
+},
+"đông y": {
+"PROCEDURE": 3
+},
+"đùi": {
+"BODY_PART": 1
+},
+"đơ cứng": {
+"CONDITION": 1
+},
+"đường bụng": {
+"BODY_PART": 4
+},
+"đường huyết": {
+"DOSAGE": 6
+},
+"đường hô hấp": {
+"BODY_PART": 2
+},
+"đường ruột": {
+"BODY_PART": 49
+},
+"đường sinh dục": {
+"BODY_PART": 2
+},
+"đường tiêu hóa": {
+"BODY_PART": 20
+},
+"đường trong cơ thể": {
+"DRUG": 1
+},
+"đường âm đạo": {
+"BODY_PART": 4
+},
+"đường đơn": {
+"DRUG": 1
+},
+"đại dịch": {
+"CONDITION": 3
+},
+"đại tiện": {
+"PROCEDURE": 3
+},
+"đại tràng": {
+"BODY_PART": 23
+},
+"đại tràng co thắt": {
+"CONDITION": 2
+},
+"đảm bảo sạch sẽ": {
+"PROCEDURE": 1
+},
+"đầu gối": {
+"BODY_PART": 3
+},
+"đầu vú": {
+"BODY_PART": 2
+},
+"đầu óc": {
+"BODY_PART": 1
+},
+"đầy bụng": {
+"CONDITION": 1
+},
+"đầy hơi": {
+"CONDITION": 3
+},
+"đầy hơi chướng bụng": {
+"CONDITION": 4
+},
+"đập nhanh": {
+"CONDITION": 1
+},
+"đậu mùa": {
+"CONDITION": 5
+},
+"đẳng sâm": {
+"DRUG": 6
+},
+"đặt mỏ vịt": {
+"TEST": 5
+},
+"đặt que cấy": {
+"PROCEDURE": 1
+},
+"đặt vòng": {
+"PROCEDURE": 73
+},
+"đặt vòng và cấy que tránh thai": {
+"PROCEDURE": 4
+},
+"đặt điện cực kích thích não sâu": {
+"PROCEDURE": 3
+},
+"đặt ống thông": {
+"PROCEDURE": 1
+},
+"để": {
+"BODY_PART": 1
+},
+"để vòng tránh thai": {
+"PROCEDURE": 1
+},
+"đỏ rát ngứa": {
+"CONDITION": 1
+},
+"đối chứng lập phương": {
+"PROCEDURE": 1
+},
+"đối kháng": {
+"DRUG": 2
+},
+"đốt vai": {
+"BODY_PART": 1
+},
+"đốt điện": {
+"PROCEDURE": 1
+},
+"đồi mồi": {
+"CONDITION": 1
+},
+"đổ dầu": {
+"CONDITION": 4
+},
+"độ vi khuẩn": {
+"DOSAGE": 1
+},
+"độc tố": {
+"DRUG": 6
+},
+"động kinh": {
+"CONDITION": 3
+},
+"động mạch": {
+"BODY_PART": 42
+},
+"động mạch chi": {
+"BODY_PART": 4
+},
+"động mạch vành tim": {
+"BODY_PART": 3
+},
+"đột quỵ": {
+"CONDITION": 107
+},
+"ưu điểm vượt trội": {
+"DOSAGE": 1
+},
+"ảo giác": {
+"CONDITION": 1
+},
+"ảo giác loạn thần": {
+"CONDITION": 1
+},
+"ốc tai": {
+"PROCEDURE": 11
+},
+"ốc tai điện tử": {
+"PROCEDURE": 5
+},
+"ổ bụng": {
+"BODY_PART": 4
+},
+"ổ áp xe": {
+"CONDITION": 1
+},
+"ứ trệ trong tâm nhĩ": {
+"CONDITION": 1
+},
+"ức chế": {
+"DRUG": 15
+},
+"ức chế hấp thụ chất béo": {
+"PROCEDURE": 1
+},
+"ức chế miễn dịch": {
+"DRUG": 1
+},
+"ức chế sự xuất sắc tố": {
+"PROCEDURE": 1
+}
+}
+}

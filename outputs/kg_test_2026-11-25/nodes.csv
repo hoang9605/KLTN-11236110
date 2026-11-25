@@ -1,0 +1,1316 @@
+﻿key,type,name,ontology,code,suggested_code,mentions,documents,surfaces
+BODY_PART:xương,BODY_PART,xương,,,,216,173,xương
+BODY_PART:răng,BODY_PART,răng,,,,153,120,răng
+ICD-10:M81.9,CONDITION,Loãng xương không đặc hiệu,ICD-10,M81.9,,124,100,loãng xương
+RxNorm:1895,DRUG,calcium,RxNorm,1895,,93,80,canxi
+BODY_PART:tử cung,BODY_PART,tử cung,,,,86,74,tử cung
+ICD-10:R52.9,CONDITION,"Đau, không đặc hiệu",ICD-10,R52.9,,79,65,đau; đau nhức
+RxNorm:11253,DRUG,vitamin D,RxNorm,11253,,72,61,vitamin d
+BODY_PART:tóc,BODY_PART,tóc,,,,71,56,tóc
+PROCEDURE:implant,PROCEDURE,implant,,,,61,52,implant
+DRUG:sữa mẹ,DRUG,sữa mẹ,,,1689068 ME-344,58,54,sữa mẹ
+DOSAGE:thứ nhất,DOSAGE,thứ nhất,,,,55,55,thứ nhất
+BODY_PART:máu,BODY_PART,máu,,,,49,42,máu
+DRUG:tránh thai,DRUG,tránh thai,,,723792 ,49,49,tránh thai
+PROCEDURE:phẫu thuật,PROCEDURE,phẫu thuật,,,,48,44,phẫu thuật
+PROCEDURE:hỗ trợ,PROCEDURE,hỗ trợ,,,,45,43,hỗ trợ
+BODY_PART:đại tràng,BODY_PART,đại tràng,,,,44,39,đại tràng
+BODY_PART:tĩnh mạch,BODY_PART,tĩnh mạch,,,,44,41,tĩnh mạch
+BODY_PART:ruột,BODY_PART,ruột,,,,43,36,ruột
+TEST:siêu âm,TEST,siêu âm,,,,40,34,siêu âm
+BODY_PART:da,BODY_PART,da,,,,39,34,da
+BODY_PART:cơ thể,BODY_PART,cơ thể,,,,39,39,cơ thể
+CONDITION:rong kinh,CONDITION,rong kinh,,,N92.2 Rong kinh lúc dậy thì,36,36,rong kinh
+DRUG:khuyến cáo,DRUG,khuyến cáo,,,235524 Gan Cao Root,35,35,khuyến cáo
+ICD-10:M89.5,CONDITION,Tiêu xương,ICD-10,M89.5,,35,33,tiêu xương
+CONDITION:rong huyết,CONDITION,rong huyết,,,I10 Bệnh lý tăng huyết áp,33,32,rong huyết
+DOSAGE:rất nhiều,DOSAGE,rất nhiều,,,,29,29,rất nhiều
+BODY_PART:nội mạc,BODY_PART,nội mạc,,,,28,23,nội mạc
+CONDITION:ra máu,CONDITION,ra máu,,,R04.2 Ho ra máu,27,26,ra máu
+BODY_PART:buồng tử cung,BODY_PART,buồng tử cung,,,,27,25,buồng tử cung
+CONDITION:có thai,CONDITION,có thai,,,O30 Đa thai,26,21,có thai
+BODY_PART:thần kinh,BODY_PART,thần kinh,,,,26,23,thần kinh
+BODY_PART:huyết,BODY_PART,huyết,,,,25,24,huyết
+RxNorm:8727,DRUG,progesterone,RxNorm,8727,,25,23,progesterone; progesteronee
+PROCEDURE:đặt vòng,PROCEDURE,đặt vòng,,,,24,20,đặt vòng
+PROCEDURE:cấy que tránh thai,PROCEDURE,cấy que tránh thai,,,,24,24,cấy que tránh thai
+BODY_PART:âm đạo,BODY_PART,âm đạo,,,,23,22,âm đạo
+PROCEDURE:tiêm,PROCEDURE,tiêm,,,,23,19,tiêm
+DOSAGE:mức độ,DOSAGE,mức độ,,,,23,23,mức độ
+ICD-10:U07.1,CONDITION,COVID-19 xác định (có kết quả xét nghiệm khẳng định SARS-CoV-2 dương tính),ICD-10,U07.1,,23,21,covid19; covid; f0
+PROCEDURE:đánh giá,PROCEDURE,đánh giá,,,,23,22,đánh giá
+BODY_PART:mái tóc,BODY_PART,mái tóc,,,,22,20,mái tóc
+CONDITION:thuyên tắc huyết,CONDITION,thuyên tắc huyết,,,I74 Thuyên tắc và huyết khối động mạch,22,22,thuyên tắc huyết
+PROCEDURE:ghép,PROCEDURE,ghép,,,,21,19,ghép
+TEST:hấp thu,TEST,hấp thu,,,,20,18,hấp thu
+ICD-10:E14,CONDITION,Bệnh đái tháo đường không xác định,ICD-10,E14,,20,20,tiểu đường; đái tháo đường
+BODY_PART:xương hàm,BODY_PART,xương hàm,,,,20,19,xương hàm
+PROCEDURE:ghép xương,PROCEDURE,ghép xương,,,,20,19,ghép xương
+RxNorm:4100,DRUG,estrogens,RxNorm,4100,,19,17,estrogen
+CONDITION:u xơ tử cung,CONDITION,u xơ tử cung,,,C54.2 U ác của cơ tử cung,19,17,u xơ tử cung
+ICD-10:T14.2,CONDITION,Gãy xương chưa xác định vùng cơ thể,ICD-10,T14.2,,19,15,gãy xương
+PROCEDURE:thăm khám,PROCEDURE,thăm khám,,,,18,18,thăm khám
+ICD-10:R58,CONDITION,Chảy máu chưa được phân loại ở nơi khác,ICD-10,R58,,18,17,chảy máu; xuất huyết
+TEST:xét nghiệm,TEST,xét nghiệm,,,,18,16,xét nghiệm
+BODY_PART:buồng trứng,BODY_PART,buồng trứng,,,,17,14,buồng trứng
+BODY_PART:cơ,BODY_PART,cơ,,,,17,16,cơ
+ICD-10:C80.9,CONDITION,"U ác, không đặc hiệu",ICD-10,C80.9,,17,15,ung thư
+BODY_PART:cổ tử cung,BODY_PART,cổ tử cung,,,,17,14,cổ tử cung
+BODY_PART:miệng,BODY_PART,miệng,,,,17,17,miệng
+ICD-10:R51,CONDITION,Đau đầu,ICD-10,R51,,17,16,đau đầu; nhức đầu
+BODY_PART:nội tiết,BODY_PART,nội tiết,,,,16,15,nội tiết
+PROCEDURE:mổ,PROCEDURE,mổ,,,,16,11,mổ
+TEST:kiểm tra,TEST,kiểm tra,,,,16,16,kiểm tra
+DRUG:vitamin,DRUG,vitamin,,,604318 ,16,14,vitamin
+DRUG:thực phẩm chức năng,DRUG,thực phẩm chức năng,,,125699 Nangibotide,16,13,thực phẩm chức năng
+CONDITION:mất răng,CONDITION,mất răng,,,S02.5 Gãy răng,16,16,mất răng
+BODY_PART:tai,BODY_PART,tai,,,,16,12,tai
+DRUG:phương pháp tránh thai,DRUG,phương pháp tránh thai,,,723792 ,15,15,phương pháp tránh thai
+PROCEDURE:cấy que,PROCEDURE,cấy que,,,,15,15,cấy que
+DRUG:thủ thuật,DRUG,thủ thuật,,,2696002 ZINC OXIDE 9.7 mg in 1 mL / TITANIUM DIOXIDE 19.4 mg in 1 mL TOPICAL LOTION [Thu Brule Free Spirit Correct and Protect],15,15,thủ thuật
+DRUG:vắcxin,DRUG,vắcxin,,,,15,12,vắcxin
+BODY_PART:hàm,BODY_PART,hàm,,,,15,13,hàm
+BODY_PART:da đầu,BODY_PART,da đầu,,,,15,13,da đầu
+CONDITION:khiếm thính,CONDITION,khiếm thính,,,Z01.1 Khám tai và thính lực,15,14,khiếm thính
+PROCEDURE:cấy ốc tai điện tử,PROCEDURE,cấy ốc tai điện tử,,,,15,14,cấy ốc tai điện tử
+DRUG:thuốc ngừa thai,DRUG,thuốc ngừa thai,,,723792 ,14,14,thuốc ngừa thai
+BODY_PART:tim,BODY_PART,tim,,,,14,13,tim
+CONDITION:mãn kinh,CONDITION,mãn kinh,,,"N95.9 Rối loạn mãn kinh và chu mãn kinh, không đặc hiệu",14,11,mãn kinh
+PROCEDURE:trồng,PROCEDURE,trồng,,,,14,13,trồng
+ICD-10:L65.9,CONDITION,"Rụng tóc không sẹo, không điển hình",ICD-10,L65.9,,14,12,rụng tóc
+BODY_PART:chân,BODY_PART,chân,,,,13,10,chân
+BODY_PART:môi,BODY_PART,môi,,,,13,10,môi
+ICD-10:T88.7,CONDITION,Tác dụng phụ chưa xác định của thuốc hoặc dược phẩm,ICD-10,T88.7,,13,13,tác dụng phụ
+PROCEDURE:tái tạo,PROCEDURE,tái tạo,,,,13,13,tái tạo
+BODY_PART:dạ dày,BODY_PART,dạ dày,,,,13,12,dạ dày
+CONDITION:thuyên tắc huyết khối,CONDITION,thuyên tắc huyết khối,,,I74 Thuyên tắc và huyết khối động mạch,13,13,thuyên tắc huyết khối
+BODY_PART:bụng,BODY_PART,bụng,,,,12,12,bụng
+BODY_PART:niêm mạc,BODY_PART,niêm mạc,,,,12,12,niêm mạc
+CONDITION:hội chứng ruột,CONDITION,hội chứng ruột,,,K58 Hội chứng ruột kích thích,12,12,hội chứng ruột
+PROCEDURE:vòng tránh thai,PROCEDURE,vòng tránh thai,,,,12,11,vòng tránh thai
+ICD-10:I64,CONDITION,"Đột quỵ, không xác định xuất huyết hay nhồi máu",ICD-10,I64,,12,11,đột quỵ; tai biến; tai biến mạch máu não
+DRUG:thuốc tránh thai,DRUG,thuốc tránh thai,,,723792 ,11,10,thuốc tránh thai
+BODY_PART:khung xương,BODY_PART,khung xương,,,,11,11,khung xương
+RxNorm:2714,DRUG,collagen,RxNorm,2714,,11,10,collagen
+ICD-10:K59.0,CONDITION,Táo bón,ICD-10,K59.0,,11,11,táo bón
+PROCEDURE:que tránh thai,PROCEDURE,que tránh thai,,,,11,11,que tránh thai
+CONDITION:polyp,CONDITION,polyp,,,N84.3 Polyp âm hộ,10,10,polyp
+BODY_PART:mắt,BODY_PART,mắt,,,,10,10,mắt
+DOSAGE:một phần,DOSAGE,một phần,,,,10,10,một phần
+BODY_PART:não,BODY_PART,não,,,,10,8,não
+ICD-10:R50,CONDITION,Sốt không rõ nguyên nhân khác,ICD-10,R50,,10,10,sốt
+ICD-10:R42,CONDITION,Hoa mắt và chóng mặt,ICD-10,R42,,10,9,chóng mặt
+DRUG:thảo dược,DRUG,thảo dược,,,,10,9,thảo dược
+DRUG:biện pháp tránh thai,DRUG,biện pháp tránh thai,,,723792 ,10,10,biện pháp tránh thai
+PROCEDURE:hồi sức,PROCEDURE,hồi sức,,,,10,10,hồi sức
+CONDITION:điếc,CONDITION,điếc,,,H90.5 Điếc thần kinh không đặc hiệu điếc tiếp nhận không đặc hiệu,10,10,điếc
+CONDITION:có kinh,CONDITION,có kinh,,,G40 Động kinh,9,9,có kinh
+DOSAGE:những bệnh nhân,DOSAGE,những bệnh nhân,,,,9,9,những bệnh nhân
+PROCEDURE:nội soi,PROCEDURE,nội soi,,,,9,8,nội soi
+DRUG:nghi ngờ,DRUG,nghi ngờ,,,,9,8,nghi ngờ
+ICD-10:I10,CONDITION,Bệnh tăng huyết áp vô căn (nguyên phát),ICD-10,I10,,9,9,cao huyết áp; huyết áp; tăng huyết áp
+ICD-10:E66.9,CONDITION,"Béo phì, không đặc hiệu",ICD-10,E66.9,,9,7,béo phì; thừa cân
+ICD-10:B99,CONDITION,Các bệnh nhiễm trùng khác và không xác định,ICD-10,B99,,9,9,nhiễm trùng
+PROCEDURE:âm thanh,PROCEDURE,âm thanh,,,,9,9,âm thanh
+DRUG:ngừa thai,DRUG,ngừa thai,,,723792 ,8,8,ngừa thai
+BODY_PART:tim mạch,BODY_PART,tim mạch,,,,8,7,tim mạch
+ICD-10:D64.9,CONDITION,Thiếu máu không đặc hiệu,ICD-10,D64.9,,8,7,thiếu máu
+BODY_PART:thận,BODY_PART,thận,,,,8,8,thận
+BODY_PART:tế bào,BODY_PART,tế bào,,,,8,7,tế bào
+BODY_PART:bàng quang,BODY_PART,bàng quang,,,,8,8,bàng quang
+BODY_PART:dap,BODY_PART,dap,,,,8,7,dap
+CONDITION:nhân xơ,CONDITION,nhân xơ,,,K74.6 Xơ gan khác và không đặc hiệu,8,5,nhân xơ
+CONDITION:đầy hơi,CONDITION,đầy hơi,,,R14 Đầy hơi và các tình trạng liên quan,8,6,đầy hơi
+ICD-10:R45.0,CONDITION,Căng thẳng,ICD-10,R45.0,,8,8,căng thẳng
+DRUG:phòng chống,DRUG,phòng chống,,,1801603 influenza B virus B/Hong Kong/259/2010 antigen,8,8,phòng chống
+PROCEDURE:đặt vòng tránh thai,PROCEDURE,đặt vòng tránh thai,,,,8,8,đặt vòng tránh thai
+DRUG:hormone,DRUG,hormone,,,1427222 Parathyroid Hormone,8,8,hormone
+BODY_PART:cái chân răng,BODY_PART,cái chân răng,,,,8,6,cái chân răng
+CONDITION:sợ hãi,CONDITION,sợ hãi,,,F40 Rối loạn lo âu ám ảnh sợ hãi,8,8,sợ hãi
+CONDITION:cong chân,CONDITION,cong chân,,,"Q68.5 Cong bẩm sinh các xương dài của chân, không đặc hiệu",8,6,cong chân
+DOSAGE:cái thứ hai,DOSAGE,cái thứ hai,,,,7,7,cái thứ hai
+DRUG:thuốc uống,DRUG,thuốc uống,,,,7,7,thuốc uống
+BODY_PART:mạch,BODY_PART,mạch,,,,7,7,mạch
+BODY_PART:tay,BODY_PART,tay,,,,7,6,tay
+DOSAGE:phần lớn,DOSAGE,phần lớn,,,,7,7,phần lớn
+CONDITION:co giật,CONDITION,co giật,,,R56.0 Co giật do sốt,7,6,co giật
+ICD-10:R53,CONDITION,Khó ở và mệt mỏi,ICD-10,R53,,7,7,mệt mỏi
+CONDITION:chướng bụng,CONDITION,chướng bụng,,,R18 Cổ chướng,7,7,chướng bụng
+DRUG:kháng sinh,DRUG,kháng sinh,,,1297138 Dressing Change Kit KIT,7,5,kháng sinh
+BODY_PART:đường ruột,BODY_PART,đường ruột,,,,7,6,đường ruột
+DRUG:vi khuẩn có lợi,DRUG,vi khuẩn có lợi,,,2686517 VIS-410,7,6,vi khuẩn có lợi
+ICD-10:F43.9,CONDITION,"Phản ứng với stress trầm trọng, không đặc hiệu",ICD-10,F43.9,,7,7,stress
+PROCEDURE:vòng,PROCEDURE,vòng,,,,7,7,vòng
+BODY_PART:ngực,BODY_PART,ngực,,,,7,6,ngực
+DRUG:vắc xin,DRUG,vắc xin,,,2638732 VAC-52150,7,6,vắc xin
+DRUG:chích ngừa,DRUG,chích ngừa,,,235571 ,7,5,chích ngừa
+BODY_PART:hàm răng,BODY_PART,hàm răng,,,,7,7,hàm răng
+PROCEDURE:cấy implant,PROCEDURE,cấy implant,,,,7,7,cấy implant
+PROCEDURE:vật liệu,PROCEDURE,vật liệu,,,,7,7,vật liệu
+CONDITION:điếc câm,CONDITION,điếc câm,,,"H91.3 Câm điếc, không phân loại nơi khác điếc câm không phân loại nơi khác",7,7,điếc câm
+BODY_PART:tai mũi họng,BODY_PART,tai mũi họng,,,,7,7,tai mũi họng
+BODY_PART:ốc tai,BODY_PART,ốc tai,,,,7,7,ốc tai
+CONDITION:thuyên tắc huyết khối tĩnh mạch,CONDITION,thuyên tắc huyết khối tĩnh mạch,,,I82.8 Thuyên tắc và huyết khối tĩnh mạch khác,7,7,thuyên tắc huyết khối tĩnh mạch
+DRUG:hoocmon,DRUG,hoocmon,,,,6,5,hoocmon
+BODY_PART:mô,BODY_PART,mô,,,,6,6,mô
+PROCEDURE:nạo,PROCEDURE,nạo,,,,6,6,nạo
+CONDITION:tai nạn,CONDITION,tai nạn,,,Y86 Di chứng của các tai nạn khác,6,6,tai nạn
+DOSAGE:một viên,DOSAGE,một viên,,,,6,6,một viên
+PROCEDURE:nhập viện,PROCEDURE,nhập viện,,,,6,6,nhập viện
+BODY_PART:mật,BODY_PART,mật,,,,6,5,mật
+CONDITION:lý,CONDITION,lý,,,I51.8 Bệnh lý khác được xác định là bệnh lý của tim,6,6,lý
+DRUG:immunegamma,DRUG,immunegamma,,,,6,6,immunegamma
+PROCEDURE:thống kê,PROCEDURE,thống kê,,,,6,6,thống kê
+TEST:sức đề kháng,TEST,sức đề kháng,,,,6,6,sức đề kháng
+PROCEDURE:đặt,PROCEDURE,đặt,,,,6,6,đặt
+DRUG:tránh,DRUG,tránh,,,10691 Tranhexamic acid,6,6,tránh
+PROCEDURE:que,PROCEDURE,que,,,,6,5,que
+BODY_PART:phổi,BODY_PART,phổi,,,,6,5,phổi
+DOSAGE:hai,DOSAGE,hai,,,,6,6,hai
+PROCEDURE:cấy,PROCEDURE,cấy,,,,6,6,cấy
+TEST:chích,TEST,chích,,,,6,5,chích
+CONDITION:viêm gan,CONDITION,viêm gan,,,K75 Bệnh viêm gan khác,6,4,viêm gan
+PROCEDURE:trồng implant,PROCEDURE,trồng implant,,,,6,5,trồng implant
+BODY_PART:nang tóc,BODY_PART,nang tóc,,,,6,6,nang tóc
+DRUG:hóa chất,DRUG,hóa chất,,,1721053 ,6,6,hóa chất
+RxNorm:90176,DRUG,iron,RxNorm,90176,,6,6,sắt
+DRUG:giảm thiểu,DRUG,giảm thiểu,,,,6,5,giảm thiểu
+ICD-10:B54,CONDITION,Sốt rét không xác định,ICD-10,B54,,6,5,sốt rét
+DRUG:thuốc giảm đau,DRUG,thuốc giảm đau,,,,6,6,thuốc giảm đau
+BODY_PART:vòng kinh,BODY_PART,vòng kinh,,,,5,4,vòng kinh
+PROCEDURE:ngưng thuốc,PROCEDURE,ngưng thuốc,,,,5,5,ngưng thuốc
+DOSAGE:trung bình,DOSAGE,trung bình,,,,5,5,trung bình
+DRUG:thuốc tiêm,DRUG,thuốc tiêm,,,236188 tiemonium,5,5,thuốc tiêm
+BODY_PART:lưng,BODY_PART,lưng,,,,5,5,lưng
+BODY_PART:gen,BODY_PART,gen,,,,5,4,gen
+ICD-10:R10,CONDITION,Đau bụng và vùng chậu,ICD-10,R10,,5,5,đau bụng
+CONDITION:viêm nhiễm,CONDITION,viêm nhiễm,,,L30.3 Viêm da nhiễm trùng,5,5,viêm nhiễm
+ICD-10:G47.0,CONDITION,Rối loạn vào giấc và duy trì giấc ngủ [mất ngủ],ICD-10,G47.0,,5,5,mất ngủ; khó ngủ
+DRUG:vi khuẩn có hại,DRUG,vi khuẩn có hại,,,2686517 VIS-410,5,5,vi khuẩn có hại
+BODY_PART:não bộ,BODY_PART,não bộ,,,,5,4,não bộ
+DRUG:que tránh thai,DRUG,que tránh thai,,,723792 ,5,5,que tránh thai
+PROCEDURE:thai,PROCEDURE,thai,,,,5,5,thai
+DRUG:5k,DRUG,5k,,,,5,5,5k
+DOSAGE:rất là lớn,DOSAGE,rất là lớn,,,,5,5,rất là lớn
+DOSAGE:cái tỷ lệ,DOSAGE,cái tỷ lệ,,,,5,5,cái tỷ lệ
+PROCEDURE:nuôi dưỡng,PROCEDURE,nuôi dưỡng,,,,5,4,nuôi dưỡng
+CONDITION:tăng trưởng,CONDITION,tăng trưởng,,,M89.2 Các rối loạn khác về sự phát triển và tăng trưởng của xương,5,5,tăng trưởng
+PROCEDURE:nín thở,PROCEDURE,nín thở,,,,5,5,nín thở
+PROCEDURE:rã đông,PROCEDURE,rã đông,,,,5,5,rã đông
+CONDITION:ngộ độc,CONDITION,ngộ độc,,,T51 Ngộ độc cồn,5,5,ngộ độc
+PROCEDURE:điện cực,PROCEDURE,điện cực,,,,5,5,điện cực
+CONDITION:ký sinh trùng,CONDITION,ký sinh trùng,,,B88 Nhiễm ký sinh trùng khác,5,4,ký sinh trùng
+CONDITION:tĩnh mạch,CONDITION,tĩnh mạch,,,I80 Viêm tĩnh mạch và tắc tĩnh mạch,5,5,tĩnh mạch
+ICD-10:D48.9,CONDITION,"U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu",ICD-10,D48.9,,4,4,khối u
+PROCEDURE:xử trí,PROCEDURE,xử trí,,,,4,4,xử trí
+ICD-10:C53,CONDITION,U ác của cổ tử cung,ICD-10,C53,,4,4,ung thư cổ tử cung
+DRUG:loại trừ,DRUG,loại trừ,,,2024501 TRU-015,4,4,loại trừ
+BODY_PART:mỏ,BODY_PART,mỏ,,,,4,4,mỏ
+DRUG:tiểu,DRUG,tiểu,,,,4,4,tiểu
+CONDITION:nhân xơ tử cung,CONDITION,nhân xơ tử cung,,,C54 U ác của thân tử cung,4,4,nhân xơ tử cung
+DRUG:nhân xơ,DRUG,nhân xơ,,,2000687 ,4,2,nhân xơ
+PROCEDURE:giải phẫu,PROCEDURE,giải phẫu,,,,4,4,giải phẫu
+BODY_PART:ổ bụng,BODY_PART,ổ bụng,,,,4,4,ổ bụng
+PROCEDURE:cấp cứu,PROCEDURE,cấp cứu,,,,4,4,cấp cứu
+CONDITION:rụng trứng,CONDITION,rụng trứng,,,N92.3 Chảy máu lúc rụng trứng,4,4,rụng trứng
+DRUG:magie,DRUG,magie,,,285140 The Magic Bullet,4,4,magie
+DOSAGE:một,DOSAGE,một,,,,4,3,một
+BODY_PART:nội tiết tố,BODY_PART,nội tiết tố,,,,4,4,nội tiết tố
+PROCEDURE:phơi,PROCEDURE,phơi,,,,4,4,phơi
+RxNorm:11256,DRUG,vitamin E,RxNorm,11256,,4,4,vitamin e
+RxNorm:1151,DRUG,ascorbic acid,RxNorm,1151,,4,4,vitamin c
+DRUG:phốtpho,DRUG,phốtpho,,,314787 PHOSPHO-SODA,4,3,phốtpho
+DRUG:protid,DRUG,protid,,,261623 ,4,2,protid
+BODY_PART:thực quản,BODY_PART,thực quản,,,,4,3,thực quản
+CONDITION:hoại tử,CONDITION,hoại tử,,,M87 Hoại tử xương,4,4,hoại tử
+BODY_PART:đường tiêu hóa,BODY_PART,đường tiêu hóa,,,,4,4,đường tiêu hóa
+DRUG:bạch phục linh,DRUG,bạch phục linh,,,"1044547 SODIUM FLUORIDE 2.5 mg in 1 g ORAL PASTE, DENTIFRICE [Linhart]",4,4,bạch phục linh
+DOSAGE:5htp,DOSAGE,5htp,,,,4,4,5htp
+PROCEDURE:que cấy,PROCEDURE,que cấy,,,,4,4,que cấy
+CONDITION:thính,CONDITION,thính,,,C72.4 U ác của thần kinh thính giác,4,2,thính
+DRUG:giả,DRUG,giả,,,581662 ALCOHOL 70 mL in 100 mL TOPICAL GEL [Gia B-Care],4,2,giả
+BODY_PART:trứng,BODY_PART,trứng,,,,4,3,trứng
+BODY_PART:cánh tay,BODY_PART,cánh tay,,,,4,3,cánh tay
+PROCEDURE:phương,PROCEDURE,phương,,,,4,4,phương
+DRUG:sữa,DRUG,sữa,,,,4,4,sữa
+BODY_PART:mũi,BODY_PART,mũi,,,,4,3,mũi
+PROCEDURE:chữa trị,PROCEDURE,chữa trị,,,,4,4,chữa trị
+DRUG:tiêm ngừa,DRUG,tiêm ngừa,,,236188 tiemonium,4,2,tiêm ngừa
+PROCEDURE:nha khoa,PROCEDURE,nha khoa,,,,4,4,nha khoa
+CONDITION:tiêu xương hàm,CONDITION,tiêu xương hàm,,,M89.5 Tiêu xương,4,3,tiêu xương hàm
+PROCEDURE:giả,PROCEDURE,giả,,,,4,4,giả
+BODY_PART:chân răng,BODY_PART,chân răng,,,,4,4,chân răng
+BODY_PART:hàm mặt,BODY_PART,hàm mặt,,,,4,3,hàm mặt
+CONDITION:mất,CONDITION,mất,,,P50 Mất máu thai,4,4,mất
+TEST:chụp xquang,TEST,chụp xquang,,,,4,3,chụp xquang
+PROCEDURE:phân tích,PROCEDURE,phân tích,,,,4,4,phân tích
+DRUG:dưỡng chất,DRUG,dưỡng chất,,,1721053 ,4,4,dưỡng chất
+DRUG:oxy,DRUG,oxy,,,218983 ,4,4,oxy
+RxNorm:11416,DRUG,zinc,RxNorm,11416,,4,3,kẽm
+CONDITION:hói đầu,CONDITION,hói đầu,,,R51 Đau đầu,4,3,hói đầu
+BODY_PART:tay chân,BODY_PART,tay chân,,,,4,4,tay chân
+CONDITION:còi xương,CONDITION,còi xương,,,E64.3 Di chứng của bệnh còi xương,4,4,còi xương
+DOSAGE:hiệu quả nhất,DOSAGE,hiệu quả nhất,,,,4,4,hiệu quả nhất
+ICD-10:T78.4,CONDITION,Dị ứng chưa xác định,ICD-10,T78.4,,4,3,dị ứng
+DRUG:tiệt trùng,DRUG,tiệt trùng,,,,4,3,tiệt trùng
+RxNorm:9853,DRUG,sodium,RxNorm,9853,,4,3,natri
+PROCEDURE:điện tử,PROCEDURE,điện tử,,,,4,4,điện tử
+BODY_PART:họng,BODY_PART,họng,,,,4,3,họng
+DRUG:sữa rửa mặt,DRUG,sữa rửa mặt,,,1305743 Mat,4,4,sữa rửa mặt
+CONDITION:kinh,CONDITION,kinh,,,G40 Động kinh,3,3,kinh
+CONDITION:dị vật,CONDITION,dị vật,,,T16 Dị vật ở tai,3,3,dị vật
+BODY_PART:đường sinh dục,BODY_PART,đường sinh dục,,,,3,3,đường sinh dục
+CONDITION:mất máu,CONDITION,mất máu,,,P50 Mất máu thai,3,3,mất máu
+BODY_PART:gan,BODY_PART,gan,,,,3,3,gan
+CONDITION:ung thư nội mạc,CONDITION,ung thư nội mạc,,,"C80.9 U ác, không đặc hiệu",3,3,ung thư nội mạc
+BODY_PART:cổ,BODY_PART,cổ,,,,3,3,cổ
+BODY_PART:tử,BODY_PART,tử,,,,3,3,tử
+DOSAGE:đến,DOSAGE,đến,,,,3,3,đến
+PROCEDURE:vòng kinh nhân tạo,PROCEDURE,vòng kinh nhân tạo,,,,3,2,vòng kinh nhân tạo
+TEST:sinh đẻ,TEST,sinh đẻ,,,,3,3,sinh đẻ
+DOSAGE:hai mươi mốt viên,DOSAGE,hai mươi mốt viên,,,,3,2,hai mươi mốt viên
+BODY_PART:bộ xương,BODY_PART,bộ xương,,,,3,3,bộ xương
+DRUG:chất khoáng,DRUG,chất khoáng,,,1721053 ,3,3,chất khoáng
+DOSAGE:chín mươi phần trăm,DOSAGE,chín mươi phần trăm,,,,3,3,chín mươi phần trăm
+DOSAGE:bảy mươi phần trăm,DOSAGE,bảy mươi phần trăm,,,,3,3,bảy mươi phần trăm
+DRUG:sắt thép,DRUG,sắt thép,,,1540283 ,3,1,sắt thép
+DOSAGE:ba mươi phần trăm,DOSAGE,ba mươi phần trăm,,,,3,3,ba mươi phần trăm
+DOSAGE:đứa,DOSAGE,đứa,,,,3,3,đứa
+ICD-10:C16,CONDITION,U ác của dạ dày,ICD-10,C16,,3,3,ung thư dạ dày; ung thư dạ
+TEST:đào thải,TEST,đào thải,,,,3,3,đào thải
+ICD-10:M19.9,CONDITION,Thoái hóa khớp không đặc hiệu,ICD-10,M19.9,,3,3,thoái hóa khớp; viêm xương khớp
+DRUG:biphosphonate,DRUG,biphosphonate,,,3508 ,3,3,biphosphonate
+CONDITION:lười vận động,CONDITION,lười vận động,,,R27.8 Thiếu phối hợp không xác định khác,3,2,lười vận động
+DOSAGE:chiều cao,DOSAGE,chiều cao,,,,3,3,chiều cao
+CONDITION:quấy khóc,CONDITION,quấy khóc,,,Z41.0 Cấy tóc,3,2,quấy khóc
+ICD-10:E78.5,CONDITION,"Tăng lipid máu, không đặc hiệu",ICD-10,E78.5,,3,3,mỡ máu
+CONDITION:thoái hóa đầu gối,CONDITION,thoái hóa đầu gối,,,M17 thoái hóa khớp gối,3,3,thoái hóa đầu gối
+ICD-10:M47,CONDITION,thoái hóa cột sống,ICD-10,M47,,3,3,thoái hóa cột sống
+TEST:chụp x quang,TEST,chụp x quang,,,,3,3,chụp x-quang; chụp x quang
+ICD-10:A09.9,CONDITION,Viêm dạ dày - ruột và viêm đại tràng khác không rõ nguyên nhân,ICD-10,A09.9,,3,3,tiêu chảy
+CONDITION:áp xe,CONDITION,áp xe,,,K75.0 áp xe ở gan,3,2,áp xe
+ICD-10:F32.9,CONDITION,Giai đoạn trầm cảm không đặc hiệu,ICD-10,F32.9,,3,3,trầm cảm
+DRUG:bạch thược,DRUG,bạch thược,,,,3,3,bạch thược
+ICD-10:K52.9,CONDITION,"Viêm dạ dày - ruột và đại tràng không nhiễm trùng, không đặc hiệu",ICD-10,K52.9,,3,2,viêm đại tràng
+CONDITION:tổn thương viêm,CONDITION,tổn thương viêm,,,S26 Tổn thương tim,3,3,tổn thương viêm
+PROCEDURE:tạo,PROCEDURE,tạo,,,,3,3,tạo
+BODY_PART:thần kinh ruột,BODY_PART,thần kinh ruột,,,,3,3,thần kinh ruột
+PROCEDURE:phương pháp,PROCEDURE,phương pháp,,,,3,3,phương pháp
+PROCEDURE:que tránh,PROCEDURE,que tránh,,,,3,3,que tránh
+DRUG:thai,DRUG,thai,,,723792 ,3,3,thai
+PROCEDURE:que cấy tránh thai,PROCEDURE,que cấy tránh thai,,,,3,3,que cấy tránh thai
+DOSAGE:một nang,DOSAGE,một nang,,,,3,3,một nang
+DRUG:pháp tránh thai,DRUG,pháp tránh thai,,,723792 ,3,3,pháp tránh thai
+CONDITION:hiv,CONDITION,hiv,,,B24 Bệnh do HIV không xác định,3,3,hiv
+BODY_PART:kinh,BODY_PART,kinh,,,,3,3,kinh
+PROCEDURE:tránh thai,PROCEDURE,tránh thai,,,,3,3,tránh thai
+CONDITION:rối loạn kinh,CONDITION,rối loạn kinh,,,N95 Rối loạn mãn kinh và rối loạn chu mãn kinh,3,3,rối loạn kinh
+ICD-10:L70.9,CONDITION,Trứng cá không điển hình,ICD-10,L70.9,,3,2,mụn
+ICD-10:M54,CONDITION,Đau lưng,ICD-10,M54,,3,3,đau lưng
+TEST:tự bảo vệ,TEST,tự bảo vệ,,,,3,3,tự bảo vệ
+DOSAGE:một vài,DOSAGE,một vài,,,,3,3,một vài
+DRUG:thuốc tê,DRUG,thuốc tê,,,540905 TE Anatoxal Berna,3,3,thuốc tê
+PROCEDURE:gây mê,PROCEDURE,gây mê,,,,3,3,gây mê
+BODY_PART:răng giả,BODY_PART,răng giả,,,,3,3,răng giả
+BODY_PART:xương nền,BODY_PART,xương nền,,,,3,3,xương nền
+BODY_PART:ổ răng,BODY_PART,ổ răng,,,,3,2,ổ răng
+BODY_PART:khối xương,BODY_PART,khối xương,,,,3,2,khối xương
+BODY_PART:xương sọ,BODY_PART,xương sọ,,,,3,3,xương sọ
+PROCEDURE:ít xâm lấn,PROCEDURE,ít xâm lấn,,,,3,3,ít xâm lấn
+TEST:chụp phim,TEST,chụp phim,,,,3,3,chụp phim
+BODY_PART:implant,BODY_PART,implant,,,,3,1,implant
+TEST:chụp ct,TEST,chụp ct,,,,3,3,chụp ct
+ICD-10:R40.0,CONDITION,Buồn ngủ,ICD-10,R40.0,,3,3,buồn ngủ
+ICD-10:L67.1,CONDITION,Thay đổi màu tóc,ICD-10,L67.1,,3,3,bạc tóc
+CONDITION:trầy xước,CONDITION,trầy xước,,,L70.5 Trứng cá trầy xước ở thiếu nữ,3,1,trầy xước
+CONDITION:tăng,CONDITION,tăng,,,R46.3 Tăng động,3,3,tăng
+CONDITION:tăng cân,CONDITION,tăng cân,,,R63.5 Tăng cân bất thường,3,3,tăng cân
+BODY_PART:ngón trỏ,BODY_PART,ngón trỏ,,,,3,3,ngón trỏ
+BODY_PART:bàn tay,BODY_PART,bàn tay,,,,3,3,bàn tay
+CONDITION:ngưng thở,CONDITION,ngưng thở,,,I46 Ngưng tim,3,3,ngưng thở
+PROCEDURE:huấn luyện,PROCEDURE,huấn luyện,,,,3,3,huấn luyện
+BODY_PART:núm vú,BODY_PART,núm vú,,,,3,3,núm vú
+ICD-10:J18,CONDITION,"Viêm phổi, vi sinh vật không xác định",ICD-10,J18,,3,3,viêm phổi
+CONDITION:viêm da,CONDITION,viêm da,,,M33 Viêm da cơ,3,3,viêm da
+PROCEDURE:tủ đông,PROCEDURE,tủ đông,,,,3,3,tủ đông
+CONDITION:thèm ăn,CONDITION,thèm ăn,,,R63.0 Chán ăn,3,3,thèm ăn
+PROCEDURE:ốc tai điện tử,PROCEDURE,ốc tai điện tử,,,,3,3,ốc tai điện tử
+ICD-10:J11,CONDITION,"Cúm, vi rút không xác định",ICD-10,J11,,3,3,cảm cúm
+PROCEDURE:hạ sốt,PROCEDURE,hạ sốt,,,,3,3,hạ sốt
+ICD-10:H81.9,CONDITION,"Rối loạn chức năng tiền đình, không đặc hiệu",ICD-10,H81.9,,3,3,tiền đình
+BODY_PART:cơ khớp,BODY_PART,cơ khớp,,,,3,3,cơ khớp
+PROCEDURE:viện,PROCEDURE,viện,,,,3,3,viện
+CONDITION:thuyên tắc phổi,CONDITION,thuyên tắc phổi,,,I26.0 Thuyên tắc phổi có tâm phế cấp,3,2,thuyên tắc phổi
+PROCEDURE:nhập khoa,PROCEDURE,nhập khoa,,,,3,3,nhập khoa
+ICD-10:T14.9,CONDITION,"Tổn thương, chưa xác định",ICD-10,T14.9,,2,2,chấn thương
+PROCEDURE:nội khoa,PROCEDURE,nội khoa,,,,2,2,nội khoa
+ICD-10:C50,CONDITION,U ác của vú,ICD-10,C50,,2,2,ung thư vú
+DRUG:thuốc chống đông,DRUG,thuốc chống đông,,,328141 Angelica sinensis preparation,2,2,thuốc chống đông
+DOSAGE:hai nhóm,DOSAGE,hai nhóm,,,,2,2,hai nhóm
+CONDITION:cholesterol,CONDITION,cholesterol,,,E78.0 Tăng cholesterol máu đơn thuần,2,2,cholesterol
+BODY_PART:dòng máu,BODY_PART,dòng máu,,,,2,2,dòng máu
+PROCEDURE:truyền máu,PROCEDURE,truyền máu,,,,2,2,truyền máu
+PROCEDURE:phụ khoa,PROCEDURE,phụ khoa,,,,2,2,phụ khoa
+TEST:ct,TEST,ct,,,,2,2,ct
+TEST:mri,TEST,mri,,,,2,2,mri
+DOSAGE:cái thứ ba,DOSAGE,cái thứ ba,,,,2,2,cái thứ ba
+CONDITION:u xơ,CONDITION,u xơ,,,K74.6 Xơ gan khác và không đặc hiệu,2,2,u xơ
+PROCEDURE:cho thuốc,PROCEDURE,cho thuốc,,,,2,2,cho thuốc
+BODY_PART:đường bụng,BODY_PART,đường bụng,,,,2,2,đường bụng
+CONDITION:u,CONDITION,u,,,D17 U mỡ,2,2,u
+CONDITION:vô kinh,CONDITION,vô kinh,,,"N91.2 Vô kinh, không đặc hiệu",2,2,vô kinh
+BODY_PART:thanh mạc,BODY_PART,thanh mạc,,,,2,2,thanh mạc
+BODY_PART:cơ tử cung,BODY_PART,cơ tử cung,,,,2,2,cơ tử cung
+CONDITION:xơ,CONDITION,xơ,,,K74.6 Xơ gan khác và không đặc hiệu,2,2,xơ
+PROCEDURE:bơm,PROCEDURE,bơm,,,,2,2,bơm
+DOSAGE:phần ngàn,DOSAGE,phần ngàn,,,,2,2,phần ngàn
+TEST:khoan,TEST,khoan,,,,2,1,khoan
+CONDITION:sảy thai,CONDITION,sảy thai,,,N96 Hay sảy thai,2,2,sảy thai
+CONDITION:quan hệ tình dục,CONDITION,quan hệ tình dục,,,F66.2 Rối loạn quan hệ tình dục,2,2,quan hệ tình dục
+CONDITION:tiền,CONDITION,tiền,,,"H81.9 Rối loạn chức năng tiền đình, không đặc hiệu",2,2,tiền
+CONDITION:cung,CONDITION,cung,,,"N71 Viêm tử cung, trừ cổ tử cung",2,2,cung
+DOSAGE:trăm phần trăm,DOSAGE,trăm phần trăm,,,,2,2,trăm phần trăm
+CONDITION:ra kinh,CONDITION,ra kinh,,,G40 Động kinh,2,2,ra kinh
+DRUG:viên ngừa thai,DRUG,viên ngừa thai,,,723792 ,2,2,viên ngừa thai
+DRUG:viên,DRUG,viên,,,1876560 ,2,2,viên
+PROCEDURE:nhân tạo,PROCEDURE,nhân tạo,,,,2,2,nhân tạo
+DOSAGE:mười hai milimet,DOSAGE,mười hai milimet,,,,2,2,mười hai milimet
+DRUG:beta,DRUG,beta,,,215654 ,2,2,beta
+RxNorm:340705,DRUG,human chorionic gonadotropin,RxNorm,340705,,2,2,hcg
+DRUG:beta hcg,DRUG,beta hcg,,,215654 ,2,2,beta hcg
+DRUG:viên thuốc ngừa thai,DRUG,viên thuốc ngừa thai,,,723792 ,2,2,viên thuốc ngừa thai
+DRUG:tinh trùng,DRUG,tinh trùng,,,,2,2,tinh trùng
+DOSAGE:hai tám viên,DOSAGE,hai tám viên,,,,2,2,hai tám viên
+DOSAGE:bảy viên,DOSAGE,bảy viên,,,,2,2,bảy viên
+DRUG:thuốc bổ,DRUG,thuốc bổ,,,2690033 BO-653,2,2,thuốc bổ
+TEST:khám thai,TEST,khám thai,,,,2,2,khám thai
+CONDITION:chuyển dạ,CONDITION,chuyển dạ,,,O47 Chuyển dạ giả,2,1,chuyển dạ
+BODY_PART:nhau thai,BODY_PART,nhau thai,,,,2,2,nhau thai
+PROCEDURE:nằm viện,PROCEDURE,nằm viện,,,,2,2,nằm viện
+DOSAGE:mức độ xương,DOSAGE,mức độ xương,,,,2,2,mức độ xương
+BODY_PART:bộ não,BODY_PART,bộ não,,,,2,2,bộ não
+BODY_PART:hộp sọ,BODY_PART,hộp sọ,,,,2,1,hộp sọ
+DRUG:photpho,DRUG,photpho,,,314787 PHOSPHO-SODA,2,2,photpho
+DRUG:chất,DRUG,chất,,,1721053 ,2,2,chất
+BODY_PART:gân,BODY_PART,gân,,,,2,2,gân
+ICD-10:E46,CONDITION,Suy dinh dưỡng do thiếu protein năng lượng không xác định,ICD-10,E46,,2,2,suy dinh dưỡng
+CONDITION:còi cọc,CONDITION,còi cọc,,,E64.3 Di chứng của bệnh còi xương,2,2,còi cọc
+PROCEDURE:sinh,PROCEDURE,sinh,,,,2,2,sinh
+DRUG:ánh nắng,DRUG,ánh nắng,,,1546017 Tenofovir (anh.),2,2,ánh nắng
+DRUG:ánh sáng,DRUG,ánh sáng,,,1546017 Tenofovir (anh.),2,2,ánh sáng
+RxNorm:11258,DRUG,vitamin K,RxNorm,11258,,2,2,vitamin k
+RxNorm:1544139,DRUG,carbonate ion,RxNorm,1544139,,2,1,carbonate
+BODY_PART:xương khớp,BODY_PART,xương khớp,,,,2,2,xương khớp
+DRUG:axit amin,DRUG,axit amin,,,215227 ,2,2,axit amin
+DRUG:axit,DRUG,axit,,,1242999 Axitinib,2,2,axit
+DRUG:amin,DRUG,amin,,,215227 ,2,2,amin
+DRUG:anlene,DRUG,anlene,,,,2,1,anlene
+DOSAGE:một lọ,DOSAGE,một lọ,,,,2,2,một lọ
+PROCEDURE:màn hình,PROCEDURE,màn hình,,,,2,2,màn hình
+ICD-10:M51.2,CONDITION,Thoát vị đĩa đệm đốt sống đặc hiệu khác,ICD-10,M51.2,,2,2,thoát vị đĩa đệm
+CONDITION:đau thần kinh tọa,CONDITION,đau thần kinh tọa,,,M54.3 Đau dây thần kinh tọa,2,1,đau thần kinh tọa
+BODY_PART:cột sống,BODY_PART,cột sống,,,,2,2,cột sống
+PROCEDURE:điều trị bệnh lý,PROCEDURE,điều trị bệnh lý,,,,2,2,điều trị bệnh lý
+PROCEDURE:đánh dấu,PROCEDURE,đánh dấu,,,,2,2,đánh dấu
+ICD-10:F03,CONDITION,Sa sút trí tuệ không biệt định,ICD-10,F03,,2,2,sa sút trí tuệ
+CONDITION:rối loạn đại tiện,CONDITION,rối loạn đại tiện,,,R15 Đại tiện mất tự chủ,2,2,rối loạn đại tiện
+CONDITION:lỵ,CONDITION,lỵ,,,M02.1 Bệnh khớp sau lỵ,2,2,lỵ
+DRUG:bạch truật,DRUG,bạch truật,,,796312 ,2,2,bạch truật
+DRUG:hoàng bá,DRUG,hoàng bá,,,1928002 BA-2664,2,2,hoàng bá
+BODY_PART:ruột non,BODY_PART,ruột non,,,,2,2,ruột non
+BODY_PART:niêm mạc ruột,BODY_PART,niêm mạc ruột,,,,2,2,niêm mạc ruột
+CONDITION:trướng bụng,CONDITION,trướng bụng,,,K66.1 Cổ trướng máu,2,1,trướng bụng
+PROCEDURE:nhuận,PROCEDURE,nhuận,,,,2,2,nhuận
+PROCEDURE:bào chế,PROCEDURE,bào chế,,,,2,2,bào chế
+BODY_PART:hệ tiêu hóa,BODY_PART,hệ tiêu hóa,,,,2,2,hệ tiêu hóa
+CONDITION:bệnh lý viêm,CONDITION,bệnh lý viêm,,,M05.2 Viêm mạch trong bệnh lý thấp khớp,2,2,bệnh lý viêm
+RxNorm:1311214,DRUG,serotonin,RxNorm,1311214,,2,2,serotonin
+TEST:điều hòa,TEST,điều hòa,,,,2,2,điều hòa
+DRUG:enzym,DRUG,enzym,,,2621352 ,2,2,enzym
+PROCEDURE:kháng,PROCEDURE,kháng,,,,2,2,kháng
+PROCEDURE:y học cổ truyền,PROCEDURE,y học cổ truyền,,,,2,2,y học cổ truyền
+BODY_PART:tỳ vị,BODY_PART,tỳ vị,,,,2,1,tỳ vị
+DRUG:loại bỏ,DRUG,loại bỏ,,,2690033 BO-653,2,2,loại bỏ
+DRUG:chất kích thích,DRUG,chất kích thích,,,718359 THICK & EASY,2,2,chất kích thích
+PROCEDURE:sinh mổ,PROCEDURE,sinh mổ,,,,2,2,sinh mổ
+DRUG:bao cao su,DRUG,bao cao su,,,235524 Gan Cao Root,2,2,bao cao su
+DRUG:định,DRUG,định,,,2288160 Dinh huong,2,2,định
+PROCEDURE:dây vòng,PROCEDURE,dây vòng,,,,2,2,dây vòng
+CONDITION:nám da,CONDITION,nám da,,,L81.1 Rám má,2,2,nám da
+DRUG:vô khuẩn,DRUG,vô khuẩn,,,390563 ,2,2,vô khuẩn
+ICD-10:R41.3,CONDITION,Các loại quên khác,ICD-10,R41.3,,2,1,hay quên
+BODY_PART:bộ phận sinh dục,BODY_PART,bộ phận sinh dục,,,,2,2,bộ phận sinh dục
+ICD-10:R11,CONDITION,Buồn nôn và nôn,ICD-10,R11,,2,2,buồn nôn
+BODY_PART:kinh nguyệt,BODY_PART,kinh nguyệt,,,,2,2,kinh nguyệt
+DOSAGE:thứ hai,DOSAGE,thứ hai,,,,2,2,thứ hai
+CONDITION:phụ khoa,CONDITION,phụ khoa,,,Z01.4 Khám phụ khoa (tổng quát) (thường kỳ),2,2,phụ khoa
+PROCEDURE:vô trùng,PROCEDURE,vô trùng,,,,2,2,vô trùng
+DOSAGE:mười chín,DOSAGE,mười chín,,,,2,2,mười chín
+DRUG:delta,DRUG,delta,,,216438 Delta D3,2,2,delta
+DOSAGE:người,DOSAGE,người,,,,2,2,người
+ICD-10:B16,CONDITION,Viêm gan B cấp,ICD-10,B16,,2,2,viêm gan b
+DOSAGE:ba,DOSAGE,ba,,,,2,2,ba
+DRUG:giãn cách,DRUG,giãn cách,,,236640 ,2,2,giãn cách
+PROCEDURE:lộ trình,PROCEDURE,lộ trình,,,,2,2,lộ trình
+CONDITION:mất hết răng,CONDITION,mất hết răng,,,S02.5 Gãy răng,2,2,mất hết răng
+PROCEDURE:cấy ghép,PROCEDURE,cấy ghép,,,,2,2,cấy ghép
+CONDITION:mọc,CONDITION,mọc,,,K00.6 Rối loạn mọc răng,2,2,mọc
+CONDITION:tê,CONDITION,tê,,,R20.2 Dị cảm da,2,2,tê
+BODY_PART:dây thần kinh,BODY_PART,dây thần kinh,,,,2,2,dây thần kinh
+CONDITION:tiêu,CONDITION,tiêu,,,M89.5 Tiêu xương,2,2,tiêu
+CONDITION:mất cái răng,CONDITION,mất cái răng,,,S02.5 Gãy răng,2,2,mất cái răng
+PROCEDURE:đeo,PROCEDURE,đeo,,,,2,2,đeo
+BODY_PART:hàm giả,BODY_PART,hàm giả,,,,2,2,hàm giả
+BODY_PART:răng mặt,BODY_PART,răng mặt,,,,2,2,răng mặt
+BODY_PART:hàm dưới,BODY_PART,hàm dưới,,,,2,2,hàm dưới
+TEST:chụp phim ct,TEST,chụp phim ct,,,,2,2,chụp phim ct
+PROCEDURE:phim ba chiều,PROCEDURE,phim ba chiều,,,,2,2,phim ba chiều
+DRUG:lấn,DRUG,lấn,,,6227 Lanolin,2,2,lấn
+PROCEDURE:xâm lấn,PROCEDURE,xâm lấn,,,,2,2,xâm lấn
+PROCEDURE:nhổ,PROCEDURE,nhổ,,,,2,2,nhổ
+TEST:xét nghiệm máu,TEST,xét nghiệm máu,,,,2,2,xét nghiệm máu
+CONDITION:bị tiêu,CONDITION,bị tiêu,,,M89.5 Tiêu xương,2,2,bị tiêu
+BODY_PART:nướu,BODY_PART,nướu,,,,2,2,nướu
+TEST:chụp mri,TEST,chụp mri,,,,2,2,chụp mri
+TEST:xquang,TEST,xquang,,,,2,2,xquang
+PROCEDURE:phát âm,PROCEDURE,phát âm,,,,2,2,phát âm
+BODY_PART:tủy,BODY_PART,tủy,,,,2,2,tủy
+BODY_PART:hấp,BODY_PART,hấp,,,,2,2,hấp
+CONDITION:gãy tóc,CONDITION,gãy tóc,,,Z41.0 Cấy tóc,2,2,gãy tóc
+CONDITION:khô,CONDITION,khô,,,L85.3 Khô da,2,2,khô
+DRUG:chất nội sinh,DRUG,chất nội sinh,,,1721053 ,2,1,chất nội sinh
+PROCEDURE:bấm xù,PROCEDURE,bấm xù,,,,2,2,bấm xù
+DOSAGE:tần suất,DOSAGE,tần suất,,,,2,2,tần suất
+BODY_PART:chân tóc,BODY_PART,chân tóc,,,,2,2,chân tóc
+BODY_PART:hồng cầu,BODY_PART,hồng cầu,,,,2,2,hồng cầu
+DOSAGE:chiều,DOSAGE,chiều,,,,2,2,chiều
+DOSAGE:phổ biến nhất,DOSAGE,phổ biến nhất,,,,2,2,phổ biến nhất
+BODY_PART:ngón cái,BODY_PART,ngón cái,,,,2,2,ngón cái
+CONDITION:tức giận,CONDITION,tức giận,,,R45.4 Cáu gắt và tức giận,2,2,tức giận
+PROCEDURE:thăm,PROCEDURE,thăm,,,,2,2,thăm
+PROCEDURE:âm,PROCEDURE,âm,,,,2,2,âm
+PROCEDURE:thí nghiệm,PROCEDURE,thí nghiệm,,,,2,2,thí nghiệm
+BODY_PART:trái tim,BODY_PART,trái tim,,,,2,2,trái tim
+CONDITION:thương,CONDITION,thương,,,"T14.9 Tổn thương, chưa xác định",2,2,thương
+CONDITION:bị thương,CONDITION,bị thương,,,"T14.9 Tổn thương, chưa xác định",2,2,bị thương
+CONDITION:tâm thần vận động,CONDITION,tâm thần vận động,,,G12.2 Bệnh tế bào thần kinh vận động,2,2,tâm thần vận động
+TEST:thích nghi,TEST,thích nghi,,,,2,2,thích nghi
+CONDITION:khóc,CONDITION,khóc,,,R30.0 Đái khó,2,2,khóc
+PROCEDURE:chia tay,PROCEDURE,chia tay,,,,2,2,chia tay
+BODY_PART:cẳng chân,BODY_PART,cẳng chân,,,,2,2,cẳng chân
+ICD-10:R05,CONDITION,Ho,ICD-10,R05,,2,2,ho
+CONDITION:ung thư máu,CONDITION,ung thư máu,,,"C80.9 U ác, không đặc hiệu",2,2,ung thư máu
+CONDITION:hội chứng đột tử,CONDITION,hội chứng đột tử,,,R95 Hội chứng đột tử trẻ em,2,2,hội chứng đột tử
+DRUG:sữa non,DRUG,sữa non,,,408333 ,2,2,sữa non
+BODY_PART:vú,BODY_PART,vú,,,,2,2,vú
+BODY_PART:tuyến vú,BODY_PART,tuyến vú,,,,2,2,tuyến vú
+CONDITION:siêu vi b,CONDITION,siêu vi b,,,O28.3 Dấu hiệu siêu âm bất thường ở bà mẹ phát hiện khi khám thai,2,2,siêu vi b
+PROCEDURE:trữ,PROCEDURE,trữ,,,,2,2,trữ
+PROCEDURE:lưu trữ,PROCEDURE,lưu trữ,,,,2,2,lưu trữ
+PROCEDURE:trữ đông,PROCEDURE,trữ đông,,,,2,2,trữ đông
+PROCEDURE:tủ lạnh,PROCEDURE,tủ lạnh,,,,2,1,tủ lạnh
+PROCEDURE:đông lạnh,PROCEDURE,đông lạnh,,,,2,2,đông lạnh
+CONDITION:đổ mồ hôi,CONDITION,đổ mồ hôi,,,L74.4 Không tiết mồ hôi,2,2,đổ mồ hôi
+RxNorm:486961,DRUG,phosphate ion,RxNorm,486961,,2,2,phosphate
+DRUG:ánh nắng mặt trời,DRUG,ánh nắng mặt trời,,,1546017 Tenofovir (anh.),2,2,ánh nắng mặt trời
+DRUG:multivitamin,DRUG,multivitamin,,,604365 ,2,2,multivitamin
+DRUG:chất điện giải,DRUG,chất điện giải,,,1312387 dimethicone-diene dimethicone crosspolymer,2,2,chất điện giải
+DOSAGE:một ca,DOSAGE,một ca,,,,2,2,một ca
+CONDITION:mất nước,CONDITION,mất nước,,,P74.1 Mất nước của trẻ sơ sinh,2,2,mất nước
+PROCEDURE:cấy ốc tai,PROCEDURE,cấy ốc tai,,,,2,2,cấy ốc tai
+BODY_PART:thần y,BODY_PART,thần y,,,,2,2,thần y
+ICD-10:H60,CONDITION,Viêm tai ngoài,ICD-10,H60,,2,2,viêm tai ngoài
+BODY_PART:gáy,BODY_PART,gáy,,,,2,2,gáy
+DOSAGE:đa phần,DOSAGE,đa phần,,,,2,2,đa phần
+CONDITION:liệt mặt,CONDITION,liệt mặt,,,"G83.9 Hội chứng liệt, không đặc hiệu",2,2,liệt mặt
+BODY_PART:vai,BODY_PART,vai,,,,2,2,vai
+CONDITION:cảm sốt,CONDITION,cảm sốt,,,R50 Sốt không rõ nguyên nhân và khác,2,2,cảm sốt
+DRUG:thuốc giảm đau hạ sốt,DRUG,thuốc giảm đau hạ sốt,,,1867479 SOT-107,2,2,thuốc giảm đau hạ sốt
+CONDITION:thiếu máu não,CONDITION,thiếu máu não,,,D64.9 Thiếu máu không đặc hiệu,2,2,thiếu máu não
+CONDITION:khối,CONDITION,khối,,,"D48.9 U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu",2,2,khối
+CONDITION:bệnh mạch máu,CONDITION,bệnh mạch máu,,,G95.1 Bệnh mạch máu tủy,2,2,bệnh mạch máu
+PROCEDURE:phẫu thuật tiêu hóa,PROCEDURE,phẫu thuật tiêu hóa,,,,2,2,phẫu thuật tiêu hóa
+TEST:đánh giá nguy cơ,TEST,đánh giá nguy cơ,,,,2,2,đánh giá nguy cơ
+PROCEDURE:xuất viện,PROCEDURE,xuất viện,,,,2,2,xuất viện
+CONDITION:tắc huyết khối tĩnh mạch,CONDITION,tắc huyết khối tĩnh mạch,,,I82.8 Thuyên tắc và huyết khối tĩnh mạch khác,2,2,tắc huyết khối tĩnh mạch
+CONDITION:vết bầm,CONDITION,vết bầm,,,R23.3 Vết bầm tím xuất huyết ngẫu phát,2,2,vết bầm
+BODY_PART:tĩnh,BODY_PART,tĩnh,,,,2,2,tĩnh
+CONDITION:mạch,CONDITION,mạch,,,H16.4 Tân mạch giác mạc,2,2,mạch
+PROCEDURE:phẫu thuật tạo hình,PROCEDURE,phẫu thuật tạo hình,,,,2,2,phẫu thuật tạo hình
+BODY_PART:động mạch,BODY_PART,động mạch,,,,2,2,động mạch
+CONDITION:nhiễm khuẩn,CONDITION,nhiễm khuẩn,,,M60.0 Viêm cơ nhiễm khuẩn,2,2,nhiễm khuẩn
+PROCEDURE:tăng cường hồi phục,PROCEDURE,tăng cường hồi phục,,,,2,1,tăng cường hồi phục
+DRUG:eras,DRUG,eras,,,1722239 The Itch Eraser,2,2,eras
+RxNorm:6375,DRUG,levodopa,RxNorm,6375,,2,2,levodopa
+DRUG:serum đặc trị,DRUG,serum đặc trị,,,215691 ,2,2,serum đặc trị
+CONDITION:thâm nám,CONDITION,thâm nám,,,L81.1 Rám má,2,2,thâm nám
+DRUG:gel lotion,DRUG,gel lotion,,,2200034 ,2,2,gel lotion
+CONDITION:ô nhiễm,CONDITION,ô nhiễm,,,Z58.5 Phơi nhiễm với các ô nhiễm khác,2,2,ô nhiễm
+BODY_PART:nguyệt,BODY_PART,nguyệt,,,,1,1,nguyệt
+CONDITION:không,CONDITION,không,,,Q60.2 Không có thận không đặc hiệu,1,1,không
+BODY_PART:thân mạc,BODY_PART,thân mạc,,,,1,1,thân mạc
+CONDITION:tăng sản,CONDITION,tăng sản,,,N85.0 Tăng sản tuyến nội mạc,1,1,tăng sản
+BODY_PART:nội,BODY_PART,nội,,,,1,1,nội
+CONDITION:mạc,CONDITION,mạc,,,H16.4 Tân mạch giác mạc,1,1,mạc
+ICD-10:C54.1,CONDITION,U ác của nội mạc tử cung,ICD-10,C54.1,,1,1,ung thư nội mạc tử cung
+DOSAGE:một mũi,DOSAGE,một mũi,,,,1,1,một mũi
+RxNorm:10324,DRUG,tamoxifen,RxNorm,10324,,1,1,tamoxifen
+PROCEDURE:stent,PROCEDURE,stent,,,,1,1,stent
+DRUG:chống đông,DRUG,chống đông,,,328141 Angelica sinensis preparation,1,1,chống đông
+CONDITION:rối loạn phóng noãn,CONDITION,rối loạn phóng noãn,,,F52.4 Phóng tinh sớm,1,1,rối loạn phóng noãn
+DOSAGE:một tỷ lớn,DOSAGE,một tỷ lớn,,,,1,1,một tỷ lớn
+DOSAGE:tỷ lệ lớn,DOSAGE,tỷ lệ lớn,,,,1,1,tỷ lệ lớn
+CONDITION:ung thư đường sinh dục,CONDITION,ung thư đường sinh dục,,,"C80.9 U ác, không đặc hiệu",1,1,ung thư đường sinh dục
+PROCEDURE:thăm hỏi,PROCEDURE,thăm hỏi,,,,1,1,thăm hỏi
+DOSAGE:mức độ máu,DOSAGE,mức độ máu,,,,1,1,mức độ máu
+TEST:cận lâm sàng,TEST,cận lâm sàng,,,,1,1,cận lâm sàng
+CONDITION:suy gan,CONDITION,suy gan,,,K72.1 Suy gan mãn,1,1,suy gan
+DRUG:hcv,DRUG,hcv,,,106234 clioquinol 30 MG/ML / hydrocortisone 10 MG/ML Topical Cream,1,1,hcv
+TEST:xét nghiệm chẩn đoán,TEST,xét nghiệm chẩn đoán,,,,1,1,xét nghiệm chẩn đoán
+PROCEDURE:hcv,PROCEDURE,hcv,,,,1,1,hcv
+CONDITION:rong huyết á,CONDITION,rong huyết á,,,I10 Bệnh lý tăng huyết áp,1,1,rong huyết á
+PROCEDURE:cắt u,PROCEDURE,cắt u,,,,1,1,cắt u
+DOSAGE:cái thứ tư,DOSAGE,cái thứ tư,,,,1,1,cái thứ tư
+DOSAGE:một bệnh nhân,DOSAGE,một bệnh nhân,,,,1,1,một bệnh nhân
+CONDITION:loạn kinh nguyệt,CONDITION,loạn kinh nguyệt,,,Z30.3 Hút kinh nguyệt,1,1,loạn kinh nguyệt
+TEST:siêu âm âm đạo,TEST,siêu âm âm đạo,,,,1,1,siêu âm âm đạo
+DOSAGE:8 milimet,DOSAGE,8 milimet,,,,1,1,8 milimet
+DOSAGE:tầm khoảng,DOSAGE,tầm khoảng,,,,1,1,tầm khoảng
+DOSAGE:ba bốn milimet,DOSAGE,ba bốn milimet,,,,1,1,ba bốn milimet
+BODY_PART:dap dap,BODY_PART,dap dap,,,,1,1,dap dap
+DOSAGE:đường kính,DOSAGE,đường kính,,,,1,1,đường kính
+DOSAGE:từ ba mươi đến năm mươi milimet,DOSAGE,từ ba mươi đến năm mươi milimet,,,,1,1,từ ba mươi đến năm mươi milimet
+DOSAGE:dưới ba mươi milimet,DOSAGE,dưới ba mươi milimet,,,,1,1,dưới ba mươi milimet
+DOSAGE:dưới ba milimet,DOSAGE,dưới ba milimet,,,,1,1,dưới ba milimet
+DOSAGE:năm lăm milimet,DOSAGE,năm lăm milimet,,,,1,1,năm lăm milimet
+DOSAGE:mươi milimet,DOSAGE,mươi milimet,,,,1,1,mươi milimet
+DOSAGE:cái,DOSAGE,cái,,,,1,1,cái
+DOSAGE:milimet,DOSAGE,milimet,,,,1,1,milimet
+DOSAGE:hai phần,DOSAGE,hai phần,,,,1,1,hai phần
+DOSAGE:tư,DOSAGE,tư,,,,1,1,tư
+BODY_PART:túi thai,BODY_PART,túi thai,,,,1,1,túi thai
+DOSAGE:tầm khoảng mười milimet,DOSAGE,tầm khoảng mười milimet,,,,1,1,tầm khoảng mười milimet
+DOSAGE:khoảng mười milimet,DOSAGE,khoảng mười milimet,,,,1,1,khoảng mười milimet
+DOSAGE:năm mươi lăm đến,DOSAGE,năm mươi lăm đến,,,,1,1,năm mươi lăm đến
+DOSAGE:bảy mươi tám mươi milimet,DOSAGE,bảy mươi tám mươi milimet,,,,1,1,bảy mươi tám mươi milimet
+CONDITION:khối nhân xơ tử cung,CONDITION,khối nhân xơ tử cung,,,C54 U ác của thân tử cung,1,1,khối nhân xơ tử cung
+BODY_PART:bồn tử cung,BODY_PART,bồn tử cung,,,,1,1,bồn tử cung
+CONDITION:nhân xơ tử công,CONDITION,nhân xơ tử công,,,J67.5 Bệnh phổi của công nhân trồng nấm,1,1,nhân xơ tử công
+PROCEDURE:tia siêu âm,PROCEDURE,tia siêu âm,,,,1,1,tia siêu âm
+DRUG:nhân,DRUG,nhân,,,,1,1,nhân
+BODY_PART:trực tràng,BODY_PART,trực tràng,,,,1,1,trực tràng
+CONDITION:polyp buồng,CONDITION,polyp buồng,,,N84.3 Polyp âm hộ,1,1,polyp buồng
+DRUG:natri clorua,DRUG,natri clorua,,,1301582 ,1,1,natri clorua
+DRUG:sonohysterography,DRUG,sonohysterography,,,,1,1,sonohysterography
+RxNorm:62356,DRUG,folate,RxNorm,62356,,1,1,folate
+BODY_PART:lớp niêm mạc,BODY_PART,lớp niêm mạc,,,,1,1,lớp niêm mạc
+DOSAGE:mười lăm mười sáu milimet,DOSAGE,mười lăm mười sáu milimet,,,,1,1,mười lăm mười sáu milimet
+BODY_PART:buồng,BODY_PART,buồng,,,,1,1,buồng
+TEST:bơm,TEST,bơm,,,,1,1,bơm
+CONDITION:đa đa polyp,CONDITION,đa đa polyp,,,N84.3 Polyp âm hộ,1,1,đa đa polyp
+CONDITION:vô sinh,CONDITION,vô sinh,,,N97 Vô sinh nữ,1,1,vô sinh
+CONDITION:quá sản nội mạc,CONDITION,quá sản nội mạc,,,L91 Các bệnh quá sản của da,1,1,quá sản nội mạc
+BODY_PART:van,BODY_PART,van,,,,1,1,van
+PROCEDURE:kìm buri,PROCEDURE,kìm buri,,,,1,1,kìm buri
+CONDITION:ra,CONDITION,ra,,,R04.2 Ho ra máu,1,1,ra
+CONDITION:máu,CONDITION,máu,,,"E78.5 Tăng lipid máu, không đặc hiệu",1,1,máu
+PROCEDURE:nạo buồng,PROCEDURE,nạo buồng,,,,1,1,nạo buồng
+CONDITION:u xơ tử,CONDITION,u xơ tử,,,K74.6 Xơ gan khác và không đặc hiệu,1,1,u xơ tử
+CONDITION:ung thư phụ khoa,CONDITION,ung thư phụ khoa,,,"C80.9 U ác, không đặc hiệu",1,1,ung thư phụ khoa
+TEST:giải phóng noãn,TEST,giải phóng noãn,,,,1,1,giải phóng noãn
+CONDITION:dương tính,CONDITION,dương tính,,,M05 Viêm khớp dạng thấp huyết thanh dương tính,1,1,dương tính
+TEST:siêu âm siêu âm,TEST,siêu âm siêu âm,,,,1,1,siêu âm siêu âm
+CONDITION:u buồng trứng,CONDITION,u buồng trứng,,,C56 U ác buồng trứng,1,1,u buồng trứng
+BODY_PART:màng trinh,BODY_PART,màng trinh,,,,1,1,màng trinh
+PROCEDURE:giải phẫu bệnh,PROCEDURE,giải phẫu bệnh,,,,1,1,giải phẫu bệnh
+CONDITION:viêm loét,CONDITION,viêm loét,,,K12.3 Viêm miệng (loét),1,1,viêm loét
+TEST:thám sát,TEST,thám sát,,,,1,1,thám sát
+CONDITION:ung thư tử cung,CONDITION,ung thư tử cung,,,C53 U ác của cổ tử cung,1,1,ung thư tử cung
+TEST:thăm,TEST,thăm,,,,1,1,thăm
+CONDITION:u cục,CONDITION,u cục,,,L28.1 Sẩn cục,1,1,u cục
+PROCEDURE:phẫu,PROCEDURE,phẫu,,,,1,1,phẫu
+DOSAGE:lớn hơn,DOSAGE,lớn hơn,,,,1,1,lớn hơn
+DOSAGE:tám milimet,DOSAGE,tám milimet,,,,1,1,tám milimet
+PROCEDURE:phát đông,PROCEDURE,phát đông,,,,1,1,phát đông
+PROCEDURE:duphaston,PROCEDURE,duphaston,,,,1,1,duphaston
+RxNorm:151675,DRUG,Duphaston,RxNorm,151675,,1,1,duphaston
+DOSAGE:ba viên,DOSAGE,ba viên,,,,1,1,ba viên
+DOSAGE:hai viên,DOSAGE,hai viên,,,,1,1,hai viên
+PROCEDURE:cho uống,PROCEDURE,cho uống,,,,1,1,cho uống
+TEST:sinh,TEST,sinh,,,,1,1,sinh
+DOSAGE:từ tám đến mười hai milimet,DOSAGE,từ tám đến mười hai milimet,,,,1,1,từ tám đến mười hai milimet
+DOSAGE:sáu milimet,DOSAGE,sáu milimet,,,,1,1,sáu milimet
+DOSAGE:sáu vỉ,DOSAGE,sáu vỉ,,,,1,1,sáu vỉ
+TEST:đẻ,TEST,đẻ,,,,1,1,đẻ
+DRUG:dab,DRUG,dab,,,214470 DAB(SUB 389)IL2,1,1,dab
+DOSAGE:vài chục,DOSAGE,vài chục,,,,1,1,vài chục
+DRUG:viên thuốc,DRUG,viên thuốc,,,1876560 ,1,1,viên thuốc
+BODY_PART:động trứng,BODY_PART,động trứng,,,,1,1,động trứng
+DRUG:viên thuốc uống,DRUG,viên thuốc uống,,,1876560 ,1,1,viên thuốc uống
+PROCEDURE:tiêm dưới,PROCEDURE,tiêm dưới,,,,1,1,tiêm dưới
+DOSAGE:tỷ lệ nhỏ,DOSAGE,tỷ lệ nhỏ,,,,1,1,tỷ lệ nhỏ
+DOSAGE:tám viên,DOSAGE,tám viên,,,,1,1,tám viên
+DOSAGE:hai mốt viên,DOSAGE,hai mốt viên,,,,1,1,hai mốt viên
+DOSAGE:hai mươi tám viên,DOSAGE,hai mươi tám viên,,,,1,1,hai mươi tám viên
+CONDITION:rối loạn kinh nguyệt,CONDITION,rối loạn kinh nguyệt,,,Z30.3 Hút kinh nguyệt,1,1,rối loạn kinh nguyệt
+PROCEDURE:mổ cắt,PROCEDURE,mổ cắt,,,,1,1,mổ cắt
+DOSAGE:hai mươi phần trăm,DOSAGE,hai mươi phần trăm,,,,1,1,hai mươi phần trăm
+DOSAGE:năm triệu ca,DOSAGE,năm triệu ca,,,,1,1,năm triệu ca
+DOSAGE:ngàn ca,DOSAGE,ngàn ca,,,,1,1,ngàn ca
+BODY_PART:cổ tay,BODY_PART,cổ tay,,,,1,1,cổ tay
+BODY_PART:khớp háng,BODY_PART,khớp háng,,,,1,1,khớp háng
+ICD-10:S72.0,CONDITION,Gãy cổ xương đùi,ICD-10,S72.0,,1,1,gãy cổ xương đùi
+CONDITION:gãy chân,CONDITION,gãy chân,,,"S92.21 Gãy xương cổ chân khác, gãy hở",1,1,gãy chân
+CONDITION:đói,CONDITION,đói,,,T73.0 Tác động của đói,1,1,đói
+DOSAGE:một mét sáu,DOSAGE,một mét sáu,,,,1,1,một mét sáu
+BODY_PART:hệ thống xương,BODY_PART,hệ thống xương,,,,1,1,hệ thống xương
+BODY_PART:lượng,BODY_PART,lượng,,,,1,1,lượng
+BODY_PART:bầu hoàn não,BODY_PART,bầu hoàn não,,,,1,1,bầu hoàn não
+BODY_PART:sọ,BODY_PART,sọ,,,,1,1,sọ
+DRUG:flo,DRUG,flo,,,644943 ,1,1,flo
+DRUG:vi chất dinh dưỡng,DRUG,vi chất dinh dưỡng,,,2686517 VIS-410,1,1,vi chất dinh dưỡng
+BODY_PART:tủy xương,BODY_PART,tủy xương,,,,1,1,tủy xương
+CONDITION:lão già,CONDITION,lão già,,,H52.4 Lão thị,1,1,lão già
+DOSAGE:hai mươi ba mươi phần trăm,DOSAGE,hai mươi ba mươi phần trăm,,,,1,1,hai mươi ba mươi phần trăm
+DRUG:xi măng,DRUG,xi măng,,,4265 ,1,1,xi măng
+PROCEDURE:giấy phép,PROCEDURE,giấy phép,,,,1,1,giấy phép
+PROCEDURE:cấp phép,PROCEDURE,cấp phép,,,,1,1,cấp phép
+BODY_PART:mật độ,BODY_PART,mật độ,,,,1,1,mật độ
+BODY_PART:vi mô xương,BODY_PART,vi mô xương,,,,1,1,vi mô xương
+BODY_PART:vùng xương,BODY_PART,vùng xương,,,,1,1,vùng xương
+DOSAGE:chín mươi chín phần trăm,DOSAGE,chín mươi chín phần trăm,,,,1,1,chín mươi chín phần trăm
+DOSAGE:một phần trăm,DOSAGE,một phần trăm,,,,1,1,một phần trăm
+ICD-10:R25.2,CONDITION,Chuột rút và co cứng,ICD-10,R25.2,,1,1,chuột rút
+CONDITION:mắc xương,CONDITION,mắc xương,,,H74.3 Những bất thường mắc phải khác của chuỗi xương con dị dạng xương con mắc phải khác,1,1,mắc xương
+DOSAGE:một đứa con,DOSAGE,một đứa con,,,,1,1,một đứa con
+PROCEDURE:cho,PROCEDURE,cho,,,,1,1,cho
+DOSAGE:từ hai,DOSAGE,từ hai,,,,1,1,từ hai
+DOSAGE:một người nữ,DOSAGE,một người nữ,,,,1,1,một người nữ
+TEST:nở,TEST,nở,,,,1,1,nở
+CONDITION:trắng,CONDITION,trắng,,,L30.5 Vảy phấn trắng,1,1,trắng
+TEST:hấp,TEST,hấp,,,,1,1,hấp
+BODY_PART:da đen,BODY_PART,da đen,,,,1,1,da đen
+TEST:sinh nở,TEST,sinh nở,,,,1,1,sinh nở
+ICD-10:C34,CONDITION,U ác của phế quản và phổi,ICD-10,C34,,1,1,ung thư phổi
+ICD-10:C22,CONDITION,U ác của gan và đường mật trong gan,ICD-10,C22,,1,1,ung thư gan
+CONDITION:tắc mạch máu,CONDITION,tắc mạch máu,,,O88.1 Tắc mạch ối,1,1,tắc mạch máu
+CONDITION:thiếu dinh dưỡng,CONDITION,thiếu dinh dưỡng,,,E63 Thiếu dinh dưỡng khác,1,1,thiếu dinh dưỡng
+CONDITION:rối loạn nội môi,CONDITION,rối loạn nội môi,,,E34 Rối loạn nội tiết khác,1,1,rối loạn nội môi
+CONDITION:tụt khí huyết,CONDITION,tụt khí huyết,,,"I95.9 Hạ huyết áp, không đặc hiệu",1,1,tụt khí huyết
+CONDITION:viêm đa khớp dạng thấp,CONDITION,viêm đa khớp dạng thấp,,,M06 Viêm khớp dạng thấp khác,1,1,viêm đa khớp dạng thấp
+CONDITION:lười vận,CONDITION,lười vận,,,R27.8 Thiếu phối hợp không xác định khác,1,1,lười vận
+DRUG:tiền chất,DRUG,tiền chất,,,436168 ,1,1,tiền chất
+DRUG:amino axit,DRUG,amino axit,,,1873122 ,1,1,amino axit
+DOSAGE:năm trăm viên,DOSAGE,năm trăm viên,,,,1,1,năm trăm viên
+RxNorm:6211,DRUG,lactose,RxNorm,6211,,1,1,lactose
+DRUG:ánh sáng mặt trời,DRUG,ánh sáng mặt trời,,,1546017 Tenofovir (anh.),1,1,ánh sáng mặt trời
+DOSAGE:ba mươi lăm phần trăm,DOSAGE,ba mươi lăm phần trăm,,,,1,1,ba mươi lăm phần trăm
+RxNorm:114265,DRUG,Fosamax,RxNorm,114265,,1,1,fosamax
+DOSAGE:một chai,DOSAGE,một chai,,,,1,1,một chai
+DOSAGE:sáu mươi phần trăm,DOSAGE,sáu mươi phần trăm,,,,1,1,sáu mươi phần trăm
+DOSAGE:mười tám bmi,DOSAGE,mười tám bmi,,,,1,1,mười tám bmi
+DOSAGE:tám đến,DOSAGE,tám đến,,,,1,1,tám đến
+TEST:đào thải nhiều,TEST,đào thải nhiều,,,,1,1,đào thải nhiều
+CONDITION:tai biến bộ não,CONDITION,tai biến bộ não,,,"I64 Đột quị, không xác định do xuất huyết hay nhồi máu (Tai biến mạch máu não)",1,1,tai biến bộ não
+DOSAGE:tám mươi phần trăm,DOSAGE,tám mươi phần trăm,,,,1,1,tám mươi phần trăm
+CONDITION:thiếu hụt,CONDITION,thiếu hụt,,,T73.8 Tác động khác của thiếu hụt,1,1,thiếu hụt
+CONDITION:buồn ói,CONDITION,buồn ói,,,R11 Buồn nôn và nôn,1,1,buồn ói
+CONDITION:ói mửa,CONDITION,ói mửa,,,K91.0 Nôn mửa sau phẫu thuật dạ dày - ruột,1,1,ói mửa
+DOSAGE:viên,DOSAGE,viên,,,,1,1,viên
+CONDITION:xẹp,CONDITION,xẹp,,,J98.1 Xẹp phổi,1,1,xẹp
+BODY_PART:tuyến cận giáp,BODY_PART,tuyến cận giáp,,,,1,1,tuyến cận giáp
+PROCEDURE:viên,PROCEDURE,viên,,,,1,1,viên
+DRUG:kiểm định,DRUG,kiểm định,,,2288160 Dinh huong,1,1,kiểm định
+DOSAGE:một phần lớn,DOSAGE,một phần lớn,,,,1,1,một phần lớn
+CONDITION:viêm thần kinh tọa,CONDITION,viêm thần kinh tọa,,,M54.3 Đau dây thần kinh tọa,1,1,viêm thần kinh tọa
+CONDITION:gãy cột sống,CONDITION,gãy cột sống,,,D16.6 Cột sống,1,1,gãy cột sống
+BODY_PART:vùng,BODY_PART,vùng,,,,1,1,vùng
+BODY_PART:gót chân,BODY_PART,gót chân,,,,1,1,gót chân
+DOSAGE:một lít,DOSAGE,một lít,,,,1,1,một lít
+DOSAGE:năm trăm miligam,DOSAGE,năm trăm miligam,,,,1,1,năm trăm miligam
+DOSAGE:một ngàn miligam,DOSAGE,một ngàn miligam,,,,1,1,một ngàn miligam
+PROCEDURE:supplement,PROCEDURE,supplement,,,,1,1,supplement
+DOSAGE:một cái viên,DOSAGE,một cái viên,,,,1,1,một cái viên
+ICD-10:M10.9,CONDITION,Bệnh Gút không đặc hiệu,ICD-10,M10.9,,1,1,bệnh gút
+CONDITION:trẻ hóa,CONDITION,trẻ hóa,,,M92 Hư điểm cốt hóa khác ở trẻ em,1,1,trẻ hóa
+DOSAGE:một đứa,DOSAGE,một đứa,,,,1,1,một đứa
+PROCEDURE:truyền nhiễm,PROCEDURE,truyền nhiễm,,,,1,1,truyền nhiễm
+DOSAGE:một người con,DOSAGE,một người con,,,,1,1,một người con
+PROCEDURE:phác đồ,PROCEDURE,phác đồ,,,,1,1,phác đồ
+PROCEDURE:uống,PROCEDURE,uống,,,,1,1,uống
+CONDITION:trào ngược dạ dày,CONDITION,trào ngược dạ dày,,,K21 Bệnh trào ngược dạ dày - thực quản,1,1,trào ngược dạ dày
+DOSAGE:một ống,DOSAGE,một ống,,,,1,1,một ống
+ICD-10:N19,CONDITION,Suy thận không xác định,ICD-10,N19,,1,1,suy thận
+DOSAGE:chai,DOSAGE,chai,,,,1,1,chai
+CONDITION:quang cảm,CONDITION,quang cảm,,,Y57.5 Chất cản quang,1,1,quang cảm
+DOSAGE:ba người,DOSAGE,ba người,,,,1,1,ba người
+BODY_PART:răng hàm mặt,BODY_PART,răng hàm mặt,,,,1,1,răng hàm mặt
+CONDITION:hội chứng ruột kích,CONDITION,hội chứng ruột kích,,,K58 Hội chứng ruột kích thích,1,1,hội chứng ruột kích
+CONDITION:đau quặn bụng,CONDITION,đau quặn bụng,,,N23 Cơn đau quặn thận không xác định,1,1,đau quặn bụng
+CONDITION:rối loạn chức năng,CONDITION,rối loạn chức năng,,,K59.8 Rối loạn chức năng đặc hiệu khác,1,1,rối loạn chức năng
+CONDITION:đại tiện,CONDITION,đại tiện,,,R15 Đại tiện mất tự chủ,1,1,đại tiện
+CONDITION:kích,CONDITION,kích,,,"L30.9 Viêm da, không đặc hiệu",1,1,kích
+PROCEDURE:công nghệ sinh học hoa kỳ,PROCEDURE,công nghệ sinh học hoa kỳ,,,,1,1,công nghệ sinh học hoa kỳ
+DOSAGE:một hộp,DOSAGE,một hộp,,,,1,1,một hộp
+DOSAGE:hai mươi viên,DOSAGE,hai mươi viên,,,,1,1,hai mươi viên
+BODY_PART:thống,BODY_PART,thống,,,,1,1,thống
+BODY_PART:đại,BODY_PART,đại,,,,1,1,đại
+CONDITION:tiện,CONDITION,tiện,,,R15 Đại tiện mất tự chủ,1,1,tiện
+BODY_PART:hố chậu trái,BODY_PART,hố chậu trái,,,,1,1,hố chậu trái
+BODY_PART:hố chậu phải,BODY_PART,hố chậu phải,,,,1,1,hố chậu phải
+BODY_PART:vùng bụng,BODY_PART,vùng bụng,,,,1,1,vùng bụng
+ICD-10:K58,CONDITION,Hội chứng ruột kích thích,ICD-10,K58,,1,1,hội chứng ruột kích thích
+CONDITION:tam chứng,CONDITION,tam chứng,,,N30.3 Viêm tam giác bàng quang,1,1,tam chứng
+BODY_PART:đường tay,BODY_PART,đường tay,,,,1,1,đường tay
+DOSAGE:vài trăm,DOSAGE,vài trăm,,,,1,1,vài trăm
+DRUG:nam dược thần hiệu,DRUG,nam dược thần hiệu,,,1433201 Ling Nam Ultra Balm,1,1,nam dược thần hiệu
+DRUG:độc tố,DRUG,độc tố,,,214915 ,1,1,độc tố
+CONDITION:viêm sung huyết,CONDITION,viêm sung huyết,,,I50.0 Suy tim sung huyết,1,1,viêm sung huyết
+CONDITION:amip,CONDITION,amip,,,C09 U ác của amiđan,1,1,amip
+BODY_PART:ruột già,BODY_PART,ruột già,,,,1,1,ruột già
+DRUG:tràng,DRUG,tràng,,,1046593 BENZALKONIUM CHLORIDE 0.13 g in 100 mL TOPICAL LIQUID [Zep Tranq Mdw AB Foam],1,1,tràng
+CONDITION:rối loạn tiêu hóa,CONDITION,rối loạn tiêu hóa,,,P78 Các rối loạn khác của hệ tiêu hóa trong giai đoạn chu sinh,1,1,rối loạn tiêu hóa
+BODY_PART:vi sinh,BODY_PART,vi sinh,,,,1,1,vi sinh
+CONDITION:rối loạn cơ năng,CONDITION,rối loạn cơ năng,,,K59.8 Rối loạn chức năng đặc hiệu khác,1,1,rối loạn cơ năng
+CONDITION:bệnh lý hội chứng ruột,CONDITION,bệnh lý hội chứng ruột,,,K63 Bệnh khác của ruột,1,1,bệnh lý hội chứng ruột
+DOSAGE:tám mươi đến chín mươi phần trăm,DOSAGE,tám mươi đến chín mươi phần trăm,,,,1,1,tám mươi đến chín mươi phần trăm
+DRUG:lợi khuẩn,DRUG,lợi khuẩn,,,1246280 PANAX GINSENG FRUIT 90 mL in 100 mL ORAL LIQUID [Ginseng Khan],1,1,lợi khuẩn
+CONDITION:hại khuẩn,CONDITION,hại khuẩn,,,M00 Viêm khớp nhiễm khuẩn do vi khuẩn sinh mủ,1,1,hại khuẩn
+DOSAGE:tám mươi lăm phần trăm,DOSAGE,tám mươi lăm phần trăm,,,,1,1,tám mươi lăm phần trăm
+DOSAGE:mười lăm phần trăm,DOSAGE,mười lăm phần trăm,,,,1,1,mười lăm phần trăm
+DRUG:sinh,DRUG,sinh,,,,1,1,sinh
+PROCEDURE:nghệ,PROCEDURE,nghệ,,,,1,1,nghệ
+DRUG:tạp chất,DRUG,tạp chất,,,219539 ,1,1,tạp chất
+PROCEDURE:đông y,PROCEDURE,đông y,,,,1,1,đông y
+DRUG:chất bổ béo,DRUG,chất bổ béo,,,2690033 BO-653,1,1,chất bổ béo
+PROCEDURE:tem phiếu,PROCEDURE,tem phiếu,,,,1,1,tem phiếu
+PROCEDURE:que cấy dưới da,PROCEDURE,que cấy dưới da,,,,1,1,que cấy dưới da
+CONDITION:thính giả,CONDITION,thính giả,,,C72.4 U ác của thần kinh thính giác,1,1,thính giả
+PROCEDURE:thính giả,PROCEDURE,thính giả,,,,1,1,thính giả
+DRUG:sàng lọc trước sinh,DRUG,sàng lọc trước sinh,,,1428042 Sang Whole,1,1,sàng lọc trước sinh
+CONDITION:nguyệt,CONDITION,nguyệt,,,Z30.3 Hút kinh nguyệt,1,1,nguyệt
+CONDITION:phụ,CONDITION,phụ,,,Q63.0 Thận phụ,1,1,phụ
+DRUG:dụng cụ tránh thai,DRUG,dụng cụ tránh thai,,,"1315114 Dungeness crab, cooked preparation",1,1,dụng cụ tránh thai
+TEST:thụ tinh,TEST,thụ tinh,,,,1,1,thụ tinh
+PROCEDURE:dây vòng dây,PROCEDURE,dây vòng dây,,,,1,1,dây vòng dây
+PROCEDURE:đặt vòng trong buồng,PROCEDURE,đặt vòng trong buồng,,,,1,1,đặt vòng trong buồng
+CONDITION:tụt vòng,CONDITION,tụt vòng,,,"I95.9 Hạ huyết áp, không đặc hiệu",1,1,tụt vòng
+DOSAGE:chín mươi tám phần,DOSAGE,chín mươi tám phần,,,,1,1,chín mươi tám phần
+PROCEDURE:hiện,PROCEDURE,hiện,,,,1,1,hiện
+DRUG:chất nhầy,DRUG,chất nhầy,,,1721053 ,1,1,chất nhầy
+TEST:thụ thai,TEST,thụ thai,,,,1,1,thụ thai
+PROCEDURE:chế tạo,PROCEDURE,chế tạo,,,,1,1,chế tạo
+DOSAGE:hai nang,DOSAGE,hai nang,,,,1,1,hai nang
+BODY_PART:sẹo,BODY_PART,sẹo,,,,1,1,sẹo
+CONDITION:mọc mụn,CONDITION,mọc mụn,,,L70.9 Trứng cá không điển hình,1,1,mọc mụn
+DOSAGE:đến năm,DOSAGE,đến năm,,,,1,1,đến năm
+PROCEDURE:que que tránh thai,PROCEDURE,que que tránh thai,,,,1,1,que que tránh thai
+DOSAGE:hai đến ba xăngtimét,DOSAGE,hai đến ba xăngtimét,,,,1,1,hai đến ba xăngtimét
+BODY_PART:vùng sinh dục,BODY_PART,vùng sinh dục,,,,1,1,vùng sinh dục
+DOSAGE:một trăm phần trăm,DOSAGE,một trăm phần trăm,,,,1,1,một trăm phần trăm
+BODY_PART:hố nách,BODY_PART,hố nách,,,,1,1,hố nách
+CONDITION:bầm tím,CONDITION,bầm tím,,,P58.0 Vàng da sơ sinh do bầm tím,1,1,bầm tím
+DRUG:miếng dán tránh thai,DRUG,miếng dán tránh thai,,,723792 ,1,1,miếng dán tránh thai
+CONDITION:dị dạng,CONDITION,dị dạng,,,O43.1 Dị dạng bánh rau,1,1,dị dạng
+CONDITION:khối u xơ,CONDITION,khối u xơ,,,"D48.9 U tân sinh không chắc chắn hoặc không biết tính chất, không đặc hiệu",1,1,khối u xơ
+ICD-10:A16.9,CONDITION,Lao hô hấp không xác định và không đề cập đến việc xác nhận về vi khuẩn học và mô học,ICD-10,A16.9,,1,1,lao
+BODY_PART:động kinh,BODY_PART,động kinh,,,,1,1,động kinh
+DOSAGE:khoảng,DOSAGE,khoảng,,,,1,1,khoảng
+DRUG:cách,DRUG,cách,,,257564 ,1,1,cách
+BODY_PART:nội tiết tố nữ,BODY_PART,nội tiết tố nữ,,,,1,1,nội tiết tố nữ
+CONDITION:sạch,CONDITION,sạch,,,L81.4 Bệnh tăng sắc tố do melanin khác,1,1,sạch
+CONDITION:loạn kinh,CONDITION,loạn kinh,,,N95 Rối loạn mãn kinh và rối loạn chu mãn kinh,1,1,loạn kinh
+PROCEDURE:khâu vô trùng,PROCEDURE,khâu vô trùng,,,,1,1,khâu vô trùng
+CONDITION:hành kinh,CONDITION,hành kinh,,,F91 Rối loạn hành vi,1,1,hành kinh
+DRUG:uống,DRUG,uống,,,,1,1,uống
+PROCEDURE:trao đổi,PROCEDURE,trao đổi,,,,1,1,trao đổi
+PROCEDURE:nuôi con,PROCEDURE,nuôi con,,,,1,1,nuôi con
+PROCEDURE:nuôi,PROCEDURE,nuôi,,,,1,1,nuôi
+CONDITION:hành,CONDITION,hành,,,F91 Rối loạn hành vi,1,1,hành
+PROCEDURE:thay băng vệ sinh,PROCEDURE,thay băng vệ sinh,,,,1,1,thay băng vệ sinh
+CONDITION:đau bụng kinh,CONDITION,đau bụng kinh,,,R10 Đau bụng và vùng chậu,1,1,đau bụng kinh
+DRUG:pháp,DRUG,pháp,,,,1,1,pháp
+TEST:xác,TEST,xác,,,,1,1,xác
+DRUG:cây tránh thai,DRUG,cây tránh thai,,,723792 ,1,1,cây tránh thai
+PROCEDURE:tháo,PROCEDURE,tháo,,,,1,1,tháo
+DRUG:thủ thuật đặt vòng,DRUG,thủ thuật đặt vòng,,,1039339 ALCOHOL 80 mL in 100 mL TOPICAL LIQUID [Kill Dat],1,1,thủ thuật đặt vòng
+PROCEDURE:băng,PROCEDURE,băng,,,,1,1,băng
+PROCEDURE:băng ép,PROCEDURE,băng ép,,,,1,1,băng ép
+DRUG:vòng tránh thai,DRUG,vòng tránh thai,,,723792 ,1,1,vòng tránh thai
+CONDITION:u xơ u nang,CONDITION,u xơ u nang,,,E84 Xơ nang,1,1,u xơ u nang
+DOSAGE:chín mươi tám phần trăm,DOSAGE,chín mươi tám phần trăm,,,,1,1,chín mươi tám phần trăm
+CONDITION:viêm bộ,CONDITION,viêm bộ,,,J01.4 Viêm toàn bộ xoang cấp,1,1,viêm bộ
+BODY_PART:sinh dục,BODY_PART,sinh dục,,,,1,1,sinh dục
+ICD-10:N83.0,CONDITION,U nang nang trứng,ICD-10,N83.0,,1,1,u nang buồng trứng
+DOSAGE:từ,DOSAGE,từ,,,,1,1,từ
+CONDITION:u vú,CONDITION,u vú,,,C50 U ác của vú,1,1,u vú
+PROCEDURE:khâu,PROCEDURE,khâu,,,,1,1,khâu
+CONDITION:băng kinh,CONDITION,băng kinh,,,Z48.0 Chăm sóc băng bó và chỉ khâu,1,1,băng kinh
+PROCEDURE:cấy tránh thai,PROCEDURE,cấy tránh thai,,,,1,1,cấy tránh thai
+PROCEDURE:phương pháp đặt vòng,PROCEDURE,phương pháp đặt vòng,,,,1,1,phương pháp đặt vòng
+PROCEDURE:đặt que cấy,PROCEDURE,đặt que cấy,,,,1,1,đặt que cấy
+DOSAGE:một nửa,DOSAGE,một nửa,,,,1,1,một nửa
+PROCEDURE:tuyên truyền,PROCEDURE,tuyên truyền,,,,1,1,tuyên truyền
+PROCEDURE:trang bị,PROCEDURE,trang bị,,,,1,1,trang bị
+DOSAGE:hai mũi,DOSAGE,hai mũi,,,,1,1,hai mũi
+DRUG:kiểm soát dịch bệnh,DRUG,kiểm soát dịch bệnh,,,,1,1,kiểm soát dịch bệnh
+DOSAGE:chín,DOSAGE,chín,,,,1,1,chín
+DOSAGE:bảy,DOSAGE,bảy,,,,1,1,bảy
+DRUG:kiểm soát dịch,DRUG,kiểm soát dịch,,,,1,1,kiểm soát dịch
+DRUG:phòng chống dịch bệnh,DRUG,phòng chống dịch bệnh,,,1801603 influenza B virus B/Hong Kong/259/2010 antigen,1,1,phòng chống dịch bệnh
+DRUG:phòng chống dịch,DRUG,phòng chống dịch,,,1801603 influenza B virus B/Hong Kong/259/2010 antigen,1,1,phòng chống dịch
+DRUG:khai báo,DRUG,khai báo,,,2361280 SODIUM HYPOCHLORITE 1 mg in 1 L EXTRACORPOREAL LIQUID [QIAN BAO Disinfectant],1,1,khai báo
+DRUG:đẩy lùi,DRUG,đẩy lùi,,,2725154 ,1,1,đẩy lùi
+DRUG:ngừa,DRUG,ngừa,,,,1,1,ngừa
+DRUG:hậu giang,DRUG,hậu giang,,,236640 ,1,1,hậu giang
+DRUG:bạc liêu,DRUG,bạc liêu,,,1541087 Anti Bac,1,1,bạc liêu
+CONDITION:dịch bệnh,CONDITION,dịch bệnh,,,A20.9 Dịch hạch không xác định,1,1,dịch bệnh
+BODY_PART:đồng nai,BODY_PART,đồng nai,,,,1,1,đồng nai
+BODY_PART:đồng tháp,BODY_PART,đồng tháp,,,,1,1,đồng tháp
+DRUG:biện pháp giãn cách,DRUG,biện pháp giãn cách,,,236640 ,1,1,biện pháp giãn cách
+DRUG:bỏ,DRUG,bỏ,,,2690033 BO-653,1,1,bỏ
+CONDITION:nhiễm bệnh,CONDITION,nhiễm bệnh,,,G92 Bệnh não nhiễm độc,1,1,nhiễm bệnh
+DRUG:đóng góp,DRUG,đóng góp,,,328141 Angelica sinensis preparation,1,1,đóng góp
+TEST:trắc nghiệm,TEST,trắc nghiệm,,,,1,1,trắc nghiệm
+DRUG:cách ly,DRUG,cách ly,,,2169671 LY-2881835,1,1,cách ly
+CONDITION:bị nhiễm bệnh,CONDITION,bị nhiễm bệnh,,,G92 Bệnh não nhiễm độc,1,1,bị nhiễm bệnh
+DOSAGE:phân,DOSAGE,phân,,,,1,1,phân
+PROCEDURE:tầng,PROCEDURE,tầng,,,,1,1,tầng
+DOSAGE:ba tầng,DOSAGE,ba tầng,,,,1,1,ba tầng
+DOSAGE:tầng thấp,DOSAGE,tầng thấp,,,,1,1,tầng thấp
+DRUG:tiêm chích,DRUG,tiêm chích,,,236188 tiemonium,1,1,tiêm chích
+DRUG:thực hiện,DRUG,thực hiện,,,,1,1,thực hiện
+DRUG:tiêm ngừa vắc xin,DRUG,tiêm ngừa vắc xin,,,2638732 VAC-52150,1,1,tiêm ngừa vắc xin
+TEST:thoa,TEST,thoa,,,,1,1,thoa
+DRUG:sàng lọc,DRUG,sàng lọc,,,1428042 Sang Whole,1,1,sàng lọc
+TEST:chụp chụp phim,TEST,chụp chụp phim,,,,1,1,chụp chụp phim
+PROCEDURE:tiểu phẫu,PROCEDURE,tiểu phẫu,,,,1,1,tiểu phẫu
+CONDITION:giả,CONDITION,giả,,,Z76.5 Giả bệnh [đóng giả có ý thức],1,1,giả
+PROCEDURE:phẫu thuật ghép,PROCEDURE,phẫu thuật ghép,,,,1,1,phẫu thuật ghép
+TEST:chụp mri xquang,TEST,chụp mri xquang,,,,1,1,chụp mri xquang
+CONDITION:thẩm mỹ,CONDITION,thẩm mỹ,,,L23.2 Viêm da  dị ứng tiếp xúc do mỹ phẩm,1,1,thẩm mỹ
+TEST:chụp hình,TEST,chụp hình,,,,1,1,chụp hình
+CONDITION:mỏng,CONDITION,mỏng,,,R53 Khó ở và mệt mỏi,1,1,mỏng
+CONDITION:mất ba cái răng,CONDITION,mất ba cái răng,,,"K08.1 Mất răng do tai nạn, do nhổ răng hay bệnh nha chu khu trú",1,1,mất ba cái răng
+PROCEDURE:cắm implant,PROCEDURE,cắm implant,,,,1,1,cắm implant
+BODY_PART:nha,BODY_PART,nha,,,,1,1,nha
+PROCEDURE:chu,PROCEDURE,chu,,,,1,1,chu
+BODY_PART:xương bánh răng,BODY_PART,xương bánh răng,,,,1,1,xương bánh răng
+BODY_PART:mô sống,BODY_PART,mô sống,,,,1,1,mô sống
+BODY_PART:khuôn mặt,BODY_PART,khuôn mặt,,,,1,1,khuôn mặt
+PROCEDURE:nha chu,PROCEDURE,nha chu,,,,1,1,nha chu
+CONDITION:u nang,CONDITION,u nang,,,N83.0 U nang nang trứng,1,1,u nang
+BODY_PART:vùng mặt,BODY_PART,vùng mặt,,,,1,1,vùng mặt
+DOSAGE:phần phần hồng,DOSAGE,phần phần hồng,,,,1,1,phần phần hồng
+PROCEDURE:vật liệu nhân tạo,PROCEDURE,vật liệu nhân tạo,,,,1,1,vật liệu nhân tạo
+PROCEDURE:chườm lạnh,PROCEDURE,chườm lạnh,,,,1,1,chườm lạnh
+BODY_PART:tế bào xương,BODY_PART,tế bào xương,,,,1,1,tế bào xương
+BODY_PART:mô mềm,BODY_PART,mô mềm,,,,1,1,mô mềm
+BODY_PART:xương khối,BODY_PART,xương khối,,,,1,1,xương khối
+BODY_PART:xương miếng,BODY_PART,xương miếng,,,,1,1,xương miếng
+DRUG:kiểm kế hoạch,DRUG,kiểm kế hoạch,,,1604558 Lacticaseibacillus casei KE-99,1,1,kiểm kế hoạch
+CONDITION:bị tiêu xương,CONDITION,bị tiêu xương,,,M89.5 Tiêu xương,1,1,bị tiêu xương
+PROCEDURE:phẫu thuật ghép xương,PROCEDURE,phẫu thuật ghép xương,,,,1,1,phẫu thuật ghép xương
+PROCEDURE:phim,PROCEDURE,phim,,,,1,1,phim
+BODY_PART:bề,BODY_PART,bề,,,,1,1,bề
+PROCEDURE:gây tê,PROCEDURE,gây tê,,,,1,1,gây tê
+CONDITION:bệnh nôm na,CONDITION,bệnh nôm na,,,Q61 Các bệnh nang thận,1,1,bệnh nôm na
+PROCEDURE:dựng phim,PROCEDURE,dựng phim,,,,1,1,dựng phim
+DOSAGE:tăng thể tích,DOSAGE,tăng thể tích,,,,1,1,tăng thể tích
+DOSAGE:lên,DOSAGE,lên,,,,1,1,lên
+PROCEDURE:trồng trồng,PROCEDURE,trồng trồng,,,,1,1,trồng trồng
+PROCEDURE:răng,PROCEDURE,răng,,,,1,1,răng
+BODY_PART:xương của chân,BODY_PART,xương của chân,,,,1,1,xương của chân
+PROCEDURE:ít xâm,PROCEDURE,ít xâm,,,,1,1,ít xâm
+DOSAGE:cái hàm,DOSAGE,cái hàm,,,,1,1,cái hàm
+TEST:chụp lại phim ct,TEST,chụp lại phim ct,,,,1,1,chụp lại phim ct
+PROCEDURE:xâm,PROCEDURE,xâm,,,,1,1,xâm
+CONDITION:đau buốt,CONDITION,đau buốt,,,G56.4 Bỏng buốt,1,1,đau buốt
+BODY_PART:hàm trên,BODY_PART,hàm trên,,,,1,1,hàm trên
+TEST:chụp,TEST,chụp,,,,1,1,chụp
+TEST:phim,TEST,phim,,,,1,1,phim
+DRUG:khảo sát,DRUG,khảo sát,,,1540283 ,1,1,khảo sát
+PROCEDURE:niềng,PROCEDURE,niềng,,,,1,1,niềng
+PROCEDURE:dán,PROCEDURE,dán,,,,1,1,dán
+PROCEDURE:sứ,PROCEDURE,sứ,,,,1,1,sứ
+PROCEDURE:hình,PROCEDURE,hình,,,,1,1,hình
+BODY_PART:xương ổ răng,BODY_PART,xương ổ răng,,,,1,1,xương ổ răng
+ICD-10:K02,CONDITION,Sâu răng,ICD-10,K02,,1,1,sâu răng
+TEST:khám chẩn đoán,TEST,khám chẩn đoán,,,,1,1,khám chẩn đoán
+TEST:test,TEST,test,,,,1,1,test
+PROCEDURE:phục hình,PROCEDURE,phục hình,,,,1,1,phục hình
+CONDITION:mất nhiều,CONDITION,mất nhiều,,,Z90.7 Mất (nhiều) cơ quan sinh dục mắc phải,1,1,mất nhiều
+CONDITION:xương,CONDITION,xương,,,T14.2 Gãy xương chưa xác định vùng cơ thể,1,1,xương
+PROCEDURE:cái hàm,PROCEDURE,cái hàm,,,,1,1,cái hàm
+BODY_PART:giả,BODY_PART,giả,,,,1,1,giả
+BODY_PART:xương bên,BODY_PART,xương bên,,,,1,1,xương bên
+CONDITION:nha chu,CONDITION,nha chu,,,K05.5 Bệnh nha chu,1,1,nha chu
+BODY_PART:dưới,BODY_PART,dưới,,,,1,1,dưới
+CONDITION:tiêu xương ít,CONDITION,tiêu xương ít,,,M89.5 Tiêu xương,1,1,tiêu xương ít
+BODY_PART:xương ghép,BODY_PART,xương ghép,,,,1,1,xương ghép
+BODY_PART:xương tiêu,BODY_PART,xương tiêu,,,,1,1,xương tiêu
+PROCEDURE:cắm,PROCEDURE,cắm,,,,1,1,cắm
+PROCEDURE:trợ,PROCEDURE,trợ,,,,1,1,trợ
+DOSAGE:tám,DOSAGE,tám,,,,1,1,tám
+CONDITION:nhổ,CONDITION,nhổ,,,F63.3 Nhổ tóc,1,1,nhổ
+CONDITION:mất xương,CONDITION,mất xương,,,G47.0 Rối loạn vào giấc và duy trì giấc ngủ [mất ngủ],1,1,mất xương
+PROCEDURE:nhổ bỏ,PROCEDURE,nhổ bỏ,,,,1,1,nhổ bỏ
+BODY_PART:lớp xương,BODY_PART,lớp xương,,,,1,1,lớp xương
+PROCEDURE:lấy bỏ,PROCEDURE,lấy bỏ,,,,1,1,lấy bỏ
+PROCEDURE:cấy một cái chân răng,PROCEDURE,cấy một cái chân răng,,,,1,1,cấy một cái chân răng
+BODY_PART:răng sứ,BODY_PART,răng sứ,,,,1,1,răng sứ
+CONDITION:bệnh lý ở,CONDITION,bệnh lý ở,,,I51.8 Bệnh lý khác được xác định là bệnh lý của tim,1,1,bệnh lý ở
+CONDITION:hói,CONDITION,hói,,,"T59 Ngộ độc khí khác, khói và hơi",1,1,hói
+DOSAGE:phân nửa,DOSAGE,phân nửa,,,,1,1,phân nửa
+CONDITION:bạc,CONDITION,bạc,,,L67.1 Thay đổi màu tóc,1,1,bạc
+PROCEDURE:máy sấy tóc,PROCEDURE,máy sấy tóc,,,,1,1,máy sấy tóc
+BODY_PART:nang lông,BODY_PART,nang lông,,,,1,1,nang lông
+CONDITION:hói tóc,CONDITION,hói tóc,,,L67.1 Thay đổi màu tóc,1,1,hói tóc
+DOSAGE:bốn liệu,DOSAGE,bốn liệu,,,,1,1,bốn liệu
+DRUG:dầu gội đầu,DRUG,dầu gội đầu,,,1438119 Go-dry,1,1,dầu gội đầu
+PROCEDURE:mesotherapy,PROCEDURE,mesotherapy,,,,1,1,mesotherapy
+PROCEDURE:lăn kim,PROCEDURE,lăn kim,,,,1,1,lăn kim
+DOSAGE:ba nhóm,DOSAGE,ba nhóm,,,,1,1,ba nhóm
+TEST:tuần,TEST,tuần,,,,1,1,tuần
+DRUG:chất ăn,DRUG,chất ăn,,,46356 AN-9,1,1,chất ăn
+CONDITION:thiếu chất,CONDITION,thiếu chất,,,D64.9 Thiếu máu không đặc hiệu,1,1,thiếu chất
+DRUG:khói bụi nắng nóng,DRUG,khói bụi nắng nóng,,,"487380 BRIEF,VALUE BUY FQP #VB-012",1,1,khói bụi nắng nóng
+CONDITION:xơ yếu,CONDITION,xơ yếu,,,K74.6 Xơ gan khác và không đặc hiệu,1,1,xơ yếu
+PROCEDURE:ngụy trang,PROCEDURE,ngụy trang,,,,1,1,ngụy trang
+BODY_PART:cái chân tóc,BODY_PART,cái chân tóc,,,,1,1,cái chân tóc
+CONDITION:bị hư tổn,CONDITION,bị hư tổn,,,N04 Hội chứng thận hư,1,1,bị hư tổn
+CONDITION:hóa,CONDITION,hóa,,,M61 Vôi hóa và cốt hóa cơ,1,1,hóa
+BODY_PART:vi thể,BODY_PART,vi thể,,,,1,1,vi thể
+DRUG:đi nắng,DRUG,đi nắng,,,216558 ,1,1,đi nắng
+DRUG:che chắn,DRUG,che chắn,,,1945811 ,1,1,che chắn
+DRUG:thuốc thoa,DRUG,thuốc thoa,,,,1,1,thuốc thoa
+BODY_PART:da liễu,BODY_PART,da liễu,,,,1,1,da liễu
+CONDITION:kinh nguyệt,CONDITION,kinh nguyệt,,,Z30.3 Hút kinh nguyệt,1,1,kinh nguyệt
+PROCEDURE:nuôi nuôi,PROCEDURE,nuôi nuôi,,,,1,1,nuôi nuôi
+RxNorm:9641,DRUG,selenium,RxNorm,9641,,1,1,selen
+DRUG:chống nắng,DRUG,chống nắng,,,125699 Nangibotide,1,1,chống nắng
+DRUG:b,DRUG,b,,,11248 vitamin B12,1,1,b
+DRUG:b9,DRUG,b9,,,4511 Vitamin B9,1,1,b9
+DOSAGE:b5,DOSAGE,b5,,,,1,1,b5
+RxNorm:1588,DRUG,biotin,RxNorm,1588,,1,1,biotin
+DRUG:forlic,DRUG,forlic,,,4537 Formylic acid,1,1,forlic
+DRUG:dầu gội,DRUG,dầu gội,,,1438119 Go-dry,1,1,dầu gội
+DRUG:trái bồ kết,DRUG,trái bồ kết,,,1439949 Mal-A-Ket,1,1,trái bồ kết
+CONDITION:mặc cảm,CONDITION,mặc cảm,,,R20.2 Dị cảm da,1,1,mặc cảm
+CONDITION:tự tự ti,CONDITION,tự tự ti,,,"M35.9 Các tổn thương hệ thống của mô liên kết, không đặc hiệu",1,1,tự tự ti
+CONDITION:mất tóc,CONDITION,mất tóc,,,L67.1 Thay đổi màu tóc,1,1,mất tóc
+CONDITION:ít tóc,CONDITION,ít tóc,,,L67.1 Thay đổi màu tóc,1,1,ít tóc
+DRUG:điều chỉnh,DRUG,điều chỉnh,,,1722360 China-Gel,1,1,điều chỉnh
+PROCEDURE:mổ xẻ,PROCEDURE,mổ xẻ,,,,1,1,mổ xẻ
+PROCEDURE:số liệu,PROCEDURE,số liệu,,,,1,1,số liệu
+PROCEDURE:đo,PROCEDURE,đo,,,,1,1,đo
+BODY_PART:đầu gối,BODY_PART,đầu gối,,,,1,1,đầu gối
+BODY_PART:chân mày,BODY_PART,chân mày,,,,1,1,chân mày
+BODY_PART:vòng,BODY_PART,vòng,,,,1,1,vòng
+CONDITION:tăng cân chậm,CONDITION,tăng cân chậm,,,R63.5 Tăng cân bất thường,1,1,tăng cân chậm
+ICD-10:R63.4,CONDITION,Giảm cân bất thường,ICD-10,R63.4,,1,1,sụt cân
+BODY_PART:cơ lưng,BODY_PART,cơ lưng,,,,1,1,cơ lưng
+BODY_PART:lưng chi,BODY_PART,lưng chi,,,,1,1,lưng chi
+ICD-10:J11.1,CONDITION,"Cúm với các biểu hiện hô hấp khác, virus không được định danh",ICD-10,J11.1,,1,1,cúm
+ICD-10:B05,CONDITION,Sởi,ICD-10,B05,,1,1,sởi
+DOSAGE:tần,DOSAGE,tần,,,,1,1,tần
+CONDITION:giật tóc,CONDITION,giật tóc,,,G25.3 Giật cơ,1,1,giật tóc
+BODY_PART:cái đầu,BODY_PART,cái đầu,,,,1,1,cái đầu
+TEST:nín thở,TEST,nín thở,,,,1,1,nín thở
+BODY_PART:nền,BODY_PART,nền,,,,1,1,nền
+DRUG:huấn luyện,DRUG,huấn luyện,,,753517 Luden's,1,1,huấn luyện
+CONDITION:rung lắc,CONDITION,rung lắc,,,"R25.1 Rung, không đặc hiệu",1,1,rung lắc
+BODY_PART:bộ,BODY_PART,bộ,,,,1,1,bộ
+DOSAGE:năm phần trăm,DOSAGE,năm phần trăm,,,,1,1,năm phần trăm
+CONDITION:buồn cười,CONDITION,buồn cười,,,R11 Buồn nôn và nôn,1,1,buồn cười
+CONDITION:tiếng ồn,CONDITION,tiếng ồn,,,W42 Ảnh hưởng tiếng ồn,1,1,tiếng ồn
+DOSAGE:quá mức,DOSAGE,quá mức,,,,1,1,quá mức
+CONDITION:loạn giấc,CONDITION,loạn giấc,,,G47 Rối loạn giấc ngủ,1,1,loạn giấc
+ICD-10:F84.0,CONDITION,Tính tự kỷ ở trẻ em,ICD-10,F84.0,,1,1,tự kỷ
+CONDITION:mù,CONDITION,mù,,,"H54.0 Mù, hai mắt",1,1,mù
+CONDITION:tâm,CONDITION,tâm,,,C16.0 U ác của tâm vị,1,1,tâm
+DOSAGE:hai lần,DOSAGE,hai lần,,,,1,1,hai lần
+DOSAGE:ba lần,DOSAGE,ba lần,,,,1,1,ba lần
+DRUG:thông báo,DRUG,thông báo,,,2361280 SODIUM HYPOCHLORITE 1 mg in 1 L EXTRACORPOREAL LIQUID [QIAN BAO Disinfectant],1,1,thông báo
+CONDITION:nước,CONDITION,nước,,,X54 Thiếu nước,1,1,nước
+CONDITION:cảm xúc,CONDITION,cảm xúc,,,F25 Rối loạn phân liệt cảm xúc,1,1,cảm xúc
+DOSAGE:mức giới,DOSAGE,mức giới,,,,1,1,mức giới
+BODY_PART:trí óc,BODY_PART,trí óc,,,,1,1,trí óc
+CONDITION:đau lòng,CONDITION,đau lòng,,,"R52.9 Đau, không đặc hiệu",1,1,đau lòng
+PROCEDURE:đèn báo động đỏ,PROCEDURE,đèn báo động đỏ,,,,1,1,đèn báo động đỏ
+ICD-10:R00.0,CONDITION,"Nhịp nhanh tim, không đặc hiệu",ICD-10,R00.0,,1,1,tim đập nhanh
+CONDITION:thở hơi chớp,CONDITION,thở hơi chớp,,,X33 Nạn nhân của chớp,1,1,thở hơi chớp
+CONDITION:co rúm người,CONDITION,co rúm người,,,G80.2 Bại não liệt nửa người co cứng,1,1,co rúm người
+CONDITION:nhăn mặt mày,CONDITION,nhăn mặt mày,,,L50 Mày đay,1,1,nhăn mặt mày
+CONDITION:nét mặt nhăn nhó,CONDITION,nét mặt nhăn nhó,,,Z73.1 Những nét cá tính nổi bật,1,1,nét mặt nhăn nhó
+CONDITION:đỏ mặt tía tai,CONDITION,đỏ mặt tía tai,,,R23.2 Chứng đỏ bừng mặt,1,1,đỏ mặt tía tai
+PROCEDURE:giải mẫn cảm,PROCEDURE,giải mẫn cảm,,,,1,1,giải mẫn cảm
+CONDITION:mất mặt xấu hổ,CONDITION,mất mặt xấu hổ,,,Q67.0 Mất cân đối mặt,1,1,mất mặt xấu hổ
+CONDITION:la mắng,CONDITION,la mắng,,,A18.5 Lao ở mắt,1,1,la mắng
+DRUG:trấn an,DRUG,trấn an,,,46356 AN-9,1,1,trấn an
+DOSAGE:tần số,DOSAGE,tần số,,,,1,1,tần số
+BODY_PART:cơ xương,BODY_PART,cơ xương,,,,1,1,cơ xương
+CONDITION:bệnh lao,CONDITION,bệnh lao,,,A16.9 Lao hô hấp không xác định và không đề cập đến việc xác nhận về vi khuẩn học và mô học,1,1,bệnh lao
+CONDITION:mềm yếu,CONDITION,mềm yếu,,,B08.1† U mềm lây,1,1,mềm yếu
+CONDITION:dạng,CONDITION,dạng,,,M85.3 Viêm xương dạng đặc,1,1,dạng
+PROCEDURE:tivi,PROCEDURE,tivi,,,,1,1,tivi
+PROCEDURE:ipad,PROCEDURE,ipad,,,,1,1,ipad
+PROCEDURE:lăn,PROCEDURE,lăn,,,,1,1,lăn
+BODY_PART:lông,BODY_PART,lông,,,,1,1,lông
+DRUG:bị dự trù,DRUG,bị dự trù,,,2024501 TRU-015,1,1,bị dự trù
+DRUG:phòng ngừa bệnh tật,DRUG,phòng ngừa bệnh tật,,,18097 ,1,1,phòng ngừa bệnh tật
+DRUG:phòng ngừa bệnh,DRUG,phòng ngừa bệnh,,,1801603 influenza B virus B/Hong Kong/259/2010 antigen,1,1,phòng ngừa bệnh
+PROCEDURE:nuôi dạy,PROCEDURE,nuôi dạy,,,,1,1,nuôi dạy
+PROCEDURE:dự đoán,PROCEDURE,dự đoán,,,,1,1,dự đoán
+BODY_PART:tiểu phế quản,BODY_PART,tiểu phế quản,,,,1,1,tiểu phế quản
+CONDITION:rsv,CONDITION,rsv,,,T57.0 Nhiễm độc Arsen và hợp chất của Arsen,1,1,rsv
+DOSAGE:bốn lần,DOSAGE,bốn lần,,,,1,1,bốn lần
+DOSAGE:bốn phần trăm,DOSAGE,bốn phần trăm,,,,1,1,bốn phần trăm
+RxNorm:1370781,DRUG,wheat gluten extract,RxNorm,1370781,,1,1,gluten
+CONDITION:chàm,CONDITION,chàm,,,L30.0 Chàm đồng tiền,1,1,chàm
+DOSAGE:một phần ba,DOSAGE,một phần ba,,,,1,1,một phần ba
+CONDITION:ung thư tế bào lympho,CONDITION,ung thư tế bào lympho,,,"C80.9 U ác, không đặc hiệu",1,1,ung thư tế bào lympho
+CONDITION:sids,CONDITION,sids,,,Q91 Hội chứng Edwards và hội chứng Patau,1,1,sids
+ICD-10:R96.0,CONDITION,Đột tử,ICD-10,R96.0,,1,1,đột tử
+CONDITION:viêm ruột,CONDITION,viêm ruột,,,A08.3 Viêm ruột do virus khác,1,1,viêm ruột
+CONDITION:nhiễm trùng huyết,CONDITION,nhiễm trùng huyết,,,A41.8 Nhiễm trùng huyết xác định khác,1,1,nhiễm trùng huyết
+DOSAGE:bốn,DOSAGE,bốn,,,,1,1,bốn
+ICD-10:E78,CONDITION,Rối loạn chuyển hóa lipoprotein và tình trạng tăng lipid máu khác,ICD-10,E78,,1,1,rối loạn mỡ máu
+ICD-10:C76.1,CONDITION,U ác của ngực,ICD-10,C76.1,,1,1,ung thư ngực
+CONDITION:dị ứng cao,CONDITION,dị ứng cao,,,T78.4 Dị ứng chưa xác định,1,1,dị ứng cao
+DRUG:khoáng chất,DRUG,khoáng chất,,,1721053 ,1,1,khoáng chất
+DRUG:kháng thể,DRUG,kháng thể,,,2594484 THE-630,1,1,kháng thể
+BODY_PART:lưỡi,BODY_PART,lưỡi,,,,1,1,lưỡi
+PROCEDURE:núm vú,PROCEDURE,núm vú,,,,1,1,núm vú
+CONDITION:nhức,CONDITION,nhức,,,R51 Đau đầu,1,1,nhức
+BODY_PART:đầu vú,BODY_PART,đầu vú,,,,1,1,đầu vú
+DRUG:kem,DRUG,kem,,,312532 ,1,1,kem
+DRUG:xà phòng,DRUG,xà phòng,,,2049227 ,1,1,xà phòng
+DRUG:chất bôi trơn,DRUG,chất bôi trơn,,,1361598 ,1,1,chất bôi trơn
+CONDITION:lạnh run,CONDITION,lạnh run,,,"R25.1 Rung, không đặc hiệu",1,1,lạnh run
+CONDITION:cứng,CONDITION,cứng,,,M24.5 Cứng khớp,1,1,cứng
+BODY_PART:sữa,BODY_PART,sữa,,,,1,1,sữa
+BODY_PART:vú mẹ,BODY_PART,vú mẹ,,,,1,1,vú mẹ
+BODY_PART:cơ quan,BODY_PART,cơ quan,,,,1,1,cơ quan
+BODY_PART:trí não,BODY_PART,trí não,,,,1,1,trí não
+BODY_PART:nước,BODY_PART,nước,,,,1,1,nước
+CONDITION:phơi nhiễm,CONDITION,phơi nhiễm,,,Z58.5 Phơi nhiễm với các ô nhiễm khác,1,1,phơi nhiễm
+CONDITION:siêu vi c,CONDITION,siêu vi c,,,O28.3 Dấu hiệu siêu âm bất thường ở bà mẹ phát hiện khi khám thai,1,1,siêu vi c
+DRUG:thuốc gây nghiện,DRUG,thuốc gây nghiện,,,2278203 ,1,1,thuốc gây nghiện
+PROCEDURE:đóng gói,PROCEDURE,đóng gói,,,,1,1,đóng gói
+CONDITION:nhiễm độc,CONDITION,nhiễm độc,,,G92 Bệnh não nhiễm độc,1,1,nhiễm độc
+DRUG:tầm soát nguy cơ,DRUG,tầm soát nguy cơ,,,404949 ,1,1,tầm soát nguy cơ
+CONDITION:truyền nhiễm,CONDITION,truyền nhiễm,,,"T80.2 Nhiễm trùng sau tiêm truyền, truyền máu và tiêm thuốc",1,1,truyền nhiễm
+DRUG:giang mai,DRUG,giang mai,,,236640 ,1,1,giang mai
+CONDITION:nhiễm,CONDITION,nhiễm,,,Z58.5 Phơi nhiễm với các ô nhiễm khác,1,1,nhiễm
+CONDITION:vi trùng,CONDITION,vi trùng,,,B99 Các bệnh nhiễm trùng khác và không xác định,1,1,vi trùng
+CONDITION:non,CONDITION,non,,,C17 U ác ruột non,1,1,non
+CONDITION:fda,CONDITION,fda,,,L85.3 Khô da,1,1,fda
+DRUG:dược,DRUG,dược,,,,1,1,dược
+DRUG:hoa,DRUG,hoa,,,168 HOAc,1,1,hoa
+DRUG:fda,DRUG,fda,,,2622585 ,1,1,fda
+PROCEDURE:ngăn,PROCEDURE,ngăn,,,,1,1,ngăn
+PROCEDURE:tái đông,PROCEDURE,tái đông,,,,1,1,tái đông
+DOSAGE:liều lượng,DOSAGE,liều lượng,,,,1,1,liều lượng
+PROCEDURE:xuất,PROCEDURE,xuất,,,,1,1,xuất
+CONDITION:ăn ít,CONDITION,ăn ít,,,"T29.7 Ăn mòn nhiều vùng, ít nhất có một ăn mòn độ ba đã đề cập",1,1,ăn ít
+CONDITION:chậm ngồi,CONDITION,chậm ngồi,,,K61.3 áp xe ụ ngồi - trực tràng,1,1,chậm ngồi
+CONDITION:chậm đi,CONDITION,chậm đi,,,M84.2 Gãy xương chậm liền,1,1,chậm đi
+CONDITION:chậm mọc răng,CONDITION,chậm mọc răng,,,K00.6 Rối loạn mọc răng,1,1,chậm mọc răng
+CONDITION:biếng ăn,CONDITION,biếng ăn,,,R49.1 Mất tiếng,1,1,biếng ăn
+PROCEDURE:sinh non,PROCEDURE,sinh non,,,,1,1,sinh non
+CONDITION:da đen,CONDITION,da đen,,,L83 Bệnh gai đen,1,1,da đen
+CONDITION:phản ứng phụ,CONDITION,phản ứng phụ,,,T78.0 Sốc phản vệ do phản ứng phụ của thực phẩm,1,1,phản ứng phụ
+CONDITION:thiếu,CONDITION,thiếu,,,D64.9 Thiếu máu không đặc hiệu,1,1,thiếu
+CONDITION:hạ natri máu,CONDITION,hạ natri máu,,,P74.2 Rối loạn cân bằng natri của trẻ sơ sinh,1,1,hạ natri máu
+CONDITION:mất cân bằng điện giải,CONDITION,mất cân bằng điện giải,,,"Y54.6 Chất cân bằng điện giải, năng lượng và nước",1,1,mất cân bằng điện giải
+DRUG:nước điện giải,DRUG,nước điện giải,,,1312387 dimethicone-diene dimethicone crosspolymer,1,1,nước điện giải
+DRUG:bù dịch điện giải,DRUG,bù dịch điện giải,,,1312387 dimethicone-diene dimethicone crosspolymer,1,1,bù dịch điện giải
+CONDITION:tật câm,CONDITION,tật câm,,,"H91.3 Câm điếc, không phân loại nơi khác điếc câm không phân loại nơi khác",1,1,tật câm
+PROCEDURE:tài trợ,PROCEDURE,tài trợ,,,,1,1,tài trợ
+CONDITION:diếc,CONDITION,diếc,,,T56.6 Nhiễm độc Thiếc và hợp chất của Thiếc,1,1,diếc
+BODY_PART:tai giữa,BODY_PART,tai giữa,,,,1,1,tai giữa
+CONDITION:tật câm điếc,CONDITION,tật câm điếc,,,"H91.3 Câm điếc, không phân loại nơi khác điếc câm không phân loại nơi khác",1,1,tật câm điếc
+BODY_PART:tai trái,BODY_PART,tai trái,,,,1,1,tai trái
+PROCEDURE:chữa trị tật,PROCEDURE,chữa trị tật,,,,1,1,chữa trị tật
+CONDITION:khiếm thính nghe kém,CONDITION,khiếm thính nghe kém,,,H91 Nghe kém khác,1,1,khiếm thính nghe kém
+CONDITION:chậm nói,CONDITION,chậm nói,,,R47.1 Rối loạn vận ngôn và mất vận ngôn,1,1,chậm nói
+TEST:nội,TEST,nội,,,,1,1,nội
+PROCEDURE:soi,PROCEDURE,soi,,,,1,1,soi
+BODY_PART:mũi họng,BODY_PART,mũi họng,,,,1,1,mũi họng
+CONDITION:viêm tai,CONDITION,viêm tai,,,H60 Viêm tai ngoài,1,1,viêm tai
+CONDITION:dịch,CONDITION,dịch,,,A20 Dịch hạch,1,1,dịch
+CONDITION:tàn tật,CONDITION,tàn tật,,,L81.2 Tàn nhang,1,1,tàn tật
+PROCEDURE:ốc tai,PROCEDURE,ốc tai,,,,1,1,ốc tai
+PROCEDURE:phẫu thuật kéo tai điện tử,PROCEDURE,phẫu thuật kéo tai điện tử,,,,1,1,phẫu thuật kéo tai điện tử
+PROCEDURE:khẩu trang,PROCEDURE,khẩu trang,,,,1,1,khẩu trang
+DRUG:beethoven,DRUG,beethoven,,,,1,1,beethoven
+DOSAGE:em,DOSAGE,em,,,,1,1,em
+PROCEDURE:điện,PROCEDURE,điện,,,,1,1,điện
+PROCEDURE:tay điện tử đơn kênh,PROCEDURE,tay điện tử đơn kênh,,,,1,1,tay điện tử đơn kênh
+PROCEDURE:khoan,PROCEDURE,khoan,,,,1,1,khoan
+PROCEDURE:máy computer thu nhỏ,PROCEDURE,máy computer thu nhỏ,,,,1,1,máy computer thu nhỏ
+PROCEDURE:phân tích âm thanh,PROCEDURE,phân tích âm thanh,,,,1,1,phân tích âm thanh
+PROCEDURE:dây điện cực,PROCEDURE,dây điện cực,,,,1,1,dây điện cực
+PROCEDURE:tín,PROCEDURE,tín,,,,1,1,tín
+PROCEDURE:radio,PROCEDURE,radio,,,,1,1,radio
+PROCEDURE:phẫu thuật cấy khoan vào,PROCEDURE,phẫu thuật cấy khoan vào,,,,1,1,phẫu thuật cấy khoan vào
+BODY_PART:thần kinh ốc tai,BODY_PART,thần kinh ốc tai,,,,1,1,thần kinh ốc tai
+PROCEDURE:đường mổ nhỏ,PROCEDURE,đường mổ nhỏ,,,,1,1,đường mổ nhỏ
+PROCEDURE:kỹ thuật ít xâm lấn,PROCEDURE,kỹ thuật ít xâm lấn,,,,1,1,kỹ thuật ít xâm lấn
+PROCEDURE:huấn,PROCEDURE,huấn,,,,1,1,huấn
+DOSAGE:năm,DOSAGE,năm,,,,1,1,năm
+TEST:test thính học,TEST,test thính học,,,,1,1,test thính học
+PROCEDURE:máy trợ thính,PROCEDURE,máy trợ thính,,,,1,1,máy trợ thính
+CONDITION:viêm tai giữa,CONDITION,viêm tai giữa,,,H66.9 Viêm tai giữa không đặc hiệu,1,1,viêm tai giữa
+CONDITION:giữa,CONDITION,giữa,,,C30.1 U ác của tai giữa,1,1,giữa
+BODY_PART:xương chũm,BODY_PART,xương chũm,,,,1,1,xương chũm
+CONDITION:chảy mủ,CONDITION,chảy mủ,,,R58 Chảy máu chưa được phân loại ở nơi khác,1,1,chảy mủ
+PROCEDURE:ốc,PROCEDURE,ốc,,,,1,1,ốc
+DOSAGE:vòng,DOSAGE,vòng,,,,1,1,vòng
+BODY_PART:dây ốc tai,BODY_PART,dây ốc tai,,,,1,1,dây ốc tai
+BODY_PART:thần kinh thính giác,BODY_PART,thần kinh thính giác,,,,1,1,thần kinh thính giác
+BODY_PART:bộ phận ốc tai,BODY_PART,bộ phận ốc tai,,,,1,1,bộ phận ốc tai
+TEST:chụp phim xquang,TEST,chụp phim xquang,,,,1,1,chụp phim xquang
+TEST:mapping,TEST,mapping,,,,1,1,mapping
+DOSAGE:cái tỷ số,DOSAGE,cái tỷ số,,,,1,1,cái tỷ số
+PROCEDURE:huấn luyện ngôn ngữ,PROCEDURE,huấn luyện ngôn ngữ,,,,1,1,huấn luyện ngôn ngữ
+PROCEDURE:thiết bị điện tử,PROCEDURE,thiết bị điện tử,,,,1,1,thiết bị điện tử
+PROCEDURE:phẫu thuật cấy ốc tai điện tử,PROCEDURE,phẫu thuật cấy ốc tai điện tử,,,,1,1,phẫu thuật cấy ốc tai điện tử
+DOSAGE:hàng trăm,DOSAGE,hàng trăm,,,,1,1,hàng trăm
+CONDITION:muỗi,CONDITION,muỗi,,,A93.1 Sốt muỗi cát,1,1,muỗi
+DRUG:anopheles,DRUG,anopheles,,,2592075 ANOPHELES QUADRIMACULATUS,1,1,anopheles
+DOSAGE:mức,DOSAGE,mức,,,,1,1,mức
+TEST:sức đề kháng dinh dưỡng,TEST,sức đề kháng dinh dưỡng,,,,1,1,sức đề kháng dinh dưỡng
+DRUG:sốt,DRUG,sốt,,,1867479 SOT-107,1,1,sốt
+DOSAGE:quả,DOSAGE,quả,,,,1,1,quả
+CONDITION:choáng voáng,CONDITION,choáng voáng,,,R42 Hoa mắt và chóng mặt,1,1,choáng voáng
+CONDITION:rối loạn tiền đình,CONDITION,rối loạn tiền đình,,,"H81.9 Rối loạn chức năng tiền đình, không đặc hiệu",1,1,rối loạn tiền đình
+CONDITION:liệt nửa mặt,CONDITION,liệt nửa mặt,,,G81 Liệt nửa người,1,1,liệt nửa mặt
+CONDITION:viêm dây,CONDITION,viêm dây,,,G61 Viêm đa dây thần kinh,1,1,viêm dây
+CONDITION:méo sệ,CONDITION,méo sệ,,,C00.6 U ác của mép môi,1,1,méo sệ
+CONDITION:mặt,CONDITION,mặt,,,Q67.1 Mặt bị ép,1,1,mặt
+CONDITION:yếu cả,CONDITION,yếu cả,,,J45.0 Hen chủ yếu do dị ứng,1,1,yếu cả
+CONDITION:không cử động được,CONDITION,không cử động được,,,G40.9 Động kinh không đặc hiệu,1,1,không cử động được
+BODY_PART:cái khớp,BODY_PART,cái khớp,,,,1,1,cái khớp
+PROCEDURE:gãi đầu,PROCEDURE,gãi đầu,,,,1,1,gãi đầu
+BODY_PART:khớp vai,BODY_PART,khớp vai,,,,1,1,khớp vai
+DRUG:biện pháp,DRUG,biện pháp,,,1307578 Oenothera biennis leaf extract,1,1,biện pháp
+CONDITION:đau rát,CONDITION,đau rát,,,"R52.9 Đau, không đặc hiệu",1,1,đau rát
+TEST:test nhanh,TEST,test nhanh,,,,1,1,test nhanh
+DRUG:phòng chống bệnh,DRUG,phòng chống bệnh,,,1801603 influenza B virus B/Hong Kong/259/2010 antigen,1,1,phòng chống bệnh
+BODY_PART:khớp,BODY_PART,khớp,,,,1,1,khớp
+PROCEDURE:sốt,PROCEDURE,sốt,,,,1,1,sốt
+RxNorm:161,DRUG,acetaminophen,RxNorm,161,,1,1,paracetamol
+DOSAGE:từ ba gam,DOSAGE,từ ba gam,,,,1,1,từ ba gam
+PROCEDURE:uống thuốc giảm đau,PROCEDURE,uống thuốc giảm đau,,,,1,1,uống thuốc giảm đau
+CONDITION:nôn ói,CONDITION,nôn ói,,,R11 Buồn nôn và nôn,1,1,nôn ói
+DOSAGE:bề dày,DOSAGE,bề dày,,,,1,1,bề dày
+ICD-10:I21,CONDITION,Nhồi máu cơ tim cấp,ICD-10,I21,,1,1,nhồi máu cơ tim
+CONDITION:ung thư tiêu hóa,CONDITION,ung thư tiêu hóa,,,"C80.9 U ác, không đặc hiệu",1,1,ung thư tiêu hóa
+PROCEDURE:phẫu thuật nội soi,PROCEDURE,phẫu thuật nội soi,,,,1,1,phẫu thuật nội soi
+BODY_PART:dày,BODY_PART,dày,,,,1,1,dày
+BODY_PART:hệ thống,BODY_PART,hệ thống,,,,1,1,hệ thống
+BODY_PART:hệ thống tĩnh mạch,BODY_PART,hệ thống tĩnh mạch,,,,1,1,hệ thống tĩnh mạch
+BODY_PART:cơ tim,BODY_PART,cơ tim,,,,1,1,cơ tim
+DOSAGE:một phần trăm dân số,DOSAGE,một phần trăm dân số,,,,1,1,một phần trăm dân số
+DOSAGE:hai trăm ngàn người,DOSAGE,hai trăm ngàn người,,,,1,1,hai trăm ngàn người
+PROCEDURE:ngoại,PROCEDURE,ngoại,,,,1,1,ngoại
+BODY_PART:ruột thừa,BODY_PART,ruột thừa,,,,1,1,ruột thừa
+PROCEDURE:phẫu thuật cắt túi mật,PROCEDURE,phẫu thuật cắt túi mật,,,,1,1,phẫu thuật cắt túi mật
+ICD-10:C18,CONDITION,U ác của đại tràng,ICD-10,C18,,1,1,ung thư đại tràng
+CONDITION:tắc huyết khối,CONDITION,tắc huyết khối,,,I74 Thuyên tắc và huyết khối động mạch,1,1,tắc huyết khối
+BODY_PART:óc,BODY_PART,óc,,,,1,1,óc
+DOSAGE:một nửa người,DOSAGE,một nửa người,,,,1,1,một nửa người
+CONDITION:yếu nửa người,CONDITION,yếu nửa người,,,G81 Liệt nửa người,1,1,yếu nửa người
+CONDITION:sưng phù,CONDITION,sưng phù,,,K06.1 Lợi sưng,1,1,sưng phù
+TEST:thẩm,TEST,thẩm,,,,1,1,thẩm
+DOSAGE:cấp độ,DOSAGE,cấp độ,,,,1,1,cấp độ
+DOSAGE:hai gói,DOSAGE,hai gói,,,,1,1,hai gói
+PROCEDURE:trang thiết bị hiện đại,PROCEDURE,trang thiết bị hiện đại,,,,1,1,trang thiết bị hiện đại
+CONDITION:lệch lạc,CONDITION,lệch lạc,,,M84.0 Can lệch,1,1,lệch lạc
+BODY_PART:khung xương mặt,BODY_PART,khung xương mặt,,,,1,1,khung xương mặt
+PROCEDURE:kỹ thuật số,PROCEDURE,kỹ thuật số,,,,1,1,kỹ thuật số
+BODY_PART:da lông,BODY_PART,da lông,,,,1,1,da lông
+PROCEDURE:châm,PROCEDURE,châm,,,,1,1,châm
+PROCEDURE:phẫu thuật thủ thuật,PROCEDURE,phẫu thuật thủ thuật,,,,1,1,phẫu thuật thủ thuật
+TEST:trao đổi,TEST,trao đổi,,,,1,1,trao đổi
+DRUG:oxi,DRUG,oxi,,,218983 ,1,1,oxi
+DRUG:chất dinh dưỡng,DRUG,chất dinh dưỡng,,,2288160 Dinh huong,1,1,chất dinh dưỡng
+DOSAGE:phần xa,DOSAGE,phần xa,,,,1,1,phần xa
+BODY_PART:tim máu,BODY_PART,tim máu,,,,1,1,tim máu
+PROCEDURE:đóng,PROCEDURE,đóng,,,,1,1,đóng
+TEST:thay đổi oxy,TEST,thay đổi oxy,,,,1,1,thay đổi oxy
+CONDITION:tử vong cao,CONDITION,tử vong cao,,,R98 Tử vong không ai biết,1,1,tử vong cao
+PROCEDURE:máy móc,PROCEDURE,máy móc,,,,1,1,máy móc
+ICD-10:I50,CONDITION,Suy tim,ICD-10,I50,,1,1,suy tim
+CONDITION:suy hô hấp,CONDITION,suy hô hấp,,,J96.0 Suy hô hấp cấp,1,1,suy hô hấp
+PROCEDURE:thở máy,PROCEDURE,thở máy,,,,1,1,thở máy
+PROCEDURE:chạy,PROCEDURE,chạy,,,,1,1,chạy
+BODY_PART:mạch máu,BODY_PART,mạch máu,,,,1,1,mạch máu
+PROCEDURE:hồi,PROCEDURE,hồi,,,,1,1,hồi
+DOSAGE:phần thứ hai,DOSAGE,phần thứ hai,,,,1,1,phần thứ hai
+BODY_PART:chi dưới,BODY_PART,chi dưới,,,,1,1,chi dưới
+DRUG:tắc,DRUG,tắc,,,10759 Triamcinolone,1,1,tắc
+DOSAGE:ba câu hỏi,DOSAGE,ba câu hỏi,,,,1,1,ba câu hỏi
+CONDITION:phỏng,CONDITION,phỏng,,,B08.5 Viêm họng có phỏng nước do virus đường ruột,1,1,phỏng
+DOSAGE:cấp độ ba,DOSAGE,cấp độ ba,,,,1,1,cấp độ ba
+CONDITION:thuyên tắc huyết khối tĩnh,CONDITION,thuyên tắc huyết khối tĩnh,,,I82.8 Thuyên tắc và huyết khối tĩnh mạch khác,1,1,thuyên tắc huyết khối tĩnh
+PROCEDURE:chữa bệnh,PROCEDURE,chữa bệnh,,,,1,1,chữa bệnh
+DOSAGE:mức thở,DOSAGE,mức thở,,,,1,1,mức thở
+TEST:trao đổi khí,TEST,trao đổi khí,,,,1,1,trao đổi khí
+PROCEDURE:mổ hở,PROCEDURE,mổ hở,,,,1,1,mổ hở
+TEST:đánh giá nguy,TEST,đánh giá nguy,,,,1,1,đánh giá nguy
+CONDITION:nôn,CONDITION,nôn,,,R11 Buồn nôn và nôn,1,1,nôn
+DRUG:thuốc mê,DRUG,thuốc mê,,,1689068 ME-344,1,1,thuốc mê
+DRUG:chống,DRUG,chống,,,1801603 influenza B virus B/Hong Kong/259/2010 antigen,1,1,chống
+PROCEDURE:công nghệ thông tin,PROCEDURE,công nghệ thông tin,,,,1,1,công nghệ thông tin
+PROCEDURE:án điện tử,PROCEDURE,án điện tử,,,,1,1,án điện tử
+CONDITION:tắc nghẽn,CONDITION,tắc nghẽn,,,"J44.9 Bệnh phổi tắc nghẽn mãn tính, không phân loại",1,1,tắc nghẽn
+ICD-10:J10.1,CONDITION,"Cảm cúm với biểu hiện hô hấp khác, virus cúm được định",ICD-10,J10.1,,1,1,dịch cúm a
+RxNorm:1342493,DRUG,Glycyrrhiza uralensis extract,RxNorm,1342493,,1,1,cam thảo
+CONDITION:lão hóa da,CONDITION,lão hóa da,,,H52.4 Lão thị,1,1,lão hóa da
+RxNorm:325526,DRUG,ginseng preparation,RxNorm,325526,,1,1,nhân sâm
+ICD-10:G20,CONDITION,Bệnh Parkinson,ICD-10,G20,,1,1,parkinson
+PROCEDURE:máy,PROCEDURE,máy,,,,1,1,máy
+DRUG:vi nguyễn ngọc thảo,DRUG,vi nguyễn ngọc thảo,,,2686517 VIS-410,1,1,vi nguyễn ngọc thảo
+CONDITION:bỏng rát ngứa,CONDITION,bỏng rát ngứa,,,L29 Ngứa,1,1,bỏng rát ngứa
+DRUG:kem dưỡng ẩm,DRUG,kem dưỡng ẩm,,,312532 ,1,1,kem dưỡng ẩm
+DRUG:liệu pháp,DRUG,liệu pháp,,,,1,1,liệu pháp
+DRUG:thảo dược nhân sâm,DRUG,thảo dược nhân sâm,,,9504 S-adenosylmethionine,1,1,thảo dược nhân sâm
+DRUG:ngọc bảo,DRUG,ngọc bảo,,,2361280 SODIUM HYPOCHLORITE 1 mg in 1 L EXTRACORPOREAL LIQUID [QIAN BAO Disinfectant],1,1,ngọc bảo
+CONDITION:da,CONDITION,da,,,L85.3 Khô da,1,1,da
+CONDITION:khô ngứa,CONDITION,khô ngứa,,,L29 Ngứa,1,1,khô ngứa
+CONDITION:viêm đỏ,CONDITION,viêm đỏ,,,L71 Trứng cá đỏ,1,1,viêm đỏ
+DRUG:aha bha,DRUG,aha bha,,,16728 AHA,1,1,aha bha
+DRUG:hạt sắc tố,DRUG,hạt sắc tố,,,2686393 sac-TMT,1,1,hạt sắc tố
+PROCEDURE:cứu thương,PROCEDURE,cứu thương,,,,1,1,cứu thương
+DRUG:ngọc tuyết,DRUG,ngọc tuyết,,,,1,1,ngọc tuyết
+DRUG:cảnh báo,DRUG,cảnh báo,,,2361280 SODIUM HYPOCHLORITE 1 mg in 1 L EXTRACORPOREAL LIQUID [QIAN BAO Disinfectant],1,1,cảnh báo
+CONDITION:mắc bệnh lý hô,CONDITION,mắc bệnh lý hô,,,Q80.4 Thai mắc bệnh vảy cá,1,1,mắc bệnh lý hô
+DRUG:khói bụi,DRUG,khói bụi,,,"487380 BRIEF,VALUE BUY FQP #VB-012",1,1,khói bụi
+DRUG:chất ô nhiễm,DRUG,chất ô nhiễm,,,32786 Padimate O,1,1,chất ô nhiễm
+DRUG:đinh lê ngọc minh,DRUG,đinh lê ngọc minh,,,2288160 Dinh huong,1,1,đinh lê ngọc minh
+PROCEDURE:giao thông,PROCEDURE,giao thông,,,,1,1,giao thông
+DOSAGE:lượng đường,DOSAGE,lượng đường,,,,1,1,lượng đường
+CONDITION:trong,CONDITION,trong,,,Y61.0 Trong mổ,1,1,trong
+DOSAGE:máu,DOSAGE,máu,,,,1,1,máu
+DRUG:giảm thiểu nguy cơ,DRUG,giảm thiểu nguy cơ,,,404949 ,1,1,giảm thiểu nguy cơ
+RxNorm:4718,DRUG,Gel,RxNorm,4718,,1,1,gel
+DRUG:chứa,DRUG,chứa,,,,1,1,chứa
+DRUG:chất tạo màu,DRUG,chất tạo màu,,,204363 ,1,1,chất tạo màu
+CONDITION:mắc bệnh gút,CONDITION,mắc bệnh gút,,,M10.9 Bệnh Gút không đặc hiệu,1,1,mắc bệnh gút
+PROCEDURE:sốc,PROCEDURE,sốc,,,,1,1,sốc
+CONDITION:điện,CONDITION,điện,,,V82.5 Hành khách xe điện bị thương do ngã trên xe điện,1,1,điện
+CONDITION:rối loạn thần kinh,CONDITION,rối loạn thần kinh,,,H93.3 Rối loạn của thần kinh thính giác,1,1,rối loạn thần kinh
+DRUG:thuốc chống,DRUG,thuốc chống,,,1801603 influenza B virus B/Hong Kong/259/2010 antigen,1,1,thuốc chống
+CONDITION:trầm,CONDITION,trầm,,,F32.9 Giai đoạn trầm cảm không đặc hiệu,1,1,trầm
+DRUG:cảm,DRUG,cảm,,,2289247 ,1,1,cảm
+BODY_PART:tế bào gốc,BODY_PART,tế bào gốc,,,,1,1,tế bào gốc
+ICD-10:H53,CONDITION,Rối loạn thị giác,ICD-10,H53,,1,1,rối loạn thị giác
+CONDITION:máu đông,CONDITION,máu đông,,,Y44.2 Chống đông máu,1,1,máu đông
+RxNorm:1191,DRUG,aspirin,RxNorm,1191,,1,1,aspirin
+CONDITION:thâm sau,CONDITION,thâm sau,,,L98.6 Các bệnh có thâm nhiễm khác ở da và tổ chức dưới da,1,1,thâm sau
+CONDITION:khô ngứa viêm đỏ,CONDITION,khô ngứa viêm đỏ,,,L29 Ngứa,1,1,khô ngứa viêm đỏ
+DRUG:sữa rửa mặt dịu nhẹ,DRUG,sữa rửa mặt dịu nhẹ,,,1305743 Mat,1,1,sữa rửa mặt dịu nhẹ
+RxNorm:1992541,DRUG,Pancratium maritimum whole extract,RxNorm,1992541,,1,1,hoa thủy tiên biển

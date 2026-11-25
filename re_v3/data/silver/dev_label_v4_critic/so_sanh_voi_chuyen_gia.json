@@ -1,0 +1,83 @@
+{
+ "metrics": {
+  "ai_in_sheet": {
+   "n": 143,
+   "acc": 0.748,
+   "precision": 0.917,
+   "recall": 0.688,
+   "f1": 0.786,
+   "gold_pos": 96,
+   "per_relation_acc": {
+    "located_at": "77/111",
+    "treated_by": "13/14",
+    "treated_by_procedure": "17/18"
+   }
+  },
+  "dev_label_v4": {
+   "n": 143,
+   "acc": 0.734,
+   "precision": 0.903,
+   "recall": 0.677,
+   "f1": 0.774,
+   "gold_pos": 96,
+   "per_relation_acc": {
+    "located_at": "75/111",
+    "treated_by": "13/14",
+    "treated_by_procedure": "17/18"
+   },
+   "dropped_invalid": 6
+  },
+  "dev_label_v4_critic": {
+   "n": 143,
+   "acc": 0.804,
+   "precision": 0.895,
+   "recall": 0.802,
+   "f1": 0.846,
+   "gold_pos": 96,
+   "per_relation_acc": {
+    "located_at": "85/111",
+    "treated_by": "13/14",
+    "treated_by_procedure": "17/18"
+   },
+   "dropped_invalid": 6
+  }
+ },
+ "changed_vs_v1": {
+  "dev_label_v4": [
+   "4 | gold=NO_RELATION v1=NO_RELATION dev_label_v4=located_at | «ra máu» KHÔNG ở «máu»",
+   "7 | gold=NO_RELATION v1=located_at dev_label_v4=NO_RELATION | «thiếu máu» ở «máu»",
+   "28 | gold=located_at v1=NO_RELATION dev_label_v4=located_at | «nha chu» KHÔNG ở «răng»",
+   "68 | gold=located_at v1=located_at dev_label_v4=NO_RELATION | «đột quỵ» ở «não»",
+   "69 | gold=located_at v1=NO_RELATION dev_label_v4=located_at | «đột quỵ» KHÔNG ở «tim»",
+   "96 | gold=located_at v1=located_at dev_label_v4=INVALID→NO | «tắc nghẽn» ở «phổi»",
+   "102 | gold=NO_RELATION v1=NO_RELATION dev_label_v4=located_at | «cường giáp» KHÔNG ở «tim»",
+   "105 | gold=located_at v1=located_at dev_label_v4=INVALID→NO | «lão hóa» ở «da»"
+  ],
+  "dev_label_v4_critic": [
+   "4 | gold=NO_RELATION v1=NO_RELATION dev_label_v4_critic=located_at | «ra máu» KHÔNG ở «máu»",
+   "7 | gold=NO_RELATION v1=located_at dev_label_v4_critic=NO_RELATION | «thiếu máu» ở «máu»",
+   "28 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «nha chu» KHÔNG ở «răng»",
+   "58 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «xơ vữa động mạch» KHÔNG ở «máu»",
+   "59 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «xơ vữa động mạch» KHÔNG ở «não»",
+   "60 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «xơ vữa động mạch» KHÔNG ở «tim»",
+   "64 | gold=NO_RELATION v1=NO_RELATION dev_label_v4_critic=located_at | «vữa xơ động mạch» KHÔNG ở «não»",
+   "65 | gold=NO_RELATION v1=NO_RELATION dev_label_v4_critic=located_at | «vữa xơ động mạch» KHÔNG ở «tim»",
+   "67 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «đột quỵ» KHÔNG ở «tim»",
+   "68 | gold=located_at v1=located_at dev_label_v4_critic=NO_RELATION | «đột quỵ» ở «não»",
+   "69 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «đột quỵ» KHÔNG ở «tim»",
+   "70 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «đột quỵ» KHÔNG ở «não»",
+   "71 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «đột quỵ» KHÔNG ở «tim»",
+   "91 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «hẹp lòng động mạch» KHÔNG ở «máu»",
+   "95 | gold=located_at v1=located_at dev_label_v4_critic=NO_RELATION | «hen» ở «phổi»",
+   "96 | gold=located_at v1=located_at dev_label_v4_critic=INVALID→NO | «tắc nghẽn» ở «phổi»",
+   "102 | gold=NO_RELATION v1=NO_RELATION dev_label_v4_critic=located_at | «cường giáp» KHÔNG ở «tim»",
+   "105 | gold=located_at v1=located_at dev_label_v4_critic=INVALID→NO | «lão hóa» ở «da»",
+   "122 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «tổn thương» KHÔNG ở «não»",
+   "123 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «tổn thương» KHÔNG ở «não»",
+   "133 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «vữa xơ động mạch» KHÔNG ở «máu»",
+   "134 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «vữa xơ động mạch» KHÔNG ở «não»",
+   "135 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «vữa xơ động mạch» KHÔNG ở «tim»",
+   "136 | gold=located_at v1=NO_RELATION dev_label_v4_critic=located_at | «mảng xơ vữa» KHÔNG ở «máu»"
+  ]
+ }
+}

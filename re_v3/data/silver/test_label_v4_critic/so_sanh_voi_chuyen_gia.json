@@ -1,0 +1,66 @@
+{
+ "metrics": {
+  "ai_in_sheet": {
+   "n": 212,
+   "acc": 0.835,
+   "precision": 0.911,
+   "recall": 0.824,
+   "f1": 0.865,
+   "gold_pos": 136,
+   "per_relation_acc": {
+    "diagnosed_by": "1/3",
+    "has_dosage": "4/7",
+    "located_at": "139/162",
+    "treated_by": "18/22",
+    "treated_by_procedure": "15/18"
+   }
+  },
+  "test_label_v4": {
+   "n": 212,
+   "acc": 0.807,
+   "precision": 0.913,
+   "recall": 0.772,
+   "f1": 0.837,
+   "gold_pos": 136,
+   "per_relation_acc": {
+    "diagnosed_by": "1/3",
+    "has_dosage": "4/7",
+    "located_at": "133/162",
+    "treated_by": "19/22",
+    "treated_by_procedure": "14/18"
+   },
+   "dropped_invalid": 0
+  },
+  "test_label_v4_critic": {
+   "n": 212,
+   "acc": 0.835,
+   "precision": 0.911,
+   "recall": 0.824,
+   "f1": 0.865,
+   "gold_pos": 136,
+   "per_relation_acc": {
+    "diagnosed_by": "1/3",
+    "has_dosage": "4/7",
+    "located_at": "139/162",
+    "treated_by": "18/22",
+    "treated_by_procedure": "15/18"
+   },
+   "dropped_invalid": 0
+  }
+ },
+ "changed_vs_v1": {
+  "test_label_v4": [
+   "29 | gold=located_at v1=NO_RELATION test_label_v4=located_at | «bị tiêu» KHÔNG ở «cái xương»",
+   "54 | gold=NO_RELATION v1=treated_by test_label_v4=NO_RELATION | «ung thư cổ tử cung» được chữa bằng thuốc «estrogen»",
+   "92 | gold=treated_by_procedure v1=treated_by_procedure test_label_v4=NO_RELATION | «parkinson» được chữa bằng «phẫu thuật»",
+   "113 | gold=located_at v1=located_at test_label_v4=NO_RELATION | «đau» ở «gối»",
+   "114 | gold=located_at v1=located_at test_label_v4=NO_RELATION | «đau» ở «lưng»",
+   "133 | gold=located_at v1=located_at test_label_v4=NO_RELATION | «cục máu đông» ở «não»",
+   "175 | gold=located_at v1=located_at test_label_v4=NO_RELATION | «cục máu đông» ở «não»",
+   "177 | gold=located_at v1=located_at test_label_v4=NO_RELATION | «cục máu đông» ở «não»",
+   "188 | gold=located_at v1=located_at test_label_v4=NO_RELATION | «xơ vữa động mạch» ở «máu»",
+   "190 | gold=located_at v1=located_at test_label_v4=NO_RELATION | «xơ vữa động mạch» ở «tim»"
+  ],
+  "test_label_v4_critic": []
+ }
+}

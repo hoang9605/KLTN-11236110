@@ -1,0 +1,176 @@
+{
+ "relation_rows": 143,
+ "reviewed": 143,
+ "not_reviewed": 0,
+ "ai_accuracy": {
+  "ALL": {
+   "n": 143,
+   "correct": 107,
+   "acc": 0.748,
+   "ci95": [
+    0.671,
+    0.812
+   ]
+  },
+  "relation=located_at": {
+   "n": 111,
+   "correct": 77,
+   "acc": 0.694,
+   "ci95": [
+    0.603,
+    0.772
+   ]
+  },
+  "relation=located_at|AI=CÓ": {
+   "n": 61,
+   "correct": 55,
+   "acc": 0.902,
+   "ci95": [
+    0.802,
+    0.954
+   ]
+  },
+  "relation=located_at|AI=KHÔNG": {
+   "n": 50,
+   "correct": 22,
+   "acc": 0.44,
+   "ci95": [
+    0.312,
+    0.577
+   ]
+  },
+  "relation=treated_by": {
+   "n": 14,
+   "correct": 13,
+   "acc": 0.929,
+   "ci95": [
+    0.685,
+    0.987
+   ]
+  },
+  "relation=treated_by_procedure": {
+   "n": 18,
+   "correct": 17,
+   "acc": 0.944,
+   "ci95": [
+    0.742,
+    0.99
+   ]
+  },
+  "relation=treated_by_procedure|AI=CÓ": {
+   "n": 10,
+   "correct": 10,
+   "acc": 1.0,
+   "ci95": [
+    0.722,
+    1.0
+   ]
+  },
+  "relation=treated_by_procedure|AI=KHÔNG": {
+   "n": 8,
+   "correct": 7,
+   "acc": 0.875,
+   "ci95": [
+    0.529,
+    0.978
+   ]
+  },
+  "relation=treated_by|AI=CÓ": {
+   "n": 1,
+   "correct": 1,
+   "acc": 1.0,
+   "ci95": [
+    0.207,
+    1.0
+   ]
+  },
+  "relation=treated_by|AI=KHÔNG": {
+   "n": 13,
+   "correct": 12,
+   "acc": 0.923,
+   "ci95": [
+    0.667,
+    0.986
+   ]
+  },
+  "target=0": {
+   "n": 143,
+   "correct": 107,
+   "acc": 0.748,
+   "ci95": [
+    0.671,
+    0.812
+   ]
+  },
+  "tier=A": {
+   "n": 20,
+   "correct": 15,
+   "acc": 0.75,
+   "ci95": [
+    0.531,
+    0.888
+   ]
+  },
+  "tier=B": {
+   "n": 123,
+   "correct": 92,
+   "acc": 0.748,
+   "ci95": [
+    0.665,
+    0.816
+   ]
+  }
+ },
+ "ai_precision": 0.917,
+ "ai_recall": 0.688,
+ "kappa_ai_vs_expert": 0.569,
+ "kappa_rule_vs_expert": 0.135,
+ "flag_effectiveness": {
+  "K1": {
+   "n_flagged": 68,
+   "ai_error_if_flagged": 0.265,
+   "ai_error_if_not": 0.24
+  },
+  "K2": {
+   "n_flagged": 8,
+   "ai_error_if_flagged": 0.0,
+   "ai_error_if_not": 0.267
+  },
+  "K3": {
+   "n_flagged": 16,
+   "ai_error_if_flagged": 0.188,
+   "ai_error_if_not": 0.26
+  },
+  "K4": {
+   "n_flagged": 10,
+   "ai_error_if_flagged": 0.0,
+   "ai_error_if_not": 0.271
+  },
+  "K5": {
+   "n_flagged": 0,
+   "ai_error_if_flagged": null,
+   "ai_error_if_not": 0.252
+  },
+  "K6": {
+   "n_flagged": 85,
+   "ai_error_if_flagged": 0.188,
+   "ai_error_if_not": 0.345
+  },
+  "K7": {
+   "n_flagged": 58,
+   "ai_error_if_flagged": 0.224,
+   "ai_error_if_not": 0.271
+  },
+  "SC": {
+   "n_flagged": 29,
+   "ai_error_if_flagged": 0.276,
+   "ai_error_if_not": 0.246
+  }
+ },
+ "entity_invalid_decisions": null,
+ "synthetic_natural": null,
+ "reviewer": {
+  "name": null,
+  "date": null
+ }
+}

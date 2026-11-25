@@ -1,0 +1,724 @@
+{
+ "split": {
+  "train": {
+   "sentences": 7410,
+   "sentences_with_pairs": 1407,
+   "pairs": 3575,
+   "pairs_by_type": {
+    "located_at": 1982,
+    "treated_by": 556,
+    "treated_by_procedure": 643,
+    "has_dosage": 255,
+    "diagnosed_by": 139
+   },
+   "from_original_split": {
+    "test": 2819,
+    "train": 3690,
+    "validation": 901
+   }
+  },
+  "dev": {
+   "sentences": 927,
+   "sentences_with_pairs": 177,
+   "pairs": 394,
+   "pairs_by_type": {
+    "located_at": 211,
+    "treated_by_procedure": 79,
+    "treated_by": 64,
+    "has_dosage": 27,
+    "diagnosed_by": 13
+   },
+   "from_original_split": {
+    "test": 360,
+    "train": 440,
+    "validation": 127
+   }
+  },
+  "test": {
+   "sentences": 927,
+   "sentences_with_pairs": 177,
+   "pairs": 469,
+   "pairs_by_type": {
+    "diagnosed_by": 22,
+    "located_at": 244,
+    "has_dosage": 28,
+    "treated_by_procedure": 99,
+    "treated_by": 76
+   },
+   "from_original_split": {
+    "test": 317,
+    "train": 486,
+    "validation": 124
+   }
+  }
+ },
+ "split_seed": 20261124,
+ "prompt_rounds_pilot": [
+  {
+   "version": "v1",
+   "n": 353,
+   "acc": 0.688,
+   "precision": 0.889,
+   "recall": 0.558,
+   "f1": 0.686
+  },
+  {
+   "version": "v2",
+   "n": 353,
+   "acc": 0.717,
+   "precision": 0.92,
+   "recall": 0.586,
+   "f1": 0.716
+  },
+  {
+   "version": "v3",
+   "n": 353,
+   "acc": 0.745,
+   "precision": 0.937,
+   "recall": 0.623,
+   "f1": 0.749
+  },
+  {
+   "version": "v4",
+   "n": 353,
+   "acc": 0.788,
+   "precision": 0.943,
+   "recall": 0.693,
+   "f1": 0.799
+  },
+  {
+   "version": "v4_critic",
+   "n": 353,
+   "acc": 0.802,
+   "precision": 0.924,
+   "recall": 0.735,
+   "f1": 0.819
+  }
+ ],
+ "dev": {
+  "v3": {
+   "n": 143,
+   "acc": 0.748,
+   "precision": 0.917,
+   "recall": 0.688,
+   "f1": 0.786
+  },
+  "v4": {
+   "n": 143,
+   "acc": 0.734,
+   "precision": 0.903,
+   "recall": 0.677,
+   "f1": 0.774
+  },
+  "v4_critic": {
+   "n": 143,
+   "acc": 0.804,
+   "precision": 0.895,
+   "recall": 0.802,
+   "f1": 0.846
+  }
+ },
+ "test": {
+  "v4": {
+   "n": 212,
+   "acc": 0.807,
+   "precision": 0.913,
+   "recall": 0.772,
+   "f1": 0.837
+  },
+  "v4_critic": {
+   "n": 212,
+   "acc": 0.835,
+   "precision": 0.911,
+   "recall": 0.824,
+   "f1": 0.865
+  }
+ },
+ "test_score": {
+  "all": {
+   "n": 212,
+   "correct": 177,
+   "acc": 0.835,
+   "ci95": [
+    0.779,
+    0.879
+   ]
+  },
+  "precision": 0.911,
+  "recall": 0.824,
+  "kappa_ai": 0.716,
+  "kappa_rule": 0.166,
+  "flags": {
+   "K1": {
+    "n_flagged": 141,
+    "ai_error_if_flagged": 0.149,
+    "ai_error_if_not": 0.197
+   },
+   "K2": {
+    "n_flagged": 35,
+    "ai_error_if_flagged": 0.257,
+    "ai_error_if_not": 0.147
+   },
+   "K3": {
+    "n_flagged": 43,
+    "ai_error_if_flagged": 0.14,
+    "ai_error_if_not": 0.172
+   },
+   "K4": {
+    "n_flagged": 26,
+    "ai_error_if_flagged": 0.346,
+    "ai_error_if_not": 0.14
+   },
+   "K5": {
+    "n_flagged": 0,
+    "ai_error_if_flagged": null,
+    "ai_error_if_not": 0.165
+   },
+   "K6": {
+    "n_flagged": 134,
+    "ai_error_if_flagged": 0.134,
+    "ai_error_if_not": 0.218
+   },
+   "K7": {
+    "n_flagged": 69,
+    "ai_error_if_flagged": 0.159,
+    "ai_error_if_not": 0.168
+   },
+   "SC": {
+    "n_flagged": 54,
+    "ai_error_if_flagged": 0.185,
+    "ai_error_if_not": 0.158
+   }
+  },
+  "reviewer": {
+   "name": "Huyền Minh",
+   "date": "25/11/2026"
+  },
+  "by_relation": {
+   "diagnosed_by": {
+    "n": 3,
+    "correct": 1,
+    "acc": 0.333,
+    "ci95": [
+     0.061,
+     0.792
+    ]
+   },
+   "has_dosage": {
+    "n": 7,
+    "correct": 4,
+    "acc": 0.571,
+    "ci95": [
+     0.25,
+     0.842
+    ]
+   },
+   "located_at": {
+    "n": 162,
+    "correct": 139,
+    "acc": 0.858,
+    "ci95": [
+     0.796,
+     0.903
+    ]
+   },
+   "treated_by": {
+    "n": 22,
+    "correct": 18,
+    "acc": 0.818,
+    "ci95": [
+     0.615,
+     0.927
+    ]
+   },
+   "treated_by_procedure": {
+    "n": 18,
+    "correct": 15,
+    "acc": 0.833,
+    "ci95": [
+     0.608,
+     0.942
+    ]
+   }
+  },
+  "by_relation_polarity": {
+   "diagnosed_by|AI=CÓ": {
+    "n": 1,
+    "correct": 1,
+    "acc": 1.0,
+    "ci95": [
+     0.207,
+     1.0
+    ]
+   },
+   "diagnosed_by|AI=KHÔNG": {
+    "n": 2,
+    "correct": 0,
+    "acc": 0.0,
+    "ci95": [
+     0.0,
+     0.658
+    ]
+   },
+   "has_dosage|AI=CÓ": {
+    "n": 6,
+    "correct": 3,
+    "acc": 0.5,
+    "ci95": [
+     0.188,
+     0.812
+    ]
+   },
+   "has_dosage|AI=KHÔNG": {
+    "n": 1,
+    "correct": 1,
+    "acc": 1.0,
+    "ci95": [
+     0.207,
+     1.0
+    ]
+   },
+   "located_at|AI=CÓ": {
+    "n": 104,
+    "correct": 98,
+    "acc": 0.942,
+    "ci95": [
+     0.88,
+     0.973
+    ]
+   },
+   "located_at|AI=KHÔNG": {
+    "n": 58,
+    "correct": 41,
+    "acc": 0.707,
+    "ci95": [
+     0.58,
+     0.808
+    ]
+   },
+   "treated_by_procedure|AI=CÓ": {
+    "n": 8,
+    "correct": 7,
+    "acc": 0.875,
+    "ci95": [
+     0.529,
+     0.978
+    ]
+   },
+   "treated_by_procedure|AI=KHÔNG": {
+    "n": 10,
+    "correct": 8,
+    "acc": 0.8,
+    "ci95": [
+     0.49,
+     0.943
+    ]
+   },
+   "treated_by|AI=CÓ": {
+    "n": 4,
+    "correct": 3,
+    "acc": 0.75,
+    "ci95": [
+     0.301,
+     0.954
+    ]
+   },
+   "treated_by|AI=KHÔNG": {
+    "n": 18,
+    "correct": 15,
+    "acc": 0.833,
+    "ci95": [
+     0.608,
+     0.942
+    ]
+   }
+  }
+ },
+ "train_score": {
+  "all": {
+   "n": 1069,
+   "correct": 1027,
+   "acc": 0.961,
+   "ci95": [
+    0.947,
+    0.971
+   ]
+  },
+  "precision": 0.979,
+  "recall": 0.943,
+  "kappa_ai": 0.933,
+  "kappa_rule": 0.206,
+  "flags": {
+   "K1": {
+    "n_flagged": 648,
+    "ai_error_if_flagged": 0.039,
+    "ai_error_if_not": 0.04
+   },
+   "K2": {
+    "n_flagged": 151,
+    "ai_error_if_flagged": 0.033,
+    "ai_error_if_not": 0.04
+   },
+   "K3": {
+    "n_flagged": 237,
+    "ai_error_if_flagged": 0.034,
+    "ai_error_if_not": 0.041
+   },
+   "K4": {
+    "n_flagged": 102,
+    "ai_error_if_flagged": 0.029,
+    "ai_error_if_not": 0.04
+   },
+   "K5": {
+    "n_flagged": 0,
+    "ai_error_if_flagged": null,
+    "ai_error_if_not": 0.039
+   },
+   "K6": {
+    "n_flagged": 656,
+    "ai_error_if_flagged": 0.038,
+    "ai_error_if_not": 0.041
+   },
+   "K7": {
+    "n_flagged": 339,
+    "ai_error_if_flagged": 0.029,
+    "ai_error_if_not": 0.044
+   },
+   "SC": {
+    "n_flagged": 269,
+    "ai_error_if_flagged": 0.059,
+    "ai_error_if_not": 0.033
+   }
+  },
+  "reviewer": {
+   "name": "Nguyễn Hương Giang",
+   "date": "25/11/2026"
+  },
+  "by_relation": {
+   "diagnosed_by": {
+    "n": 21,
+    "correct": 21,
+    "acc": 1.0,
+    "ci95": [
+     0.845,
+     1.0
+    ]
+   },
+   "has_dosage": {
+    "n": 15,
+    "correct": 14,
+    "acc": 0.933,
+    "ci95": [
+     0.702,
+     0.988
+    ]
+   },
+   "located_at": {
+    "n": 845,
+    "correct": 812,
+    "acc": 0.961,
+    "ci95": [
+     0.946,
+     0.972
+    ]
+   },
+   "treated_by": {
+    "n": 89,
+    "correct": 86,
+    "acc": 0.966,
+    "ci95": [
+     0.906,
+     0.988
+    ]
+   },
+   "treated_by_procedure": {
+    "n": 99,
+    "correct": 94,
+    "acc": 0.949,
+    "ci95": [
+     0.887,
+     0.978
+    ]
+   }
+  },
+  "by_relation_polarity": {
+   "diagnosed_by|AI=CÓ": {
+    "n": 12,
+    "correct": 12,
+    "acc": 1.0,
+    "ci95": [
+     0.757,
+     1.0
+    ]
+   },
+   "diagnosed_by|AI=KHÔNG": {
+    "n": 9,
+    "correct": 9,
+    "acc": 1.0,
+    "ci95": [
+     0.701,
+     1.0
+    ]
+   },
+   "has_dosage|AI=CÓ": {
+    "n": 11,
+    "correct": 10,
+    "acc": 0.909,
+    "ci95": [
+     0.623,
+     0.984
+    ]
+   },
+   "has_dosage|AI=KHÔNG": {
+    "n": 4,
+    "correct": 4,
+    "acc": 1.0,
+    "ci95": [
+     0.51,
+     1.0
+    ]
+   },
+   "located_at|AI=CÓ": {
+    "n": 425,
+    "correct": 415,
+    "acc": 0.976,
+    "ci95": [
+     0.957,
+     0.987
+    ]
+   },
+   "located_at|AI=KHÔNG": {
+    "n": 420,
+    "correct": 397,
+    "acc": 0.945,
+    "ci95": [
+     0.919,
+     0.963
+    ]
+   },
+   "treated_by_procedure|AI=CÓ": {
+    "n": 51,
+    "correct": 51,
+    "acc": 1.0,
+    "ci95": [
+     0.93,
+     1.0
+    ]
+   },
+   "treated_by_procedure|AI=KHÔNG": {
+    "n": 48,
+    "correct": 43,
+    "acc": 0.896,
+    "ci95": [
+     0.778,
+     0.955
+    ]
+   },
+   "treated_by|AI=CÓ": {
+    "n": 25,
+    "correct": 25,
+    "acc": 1.0,
+    "ci95": [
+     0.867,
+     1.0
+    ]
+   },
+   "treated_by|AI=KHÔNG": {
+    "n": 64,
+    "correct": 61,
+    "acc": 0.953,
+    "ci95": [
+     0.871,
+     0.984
+    ]
+   }
+  }
+ },
+ "runs": {
+  "train_label_v4": {
+   "model": "gpt-5.4-mini",
+   "sentences": 1407,
+   "pairs": 1632,
+   "calls_per_sentence": 1.18,
+   "tiers": {
+    "B": 1178,
+    "A": 229
+   },
+   "selected": null,
+   "why": null,
+   "flips": {},
+   "low_conf_ignored": null,
+   "usd": 4.9235,
+   "api_calls": 1659
+  },
+  "train_label_v4_critic": {
+   "model": "gpt-5.4",
+   "sentences": null,
+   "pairs": 1632,
+   "calls_per_sentence": null,
+   "tiers": null,
+   "selected": 644,
+   "why": {
+    "K7": 391,
+    "hot_body": 305,
+    "SC": 171,
+    "in_name": 5,
+    "K6": 22
+   },
+   "flips": {
+    "NO_RELATION->located_at": 77,
+    "NO_RELATION->treated_by_procedure": 5,
+    "NO_RELATION->diagnosed_by": 2,
+    "treated_by->NO_RELATION": 2,
+    "NO_RELATION->has_dosage": 1,
+    "located_at->NO_RELATION": 22,
+    "treated_by_procedure->NO_RELATION": 1,
+    "NO_RELATION->treated_by": 9,
+    "has_dosage->NO_RELATION": 1
+   },
+   "low_conf_ignored": 30,
+   "usd": 3.3742,
+   "api_calls": 508
+  },
+  "dev_label_v4": {
+   "model": "gpt-5.4-mini",
+   "sentences": 177,
+   "pairs": 139,
+   "calls_per_sentence": 0.9,
+   "tiers": {
+    "B": 145,
+    "A": 32
+   },
+   "selected": null,
+   "why": null,
+   "flips": {},
+   "low_conf_ignored": null,
+   "usd": 0.48,
+   "api_calls": 159
+  },
+  "dev_label_v4_critic": {
+   "model": "gpt-5.4",
+   "sentences": null,
+   "pairs": 139,
+   "calls_per_sentence": null,
+   "tiers": null,
+   "selected": 45,
+   "why": {
+    "SC": 5,
+    "K7": 30,
+    "in_name": 1,
+    "hot_body": 32,
+    "K6": 2
+   },
+   "flips": {
+    "NO_RELATION->located_at": 15,
+    "located_at->NO_RELATION": 1
+   },
+   "low_conf_ignored": 3,
+   "usd": 0.2982,
+   "api_calls": 45
+  },
+  "pilot_label_v4_critic": {
+   "model": "gpt-5.4",
+   "sentences": null,
+   "pairs": 336,
+   "calls_per_sentence": null,
+   "tiers": null,
+   "selected": 136,
+   "why": {
+    "hot_body": 54,
+    "K7": 80,
+    "SC": 44,
+    "K6": 6
+   },
+   "flips": {
+    "NO_RELATION->diagnosed_by": 2,
+    "NO_RELATION->located_at": 14,
+    "treated_by->NO_RELATION": 1,
+    "located_at->NO_RELATION": 5,
+    "NO_RELATION->treated_by_procedure": 2
+   },
+   "low_conf_ignored": 2,
+   "usd": 0.8687,
+   "api_calls": 136
+  },
+  "test_label_v4": {
+   "model": "gpt-5.4-mini",
+   "sentences": 177,
+   "pairs": 212,
+   "calls_per_sentence": 1.56,
+   "tiers": {
+    "B": 154,
+    "A": 23
+   },
+   "selected": null,
+   "why": null,
+   "flips": {},
+   "low_conf_ignored": null,
+   "usd": 0.8258,
+   "api_calls": 277
+  },
+  "test_label_v4_critic": {
+   "model": "gpt-5.4",
+   "sentences": null,
+   "pairs": 212,
+   "calls_per_sentence": null,
+   "tiers": null,
+   "selected": 75,
+   "why": {
+    "in_name": 1,
+    "hot_body": 34,
+    "SC": 17,
+    "K7": 44,
+    "K6": 4
+   },
+   "flips": {
+    "located_at->NO_RELATION": 1,
+    "NO_RELATION->treated_by": 1,
+    "NO_RELATION->treated_by_procedure": 1,
+    "NO_RELATION->located_at": 7
+   },
+   "low_conf_ignored": 2,
+   "usd": 0.4669,
+   "api_calls": 75
+  }
+ },
+ "merge_pilot": {
+  "expert_pilot": 319,
+  "changed": 61,
+  "merged_same_text_mentions": 150,
+  "pairs_left_for_review_pool": 1163
+ },
+ "dataset": {
+  "train": {
+   "sentences": 1407,
+   "pairs": 1632,
+   "labels": {
+    "NO_RELATION": 766,
+    "located_at": 714,
+    "treated_by": 44,
+    "diagnosed_by": 26,
+    "treated_by_procedure": 69,
+    "has_dosage": 13
+   },
+   "origin": {
+    "expert_train": 1210,
+    "expert_pilot": 319,
+    "llm_only": 103
+   }
+  },
+  "test": {
+   "sentences_with_pairs": 95,
+   "pairs": 212,
+   "labels": {
+    "NO_RELATION": 76,
+    "located_at": 115,
+    "has_dosage": 3,
+    "diagnosed_by": 3,
+    "treated_by_procedure": 9,
+    "treated_by": 6
+   },
+   "human_verified": 95
+  }
+ }
+}

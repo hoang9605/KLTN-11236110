@@ -1,0 +1,12 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[vihealthbert_synth] thêm 1762 cặp từ outputs\re_811_gold\synth_validated_no_leak.jsonl (chỉ dùng để huấn luyện)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8583.84it/s]
+[transformers] The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+[vihealthbert_synth] seed 42 xong sau 2457s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12525.38it/s]
+[vihealthbert_synth] seed 43 xong sau 2453s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12709.24it/s]
+[vihealthbert_synth] seed 44 xong sau 2454s
+dev {'precision': 0.828, 'recall': 0.75, 'f1': 0.787, 'tp': 72, 'fp': 15, 'fn': 24, 'support': 96}
+test {'precision': 0.869, 'recall': 0.831, 'f1': 0.85, 'tp': 113, 'fp': 17, 'fn': 23, 'support': 136}
+[vihealthbert_synth] tổng 7365s

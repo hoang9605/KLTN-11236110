@@ -9,7 +9,7 @@ from relation_extraction.bert_model import BertRelationExtractor, load_extractor
 from relation_extraction.model import RelationExtractor
 
 ROOT = Path(__file__).resolve().parents[1]
-DEPLOYED = ROOT / "Model/vihealthbert-re-vietmed-validated"
+DEPLOYED = ROOT / "Model/vihealthbert-re-vietmed-811"
 TEXT = "Đau ở vùng bụng, uống paracetamol."
 ENTS = [{"id": "E1", "label": "CONDITION", "start": 0, "end": 3},
         {"id": "E2", "label": "BODY_PART", "start": 6, "end": 15},

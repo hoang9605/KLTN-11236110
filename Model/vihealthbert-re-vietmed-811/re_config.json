@@ -1,0 +1,43 @@
+{
+  "name": "ViHealthBERT-RE",
+  "base": "demdecuong/vihealthbert-base-syllable",
+  "max_len": 192,
+  "threshold": 0.5,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "seed_aggregation": "mean probability, threshold 0.5",
+  "epochs": 10,
+  "lr": 3e-05,
+  "batch": 16,
+  "class_weight": "n_neg/n_pos",
+  "pooling": "head/tail start markers",
+  "supported_relations": [
+    "diagnosed_by",
+    "has_dosage",
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+  ],
+  "all_relations": [
+    "diagnosed_by",
+    "has_dosage",
+    "located_at",
+    "treated_by",
+    "treated_by_procedure"
+  ],
+  "train_pairs": 1632,
+  "train_positives": 866,
+  "train_data": "re_v3/data/silver/train_label_v4_critic/train_label_v4_critic_gold.jsonl (phép chia 8:1:1, LLM gán, chuyên gia duyệt 1529/1632 cặp)",
+  "label_source": "llm_v4_critic_expert_reviewed",
+  "human_verified": false,
+  "dev_f1": 0.8,
+  "test_f1": 0.867,
+  "scores": "outputs\\re_811_gold/bert_vihealthbert_final.json",
+  "torch": "2.14.0+cu126",
+  "trained_on": "NVIDIA GeForce GTX 1650",
+  "seconds": 3620,
+  "date": "2026-11-25"
+}

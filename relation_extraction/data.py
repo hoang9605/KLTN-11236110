@@ -23,6 +23,24 @@ GENERIC_ENTITIES = {
 }
 
 
+# Dạng bề mặt mà hướng dẫn gán nhãn (relation/guideline.md, Bảng C.1 của báo cáo) coi là INVALID:
+# động từ bị NER gán thuốc/thủ thuật, tính từ và số liệu thống kê bị gán liều, quá trình sinh lý bị
+# gán xét nghiệm. Chỉ dùng lúc suy luận (MedicalREPipeline), không dùng khi chọn câu hay sinh dữ liệu,
+# để các bộ dữ liệu đã dựng vẫn tái lập được.
+GUIDELINE_INVALID = {
+    "DRUG": frozenset({"kiểm soát", "chỉ định", "phòng ngừa", "ngăn ngừa", "phòng tránh", "phòng bệnh", "dự phòng",
+                       "tầm soát", "ức chế", "tuân thủ", "kê đơn", "can thiệp", "chất béo", "protein"}),
+    "PROCEDURE": frozenset({"cải thiện", "phục hồi", "uống thuốc", "dùng thuốc"}),
+    "DOSAGE": frozenset({"cao", "thấp", "nhẹ", "nặng", "tỷ lệ", "tỉ lệ", "phần trăm", "nồng độ", "nhịp tim", "một người"}),
+    "TEST": frozenset({"nghiên cứu", "chuyển hóa", "tuần hoàn"}),
+}
+
+
+def is_guideline_invalid(entity):
+    text = unicodedata.normalize("NFC", entity.get("text") or entity.get("surface_text") or "")
+    return " ".join(text.casefold().split()) in GUIDELINE_INVALID.get(entity.get("label"), ())
+
+
 def is_generic(entity):
     text = unicodedata.normalize("NFC", entity.get("text") or entity.get("surface_text") or "")
     return " ".join(text.casefold().split()) in GENERIC_ENTITIES.get(entity.get("label"), ())

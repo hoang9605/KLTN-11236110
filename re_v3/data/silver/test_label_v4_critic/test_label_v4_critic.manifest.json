@@ -1,0 +1,27 @@
+{
+ "source": "test_label_v4",
+ "model": "gpt-5.4",
+ "rules": "v4",
+ "prompt_version": "critic_v1",
+ "pairs": 212,
+ "selected": 75,
+ "why": {
+  "in_name": 1,
+  "hot_body": 34,
+  "SC": 17,
+  "K7": 44,
+  "K6": 4
+ },
+ "stats": {
+  "checked": 75,
+  "flip_low_conf_ignored": 2,
+  "flip:located_at->NO_RELATION": 1,
+  "flip:NO_RELATION->treated_by": 1,
+  "flip:NO_RELATION->treated_by_procedure": 1,
+  "flip:NO_RELATION->located_at": 7
+ },
+ "usage": {
+  "usd_this_run": 0.4669,
+  "api_calls": 75
+ }
+}
