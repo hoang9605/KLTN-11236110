@@ -1,0 +1,21 @@
+# Ngữ cảnh build là gốc repo: chỉ cho phép những gì image cần.
+# (Đặc biệt loại .env có khóa API, .venv, Model/ nặng vài GB, outputs/ và dữ liệu thô.)
+*
+!server/
+!ner/
+!normalization/
+!relation_extraction/
+!knowledge_graph/
+!frontend/
+!ICD-10/phu-lu-c-1-danh-mu-c-icd-10-thay-the-dmdc-phie-n-ba-n-6.xlsx
+!web/samples.json
+!re_labels.json
+!outputs/kg_test_2026-11-25/results.jsonl
+
+**/__pycache__
+**/*.pyc
+frontend/node_modules
+frontend/dist
+frontend/*.tsbuildinfo
+normalization/logs
+normalization/data/unmatched_drugs.log

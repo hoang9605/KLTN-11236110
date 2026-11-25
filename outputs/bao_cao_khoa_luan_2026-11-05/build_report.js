@@ -401,6 +401,7 @@ const ABBR_FIRST = [
   ["LLM", "mô hình ngôn ngữ lớn"],
   ["RxCUI", "mã định danh khái niệm thuốc trong RxNorm"],
   ["ADE", "biến cố bất lợi do thuốc"],
+  ["UML", "ngôn ngữ mô hình hóa thống nhất"],
 ].map(([k, v]) => [k, v, new RegExp(`(?<![0-9A-Za-zÀ-ỹ_-])${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![0-9A-Za-zÀ-ỹ_-])`)]);
 const ABBR_SEEN = new Set();
 const expandFirst = (t) => {
@@ -688,6 +689,8 @@ add(
     ["CPU, GPU", "Bộ xử lý trung tâm và bộ xử lý đồ họa, dùng để chạy và huấn luyện mô hình"],
     ["API", "Giao diện lập trình để một chương trình gọi dịch vụ của chương trình khác"],
     ["JSON", "Định dạng văn bản có cấu trúc dùng để lưu và trao đổi dữ liệu"],
+    ["UML", "Ngôn ngữ mô hình hóa thống nhất, bộ ký hiệu chuẩn để vẽ sơ đồ phân tích và thiết kế phần mềm (Unified Modeling Language)"],
+    ["Docker, container", "Công cụ đóng gói phần mềm cùng mọi phụ thuộc thành container chạy độc lập trên máy chủ"],
     ["Âm tiết", "Đơn vị phát âm của tiếng Việt, viết tách nhau bằng khoảng trắng, một từ có thể gồm nhiều âm tiết (syllable)"],
     ["Subword", "Mảnh con của một từ do bộ tách từ của mô hình tạo ra"],
     ["Self-attention", "Cơ chế tự chú ý, cho phép mỗi token tổng hợp thông tin từ mọi token khác trong câu"],
@@ -781,7 +784,7 @@ add(
   ]),
   P("Ba câu hỏi này gắn trực tiếp với các mục tiêu ở mục 1.2. Câu hỏi thứ nhất kiểm chứng mục tiêu xây dựng dữ liệu và mô hình RE, bằng cách so sánh mô hình học từ dữ liệu với một baseline rule-based trên cùng tập kiểm tra. Câu hỏi thứ hai gắn với mục tiêu ghép các thành phần thành một luồng xử lý hoàn chỉnh, vì chất lượng của luồng phụ thuộc vào cách lỗi lan từ bước này sang bước sau. Câu hỏi thứ ba gắn với mục tiêu đánh giá có baseline và phân tích lỗi, nhằm làm rõ phần đóng góp của từng bước bổ sung. Mỗi câu hỏi được trả lời bằng thực nghiệm ở Chương 4 và được tổng kết ở mục 4.7.1."),
   H2("1.6. Bố cục báo cáo"),
-  P("Ngoài phần Mở đầu và Kết luận, khóa luận gồm bốn chương, trong đó mỗi chương chuyển kết quả cho chương sau. Chương 1 giới thiệu tổng quan về đề tài. Chương 2 trình bày cơ sở lý thuyết của ba bài toán NER, RE và chuẩn hóa mã, các độ đo dùng để đánh giá và các nghiên cứu liên quan. Chương 3 trình bày phương pháp nghiên cứu, gồm công cụ và giao thức đánh giá, quy trình thực hiện, các bộ dữ liệu cùng độ tin cậy của từng nguồn nhãn, và thiết kế của hệ thống. Chương 4 báo cáo kết quả thực nghiệm của từng thành phần và của cả luồng xử lý, sau đó phân tích lỗi để giải thích kết quả và thảo luận ý nghĩa của hệ thống. Phần Phụ lục cung cấp hướng dẫn tái lập, hướng dẫn gán nhãn quan hệ và các bảng dữ liệu chi tiết."),
+  P("Ngoài phần Mở đầu và Kết luận, khóa luận gồm bốn chương, trong đó mỗi chương chuyển kết quả cho chương sau. Chương 1 giới thiệu tổng quan về đề tài. Chương 2 trình bày cơ sở lý thuyết của ba bài toán NER, RE và chuẩn hóa mã, các độ đo dùng để đánh giá và các nghiên cứu liên quan. Chương 3 trình bày phương pháp nghiên cứu, gồm công cụ và giao thức đánh giá, quy trình thực hiện, các bộ dữ liệu cùng độ tin cậy của từng nguồn nhãn, thiết kế của luồng xử lý và hệ thống demo được đóng gói từ luồng xử lý đó. Chương 4 báo cáo kết quả thực nghiệm của từng thành phần và của cả luồng xử lý, sau đó phân tích lỗi để giải thích kết quả và thảo luận ý nghĩa của hệ thống. Phần Phụ lục cung cấp hướng dẫn tái lập, hướng dẫn gán nhãn quan hệ và các bảng dữ liệu chi tiết."),
 );
 
 // ===== CHƯƠNG 2. CƠ SỞ LÝ THUYẾT (mỗi công thức có đoạn giải thích ký hiệu) =====
@@ -926,7 +929,7 @@ const exampleTable = (ex) => [
 const nForms = (sp) => normMan.splits[sp].CONDITION.unique_forms + normMan.splits[sp].DRUG.unique_forms;
 add(
   H1("CHƯƠNG 3. PHƯƠNG PHÁP NGHIÊN CỨU VÀ THIẾT KẾ HỆ THỐNG"),
-  SUM("Chương này trình bày cách khóa luận được thực hiện. Mục 3.1 nêu phương pháp nghiên cứu, công cụ, giao thức đánh giá và lý do chọn từng chỉ số. Mục 3.2 tóm tắt quy trình thực hiện qua bốn giai đoạn. Mục 3.3 mô tả các bộ dữ liệu dùng để huấn luyện và đánh giá cùng độ tin cậy của từng nguồn nhãn, còn mục 3.4 trình bày kiến trúc và cách cài đặt từng bước xử lý của hệ thống."),
+  SUM("Chương này trình bày cách khóa luận được thực hiện. Mục 3.1 nêu phương pháp nghiên cứu, công cụ, giao thức đánh giá và lý do chọn từng chỉ số. Mục 3.2 tóm tắt quy trình thực hiện qua bốn giai đoạn. Mục 3.3 mô tả các bộ dữ liệu dùng để huấn luyện và đánh giá cùng độ tin cậy của từng nguồn nhãn, mục 3.4 trình bày kiến trúc và cách cài đặt từng bước xử lý của hệ thống, còn mục 3.5 trình bày việc đóng gói luồng xử lý thành một hệ thống demo."),
   H2("3.1. Phương pháp và công cụ nghiên cứu"),
   P("Khóa luận sử dụng phương pháp nghiên cứu thực nghiệm. Mỗi thành phần của hệ thống được xây dựng rồi so sánh với ít nhất một baseline trên cùng dữ liệu và cùng chỉ số, kết quả được kèm khoảng tin cậy để biết chênh lệch có đủ lớn so với dao động do mẫu nhỏ hay không, và mọi con số tổng hợp đều đi cùng phân tích định tính trên từng trường hợp lỗi cụ thể. Mục này trình bày môi trường và công cụ thực nghiệm, sau đó nêu dữ liệu đánh giá, chỉ số chính và lý do chọn chỉ số cho từng thành phần."),
   P(`Toàn bộ suy luận và đánh giá được chạy trên CPU của máy tính cá nhân dùng Windows 11, với Python ${reGoldRun.metadata.python}, PyTorch 2.14, Transformers [24] và scikit-learn ${reGoldRun.metadata.sklearn}. Riêng mô hình ViHealthBERT cho RE được huấn luyện trên GPU NVIDIA GeForce GTX 1650 có 4 GB bộ nhớ. Bảng 3.1 tóm tắt dữ liệu và chỉ số dùng cho từng thành phần, và đây cũng là khung để đọc các kết quả ở Chương 4.`),
@@ -1197,6 +1200,38 @@ add(
     ["Truy vấn và xuất", "Hỗ trợ tìm nút lân cận, tìm theo chữ và thống kê, xuất ra các định dạng dữ liệu phổ biến và một trang web tương tác"],
   ], [2200, 7438], { size: 20, keep: false }), "Bảng giải thích cách đồ thị gộp các cách nói khác nhau về cùng một nút và lưu lại nguồn gốc của từng cạnh."),
   P("Đồ thị được hiển thị trên một trang web tương tác, có bộ lọc theo quan hệ và theo số lần xuất hiện tối thiểu, ô tìm kiếm, và bảng chi tiết hiện câu nguồn khi người dùng bấm vào một nút hoặc một cạnh. Nút chưa có mã được vẽ viền đứt để người xem phân biệt phần đã chuẩn hóa với phần cần kiểm tra. Đồ thị có thể được dựng từ dữ liệu VietMed-NER hoặc từ bất kỳ tập văn bản nào."),
+  // ===== 3.5. Xây dựng và triển khai hệ thống (bản demo một container, sáu sơ đồ UML) =====
+  H2("3.5. Xây dựng và triển khai hệ thống"),
+  P("Giao diện minh họa ở mục 3.4.11 chỉ chạy được trên máy thực nghiệm. Để người khác dùng thử được luồng xử lý, khóa luận đóng gói nó thành hệ thống demo MedKG gồm giao diện web, dịch vụ API, lịch sử phân tích và đồ thị tri thức được cập nhật sau mỗi lần phân tích. Toàn bộ hệ thống chạy trong một container Docker và được khởi chạy bằng một lệnh. Mục này trình bày yêu cầu, thiết kế, kiến trúc và cách triển khai của hệ thống bằng các sơ đồ theo UML."),
+  H3("3.5.1. Phân tích yêu cầu"),
+  P("Hệ thống có hai tác nhân. Người dùng là bác sĩ hoặc người nghiên cứu cần trích xuất thông tin từ văn bản lâm sàng, còn quản trị viên là người cài đặt và vận hành hệ thống. Quản trị viên kế thừa mọi chức năng của người dùng và có thêm hai chức năng vận hành. Hình 3.7 trình bày sơ đồ use case tổng quát của hệ thống."),
+  ...FIG("ht_uc_tong_quat.png", "Hình 3.7. Sơ đồ use case tổng quát của hệ thống MedKG", "Hình cho thấy bảy chức năng của người dùng và hai chức năng vận hành dành riêng cho quản trị viên.", 500),
+  P("Chức năng trung tâm là phân tích một văn bản. Các chức năng xem lịch sử và khám phá đồ thị tri thức đều đọc lại kết quả của những lần phân tích trước, nên chất lượng của chúng phụ thuộc hoàn toàn vào luồng xử lý đã đánh giá ở Chương 4."),
+  H3("3.5.2. Thiết kế chức năng phân tích văn bản"),
+  P("Hình 3.8 mô tả quy trình phân tích một văn bản bằng sơ đồ hoạt động chia làn, trong đó mỗi làn ứng với người dùng, dịch vụ API hoặc luồng xử lý cùng cơ sở dữ liệu."),
+  ...FIG("ht_act_phan_tich.png", "Hình 3.8. Sơ đồ hoạt động của quy trình phân tích văn bản", "Hình cho thấy hai điểm dừng sớm khi văn bản không hợp lệ hoặc mô hình chưa nạp xong, và bước lưu chỉ chạy khi người dùng chọn.", 420),
+  P("Quy trình có hai nút quyết định ở phía dịch vụ API. Văn bản rỗng hoặc dài quá 2.000 ký tự bị từ chối ngay mà không chạm tới mô hình, và yêu cầu đến trong lúc mô hình đang nạp nhận thông báo chờ thay vì bị treo. Khi cả hai điều kiện đều đạt, ba bước NER, gán mã và RE chạy nối tiếp nhau, rồi kết quả được lưu và đưa vào đồ thị nếu người dùng chọn lưu. Hình 3.9 trình bày cùng chức năng này dưới dạng sơ đồ tuần tự, với các thông điệp được đánh số theo thứ tự gọi."),
+  ...FIG("ht_seq_phan_tich.png", "Hình 3.9. Sơ đồ tuần tự của chức năng phân tích văn bản", "Hình cho thấy khóa của bộ điều phối chỉ bao quanh phần suy luận, còn việc lưu kết quả và cập nhật đồ thị diễn ra sau khi khóa đã được nhả.", 440),
+  P("Bộ điều phối suy luận giữ một khóa để các yêu cầu được xử lý lần lượt, vì luồng xử lý không được thiết kế để chạy song song và mô hình chỉ được nạp một bản trong bộ nhớ. Mô hình được nạp ở luồng nền khi khởi động, nên lịch sử và đồ thị đã dùng được trong lúc chờ. Trên máy thực nghiệm chỉ có CPU, mô hình nạp trong khoảng 20 đến 40 giây tùy lần khởi động và mỗi câu được xử lý trong khoảng 1,7 đến 2,9 giây."),
+  H3("3.5.3. Kiến trúc và dữ liệu"),
+  P("Vì là bản demo, hệ thống được thu gọn vào một ứng dụng FastAPI duy nhất như Hình 3.10. Ứng dụng này vừa phục vụ giao diện web đã build sẵn, vừa cung cấp API cho giao diện gọi, vừa chứa các thành phần xử lý ngôn ngữ đã trình bày ở mục 3.4. Dữ liệu được lưu trong một tệp SQLite, còn trọng số mô hình nằm ngoài container và chỉ được gắn vào lúc chạy."),
+  ...FIG("ht_kien_truc.png", "Hình 3.10. Kiến trúc tổng thể của hệ thống MedKG", "Hình cho thấy mọi thành phần chạy trong một tiến trình, chỉ có việc tra mã thuốc chưa có trong bộ đệm là cần gọi ra ngoài.", 480),
+  P("Các công nghệ được chọn cho từng thành phần được tổng hợp trong Bảng 3.15. Tiêu chí chung là ít thành phần nhất có thể để hệ thống chạy được trên một máy bất kỳ có Docker."),
+  ...TB("Bảng 3.15. Công nghệ sử dụng trong hệ thống MedKG", T(["Thành phần", "Công nghệ", "Lý do chọn"], [
+    ["Giao diện", "React 18, TypeScript, Vite, Cytoscape.js", "Ứng dụng một trang có kiểm tra kiểu, Cytoscape.js vẽ được đồ thị hàng trăm nút ngay trên trình duyệt"],
+    ["Dịch vụ API", "FastAPI, Uvicorn, Python 3.12", "Cùng ngôn ngữ với luồng xử lý, tự sinh tài liệu API và phục vụ luôn giao diện"],
+    ["Mô hình", "PyTorch bản CPU, Transformers", "Chạy được trên máy không có GPU, dùng lại nguyên các mô hình đã huấn luyện"],
+    ["Lưu trữ", "SQLite, SQLAlchemy 2", "Một tệp duy nhất, không cần máy chủ cơ sở dữ liệu riêng"],
+    ["Triển khai", "Docker, Docker Compose", "Đóng gói mọi phụ thuộc, khởi chạy bằng một lệnh trên mọi hệ điều hành"],
+  ], [1700, 3000, 4938]), "Bảng cho thấy mỗi công nghệ được chọn để giữ hệ thống demo gọn và dễ cài đặt."),
+  P("Hệ thống chỉ cần một bảng dữ liệu. Mỗi văn bản đã phân tích là một dòng gồm các cột tóm tắt để liệt kê và tìm kiếm, cùng một cột JSON lưu nguyên kết quả của luồng xử lý. Hình 3.11 trình bày bảng này và cấu trúc lồng bên trong cột kết quả."),
+  ...FIG("ht_csdl.png", "Hình 3.11. Thiết kế cơ sở dữ liệu và cấu trúc của kết quả phân tích", "Hình cho thấy thực thể, mã chuẩn và quan hệ được lưu lồng trong một cột, nên lược đồ không phải đổi khi luồng xử lý thêm trường mới.", 450),
+  P("Lưu nguyên kết quả giúp dựng lại đồ thị tri thức mà không phải chạy lại mô hình. Khi khởi động, hệ thống đọc mọi dòng của bảng để dựng đồ thị trong bộ nhớ, và sau mỗi lần phân tích có lưu, đồ thị được cập nhật thêm các bộ ba mới."),
+  H3("3.5.4. Triển khai"),
+  P("Hệ thống được đóng gói thành một container chạy trên Docker như Hình 3.12. Image được dựng qua hai giai đoạn, giai đoạn đầu build giao diện bằng Node, giai đoạn sau cài PyTorch bản CPU cùng mã nguồn và chép giao diện đã build vào. Tệp SQLite nằm trên một volume nên dữ liệu không mất khi container được tạo lại."),
+  ...FIG("ht_trien_khai.png", "Hình 3.12. Sơ đồ triển khai hệ thống bằng Docker", "Hình cho thấy hệ thống chỉ gồm một container, một volume dữ liệu và thư mục mô hình được gắn vào lúc chạy.", 470),
+  P("Trọng số mô hình không được đóng vào image để image nhỏ và việc đổi mô hình chỉ cần khởi động lại. Lần chạy đầu tiên, hệ thống tự nạp 3.496 câu test VietMed-NER đã phân tích sẵn vào cơ sở dữ liệu, nhờ đó đồ thị tri thức có ngay 1.315 nút và 469 cạnh để người dùng khám phá. Khi thử trên máy thực nghiệm, câu “Bệnh nhân tăng huyết áp, kê Aspirin 81mg mỗi ngày.” được nhận diện đủ ba thực thể bệnh, thuốc và liều, với mã ICD-10 I10 cho tăng huyết áp và mã RxNorm 1191 cho aspirin."),
+  P("Hệ thống demo có ba giới hạn. Các yêu cầu phân tích được xử lý tuần tự nên không phù hợp với nhiều người dùng đồng thời. Hệ thống chưa có đăng nhập nên chỉ nên được mở trong mạng nội bộ. Việc gán mã RxNorm cho thuốc chưa có trong bộ đệm cần kết nối Internet."),
 );
 
 // ===== CHƯƠNG 4 (viết lại 12/11/2026: văn liền mạch, hình thay bảng dày, ghi chú mục đích dưới mỗi bảng/hình) =====
