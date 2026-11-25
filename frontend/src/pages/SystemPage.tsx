@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { api, Health } from "../api";
 
 const STACK = [
-  ["Giao diện", "React 18 + TypeScript, Vite, Cytoscape.js; phục vụ bởi Nginx"],
+  ["Giao diện", "React 18 + TypeScript, Vite, Cytoscape.js; FastAPI phục vụ bản đã build"],
   ["API", "FastAPI + Uvicorn (Python 3.12), tài liệu OpenAPI tại /api/docs"],
   ["Mô hình", "PyTorch + Transformers: ViHealthBERT-NER, ViHealthBERT-RE (trung bình 3 seed)"],
   ["Chuẩn hóa", "ICD-10 (danh mục Bộ Y tế) · RxNorm (bộ đệm SQLite + RxNav API)"],
-  ["Lưu trữ", "PostgreSQL 16 (JSONB) qua SQLAlchemy 2"],
-  ["Triển khai", "Docker Compose: db · api · web"],
+  ["Lưu trữ", "SQLite qua SQLAlchemy 2"],
+  ["Triển khai", "Docker Compose, một container"],
 ];
 
 export default function SystemPage({ health }: { health: Health | null }) {

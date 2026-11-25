@@ -206,31 +206,6 @@ def fig_use_case():
     save(fig, "ht_uc_tong_quat.png")
 
 
-# ================================================================== Hình 3.9: kiến trúc tổng thể
-def fig_architecture():
-    W, H = 6.6, 4.6
-    fig, ax = canvas(W, H)
-    client = rbox(ax, 0.1, 3.7, 1.4, 0.8, "Trình duyệt", "giao diện một trang\nReact, TypeScript", fill="l")
-    frame(ax, 1.95, 0.1, 4.55, 4.45, "Máy chủ Docker", ls="--")
-    web = rbox(ax, 2.2, 3.55, 2.1, 0.75, "Máy chủ web", "Nginx, tệp giao diện tĩnh,\nchuyển tiếp yêu cầu API")
-    rbox(ax, 2.2, 1.0, 2.1, 2.2, fill="w")
-    text(ax, 3.25, 3.0, "Dịch vụ API", weight="bold")
-    text(ax, 3.25, 2.8, "FastAPI, Uvicorn, PyTorch", size=FS - 0.8)
-    for i, s in enumerate(["Nhận diện thực thể", "Gán mã ICD-10, RxNorm", "Trích xuất quan hệ", "Đồ thị tri thức",
-                           "Lưu trữ kết quả"]):
-        rbox(ax, 2.35, 2.38 - i * 0.27, 1.8, 0.22, s, fill="l", weight="normal", tsize=FS - 1, r=0.03)
-    cylinder(ax, 4.75, 1.4, 1.45, 1.05, "Cơ sở dữ liệu", "PostgreSQL\nvăn bản, kết quả")
-    models = rbox(ax, 4.65, 0.25, 1.65, 0.7, "Thư mục mô hình", "ViHealthBERT NER, RE\ngắn chỉ đọc", fill="m", ls="--")
-    rx = rbox(ax, 0.1, 1.6, 1.3, 0.75, "Dịch vụ RxNav", "tra mã thuốc\nqua Internet", fill="m", ls="--")
-    arrow(ax, mid(client, "r"), (2.2, 4.1), "HTTP", loff=(0, 0.13))
-    arrow(ax, mid(web, "b"), (3.25, 3.2), "chuyển tiếp yêu cầu API", loff=(0.12, 0.0), lha="left", lsize=FS - 1.4)
-    arrow(ax, (4.3, 1.95), (4.75, 1.95), "SQL", loff=(0, 0.11), lsize=FS - 1.4)
-    poly(ax, [(3.25, 1.0), (3.25, 0.6), mid(models, "l")], "nạp khi khởi động", lpos=1, loff=(0.05, 0.1),
-         lsize=FS - 1.4)
-    arrow(ax, (2.2, 1.97), mid(rx, "r"), "tên thuốc chưa\ncó trong bộ đệm", loff=(0.0, -0.27), lsize=FS - 1.8)
-    save(fig, "ht_kien_truc.png")
-
-
 # ================================================================== Hình 3.10: luồng dữ liệu
 def fig_dfd():
     W, H = 6.6, 4.85
@@ -491,48 +466,6 @@ def fig_kg_model():
                          "số lần theo nguồn mô hình hoặc quy tắc", "điểm trung bình",
                          "tối đa ba câu nguồn làm ví dụ"])
     save(fig, "ht_mo_hinh_do_thi.png")
-
-
-# ================================================================== Hình 3.20: triển khai
-def fig_deploy():
-    W, H = 6.6, 4.8
-    fig, ax = canvas(W, H)
-
-    def node3d(x, y, w, h, label, fill="w", d=0.12):
-        ax.add_patch(plt.Polygon([(x, y + h), (x + d, y + h + d), (x + w + d, y + h + d), (x + w, y + h)], closed=True,
-                                 fc=FILL["m"], ec=INK, lw=1.0, zorder=1))
-        ax.add_patch(plt.Polygon([(x + w, y), (x + w + d, y + d), (x + w + d, y + h + d), (x + w, y + h)], closed=True,
-                                 fc=FILL["d"], ec=INK, lw=1.0, zorder=1))
-        ax.add_patch(Rectangle((x, y), w, h, fc=FILL[fill], ec=INK, lw=1.0, zorder=1))
-        text(ax, x + 0.08, y + h - 0.2, label, weight="bold", ha="left", size=FS - 0.6)
-
-    node3d(0.05, 3.3, 1.35, 0.85, "«thiết bị»\nMáy người dùng", fill="l")
-    text(ax, 0.72, 3.5, "trình duyệt", size=FS - 1.2)
-    node3d(0.05, 0.6, 1.35, 0.85, "«dịch vụ ngoài»\nRxNav", fill="m")
-    text(ax, 0.72, 0.8, "tra mã thuốc", size=FS - 1.2)
-    node3d(1.8, 0.1, 4.6, 4.3, "«máy chủ» Docker Engine", fill="l")
-    ax.add_patch(Rectangle((1.95, 1.35), 4.3, 2.6, fc="none", ec=INK, lw=0.9, ls=(0, (4, 3))))
-    text(ax, 2.03, 3.83, "mạng nội bộ của Compose", size=FS - 1.4, style="italic", ha="left")
-
-    def cont(x, y, w, h, name, body):
-        return rbox(ax, x, y, w, h, name, body, fill="w", r=0.03, tsize=FS - 0.4, bsize=FS - 1.4)
-    web = cont(2.1, 2.65, 1.85, 0.95, "«container» web", "Nginx 1.27\ncổng 8080 ra ngoài, 80 bên trong")
-    api = cont(4.25, 2.65, 1.85, 0.95, "«container» api", "Python 3.12, PyTorch CPU\ncổng 8000 nội bộ\ngiới hạn 6 GB RAM")
-    db = cont(4.25, 1.5, 1.85, 0.8, "«container» db", "PostgreSQL 16\ncổng 5432 nội bộ")
-    pg = rbox(ax, 4.25, 0.35, 1.85, 0.42, "«volume» dữ liệu CSDL", fill="m", tsize=FS - 1.3, r=0.03, weight="normal")
-    md = rbox(ax, 2.1, 1.75, 1.85, 0.42, "«thư mục» mô hình, chỉ đọc", fill="m", tsize=FS - 1.3, r=0.03,
-              weight="normal", ls="--")
-    nc = rbox(ax, 2.1, 0.35, 1.85, 0.42, "«volume» bộ đệm RxNorm", fill="m", tsize=FS - 1.3, r=0.03, weight="normal")
-    arrow(ax, (1.4, 3.75), at(web, "l", 0.62), "HTTP :8080", loff=(0, 0.13), lsize=FS - 1.4)
-    arrow(ax, mid(web, "r"), mid(api, "l"), "/api", loff=(0, 0.1), lsize=FS - 1.4)
-    arrow(ax, mid(api, "b"), mid(db, "t"), "SQL :5432", loff=(0.38, 0), lsize=FS - 1.4)
-    arrow(ax, mid(db, "b"), mid(pg, "t"), head="-", lw=0.9)
-    poly(ax, [at(api, "l", 0.2), (4.07, at(api, "l", 0.2)[1]), (4.07, mid(md, "r")[1]), mid(md, "r")], head="-")
-    poly(ax, [at(api, "l", 0.08), (4.15, at(api, "l", 0.08)[1]), (4.15, mid(nc, "r")[1]), mid(nc, "r")], head="-")
-    poly(ax, [at(api, "t", 0.8), (5.73, 4.65), (1.6, 4.65), (1.6, 1.02), (1.4, 1.02)], "HTTPS", lpos=1,
-         loff=(0, 0.1), lsize=FS - 1.4)
-    text(ax, 3.02, 1.5, "kiểm tra sức khỏe: web, api, db", size=FS - 1.6, style="italic", color=MUTED)
-    save(fig, "ht_trien_khai.png")
 
 
 # ================================================================== Hình 3.21: quy trình đóng gói và khởi chạy
@@ -984,8 +917,8 @@ def fig_erd():
     doc = table(0.05, 5.3, 2.2, "documents", [
         ("PK", "id: Int"), ("", "created_at: DateTime"), ("", "source: String"), ("", "external_id: String"),
         ("", "text: Text"), ("", "n_entities: Int"), ("", "n_relations: Int"), ("", "elapsed_ms: Int"),
-        ("", "result: JSONB")])
-    res = table(2.6, 5.3, 1.85, "result (JSONB)", [("", "text: String"), ("", "elapsed_ms: Int"),
+        ("", "result: JSON")])
+    res = table(2.6, 5.3, 1.85, "result (JSON)", [("", "text: String"), ("", "elapsed_ms: Int"),
                                                      ("", "re_metadata: Object")], fill="l")
     ent = table(2.6, 4.05, 1.85, "entities[ ]", [("PK", "id: String"), ("", "text: String"), ("", "label: String"),
                                                   ("", "start, end: Int"), ("", "confidence: Float"),
@@ -1035,13 +968,72 @@ def fig_erd():
     crow(at(ent, "r", 0.7), at(norm, "l", 0.8))
     crow(at(ent, "r", 0.3), at(cand, "l", 0.6))
     poly(ax, [at(res, "r", 0.5), (6.56, at(res, "r", 0.5)[1]), (6.56, mid(rc, "r")[1]), mid(rc, "r")], head="-")
-    text(ax, 1.15, 1.6, "Các bảng nền xám là cấu trúc lồng bên trong\ncột result kiểu JSONB, không phải bảng riêng.",
+    text(ax, 1.15, 1.6, "Các bảng nền xám là cấu trúc lồng bên trong\ncột result kiểu JSON, không phải bảng riêng.",
          size=FS - 1.6, style="italic", color=MUTED)
     save(fig, "ht_csdl.png")
 
 
+# ================================================================== kiến trúc bản demo: một container
+def fig_architecture():
+    W, H = 6.6, 4.3
+    fig, ax = canvas(W, H)
+    client = rbox(ax, 0.1, 3.3, 1.45, 0.8, "Trình duyệt", "giao diện một trang\nReact, TypeScript", fill="l")
+    frame(ax, 1.9, 0.1, 4.6, 4.1, "Container MedKG", ls="--")
+    app = (2.1, 0.95, 2.45, 2.95)
+    rbox(ax, *app, fill="w")
+    text(ax, 3.32, 3.7, "Ứng dụng FastAPI", weight="bold")
+    text(ax, 3.32, 3.5, "Uvicorn, PyTorch CPU", size=FS - 0.8)
+    rbox(ax, 2.25, 2.95, 2.15, 0.36, "Giao diện web đã build", fill="m", weight="normal", tsize=FS - 1, r=0.03)
+    rbox(ax, 2.25, 2.5, 2.15, 0.36, "API /api/...", fill="m", weight="normal", tsize=FS - 1, r=0.03)
+    for i, s in enumerate(["Nhận diện thực thể", "Gán mã ICD-10, RxNorm", "Trích xuất quan hệ", "Đồ thị tri thức"]):
+        rbox(ax, 2.25, 2.05 - i * 0.27, 2.15, 0.22, s, fill="l", weight="normal", tsize=FS - 1, r=0.03)
+    cylinder(ax, 4.85, 2.1, 1.45, 1.0, "SQLite", "tệp medkg.db\ntrên volume")
+    models = rbox(ax, 4.75, 0.3, 1.6, 0.75, "Thư mục mô hình", "ViHealthBERT NER, RE\ngắn chỉ đọc", fill="m", ls="--")
+    rx = rbox(ax, 0.1, 1.4, 1.3, 0.75, "Dịch vụ RxNav", "tra mã thuốc\nqua Internet", fill="m", ls="--")
+    arrow(ax, mid(client, "r"), (2.1, 3.7), "HTTP :8080", loff=(0, 0.13), lsize=FS - 1.4)
+    arrow(ax, (4.55, 2.6), (4.85, 2.6), "SQL", loff=(0, 0.1), lsize=FS - 1.4)
+    poly(ax, [(3.32, 0.95), (3.32, 0.68), mid(models, "l")], "nạp khi khởi động", lpos=1, loff=(0.05, 0.1),
+         lsize=FS - 1.4)
+    arrow(ax, (2.1, 1.78), mid(rx, "r"), "tên thuốc chưa\ncó trong bộ đệm", loff=(0.0, -0.27), lsize=FS - 1.8)
+    save(fig, "ht_kien_truc.png")
+
+
+# ================================================================== triển khai bản demo
+def fig_deploy():
+    W, H = 6.6, 3.7
+    fig, ax = canvas(W, H)
+
+    def node3d(x, y, w, h, label, fill="w", d=0.12):
+        ax.add_patch(plt.Polygon([(x, y + h), (x + d, y + h + d), (x + w + d, y + h + d), (x + w, y + h)], closed=True,
+                                 fc=FILL["m"], ec=INK, lw=1.0, zorder=1))
+        ax.add_patch(plt.Polygon([(x + w, y), (x + w + d, y + d), (x + w + d, y + h + d), (x + w, y + h)], closed=True,
+                                 fc=FILL["d"], ec=INK, lw=1.0, zorder=1))
+        ax.add_patch(Rectangle((x, y), w, h, fc=FILL[fill], ec=INK, lw=1.0, zorder=1))
+        text(ax, x + 0.08, y + h - 0.2, label, weight="bold", ha="left", size=FS - 0.6)
+
+    node3d(0.05, 2.45, 1.35, 0.85, "«thiết bị»\nMáy người dùng", fill="l")
+    text(ax, 0.72, 2.65, "trình duyệt", size=FS - 1.2)
+    node3d(0.05, 0.4, 1.35, 0.85, "«dịch vụ ngoài»\nRxNav", fill="m")
+    text(ax, 0.72, 0.6, "tra mã thuốc", size=FS - 1.2)
+    node3d(1.85, 0.1, 4.55, 3.4, "«máy chủ» Docker Engine", fill="l")
+    app = rbox(ax, 2.05, 1.6, 2.5, 1.35, "«container» medkg",
+               "FastAPI phục vụ giao diện và API\nPython 3.12, PyTorch CPU\ncổng 8000, ánh xạ ra 8080",
+               fill="w", r=0.03, tsize=FS - 0.4, bsize=FS - 1.4)
+    vol = rbox(ax, 4.85, 2.05, 1.35, 0.6, "«volume»\ntệp SQLite", fill="m", tsize=FS - 1.3, r=0.03, weight="normal")
+    md = rbox(ax, 2.05, 0.35, 2.5, 0.5, "«thư mục» mô hình, chỉ đọc", fill="m", tsize=FS - 1.3, r=0.03,
+              weight="normal", ls="--")
+    arrow(ax, (1.4, 2.85), at(app, "l", 0.8), "HTTP :8080", loff=(0, 0.12), lsize=FS - 1.4)
+    arrow(ax, mid(app, "r"), mid(vol, "l"), head="-", lw=0.9)
+    text(ax, 4.7, 2.4, "/data", size=FS - 1.6)
+    arrow(ax, mid(app, "b"), mid(md, "t"), head="-", lw=0.9)
+    text(ax, 3.55, 1.22, "/models", size=FS - 1.6, ha="left")
+    poly(ax, [at(app, "l", 0.2), (1.62, at(app, "l", 0.2)[1]), (1.62, 0.82), (1.4, 0.82)], "HTTPS", lpos=1,
+         loff=(-0.25, 0.1), lsize=FS - 1.4)
+    text(ax, 5.5, 1.3, "kiểm tra sức khỏe\ntự khởi động lại", size=FS - 1.6, style="italic", color=MUTED)
+    save(fig, "ht_trien_khai.png")
+
+
 if __name__ == "__main__":
-    for f in (fig_use_case, fig_uc_analyze, fig_uc_history, fig_uc_graph, fig_uc_admin, fig_act_analyze, fig_act_graph,
-              fig_act_startup, fig_architecture, fig_dfd, fig_backend, fig_frontend, fig_seq_analyze, fig_seq_startup,
-              fig_seq_graph, fig_state, fig_class, fig_erd, fig_kg_model, fig_deploy, fig_build):
+    # bản demo rút gọn: sáu hình dùng trong mục 3.5; các hàm còn lại giữ để vẽ lại khi cần
+    for f in (fig_use_case, fig_act_analyze, fig_seq_analyze, fig_architecture, fig_erd, fig_deploy):
         f()

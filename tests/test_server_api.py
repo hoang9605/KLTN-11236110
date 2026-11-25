@@ -101,6 +101,19 @@ def test_model_load_error_is_reported(make_client):
         assert c.get("/api/kg").status_code == 200  # dữ liệu đã lưu vẫn xem được
 
 
+def test_serves_built_ui_with_spa_fallback(make_client, tmp_path):
+    ui = tmp_path / "dist"
+    (ui / "assets").mkdir(parents=True)
+    (ui / "index.html").write_text("<div id=root>MedKG</div>", encoding="utf-8")
+    (ui / "assets" / "app.js").write_text("console.log(1)", encoding="utf-8")
+    with make_client(static_dir=str(ui), load_models=False) as c:
+        assert "MedKG" in c.get("/").text
+        assert "MedKG" in c.get("/graph").text  # đường dẫn của React Router trả index.html
+        assert c.get("/assets/app.js").text == "console.log(1)"
+        assert c.get("/api/health").json()["status"] == "disabled"
+        assert c.get("/api/khong-co").status_code == 404
+
+
 def test_seed_file_loaded_when_db_empty(make_client, tmp_path):
     seed = tmp_path / "results.jsonl"
     rows = [{"id": f"test-{i}", "result": fake_result("Bệnh nhân đau đầu, uống Paracetamol.")} for i in range(3)]

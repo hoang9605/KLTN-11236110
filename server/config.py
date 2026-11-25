@@ -1,4 +1,4 @@
-"""Cấu hình đọc từ biến môi trường (đặt trong deploy/.env khi chạy docker compose)."""
+"""Cấu hình đọc từ biến môi trường (Dockerfile đặt sẵn giá trị cho container, xem TRIEN_KHAI.md)."""
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -25,6 +25,8 @@ class Settings:
     # nạp sẵn kết quả đã chạy (results.jsonl của scripts/build_kg.py) khi CSDL còn trống
     seed_file: str = field(default_factory=lambda: os.environ.get("SEED_FILE", ""))
     load_models: bool = field(default_factory=lambda: _bool("LOAD_MODELS", True))
+    # thư mục giao diện đã build (frontend/dist); có thì API phục vụ luôn giao diện ở "/"
+    static_dir: str = field(default_factory=lambda: os.environ.get("STATIC_DIR", str(ROOT / "frontend" / "dist")))
     cors_origins: tuple = field(default_factory=lambda: tuple(
         o.strip() for o in os.environ.get("CORS_ORIGINS", "").split(",") if o.strip()))
 

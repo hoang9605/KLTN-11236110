@@ -1,4 +1,5 @@
-r"""API: văn bản lâm sàng tiếng Việt -> NER -> chuẩn hóa ICD-10/RxNorm -> RE -> đồ thị tri thức.
+r"""API và giao diện web: văn bản lâm sàng tiếng Việt -> NER -> chuẩn hóa ICD-10/RxNorm -> RE -> đồ thị tri thức.
+Một tiến trình phục vụ cả API (/api/...) lẫn giao diện React đã build (STATIC_DIR), dữ liệu lưu trong SQLite.
 
     uvicorn server.main:app --host 0.0.0.0 --port 8000      # trong container
     .venv\Scripts\python.exe -X utf8 -m uvicorn server.main:app --port 8000   # cục bộ
@@ -10,11 +11,13 @@ import logging
 import threading
 import time
 from contextlib import asynccontextmanager
+from pathlib import Path
 from typing import List, Optional
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, Response
+from fastapi.responses import FileResponse, JSONResponse, Response
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from . import __version__
@@ -185,6 +188,20 @@ def create_app(settings=None, pipeline_factory=None, load_in_background=True):
     @app.post("/api/kg/rebuild", tags=["knowledge graph"])
     def kg_rebuild():
         return kg.rebuild()
+
+    static = Path(settings.static_dir)
+    if (static / "index.html").exists():
+        app.mount("/assets", StaticFiles(directory=static / "assets", check_dir=False), name="assets")
+
+        @app.get("/{path:path}", include_in_schema=False)
+        def spa(path: str):
+            """Giao diện một trang: tệp tĩnh nếu có, còn lại trả index.html để React Router xử lý."""
+            if path.startswith("api/"):
+                raise HTTPException(404, "Không có điểm cuối này.")
+            f = (static / path).resolve()
+            if path and f.is_file() and static.resolve() in f.parents:
+                return FileResponse(f)
+            return FileResponse(static / "index.html")
 
     return app
 
